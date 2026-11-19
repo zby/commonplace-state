@@ -1,0 +1,244 @@
+{
+  "kind": "post-run-trace-audit",
+  "run": "kb/reports/state/review/runs/v2/20261115T132933Z",
+  "previous-run": "kb/reports/state/review/runs/v2/20261115T123635Z",
+  "method": "Read all four stdout JSONL traces; pair tool_use ids with tool_result is_error blocks. Keep terminal status, tool failures and typed acceptance separate.",
+  "comparison": {
+    "pairs": true,
+    "targets": true,
+    "criteria": true,
+    "grouping": true,
+    "timeout": true,
+    "max-workers": true,
+    "contracts": false,
+    "kb-commit": false
+  },
+  "accepted-observations": 4,
+  "rejection-events": 0,
+  "cost-usd": 1.46535,
+  "profile-change": false,
+  "show-validation": "passed",
+  "launches": [
+    {
+      "launch": "b0f93e5dc5ce4f45adf47dc34c8dccd2",
+      "log": "kb/reports/state/review/runs/v2/20261115T132933Z/calls/launches/b0f93e5dc5ce4f45adf47dc34c8dccd2/stdout.log",
+      "terminal-status": "success",
+      "cost-usd": 0.2904964,
+      "permission-denials": [],
+      "stderr-bytes": 0,
+      "tool-errors": [],
+      "tools-used": [
+        "Read",
+        "Write"
+      ],
+      "advertised-tool-count": 71,
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected",
+          "source": "local"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth",
+          "source": "claudeai"
+        }
+      ],
+      "hook-events": [
+        {
+          "subtype": "hook_started",
+          "hook_name": "SessionStart:startup"
+        },
+        {
+          "subtype": "hook_response",
+          "hook_name": "SessionStart:startup",
+          "exit_code": 0,
+          "outcome": "success"
+        }
+      ]
+    },
+    {
+      "launch": "df541799550743eb99a583f595c2b88a",
+      "log": "kb/reports/state/review/runs/v2/20261115T132933Z/calls/launches/df541799550743eb99a583f595c2b88a/stdout.log",
+      "terminal-status": "success",
+      "cost-usd": 0.3033228,
+      "permission-denials": [],
+      "stderr-bytes": 0,
+      "tool-errors": [],
+      "tools-used": [
+        "Read",
+        "Write"
+      ],
+      "advertised-tool-count": 71,
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected",
+          "source": "local"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth",
+          "source": "claudeai"
+        }
+      ],
+      "hook-events": [
+        {
+          "subtype": "hook_started",
+          "hook_name": "SessionStart:startup"
+        },
+        {
+          "subtype": "hook_response",
+          "hook_name": "SessionStart:startup",
+          "exit_code": 0,
+          "outcome": "success"
+        }
+      ]
+    },
+    {
+      "launch": "ec32e06b88564a8fa69c598655e7467f",
+      "log": "kb/reports/state/review/runs/v2/20261115T132933Z/calls/launches/ec32e06b88564a8fa69c598655e7467f/stdout.log",
+      "terminal-status": "success",
+      "cost-usd": 0.47137300000000004,
+      "permission-denials": [],
+      "stderr-bytes": 0,
+      "tool-errors": [],
+      "tools-used": [
+        "Read",
+        "Write"
+      ],
+      "advertised-tool-count": 71,
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected",
+          "source": "local"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth",
+          "source": "claudeai"
+        }
+      ],
+      "hook-events": [
+        {
+          "subtype": "hook_started",
+          "hook_name": "SessionStart:startup"
+        },
+        {
+          "subtype": "hook_response",
+          "hook_name": "SessionStart:startup",
+          "exit_code": 0,
+          "outcome": "success"
+        }
+      ]
+    },
+    {
+      "launch": "ed5f576ca9a941fab90b636267b50cca",
+      "log": "kb/reports/state/review/runs/v2/20261115T132933Z/calls/launches/ed5f576ca9a941fab90b636267b50cca/stdout.log",
+      "terminal-status": "success",
+      "cost-usd": 0.4001578,
+      "permission-denials": [],
+      "stderr-bytes": 0,
+      "tool-errors": [],
+      "tools-used": [
+        "Read",
+        "Write"
+      ],
+      "advertised-tool-count": 71,
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected",
+          "source": "local"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth",
+          "source": "claudeai"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth",
+          "source": "claudeai"
+        }
+      ],
+      "hook-events": [
+        {
+          "subtype": "hook_started",
+          "hook_name": "SessionStart:startup"
+        },
+        {
+          "subtype": "hook_response",
+          "hook_name": "SessionStart:startup",
+          "exit_code": 0,
+          "outcome": "success"
+        }
+      ]
+    }
+  ],
+  "configuration-help": [
+    "--strict-mcp-config to skip MCP servers",
+    "--strict-mcp-config                   Only use MCP servers from --mcp-config,"
+  ],
+  "configuration-limit": "Flag not enabled for the comparative run; isolation and hidden-tool-error reporting remain deferred."
+}

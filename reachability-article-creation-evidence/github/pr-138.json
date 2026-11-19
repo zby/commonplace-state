@@ -1,0 +1,69 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\nFollow-up to the extracted theory-mediated learning notes.\n\n### Research-program article\n\n- replace the retained-theory-state mini-derivation with the new intervention note;\n- compress related-work positioning while retaining the structural/epistemic lineage and Workspace Optimization comparison;\n- clarify the role of the four-function table without introducing a new decomposition taxonomy;\n- route full-causal-path evidence to the new synthesis note;\n- compress warrant-versus-fit and system-use evidence to the new canonical notes;\n- shorten the retrospective evidence-retention discussion;\n- tighten the bootstrap while preserving its required spine: current computation, movement of human functions, challengeability of present machinery, first-strategy rationale, and abandonment conditions;\n- smooth transitions and simplify repeated wording.\n\n### System-use note\n\nNarrow `system-use-selects-theory-fit-without-a-fixed-oracle.md` to its title claim: why distributed consequences of live use can serve as an **initial** selection environment when no complete fixed oracle decides theory fit. Remove the duplicated Commonplace-computation account, warrant/fit derivation, detailed bootstrap program, first-strategy defense, and progress metrics now owned elsewhere.\n\n## Deliberate non-changes\n\n- keep the four-function table and evidence ladder in the article;\n- keep the compact human-inclusive progress criterion and bootstrap failure conditions;\n- do not extract the decomposition crosswalk yet;\n- do not alter the companion articles in this pass.",
+    "closedAt": "2026-08-30T20:53:06Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T20:48:43Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T20:48:43Z",
+        "messageBody": "",
+        "messageHeadline": "Trim and streamline theory-mediated research program",
+        "oid": "83d343f191c21118f7c34a802e9c4a02909cf215"
+      },
+      {
+        "authoredDate": "2026-08-30T20:49:09Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T20:49:09Z",
+        "messageBody": "",
+        "messageHeadline": "Narrow system-use note to its selection-environment claim",
+        "oid": "8def6c7caa9de12f173d9201e5d743cc0ae4e404"
+      }
+    ],
+    "createdAt": "2026-08-30T20:49:21Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 118,
+        "deletions": 139
+      },
+      {
+        "path": "kb/notes/system-use-selects-theory-fit-without-a-fixed-oracle.md",
+        "additions": 51,
+        "deletions": 191
+      }
+    ],
+    "headRefName": "trim-theory-mediated-research-program",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T20:53:06Z",
+    "number": 138,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Trim and streamline theory-mediated research program",
+    "updatedAt": "2026-08-30T20:53:07Z",
+    "url": "https://github.com/zby/commonplace/pull/138"
+  },
+  "inline_review_comments": []
+}

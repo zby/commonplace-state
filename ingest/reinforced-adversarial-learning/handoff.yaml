@@ -1,0 +1,16 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/reinforced-adversarial-learning.ingest.md
+snapshot_sha256: 4e361683a492928d6302b079304f06e59656e0ae6a07cfa2148572ae41c58cb1
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-15T10:02:00+01:00'
+checks:
+- at: '2026-11-15T10:06:13+01:00'
+  failures: []
+- at: '2026-11-15T10:06:25+01:00'
+  failures: []
+- at: '2026-11-15T10:06:25+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-15T10:06:25+01:00'

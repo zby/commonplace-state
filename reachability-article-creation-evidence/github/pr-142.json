@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "PR #141 was already merged before the TL;DR wording adjustment. This PR contains only the follow-up change: add the article TL;DR with impersonal framing (removing the tweet-style \u201cMy bet\u201d voice).",
+    "closedAt": "2026-08-30T21:50:56Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T21:46:49Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:46:49Z",
+        "messageBody": "",
+        "messageHeadline": "Add impersonal TLDR to research program",
+        "oid": "004ac6a3437208d06188130a99ad706537507ee6"
+      }
+    ],
+    "createdAt": "2026-08-30T21:46:57Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 2,
+        "deletions": 0
+      }
+    ],
+    "headRefName": "fix-tldr-after-141",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T21:50:56Z",
+    "number": 142,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Add impersonal TL;DR to research program",
+    "updatedAt": "2026-08-30T21:50:56Z",
+    "url": "https://github.com/zby/commonplace/pull/142"
+  },
+  "inline_review_comments": []
+}

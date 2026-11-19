@@ -1,0 +1,6 @@
+{
+  "name": "stop-answers.md",
+  "input-key": "ec589f265ccda5065efb22ae3b79401e9550288f3f95dbe3b7ccd9b347245d51",
+  "proposal": "---\ntype: types/answers.md\ndescription: The operator's answers to kb/reports/state/review/runs/v2/revise/kb/theory/a-better-factory-claim-compares-operative-states/347dc0373246/artifact/plan.yaml\nquestion: kb/reports/state/review/runs/v2/revise/kb/theory/a-better-factory-claim-compares-operative-states/347dc0373246/artifact/plan.yaml\nquestion-sha256: ec589f265ccda5065efb22ae3b79401e9550288f3f95dbe3b7ccd9b347245d51\nitems:\n- id: text\n  proposal:\n    text: kb/reports/state/review/runs/v2/revise/kb/theory/a-better-factory-claim-compares-operative-states/347dc0373246/artifact/plan.yaml\n    text-sha256: ec589f265ccda5065efb22ae3b79401e9550288f3f95dbe3b7ccd9b347245d51\n  state: pending\n---\n\n# Answers\n\nSet each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.\n",
+  "key": "070323fa4d5a6c50967cb46855ae00e451909abccfc43705a3a71640d2e091e6"
+}

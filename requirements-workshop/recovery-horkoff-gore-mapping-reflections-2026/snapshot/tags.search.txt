@@ -1,0 +1,8 @@
+$ rg -n -i ^description:.*(goal|intent|observab|autonomy) kb/tags/ --glob *.md
+kb/tags/goal-prioritization-README.md:2:description: "Curated head for the goal-prioritization tag — which of the goals, requirements, quality criteria and candidate improvements that could govern a task gets effort, on whose authority and what evidence, and when work stops"
+kb/tags/warranted-autonomy-README.md:2:description: "Curated head for the warranted-autonomy tag — which decisions an AI agent is warranted to take over from humans, how oracles bound that, and how autonomy is measured"
+EXIT 0
+$ rg -n -i goal model|stakeholder|goal priorit kb/tags/ --glob *.md
+kb/tags/goal-prioritization-README.md:6:# Goal prioritization
+kb/tags/README.md:31:- [Goal prioritization](./goal-prioritization-README.md) — which goals, requirements, quality criteria, and possible improvements should govern an agent's work
+EXIT 0

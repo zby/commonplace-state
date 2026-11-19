@@ -1,0 +1,64 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "",
+    "closedAt": "2026-08-30T22:00:00Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T21:46:49Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:46:49Z",
+        "messageBody": "",
+        "messageHeadline": "Add impersonal TLDR to research program",
+        "oid": "004ac6a3437208d06188130a99ad706537507ee6"
+      },
+      {
+        "authoredDate": "2026-08-30T21:58:43Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:58:43Z",
+        "messageBody": "",
+        "messageHeadline": "Remove invitation section from research program",
+        "oid": "1e7641641f1557e3cd4d860e2d8ca09025149756"
+      }
+    ],
+    "createdAt": "2026-08-30T21:59:51Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 2,
+        "deletions": 13
+      }
+    ],
+    "headRefName": "fix-tldr-after-141",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T22:00:00Z",
+    "number": 143,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Fix tldr after 141",
+    "updatedAt": "2026-08-30T22:00:00Z",
+    "url": "https://github.com/zby/commonplace/pull/143"
+  },
+  "inline_review_comments": []
+}

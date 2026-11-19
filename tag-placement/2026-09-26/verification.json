@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-09-26T11:53:38.783722+00:00",
+  "stale_pairs": 0,
+  "tag_head_openings": [
+    {
+      "tag": "agent-memory",
+      "unchanged": true,
+      "current_head_sha256": "d5d29a14971f9ef2cf4e623a1a5ac96b357061522d45990841018c1c557677e2"
+    },
+    {
+      "tag": "architecture",
+      "unchanged": true,
+      "current_head_sha256": "f4bebf4ae8f091b33ccf7c6992defa79c8384bb2cf08ea273fb35d75b8b4018f"
+    },
+    {
+      "tag": "artifact-analysis",
+      "unchanged": true,
+      "current_head_sha256": "864560df41a068550ea1e694b6a2100c77c9630b1e5517f3bd58beaa08f1fe4c"
+    },
+    {
+      "tag": "claims-and-grounding",
+      "unchanged": true,
+      "current_head_sha256": "3a0be768095c55597fa2a1ed9ba4dc6e03d6a49454c15fe3251d5e8152f3a628"
+    },
+    {
+      "tag": "computational-model",
+      "unchanged": true,
+      "current_head_sha256": "482d1626ac250dae25eb0247e4136d3ab9bbb06bcd9220d1ea68ff0a08d33bf8"
+    },
+    {
+      "tag": "constraining",
+      "unchanged": true,
+      "current_head_sha256": "70c60b9b0b6607144d278ef47998a8fded1381089a4e7e95b04014d1583a232e"
+    },
+    {
+      "tag": "context-engineering",
+      "unchanged": true,
+      "current_head_sha256": "fa3e8c4eedfc0e222b21c5137986a296815ed881012447e8a2132460cc2d9955"
+    },
+    {
+      "tag": "continual-learning",
+      "unchanged": true,
+      "current_head_sha256": "088026090061347126d5d2898fb6cdd88203e6da62ca1e793616e7fb6490e24f"
+    },
+    {
+      "tag": "curation",
+      "unchanged": true,
+      "current_head_sha256": "4f2b7b108fdd7e846809eaf6fd2bbc1f886ae1a053869f4e7fc5eeb003507951"
+    },
+    {
+      "tag": "deploy-time-learning",
+      "unchanged": true,
+      "current_head_sha256": "d1ffe07f5cd37be6c3137cb39c538d929dedb60069fec38e8526393a8ce68831"
+    },
+    {
+      "tag": "discovery",
+      "unchanged": true,
+      "current_head_sha256": "a8ad98599537d16ab4b5ecb080e31d232f4762cbc8089f75f86cbe6ffe2bdfcd"
+    },
+    {
+      "tag": "document-system",
+      "unchanged": true,
+      "current_head_sha256": "5d0f5de7f082fedfe8be6038f71e2f1386e008ae77feca5906e14c354b45d1da"
+    },
+    {
+      "tag": "evaluation",
+      "unchanged": true,
+      "current_head_sha256": "1268a09409705248434d19441ad1d3cc49b387e7b0ed39b76a4057c0cd31e669"
+    },
+    {
+      "tag": "failure-modes",
+      "unchanged": true,
+      "current_head_sha256": "144dc0ee7616aff775ea0b12ebcfc4740f33cefce3e10aa3f7115017d054c9e7"
+    },
+    {
+      "tag": "improvement-loop",
+      "unchanged": true,
+      "current_head_sha256": "ea2f7ea2282c6caf80527cff91387552c4dc0e7d2406bc215052cbaaa45b35a5"
+    },
+    {
+      "tag": "kb-maintenance",
+      "unchanged": true,
+      "current_head_sha256": "01a93c13dded3a6e13f65199ea21cc8062d18fe091cee0c9471b8903368c9157"
+    },
+    {
+      "tag": "learning-theory",
+      "unchanged": true,
+      "current_head_sha256": "be2387e10555ddad1acec47ebb05dd766241430042594f58fa1bff6d88648b17"
+    },
+    {
+      "tag": "links",
+      "unchanged": true,
+      "current_head_sha256": "809b66660fde2bd42522f6de1103d3a010da28903750355da1b217fff625510b"
+    },
+    {
+      "tag": "llm-reliability",
+      "unchanged": true,
+      "current_head_sha256": "81b3ea175865e2d29f8f25d924f9ab33576454c211f9f4ee2eb4c718ade263b4"
+    },
+    {
+      "tag": "methodology",
+      "unchanged": true,
+      "current_head_sha256": "0a86ad65aa3802aee877826e38e9a53bfa68e7a21513649118f04b2fcf0e46dc"
+    },
+    {
+      "tag": "observability",
+      "unchanged": true,
+      "current_head_sha256": "2d42ea9e40ccf022ccfd8893fe4025f4e7186855a12f9e69a7be7e0222459aa9"
+    },
+    {
+      "tag": "reflection",
+      "unchanged": true,
+      "current_head_sha256": "03069f68fe3c0324959e9193e99d32cbd88872bd212486368f798f47a83a4996"
+    },
+    {
+      "tag": "review-system",
+      "unchanged": true,
+      "current_head_sha256": "e70f42593cca24b4fb6967873bf268efe1d44467b8fa6298686053e76149b44b"
+    },
+    {
+      "tag": "self-improving-systems",
+      "unchanged": true,
+      "current_head_sha256": "02e493ae0af8f3520b9c7cf830c997b88156762c74ff1fc347e51e46b0618c6a"
+    },
+    {
+      "tag": "software-factory",
+      "unchanged": true,
+      "current_head_sha256": "ac2a805abefaf3be3233c994ed88140d4484e3c9174f0da0aa282166b54a9a8f"
+    },
+    {
+      "tag": "theory-builder",
+      "unchanged": true,
+      "current_head_sha256": "43c6f4adc99c4c1647b1fd813cabeef3cd1f2df1ff2f1bab3bd1961845860dc8"
+    },
+    {
+      "tag": "trace-learning",
+      "unchanged": true,
+      "current_head_sha256": "65c23a7e295f92c10fc5adc0ce9714261b0707aae7b9f7b2ea33a0d288fcf492"
+    },
+    {
+      "tag": "type-system",
+      "unchanged": true,
+      "current_head_sha256": "684298973c1787bb2740278e2cf7b1cfd33cf6ac264cb20b76e7e562c97beb03"
+    },
+    {
+      "tag": "warranted-autonomy",
+      "unchanged": true,
+      "current_head_sha256": "9d3523fff428050d8c90e08e70934c659415341f63fa41ae762601d319950d24"
+    }
+  ],
+  "all_openings_unchanged": true,
+  "refresh_job": 8810
+}

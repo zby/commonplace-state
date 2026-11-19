@@ -1,0 +1,25 @@
+{
+  "format": 2,
+  "profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/theory/active-work-state-is-not-retrospective-memory-or-chat-history.md",
+      "kb/theory/agent-memory-requirements/create-memory-directly.md"
+    ],
+    "criteria": [
+      "prose",
+      "semantic"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

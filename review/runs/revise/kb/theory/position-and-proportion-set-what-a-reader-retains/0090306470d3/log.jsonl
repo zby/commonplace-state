@@ -1,0 +1,31 @@
+{"time": 1794347062.1017551, "event": "launch", "job": "assessment", "key": "dde06f20443f23560561c06d6505f5611bc4770508d13f31e0c1402686917f53", "launch": "b8f017a8865641188877eb73b43b699a", "status": "delivered"}
+{"time": 1794347062.1244454, "event": "answered", "job": "assessment", "key": "dde06f20443f23560561c06d6505f5611bc4770508d13f31e0c1402686917f53", "problem": false}
+{"time": 1794347062.127329, "event": "accepted", "path": "assessment.md", "sha256": "2c471bde548ff3a2c4bdce0f8f1c2f02016b5370d80e96ecf0c0aaecec0e8593"}
+{"time": 1794347062.1283593, "event": "accepted", "path": "plan.yaml", "sha256": "a95902630db3445e35b8f3a22d013b99933f38999039d624ec4608cf319af945"}
+{"time": 1794347133.5015616, "event": "accepted", "path": "assessment.md", "sha256": "2c471bde548ff3a2c4bdce0f8f1c2f02016b5370d80e96ecf0c0aaecec0e8593"}
+{"time": 1794349188.0836651, "event": "launch", "job": "assessment", "key": "9a5707d6366540ff7ab5a6d33766be06a5f48ad69c7da3f37b13a85914c20435", "launch": "dd3d6c9d37d5474ba2d262c65e0be843", "status": "delivered"}
+{"time": 1794349188.106793, "event": "answered", "job": "assessment", "key": "9a5707d6366540ff7ab5a6d33766be06a5f48ad69c7da3f37b13a85914c20435", "problem": false}
+{"time": 1794349188.109486, "event": "accepted", "path": "assessment.md", "sha256": "0d89e86c19fcaf1766af7425bcfc2f62fbd976c38f4deeb93bb9b6a5a60804ea"}
+{"time": 1794349188.1110437, "event": "accepted", "path": "plan.yaml", "sha256": "ee6ed8939e4bf8295d2190d59ec6e32ae6c939868b697d289a6eeba1586e9bec"}
+{"time": 1794349188.1115062, "event": "accepted", "path": "start.md", "sha256": "0090306470d3544c958461f2f1103c3844ac005c3bdec89f2d6e9f67f17df0c7"}
+{"time": 1794349239.2698646, "event": "launch", "job": "readability-and-flow", "key": "f57a111e856c2e6b9d9ea5766733c4c1d4bef457a923bb0064bfe6df8cce7729", "launch": "d3fd6e27ac9f4db0b54b8c1892f4f9b4", "status": "delivered"}
+{"time": 1794349239.2937248, "event": "answered", "job": "readability-and-flow", "key": "f57a111e856c2e6b9d9ea5766733c4c1d4bef457a923bb0064bfe6df8cce7729", "problem": false}
+{"time": 1794349240.3298, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "53578a8147a3bb99de9e3430dadfaff3e9952ba3f7dd1802dd54c44d5a37e928"}
+{"time": 1794349240.330233, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794349240.3316786, "event": "accepted", "path": "final.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794349240.3319926, "event": "accepted", "path": "final.diff", "sha256": "f912627eb39a2089075616a159aa8d8c57c6050d6f5ad08a9db4e8f94056571f"}
+{"time": 1794349240.3333635, "event": "accepted", "path": "publication.json", "sha256": "112f360d3cfb75fc59df2c1cc962516a62605267c9e0bb29c220f3c26637659e"}
+{"time": 1794349268.1615624, "event": "accepted", "path": "assessment.md", "sha256": "0d89e86c19fcaf1766af7425bcfc2f62fbd976c38f4deeb93bb9b6a5a60804ea"}
+{"time": 1794349268.1624868, "event": "accepted", "path": "plan.yaml", "sha256": "ee6ed8939e4bf8295d2190d59ec6e32ae6c939868b697d289a6eeba1586e9bec"}
+{"time": 1794349268.1627927, "event": "accepted", "path": "start.md", "sha256": "0090306470d3544c958461f2f1103c3844ac005c3bdec89f2d6e9f67f17df0c7"}
+{"time": 1794349270.3721983, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "53578a8147a3bb99de9e3430dadfaff3e9952ba3f7dd1802dd54c44d5a37e928"}
+{"time": 1794349270.372603, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794349270.374181, "event": "accepted", "path": "final.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794349270.374528, "event": "accepted", "path": "final.diff", "sha256": "f912627eb39a2089075616a159aa8d8c57c6050d6f5ad08a9db4e8f94056571f"}
+{"time": 1794384862.3265555, "event": "accepted", "path": "assessment.md", "sha256": "0d89e86c19fcaf1766af7425bcfc2f62fbd976c38f4deeb93bb9b6a5a60804ea"}
+{"time": 1794384862.3274941, "event": "accepted", "path": "plan.yaml", "sha256": "ee6ed8939e4bf8295d2190d59ec6e32ae6c939868b697d289a6eeba1586e9bec"}
+{"time": 1794384862.3278131, "event": "accepted", "path": "start.md", "sha256": "0090306470d3544c958461f2f1103c3844ac005c3bdec89f2d6e9f67f17df0c7"}
+{"time": 1794384864.4676118, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "53578a8147a3bb99de9e3430dadfaff3e9952ba3f7dd1802dd54c44d5a37e928"}
+{"time": 1794384864.4680386, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794384864.4696894, "event": "accepted", "path": "final.md", "sha256": "6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f"}
+{"time": 1794384864.4700398, "event": "accepted", "path": "final.diff", "sha256": "f912627eb39a2089075616a159aa8d8c57c6050d6f5ad08a9db4e8f94056571f"}

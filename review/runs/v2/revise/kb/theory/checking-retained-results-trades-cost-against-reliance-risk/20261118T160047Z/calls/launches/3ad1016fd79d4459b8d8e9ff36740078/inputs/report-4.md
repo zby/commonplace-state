@@ -1,0 +1,70 @@
+---
+type: types/review-result.md
+format: 2
+description: Retained report review of kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md
+  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md
+note: kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md
+note-sha256: 0d0cf44cba15ace932e01cefaf52f09ede4b4729916d13af8b19014f735708eb
+criterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md
+criterion-sha256: e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478
+outcome: report
+profile:
+  harness: claude-code
+  launch-model: opus
+  effort: medium
+model: claude-opus-5-5
+run: kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis
+launch: 08558d4763b041c3874605ed0d1e2edf
+completed-at: '2026-11-18T16:05:41Z'
+findings:
+- scope: passage
+  quotes:
+  - 'A mechanical check derives a retained result from, or compares it against, identified
+    available inputs. Relying on one requires:'
+  reason: 'The closing ''What a mechanical check requires'' section reads as a second
+    topic. It never says how its conditions bear on the cost-versus-risk trade, although
+    they are what make the mark''s check cheap and defined and the connect report''s
+    check judgment-dependent and broad. Condition 4 opens a question the note leaves
+    open. Possible direction: make the section the explanation of the cost side, either
+    by adding a bridge to the trade-off and to both examples, or by moving the conditions
+    ahead of the two examples so each example applies them. Alternatively, move the
+    general enumeration, with condition 4, to a separate note or workshop lead.'
+- scope: passage
+  quotes:
+  - How often to check a retained result therefore depends on the cost of checking
+    relative to the risk of relying on stale or wrong content.
+  reason: 'The body states its claim and its distinctive commitment (accepted risk
+    must be an explicit choice) only after two setup paragraphs, one of which detours
+    through the conditional suppression mechanism. Its freshness principle (''Assurance
+    dates from the last check'') sits in a separate short section, one third of which
+    recaps the examples. Possible direction: open with the claim, present saving and
+    reliance risk as its two sides, and fold the freshness principle into the risk
+    side or the end of the examples, cutting the recap sentence.'
+contract: report
+target-sha256: 0d0cf44cba15ace932e01cefaf52f09ede4b4729916d13af8b19014f735708eb
+target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis/artifact/reviews/294a57af6cc64398f9beba0e/inputs/target/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md
+observation: kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis/artifact/reviews/294a57af6cc64398f9beba0e/observation.json
+contract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161
+raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis/calls/launches/08558d4763b041c3874605ed0d1e2edf/outputs/review.md
+raw-output-sha256: 1268ffe542c9031d769b90abab5860406eb16cce167047d3764d5a7fcda7c70b
+---
+
+# Simplification synthesis: Checking retained results trades cost against reliance risk
+
+## Opportunities
+
+### 1. Tie the mechanical-check conditions to the cost side, or move them out
+
+- Location: `## What a mechanical check requires`, the whole section, especially "A mechanical check derives a retained result from, or compares it against, identified available inputs. Relying on one requires:" and "These conditions make a check possible and worth relying on, not free or current."
+- Reader problem: The section comes last and is not linked to the trade-off. A reader has to infer its role: it says when a cheap, defined check exists to set against reliance risk. The examples already show the contrast. The mark's check applies "a defined rule ... to named inputs". The connect report's assessment "calls for judgment", and its dependencies are broad, which strains conditions 1 and 2. The section names neither the contrast nor the connect report. Condition 4, checker trustworthiness, adds a concern the main argument does not need, and the note leaves it as an open question.
+- Direction: Make the section explicitly explain why check cost differs between the two cases. One way is a bridging sentence that says the mark meets conditions 1–3 and the connect report fails condition 1. Another is to place the conditions before the two examples so each example applies them. A third way is to move the general enumeration and condition 4 to a separate note or workshop lead, keeping only a one-sentence pointer here. One possible bridge, which is illustrative and not settled: "These conditions decide whether a cheap check exists to weigh against reliance risk: the mark's contract meets the first three; the connect report's judgment-based assessment fails the first."
+- Combines: branch-bloat (INFO, section reads as the start of its own note), core-claim-obscured finding 2 (free-standing list, no bridge to the trade), detail-overhang's observation that the mark section's parentheticals instantiate conditions 1–3.
+- Preserve or decide: Decide whether the conditions are part of this note's claim, as the explanation of check cost, or a separate general claim about mechanical checking that this note only uses. That choice settles whether the section is reorganized, bridged or moved. Keep the existing application "The mark's contract supplies the first three; nothing in it establishes the fourth," which marginal-value-redundancy judged non-redundant. If condition 4 stays, decide whether it bears on check cost or reliance risk, since the note currently does not say. Do not claim that the connect report fails a specific condition unless the author accepts that reading; the artifact implies it but does not state it.
+
+### 2. Lead with the claim and fold the freshness principle into the risk side
+
+- Location: Opening three paragraphs, up to "How often to check a retained result therefore depends on the cost of checking relative to the risk of relying on stale or wrong content", and `## No known change does not establish freshness`.
+- Reader problem: The plain claim and the note's distinctive commitment, that accepted risk must be "an explicit choice rather than a hidden consequence of trusting the copy", arrive after a saving paragraph and a risk paragraph. The risk paragraph detours through the conditional suppression mechanism. Later, a separate three-sentence section gives a general principle about the risk side. It reads "absence of a known change is evidence ... only if every relevant change reaches the checker; assurance dates from the last check". Its middle sentence recaps both examples. The risk side of the trade is therefore split across two places, and a reader has to assemble it.
+- Direction: Open the body with the "therefore" sentence and its explicit-choice proviso, then present the saving and the reliance risk as its two sides. Move the freshness principle and "Assurance dates from the last check" into the risk side, or place them at the end of the examples as their shared lesson, and drop the recap sentence "Even the enforced mark can be stale until its head is next validated, and a reused connect report reflects the KB as of its pass."
+- Combines: core-claim-obscured finding 1 (claim postponed behind setup), marginal-value-redundancy finding 2 (freshness section recaps the examples).
+- Preserve or decide: Decide whether the freshness principle is a premise of the risk side, which belongs up front, or a conclusion drawn from the two examples, which belongs after them. Keep the suppression mechanism's stated conditions beside the mechanism. The Scope bullet that restates them can shrink to its prevalence disclaimer, but that is a local edit and not part of this opportunity. Keep the opening caveat that verification cheaper than derivation can make every-use checking worthwhile, because it bounds the cost side.

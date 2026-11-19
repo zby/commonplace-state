@@ -1,0 +1,84 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\n- remove the premature closed-factory-learning and successor-factory section from the theory-mediated system-learning article\n- replace its factory-first TL;DR with a summary of the article's actual current research question and tests\n- keep the useful supplied-specialization argument while removing product-family terminology that depends on the unsettled ontology\n- remove the registered `domain-extensible software factory` criterion from the Bitter Lesson article and restate the transfer requirement without committing to that definition\n\n## Scope\n\nThis is the containment batch only. It deliberately leaves the Greenfield source ingests, software-factory definitions and theory notes, and the refoundation workshop unchanged for the ontology-import batch.\n\n## Review notes\n\nThe branch changes only two public articles. It does not revert the broader Greenfield ingestion commit or discard its source work.",
+    "closedAt": "2026-08-31T12:48:32Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T12:43:17Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:43:17Z",
+        "messageBody": "",
+        "messageHeadline": "Contain premature software-factory framing in research program",
+        "oid": "050fb73ef7d070a555d4c4f86bcf9d36f16dd408"
+      },
+      {
+        "authoredDate": "2026-08-31T12:43:53Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:43:53Z",
+        "messageBody": "",
+        "messageHeadline": "Remove premature factory definition from Bitter Lesson criterion",
+        "oid": "faccf2eeaf0017ba003f4edae33322fe26c15439"
+      },
+      {
+        "authoredDate": "2026-08-31T12:45:13Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:45:13Z",
+        "messageBody": "",
+        "messageHeadline": "Avoid unrelated wording change in containment batch",
+        "oid": "1c943901ec3b36f058280f639fcf8e14b1a3aa6d"
+      }
+    ],
+    "createdAt": "2026-08-31T12:44:13Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 11,
+        "deletions": 60
+      },
+      {
+        "path": "kb/articles/the-bitter-lesson-does-not-require-everything-to-live-in-weights.md",
+        "additions": 18,
+        "deletions": 22
+      }
+    ],
+    "headRefName": "contain-premature-software-factory-framing",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T12:48:32Z",
+    "number": 147,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Contain premature software-factory framing in public articles",
+    "updatedAt": "2026-08-31T12:48:33Z",
+    "url": "https://github.com/zby/commonplace/pull/147"
+  },
+  "inline_review_comments": []
+}

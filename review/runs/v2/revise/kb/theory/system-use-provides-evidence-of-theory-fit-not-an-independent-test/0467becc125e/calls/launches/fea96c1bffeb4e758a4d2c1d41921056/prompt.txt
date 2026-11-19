@@ -1,0 +1,37 @@
+Task:
+Run one edit operation on one note. Nobody will answer questions. If you cannot run it within its bounds, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md` in this repository; the text to edit is <Inputs: text.md>. The note's file in the checkout may hold another text: work on this input, not the file. The operation is `kb/instructions/simplification-passes/abstractions.md`; its text is <Inputs: operation.md>. The shared edit contract is <Inputs: execution.md>; follow it.
+
+The caller supplies these inputs, by role:
+- `purpose` (from `plan:purpose`): <Inputs: purpose.md>
+- `defend` (from `plan:defend`): <Inputs: defend.md>
+
+This operation asks before it edits: list the changes you propose and apply none.
+
+Output:
+- Write the edit result to <Required outputs: result.md>: YAML frontmatter, then a `# Report` heading and the report the operation's Report section describes. The frontmatter holds `type: types/edit-result.md`, `outcome` and the fields that outcome needs:
+  - `outcome: proposed` to propose changes and apply none: under `proposals`, give each a `quote` (a passage copied from the input text that occurs there exactly once), the `change` and the `reason`. Write no candidate.
+  - `outcome: unchanged` when nothing needs changing: say why in the report. Write no candidate.
+- Supply only these fields; code adds every hash, path and identity. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+
+Inputs (read these exact files):
+- defend.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/defend.md
+- execution.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/execution.md
+- operation.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/operation.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/output-contract-2.md
+- purpose.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/purpose.md
+- text.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/inputs/text.md
+
+Required outputs (write these exact files):
+- result.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/outputs/result.md
+
+Optional outputs:
+- candidate.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/outputs/candidate.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test/0467becc125e/calls/launches/fea96c1bffeb4e758a4d2c1d41921056/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

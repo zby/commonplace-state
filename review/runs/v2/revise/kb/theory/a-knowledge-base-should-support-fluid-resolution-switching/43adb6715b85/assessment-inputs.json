@@ -1,0 +1,522 @@
+{
+  "findings": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/accessibility/unidentified-references.md",
+      "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+      "criterion_id": "accessibility/unidentified-references",
+      "depth": 3,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/review-gates/accessibility/unidentified-references.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 98a5f8cfffdf4b047e30b99e468369884adceced7c1678bd3b8b267a7b309283\ncriterion: kb/instructions/review-gates/accessibility/unidentified-references.md\ncriterion-sha256: 422847c587793f494bfa140e10c46772cc1decaf72d3a611ec83daa39da288c3\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: 9cecc704cfd84bf685c4cfca7b890d03\ncompleted-at: '2026-11-16T22:29:07Z'\nfindings:\n- scope: passage\n  quotes:\n  - Commonplace mechanisms\n  reason: The section heading names the system \"Commonplace\", but the note never says\n    what it is. Only the surrounding content implies that it is a knowledge-base framework,\n    and the reader may well be this KB itself. An external reader cannot tell whether\n    the section describes this KB, a product or a general class of systems. The section's\n    first sentence should identify it briefly, for example as the knowledge-base framework\n    this note belongs to.\n  level: warn\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/618621781c3cf9118365994d/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/618621781c3cf9118365994d/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/9cecc704cfd84bf685c4cfca7b890d03/outputs/review-unidentified-references.md\nraw-output-sha256: 05c46d4f8b44288e0732635516b3f70c59538dfcdf4736ca5ed91051fcc86a51\n---\n\n# Review\n\n## Summary\n\nThe note names only one proper noun: \"Commonplace\", in the heading of the\nsection that lists its mechanisms. The note never says what Commonplace is.\nThe listed mechanisms (titles, descriptions, indexes, link context, progressive\ndisclosure) imply a knowledge-base system. Even so, a first-time reader must\ninfer from those examples what kind of thing the name refers to, and whether\nit is the host KB. A brief inline identification would resolve this. The note\nnames no other systems, tools, people or organizations.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/frontmatter/claim-strength.md",
+      "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "criterion_id": "frontmatter/claim-strength",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/review-gates/frontmatter/claim-strength.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: dbf61a87ecba4b344c7026057666abb97137a5fb8d1b3bdc8b615c93f1f6d15e\ncriterion: kb/instructions/review-gates/frontmatter/claim-strength.md\ncriterion-sha256: 8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: a3c5d3391deb4e209fd2c546267aafd4\ncompleted-at: '2026-11-16T22:29:11Z'\nfindings:\n- scope: passage\n  quotes:\n  - A knowledge base should support fluid resolution-switching\n  reason: 'As phrased, the title is close to an applause line: few informed readers\n    would argue that a knowledge base should make movement between overview and detail\n    rigid or costly, so the stated opposite is not a live position. The contestable\n    point the body actually develops is narrower: resolution-switching fluidity is\n    a separate evaluative criterion from retrieval accuracy, recall, pointer accuracy\n    and addressability grain, so a system can retrieve the right artifact and still\n    fail it. A title carrying that distinction (for example, that retrieval accuracy\n    does not establish bidirectional navigability between views) would be one an informed\n    retrieval-centric designer could dispute.'\n  level: warn\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/ff4ac82997f27addbdcc1ea5/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/ff4ac82997f27addbdcc1ea5/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/a3c5d3391deb4e209fd2c546267aafd4/outputs/review-claim-strength.md\nraw-output-sha256: 076762592066390de4a4711e2d1c0cdc58d29b471eb62aacd4f8305803a0a560\n---\n\n# Review\n\n## Summary\n\nThe title is a proposition, but its opposite (\"a knowledge base should not support fluid resolution-switching\") is not a position anyone informed would hold. \"Fluid\" already builds the desirability into the claim, which places it near the gate's `validation should be fast` failure example.\n\nThe body has a sharper point. It treats resolution-switching fluidity as a qualitative criterion that complements retrieval accuracy. It shows a system can retrieve the right detail yet make its wider context hard to recover, or offer an overview that never reaches the detail. It also separates the criterion from addressability grain, pointer accuracy and recall. A retrieval-focused designer could contest that independence claim, so it would make a stronger title. Alternatively, since the note mainly defines a term and inventories mechanisms, a topical title would also be valid under this gate.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion_id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/compression-bundle/marginal-value-redundancy.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 98a5f8cfffdf4b047e30b99e468369884adceced7c1678bd3b8b267a7b309283\ncriterion: kb/instructions/compression-bundle/marginal-value-redundancy.md\ncriterion-sha256: a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: 7c46e2ccfaf34a06912fc71b32ffac86\ncompleted-at: '2026-11-16T22:31:06Z'\nfindings:\n- scope: passage\n  quotes:\n  - These questions identify possible friction. They do not yet supply a scoring rule\n    or universal threshold.\n  reason: The opening already states that this is 'a qualitative design criterion,\n    not yet a metric', and the Open questions section asks which cost a measurement\n    should use. This closing caveat adds nothing to either and only guards against\n    a misreading the note has already ruled out. Cut it, or fold 'universal threshold'\n    into the opening qualifier if that phrase matters.\n  level: warn\n- scope: passage\n  quotes:\n  - An artifact does not need an outbound link in every case. Backlinks, an index,\n    or search may supply the outward route. Nor does every task need to return to\n    a broad view after reading detail. Fluidity is relative to the task and to the\n    navigation operations actually available to the reader.\n  reason: Most of this paragraph repeats earlier text. The third criterion question\n    already accepts 'an available route such as an authored link, index, or search'.\n    The opening already rejects 'a claim that every task needs the same sequence of\n    views', and 'task-relevant switches' already makes fluidity task-relative. The\n    second Open question repeats the backlinks-versus-outbound-link point. Only the\n    explicit mention of backlinks is new; add it to the third question's list of routes\n    and delete the paragraph.\n  level: warn\n- scope: passage\n  quotes:\n  - The link's relation does not by itself determine which artifact is more abstract;\n    its role is to preserve the task-relative relationship across the transition.\n  reason: The first clause repeats the opening's definition of resolution as view\n    scope and detail, not as 'an intrinsic abstraction rank assigned to an artifact'.\n    It may still prevent readers from treating link direction as an abstraction hierarchy.\n    The second clause repeats the paragraph's first two sentences. It is unclear whether\n    the sentence does necessary work for this misreading.\n  level: info\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/084c4027694f94fb09d72fcd/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/084c4027694f94fb09d72fcd/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/7c46e2ccfaf34a06912fc71b32ffac86/outputs/review.md\nraw-output-sha256: b7db5a62115817a5db8d2e15c5a8240efe465cf2af5845533216295bd533c3e0\n---\n\n# Review\n\nThe note is mostly compact. The four mechanism paragraphs each name a different\nCommonplace surface and link to its support. The four questions turn the\ncriterion into checks that can be applied. The discovery section limits the\nnote's claim about recognition. The first Boundaries paragraph separates the\nidea from addressability grain. Deleting any of these would make the note less\ngrounded or easier to misapply.\n\nThe redundancy is in the caveats. The note says it is qualitative and\ntask-relative in its opening. It says this again after the questions, then\nagain in the second Boundaries paragraph. The Open questions section covers\nthe same ground a fourth time. Each repeat is accurate, but each pre-empts a\nmisreading that an earlier sentence already rules out. That is the defensive\nredundancy the criterion describes. Keeping the opening qualifier and the Open\nquestions, and adding \"backlinks\" to the third question's list of routes,\nwould keep everything these passages contribute in less space.\n\nThe sentence in the link-context paragraph about link relations and abstraction\nis less clear-cut. It may answer a misreading specific to links, so it is\nreported as INFO rather than WARN.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/semantic/explanatory-reach.md",
+      "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+      "criterion_id": "semantic/explanatory-reach",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/review-gates/semantic/explanatory-reach.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 98a5f8cfffdf4b047e30b99e468369884adceced7c1678bd3b8b267a7b309283\ncriterion: kb/instructions/review-gates/semantic/explanatory-reach.md\ncriterion-sha256: 8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: bc277cf6d61d4be6914a3ce31a323912\ncompleted-at: '2026-11-16T22:32:02Z'\nfindings:\n- scope: passage\n  quotes:\n  - A knowledge base should make task-relevant switches inexpensive in both directions.\n  - Fluidity is relative to the task and to the navigation operations actually available\n    to the reader.\n  reason: The central prescription is close to analytic. It asks that 'task-relevant'\n    switches be 'inexpensive' and that readers avoid 'avoidable transition cost',\n    and later makes fluidity relative to the task and the available operations. No\n    mechanism says why readers must switch, and the claim weighs the benefit of cheap\n    switching against nothing. That missing reason is bounded context, which prevents\n    loading every view at once; it is only implied by phrases such as 'without loading\n    unrelated material'. The note never weighs the cost of maintaining intermediate\n    views, indexes and links. It also does not consider whether cheap switching could\n    hurt a task, for example through thrashing between views. As a result, no observation\n    the note allows could count against the 'should', and swapping its rationale (cost,\n    comprehension, discovery) leaves the conclusion unchanged.\n  level: warn\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/14a90677b61d0922e6d404ce/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/14a90677b61d0922e6d404ce/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/bc277cf6d61d4be6914a3ce31a323912/outputs/review-explanatory-reach.md\nraw-output-sha256: 4179c15d5b9077726e009a9af8ac78b90070ef35b0c1a89c013c7541ebb0e925\n---\n\n# Review\n\n## Summary\n\nThe note explains its components well. Title-as-claim lets a reader inspect assertions before loading bodies. Link phrases carry why a target matters. Pointer tiers form a cost gradient. The contrast with retrieval accuracy names two concrete failure shapes: the right detail with no recoverable context, and an overview that never reaches detail.\n\nThe central claim itself is under-explained. The note does not state why a reader must alternate between views and cannot simply load what the task needs. It does not state what fluid switching buys that would be lost otherwise, beyond avoiding cost that is by definition avoidable. The task-relativity qualifiers in the opening and the Boundaries section accurately describe scope. Combined with the missing trade-off, though, they leave the prescription with no condition under which it would fail.\n\nA hard-to-vary version would name the constraint that creates the need to switch. It would also say what the criterion forbids, such as a design that buys cheaper switching at a maintenance or context cost greater than the transitions it saves. The note's honest \"qualitative criterion\" framing limits how far this matters, so the finding is WARN, not FAIL.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/semantic/grounding-alignment.md",
+      "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+      "criterion_id": "semantic/grounding-alignment",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/review-gates/semantic/grounding-alignment.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 98a5f8cfffdf4b047e30b99e468369884adceced7c1678bd3b8b267a7b309283\ncriterion: kb/instructions/review-gates/semantic/grounding-alignment.md\ncriterion-sha256: c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: bc277cf6d61d4be6914a3ce31a323912\ncompleted-at: '2026-11-16T22:32:02Z'\nfindings:\n- scope: passage\n  quotes:\n  - its role is to preserve the task-relative relationship across the transition\n  - the navigational value of\n  reason: 'The linked note claims that a link''s position and introducing prose encode\n    its commitment level, producing a weighted graph. It gives that graph''s navigational\n    use as traversal priority: follow strong links before weak ones. This note presents\n    bearing preservation during a change of scope as ''the navigational value'' of\n    that encoding. The target''s table of relationship words does say that prose tells\n    the reader what role the linked note plays, so the support is plausible. The transfer\n    from commitment strength and traversal priority to preserving the relationship\n    across a scope transition is not articulated, and ''the navigational value'' also\n    claims more than the target''s own account of it.'\n  level: warn\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/c3fbc67b07fd561c12c17560/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/c3fbc67b07fd561c12c17560/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/bc277cf6d61d4be6914a3ce31a323912/outputs/review-grounding-alignment.md\nraw-output-sha256: 557a3d53d46ae527ec804c1b07323541db25cc98e82eff4486b5679dead8258a\n---\n\n# Review\n\n## Summary\n\nAll links resolve to library notes in `kb/theory/`. Each was checked by reading its title and opening.\n\n- **Title as claim enables traversal as reasoning.** The target says claim titles make the first disclosure layer usable, so agents can choose what to load. This supports \"a reader can inspect a chain of assertions before choosing which bodies to load.\" Aligned.\n- **Link-following and search impose different metadata requirements.** The target contrasts local steps that carry source context with long-range search that lacks it. The note uses the target only to say that both routes can take part in a switch. Aligned.\n- **Link strength is encoded in position and prose.** This is a modest extension that is not articulated (WARN above).\n- **Pointer design tradeoffs in progressive disclosure.** The target names exactly the four axes the note cites. It describes pointers \"at increasing resolution\", with cheap ones scanned first, which supports the cost gradient. Aligned.\n- **Recognition, not linking, is the hard problem.** The target makes recognition the expensive step and requires co-presence. The note claims only that switching helps assemble views and \"does not perform the recognition\". Aligned and appropriately bounded.\n- **Footer links.** These comprise agents-navigate, addressability grain and end-to-end evaluation. The note's one-sentence paraphrase of grain (\"the smallest amount one access path can retrieve for a matched target\") matches the target's definition. The other footer relations are adjacent and make no stronger support claim.\n\nThe only issue is the link-strength attribution.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/sentence/concept-attribution.md",
+      "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+      "criterion_id": "sentence/concept-attribution",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/review-gates/sentence/concept-attribution.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 98a5f8cfffdf4b047e30b99e468369884adceced7c1678bd3b8b267a7b309283\ncriterion: kb/instructions/review-gates/sentence/concept-attribution.md\ncriterion-sha256: 75949108abe516c6d5d80ba7a1c9546fbb81cc202dd215042cf5a323075358e6\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: 02a0da1552d64a10a5644fda428e405a\ncompleted-at: '2026-11-16T22:30:39Z'\nfindings:\n- scope: passage\n  quotes:\n  - This is the navigational value of [encoding link strength in position and prose](./link-strength-is-encoded-in-position-and-prose.md).\n  reason: 'The sentence identifies the paragraph''s mechanism (a contextual phrase\n    preserving the task-relative relationship across a scope transition) with the\n    navigational value of link-strength encoding. The target''s concept is commitment\n    level: position and relationship words weight links, and its stated navigational\n    payoff is traversal priority (follow strong links before weak ones). Its relationship-words\n    table partly overlaps, since it says the introducing word reveals the linked note''s\n    role, but the target never treats link prose as preserving bearings across a change\n    of scope or detail. The identity overstates the overlap; the attribution should\n    say that the target supplies relationship words as role cues, or link a note about\n    context phrases instead.'\n  level: warn\ncontract: verdict\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/9320fcc68c71b1126991b790/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/9320fcc68c71b1126991b790/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/02a0da1552d64a10a5644fda428e405a/outputs/review-concept-attribution.md\nraw-output-sha256: 8cd5fe440a9be21782aa5eb3fdf477d8794e51976bf523a9233b2615392451ff\n---\n\n# Review\n\nFive body links were checked against their targets.\n\n- \"Because a [title-as-claim supports traversal as reasoning]\": the target says claim titles make link traversal read as a chain of reasoning. The attribution holds.\n- \"Those routes have [different metadata requirements]\": the target compares link-following and search as navigation modes with different metadata needs. The attribution holds.\n- \"[pointer types trade off specificity, cost, availability, and accuracy]\": the target names context-specificity, cost, availability and accuracy as its four axes and describes progressive disclosure as pointers at increasing resolution. The attribution holds.\n- \"[Recognizing shared structure] requires more than navigation\": the target defines recognition as seeing shared structure and treats it as the expensive step. The attribution holds.\n- \"This is the navigational value of [encoding link strength in position and prose]\": the target is about link weight and traversal priority, not about preserving bearings during a resolution switch. This is the one finding.\n\nThe footer links state relations rather than concept identities. Their glosses agree with the target heads.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 3707753f84e8f72696b0d30a580c6c0df6e56e914201550d788f69e4f906601b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: ed9bc68f006042418232c971f52ffc07\ncompleted-at: '2026-11-16T22:31:38Z'\nfindings:\n- scope: passage\n  quotes:\n  - A detailed artifact should leave a discoverable route back to wider organizing\n    context.\n  reason: 'UNSUPPORTED — The only stated ground is that readers alternate between\n    broad and narrow views. That establishes the movement, not that the upward return\n    must be a KB obligation. A reader who descended from an index or overview may\n    still hold that broad view in context. So the upward route matters mainly when\n    the reader arrived at the detail without a broad view, for example through search,\n    and the note never states this condition. The later Boundaries section also weakens\n    the claim: it lets backlinks, an index or search supply the outward route, so\n    the requirement that the artifact itself ''leave'' a route is never pinned down.\n    The index paragraph''s ''Returning to the index restores the topic-level view''\n    has the same gap, because it assumes the reader knows which index to return to.'\n- scope: passage\n  quotes:\n  - It lets a reader move to a different scope without reducing the connection to\n    an untyped jump.\n  reason: THIN — The heading claims that link context 'preserves bearings during a\n    switch'. The phrase sits at the source, though, so it explains why the reader\n    should go down. It does nothing for the reader at the target unless the source\n    passage is still loaded. The note does not establish that the phrase survives\n    the transition, or that it helps the reverse direction the note's criterion requires.\n    The sentence 'its role is to preserve the task-relative relationship across the\n    transition' restates the conclusion rather than giving a mechanism.\n- scope: passage\n  quotes:\n  - Titles, descriptions, contextual link phrases, generated summaries, and full bodies\n    can form a cost gradient.\n  reason: THIN — The gradient described consists of increasingly costly views of one\n    target. It lowers the cost of deciding whether to narrow, not of moving between\n    scopes. The note defines resolution as 'scope and detail', yet the inference that\n    this gradient 'supplies intermediate views' for resolution-switching only addresses\n    the detail axis and the downward direction. It leaves unestablished whether any\n    tier helps a reader widen scope.\n- scope: passage\n  quotes:\n  - a system may retrieve the right detailed artifact yet make its wider context hard\n    to recover, or offer an elegant overview that never reaches the required detail.\n  reason: 'THIN — This is offered as the ground for ''It complements retrieval accuracy''.\n    The first case separates fluidity from accuracy: the right artifact is retrieved,\n    but its context is lost. The second case, an overview that never reaches the needed\n    detail, is arguably a retrieval recall failure, not a separate property. So only\n    half the stated contrast shows that the criterion measures something retrieval\n    metrics miss.'\n- scope: passage\n  quotes:\n  - a reader can inspect a chain of assertions before choosing which bodies to load.\n  reason: HOLDS — If titles carry assertions, then reading titles alone does expose\n    a chain of claims at lower cost than bodies, and the linked note is cited for\n    exactly this. The joint is scoped to title-as-claim artifacts, and the note does\n    not claim more. The only implicit limit is that artifacts with topical titles\n    do not offer this view.\ncontract: report\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/48e8d77762d1d6a16a456baa/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/48e8d77762d1d6a16a456baa/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/ed9bc68f006042418232c971f52ffc07/outputs/review.md\nraw-output-sha256: 4dea436c4803ab48236e95e17ce9af3173b8509fd32ab93fc5965f27afebb37d\n---\n\n# Friction check: A knowledge base should support fluid resolution-switching\n\n**Central claim (one sentence):** A knowledge base should let a reader move between broader and narrower views, in whichever direction the task needs, at low transition cost and without losing why the views belong together.\n\n## Filter\n**Filter:** SURVIVES\n\nThe properties held at once are low transition cost in both directions, no loading of unrelated material, preserved relationship between views, and task-relativity, including permission for routes other than outbound links. These can coexist. Richer link context and intermediate views add some reading cost, but they do so to avoid larger avoidable costs, and the note asks only for avoidable cost to be removed. The hedge \"task-relevant\" reconciles \"in both directions\" with \"Nor does every task need to return to a broad view\". So the claim concretizes to one consistent criterion, though it is weak: it is qualitative and offers no scoring rule, as the note says.\n\n## Thinnest joints\n\nThe weakest joint is the opening normative step to the upward direction, because the note gives no reason for it beyond observing that readers alternate. It also leaves unresolved whether the artifact or the system supplies the route back. The two mechanism paragraphs come next. Each one supports the downward, narrowing move well, and each is then credited with the bidirectional, scope-crossing property the criterion defines. This is where the note's fluent prose covers a gap. The contrast with retrieval accuracy is half supported. The title-as-claim inference is the strongest joint and holds within its stated scope. The discovery and grain-boundary paragraphs are hedged enough that they make no load-bearing inference worth surfacing.\n\n## For the human\nLook first at the upward direction. Say under what entry conditions, such as arrival by search versus descent from an index, a route back is needed, and whether the artifact or the system owes it. The link-context and progressive-disclosure mechanisms currently mostly support downward movement.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: f07d2c1b4e8a4526b78a944878b55276\ncompleted-at: '2026-11-16T22:31:33Z'\nfindings:\n- scope: passage\n  quotes:\n  - Can the reader reach the needed detail without loading unrelated material?\n  - Resolution-switching is not the same as addressability grain.\n  reason: 'The second diagnostic question asks for the condition that addressability\n    grain already prices: whether an access path can retrieve the needed unit without\n    loading the rest. The Boundaries section then says the criterion is distinct from\n    grain. The note should either say what this question adds beyond grain, such as\n    the existence of a route into the unit from the broader view, or attribute the\n    question to grain and keep only the transition-specific part.'\n- scope: passage\n  quotes:\n  - Those properties can enable or defeat a switch, but none alone establishes bidirectional\n    navigability.\n  reason: '\"None alone\" leaves the reductionist reply open: their conjunction, together\n    with link context and backlinks or index membership, may establish it. To support\n    the claim that the criterion complements existing measures, the note needs a case\n    where pointer accuracy, grain, retrieval recall, upward-route availability and\n    link context all hold but a task still pays avoidable transition cost. If the\n    note cannot give one, it should present the criterion as a named bundle of those\n    properties at the level of transitions, which is a weaker but defensible claim.'\n- scope: passage\n  quotes:\n  - Fluidity is relative to the task and to the navigation operations actually available\n    to the reader.\n  - without paying avoidable transition cost or losing the\n  reason: 'With task-relativity, avoidable cost and the optional return to a broad\n    view all stated, the normative title risks a near-tautology: make the transitions\n    the task needs no more expensive than necessary. The note should state one design\n    choice that the criterion would reject and that a retrieval-accuracy or grain\n    evaluation would accept. One candidate is a KB whose detail artifacts are reachable\n    only through search, with no index or backlink, for a task that repeatedly re-orients.\n    That choice would give the \"should\" observable content.'\n- scope: passage\n  quotes:\n  - 'It complements retrieval accuracy: a system may'\n  reason: The two contrast cases are framed against retrieval accuracy alone. The\n    linked end-to-end evaluation note already rejects evaluation by retrieval alone\n    and lists navigation or decision cost as a diagnostic. The note would be stronger\n    if it compared the criterion with that wider diagnostic set and said which transition\n    failure the set's questions miss.\ncontract: report\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/e41c83e5e9f68716f8778cbb/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/e41c83e5e9f68716f8778cbb/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/f07d2c1b4e8a4526b78a944878b55276/outputs/review.md\nraw-output-sha256: bc6a863b2430e1beb4fe61a9c4b0209162141c9a7579bd2aa6632e513c0aef57\nattack-outcome: partially lands\n---\n\n# Critique: A knowledge base should support fluid resolution-switching\n\n**Note:** kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n**Central commitment:** A knowledge base should make task-relevant movement among broad and detailed views inexpensive in both directions, and this \"resolution-switching fluidity\" is a qualitative evaluative criterion distinct from, and complementary to, retrieval accuracy, addressability grain and pointer accuracy.\n**Critique mode:** claim (with a definitional component: the criterion's distinctness from existing properties is load-bearing)\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThis objection comes from an evaluation reductionist: the information-retrieval and component-metric tradition, or within this KB the end-to-end evaluation note's own method of keeping separate diagnostics \"without inventing a total score\". A new criterion earns its place only if it predicts failures that existing component measures miss. \"Resolution-switching fluidity\" does not meet that test, for two reasons.\n\n**First, each diagnostic question reduces to an existing property.**\n\n- Q1 asks whether the reader can choose a narrower target without opening every body. The pointer-design and \"agents navigate by deciding what to read next\" notes already cover this as pointer specificity and accuracy at a follow-or-skip decision.\n- Q2 asks whether the reader can reach the detail without loading unrelated material. This is the addressability grain note's matched selective-read floor, almost word for word: \"retrieve through the access path in use without loading the rest of the artifact.\"\n- Q3 asks whether the reader can recover a broader view by link, index or search. That is route availability: backlinks, index membership and search coverage.\n- Q4 asks whether the transition preserves why the two views belong together. The link-strength note's contextual articulation covers this.\n\nThe note's own Commonplace mechanisms section confirms the mapping. Every mechanism it lists is borrowed from one of those linked notes. The \"complements retrieval accuracy\" contrast then knocks down a narrower opponent than the one that exists. The linked end-to-end note already rejects evaluation by retrieval alone and lists \"navigation or decision cost\" among its diagnostics.\n\n**Second, once the criterion is hedged, its \"should\" loses observable content.** The note says:\n\n- fluidity is relative to the task and to the operations available;\n- only *avoidable* transition cost counts;\n- not every task needs to return to a broad view;\n- an outward route may come from search instead of an authored link;\n- no scoring rule or threshold exists.\n\nWhat remains is: make the transitions a task needs no more expensive than they must be. No designer rejects that. Under this reading, the title's normative claim either restates generic cost minimization or names a conjunction of properties the KB already has notes for. The author cannot dismiss this in one sentence, because the note's best defence, \"none alone establishes bidirectional navigability\", concedes the reductionist's point that a conjunction might.\n\n## How the note engages it\n\n**Partially engaged.**\n\n- The Boundaries section separates the criterion from addressability grain, pointer accuracy and retrieval recall. Its grain contrast, in which grain prices the smallest retrievable unit while resolution-switching asks whether views at different scopes exist and connect, is a real distinction. A KB could have fine grain and no broad views at all. That is the strongest part of the defence, and it keeps the attack from landing fully.\n- The evaluative criterion section gives two concrete failure cases: right detail with an unrecoverable wider context, and an overview that never reaches detail.\n- The section explicitly limits the criterion to \"a qualitative design criterion, not yet a metric\". The open questions concede that it has no cost unit and no dead-end test.\n\nWhat the note does not engage:\n\n- **The conjunction.** It argues against each component property *alone*, not against their combination, so the reduction stays open.\n- **Q2 and grain.** It never notices that its second diagnostic question restates grain, which undercuts the boundary it draws.\n- **The wider baseline.** Both failure cases are framed against retrieval accuracy, not against the end-to-end diagnostic set the note links to.\n- **Vacuity.** It does not show a design choice that the criterion would reject and that the existing measures would accept.\n\nThe surviving part of the attack is this: as written, the criterion is defensible as a named, transition-level view over existing properties. It is not yet shown to be an independent property with its own failure mode.\n\n## Constructive findings\n\n- Supply one separating case: a KB, or a Commonplace configuration, where pointer accuracy, grain, recall, upward-route availability and link context each pass, yet a task still pays avoidable transition cost. Possible sources are the absence of intermediate views between a topic index and note bodies, or a broad view whose groupings do not match the task's decomposition. If no such case exists, restate the commitment as a named bundle that evaluates these properties together at transitions. That is a weaker but honest claim.\n- Rewrite Q2 so it asks what grain does not: whether a route exists from the current broad view into the needed unit. Alternatively, credit grain for Q2 and keep only the transition-specific remainder.\n- Give the \"should\" observable content by naming one design the criterion rejects, for example detail artifacts reachable only by search, with no index or backlink, for a task that repeatedly re-orients. State why the existing diagnostics would not flag it.\n- Compare the criterion with the end-to-end note's diagnostic set, not with retrieval accuracy alone, and say which transition failure that set misses.\n\n## Secondary objections (optional)\n\n- Treating \"resolution\" as task-relative view scope instead of artifact abstraction rank is reasonable. However, the term invites a reading of fixed levels, such as zoom levels or abstraction tiers. The disclaimer appears only once, in the opening paragraph. Later uses of \"broad\" and \"detailed\" quietly rely on a fairly stable ordering of index above note above body.\n- The connection-to-discovery section is careful to say that switching does not perform recognition. It gives no mechanism by which fluid switching *raises* the chance of recognition, so its contribution to the note's case is mostly a disclaimer.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews\nlaunch: 7e1bf5fed87a4bb480f79c26559f515c\ncompleted-at: '2026-11-16T22:32:07Z'\nfindings:\n- scope: passage\n  quotes:\n  - A detailed artifact should leave a discoverable route back to wider organizing\n    context.\n  reason: DOUBTFUL — (universal, normative) the upward direction of the criterion\n    discriminates between KB designs — the note later counts search as an adequate\n    outward route (\"Backlinks, an index, or search may supply the outward route\"),\n    and in any searchable KB every artifact then trivially has a discoverable route\n    back, so the 'back' half of 'both directions' is satisfied by every searchable\n    design unless the fourth question (preserving why the views belong together) carries\n    the test; the note never says that it does — LOCAL — instance\n- scope: passage\n  quotes:\n  - A contextual phrase says why the target matters in the current argument.\n  reason: DOUBTFUL — (universal) authored link context preserves the task-relative\n    relationship across a switch — the phrase records why the target mattered to the\n    author's argument at writing time; a reader following the same link for a different\n    task (e.g. an agent tracing evidence for a claim the linking note only mentions\n    in passing) receives the author's bearings, not its own, so the link preserves\n    an argument-relative relation and only coincidentally a task-relative one; the\n    note's claim that link context preserves 'the task-relative relationship' needs\n    the condition that reader task and authoring argument align — LOCAL — instance\n- scope: document\n  quotes: []\n  reason: DOUBTFUL — (unstated, universal) making switches inexpensive is worth its\n    authoring and maintenance cost wherever a reader switches views — the 'should'\n    prices only the reader's transition cost; indexes, contextual link phrases and\n    descriptions must be written and kept current, and stale indexes or drifted descriptions\n    give misleading broad views that raise rather than lower switch cost; a KB small\n    enough to load whole also gains little from switch routes; the criterion needs\n    a scope condition on scale or maintenance capacity, or an explicit trade-off with\n    upkeep cost — LOCAL — instance\n- scope: passage\n  quotes:\n  - A reader using a knowledge base alternates between broad views that expose possible\n    routes and narrower views that supply detail.\n  reason: HOLDS — (generic description of KB reading) readers alternate between broad\n    and narrow views — the obvious counterexample, a single-fact lookup that goes\n    straight from search to one artifact and stops, is conceded and fenced by the\n    note's 'task-relevant switches' and its Boundaries statement that not every task\n    returns to a broad view; under that qualification no defeater was found\n- scope: passage\n  quotes:\n  - a system may retrieve the right detailed artifact yet make its wider context hard\n    to recover\n  reason: 'HOLDS — (existential) switch cost is a property separable from retrieval\n    accuracy — re-derivable instance: chunk-level retrieval that returns the correct\n    passage stripped of its parent document and section context; the converse (good\n    overview that never reaches detail) is equally checkable; the premise needs only\n    existence and has it'\n- scope: passage\n  quotes:\n  - The gradient is useful only when each pointer supports a sound next-read decision\n  reason: HOLDS — (conditional) Commonplace's pointer tiers (title, description, link\n    phrase, body) form a usable cost gradient — the natural defeater, titles or descriptions\n    that misrepresent their bodies, is already priced in by this stated condition\n    and the linked pointer-tradeoff note; the mechanism claims are conditional on\n    pointer accuracy and survive under that condition\n- scope: passage\n  quotes:\n  - Resolution here means the scope and detail exposed by a view, not an intrinsic\n    abstraction rank assigned to an artifact.\n  reason: HOLDS — (definitional cut) resolution belongs to views, not artifacts —\n    the Mechanisms section does sort by artifact kind (index vs note), which looks\n    like an intrinsic rank, but each case is presented as a view an artifact exposes,\n    and the same note can be a broad view (its title list of links) or a detailed\n    one (its body); no case was found that the view-relative cut mis-sorts\n- scope: passage\n  quotes:\n  - Resolution-switching is not the same as addressability grain.\n  reason: HOLDS — (definitional distinction) resolution-switching is distinct from\n    grain, pointer accuracy and recall — coarse grain can prevent a narrower view\n    from existing, which shows dependence rather than identity, and the note explicitly\n    says these properties 'can enable or defeat a switch' without establishing it;\n    the distinction is not idle because a fine-grained, accurate, high-recall system\n    can still lack an upward route\ncontract: report\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/a79a97eb5f555b7f5c50f63f/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/artifact/reviews/a79a97eb5f555b7f5c50f63f/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews/calls/launches/7e1bf5fed87a4bb480f79c26559f515c/outputs/review.md\nraw-output-sha256: bfad7fb39d5d81a7e5eab3e2f2ea5880c1b16c6988e16bc1752cd66f47d72931\n---\n\n# Premise decomposition: A knowledge base should support fluid resolution-switching\n\n**Register:** claim\n**Central commitment (one sentence):** A knowledge base should make task-relevant transitions between broader and narrower views inexpensive in both directions while preserving why the views belong together, and this qualitative criterion is distinct from and complementary to retrieval accuracy.\n\n## Premises and counterexamples\n\nThe commitment is a normative design criterion with two parts: a definitional cut (what resolution-switching is and what it is not) and a \"should\" that is bidirectional. It consumes three kinds of premise. First, descriptive premises about reading: readers do alternate between scopes, and switch cost is separable from retrieval accuracy. Both hold, partly because the note already fences the obvious exceptions with \"task-relevant\" and its Boundaries section. Second, mechanism premises: that titles, descriptions, indexes, link phrases and progressive disclosure supply the views and preserve the relationships between them. The pointer-gradient premise survives because it is stated conditionally. The link-context premise is dented: authored phrases carry the author's argument, not the reader's task. Third, premises the \"should\" consumes without stating them. The downward and upward directions must both discriminate between designs, and providing the routes must be worth its cost. The upward direction is weakened by the note's own concession that search counts as a route back, which makes that half nearly vacuous unless the \"preserves why\" question carries it. The cost premise is never stated, and maintenance drift is a concrete way switch routes become misleading.\n\nNo premise failure propagates to the commitment as a whole. The criterion is modest and explicitly qualitative, so each dent can be repaired by a qualification in the Boundaries section rather than by retracting the claim.\n\n## For the human\n\nLook first at the upward-route premise: once search counts as a route back, decide whether the \"back\" half of \"both directions\" is tested by the fourth question (preserved relationship) and say so, or the bidirectional criterion stops distinguishing designs.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis\nlaunch: 5d8865fb62564e61a93f5803cd88de97\ncompleted-at: '2026-11-16T22:32:56Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: 'The note repeats that the criterion is qualitative and task-relative in\n    four places: the opening qualifier, the sentence after the four questions, the\n    second Boundaries paragraph and the Open questions. Each repeat rules out a misreading\n    an earlier sentence has already ruled out, so the reader keeps meeting defensive\n    caveats instead of new content. A revision could keep the opening qualifier and\n    the Open questions, add backlinks to the third question''s list of routes, and\n    delete the post-question caveat and the second Boundaries paragraph.'\n- scope: passage\n  quotes:\n  - asks whether a reader can move among the views a task needs without paying avoidable\n    transition cost or losing the relationship between them\n  reason: 'The criterion''s sharpest statement has two conditions: low transition\n    cost and a preserved relationship between views. It appears only after the mechanism\n    inventory, under a second label, ''resolution-switching fluidity''. The opening\n    states the cost condition but not the relationship condition, so a reader first\n    meets the full claim halfway through the note. A revision could state both conditions\n    in the second opening paragraph and let the criterion section reuse that statement\n    and the existing term.'\ncontract: report\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis/artifact/reviews/077cc509aa56b152faf196fe/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis/artifact/reviews/077cc509aa56b152faf196fe/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis/calls/launches/5d8865fb62564e61a93f5803cd88de97/outputs/review.md\nraw-output-sha256: 09e3dd1445ba6ae86bb65b4710c4936fc9bf34d56a1d2f3a40d6322f0d6407f6\n---\n\n# Simplification synthesis: A knowledge base should support fluid resolution-switching\n\nThe note is compact, and its central claim appears early. Three of the four\nchecks passed. The remaining value is structural: the scope caveats are spread\nacross the note, and the full criterion is stated only in the middle. The\nabstraction caveat in the link-context paragraph, which two checks flagged as\nINFO, is a one-sentence local trim. It falls below this synthesis's threshold.\n\n## Opportunities\n\n### 1. Consolidate the qualitative and task-relative caveats\n\n- Location: opening, \"This is a qualitative design criterion, not yet a metric\n  or a claim that every task needs the same sequence of views\"; The evaluative\n  criterion, \"These questions identify possible friction. They do not yet supply\n  a scoring rule or universal threshold.\"; the second paragraph of Boundaries,\n  \"An artifact does not need an outbound link in every case. … Fluidity is\n  relative to the task and to the navigation operations actually available to\n  the reader.\"; and the second Open question.\n- Combines: both WARN findings from marginal-value-redundancy (the post-question\n  caveat and the second Boundaries paragraph).\n- Reader problem: the same limitation appears four times. A reader cannot tell\n  whether each repeat adds a new restriction, and the section ends in caveats\n  rather than in the distinction from neighbouring concepts.\n- Direction: keep the opening qualifier as the single statement of status and\n  task-relativity. Add backlinks to the third question's routes (\"an authored\n  link, index, backlinks, or search\"). Delete the post-question sentence and the\n  second Boundaries paragraph. Boundaries would then hold only the distinctions\n  from grain, pointer accuracy and retrieval recall.\n- Preserve or decide: two phrases may carry points the opening does not quite\n  cover. The author should decide whether to fold them into the opening or let\n  them go. \"Universal threshold\" says more than \"not yet a metric\": a metric\n  could still exist without one fixed cutoff. \"Nor does every task need to return\n  to a broad view after reading detail\" qualifies the bidirectional claim\n  itself, not just the sequence of views. If the author means the \"both\n  directions\" requirement as a capability the KB offers rather than a path every\n  task follows, that should stay explicit near the opening claim. The second Open\n  question assumes the reader already knows that search or backlinks can supply\n  the outward route, so the third question must name them once the Boundaries\n  paragraph is gone.\n\n### 2. State the full criterion in the opening\n\n- Location: The evaluative criterion, \"**Resolution-switching fluidity** asks\n  whether a reader can move among the views a task needs without paying\n  avoidable transition cost or losing the relationship between them\", compared\n  with the opening's second paragraph, \"A knowledge base should make\n  task-relevant switches inexpensive in both directions.\"\n- Combines: the INFO finding from core-claim-obscured.\n- Reader problem: the opening gives the cost condition and the return route,\n  but not the condition that the transition keeps the relationship between views.\n  That condition appears first in the link-context paragraph and is stated as\n  part of the criterion only after the inventory, under a newly coined term.\n  So the reader assembles the claim in stages and meets two labels for one idea.\n- Direction: add the relationship condition to the second opening paragraph,\n  so the claim reads as cheap transitions that keep their relationship. The\n  criterion section could then introduce the four questions directly and not\n  restate the criterion under a new name. One possible resolution, offered only\n  as an illustration: \"A knowledge base should make task-relevant switches\n  inexpensive in both directions without losing why the two views belong\n  together.\"\n- Preserve or decide: decide whether \"resolution-switching fluidity\" names a\n  distinct concept, an evaluative property of the KB as opposed to the reader's\n  operation, or just restates the title's \"fluid\". If it is distinct, keep the\n  term and define it in the opening. If not, reuse \"resolution-switching\". The\n  link-context paragraph and the fourth question both rely on the relationship\n  condition, so it is part of the note's claim and must survive any compression\n  of the opening.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nnote-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role\nlaunch: 5e895bae6d0f43f5ba0ff6be01ed3dcd\ncompleted-at: '2026-11-16T22:34:02Z'\nfindings:\n- scope: passage\n  quotes:\n  - Titles, descriptions, contextual link phrases, generated summaries, and full bodies\n    can form a cost gradient\n  reason: 'SUPPLIED — kb/theory/pointer-design-tradeoffs-in-progressive-disclosure.md\n    — needs the note to treat pointer tiers as a gradient of views that resolution-switching\n    moves along (its footer: ''the tier structure defines the resolution gradient;\n    query-time computation could fill gaps dynamically''). The note''s progressive-disclosure\n    paragraph names the tiers as a cost gradient of intermediate views, includes generated\n    summaries as one tier, and defers the trade-offs back to the pointer note.'\n- scope: passage\n  quotes:\n  - A claim title carries the assertion. A description adds a fixed routing cue. The\n    body supplies the mechanism, qualifications, and evidence.\n  reason: SUPPLIED — kb/theory/short-composable-notes-maximize-combinatorial-discovery.md\n    — needs a breadth/depth distinction in which titles and descriptions give a broad\n    scan and full bodies are loaded selectively for depth (both its inline passage\n    and its footer, 'title-level scanning for breadth, full loading for depth'). The\n    note's titles/descriptions/bodies mechanism states exactly this, and its discovery\n    section adds that broad views place several candidate claims in one context, which\n    matches the dependent's pairing use.\n- scope: passage\n  quotes:\n  - A claim title carries the assertion. A description adds a fixed routing cue. The\n    body supplies the mechanism, qualifications, and evidence.\n  reason: DUPLICATED — kb/theory/short-composable-notes-maximize-combinatorial-discovery.md\n    — the dependent restates the note's title/description/body mechanism in one sentence\n    ('Claim titles and descriptions give broad surface-level pairing without loading\n    full bodies; full notes are loaded selectively where depth is needed'). The note\n    states it more fully and grounds it in title-as-claim traversal; the dependent's\n    version is better fitted to its own use because it ties the broad view to pairing\n    for combinatorial discovery and adds that short notes make both modes cheaper,\n    which the note does not say.\n- scope: passage\n  quotes:\n  - Resolution here means the scope and detail exposed by a view, not an intrinsic\n    abstraction rank assigned to an artifact.\n  reason: PARTLY SUPPLIED — kb/theory/areas-exist-because-useful-operations-require-reading-notes-together.md\n    — needs 'resolution levels a consumer must move between' among which read-together\n    cohorts (areas) can be placed. The note supplies views of different scope, including\n    an intermediate grouping (curated indexes) and intermediate views via progressive\n    disclosure, so a bounded cohort fits its definition; but the note neither names\n    areas or read-together cohorts as a view nor speaks of discrete levels, and it\n    explicitly rejects a fixed abstraction rank, so 'levels' is only loosely the note's\n    sense.\n- scope: passage\n  quotes:\n  - A reader using a knowledge base alternates between broad views that expose possible\n    routes and narrower views that supply detail.\n  reason: SUPPLIED — kb/sources/gwern-design-of-this-website.ingest.md — needs the\n    concept of resolution-switching as movement between broad and detailed views,\n    for which nested previews and full tag pages are cited as practitioner feasibility\n    evidence. The note's definition and its index-and-notes mechanism supply that\n    concept; the ingest's own transfer bound (agents use compact heads and scoped\n    queries) is consistent with the note's statement that fluidity is relative to\n    the navigation operations available.\n- scope: passage\n  quotes:\n  - its role is to preserve the task-relative relationship across the transition\n  reason: SUPPLIED — kb/sources/i-like-em-thick.ingest.md — needs resolution switching\n    as a movement across a bounded knowledge whole that can keep revealing load-bearing\n    relationships, linked alongside link strength. The note's definition plus its\n    link-context mechanism (contextual phrases preserve why two views belong together,\n    citing link strength) supply this; the ingest's further claim that switching 'continues\n    to reveal non-redundant' relationships is its own interpretation of thickness,\n    not a claim it takes from the note.\n- scope: passage\n  quotes:\n  - Resolution-switching helps a reader assemble those views; it does not perform\n    the recognition or guarantee a discovery.\n  reason: NOT SUPPLIED — kb/sources/creative-thinking-by-claude-shannon.ingest.md\n    — the ingest's is-evidence-for passage uses resolution-switching in the sense\n    of restating a problem from 'every possible angle' and escaping a mental rut at\n    one viewpoint, and says this is 'precisely the problem resolution-switching solves'.\n    The note defines resolution as scope and detail of a view, not alternative framings\n    or viewpoints, and its discovery section explicitly says switching does not perform\n    recognition or guarantee a discovery; the dependent uses the term in another sense\n    and claims a stronger role than the note supplies.\ncontract: report\ntarget-sha256: 43adb6715b85adfb0189cfa5485696ff5e43b0a397a031a8696e7f9ea697c9f2\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role/artifact/reviews/1c107f51fccb121a50f404cb/inputs/target/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role/artifact/reviews/1c107f51fccb121a50f404cb/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role/calls/launches/5e895bae6d0f43f5ba0ff6be01ed3dcd/outputs/review.md\nraw-output-sha256: 8918382323522c830101cda25b687185c4f5a0544d47d64e17d3beae60bc703c\n---\n\n# Role in the KB: A knowledge base should support fluid resolution-switching\n\n## Role\nThe note supplies the term \"resolution-switching\" — movement between broad and narrow views of a KB — that three theory notes and three source ingests cite when they talk about breadth versus depth of reading. Theory dependents use it as an extension target: pointer tiers form its gradient, title-scanning versus full loading are its two modes, and areas sit among its levels. Ingests cite it as the concept their sources give evidence for. No dependent argues from the note's evaluative criterion or its boundaries.\nRelied on: the term resolution-switching and its definition as movement among broad and narrow views; the titles/descriptions/bodies breadth–depth mechanism; the progressive-disclosure cost gradient of pointer tiers; link context preserving relationships across a switch. Unused: the four-question evaluative criterion, \"resolution-switching fluidity\" as a named criterion, the complement to retrieval accuracy, the boundary with addressability grain, pointer accuracy and recall, the outbound-link-not-required boundary, the link-following/search distinction, and the open questions on measurement.\n\n## Dependents\n- `kb/theory/pointer-design-tradeoffs-in-progressive-disclosure.md` — needs pointer tiers as the resolution gradient.\n- `kb/theory/short-composable-notes-maximize-combinatorial-discovery.md` — needs title-level scanning for breadth and full loading for depth (two passages, same need).\n- `kb/theory/areas-exist-because-useful-operations-require-reading-notes-together.md` — needs resolution levels among which read-together cohorts can sit.\n- `kb/sources/gwern-design-of-this-website.ingest.md` — needs the concept for which nested previews and tag pages are feasibility evidence.\n- `kb/sources/i-like-em-thick.ingest.md` — needs switching across a bounded whole that surfaces load-bearing relationships.\n- `kb/sources/creative-thinking-by-claude-shannon.ingest.md` — uses the term in a restatement/viewpoint sense the note does not hold. Its second passage was cut at 1200 characters; the visible part asks for a new note that links to this one, not a change to it.\n\n## Duplication\n`kb/theory/short-composable-notes-maximize-combinatorial-discovery.md` restates the note's titles/descriptions/bodies mechanism in one sentence. The note's version is fuller and grounded in title-as-claim traversal. The dependent's version fits its own use better, because it ties the broad view to pairing and adds that short notes make both modes cheaper.\n\n## Untaken recommendations\nNone. The Shannon ingest's visible recommendation is to write a separate note that links to this one; it asks for no change to this note. Its passage was cut at 1200 characters, so any later recommendation in that passage is unseen.\n\n## Reach\n- The definition of resolution as the scope and detail of a view, and the term itself, reach all six dependents. A change to the term or its sense reaches `kb/theory/areas-exist-because-useful-operations-require-reading-notes-together.md` (which reads it as levels), `kb/sources/gwern-design-of-this-website.ingest.md`, `kb/sources/i-like-em-thick.ingest.md`, and `kb/sources/creative-thinking-by-claude-shannon.ingest.md` (which already reads it in another sense).\n- The titles/descriptions/bodies breadth–depth mechanism reaches `kb/theory/short-composable-notes-maximize-combinatorial-discovery.md`.\n- The progressive-disclosure cost gradient reaches `kb/theory/pointer-design-tradeoffs-in-progressive-disclosure.md`.\n- The link-context mechanism reaches `kb/sources/i-like-em-thick.ingest.md`.\n- The discovery boundary (switching does not perform recognition) bears on `kb/sources/creative-thinking-by-claude-shannon.ingest.md`, whose claim is stronger than this boundary allows.\n- The evaluative criterion and its four questions, the boundaries section and the open questions reach no dependent.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 46
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-knowledge-base-should-support-fluid-resolution-switching/43adb6715b85/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/a-knowledge-base-should-support-fluid-resolution-switching.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

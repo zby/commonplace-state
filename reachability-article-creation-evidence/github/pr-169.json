@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This keeps the article's current spine and makes only the minimum corrections needed to complete the experimental claim.\n\n- distinguish comparative evidence from adoption and later operative use\n- define the better-than result under a fixed declared comparison with prior-scope non-regression\n- separate the supplied-theory holding benchmark from a later acquisition condition\n- state that the Naurian project-theory requirement is an experimental functional hypothesis\n- connect the modification benchmark to the existing-organization note\n\nThe PR changes only the program article.",
+    "closedAt": "2026-09-01T05:53:18Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T21:59:13Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T21:59:13Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify operative successor and acquisition tests",
+        "oid": "808f24958459966dbf50810b99b90ac6ef7f1538"
+      }
+    ],
+    "createdAt": "2026-08-31T21:59:26Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 16,
+        "deletions": 10
+      }
+    ],
+    "headRefName": "clarify-operative-successor-experiment",
+    "isDraft": false,
+    "mergedAt": "2026-09-01T05:53:18Z",
+    "number": 169,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Clarify operative succession and theory acquisition",
+    "updatedAt": "2026-09-01T05:53:18Z",
+    "url": "https://github.com/zby/commonplace/pull/169"
+  },
+  "inline_review_comments": []
+}

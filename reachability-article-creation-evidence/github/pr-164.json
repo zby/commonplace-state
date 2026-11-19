@@ -1,0 +1,94 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "The TL;DR had become a definition chain: agentic system, machinery, factory,\nfactory learns, all before anything contestable. It summarized the article's\nsetup rather than its bet, and nothing in it could turn out to be false.\n\nRestore the shape the TL;DR had before 30f569e and 9fca4f9 removed it \u2014 a\nstake, a concession, and a testable bet \u2014 without restoring the overclaim\nthose commits were right to cut. Recursive construction and closure stay\nframed as what makes the question worth asking, not as results the program\nhas established, so the summary no longer contradicts the stronger-claims\ntable. Names theory-mediated learning with a short gloss, since the title\nmoved away from that term and a public reader arrives without it.\n\nDrops the recursive-self-improvement label; the closure it described and the\ncontrast with training new models stay in plain wording.",
+    "closedAt": "2026-08-31T18:17:05Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T18:00:21Z",
+        "authors": [
+          {
+            "email": "noreply@anthropic.com",
+            "id": "MDQ6VXNlcjgxODQ3",
+            "login": "claude",
+            "name": "Claude"
+          }
+        ],
+        "committedDate": "2026-08-31T18:00:21Z",
+        "messageBody": "The TL;DR had become a definition chain: agentic system, machinery, factory,\nfactory learns, all before anything contestable. It summarized the article's\nsetup rather than its bet, and nothing in it could turn out to be false.\n\nRestore the shape the TL;DR had before 30f569e and 9fca4f9 removed it \u2014 a\nstake, a concession, and a testable bet \u2014 without restoring the overclaim\nthose commits were right to cut. Recursive construction and closure stay\nframed as what makes the question worth asking, not as results the program\nhas established, so the summary no longer contradicts the stronger-claims\ntable. Names theory-mediated learning with a short gloss, since the title\nmoved away from that term and a public reader arrives without it.\n\nDrops the recursive-self-improvement label; the closure it described and the\ncontrast with training new models stay in plain wording.",
+        "messageHeadline": "Lead the research program with its stake instead of its definitions",
+        "oid": "e964265ffb4f43dd4d0e9f38de861e71cadc7a14"
+      },
+      {
+        "authoredDate": "2026-08-31T18:03:17Z",
+        "authors": [
+          {
+            "email": "noreply@anthropic.com",
+            "id": "MDQ6VXNlcjgxODQ3",
+            "login": "claude",
+            "name": "Claude"
+          }
+        ],
+        "committedDate": "2026-08-31T18:03:17Z",
+        "messageBody": "The summary claimed improvement without training new models but never said\nwhy that is available, leaving the reader to supply the mechanism. Addressable\nstorage is the reason: a retained change is a write, so neither catastrophic\nforgetting nor loss of plasticity applies.\n\nScopes the claim to retention rather than to continual learning as a whole.\nThe unrestricted form would contradict sutton-javed-why-ai-models-stop-learning,\nretained in kb/sources/ as a counterpoint arguing that context-state adaptation\ncannot replace continual weight learning, and the body carries no rebuttal to\nit. The scoped form also sets up the bet instead of sitting beside it: cheap\nretention relocates the difficulty to selection and coherence, which is what\ntheory-mediated learning is proposed to address.\n\nThe body's continual-learning section does not yet develop this framing; it\nargues the retention path without naming the storage substrate.",
+        "messageHeadline": "Name addressable storage as what makes retention cheap in the TLDR",
+        "oid": "e5e20f6b50fb246dbe789ba794451144a3f9c650"
+      },
+      {
+        "authoredDate": "2026-08-31T18:07:17Z",
+        "authors": [
+          {
+            "email": "noreply@anthropic.com",
+            "id": "MDQ6VXNlcjgxODQ3",
+            "login": "claude",
+            "name": "Claude"
+          }
+        ],
+        "committedDate": "2026-08-31T18:07:17Z",
+        "messageBody": "The previous TLDR claimed cheap retention makes continual learning easy. That\nattacks a position Sutton and Javed do not hold: the retained interview has\nthem conceding context-state adaptation outright, and resting the weight\nrequirement on concept and abstraction formation instead. It also collides\nwith continual-learning-requires-governing-behaviour-changing-writes, which\nargues continual learning needs governed writes beyond stored content.\n\nAims the disagreement where the ingest's own limitations locate it: the\ninterview does not establish continued weight change as the necessary\ncomponent boundary, and never compares its update space with evidence-\nresponsive artifact learning. Sutton names self-consistency under continued\nself-training as his lab's biggest ambition, so both programs agree coherence\nis the hard problem and differ on substrate. The claim is now that coherence\nis more tractable where the learned material can be read, which is falsifiable\nagainst the strategy-change conditions the article already lists.\n\nThe body still cites none of the coevolution note cluster this claim rests on.",
+        "messageHeadline": "Contest weight-necessity on coherence rather than on retention",
+        "oid": "98de8a39be41200e60ee4b7e74111fbc20ec7316"
+      },
+      {
+        "authoredDate": "2026-08-31T18:13:32Z",
+        "authors": [
+          {
+            "email": "noreply@anthropic.com",
+            "id": "MDQ6VXNlcjgxODQ3",
+            "login": "claude",
+            "name": "Claude"
+          }
+        ],
+        "committedDate": "2026-08-31T18:13:32Z",
+        "messageBody": "The article argued its position against Sutton's later bet until f44b73e, which\ncut the section while removing the Naur material; Sutton mentions went from five\nto one to none. The TLDR meanwhile grew a claim about coherence and readable\nlearning that the body neither stated nor sourced.\n\nRestores the section under the factory framing, keeping the earlier reading of\nthe retained quote: Sutton and Javed allow context in the agent's state and\nrequire weight change on top of it, so the disagreement is over the necessity\nof weight updates for concept formation, not over whether anything can be\nlearned outside weights. Overstating it as exclusivity would misread a quote\nthat says it could be both.\n\nAdds the coherence argument the TLDR now leads with. Sutton names self-\nconsistency under continued self-training as his lab's largest goal, so both\nprograms treat coherence as the hard part and differ on substrate; the bet is\nthat readable retained material makes inspection, testing, and withdrawal\npossible where weights do not. Cites the coevolution note cluster the claim\nrests on.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series",
+        "messageHeadline": "Restore the Sutton disagreement and ground the coherence claim",
+        "oid": "a6be3613ce611103d1963307edcf5f38798ab873"
+      }
+    ],
+    "createdAt": "2026-08-31T18:16:51Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 37,
+        "deletions": 1
+      }
+    ],
+    "headRefName": "claude/research-program-tldr-6esh9l",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T18:17:05Z",
+    "number": 164,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Lead the research program with its stake instead of its definitions",
+    "updatedAt": "2026-08-31T18:17:05Z",
+    "url": "https://github.com/zby/commonplace/pull/164"
+  },
+  "inline_review_comments": []
+}

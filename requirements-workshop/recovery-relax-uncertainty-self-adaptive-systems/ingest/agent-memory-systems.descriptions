@@ -1,0 +1,3 @@
+QUERY: rg -n -i '^description:.*(requirement|objective|diagnostic|observab|fixed.*decomposition|bounded.*adapt)' kb/agent-memory-systems/ --glob *.md --glob !*.brief.md
+
+EXIT: 1

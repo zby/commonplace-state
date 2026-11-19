@@ -1,0 +1,16 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/arkenos-landing-page.ingest.md
+snapshot_sha256: 863362e2599890858a8b7cfa64c6f3be4c456e340578be91bc8de6212027ec05
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-16T12:42:42+01:00'
+checks:
+- at: '2026-11-16T12:46:23+01:00'
+  failures: []
+- at: '2026-11-16T12:46:32+01:00'
+  failures: []
+- at: '2026-11-16T12:46:33+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T12:46:33+01:00'

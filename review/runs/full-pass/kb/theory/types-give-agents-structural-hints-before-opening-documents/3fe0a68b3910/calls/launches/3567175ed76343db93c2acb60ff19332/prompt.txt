@@ -1,0 +1,39 @@
+Task:
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/types-give-agents-structural-hints-before-opening-documents.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/accessibility/jargon-persistence.md`: its text is <Inputs: gate-jargon-persistence.md>; write its review to <Required outputs: review-jargon-persistence.md>.
+- `kb/instructions/review-gates/accessibility/notation-opacity.md`: its text is <Inputs: gate-notation-opacity.md>; write its review to <Required outputs: review-notation-opacity.md>.
+- `kb/instructions/review-gates/accessibility/undefined-terms.md`: its text is <Inputs: gate-undefined-terms.md>; write its review to <Required outputs: review-undefined-terms.md>.
+- `kb/instructions/review-gates/accessibility/unidentified-references.md`: its text is <Inputs: gate-unidentified-references.md>; write its review to <Required outputs: review-unidentified-references.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own structure and result line:
+- Structure the review as `### Summary` (a short paragraph), `### Findings` (`- <severity>: <finding>` items) and, when needed, `### Suggested Revision`.
+- End with exactly one result line, the last non-empty line of the file: `## Result: PASS`, `## Result: WARN` or `## Result: FAIL`. Do not use aliases such as Verdict, Outcome, OK or UNKNOWN, and write no other result-like line.
+
+
+Inputs (read these exact files):
+- gate-jargon-persistence.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/inputs/gate-jargon-persistence.md
+- gate-notation-opacity.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/inputs/gate-notation-opacity.md
+- gate-undefined-terms.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/inputs/gate-undefined-terms.md
+- gate-unidentified-references.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/inputs/gate-unidentified-references.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/inputs/note.md
+
+Required outputs (write these exact files):
+- review-jargon-persistence.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/outputs/review-jargon-persistence.md
+- review-notation-opacity.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/outputs/review-notation-opacity.md
+- review-undefined-terms.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/outputs/review-undefined-terms.md
+- review-unidentified-references.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/outputs/review-unidentified-references.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/3567175ed76343db93c2acb60ff19332/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

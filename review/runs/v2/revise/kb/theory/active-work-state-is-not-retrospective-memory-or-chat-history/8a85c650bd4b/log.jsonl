@@ -1,0 +1,19 @@
+{"time": 1794828786.8101563, "event": "accepted", "path": "plan.yaml", "sha256": "e72ae7ffeaa8a30e6d16cba6bfdb8c9d498df9c6428420e96c92eb27686a1077"}
+{"time": 1794828786.8107398, "event": "accepted", "path": "start.md", "sha256": "8a85c650bd4b4d5d87aec905cd5158d082723035defc6f5e48a8490d50b93c1d"}
+{"time": 1794828831.4188046, "event": "launch", "job": "fix-strategy-taxonomy/semantic/underspecified-assertions", "key": "204537a4090c2a67c23c81511c2b7c510262f620638d52e7efe1f0c1a7c47a05", "launch": "89a9f55dc64247be8b992098493b2c38", "status": "delivered"}
+{"time": 1794828831.4233847, "event": "answered", "job": "fix-strategy-taxonomy/semantic/underspecified-assertions", "key": "204537a4090c2a67c23c81511c2b7c510262f620638d52e7efe1f0c1a7c47a05", "problem": false}
+{"time": 1794828832.5241053, "event": "accepted", "path": "reports/fix-strategy-taxonomy/semantic/underspecified-assertions.md", "sha256": "25c50d119dbfa024d234ad96e6bd4ef39c1a368167743feb35d5f40c454001c6"}
+{"time": 1794828832.524512, "event": "accepted", "path": "texts/fix-strategy-taxonomy/semantic/underspecified-assertions.md", "sha256": "974c5eb535d99ba1236f12700ee75308b51d4162693b09f629ab40658c908409"}
+{"time": 1794828832.525656, "event": "accepted", "path": "final.md", "sha256": "974c5eb535d99ba1236f12700ee75308b51d4162693b09f629ab40658c908409"}
+{"time": 1794828832.5259702, "event": "accepted", "path": "final.diff", "sha256": "787556ee955b259fba1511813df05d234166e2db9a0efcd81a847a316d8d5c11"}
+{"time": 1794828832.527391, "event": "accepted", "path": "publication-answers.md", "sha256": "9cdb778513ef2070827d03ebe03947be27890623676664ed85db1838ba9f6890"}
+{"time": 1794837803.485988, "event": "accepted", "path": "plan.yaml", "sha256": "e72ae7ffeaa8a30e6d16cba6bfdb8c9d498df9c6428420e96c92eb27686a1077"}
+{"time": 1794837803.4863381, "event": "accepted", "path": "start.md", "sha256": "8a85c650bd4b4d5d87aec905cd5158d082723035defc6f5e48a8490d50b93c1d"}
+{"time": 1794837858.1469738, "event": "launch", "job": "fix-strategy-taxonomy/semantic/underspecified-assertions", "key": "a5f2d44eda5c5a34fb1ffc548094ef73c969ccd0b96581f3aaab203a350c1212", "launch": "0d40593160154d61b09557050b1cf15d", "status": "delivered"}
+{"time": 1794837858.1514165, "event": "answered", "job": "fix-strategy-taxonomy/semantic/underspecified-assertions", "key": "a5f2d44eda5c5a34fb1ffc548094ef73c969ccd0b96581f3aaab203a350c1212", "problem": false}
+{"time": 1794837859.3408504, "event": "accepted", "path": "reports/fix-strategy-taxonomy/semantic/underspecified-assertions.md", "sha256": "5729445eee66efbadbcc8f2ef546726a6c86378a56db402ee82e19558b7380e0"}
+{"time": 1794837859.341297, "event": "accepted", "path": "texts/fix-strategy-taxonomy/semantic/underspecified-assertions.md", "sha256": "716a8d8cbf46c97eeab7a76eac8e5e6ae097a694a70356a0502813e20dc4e170"}
+{"time": 1794837859.3426888, "event": "accepted", "path": "final.md", "sha256": "716a8d8cbf46c97eeab7a76eac8e5e6ae097a694a70356a0502813e20dc4e170"}
+{"time": 1794837859.343009, "event": "accepted", "path": "final.diff", "sha256": "4c77ff239a631439e32ea5d43499ac93b83ca0a878756814bac66ab1925715c0"}
+{"time": 1794837859.344546, "event": "accepted", "path": "publication-answers.md", "sha256": "631139967c25bb815f1556c07e455d6fd7f0323a8617ae5f1def75de19514faf"}
+{"time": 1794837859.3458445, "event": "accepted", "path": "publication-answers.md", "sha256": "631139967c25bb815f1556c07e455d6fd7f0323a8617ae5f1def75de19514faf"}

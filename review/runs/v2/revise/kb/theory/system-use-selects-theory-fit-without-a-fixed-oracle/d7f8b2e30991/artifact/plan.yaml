@@ -1,0 +1,13 @@
+purpose: Fix the findings the operator approved at triage; the operator named no other
+  purpose.
+defend: []
+stop: null
+passes:
+- pass: fix-strategy-taxonomy
+  finding: kb/reports/state/review/runs/v2/revise/kb/theory/system-use-selects-theory-fit-without-a-fixed-oracle/d7f8b2e30991/artifact/findings/prose/source-residue.md
+- pass: fix-strategy-taxonomy
+  finding: kb/reports/state/review/runs/v2/revise/kb/theory/system-use-selects-theory-fit-without-a-fixed-oracle/d7f8b2e30991/artifact/findings/accessibility/undefined-terms.md
+- pass: fix-strategy-taxonomy
+  finding: kb/reports/state/review/runs/v2/revise/kb/theory/system-use-selects-theory-fit-without-a-fixed-oracle/d7f8b2e30991/artifact/findings/sentence/misleading-link-text.md
+- pass: fix-strategy-taxonomy
+  finding: kb/reports/state/review/runs/v2/revise/kb/theory/system-use-selects-theory-fit-without-a-fixed-oracle/d7f8b2e30991/artifact/findings/frontmatter/description-discrimination.md

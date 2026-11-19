@@ -1,0 +1,9 @@
+$ rg -n -i ^description:.*(governance|authority|goal) kb/agentic-systems/ --glob *.md
+kb/agentic-systems/reviews/ai-agent-book.md:2:description: "Whole-book comparison of AI Agents in Depth with Commonplace, separating broad architectural convergence from differences in memory admission, epistemic warrant, governance, and orchestration"
+kb/agentic-systems/reviews-archive/arsumbris.md:3:description: 'arsumbris release-wide review: typed-file memory, adapter-specific governance and instructed
+kb/agentic-systems/reviews-archive/apache-maka.md:3:description: "Apache Maka's hosted execution, durable continuation, separate memory acquisition and evaluation authority at a pinned source boundary"
+kb/agentic-systems/reports/retained-archive/AAS-2026-09-25-primescientist-01/result.md:3:description: "PrimeScientist plan-tree search, score/prior selection, reflector rationale and execution inheritance with bounded evaluator and budget authority"
+kb/agentic-systems/reports/retained-archive/AAS-2026-09-25-swarmworld-01/result.md:3:description: "Complete code-grounded analysis of SwarmWorld's simulator, model-policy, episode memory and experimental authority at a frozen source boundary."
+EXIT 0
+$ rg -n -i stakeholder|goal interpretation|goal revision kb/agentic-systems/ --glob *.md
+EXIT 1

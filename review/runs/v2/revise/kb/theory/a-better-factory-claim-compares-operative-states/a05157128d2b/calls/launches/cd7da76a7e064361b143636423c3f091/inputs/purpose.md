@@ -1,0 +1,1 @@
+Agents and maintainers who design or evaluate self-revising factories should be able to tell, on one read, what an auditable improvement claim compares and which requirements must be fixed before development, without working through caveats the note repeats.

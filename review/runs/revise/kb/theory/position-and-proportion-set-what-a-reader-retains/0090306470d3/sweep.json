@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "simple": {
+      "harness": "codex",
+      "launch_model": "gpt-6.1-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "judgment": {
+      "harness": "codex",
+      "launch_model": "gpt-6.1-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    }
+  }
+}

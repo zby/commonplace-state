@@ -1,0 +1,39 @@
+Task:
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/types-give-agents-structural-hints-before-opening-documents.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/complexity/claim-to-section-ratio.md`: its text is <Inputs: gate-claim-to-section-ratio.md>; write its review to <Required outputs: review-claim-to-section-ratio.md>.
+- `kb/instructions/review-gates/complexity/connection-inflation.md`: its text is <Inputs: gate-connection-inflation.md>; write its review to <Required outputs: review-connection-inflation.md>.
+- `kb/instructions/review-gates/complexity/could-be-a-paragraph.md`: its text is <Inputs: gate-could-be-a-paragraph.md>; write its review to <Required outputs: review-could-be-a-paragraph.md>.
+- `kb/instructions/review-gates/complexity/framework-decoration.md`: its text is <Inputs: gate-framework-decoration.md>; write its review to <Required outputs: review-framework-decoration.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own structure and result line:
+- Structure the review as `### Summary` (a short paragraph), `### Findings` (`- <severity>: <finding>` items) and, when needed, `### Suggested Revision`.
+- End with exactly one result line, the last non-empty line of the file: `## Result: PASS`, `## Result: WARN` or `## Result: FAIL`. Do not use aliases such as Verdict, Outcome, OK or UNKNOWN, and write no other result-like line.
+
+
+Inputs (read these exact files):
+- gate-claim-to-section-ratio.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/inputs/gate-claim-to-section-ratio.md
+- gate-connection-inflation.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/inputs/gate-connection-inflation.md
+- gate-could-be-a-paragraph.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/inputs/gate-could-be-a-paragraph.md
+- gate-framework-decoration.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/inputs/gate-framework-decoration.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/inputs/note.md
+
+Required outputs (write these exact files):
+- review-claim-to-section-ratio.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/outputs/review-claim-to-section-ratio.md
+- review-connection-inflation.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/outputs/review-connection-inflation.md
+- review-could-be-a-paragraph.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/outputs/review-could-be-a-paragraph.md
+- review-framework-decoration.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/outputs/review-framework-decoration.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/353a92f6e16d4aa8ad74edfa07408b0b/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

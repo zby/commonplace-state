@@ -1,0 +1,3886 @@
+{
+  "schema": "commonplace-review-targets/2",
+  "model_partition": "gpt-6-sol",
+  "targets": [
+    {
+      "note_path": "kb/notes/a-bare-writing-prompt-does-not-determine-its-intended-contribution.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-better-factory-claim-compares-operative-states.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-claim-without-external-assessment-carries-three-obligations.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-claims-warrant-does-not-determine-its-fit-in-a-working-theory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-complete-theory-path-does-not-establish-improved-capacity.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-consumption-channel-delivers-force-without-the-history-that.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-fixed-model-house-must-retain-missing-procedures-for-theory-use.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-framework-rule-with-a-boundary-preserving-rival-is-not-inherited.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-goal-holding-interpreter-fails-soft-workarounds-tax-a-bounded-budget.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-knowledge-base-should-support-fluid-resolution-switching.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-linked-note-discharges-its-own-grounding-so-a-citing-note-owes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-method-ceiling-bounds-the-method-not-the-transfer-already-made.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-methodology-governs-its-own-extension-only-as-far-as-it-settles.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-note-is-an-atomic-step-relative-to-the-check-that-reads-it.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-proposal-selection-loop-requires-search-evaluation-and-retention.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-proximate-target-is-checked-for-achievement-not-for-warrant.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-retained-instruction-preserves-what-testing-selected.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-retrieval-miss-is-a-local-reflective-path-failure.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-search-controller-is-tested-by-what-it-brings-to-stronger-evaluation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/a-universal-knowledge-framework-demotes-content-taxonomies-to-defaults.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/abstract-an-experience-only-when-you-can-state-the-boundary.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/access-burden-and-transformation-burden-are-distinct-query-dimensions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/accumulation-counts-dependence-through-the-retained-result.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/active-work-state-is-not-retrospective-memory-or-chat-history.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/ad-hoc-explanation-can-be-rational-when-error-is-cheap-and-local.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/ad-hoc-prompts-extend-the-system-without-schema-changes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/addressability-grain-sets-a-matched-selective-read-floor.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/addressable-theory-can-coordinate-heterogeneous-factory-development.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/adversarial-loop-can-reconstruct-the-writing-is-thinking-filter.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-is-a-tool-loop.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-is-a-crosscutting-concern-not-a-separable-niche.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-needs-discoverable-composable-trusted-knowledge-under.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/README.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/activate-behavior-changing-memory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/adaptation-survey-corroborates-memory-requirements.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/create-memory-directly.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/evaluate-memory-by-effects.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/import-external-knowledge.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/keep-compiled-views-aligned.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/make-authority-explicit.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/preserve-evidence-without-loading-history.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/promote-only-when-value-exceeds-cost.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/retire-redact-supersede-relax.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/serve-multiple-consumers.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-memory-requirements/use-trace-extraction-as-meta-learning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-orchestration-needs-coordination-guarantees-not-just.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-orchestration-occupies-a-multi-dimensional-design-space.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agent-runtime-analysis-should-separate-scheduling-context-state.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agentic-substrate-needs-family-specific-machinery-to-be-a-factory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agentic-systems-interpret-underspecified-instructions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agents-md-should-be-organized-as-a-control-plane.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/agents-navigate-by-deciding-what-to-read-next.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/alexander-patterns-and-knowledge-system-design.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/always-loaded-context-mechanisms-in-agent-harnesses.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-accepted-edit-verifies-the-change-not-the-rule.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-action-model-matters-only-through-its-consumption-path.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-enforced-tag-readme-is-a-moc-with-a-machine-checked-contract.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-experiment-identifies-only-the-contrast-it-actually-runs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-insufficient-summary-precedes-the-source-rather-than-replacing.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-omitted-loop-function-and-a-frozen-one-need-different-repairs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-open-domain-theory-builder-becomes-a-software-house-when-new-domains-require-production-machinery-changes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/an-optimal-long-run-learning-strategy-invests-in-its-own-machinery.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/any-symbolic-program-with-llm-calls-is-a-select-call-program.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/artifact-classification-separates-content-kind-lineage-and-authority.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/artifacts-must-preserve-named-choice-scope.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/artifacts-produced-from-sources-need-lineage-recorded-at-the-source.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/automated-synthesis-is-missing-good-oracles.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/automated-tests-for-text.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/automating-kb-learning-is-an-open-problem.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/axes-of-artifact-analysis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/backtracking-keeps-lightweight-search-control-provisional.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/bitter-lesson-selects-against-unearned-reach-not-against-structure.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/borrowed-patterns-transfer-only-over-shared-mechanism.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/borrowing-can-operate-through-retained-artifacts-or-weight-activation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/bounded-context-orchestration-model.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/brainstorming-how-explanatory-reach-informs-kb-design.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/brainstorming-how-to-test-whether-pairwise-comparison-can-harden.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/brainstorming-maintainability-oracles-for-agentic-development.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/broad-software-demands-create-pressure-for-agentic-factory-development.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/candidacy-evidence-licenses-escalation-not-acceptance.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/capable-agents-need-methodology-selection.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/changing-requirements-conflate-genuine-change-with-disambiguation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/cheap-adoption-and-weak-retirement-accumulate-cost.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/cheap-generation-breaks-text-volume-as-an-effort-signal.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/checked-outcome-licenses-episode-retention-not-abstraction.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/choosing-what-to-learn-requires-both-validity-and-learning-value-gates.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/citing-retained-theory-at-the-decision-point-is-a-mediation-trace.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/claim-modality-is-the-inference-form-of-the-refuter.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/claim-notes-should-use-toulmin-derived-sections-for-structured.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/code-complements-weight-prompt-with-symbolic-operations.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/codify-versus-llm-decision-heuristics.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/codifying-predictable-choices-leaves-agents-with-less-predictable-work.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/commitment-not-derivation-creates-new-ground-truth.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/commonplace-builds-a-theory-builder-and-tests-whether-it-learns.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/competing-causal-theories-can-guide-distinguishing-experiments.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/compiling-coordination-preserves-primitive-not-aggregate-authority.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/compounding-is-tested-in-later-improvement-not-by-the-accepting-metric.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/computationally-directed-self-improvement-is-a-reallocation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/constraining-and-extraction-both-trade-generality-for-reliability.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/constraining-during-deployment-is-continuous-learning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/context-contamination-operates-below-an-agents-compliance-reasoning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/context-efficiency-is-the-central-design-concern-in-agent-systems.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/context-operation-interface-bounds-context-policy.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/continual-learning-requires-governing-behaviour-changing-writes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/conversation-vs-prompt-refinement-in-agent-to-agent-coordination.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/cost-sensitive-formalisms-for-tentative-theory-search.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/criteria-edits-invalidate-verdicts-process-edits-invalidate-artifacts.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/cross-task-transition-policy-remains-scheduling-behind-tools.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/current-task-fit-alone-does-not-warrant-costly-entrenchment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/decomposition-heuristics-for-bounded-context-scheduling.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/actionable-methodology.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/addressable-theory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/behavior-determining-organization.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/behavioral-authority.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/codification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/constraining.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/context-engineering.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/coordination-value.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/discovery-lifecycle.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/evidence-bearing-on-an-improvement-objective.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/factory-development.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/knowledge-artifact.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/lineage.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/operative-change.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/operative-part.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/reach-assessment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/reflective-system.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/representational-form.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/retained-artifact.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/self-improving-system.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/software-factory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/software-house.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/storage-substrate.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/system-definition-artifact.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/tentative-theory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/definitions/theory-builder.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/derivation-and-inheritance-give-starting-warrant-earns-scope.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/design-for-the-first-time-human-except-on-access-cost.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/design-rationale-must-preserve-unregenerable-decision-premises.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/designing-agent-memory-systems.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/deterministic-validation-should-be-a-script.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/diagnostic-richness-constrains-outer-loop-learning-quality.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/directory-placement-is-total-frontmatter-classification-is-partial.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/directory-scoped-types-are-cheaper-than-global-types.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/disconnected-witnesses-do-not-establish-a-causal-path-through-theory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/document-types-should-be-verifiable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/documentation-generates-the-system-rather-than-describing-it.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/domain-pricing-routes-an-exception-to-idealization-assessment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/elicitation-requires-maintained-question-generation-systems.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/enforcement-without-structured-recovery-is-incomplete.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/ephemeral-computation-prevents-accumulation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/ephemerality-is-safe-where-embedded-operational-knowledge-has-low.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/epiplexity-by-example-what-entropy-and-complexity-miss.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/error-correction-works-above-chance-oracles-with-decorrelated-checks.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/error-messages-that-teach-are-a-constraining-technique.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evaluation-automation-is-phase-gated-by-comprehension.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/a-five-link-cap-missed-four-grounding-findings-in-twelve-reviews.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/commonplace-as-a-reflective-system.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/commonplace-revision-used-theory-guided-computational-search.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/in-one-episode-recognition-appeared-only-in-the-corpus-loaded-run.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/independent-pass-tightened-three-of-four-pirolli-verdicts.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/missing-rationale-does-not-exclude-a-builder-weights-do-across-runs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/quotes-route-rollout-grounded-more-uses-without-earning-claim-ids.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/real-self-improving-systems-occupy-combinations-no-rung-captures.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/seven-documentation-cases-left-routing-and-synthesis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/single-artifact-review-bundles-still-cut-claude-costs-substantially.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/six-commonplace-paths-establish-broad-addressability-not-completeness.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/tag-readme-trace-observed-causal-connection.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/three-simplification-passes-exposed-different-tradeoffs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/two-rewrites-exposed-a-syntax-or-repetition-tradeoff.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evidence/vibe-noting-trace-shows-persistence-enables-revision-not-certification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/evolving-understanding-needs-holistic-rewrite-not-composition.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/exact-implementation-does-not-validate-a-requirement.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/execution-indeterminism-is-a-property-of-the-sampling-process.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/factory-construction-does-not-establish-knowledge-acquisition.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/factory-learning-is-experience-responsive-retention-that-improves.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/factory-learning-mechanisms-should-be-compared-on-the-same-causal-job.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/failure-explanation-changes-later-branch-decisions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/false-positive-generation-is-filtered-before-retention.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/feasibility-is-the-heaviest-forks-net-load.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/files-defer-centralized-schema-commitment-until-invariants-stabilize.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/final-task-success-does-not-establish-intended-path-health.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/first-principles-analysis-maps-design-space-before-selection.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/first-principles-reasoning-selects-for-explanatory-reach-over.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/flat-memory-predicts-specific-cross-contamination-failures-that-are.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/formal-systems-assess-explanatory-reach-through-causal-and-proof.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/frontloading-spares-execution-context.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/full-identity-keys-decouple-a-batch-protocol-from-its-packing-axis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/generality-bought-to-avoid-counterexamples-is-paid-for-in.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/generate-instructions-at-build-time.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/generation-confidence-does-not-by-itself-certify-soundness.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/goedel-machines-are-a-proof-governed-case-of-self-modification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/history-has-one-chance-to-become-checkable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/holding-the-client-fixed-exports-the-least-warrantable-decisions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/human-analogies-suggest-functions-not-component-boundaries.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/human-llm-differences-are-load-bearing-for-knowledge-system-design.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/human-writing-structures-transfer-to-llms-because-failure-modes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/improvements-can-accumulate-without-compounding.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/in-context-learning-presupposes-context-engineering.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/inbound-and-outbound-links-serve-asymmetric-reader-needs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/increasing-computational-autonomy-relocates-human-effort.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/index-completeness-does-not-determine-editorial-orientation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/indexes-lower-recall-when-they-suppress-retrieval-that-would-find-more.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/information-value-is-observer-relative.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/inspectable-artifact-not-supervision-defeats-the-blackbox-problem.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/instantiation-alone-cannot-model-agent-learning-across-sessions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/instruction-specificity-should-match-loading-frequency.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/intent-controls-choices-by-distinguishing-live-alternatives.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/kb-goals-in-always-loaded-context-guide-inclusion-decisions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/knowledge-access-architecture-must-be-evaluated-end-to-end.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/knowledge-storage-does-not-imply-contextual-activation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/known-target-discovery-benchmarks-show-reachability-not-discovery.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/learning-is-not-only-about-generality.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/legal-drafting-solves-the-same-problem-as-context-engineering.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/lightweight-search-control-does-not-license-adoption.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/link-following-and-search-impose-different-metadata-requirements.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/link-graph-plus-timestamps-enables-make-like-staleness-detection.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/link-strength-is-encoded-in-position-and-prose.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/linked-note-durable-payload-is-what-consumption-path-cannot-supply.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/linking-theory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/links-encode-conditional-possibilities-not-obligations.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/literature-reuse-can-reverse-a-papers-hierarchy-of-contributions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-code-boundaries-are-natural-checkpoints.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-context-interprets-instructions-and-content-through-one-medium.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-context-is-composed-without-scoping.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-debugging-starts-with-retry-versus-rewrite-triage.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-executed-methodologies-are-metacircular-interpreters.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-frameworks-should-keep-the-tool-loop-optional.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-generation-relaxes-goals-where-human-writing-stalls.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-learning-phases-fall-between-human-learning-modes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-mediated-schedulers-are-a-degraded-variant-of-the-clean-model.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-output-deviation-requires-three-way-diagnosis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/llm-recompute-cost-inverts-the-store-vs-recompute-default.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/local-materialization-should-outperform-distant-declarations.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/localized-retention-pays-where-change-is-sparse-in-a-matching.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/machinery-persists-by-warrant-not-position-in-a-reflective-loop.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/maintenance-capacity-must-match-harmful-artifact-inflow.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/maintenance-operations-catalogue-should-stage-stable-procedures.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/many-to-many-edge-state-is-where-files-yield-to-a-database.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/measuring-autonomy-well-enough-to-see-it-improve-is-an-open-problem.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/mechanistic-constraints-make-popperian-kb-recommendations-actionable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/memory-backed-personalization-can-look-like-model-improvement.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/memory-design-adds-operational-axes-to-artifact-analysis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/memory-management-policy-is-learnable-but-oracle-dependent.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/methodological-and-computational-closure-track-different-changes.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/methodology-enforcement-is-constraining.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/minimum-viable-vocabulary-is-the-naming-set-that-most-reduces.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/mixed-epistemic-status-must-be-preserved-below-the-document-level.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/model-resolved-indirection-adds-interpretation-work-to-llm-execution.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/moving-the-interpretation-enforcement-boundary-requires-coverage.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/narrowing-bought-to-survive-review-is-paid-for-in-content.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/natural-language-project-state-specializes-search-heuristics.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/naur-equates-machine-execution-with-formulated-criteria.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/naurs-compiler-case-tests-one-historically-bounded-documentation-and-consumption-system.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/notes-need-quality-scores-to-scale-curation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/only-explicit-retention-is-durable-writable-and-addressable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/opacity-is-a-scale-threshold.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/open-domain-memory-retention-needs-a-declared-output-spec.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/open-ended-construction-builds-an-object-and-a-theory-of-it.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/open-ended-improvement-allocates-search-before-evaluation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/open-ended-theory-learning-and-factory-learning-close-the-same.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/operational-signals-that-a-component-is-a-relaxing-candidate.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/opposed-recompute-factors-do-not-decide-documentation-segmentation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/oracle-accumulation-improves-the-selection-environment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/oracle-strength-spectrum.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/orchestration-needs-privilege-quarantine-not-permission-scope.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/orchestration-strategies-and-run-state-have-opposite-persistence.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/out-of-spec-output-is-a-failure-of-the-interpreter-not-the-spec.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/parametric-reproduction-cannot-replace-an-authoritative-record.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/periodic-kb-hygiene-should-be-externally-triggered-not-embedded-in.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/pointer-design-tradeoffs-in-progressive-disclosure.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/problem-matches-guide-method-search-mechanism-matches-bound-transfer.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/process-structure-and-output-structure-are-independent-levers.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/program-theory-sustains-search-under-delayed-feedback.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/progressive-constraining-commits-only-after-patterns-stabilize.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/project-theory-relates-new-demands-to-existing-organization.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/promotion-selects-for-unreliable-activation-and-the-regress-ends-only.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/prompt-ablation-converts-human-insight-to-deployable-framing.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/prototype-standing-is-revision-cost-binding-plus-lost-investment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/psychology-to-agent-transfer-needs-per-principle-failure-mode-testing.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/quality-signals-for-kb-evaluation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/raw-accumulation-does-not-create-usable-memory.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/readable-artifact-loop-is-the-tractable-unit-for-continual-learning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reasoning-production-is-not-reasoning-evaluation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/recognition-not-linking-is-the-hard-problem-in-knowledge-systems.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reflection-buys-addressability.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reflection-makes-retained-lessons-second-order.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reflective-coverage-is-graded-across-representational-forms.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reliability-dimensions-map-to-oracle-hardening-stages.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/research/adaptation-agentic-ai-analysis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/residue-classes-need-different-mechanisms-so-architecture-is-mixed.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/retained-theories-may-improve-sample-efficiency.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/retained-theory-intervention-isolates-one-explicit-surface.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reverse-compression-is-when-llm-output-expands-without-adding.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/reviewers-share-the-fields-prior-so-interpret-findings-by-stance.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/revising-an-improvement-objective-is-licensed-from-outside-it.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/revision-guided-by-rationale-needs-faithfulness-not-just-legibility.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/rlm-has-the-model-write-ephemeral-orchestrators-over-sub-agents.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/rlm-tendril-and-llm-do-place-symbolic-work-at-different-persistence.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/rule-based-context-selection-needs-a-pre-existing-signal.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/runtime-structure-determines-governance-control-surfaces.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/scaling-absorbs-scaffolding-at-fixed-difficulty-not-at-the-frontier.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/scheduler-llm-separation-exploits-an-error-correction-asymmetry.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/selecting-an-llm-output-fixes-a-result-not-its-interpretation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/self-improvement-is-relative-to-a-declared-objective.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/semantic-review-catches-content-errors-that-structural-validation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/semantic-sub-goals-that-exceed-one-context-window-become-scheduling.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/semantic-work-can-be-relocated-but-not-eliminated.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/session-history-should-not-be-the-default-next-context.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/short-composable-notes-maximize-combinatorial-discovery.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/silent-disambiguation-is-the-semantic-analogue-of-tool-fallback.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/skill-discovery-re-fires-in-every-sub-agent-context.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/soft-bound-traditions-as-sources-for-context-engineering-strategies.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/soft-degradation-often-binds-before-the-hard-cap-when-evidence-fits.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/solve-low-degree-of-freedom-subproblems-first-to-avoid-blocking.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/spec-mining-as-codification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/specific-intent-may-out-yield-local-rationales-facts-stay-separate.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/specification-level-separation-recovers-scoping-before-it-recovers.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/specification-strategy-should-follow-where-understanding-lives.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/stale-self-description-conceals-its-own-staleness.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/stateful-tools-recover-control-by-becoming-hidden-schedulers.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/structure-inference-needs-capture-at-the-decision-surface.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/structured-output-is-easier-for-humans-to-review.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/structured-prompt-gains-do-not-establish-distribution-selection.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/subtasks-that-need-different-tools-force-loop-exposure-in-agent.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/superseded-choices-are-retained-superseded-beliefs-are-not.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/synthesis-is-not-error-correction.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/system-definition-artifacts-are-crystallized-reasoning-under-context.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/system-use-provides-evidence-of-theory-fit-not-independent-warrant.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/system-use-selects-theory-fit-without-a-fixed-oracle.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/systematic-prompt-variation-serves-verification-and-diagnosis-not.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/task-families-and-product-families-classify-different-things.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/technical-constraints-make-kb-objective-choice-engineering.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-augmentation-automation-boundary-is-discrimination-not-accuracy.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-bitter-lesson-defense-portfolio-has-one-load-bearing-member.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-bitter-lesson-selects-production-methods-not-representational.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-boundary-of-automation-is-the-boundary-of-verification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-chat-history-model-trades-context-efficiency-for-implementation.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-deployed-system-not-the-model-is-the-unit-of-learning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-four-field-record-exposes-an-efficiency-security-and-sovereignty.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-practical-scheduler-is-the-host-language.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/the-self-improving-system-definition-classifies-its-boundary-cases.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/theory-and-capacity-building-make-the-same-kind-of-commitment.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/theory-and-methodology-form-a-two-layer-execution-system.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/theory-building-has-distinct-precedents.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/theory-warrant-tracked-at-the-finest-granularity-evidence-licenses.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/three-space-agent-memory-echoes-tulvings-taxonomy-but-the-analogy.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/title-as-claim-enables-traversal-as-reasoning.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/title-as-claim-exposes-commitments-enabling-popperian-maintenance.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/title-as-claim-makes-overlap-between-notes-visible.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/trace-extracted-memory-earns-authority-per-operation-not-at-capture.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/traditional-software-can-bracket-executor-conformance-llm-systems.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/treat-continual-learning-as-representational-form-coevolution.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/type-system-enforces-metadata-that-navigation-depends-on.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/types-give-agents-structural-hints-before-opening-documents.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/underspecification-and-indeterminism-complicate-programming-for.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/unformalized-improvements-need-a-pre-formal-stage-in-the-loop.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/universal-software-factory-needs-a-declared-universality-axis.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/use-tests-a-decomposition-locally-rationale-makes-transfer-testable.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/usefulness-autonomy-warrant-and-power-are-separate-dimensions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/verifiability-gradient.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/verifiable-subroles-before-reviewer-identity.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/verification-needs-a-typed-target-before-it-needs-an-oracle.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/vocabulary-collisions-prevented-at-write-time-not-read-time.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/warranted-autonomy-is-bounded-by-oracle-domain.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/warranted-reader-update-is-the-objective-of-substantive-writing.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/warranted-transfer-leaves-people-the-hardest-to-warrant-decisions.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/weakly-discriminated-qualities-tend-to-be-underselected.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/weight-resident-methodologies-compress-behavior-in-context.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/why-directories-despite-their-costs.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/why-notes-have-types.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/wikiwiki-principle-lowest-friction-capture-then-progressive-refinement.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/world-models-assess-explanatory-reach-through-action-conditioned.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    },
+    {
+      "note_path": "kb/notes/writing-styles-are-strategies-for-managing-underspecification.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "requested"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": []
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+Ingest: APEX-MEM — Temporal Graph Memory and Retrieval-Time Resolution
+Ingest: Harness Engineering for Self-Improvement
+Ingest: Niklas Luhmann Archive keyword registers
+Ingest: Ontology-Grounded Project Memory for Coding Agents
+Ingest: Reverse-engineering Instinct's memory through its interface
+Ingest: Auftragstaktik and Mission Command
+Ingest: LLMs in the scientific method—from hypothesis to discovery
+Ingest: Generalization Bias in LLM Summarization of Scientific Research
+Ingest: Conceptual blending in humans and language models
+Ingest: Thread by @frgx
+Ingest: Runtime-Independent Persistent Agents
+Ingest: DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking
+Ingest: The Agent Loop Architecture
+Ingest: Symbiotic Reflection between an Object-Oriented and a Logic Programming Language
+Ingest: Epistemology Without a Knowing Subject
+Ingest: A new Era Of Theory-Driven AI Research
+Ingest: Computational Reflection
+Ingest: Shifting Inductive Bias with Success-Story Algorithm
+Ingest: Amortized Reasoning Index
+Ingest: LLM Position Bias Benchmark (Swapped-Order Pairwise Judging)
+Ingest: When is it better to think without words?
+Ingest: The Anatomy of a Design Theory
+Ingest: The Levels of Edit, Second Edition
+Ingest: Build systems à la carte: Theory and practice
+Ingest: Software Factories book preview
+Ingest: ConvexBench: Can LLMs Recognize Convex Functions?
+Ingest: The Architecture of Complexity (Simon, 1962)
+Ingest: Graphiti: Temporal Knowledge Graph for AI Agents
+Ingest: Towards Automating Scientific Review with Google's Paper Assistant Tool
+Ingest: The Dependency Locality Theory (Gibson 2000)
+Ingest: LLM Wiki
+Ingest: AutoResearch vs Classical Hyperparameter Tuning
+Ingest: LLM Voice
+Ingest: Many AI analysts, one dataset
+Ingest: The Equations of Reasoning (Pathway)
+Ingest: The code IS the graph (Samuel Colvin)
+Ingest: On the Logic of Theory Change
+Ingest: Spacebot: AI Agent for Teams and Communities
+Ingest: Dependency Locality as an Explanatory Principle for Word Order
+Ingest: Seed-Programmed Autonomous General Learning
+Ingest: ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI
+Ingest: MCDP 1, Warfighting (1997)
+Ingest: Rotating needles in space: the road to the Kakeya conjecture, and why it matters
+Ingest: Thread by @LechMazur
+Ingest: You don't have to be smart if you can think clearly
+Ingest: Cybernetics of Cybernetics
+Ingest: A new way to think about composing skills to increase leverage — Skill Graphs 2.0
+Ingest: We Should Take Text Optimization More Seriously
+Ingest: The Bitter Lesson
+Ingest: ResNet revolution
+Ingest: Truth and Proof (Tarski, Scientific American 1969)
+Ingest: DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows
+Ingest: General Morphological Analysis: A general method for non-quantified modelling
+Ingest: S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?
+Ingest: Release Handling
+Ingest: Socratic agents for autonomous scientific discovery in high-dimensional physical systems
+Ingest: Agent Harness for Large Language Model Agents
+Ingest: Studying Software Architecture Through Design Spaces and Rules
+Ingest: Context Engineering for AI Agents in Open-Source Software
+Ingest: Hot Take: LLM can 'jump'
+Ingest: Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning
+Ingest: Autonomous Agent Architecture: Unifying Context Engineering and Memory Engineering
+Ingest: Chunking in Soar: The Anatomy of a General Learning Mechanism
+Ingest: Organizational Learning and Management Information Systems
+Ingest: I like 'em thick
+Ingest: The Dual Nature of Generalization in On-Policy Distillation
+Ingest: DoWhy: Addressing Challenges in Expressing and Validating Causal Assumptions
+Ingest: Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents
+Ingest: Concepts and Experiments in Computational Reflection
+Ingest: The Perfect Search Engine Is Not Enough
+Ingest: Hypothesis generation and updating in large language models
+Ingest: Linguistic complexity: locality of syntactic dependencies (Gibson 1998)
+Ingest: LLM Knowledge Bases
+Ingest: SKILL.state: Scalable Long-Horizon Agent Skills
+Ingest: Continual Harness: Online Adaptation for Self-Improving Foundation Agents
+Ingest: Co-Harness: Co-Evolving Harnesses and Model Weights for LLM Agents
+Ingest: How we built our knowledge base
+Ingest: Circling Back — Clearing Up Myths About the Deming Cycle
+Ingest: From Harness Lock-In to Portable Context Layer
+Ingest: Ivan Vendrov on AI impressiveness and quality
+Ingest: Components of A Coding Agent
+Ingest: Provably Bounded-Optimal Agents
+Ingest: A-MEM: Agentic Memory for LLM Agents
+Ingest: Ironies of Automation (Bainbridge 1983)
+Ingest: A Probabilistic Calculus of Actions
+Ingest: Faster sorting algorithms discovered using deep reinforcement learning
+Ingest: Recursive Experiential–Working Memory Evolution
+Ingest: A Model for Types and Levels of Human Interaction with Automation
+Ingest: LongMemEval and long-term interactive memory
+Ingest: A World Without Referees
+Ingest: On the use of software design models in software development practice
+Ingest: PROV-Overview — An Overview of the PROV Family of Documents
+Ingest: How to build your own agent harness??? (Mike Piccolo / iii)
+Ingest: Building a semantic layer at PostHog
+Ingest: HarnessCompass
+Ingest: SkillGLoW: Procedural-Family Skill Consolidation
+Ingest: How Is LLM Reasoning Distracted by Irrelevant Context? (GSM-DC benchmark)
+Ingest: Building a Repo-Centric Modular Agent Stack
+Ingest: I'm becoming AI-blind
+Ingest: Fences, not Sandboxes
+Ingest: How to organise a project's knowledge for AI coding agent and an engineer
+Ingest: Optimal Ordered Problem Solver
+Ingest: I ONCE WORKED in Buenos Aires
+Ingest: Principles of Metareasoning (Russell and Wefald, 1991)
+Ingest: The Risks of Invariant Risk Minimization (ICLR 2021 camera-ready)
+Ingest: Dreaming with a dynamic workflow
+Ingest: Unexpected Benefits of Self-Modeling in Neural Systems
+Ingest: OpenClaw-RL: Train Any Agent Simply by Talking
+Ingest: Analogical Problem Solving
+Ingest: Continual Learning in Token Space
+Ingest: Human Routers of Machine Words
+Ingest: Theory Refinement Combining Analytical and Empirical Methods
+Ingest: Adaptation of Agentic AI
+Ingest: Infinite midwit
+Ingest: Huxley-Gödel Machine
+Ingest: Online Convex Programming and Generalized Infinitesimal Gradient Ascent
+Ingest: Build Systems à la Carte
+Ingest: The Flawed Ephemeral Software Hypothesis
+Ingest: Evolution of the PDCA Cycle
+Ingest: Defining Self-adaptive Systems: A Systematic Literature Review
+Ingest: PAST-Bench — retained experience in personal agents
+Ingest: The Anatomy of an Agent Harness
+Ingest: A stalled agent-memory contradiction checker
+Ingest: Three Dimensions That Matter To An Agent Memory Store
+Ingest: Harness Engineering: Leveraging Codex in an Agent-First World
+Ingest: On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
+Ingest: Flywheel — Graph Model
+Ingest: SWE-bench Science on coding-agent repairs
+Ingest: Beyond Transformers: Sudoku Bench
+Ingest: Structured Test-Time Scaling: From Multi-Agent Systems to General Inference Architectures
+Ingest: Design Of This Website
+Ingest: The AlexNet moment
+Ingest: Autoreason: Self-Refinement That Knows When to Stop
+Ingest: "Creative Thinking"
+Ingest: in-toto — Providing farm-to-table guarantees for bits and bytes
+Ingest: The Optimal Choice of Hypothesis Is the Weakest, Not the Shortest
+Ingest: Harness Engineering Is Cybernetics
+Ingest: Metaphors We Think With: The Role of Metaphor in Reasoning
+Ingest: LLM Voice — Hacker News discussion
+Ingest: Recursive Language Models - what finally gave me the 'aha' moment
+Ingest: Availability versus accessibility of information in memory
+Ingest: DreamCoder: growing interpretable knowledge with wake-sleep Bayesian program learning
+Ingest: Qwenputer — a deterministic RISC-V CPU inside Qwen3.5
+Ingest: Why is AI-generated language so hard to understand?
+Ingest: The Log Is the Agent
+Ingest: The Nature of Theory in Information Systems
+Ingest: MDSoFa: A Model-Driven Software Factory
+Ingest: Letta (MemGPT): Stateful Agents with Self-Managed Memory
+Ingest: How to think in writing
+Ingest: Harness Continual Learning: Continual Adaptation Beyond Model Parameters
+Ingest: Selection Without Signal, Recovery Through Expression
+Ingest: Skill and Working Memory
+Ingest: Post by @koylanai
+Ingest: Sound Agentic Science Requires Adversarial Experiments
+Ingest: Intelligent AI Delegation
+Ingest: Self-training Large Language Models through Knowledge Detection
+Ingest: Natural-Language Agent Harnesses
+Ingest: WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
+Ingest: TRACE: TRajectory Attribution for Automated Context Engineering
+Ingest: Indistinguishability Obfuscation from Well-Founded Assumptions
+Ingest: Lessons from Building AI Agents for Financial Services
+Ingest: When does an agent wiki pay for itself?
+Ingest: V-JEPA: The next step toward advanced machine intelligence
+Ingest: Nostalgebraist on coding-agent mistakes and benchmark gaps
+Ingest: Reducing rework with set-based systems engineering
+Ingest: Meta-n: Recursive Self-Improvement through Emergent Depth
+Ingest: UPML: A Framework for Knowledge System Reuse
+Ingest: Multi-Agent Self-Supervision (MASS)
+Ingest: The Self-Healing Agent Harness
+Ingest: Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents
+Ingest: Verbalizable Representations Form a Global Workspace in Language Models
+Ingest: The Physics of Symbols: Bridging the Epistemic Cut
+Ingest: The specification statement (Morgan 1988, first paper of PRG-70)
+Ingest: Professional Software Developers Don't Vibe, They Control
+Ingest: Frontis-MA1: Training an AI4AI Model toward Recursive Self-Improvement in MLE
+Ingest: Reading Between the Dots: Decoding Hidden Computation across Filler Tokens
+Ingest: The Price of Meaning: Why Every Semantic Memory System Forgets
+Ingest: Same Model, Different Harness: Different Coding-Agent Results
+Ingest: Basal 2.0 max model card
+Ingest: Second-Order Cybernetics: An Historical Introduction
+Ingest: Why LLMs can’t make your code simpler
+Ingest: Self Improvement via Fast Tree-search
+Ingest: Post by @deepfates — LLM "memory" as context stuffing
+Ingest: Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990-2010)
+Ingest: Gentle Coding Framework README
+Ingest: Operationalism
+Ingest: Faster sorting algorithms discovered using deep reinforcement learning
+Ingest: AIDE's experiment journal at 60b3978
+Ingest: Sutton and Javed on why AI models stop learning
+Ingest: Agent Behavioral Contracts for Reliable Agents
+Ingest: Locating Hidden Failures Makes Long-Horizon Agents More Reliable
+Ingest: Reinforcement Learning with Self-Modifying Policies
+Ingest: ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL
+Ingest: HART: High-Resolution Annotation-Free Reasoning Technique through a Closed-loop Framework
+Ingest: AIDE²: The First Evidence of Recursive Self-Improvement
+Ingest: Why Software Factories Fail
+Ingest: Solving a Million-Step LLM Task with Zero Errors
+Ingest: What is an Agent Harness
+Ingest: Einstein on the movement of suspended particles (1905)
+Ingest: Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures
+Ingest: Transformers Learn In-Context by Gradient Descent
+Ingest: On Pearl’s Hierarchy and the Foundations of Causal Inference
+Ingest: Andrej Karpathy talks about "Claws"
+Ingest: I'm becoming AI-blind — Hacker News discussion
+Ingest: Mathematical discoveries from program search with large language models
+Ingest: Orchestrate subagents at scale with dynamic workflows
+Ingest: Software factory specification and execution model
+Ingest: Automated Hypothesis Validation with Agentic Sequential Falsifications
+Ingest: Is AI the next layer of abstraction?
+Ingest: GAVEL — Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning
+Depth-1 RLM recursion examples — ingest
+Ingest: Frontier models solve difficult tasks without managing complexity
+Ingest: The GitHub for Context Doesn't Exist Yet
+Ingest: Mesa Optimizers and Language Recursion
+Ingest: General Hill-Climbing: The One Main Loop in AI
+Ingest: Language Models Don't Always Say What They Think
+Ingest: HarnessDev: Can LLMs Create and Evolve Agent Harnesses?
+Ingest: The Bug That Shipped
+Ingest: Evolving Self-Reference: Matter, Symbols, and Semantic Closure
+Ingest: The Vision of Autonomic Computing
+Ingest: Maps (Hidden Classes) in V8
+Ingest: Liar Paradox (Internet Encyclopedia of Philosophy, Dowden)
+Ingest: Language Symbiosis through Symbiotic Reflection
+Ingest: Building Self-Correcting Memory in OpenWiki
+Ingest: Towards Linguistic Symbiosis of an Object-Oriented and a Logic Programming Language
+Ingest: Hyra 2.0: The Next Step for Auto Research
+Ingest: Learning to Reason from Reference Samples Alone
+Ingest: Assessing LLM Reasoning in Evidence-Based Claim Verification
+Ingest: How Do Agents Fail on AutoResearch?
+Ingest: SkillLift: Learning Dense Rubrics from Sparse Oracles for Efficient Skill Evolution
+Ingest: Flywheel — Nodes, Artifacts, And Executions
+Ingest: EnvHarness: Awakening Static Worlds for Agent Learning
+Ingest: Gentle-Coding Proof of Concept
+Ingest: Maybe We Shouldn't Be Reviewing All This Code
+Ingest: The pivot to reasoning
+Ingest: Recursive Self-Improvement Since 1987
+Ingest: LLMs can’t jump
+Ingest: Requirements-Aware Systems: A Research Agenda
+Ingest: PMI Lexicon of Project Management Terms, Version 4.0
+Ingest: A Scheduler-Theoretic Framework for LLM Agent Execution
+Ingest: The Church-Turing Thesis (Stanford Encyclopedia of Philosophy)
+Ingest: Dynamic Variable Ordering In CSPs (Bacchus and van Run, CP-95)
+Ingest: Competing Biases underlie Overconfidence and Underconfidence in LLMs
+Ingest: Driven by Compression Progress
+Writing conventions for kb/sources/
+Ashby, Design for a Brain — ultrastability
+Ingest: Reflection and Semantics in Lisp
+Ingest: Locating Hidden Failures Makes Long-Horizon Agents More Reliable
+Ingest: On Doctors, Mechanics and Computer Specialists — Where are the Problems with Credence Goods?
+Ingest: World models and the hard problems of life–mind continuity
+Ingest: Every Good Regulator of a System Must Be a Model of That System
+Ingest: Self-Harness: Harnesses That Improve Themselves
+Ingest: Symbols, neural networks, and mathematical intelligence
+Ingest: The Alien Space of Science: Sampling Coherent but Cognitively Unavailable Directions
+Ingest: Where It Lives Is Not What It Is (June 2026 version)
+Ingest: Recursive self-improvement
+Ingest: Human Bottlenecks
+Ingest: Beyond Fixed Representations: Vocabulary and Verifier Gaps
+Ingest: The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations
+Ingest: SPADE: Self-Play in Adaptive Synthetic Executable Environments
+Ingest: Why Large Language Models Fail at Tabular Prediction
+Ingest: Awareness Requirements for Adaptive Systems
+Ingest: Open continual learning that you fully control
+Ingest: Large-scale evidence of dependency length minimization in 37 languages
+Ingest: Mem0: Universal Memory Layer for AI Agents
+Ingest: Slate: Moving Beyond ReAct and RLM
+Ingest: Scaling Managed Agents: Decoupling the brain from the hands
+Ingest: Agentic Note-Taking 23: Notes Without Reasons
+Ingest: Autonomy and Autopoiesis
+Sources
+Ingest: Everything you need to know about LLM memory
+Ingest: Combinatorial Sketching for Finite Programs
+Ingest: /problem-first: a simple skill to invert bad ideas
+Ingest: Scaffold, Not Vocabulary? A Popperian Code-Generation Skill
+Ingest: AI Components for a Deterministic System (An Example)
+Ingest: Can AI agents conduct open-ended AI research?
+Ingest: A Programming Paradigm for Spatiotemporal Composability
+Ingest: 4 Levels of Recursive Self-Improvement
+Ingest: Explanation-Based Generalization: A Unifying View
+Ingest: Simplicity, hidden in complexity
+Ingest: Emerging Trends in AI Agent Evaluation
+Ingest: Requirements Reflection: Requirements as Runtime Entities
+Ingest: Form, Not Content? Placebo-Controlled Self-Repair
+Ingest: Chaff: Engineering an Efficient SAT Solver
+Ingest: Concept Bottleneck Models, full v3 paper
+Ingest: MemoryLACE — Memory Lifecycle-Aware Consolidation and Evidence Retrieval
+Ingest: From Agent Memory to Portable Skills
+Ingest: Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for LLM Agents
+Ingest: Explanation-Based Generalization: A Unifying View
+Ingest: Mass Customizing Solutions with Software Development Factories
+Ingest: Metaobject Protocols: Why We Want Them and What Else They Can Do
+Ingest: AVO: Agentic Variation Operators for Autonomous Evolutionary Search
+Ingest: Plans and Situated Actions (Suchman 1985 PARC thesis, ISL-6)
+Ingest: Emerging Markdown Formats That Shape Coding Agent Behavior
+Ingest: JEPA-Anything: Learning Predictive Models across Different Worlds
+Ingest: Software Factories: Assembling Applications with Patterns, Models, Frameworks and Tools
+Ingest: Reflexion: Language Agents with Verbal Reinforcement Learning
+Ingest: Why Multi-Agent Pipelines Fail for Complex Analytics
+Ingest: EsoLang-Bench
+Ingest: Think Before You Act: Popperian Expectations for Adaptive Agents
+Ingest: Prove2Me: An Open Collaborative Platform for Scaling Math Formalization
+Ingest: Design for a Brain (1960)
+Ingest: A Mini Exercise on the Mismanaged Geniuses Hypothesis (RLMs on LongCoT)
+Ingest: Gödel Machines — Provably Optimal Self-Improvements
+Ingest: AIDE agent implementation at 60b3978
+Ingest: On the Means for Clarification in Dialogue
+Ingest: tracecraft
+Ingest: A Reflective Architecture for LLM-Based Systems
+Ingest: The Logic of Scientific Discovery
+Ingest: Your Old Agent Architecture Is Dead… Meet Its Replacement
+Ingest: Toward Auditable AI Scientists: A Hypothesis Evolution Protocol
+Ingest: Rainbow: Architecture-Based Self-Adaptation with Reusable Infrastructure
+Ingest: ScienceFlow: A Long-horizon Agent for ML Research, Scientific Discovery and Beyond
+Ingest: Agentic Code Reasoning
+Ingest: Self-Improving Algorithms
+Ingest: WG14 N1570 behavior definitions
+Ingest: The Meta-Agent Challenge
+Ingest: Knowledge Flywheels
+Ingest: Re-re-reading Lucy Suchman's Plans and Situated Actions
+Ingest: Why Software Factories Fail: Turning the lights back on
+Ingest: The preference for self-correction in the organization of repair in conversation
+Ingest: How Language Models Conflate Logical Validity with Plausibility
+Ingest: What requirements don't you have?
+Ingest: Minimum Viable Ontology / Domain Maps
+Ingest: Towards a Science of AI Agent Reliability
+Ingest: Harness Evolution Hits a Ceiling: When Weight Training Should Begin
+Ingest: Language model harnesses are compositional generalizers
+Ingest: LibContinual: A Comprehensive Library towards Realistic Continual Learning
+Ingest: What did Ilya see?
+Ingest: Agents Explore but Agents Ignore
+Ingest: TypeSafe confidence documentation
+Ingest: Into the Unknown: Self-Learning Large Language Models
+Ingest: Deep learning accelerates
+Ingest: Beyond "Not Novel Enough"
+Ingest: Attention is all you need
+Ingest: Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
+Ingest: Apache Iceberg reliability
+Ingest: WHALE: Joint Harness-Weight Optimization
+Ingest: GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
+Ingest: Artifacts as Memory Beyond the Agent Boundary
+Ingest: How to Recursively Improve Your Agents
+Ingest: SwarmWorld: Stigmergic technological evolution in societies of language-model agents
+Ingest: A harness for every task: dynamic workflows in Claude Code
+Ingest: Nick Milo's definition of Maps of Content
+Ingest: Autogenesis: A Self-Evolving Agent Protocol
+Ingest: Minimization of dependency length in written English (Temperley 2007)
+Ingest: AI scientists produce results without reasoning scientifically
+Ingest: Language Models, Like Humans, Show Content Effects on Reasoning Tasks
+Ingest Report: SkillOpt: Executive Strategy for Self-Evolving Agent Skills
+Ingest: When Do Natural Language Metaphors Influence Reasoning?
+Ingest: The Logic of Scientific Discovery (Wikipedia)
+Ingest: Prime Agent: A Self-Improving RLM Harness
+Ingest: Flywheel local repository quickstart
+Ingest: EvoOntology: A Self-Evolving Ontology Layer for Data Agents
+Ingest: Meta-Harness: End-to-End Optimization of Model Harnesses
+Ingest: Evaluating Long-Context Reasoning in LLM-Based WebAgents
+Ingest: Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems
+Ingest: Novel Memory Forgetting Techniques for Autonomous AI Agents
+Ingest: Introspective multistrategy learning
+Ingest: Initial mention as a signal to thematic content in technical passages
+Ingest: SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness
+Ingest: Coding Agents are Effective Long-Context Processors
+Ingest: Advantages of Query Biased Summaries in Information Retrieval
+Ingest: PD of HCI - Plans and Situated Actions (summary of Suchman)
+Ingest: There Is No Neutral Harness
+Ingest: Programming as Theory Building
+Ingest: How Warp builds self-improving agents on Claude
+Ingest: Knowledge Engineering: Principles and Methods
+Ingest: Claude Fable 5 Made Most of My Agent Scaffolding Obsolete
+Ingest: Formal Learning Theory
+Ingest: Flywheel — Encoding the Scientific Method
+Ingest: Perplexity pplx-decider-v1.2
+Ingest: The Semantic Conception of Truth and the Foundations of Semantics (Tarski 1944)
+A-MEM: Learning Operations Analysis
+Ingest: SWE-bench Science full paper on scientific-software repairs
+Ingest: The Memory Trust Gap
+Ingest: Why AM and EURISKO Appear to Work
+Ingest: The Origins of Structural Operational Semantics
+Ingest: GORE mapping reflections, impact, and the way forward
+Ingest: Toward measuring recursive self-improvement
+Ingest: Context providers: the missing layer between agents and tools
+Ingest: Nested Learning
+Ingest: A Tutorial Introduction to the Minimum Description Length Principle
+Ingest: Harness-IF: Evaluating Instruction Following Across Instruction Surfaces in Coding Agents
+Ingest: Compilation and Code Loading
+Ingest: Agora: Git as Shared Memory for Collective AutoResearch
+Ingest: From Single to Multi: How LLMs Hallucinate in Multi-Document Summarization
+Ingest: PrimeScientist: Strategic Allocation of Research Effort
+Ingest: Automated Refinement of First-Order Horn-Clause Domain Theories
+Ingest: Program Synthesis (Gulwani, Polozov, and Singh, 2017)
+Ingest: SuperARC — Can Complexity and Uncomputability Explain Intelligence?
+Ingest: The Best Model Routing is Task Specific
+Ingest: Agent Workflow Memory
+Ingest: How Efficiency Shapes Human Language
+Ingest: A Recap of Early Work on Theory and Knowledge Refinement
+Ingest: On the "Induction Bias" in Sequence Models
+Ingest: Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents
+Ingest: How to Write a 21st Century Proof
+Ingest: Maintenance and Co-evolution of Claude Code Agent Plugins
+Ingest: Irreversibility, Uncertainty, and Investment
+Ingest: Gentle-Coding Comparative Research Catalog
+Ingest: Locating and Editing Factual Associations in GPT
+Ingest: Concept Bottleneck Models
+Ingest: Towards Error-Centric Intelligence I: Beyond Observational Learning
+Ingest: ARC live-action execution at dba53c3
+Ingest: Weco documentation overview
+Ingest: Flywheel — Hooks And Automations
+Ingest: Inter-language Reflection: A Conceptual Model and Its Implementation
+Ingest: Automated Benchmark Auditing for AI Agents and Large Language Models
+Ingest: In Search of Lost Domain Generalization
+Ingest: Trajectory-Informed Memory Generation for Self-Improving Agent Systems
+Ingest: From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs
+Ingest: Towards Automating Eval Engineering
+Automated linking improves retrieval but may degrade navigability
+Ingest: Flywheel — Campaigns
+Ingest: DualGraph separates knowledge exploration from outline structure
+Ingest: V-JEPA 2 publication abstract
+Ingest: Why Software Factories Fail: Benchmarking the new frontier
+Ingest: Towards a Science of Scaling Agent Systems
+Ingest: Manage Innovation Programs With a Rolling Wave
+Ingest: ATAM: Method for Architecture Evaluation
+Ingest: What Survives in Multi-Agent Systems
+Ingest: On rereading. Suchman and Situated Action
+Ingest: An Assumption-based TMS
+Ingest: Multi-Agent Memory from a Computer Architecture Perspective
+Ingest: The Spec Is the New Code — A Guide to Spec Driven Development
+Ingest: Revisiting the Core Ontology and Problem in Requirements Engineering
+Ingest: Context as an Environment
+Ingest: Learning By Writing
+Ingest: JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution
+Ingest: The No Free Lunch Theorem
+Ingest: An Enigma of Artificial Reason
+Ingest: Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0
+Ingest: Agent Memory Is a Surface for Endogenous Authorization Laundering
+Ingest: The components of agent memory
+Ingest: Towards Causal Representation Learning
+Ingest: Skill Synthesis — Materializing Knowledge as Skills
+Ingest: An Architecture for Long-Horizon Agents: Levels, Ticks and Cascaded Intelligence
+Ingest: Application: Searching for Lead User Innovations
+Ingest: Scaling Multi-Agent Intelligence with Substrate-Centric Coordination
+Ingest: Epistemic Case Study Competition
+Ingest: Prompt Stability in Code LLMs
+Ingest: Harness Updating Is Not Harness Benefit
+Ingest: What spec-driven development gets wrong
+Ingest: RuleMem: Active Rule Memory for Long-Term Conversational Agents
+Ingest: The Y-Combinator for LLMs
+Ingest: Where Is the Proof? — A Review of Experiences from Applying MDE in Industry
+Ingest: The What & When of Self-Evolving Agents
+Ingest: Emergent Analogical Reasoning in Transformers
+Ingest: AI Agents: Four Skills More Important Than a Good Prompt
+Ingest: How to Build a Good Eval
+Ingest: The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement
+Ingest: Dagster asset versioning and caching
+Ingest: The "Mismanaged Geniuses" Hypothesis
+Ingest: ToolGate: Contract-Grounded and Verified Tool Execution for LLMs
+Ingest: In Defense of Base Contraction
+Ingest: Safe superintelligence
+Ingest: A Poetiq Perspective on Recursive Self-Improvement
+Ingest: Why is AI Slop so Frustrating to Read?
+Ingest: Defeating Nondeterminism in LLM Inference
+Ingest: Exploring Super-agent Design: Towards a More Autonomous Agent System
+Ingest: Externalization in LLM Agents
+Ingest: The Geometry of Forgetting
+Ingest: Agent Plasticity: Measuring Self-Improvement Through Experience
+Ingest: Intention Is All You Need
+Ingest: Large Language Model Agents Are Not Always Faithful Self-Evolvers
+Ingest: SELF: The Power of Simplicity
+Ingest: Microsoft Retired Smart Client Software Factory
+Ingest: DFA-MoE: Tackling Dual Forgetting in Vision-Language Continual Learning
+Ingest: Self-Improving AI Coding Agents Through Accumulated Behavioral Rules
+Ingest: Foundation and History of the PDSA Cycle
+Ingest: MerchantBench: Long-Term Coherence in E-Commerce Operations
+Ingest: Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?
+Ingest: The Tool Factory
+Ingest: The State of Practice in Model-Driven Engineering
+Ingest: HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution
+Ingest: SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning
+Ingest: RELAX — uncertainty in requirements for self-adaptive systems
+Ingest: Software Engineering of Self-Adaptive Systems: An Organised Tour and Future Challenges
+Ingest: The Second Brain Trap
+Ingest: Why You Should Almost Never Use AI to Write Anything Substantive
+Ingest: Does the Inertia of a Body Depend upon Its Energy-Content?
+Ingest: HyperAgents
+Ingest: Reason Wide, Not Deep: Amortizing the Reasoning Premium into Distilled Skills
+Ingest: How I built a self-improving software factory
+Ingest: Improving AI Skills with autoresearch & evals-skills
+Ingest: FALSIFYBENCH rule-discovery games
+Ingest: Craik, Hypothesis on the Nature of Thought (1943)
+Ingest: Connectionism and Cognitive Architecture: A Critical Analysis
+Ingest: A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population
+Ingest: Aspire: Can Models Self-Evolve from Vague Goals?
+Ingest: On the Electrodynamics of Moving Bodies
+Ingest: A Top Down Approach to Structured Software Design for MARA
+Ingest: Symbolic Learning Enables Self-Evolving Agents
+Ingest: Fast properties in V8
+Ingest: Machine Studying
+Ingest: Dario Amodei — "We are near the end of the exponential"
+Ingest: No Man Is an Island
+Ingest: DreamCoder: Growing Generalizable, Interpretable Knowledge
+Ingest: Dynamic Adaptive Policy Pathways
+Ingest: Does Liking Yellow Imply Driving a School Bus? Semantic Leakage in Language Models
+Ingest: Building agents: When to fold subagents into your main agent loop
+Ingest: GIANTS: Generative Insight Anticipation from Scientific Literature
+Ingest: AutoRA: Automated Research Assistant for Closed-Loop Empirical Research
+Ingest: Toulmin Argument
+Ingest: Generalization in Adaptive Data Analysis and Holdout Reuse
+Ingest: AIDE2 — Recursive self-improvement of AI research agents
+Ingest: Higher Order Concerns (HOCs) and Lower Order Concerns (LOCs)
+Ingest: The "Problem" of Automation: Inappropriate Feedback and Interaction, Not "Overautomation"
+Ingest: Decentralized Multi-Agent Systems with Shared Context
+Ingest: Causal-learn: Causal Discovery in Python
+Ingest: Design Docs Are All You Need
+Ingest: Components and Generative Programming
+Ingest: Diagnosing Agent Failures via Behavioral Abstractions
+Ingest: Towards Faithfully Interpretable NLP Systems
+Ingest: AI;DR (AI; Didn't Read) — Hacker News discussion
+Ingest: EURISKO learns new heuristics and domain concepts
+Ingest: PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents
+Ingest: On the proper treatment of connectionism
+Ingest: ASI-Bench: At the Dawn of Artificial Superintelligence
+Ingest: Interpolation, Extrapolation, Hyperpolation
+Ingest: Can AI agents conduct open-ended AI research? Early evidence from two case studies
+Ingest: Long-Horizon-Terminal-Bench
+Ingest: Memory Intelligence Agent
+Ingest: Palantir Ontology vs Decision Traces
+Ingest: Cognee: Knowledge Engine for AI Agent Memory
+Ingest: A Framework for Software Product Line Engineering
+Ingest: Geometry of Knowledge Allows Extending Diversity Boundaries of Large Language Models
+Ingest: Tev1-4B-experimental model card
+Ingest: Case Management Model and Notation (CMMN) Version 1.1
+Ingest: Guarded commands, non-determinacy and formal derivation of programs (EWD 472)
+Ingest: Meta's V-JEPA 2 world model and physical-reasoning benchmarks
+Ingest: Model Discovery Agent: LLM-assisted Bayesian Experiment Design
+Ingest: Memory Scaling for AI Agents
+Ingest: Causal inference using invariant prediction
+Ingest: ACM: Agentic Context Management for Long Horizon Tasks
+Ingest: Agentic Reasoning for Large Language Models
+Ingest: METR's investigation of the OpenAI / Hugging Face incident
+Ingest: RSIAgent — Autonomous Exploration for Recursive Self-improvement
+Ingest: Discovery Foundation Models: Toward Open-Ended Discovery Intelligence
+Ingest: AutoSaddler: Automatic Harness Optimization with Durable Updates
+Ingest: FALSIFYBENCH: Evaluating Inductive Reasoning in LLMs with Rule Discovery Games
+Ingest: The Use of Proximal Information Scent to Forage for Distal Content on the World Wide Web
+Ingest: Why AI systems don't learn and what to do about it
+Ingest: ArkenOS: The self-improving AI workspace for autonomous research
+Ingest: Knowledge-Centric Self-Improvement
+Ingest: Four Dark Corners of Requirements Engineering
+Ingest: Apache Airflow best practices
+Ingest: Automated Design of Agentic Systems
+Ingest: Concerning an Heuristic Point of View Toward the Emission and Transformation of Light
+Ingest: Skill Acquisition: Compilation of Weak-Method Problem Solutions
+Ingest: Design Theory in Information Systems
+Ingest: Open d1: Edge decision models for text, vision, and audio
+Ingest: When code is free, research is all that matters
+Ingest: The Causal-Neural Connection: Expressiveness, Learnability, and Inference
+Ingest: Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research
+Ingest: The Alberta Plan for AI Research
+Ingest: Ethics and Second-Order Cybernetics
+Ingest: Thread by @jonathanschloss on ICLR volume and AI-detector review
+Ingest: Discourse on the Method (Descartes, 1637)
+Ingest: From Agent Behaviour to Agent-Friendly Documentation
+Ingest: Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity
+Ingest: On Learning How to Learn Learning Strategies
+Ingest: LifeFuse-Mem: Lifecycle-Aware State Fusion Against Temporary Overwriting
+Ingest: Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet
+Ingest: Minimizing Syntactic Dependency Lengths (Temperley & Gildea 2018)
+Ingest: Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning
+Ingest: Researchers Asked LLMs for Strategic Advice. They Got "Trendslop" in Return.
+Ingest: The Bitter Lesson
+Ingest: Effective harnesses for long-running agents
+Ingest: ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools
+Ingest: Apodex 1.1: Scaling Agentic Intelligence for Complex Work
+Ingest: Building a Good Vertical Agent
+Ingest: In defense of not understanding your codebase
+Ingest: Maximum Effective Context Window
+Ingest: Accelerating Scientific Research with Gemini in the Real-World
+Ingest: Language Models Need Sleep
+Ingest: Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills
+Ingest: LLMs are terrible at designing AI systems
+Ingest: Self-Revising Discovery Systems for Science
+Ingest: The birth of hyperscale
+Ingest: On the Criteria To Be Used in Decomposing Systems into Modules
+Ingest: Act More, Decide Less — Skill-Guided Adaptive Action Chunking
+Ingest: Putting Ideas into Words
+Ingest: CEDAR-GRPO: Process-Aware Reinforcement Learning for General Abductive Reasoning in LLMs
+Ingest: A Realist View of Logic, Physics, and History
+Ingest: Workspace Optimization: How to Train Your Agent
+Ingest: Bounded Recursive Self-Improvement
+Ingest: Memento-Skills: Let Agents Design Agents
+Ingest: Harness Handbook
+Ingest: How to Build an AI Second Brain With Claude and Obsidian That Gets Smarter Every Day
+Ingest: Conjectures and Refutations: The Growth of Scientific Knowledge
+Ingest: The File System Is the New Database: How I Built a Personal OS for AI Agents
+Ingest: Software Factories: Emerging Architectures and Why Frontier Labs Should Care
+Ingest: Integrating Abduction and Induction in Machine Learning
+Ingest: Simplification
+Ingest: Terminal-RSI: Recursive Self-Improving Terminal Agents
+Ingest: From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence
+Ingest: ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement
+Ingest: A competence theory approach to problem-solving method construction
+Ingest: Psychology already solved AI memory — identity isn't stored, it's constructed
+Ingest: Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning
+Ingest: Monkey patch
+Ingest: Efficiently intertwining widening and narrowing
+Ingest: AIDE: AI-Driven Exploration in the Space of Code
+Ingest: Can LLM Agents Infer World Models?
+Ingest: ADRP 6-0: Mission Command
+Ingest: On the (Im)possibility of Obfuscating Programs
+Ingest: Serial Position and Rated Importance in the Recall of Text

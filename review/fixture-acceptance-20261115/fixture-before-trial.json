@@ -1,0 +1,17 @@
+{
+  "library.tar": "53c4a4608b126d1693f12fc6dfad6aaf4d607f0c3ebcbc0e8af497fa13665ad3",
+  "fixture.json": "37854de058571b8ef68474dd30d76d6d44905813054d4fc250d343332d969e1a",
+  "kb.tar": "6d6150db439eb0070f125e8a33ef8ced9703624039ca8e242bff670c198ef854",
+  "executor.tar": "4917284309c4ebae3feb7940cedd2b14f37ac4730333510e5d0869a0dcbbfcfc",
+  "inputs/criterion.md": "6e2bd9a71d2685b71fc1641640e684574da24f3115f005263a75367c0dc6c29c",
+  "inputs/prompt.txt": "6345fd46a45243cd77e6e4a1ac81ea36a8c1cddfc1a91546a570539b3f392d1b",
+  "inputs/target/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+  "inputs/contract/types/review-result.schema.yaml": "e38c6c6b9bfd84e8766710f6838452af3d7b050dc878c7dcd52c36944daebd45",
+  "inputs/contract/types/review-result.md": "29e815bcfc1377e104bf87ead4678a50ce91fd5bb6f70c2a99d158006e12f99c",
+  "inputs/contract/reports/COLLECTION.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+  "overlays/kb/theory/a-software-factory-is-family-scoped-lifecycle-production-machinery.md": "f4dee748bce52437ff68f4d869d0e6fc751634016e471a7f12b0ccae36fadadd",
+  "overlays/kb/theory/a-functioning-kb-needs-a-workshop-layer-not-just-a-library.md": "770f0cae7d043682e62ee7342f0c5d4ccbdddfc26f7215f8c0ef7114b00f8a61",
+  "overlays/kb/work/stochastic-operation-testing/provenance-reconstruction-trial.md": "49b185769327036e7d237b031798144f865e585c97638136f2f501624e510c33",
+  "overlays/kb/work/stochastic-operation-testing/README.md": "42a17543fbab190715ec22357ed4db27ba84528ae4822f355e52ce652de29ea6",
+  "overlays/kb/work/stochastic-operation-testing/provenance-reconstruction-results.md": "3b8e26ccef80beabf38854c6a023f2ca506648e412adfbba6da985b46650d3f4"
+}

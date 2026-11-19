@@ -1,0 +1,1 @@
+The truth bullet of the opening list and the first sentence of 'A test record is not truth': say what a derivation settles for a formal claim, or scope the conjecture claim to non-formal claims.

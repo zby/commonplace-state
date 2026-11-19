@@ -1,0 +1,6 @@
+{
+  "name": "publication-answers.md",
+  "input-key": "a10b1d18ca9ad750dd31a05ff5c7efe98f53868237361a533619d4d31a3d6a09",
+  "proposal": "---\ntype: types/answers.md\ndescription: The operator's answers to kb/reports/state/review/runs/v2/revise/kb/theory/active-work-state-is-not-retrospective-memory-or-chat-history/8a85c650bd4b/artifact/final.md\nquestion: kb/reports/state/review/runs/v2/revise/kb/theory/active-work-state-is-not-retrospective-memory-or-chat-history/8a85c650bd4b/artifact/final.md\nquestion-sha256: 716a8d8cbf46c97eeab7a76eac8e5e6ae097a694a70356a0502813e20dc4e170\nitems:\n- id: text\n  proposal:\n    text: kb/reports/state/review/runs/v2/revise/kb/theory/active-work-state-is-not-retrospective-memory-or-chat-history/8a85c650bd4b/artifact/final.md\n    text-sha256: 716a8d8cbf46c97eeab7a76eac8e5e6ae097a694a70356a0502813e20dc4e170\n  state: pending\n---\n\n# Answers\n\nSet each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.\n",
+  "key": "6ac88770144bf21088fdd75742dfd3407ff63ea4a2272e035842af74a962aed8"
+}

@@ -1,0 +1,16 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/agentic-reasoning-for-llms-survey.ingest.md
+snapshot_sha256: 27e89a8ac0125eba1cdb1d3aded91d20a76018617eb6a355639aaf866230a85f
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-16T13:59:22+01:00'
+checks:
+- at: '2026-11-16T14:05:00+01:00'
+  failures: []
+- at: '2026-11-16T14:05:11+01:00'
+  failures: []
+- at: '2026-11-16T14:05:13+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T14:05:13+01:00'

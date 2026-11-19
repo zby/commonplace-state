@@ -1,0 +1,5 @@
+kb/articles/reachability-conjecture-the-llm-stays-fixed-the-software-house-learns.md
+kb/articles/the-reachability-conjecture-train-the-house-not-the-llm.md
+kb/articles/a-research-program-for-learning-software-factories.md
+kb/articles/a-research-program-for-theory-mediated-system-learning.md
+kb/articles/a-research-program-for-theory-guided-program-modification.md

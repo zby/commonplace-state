@@ -1,0 +1,1 @@
+Apply this one operation as its instruction directs; the operator named no other purpose.

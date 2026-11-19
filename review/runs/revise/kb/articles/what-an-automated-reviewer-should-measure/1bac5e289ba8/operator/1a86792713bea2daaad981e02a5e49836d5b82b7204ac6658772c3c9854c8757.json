@@ -1,0 +1,6 @@
+{
+  "name": "plan.yaml",
+  "input-key": "48053bd7c8a1a550bec5f341ff0093f012b484f924945ae128e8a12e13dd485f",
+  "proposal": "purpose: \"Help readers designing automated review of explanatory articles distinguish what a reach-and-economy assessment can report now from the experiments needed to establish its compression interpretation and practical benefit.\"\ndefend:\n  - \"Reach and economy provide practical evidence that the reader gains a more compact, reusable account.\"\npasses:\n  - pass: readability-and-flow\n    scope: \"The opening, from the experimental-method example through the paragraph beginning 'The proposal concerns explanatory articles', and the introductory paragraph of 'Testing the two claims'; clarify the three activities and their relation to the two hypotheses while preserving all substantive qualifications.\"\nstop: null\n",
+  "key": "6c440ca436e71f1bcc52a9dcf232ce3a49d91e0900efc8e164e76bdd8c6442d2"
+}

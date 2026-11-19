@@ -1,0 +1,6 @@
+- A claim's test record does not determine its fit in a working theory
+- Three things can be asked about a claim in it, and no answer to one settles another.
+- A well-tested claim may fit poorly.
+- A false, overgeneral or weakly tested claim may fit smoothly, because the current implementation, the vocabulary or the neighbouring claims already assume it.
+- Neither may be substituted for the other.
+- Which repair to make is a decision, taken by comparing the test records of the claims involved and what each repair does to the theory's fit to its problem.

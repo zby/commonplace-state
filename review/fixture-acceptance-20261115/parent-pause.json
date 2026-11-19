@@ -1,0 +1,6 @@
+{
+  "status": "paused-before-first-review-launch",
+  "reason": "Operator requested named-note status scope fix before acceptance continued",
+  "review-model-launches": 0,
+  "resume-requirement": "Refresh parent and Sol preflight identities after the status changes are settled; do not use the old preflight as the execution identity. Budget guard remains required."
+}

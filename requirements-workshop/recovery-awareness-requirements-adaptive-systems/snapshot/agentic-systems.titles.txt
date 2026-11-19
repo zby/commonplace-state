@@ -1,0 +1,156 @@
+Agno AgentOS
+Academic Research Skills
+Exo
+Fractal
+PageIndex
+Eigenius
+Swamp
+pi-posthorse context-window extension
+beads_rust
+Autogenesis
+Dynamic Cheatsheet
+WikiSkill
+AI Agents in Depth
+jaz-evals
+GBrain
+Compound Engineering plugin
+EvoOntology
+Claude Code dynamic workflows
+SoL-Pi
+Supermemory: the Vercel memory wrapper
+Semantic Engine as ingest infrastructure
+DualGraph
+Pond
+Runtime & Control
+arsumbris
+Tardigrade inference and compaction
+RSIAgent: verified experience, Actor-owned memory and curriculum search
+Workflow & Recovery
+Reflexion HotPotQA reasoning agents
+LHTB bundled continuation mechanism
+Instinctual Memory
+Prove2Me
+Agent Memory
+OpenViking session and user memory
+mem: sourced facts and host context
+Mem0 synchronous OSS memory
+Research Topics
+JAZ
+WikiSkill (Stahl-G)
+Company Brain
+Ecdysis
+EAL-bench
+Apache Maka
+AIDE2
+Knowledge & Verification
+Writing conventions for kb/agentic-systems/
+MerchantBench: ReAct and optional persistent notes
+Methods & Data
+Meta^n
+Agentic Systems
+AREX-Skill
+Archived generated reviews
+ContextPilot
+SkillLift
+oh-my-pi
+OpenRSI: OpenMLE search, experience and training
+SwarmWorld
+Napkin: local memory with host-owned learning
+Audit main-review memory classifications
+ModularRSI
+fragility-grid collection and resume subsystem
+PrimeScientist
+Prime Agent
+Memory comparison inputs and regeneration
+Enoch
+How corrections propagate through retained memory
+How memory reaches the next decision
+Memory mechanisms in agentic systems
+Epistemic lens
+Synthesize the agent-memory landscape
+Agent memory comparisons and data
+Agentic analysis layout migration, 2026-10-01
+Runtime lens
+Comparisons
+What the 243 current agentic-system analyses show about agent memory mechanisms (November 2026)
+Workflow lens
+Prime Agent agentic-system analysis
+Supermemory Vercel memory wrapper
+Napkin agentic-system analysis
+Napkin agentic-system analysis
+Meta^n agentic-system analysis
+JEPA-Anything
+Instinctual Memory runtime report
+fragility-grid collection and resume subsystem
+Instinctual Memory memory analysis
+Instinctual Memory epistemic report
+Instinctual Memory agentic-system analysis
+Reflexion HotPotQA reasoning workflow
+Dynamic Cheatsheet agentic-system analysis
+Dynamic Cheatsheet agentic-system analysis
+SoL-Pi agentic-system analysis
+JAZ agentic-system analysis
+Ecdysis agentic-system analysis
+oh-my-pi agentic-system analysis
+EAL-bench agentic-system analysis
+Dynamic Cheatsheet agentic-system analysis
+DualGraph agentic-system analysis
+PageIndex runtime report
+Enoch agentic-system analysis
+WikiSkill agentic-system analysis
+SkillLift agentic-system analysis
+PageIndex memory analysis
+Mem0 Python memory subsystem analysis
+Dynamic Cheatsheet agentic-system analysis
+Tardigrade inference and compaction subsystem
+PageIndex epistemic report
+Napkin agentic-system analysis
+PageIndex agentic-system analysis
+Mem0 agentic-system analysis
+jaz-evals agentic-system analysis
+Apache Maka agentic-system analysis
+JEPA-Anything compiler analysis
+SwarmWorld agentic-system analysis
+oh-my-pi agentic-system analysis
+pi-posthorse context-window extension
+ContextPilot — exact analysis
+Napkin agentic-system analysis
+AREX-Skill agentic-system analysis
+Napkin agentic-system analysis
+MerchantBench ReAct runtime and environment interface
+Supermemory agentic-system analysis
+OpenViking session and user-memory subsystem
+OpenRSI agentic-system analysis
+Napkin agentic-system analysis
+Dynamic Cheatsheet agentic-system analysis
+GBrain agentic-system analysis
+WikiSkill (Stahl-G) agentic-system analysis
+Mem0 agentic-system analysis
+Mem0 synchronous OSS memory analysis
+EvoOntology agentic-system analysis
+Prove2Me agentic-system analysis
+RSIAgent agentic-system analysis
+Napkin agentic-system analysis
+Company Brain agentic-system analysis
+Mem0 — exact agentic-system analysis
+Mem0 agentic-system analysis
+Dynamic Cheatsheet agentic-system analysis
+Apache Maka agentic-system analysis
+PrimeScientist agentic-system analysis
+oh-my-pi agentic-system analysis
+arsumbris agentic-system analysis
+Archived agentic-system analysis results
+LHTB bundled continuation mechanism
+Dynamic Cheatsheet agentic-system analysis
+Dynamic Cheatsheet runtime report
+mem Git-backed agent memory
+Dynamic Cheatsheet runtime report
+ModularRSI agentic-system analysis
+Dynamic Cheatsheet reconciliation
+Dynamic Cheatsheet memory report
+AIDE2 agentic-system analysis
+Dynamic Cheatsheet epistemic report
+Dynamic Cheatsheet epistemic report
+Dynamic Cheatsheet agentic-system analysis
+Dynamic Cheatsheet memory report
+Dynamic Cheatsheet reconciliation

@@ -1,0 +1,69 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This PR takes only the review changes that look clearly corrective rather than theory-design choices.\n\nArticle changes:\n- soften the historical Naur claim from an exclusive inference to a crucial-premise reading;\n- explain how the article's four implementation roles relate to the proposal-selection and residue decompositions;\n- narrow the Commonplace episode from observational causal support to documented retained-state consumption, theory-state revision, and later reuse consistent with mediation;\n- replace the \"loop has no outside\" / ship-of-Theseus rhetoric with the narrower claim that no component inside the declared revision surface is exempt by position;\n- keep the current latest-main additions about the article being a program rather than results and the workspace-optimization comparison.\n\nThe accompanying workshop report deliberately leaves the deeper residuum unresolved: the minimum operational threshold for theory, a possible H1\u2013H5 hypothesis ladder, stronger synthetic controls for the theory intervention, canonical mapping among decompositions, decomposition of global fit, operational scaling metrics, production-time instrumentation, program/Bitter-Lesson article overlap, and the stability boundary of a reflective loop.\n\nThe intent is to make the obvious precision fixes now while preserving the deeper questions as research work rather than settling them by editorial fiat.",
+    "closedAt": "2026-08-30T15:49:54Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T15:45:31Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T15:45:31Z",
+        "messageBody": "",
+        "messageHeadline": "Record deeper residuum from program-article review",
+        "oid": "9a779b4495819c739a9081811ac769700680817d"
+      },
+      {
+        "authoredDate": "2026-08-30T15:46:48Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T15:46:48Z",
+        "messageBody": "",
+        "messageHeadline": "Apply clear precision fixes from program review",
+        "oid": "8a4c1d9837cb416bcc591bd6fd33a4f7b122f80b"
+      }
+    ],
+    "createdAt": "2026-08-30T15:47:05Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 29,
+        "deletions": 19
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/program-article-review-residuum-2026-08-30.md",
+        "additions": 166,
+        "deletions": 0
+      }
+    ],
+    "headRefName": "tighten-theory-mediated-program",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T15:49:54Z",
+    "number": 127,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Tighten the theory-mediated research program and record deeper residuum",
+    "updatedAt": "2026-08-30T18:23:02Z",
+    "url": "https://github.com/zby/commonplace/pull/127"
+  },
+  "inline_review_comments": []
+}

@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/artifact/publications/1.md",
+      "sha256": "89ba95e801ed2278542fa9a8a836b099ae31bb5c60ce84865effce1850b79986",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/artifact/publications/1.diff",
+      "before-sha256": "5bd25a2d9c50c0e46dda61815e0a6dffc5483866bf01c603f83ba973ed830a23",
+      "entries": [],
+      "at": "2026-11-18T18:35:41Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

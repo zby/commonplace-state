@@ -1,0 +1,47 @@
+{"time": 1794855484.2454474, "event": "launch", "job": "assessment", "key": "aeffa12bd5b505aea0ee1bdc8d0f1b2742519793c75ac7a1d86e79e4a78a946a", "launch": "15c9913053af423893e24657e4ba6286", "status": "delivered"}
+{"time": 1794855484.2473557, "event": "answered", "job": "assessment", "key": "aeffa12bd5b505aea0ee1bdc8d0f1b2742519793c75ac7a1d86e79e4a78a946a", "problem": false}
+{"time": 1794855484.2505934, "event": "accepted", "path": "assessment.md", "sha256": "46590e31760bf43c09cac9560026e9f7fe151efde9f5cbee9b9dde9db52e4ed7"}
+{"time": 1794855484.2524033, "event": "accepted", "path": "plan.yaml", "sha256": "4fbb2db38ca91e3a085f1438c3ab20e2a7306a0c99aeedfde89fde2b23144018"}
+{"time": 1794855484.2528663, "event": "accepted", "path": "start.md", "sha256": "0467becc125eb9a55d899fb0e0e487f762edb9245094ffc08d32f9bf3bccb52e"}
+{"time": 1794855557.4611082, "event": "launch", "job": "abstractions/propose", "key": "f7ba72c77edcb2813bba6262d09d2c402367845fd698ea067045d33b4a8641ea", "launch": "fea96c1bffeb4e758a4d2c1d41921056", "status": "delivered"}
+{"time": 1794855557.466132, "event": "answered", "job": "abstractions/propose", "key": "f7ba72c77edcb2813bba6262d09d2c402367845fd698ea067045d33b4a8641ea", "problem": false}
+{"time": 1794855557.4966593, "event": "accepted", "path": "abstractions-answers-f7ba72c77edc.md", "sha256": "28218899ec131ee4a9ddee3fd23a72eec7a318bbe7babdef5a71979e42071576"}
+{"time": 1794856083.23755, "event": "accepted", "path": "assessment.md", "sha256": "46590e31760bf43c09cac9560026e9f7fe151efde9f5cbee9b9dde9db52e4ed7"}
+{"time": 1794856083.2386458, "event": "accepted", "path": "plan.yaml", "sha256": "4fbb2db38ca91e3a085f1438c3ab20e2a7306a0c99aeedfde89fde2b23144018"}
+{"time": 1794856083.238982, "event": "accepted", "path": "start.md", "sha256": "0467becc125eb9a55d899fb0e0e487f762edb9245094ffc08d32f9bf3bccb52e"}
+{"time": 1794856122.6316059, "event": "launch", "job": "abstractions/apply", "key": "f69c00296e1257b4a1b5af806c4af272be955596989ba50d3b1498ce5d3ce505", "launch": "15dae9fbc3ba48929df239b70c48a1c0", "status": "delivered"}
+{"time": 1794856122.6353915, "event": "answered", "job": "abstractions/apply", "key": "f69c00296e1257b4a1b5af806c4af272be955596989ba50d3b1498ce5d3ce505", "problem": false}
+{"time": 1794856123.8127267, "event": "accepted", "path": "reports/abstractions.md", "sha256": "cbf4662ae48d048790473f900b1e5e1df3b1b3e9b25ac032e8bc8bd188149f25"}
+{"time": 1794856123.8130763, "event": "accepted", "path": "texts/abstractions.md", "sha256": "b6ea9721ecdcc807ac64070d3c54000859df28fe2f03fb9127f8b3794f121de5"}
+{"time": 1794856186.3453188, "event": "launch", "job": "readability-and-flow", "key": "cedc9c317a3a517f8bc71d207d36e2cc191591c2668299a84fbfeb6c53f39e41", "launch": "bd5fb988ac1d48ca93a9c2cddb603174", "status": "delivered"}
+{"time": 1794856186.3479216, "event": "answered", "job": "readability-and-flow", "key": "cedc9c317a3a517f8bc71d207d36e2cc191591c2668299a84fbfeb6c53f39e41", "problem": false}
+{"time": 1794856187.6461985, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "006fb2a8e6f8aad302792074587921af0389c51086dfa8ba54855fcaa72b5117"}
+{"time": 1794856187.6467702, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "3563088c9f65d5afd2ede6a71985a998220d0d66168e280bebdeeded0839530b"}
+{"time": 1794856215.1269338, "event": "launch", "job": "plain-wording/propose", "key": "26fa69de99e14e162d3e92c6ca4be877527a533eaae83eadab1ab60b4161c0b9", "launch": "7b98f5bb6800476da6efb9d84dca9297", "status": "delivered"}
+{"time": 1794856215.128103, "event": "answered", "job": "plain-wording/propose", "key": "26fa69de99e14e162d3e92c6ca4be877527a533eaae83eadab1ab60b4161c0b9", "problem": false}
+{"time": 1794856215.147616, "event": "accepted", "path": "plain-wording-answers-26fa69de99e1.md", "sha256": "9667f71d310f1010517b446bd36776ee30cd14cb92cc41feb96dc25c4ad1d208"}
+{"time": 1794856675.1697419, "event": "accepted", "path": "assessment.md", "sha256": "46590e31760bf43c09cac9560026e9f7fe151efde9f5cbee9b9dde9db52e4ed7"}
+{"time": 1794856675.1708598, "event": "accepted", "path": "plan.yaml", "sha256": "4fbb2db38ca91e3a085f1438c3ab20e2a7306a0c99aeedfde89fde2b23144018"}
+{"time": 1794856675.1713326, "event": "accepted", "path": "start.md", "sha256": "0467becc125eb9a55d899fb0e0e487f762edb9245094ffc08d32f9bf3bccb52e"}
+{"time": 1794856680.6419604, "event": "accepted", "path": "reports/abstractions.md", "sha256": "cbf4662ae48d048790473f900b1e5e1df3b1b3e9b25ac032e8bc8bd188149f25"}
+{"time": 1794856680.642331, "event": "accepted", "path": "texts/abstractions.md", "sha256": "b6ea9721ecdcc807ac64070d3c54000859df28fe2f03fb9127f8b3794f121de5"}
+{"time": 1794856682.9612424, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "006fb2a8e6f8aad302792074587921af0389c51086dfa8ba54855fcaa72b5117"}
+{"time": 1794856682.9616275, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "3563088c9f65d5afd2ede6a71985a998220d0d66168e280bebdeeded0839530b"}
+{"time": 1794856712.744768, "event": "launch", "job": "plain-wording/apply", "key": "f765f15fc3681de5b482b83c654da08fc51fead3a7be5f6f4e761257d1b1cd34", "launch": "bcbeefe1aa854091809d6ec36c8016b5", "status": "delivered"}
+{"time": 1794856712.7464168, "event": "answered", "job": "plain-wording/apply", "key": "f765f15fc3681de5b482b83c654da08fc51fead3a7be5f6f4e761257d1b1cd34", "problem": false}
+{"time": 1794856713.94652, "event": "accepted", "path": "reports/plain-wording.md", "sha256": "cd867d96fb99533af0b93765604fd43ea7ad28d14935365d0089b62cee266c66"}
+{"time": 1794856713.9470725, "event": "accepted", "path": "texts/plain-wording.md", "sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea"}
+{"time": 1794856713.9494092, "event": "accepted", "path": "final.md", "sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea"}
+{"time": 1794856713.949876, "event": "accepted", "path": "final.diff", "sha256": "3349f9b10b0de46929f506df302ce0b466cacc811761fdd47801dea5022a7b19"}
+{"time": 1794856713.95279, "event": "accepted", "path": "publication-answers.md", "sha256": "b3da5dc11de701b0de95e75caa34a9462306a412b559ebed9ac3e213a4115a09"}
+{"time": 1794856995.790308, "event": "accepted", "path": "assessment.md", "sha256": "46590e31760bf43c09cac9560026e9f7fe151efde9f5cbee9b9dde9db52e4ed7"}
+{"time": 1794856995.7921395, "event": "accepted", "path": "plan.yaml", "sha256": "4fbb2db38ca91e3a085f1438c3ab20e2a7306a0c99aeedfde89fde2b23144018"}
+{"time": 1794856995.7925222, "event": "accepted", "path": "start.md", "sha256": "0467becc125eb9a55d899fb0e0e487f762edb9245094ffc08d32f9bf3bccb52e"}
+{"time": 1794857001.1589334, "event": "accepted", "path": "reports/abstractions.md", "sha256": "cbf4662ae48d048790473f900b1e5e1df3b1b3e9b25ac032e8bc8bd188149f25"}
+{"time": 1794857001.159308, "event": "accepted", "path": "texts/abstractions.md", "sha256": "b6ea9721ecdcc807ac64070d3c54000859df28fe2f03fb9127f8b3794f121de5"}
+{"time": 1794857003.418889, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "006fb2a8e6f8aad302792074587921af0389c51086dfa8ba54855fcaa72b5117"}
+{"time": 1794857003.4192615, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "3563088c9f65d5afd2ede6a71985a998220d0d66168e280bebdeeded0839530b"}
+{"time": 1794857007.0565202, "event": "accepted", "path": "reports/plain-wording.md", "sha256": "cd867d96fb99533af0b93765604fd43ea7ad28d14935365d0089b62cee266c66"}
+{"time": 1794857007.056891, "event": "accepted", "path": "texts/plain-wording.md", "sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea"}
+{"time": 1794857007.0583286, "event": "accepted", "path": "final.md", "sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea"}
+{"time": 1794857007.0586808, "event": "accepted", "path": "final.diff", "sha256": "3349f9b10b0de46929f506df302ce0b466cacc811761fdd47801dea5022a7b19"}

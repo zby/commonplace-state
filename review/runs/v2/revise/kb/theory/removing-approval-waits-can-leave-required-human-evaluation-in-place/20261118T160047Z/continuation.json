@@ -1,0 +1,42 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z",
+  "made-for": {
+    "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+    "sha256": "41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "proposals",
+      "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "step": "Proposals awaiting decision",
+        "command": "commonplace-review run revise kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md --answers kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md --purpose 'An agent or maintainer who reports or designs the automation of a KB or agent process should be able to tell removing a human approval wait apart from automating or retiring a required human task and from optional assessment, and say which human tasks an automation claim keeps and which requirements it retires.' --must-keep 'Removing a human approval wait and removing a specified evaluation task are different changes.' --must-keep 'Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.'",
+        "record": "commonplace-review answers record kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md"
+      },
+      "answers": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md"
+      ],
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md",
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/edits/3ac11b80aa0026b5194a41c1/results/001ad28428d046088be5075196e73bf1/result.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "step": "Claim questions from the assessment"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/assessment.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+--- kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md
++++ kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md (candidate)
+@@ -1,47 +1,41 @@
+ ---
+-description: "Quote checking in general: what a wording check, an occurrence check and a source-identity check each establish, which evidence a pass is relative to, and what stays unverified — attribution upstream, contextual support, truth"
++description: "Deciding whether retained material supports a citation: a paraphrase cannot be cited as a quotation, a passed wording check shows only a match against the text compared, and a citation that claims more than was retained must be narrowed or checked against the source"
+ type: types/note.md
+ tags: [document-system, claims-and-grounding, kb-maintenance]
+ ---
+ 
+ # A citation cannot assert more fidelity than its capture preserved
+ 
+-Marking a span as an exact quotation asserts that these words occur in a named source. Unchecked, that assertion rests on the author's word. A quote check makes it falsifiable by testing one relation: given a quoted span, a resolved source text and a normalization rule, does the span occur in that text, once or once inside a stated range? Markers that never claimed exact wording, such as a paraphrase marker, give the check nothing to match.
++A writer reads a paper and keeps a note: the authors found that the method breaks down on long inputs. Weeks later, drafting an argument, the writer wants to write that the authors report the method "breaks down on long inputs". The quotation marks say these are the authors' words. The note cannot back that. It records what the writer took the passage to say, in the writer's words. The paper may have said that accuracy degrades on inputs longer than those seen in training, which is a narrower claim. A second writer who kept that sentence word for word can quote it.
+ 
+-## Four questions, one answered mechanically
++A paraphrase can preserve an idea without preserving the author's words; rewording is what makes it a paraphrase. Rewording can also change the proposition, and the result is an interpretation, not source text. A direct quotation asserts that the quoted words are the source's own. If the capture, meaning what the writer retained, holds only a paraphrase, it contains no source words for the quotation marks to point to. Adding the marks claims fidelity the capture did not preserve, and no notation added later can recover words that were never kept. The same bound holds for any fidelity a citation claims, whether exact words, the idea, or the passage's place in its context. It matters because a reader who trusts the claimed fidelity may skip comparing the citation with the source and so miss the error.
+ 
+-A citation raises four separable questions:
++The limit is on what a citation asserts about its evidence, not on what the writer may claim: the claim can still be made at the fidelity the capture supports, or as the writer's own.
+ 
+-1. Wording: do these words occur in the compared text?
+-2. Attribution: is the compared text the source the citation names, and did the named author produce it?
+-3. Context: does the passage, read where it occurs, support the use the citing text makes of it?
+-4. Truth: is the quoted claim true?
++## When the capture is enough
+ 
+-A string check answers only the wording question. An identity check answers part of the second question (below). Context needs a reader of both texts. Wording agreement is deterministic, cheap and binary, so it can run on every pass. Judging support is costlier and noisier, so it cannot simply block the way a wording check does, and how reliably it detects out-of-context use is unmeasured.
++A bounded exact passage can be enough to judge some uses of a source, when the quoted words carry what the citing text relies on. Other uses depend on broad, distributed or contextual material, such as an overall argument, a pattern across sections or what surrounds the passage. A few retained passages cannot represent that material soundly; those uses need the full source.
+ 
+-For an exact-wording claim, an inexpensive occurrence check can justify treating mismatch as failure rather than warning. This is a choice within the [trade-off between checking cost and reliance risk](./checking-retained-results-trades-cost-against-reliance-risk.md), not a universal rule for retained results. Later readers can reuse the check's result, accepting the risk of changes since it ran.
++The kind of check follows the kind of fidelity claimed. An exact-wording claim can be tested by matching words. A paraphrase makes no wording claim, so a wording check has nothing to match; checking it means judging whether the source supports it.
+ 
+-## What makes "exact" meaningful
++## What a passed wording check shows
+ 
+-"Exact" means "equal after this normalization rule", and the rule can err in both directions. Too little normalization fails correct quotes on quote marks or whitespace; [ADR 046](../reference/adr/046-verbatim-quotes-are-validated-against-their-cited-source.md) judges such false mismatches worse than no check. Too much would let substantive edits pass. In one casebook corpus the real mismatches were mostly editorial omissions, bracketed substitutions and case changes (ADR 046), which a permissive enough rule would ignore. Typography and emphasis can affect meaning in prose as well as code; a normalization rule must specify which differences it ignores.
++A passed wording check shows that the quoted span matches the text actually compared, under the check's comparison rule. The pass is relative to that evidence. It does not certify that the compared text is the original author's words, that the span keeps its meaning in context, or that the quoted claim is true. When the text needed for the check is missing, the citation is unverified, not passed; counting absence as success would make the same citation pass or fail according to whatever copy happens to be at hand. Commonplace's quote checker illustrates the point: it can falsify a `verbatim`-marked quotation by matching it against the Markdown source the quotation links, and a pass means only a match under its normalization rule against that linked text ([ADR 046](../reference/adr/046-verbatim-quotes-are-validated-against-their-cited-source.md)).
+ 
+-Occurrence is not location. A span can occur several times, and a plausible line range can point elsewhere in the same file. Requiring exactly one occurrence, or exactly one complete occurrence inside a checked range, removes ambiguity about which passage the span equals. Forbidding concatenation of disjoint ranges prevents certifying a passage that never existed contiguously (ADR 094). Uniqueness does not establish that the author intended this occurrence. A locator the check does not test supplies context but is not evidence.
++## Narrow the citation or return to the source
+ 
+-## Which evidence a pass is relative to
+-
+-A pass means "agrees with the evidence this check used". That evidence may be the original, a capture (a retained copy of the source bytes taken at one time), an intermediary's retained extract, or nothing.
+-
+-Source identity comes first. A checksum against a recorded capture, with explicit name pairing between citation and file, binds the compared bytes to that capture; equal bytes at an arbitrary path do not (ADR 073). A mismatched or unreadable file is a failure, not an invitation to find another copy. The binding stops at the capture: no mechanism here checks that the capture faithfully represents the original or that the named author wrote it. A pin records identity, and change is detected only when a later check compares current bytes with it. Checking current bytes catches a changed or removed passage at the next check, but misses a changed surrounding context when the quoted words survive.
+-
+-Retained, accessible and used material differ. A capture kept on another machine is not evidence for a check on this one, and neither is text that happens to sit in a model's context. Missing bytes therefore report as unverified, never as passed. A silent fallback to whatever copy is present would make one citation pass or fail with ambient cache state, without declaring that dependency (ADR 073).
+-
+-A model may need several reads to check a source that exceeds its context budget. Each excerpt can preserve the wording exactly while omitting context needed to judge the quotation’s use. The checker must retrieve that context before judging support; the full source can remain stored outside the model’s context.
+-
+-Exactness and second-hand provenance are independent. A quote can be exact with respect to an intermediary's extract and second-hand with respect to the original. Each exact check in a chain, such as capture to extract and extract to note, verifies only its own pair. Semantic hops compound instead: checking a paraphrase against a paraphrase adds a judgment at each hop, and rewording at either hop can change the proposition. Checking against verified source extracts avoids judging a paraphrase of a paraphrase.
++A citation that claims no more than the capture preserved can stand on the capture: exact words that were kept, or a bounded use the retained passage carries. A citation that claims more has two honest exits. Narrow it to what the capture supports, by attributing a paraphrase instead of quoting or by making a narrower claim. Or return to the source and consult the evidence that supplies what is missing. Relying silently on material that is not at hand is not a third exit.
+ 
+ ## Scope
+ 
+-- Covers textual sources with retrievable bytes. Audio, images, oral quotation and sources whose original is gone are out of scope.
+-- Transfer beyond agent-operated KBs rests on the reasoning above, not on external evidence.
+-- Marked editorial alterations (ellipsis, brackets) fail a strict wording assertion; whether a segment-wise check could support them is open.
+-- An "unresolved" outcome covers recognized quote candidates the checker could not pair with a source. Quotations the extractor never recognized appear in no outcome, and their rate is unmeasured.
++- The claim was abstracted from one system's citation design (Commonplace's ADRs 046 and 073). Its transfer to other citing practices rests on the reasoning above, not on corroborating evidence.
++- No test finer than bounded versus broad, distributed or contextual material decides when a retained passage is enough. Where that boundary falls for a given claim is open.
++- The bound does not decide whether a failed wording check should block or only warn. Failing a quote on mismatch is a choice within the [trade-off between checking cost and reliance risk](./checking-retained-results-trades-cost-against-reliance-risk.md).
++
++---
++
++Relevant Notes:
++
++- [Checking retained results trades cost against reliance risk](./checking-retained-results-trades-cost-against-reliance-risk.md) — contrasts: this note bounds what a citation may claim; that note decides how strictly a check of the claim is enforced
++- [ADR 046: verbatim quotes are validated against their cited source](../reference/adr/046-verbatim-quotes-are-validated-against-their-cited-source.md) — abstracted-from: the wording check used as this note's illustration; origin, not corroboration
++- [ADR 073: untracked source snapshots require ingest grounding](../reference/adr/073-untracked-source-snapshots-require-ingest-grounding.md) — abstracted-from: the distinction between uses a retained passage can support and uses that need the full source, and missing evidence as failure; origin, not corroboration

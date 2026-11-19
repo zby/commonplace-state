@@ -1,0 +1,69 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This replaces the accreted program article with a compact five-part structure.\n\nMain changes:\n- compress the software-factory ontology to only what is needed to state factory learning\n- merge Naur, retained-vs-held theory, and fallible search into one conceptual hinge\n- keep natural-language theory as the contingent implementation bet rather than a necessary carrier\n- merge testbeds, causal path, evidence ladder, current evidence, and minimum controlled contrasts\n- reduce system-boundary, Bitter Lesson, stronger-claims, and failure-condition material to short bridges to their canonical companion homes\n- update article-roles.md so future edits preserve the compact five-unit contract\n\nThe article now includes the retained theory -> held theory distinction and the corresponding retained-to-held experimental contrast.\n\nDiff: 2 files; the article removes 533 lines and adds 54, while article-roles is similarly compressed.",
+    "closedAt": "2026-08-31T20:08:54Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T19:58:12Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T19:58:12Z",
+        "messageBody": "",
+        "messageHeadline": "Compress learning software factories research program",
+        "oid": "754ac0f3cea6b7668359183ff50714f09a4fbfd2"
+      },
+      {
+        "authoredDate": "2026-08-31T19:58:28Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T19:58:28Z",
+        "messageBody": "",
+        "messageHeadline": "Align article roles with compressed program statement",
+        "oid": "67a3b02b2524bf8d169b6a4312faa38bf4b70e0a"
+      }
+    ],
+    "createdAt": "2026-08-31T19:58:39Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 54,
+        "deletions": 533
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/article-roles.md",
+        "additions": 26,
+        "deletions": 248
+      }
+    ],
+    "headRefName": "compress-learning-software-factories",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T20:08:54Z",
+    "number": 166,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Compress and reorganize learning software factories program",
+    "updatedAt": "2026-08-31T20:08:54Z",
+    "url": "https://github.com/zby/commonplace/pull/166"
+  },
+  "inline_review_comments": []
+}

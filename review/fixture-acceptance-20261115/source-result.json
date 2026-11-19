@@ -1,0 +1,22 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/20261115T200346Z",
+  "ok": true,
+  "counts": {
+    "reviewed": 1
+  },
+  "stopped": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  },
+  "pairs": [
+    {
+      "note": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+      "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::sentence/stock-phrases",
+      "state": "reviewed",
+      "outcome": "pass",
+      "problem": null
+    }
+  ]
+}

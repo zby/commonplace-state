@@ -1,0 +1,20 @@
+{"time": 1794810732.0579028, "event": "accepted", "path": "plan.yaml", "sha256": "4b56b4ae82cc25b5730117480c4eeb44f7c7be1d2baee2f69d848128a72c88b8"}
+{"time": 1794810732.0584435, "event": "accepted", "path": "start.md", "sha256": "f5c7e41c2621e16b1a8fbf38733d5bc7b8da9407f63a46693d75bdbd4534790c"}
+{"time": 1794810763.0896618, "event": "launch", "job": "plain-wording/propose", "key": "6d4af19b1c3e2762892f427a940c5c32c4aad06fe211f429e28335d757caf9af", "launch": "424662f0fe234c41842463dff4ae5487", "status": "delivered"}
+{"time": 1794810763.0934405, "event": "answered", "job": "plain-wording/propose", "key": "6d4af19b1c3e2762892f427a940c5c32c4aad06fe211f429e28335d757caf9af", "problem": false}
+{"time": 1794810763.127926, "event": "accepted", "path": "plain-wording-answers-6d4af19b1c3e.md", "sha256": "6b7d891af30b05ed42eb5a5b868bc7dd9a1dbff75b9bb341df4760a48958a82e"}
+{"time": 1794811367.7695124, "event": "accepted", "path": "plan.yaml", "sha256": "4b56b4ae82cc25b5730117480c4eeb44f7c7be1d2baee2f69d848128a72c88b8"}
+{"time": 1794811367.7700799, "event": "accepted", "path": "start.md", "sha256": "f5c7e41c2621e16b1a8fbf38733d5bc7b8da9407f63a46693d75bdbd4534790c"}
+{"time": 1794811402.459202, "event": "launch", "job": "plain-wording/apply", "key": "82e81bbc7aed63ca90e398907044433b71cf75fc803d3eea66e70653a1e2108e", "launch": "3a5c728e6570459bbbae063742f598a6", "status": "delivered"}
+{"time": 1794811402.4634163, "event": "answered", "job": "plain-wording/apply", "key": "82e81bbc7aed63ca90e398907044433b71cf75fc803d3eea66e70653a1e2108e", "problem": false}
+{"time": 1794811403.5621736, "event": "accepted", "path": "reports/plain-wording.md", "sha256": "212813898cb7835d1919979dcc493318980ddc36d1f8ba665bd6b858a0483afe"}
+{"time": 1794811403.5626357, "event": "accepted", "path": "texts/plain-wording.md", "sha256": "1b8abb44a4661ac4359b859127e7bf1fbd63c79069901f1b12921dd152930b52"}
+{"time": 1794811403.5640733, "event": "accepted", "path": "final.md", "sha256": "1b8abb44a4661ac4359b859127e7bf1fbd63c79069901f1b12921dd152930b52"}
+{"time": 1794811403.5643926, "event": "accepted", "path": "final.diff", "sha256": "f69052350694d8c73992d04f927929a49c491cd3353fb76b0e094abb23510636"}
+{"time": 1794811403.5658982, "event": "accepted", "path": "publication-answers.md", "sha256": "fae3884b4e87eac2fe2b59aee04d5064b5dceeb070501d6219c7e4c7d94dd5b1"}
+{"time": 1794811547.7984545, "event": "accepted", "path": "plan.yaml", "sha256": "4b56b4ae82cc25b5730117480c4eeb44f7c7be1d2baee2f69d848128a72c88b8"}
+{"time": 1794811547.79885, "event": "accepted", "path": "start.md", "sha256": "f5c7e41c2621e16b1a8fbf38733d5bc7b8da9407f63a46693d75bdbd4534790c"}
+{"time": 1794811553.3341408, "event": "accepted", "path": "reports/plain-wording.md", "sha256": "212813898cb7835d1919979dcc493318980ddc36d1f8ba665bd6b858a0483afe"}
+{"time": 1794811553.3345206, "event": "accepted", "path": "texts/plain-wording.md", "sha256": "1b8abb44a4661ac4359b859127e7bf1fbd63c79069901f1b12921dd152930b52"}
+{"time": 1794811553.3360257, "event": "accepted", "path": "final.md", "sha256": "1b8abb44a4661ac4359b859127e7bf1fbd63c79069901f1b12921dd152930b52"}
+{"time": 1794811553.3363638, "event": "accepted", "path": "final.diff", "sha256": "f69052350694d8c73992d04f927929a49c491cd3353fb76b0e094abb23510636"}

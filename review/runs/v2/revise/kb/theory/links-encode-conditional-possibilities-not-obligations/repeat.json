@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "complete": false,
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621",
+  "artifact": "kb/theory/links-encode-conditional-possibilities-not-obligations.md",
+  "mode": "fixed-plan",
+  "plan": {
+    "purpose": "Make the note's wording plain for a KB maintainer reading it for the first time.",
+    "defend": [],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "plain-wording",
+        "scope": null
+      }
+    ]
+  },
+  "passes": [
+    {
+      "name": "plain-wording",
+      "scope": null,
+      "effort": "simple",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "sonnet",
+        "effort": "medium"
+      },
+      "model": "claude-sonnet-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/reports/plain-wording.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/texts/plain-wording.md"
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/final.md",
+  "applied": false,
+  "not-applied": "The proposed text is kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/final.md; it is not applied: final publication needs explicit approval.",
+  "waiting-for": {
+    "what": "Inspect final.md and final.diff. Record the operator's decision on the one item of publication-answers.md: `approved`, or `rejected` or `deferred` with the operator's reason, with `decided-by: operator` and `decided-at`. Approve that file, then repeat. To revise the candidate, change the workflow inputs or supply --plan for revision; editing final.md is not a workflow input.",
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/publication-answers.md",
+    "key": "f05def443811546a164e7cb28348cced13d6ae33f981cf3a0b3b612067005aa3",
+    "approve-command": "commonplace-review approve kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621 kb/reports/state/review/runs/v2/revise/kb/theory/links-encode-conditional-possibilities-not-obligations/f5c7e41c2621/artifact/publication-answers.md --key f05def443811546a164e7cb28348cced13d6ae33f981cf3a0b3b612067005aa3",
+    "command": "commonplace-review run revise kb/theory/links-encode-conditional-possibilities-not-obligations.md"
+  },
+  "stop": null,
+  "override": null,
+  "unapproved-edits": [],
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "session_file": "/home/zby/.pi/agent/sessions/--home-zby-llm-commonplace--/2026-11-16T22-26-27-249Z_01a1e678-0330-74fc-929e-19a51201ab5a.jsonl",
+  "reports": {
+    "horkoff-gore-mapping-reflections-2026.connect.md": {
+      "archive_sha256": "f91f341920ce68f4e7b2884988c0b6a83cb23e3b77c55e26381fd89a9d2ebd3f",
+      "new_sha256": "e9e921d419e66fdd1462e3f70b4f1ead564c0af76cc8ac005009f4b518d2a4ac",
+      "archive_edges": [
+        [
+          "Intent-framed delegation",
+          "../../../../theory/intent-framed-delegation-is-a-control-regime-not-a-short-prompt.md",
+          "compares-with"
+        ],
+        [
+          "Intent controls a local choice",
+          "../../../../theory/intent-controls-choices-by-distinguishing-live-alternatives.md",
+          "compares-with"
+        ],
+        [
+          "Writing-is-thinking filter",
+          "../../../../theory/adversarial-loop-can-reconstruct-the-writing-is-thinking-filter.md",
+          "compares-with"
+        ],
+        [
+          "Software design-model use survey",
+          "../../../../sources/software-design-model-use-in-practice.ingest.md",
+          "compares-with"
+        ]
+      ],
+      "new_edges": [
+        [
+          "Intent-framed delegation",
+          "../../../../theory/intent-framed-delegation-is-a-control-regime-not-a-short-prompt.md",
+          "compares-with"
+        ],
+        [
+          "LLM generation can hide a relaxed goal",
+          "../../../../theory/llm-generation-relaxes-goals-where-human-writing-stalls.md",
+          "compares-with"
+        ],
+        [
+          "Runtime structure determines governance control surfaces",
+          "../../../../theory/runtime-structure-determines-governance-control-surfaces.md",
+          "compares-with"
+        ],
+        [
+          "Requirements Reflection",
+          "../../../../sources/requirements-reflection-runtime-entities.ingest.md",
+          "compares-with"
+        ],
+        [
+          "Original article",
+          "https://doi.org/10.1007/s00766-026-00476-7",
+          "derived-from"
+        ]
+      ]
+    },
+    "horkoff-gore-mapping-reflections-2026.ingest.connect.md": {
+      "archive_sha256": "6182f41077036231832e9b86563e393ea00cd9675a527b56fa766f00e7ff1199",
+      "new_sha256": "f6f2e12ef567c0c7beb77a237756bd638aaa447ea982123a64aaa5babb86502e",
+      "archive_edges": [
+        [
+          "Learning inside a fixed decomposition",
+          "../../../../theory/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md",
+          "compares-with"
+        ],
+        [
+          "Intent-framed delegation",
+          "../../../../theory/intent-framed-delegation-is-a-control-regime-not-a-short-prompt.md",
+          "compares-with"
+        ],
+        [
+          "Intent controls a local choice",
+          "../../../../theory/intent-controls-choices-by-distinguishing-live-alternatives.md",
+          "compares-with"
+        ],
+        [
+          "Writing-is-thinking filter",
+          "../../../../theory/adversarial-loop-can-reconstruct-the-writing-is-thinking-filter.md",
+          "compares-with"
+        ],
+        [
+          "Software design-model use survey",
+          "../../../../sources/software-design-model-use-in-practice.ingest.md",
+          "compares-with"
+        ]
+      ],
+      "new_edges": [
+        [
+          "Intent-framed delegation",
+          "../../../../theory/intent-framed-delegation-is-a-control-regime-not-a-short-prompt.md",
+          "compares-with"
+        ],
+        [
+          "Intent controls local choices",
+          "../../../../theory/intent-controls-choices-by-distinguishing-live-alternatives.md",
+          "compares-with"
+        ],
+        [
+          "Theory builder",
+          "../../../../theory/definitions/theory-builder.md",
+          "defined-in"
+        ],
+        [
+          "Learning inside a fixed decomposition",
+          "../../../../theory/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md",
+          "compares-with"
+        ],
+        [
+          "LLM generation can hide a relaxed goal",
+          "../../../../theory/llm-generation-relaxes-goals-where-human-writing-stalls.md",
+          "compares-with"
+        ],
+        [
+          "Requirements Reflection",
+          "../../../../sources/requirements-reflection-runtime-entities.ingest.md",
+          "compares-with"
+        ],
+        [
+          "Original article",
+          "https://doi.org/10.1007/s00766-026-00476-7",
+          "derived-from"
+        ]
+      ]
+    }
+  },
+  "scratch": {
+    "ingest/agent-memory-systems.search.txt": {
+      "lines": 9,
+      "sha256": "1ac72933f8b4d4f4b31268b052258ebfaaa4a9bd7596b7dc32683a0dd69ac3fb"
+    },
+    "ingest/agent-memory-systems.titles.txt": {
+      "lines": 175,
+      "sha256": "99467d3e31c02936dc2de394e1c3923785a292fac1f6c4a522fd94814a70a534"
+    },
+    "ingest/agentic-systems.search.txt": {
+      "lines": 9,
+      "sha256": "c6263a471e364e24e6fa9956bd16b80b4404a13fa38ea11661dba248c1948191"
+    },
+    "ingest/agentic-systems.titles.txt": {
+      "lines": 156,
+      "sha256": "6d85f2a6c5ce1c55fb2b419cbb612189437ca342206a21555eb08ce68c08b806"
+    },
+    "ingest/reference.search.txt": {
+      "lines": 15,
+      "sha256": "010e97b50efdd2d94df1094d35439776080da9b402a9ad7183300dca5a7a06f3"
+    },
+    "ingest/reference.titles.txt": {
+      "lines": 252,
+      "sha256": "d9fd8333bc6f521f1ffb648092eb09c6cf915c2287c3f6cb8958635cec5d0ec1"
+    },
+    "ingest/sources.search.txt": {
+      "lines": 20,
+      "sha256": "b02b833206f8b8ab88614fa2c402e15dd6c962ad6fb11a5c713a69ae913ff99b"
+    },
+    "ingest/sources.titles.txt": {
+      "lines": 609,
+      "sha256": "52f833c694fac5c90a10eaf53169c194e8d0be1b3232b74f32df94ff6a84dea8"
+    },
+    "ingest/tags.search.txt": {
+      "lines": 22,
+      "sha256": "0b153ef32fc6ed935a44effe82d083d0bbd9ee09c92dfded29b28a49a9556f43"
+    },
+    "ingest/tags.titles.txt": {
+      "lines": 34,
+      "sha256": "cb6c350f51599912e0f2f90f135baaedaed99ef76991a409c77595e38fd8972c"
+    },
+    "ingest/theory.search.txt": {
+      "lines": 65,
+      "sha256": "c683b8210f0185f10865c457970c04e07cca6381f75a8d82bf3ac8ac70e779e1"
+    },
+    "ingest/theory.titles.txt": {
+      "lines": 436,
+      "sha256": "6b2d9edbee4d8a8832cfc634f26ced9792242d6ebf1e771dbef18b95d7416207"
+    },
+    "snapshot/agent-memory-systems.search.txt": {
+      "lines": 8,
+      "sha256": "07e4cdcbd7295a502e2afc681584f24ad379acbbd5725b95a78cc45c6d0fdf21"
+    },
+    "snapshot/agent-memory-systems.titles.txt": {
+      "lines": 175,
+      "sha256": "206dacc30170ca3f0c5cf94467f18a2d68b2d9e2de2e335d5ce9eb54d2317658"
+    },
+    "snapshot/agentic-systems.search.txt": {
+      "lines": 7,
+      "sha256": "9d24bbd3de771c08869107f8bc3692c083c7d1280afa1682761099330fc5cfe2"
+    },
+    "snapshot/agentic-systems.titles.txt": {
+      "lines": 156,
+      "sha256": "7071ee23d35df494183756bc5b2a77bec59d80fbe8e7bf4ade508efd93aeaee4"
+    },
+    "snapshot/reference.search.txt": {
+      "lines": 16,
+      "sha256": "3d623303804e7e926b7d0d745f5dbfe080c44a2da954aa5f53ff4356c6f784fa"
+    },
+    "snapshot/reference.titles.txt": {
+      "lines": 252,
+      "sha256": "81d93496ad7e8530b6684b33614f9fcd285da4a5b1cb794eb90a8d70537fa578"
+    },
+    "snapshot/sources.search.txt": {
+      "lines": 26,
+      "sha256": "d352903ebdd91bd030fe7ff45d5d58db816e22d051eaed6d803714a764274a17"
+    },
+    "snapshot/sources.titles.txt": {
+      "lines": 609,
+      "sha256": "eb96bde808c716e4c3e9cf8d244df3162909e29fa526b282ca03de5fca4f126c"
+    },
+    "snapshot/tags.search.txt": {
+      "lines": 8,
+      "sha256": "0a4e14c89b8f0ae245185cfa2641daf46dddb1a83dc2c65762cb057c13bda53c"
+    },
+    "snapshot/tags.titles.txt": {
+      "lines": 34,
+      "sha256": "541bdf084be7eb9930f223882857bdb725d38c729e141f3ea4ceb708992c5203"
+    },
+    "snapshot/theory.search.txt": {
+      "lines": 40,
+      "sha256": "84a4ee52b1d3d8ace905d8cad4b654a7748a46683013a19460e2435f64e54caf"
+    },
+    "snapshot/theory.titles.txt": {
+      "lines": 436,
+      "sha256": "5f85f2517aa912631da65101f9f7b90653d3c68b0836a25cfdf49f2255ad8bda"
+    }
+  }
+}

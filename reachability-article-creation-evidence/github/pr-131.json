@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This follow-up applies the boundary and actor-allocation model from the self-improving-systems notes.\n\nThe article now:\n- removes the unnecessary adversative transition after \"Modern coding agents\" and presents agents straightforwardly as components of a weight-prompt-code-runtime system;\n- keeps the deployed compound system, not the model alone, as the unit of learning and explicitly includes prompt templates and retained prompt state among behavior-determining learning surfaces;\n- introduces Commonplace as the live human-agent research instrument and persistent-theory programming agents as the harder prospective testbed;\n- states why including the operator does not establish the desired automation result: human-inclusive self-improving membership is easy to obtain;\n- holds the human-inclusive boundary fixed and reports each decision-bearing function as human, computational, or joint;\n- defines progress as reallocation toward computational supply and the automation endpoint as boundary contraction once humans cease to be a cut set;\n- keeps that actor-allocation endpoint separate from coherent modification and warranted unattended operation;\n- rewrites the recorded Commonplace episode using the same fixed-boundary profile, explicitly noting that the operator remained a cut set; and\n- sharpens the longitudinal study to look for named functions moving from human or joint to computational supply, rather than increased agent output volume.\n\nThe new framing follows `self-improving-systems-README.md`, `methodological-and-computational-closure-track-different-changes.md`, and `computationally-directed-self-improvement-is-a-reallocation.md`.",
+    "closedAt": "2026-08-30T17:36:32Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T17:31:39Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T17:31:39Z",
+        "messageBody": "Present the current human-agent boundary as the research instrument, computationally directed improvement as a fixed-boundary reallocation target, and boundary contraction as the automation endpoint. Keep actor allocation, coherent modification, and warrant as separate claims.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Introduce the human cut without making closure cheap",
+        "oid": "fa3cc689ca3834d4e242c5d4498b9441cf95e590"
+      }
+    ],
+    "createdAt": "2026-08-30T17:31:56Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 54,
+        "deletions": 36
+      }
+    ],
+    "headRefName": "introduce-human-cut",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T17:36:32Z",
+    "number": 131,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Introduce the human cut without making closure cheap",
+    "updatedAt": "2026-08-30T18:22:56Z",
+    "url": "https://github.com/zby/commonplace/pull/131"
+  },
+  "inline_review_comments": []
+}

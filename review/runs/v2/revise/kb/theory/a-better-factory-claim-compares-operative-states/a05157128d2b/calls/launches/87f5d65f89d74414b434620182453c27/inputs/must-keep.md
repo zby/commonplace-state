@@ -1,0 +1,8 @@
+- A candidate that is generated and discarded never enters the comparison, so a better-factory claim cannot be read off a construction event.
+- Antecedence guards this claim's auditability; it is not constitutive of improvement.
+- An independently supplied retrospective criterion can ground a legitimate improvement claim.
+- The two-component relation (non-regression plus a named target) is the shape this framework declares, not the only declarable one; a relation permitting retirement of obsolete or unsafe prior capability can be declared, and the preserved-path consequence then no longer follows.
+- A comparison judges the adopted states; whether an evaluator also controlled adoption is a separate causal question.
+- If the checked prior scope includes an operative path for factory development, non-regression requires the successor to preserve that capability.
+- Holding model weights fixed does not put the comparison out of reach.
+- A passed comparison does not identify the experience-to-change link; the declared comparison judges improvement, and the experience-to-change link distinguishes learning.

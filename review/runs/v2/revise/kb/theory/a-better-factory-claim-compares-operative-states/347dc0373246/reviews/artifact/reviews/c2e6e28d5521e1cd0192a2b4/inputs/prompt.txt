@@ -1,0 +1,22 @@
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-better-factory-claim-compares-operative-states.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/compression-bundle/core-claim-obscured.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+This is one compression check. It reports PASS, INFO or WARN and has no FAIL.
+Write PASS as outcome: pass; INFO as outcome: pass with info findings; WARN as outcome: warn.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.

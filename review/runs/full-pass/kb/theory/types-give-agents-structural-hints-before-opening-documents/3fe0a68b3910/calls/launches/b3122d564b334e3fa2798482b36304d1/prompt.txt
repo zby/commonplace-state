@@ -1,0 +1,36 @@
+Task:
+Write the packet of a full improvement pass over one note. Nobody will answer questions. If you cannot, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/types-give-agents-structural-hints-before-opening-documents.md` in this repository; its text at the start of the pass is <Inputs: note.md>. The pass's instruction is <Inputs: criterion.md>: write the packet as it directs, from these method reports over that text:
+- compression bundle: <Inputs: compression.md>
+- composition-friction-gate: <Inputs: friction.md>
+- premise-decomposition-gate: <Inputs: premises.md>
+- connect: <Inputs: connect.md>
+- critique-note: <Inputs: critique.md>
+- catalog review gates, one section per gate result: <Inputs: gates.md>
+
+Output:
+- Write the packet to <Required outputs: packet.md>: YAML frontmatter holding exactly the decision fields below, then the packet's body sections from `## Warranted contribution` on, without an H1. Name files as repository paths in code spans; write no markdown links, since the packet is stored away from the note. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+The decision fields, each required:
+- `disposition`: one of keep, revise, delete, merge, rehome
+- `update`: one of determined, undetermined, none
+- `merge-target`: a str or null value
+
+
+Inputs (read these exact files):
+- compression.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/compression.md
+- connect.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/connect.md
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/criterion.md
+- critique.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/critique.md
+- friction.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/friction.md
+- gates.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/gates.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/note.md
+- premises.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/inputs/premises.md
+
+Required outputs (write these exact files):
+- packet.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/outputs/packet.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/b3122d564b334e3fa2798482b36304d1/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

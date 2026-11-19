@@ -1,0 +1,33 @@
+{
+  "format": 2,
+  "profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md"
+    ],
+    "criteria": [
+      "critique",
+      "friction",
+      "premises",
+      "accessibility/undefined-terms",
+      "frontmatter/claim-strength",
+      "semantic/completeness-boundary-cases",
+      "semantic/underspecified-assertions",
+      "sentence/parsing-ambiguity",
+      "structural/compound-bullet",
+      "compression/branch-bloat",
+      "compression/marginal-value-redundancy"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

@@ -1,0 +1,1 @@
+An agent or maintainer who reports or designs the automation of a KB or agent process should be able to tell removing a human approval wait apart from automating or retiring a required human task and from optional assessment, and say which human tasks an automation claim keeps and which requirements it retires.

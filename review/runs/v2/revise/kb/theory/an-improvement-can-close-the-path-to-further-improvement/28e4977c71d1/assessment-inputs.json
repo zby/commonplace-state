@@ -1,0 +1,532 @@
+{
+  "findings": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/accessibility/undefined-terms.md",
+      "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+      "criterion_id": "accessibility/undefined-terms",
+      "depth": 3,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/accessibility/undefined-terms.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/review-gates/accessibility/undefined-terms.md\ncriterion-sha256: a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: b9280ed1e59b4de1a8c7661c90bb5cad\ncompleted-at: '2026-11-17T07:22:06Z'\nfindings:\n- scope: passage\n  quotes:\n  - Supplement to the preserved-capability consequence of [the better-factory comparison](./a-better-factory-claim-compares-operative-states.md).\n  reason: '\"Better-factory comparison\" and its \"preserved-capability consequence\"\n    are KB-internal phrases with no inline gloss. A first-time reader cannot tell\n    what a \"factory\" is here, what the comparison compares, or which consequence is\n    meant without following the link. Add a short gloss, for example \"the comparison\n    of a successor system''s operative state against its predecessor''s\", or rephrase\n    the supplement line in plain terms.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/266d975c0e21bee9d96d90f0/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/266d975c0e21bee9d96d90f0/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/b9280ed1e59b4de1a8c7661c90bb5cad/outputs/review-undefined-terms.md\nraw-output-sha256: a585bd1d135d997106aa929ff1188e460f4826cb7025c67a21819a2307664818\n---\n\n# Review\n\n## Summary\n\nThe body mostly defines its terms in place. The hypothetical agent grounds \"revision workflow\" and \"revision capability\". The note glosses \"repeatable operative path\" through the functions it keeps available: evidence, proposed change, adoption decision, installation and later use. \"Non-regression requirement\" is ordinary engineering vocabulary, and the note supplies its operative condition, the checked scope.\n\nThe one gap is the opening supplement line. It positions the note through two undefined KB-internal phrases. The rest of the note remains readable without that line, so the problem is a warning rather than a failure. Still, the first sentence a reader meets fails this gate's test.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/frontmatter/claim-strength.md",
+      "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "criterion_id": "frontmatter/claim-strength",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/frontmatter/claim-strength.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 6592d67ff5ef10ca1ae42dad01bf50688085a0c639dbf38f53d04f20becc8842\ncriterion: kb/instructions/review-gates/frontmatter/claim-strength.md\ncriterion-sha256: 8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 6c4fa58101ae4ed1a7bde7521f1f72cc\ncompleted-at: '2026-11-17T07:22:56Z'\nfindings:\n- scope: passage\n  quotes:\n  - An improvement can close the path to further improvement\n  reason: 'The title asserts only a possibility. Few informed readers would deny that\n    a change can improve one thing while disabling self-revision, so the bare ''can''\n    claim is close to uncontested. The note''s contestable point is narrower: a comparison\n    that checks the production gain does not check that the revision path survives,\n    and non-regression protects that path only when the revision capability is in\n    its checked scope. A title carrying that point would be sharper.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/1aeaac75ee96a37efa8640ec/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/1aeaac75ee96a37efa8640ec/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/6c4fa58101ae4ed1a7bde7521f1f72cc/outputs/review-claim-strength.md\nraw-output-sha256: 257e5e0729cf309f60571c101c24b3b00a23d7e7a1df67a057d68b9818bf3781\n---\n\n# Review\n\n## Summary\n\nThe title is a genuine claim, but as a modal possibility statement it is hard to argue against: an informed reader would readily grant that an improvement can disable later improvement. The note does establish something more contestable — that verifying the current gain says nothing about whether the revision mechanism survives, and that non-regression only protects it under a scope condition. Someone could reasonably argue the opposite of that (for example, that a non-regression requirement already implies preserved improvability). Sharpening the title toward that point would let it clear this gate cleanly.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion_id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/compression-bundle/marginal-value-redundancy.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/compression-bundle/marginal-value-redundancy.md\ncriterion-sha256: a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 7be1f3184c6a44c59369e23bf8f526df\ncompleted-at: '2026-11-17T07:24:07Z'\nfindings:\n- scope: passage\n  quotes:\n  - 'The speed gain can be real. The lost revision capability can also be real. There\n    is no contradiction: the comparison checked task performance, while the change\n    removed a different capability.'\n  reason: This paragraph repeats the opening paragraph's point that the two outcomes\n    are compatible because checking the current gain does not check the revision mechanism.\n    The example has already made the case concrete, so the recap adds no new contrast.\n    Cut it, or reduce it to one clause attached to the example's last sentence.\n  level: warn\n- scope: passage\n  quotes:\n  - 'Preserving the path is therefore a consequence of non-regression only under an\n    additional condition: the revision capability must be included in what is checked.'\n  reason: 'This sentence restates the preceding paragraph: non-regression protects\n    only what is in its checked scope, and it protects the revision path when that\n    scope includes it. The following sentence is the useful part, because it says\n    that production-only non-regression leaves the path out. Fold that sentence into\n    the previous paragraph and drop the restatement.'\n  level: warn\n- scope: passage\n  quotes:\n  - Closing one path does not establish loss of the capability if another applicable\n    path remains.\n  reason: 'The body already makes this point twice: a successor fails only if it ''destroys\n    the only applicable revision path'', and ''The required function need not stay\n    in its original component.'' The scope bullet adds no new boundary case and can\n    be cut.'\n  level: warn\n- scope: passage\n  quotes:\n  - A maintainer may restore a path that the agent itself no longer has.\n  reason: This partly repeats the earlier maintainer-editable-files paragraph. Its\n    framing in terms of the declared system boundary may still help prevent misapplication.\n    I am unsure whether that is enough to justify keeping it as a separate bullet.\n  level: info\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/4dcd5a14a0e353b1bb79f192/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/4dcd5a14a0e353b1bb79f192/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/7be1f3184c6a44c59369e23bf8f526df/outputs/review.md\nraw-output-sha256: 3cae06e96d83c709904f07f38ef00a7842a28c69d2aa1e20232873ff6a55bc1e\n---\n\n# Review\n\n## Summary\n\nThe note is short and its main parts do real work. The hypothetical agent makes the failure concrete. The non-regression section states the condition under which the failure is prevented. The section on remaining able to improve separates preservation from actual later improvement. The first Scope bullet, about fixed deployments that deliberately give up self-revision, adds a boundary the body does not otherwise state.\n\nThe redundancy is local. Three chunks restate a point that an adjacent or earlier passage has already made. The first is the \"no contradiction\" paragraph after the example. The second is the \"therefore ... only under an additional condition\" sentence, which repeats the scope rule it follows. The third is the Scope bullet about another applicable path, which the body already covers. Cutting or folding these would shorten the note without removing anything the reader needs.\n\nThe sentence \"That note supplies the detailed test; this note explains why a successful improvement comparison can miss its failure\" was considered and is not flagged. It tells the reader where the detailed test lives, which the earlier link alone does not.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/prose/mannered-prose.md",
+      "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+      "criterion_id": "prose/mannered-prose",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/prose/mannered-prose.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/review-gates/prose/mannered-prose.md\ncriterion-sha256: b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: da2abf58c95c467aa546b90132222627\ncompleted-at: '2026-11-17T07:22:33Z'\nfindings:\n- scope: passage\n  quotes:\n  - A gain can consume the mechanism that produced it\n  reason: 'Literal meaning: a successor installed by the revision mechanism can disable\n    that mechanism. ''Consume'' implies that the gain is obtained by using up the\n    mechanism, which would make the production gain and the lost capability causally\n    coupled. The section says the opposite: ''the comparison checked task performance,\n    while the change removed a different capability'', which treats them as separate\n    effects of one change. Replacement: ''A gain can disable the mechanism that produced\n    it.'' This removes the unsupported trade-off connotation.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/51b752de52c73f04ada3a595/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/51b752de52c73f04ada3a595/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/da2abf58c95c467aa546b90132222627/outputs/review-mannered-prose.md\nraw-output-sha256: 7d47d08554d211a21f4fc9aaeb140339ec82edf3c9bf64ea8742f6f3b14d602e\n---\n\n# Review\n\nThe note is mostly literal. The title's \"close the path\" and the repeated \"revision path\" work as precise shorthand: the body defines a path as the route from evidence to proposal, adoption, installation and later use, and the linked repeatable-operative-path note uses the same term. That figure is kept.\n\nOne heading uses a figure whose connotation the note does not support. \"Consume\" suggests that the faster configuration gains its speed by using up the revision workflow. The example never says that the speed comes from removing the workflow, and the following paragraph explicitly separates the measured gain from the removed capability. The literal verb \"disable\" states the intended relation just as clearly and does not suggest that the two effects are coupled.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/semantic/underspecified-assertions.md",
+      "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+      "criterion_id": "semantic/underspecified-assertions",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/semantic/underspecified-assertions.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/review-gates/semantic/underspecified-assertions.md\ncriterion-sha256: 8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: d148fd8b499e463b9bbd05cdf1df7659\ncompleted-at: '2026-11-17T07:24:13Z'\nfindings:\n- scope: passage\n  quotes:\n  - If that scope includes the ability to revise the system's improvement machinery\n  reason: 'This assertion states what a non-regression scope must include, and it\n    allows two materially different readings. Reading A: the scope must include the\n    first-order capability to produce and install another revision of the system,\n    the capability the example agent loses. Reading B: the scope must include the\n    second-order capability to revise the improvement machinery itself, such as editing\n    the revision workflow or the evaluator. The unresolved choice is the scope of\n    the checked capability. The choice changes what a declared comparison must test:\n    whether another revision can still be carried through to use, or whether the revision\n    workflow itself stays revisable. It also changes whether the example''s successor\n    fails. The surrounding text (\"the revision capability\", \"the only applicable revision\n    path\") leans toward Reading A, but the explicit object \"improvement machinery\"\n    supports Reading B.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/207af125e506b99513821c62/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/207af125e506b99513821c62/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/d148fd8b499e463b9bbd05cdf1df7659/outputs/review-underspecified-assertions.md\nraw-output-sha256: b207411541bfdcbc9143ff8d1baa1a9cf5045162360559235b256b70064a8b09\n---\n\n# Review\n\nMost load-bearing assertions are exact.\n\n- **The worked example.** It names the workflow, the change and the lost route.\n- **The replacement condition.** It requires a replacement to \"carry another revision through to use\".\n- **The Scope entries.** They state the system boundary and alternative paths.\n\nThe note's operative recommendation is the sentence that says what non-regression must check. That sentence leaves the object of the checked capability unresolved between producing another revision and revising the improvement machinery. The two readings call for different checks in a declared comparison, so the difference is material.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/sentence/framing-mismatch.md",
+      "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+      "criterion_id": "sentence/framing-mismatch",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/sentence/framing-mismatch.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/review-gates/sentence/framing-mismatch.md\ncriterion-sha256: ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 7f6000a8c1de4c2587cba8c5a0619c7b\ncompleted-at: '2026-11-17T07:23:39Z'\nfindings:\n- scope: passage\n  quotes:\n  - disables a mechanism needed to select or install later revisions\n  reason: 'The mechanism the note describes is the whole revision path: evidence leads\n    to a proposed change, an adoption decision, installation and later use. Framing\n    the loss as a mechanism needed to ''select or install'' excludes cases the mechanism\n    covers. Examples are a change that disables proposing revisions, or one that leaves\n    installed changes unconsumed. The note itself counts the second case as loss when\n    it says that kept files do not preserve the capability ''if the successor no longer\n    permits or consumes their changes''. Wording such as ''a mechanism needed to carry\n    later revisions through to use'' would match the mechanism.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/6b3ee30e5514b3fa7a4b877b/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/6b3ee30e5514b3fa7a4b877b/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/7f6000a8c1de4c2587cba8c5a0619c7b/outputs/review-framing-mismatch.md\nraw-output-sha256: c506155671575ec9775945af1bc0c05dfa01a05198194d553f6d5305e62f6077\n---\n\n# Review\n\n## Summary\n\nMost mechanism statements are framed at the right level. Non-regression protects whatever is in its checked scope. The example's comparison checked task performance while the change removed a different capability. Preservation attaches to the function, not to a component.\n\nThe opening paragraph is the exception. It names only selection and installation as the disabled functions. Later, the note defines the relevant question as the full chain from evidence to later use. Its replacement criterion is whether a revision can be carried \"through to use\". A reader of the opening alone would miss losses at the proposal or later-use stages. The later text corrects this, so the narrowing is local, but it does exclude covered cases.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/sentence/parsing-ambiguity.md",
+      "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+      "criterion_id": "sentence/parsing-ambiguity",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/review-gates/sentence/parsing-ambiguity.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 0366cb851ef44475ed808292e3919e8d5559c86b5d72261a6cdd8d5c82ee0aab\ncriterion: kb/instructions/review-gates/sentence/parsing-ambiguity.md\ncriterion-sha256: 07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 7f6000a8c1de4c2587cba8c5a0619c7b\ncompleted-at: '2026-11-17T07:23:39Z'\nfindings:\n- scope: passage\n  quotes:\n  - this note explains why a successful improvement comparison can miss its failure\n  reason: 'Pronoun reference: the nearest antecedent of ''its'' is ''a successful\n    improvement comparison''. That gives the reading ''the comparison can miss the\n    comparison''s own failure'', which clashes with ''successful''. The intended antecedent\n    is the revision path, or that note''s test, two sentences back. A reader has to\n    backtrack to recover it. Naming the referent removes the ambiguity, for example\n    ''can miss the loss of that path''.'\n  level: warn\ncontract: verdict\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/62e03131b002b322ae09af5f/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/62e03131b002b322ae09af5f/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/7f6000a8c1de4c2587cba8c5a0619c7b/outputs/review-parsing-ambiguity.md\nraw-output-sha256: 6b131964a342e42ac4f069f5423ea5b4f07bd727ef851e83bbf41b6fd32b70ec\n---\n\n# Review\n\n## Summary\n\nThe note's negations scope cleanly. Examples are \"does not check that the revision mechanism survives\", \"only under an additional condition\" and \"is not improving again\". Its \"when\" and \"if\" clauses attach to the intended verbs. Most pronouns have clear antecedents. \"Their changes\" refers to the old files. \"Its preservation\" in the Scope bullet refers to self-revision.\n\nOne pronoun is a plausible misreading. In the files-remain-editable paragraph, \"its failure\" most naturally attaches to the adjacent \"successful improvement comparison\", not to the revision path it is meant to name.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 3707753f84e8f72696b0d30a580c6c0df6e56e914201550d788f69e4f906601b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 1126659b4d0c4d6bae391b2c1dff2c92\ncompleted-at: '2026-11-17T07:24:41Z'\nfindings:\n- scope: passage\n  quotes:\n  - A gain can consume the mechanism that produced it\n  reason: 'THIN — The heading claims a causal coupling: the gain consumes the mechanism.\n    The example under it shows only that the two co-occur. A faster configuration\n    installs and the revision workflow disappears, but the note never says that removing\n    the workflow produces the speed gain. It also never explains why a selection process\n    scoring speed would favour a configuration that removes the selector. The co-occurrence\n    supports the opening''s compatibility claim. It does not establish ''consume'',\n    which would require the removal to be part of what makes the successor score better.'\n- scope: passage\n  quotes:\n  - the ability to revise the system's improvement machinery\n  reason: 'THIN — The example''s lost capability is first-order: testing and installing\n    another instruction change. This sentence puts a second-order capability in the\n    checked scope: revising the improvement machinery itself. Including the second\n    does not obviously cover losing the first, and the reverse also fails. The joint\n    linking the example to the non-regression remedy depends on these being the same\n    capability, and the note does not reconcile them.'\n- scope: passage\n  quotes:\n  - fails the requirement even if its production performance improves\n  reason: THIN — The note infers that a successor fails non-regression whenever the\n    revision capability is in the checked scope. That follows only if the check actually\n    exercises the capability. For example, the check could carry a probe revision\n    through proposal, adoption, installation and use in the successor. Putting a capability\n    in scope does not establish that the check can detect its absence. The description's\n    word 'prevents' depends on that detection, which the note leaves to the linked\n    note on repeatable operative paths without stating it as a condition.\n- scope: passage\n  quotes:\n  - Merely declaring non-regression on ordinary production tasks does not include\n    it.\n  reason: HOLDS — The example separates the production task set from the revision\n    workflow, so a production-only check cannot observe the workflow's loss. The joint\n    would weaken only if the revision workflow were itself one of the declared tasks,\n    and the note's framing excludes that case.\n- scope: passage\n  quotes:\n  - 'There is no contradiction: the comparison checked task performance, while the\n    change removed a different capability.'\n  reason: HOLDS — Under the stated example, the speed comparison and the removed workflow\n    concern disjoint capabilities. A gain on one is therefore consistent with a loss\n    on the other. The joint holds without further support.\ncontract: report\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/28ae9a9ffc5a434383a9cc6e/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/28ae9a9ffc5a434383a9cc6e/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/1126659b4d0c4d6bae391b2c1dff2c92/outputs/review.md\nraw-output-sha256: 69d11bc95bd7c4df0e8e3c2ec4b94610650a008c28e74043b6d8984fe0f6cf36\n---\n\n# Friction check: An improvement can close the path to further improvement\n\n**Central claim (one sentence):** A successor can improve declared production performance while disabling the system's route for selecting and installing later revisions, and non-regression prevents this only when that revision capability is in the checked scope.\n\n## Filter\n**Filter:** SURVIVES\n\nThe claim commits to two properties that coexist: a real production gain and a real loss of revision capability. Nothing in the gain requires keeping the capability, and nothing in the loss requires giving up the gain. The conditional remedy, scoping non-regression to the capability, does not contradict either property. The Scope section consistently bounds the claim to declared system boundaries and to the absence of another applicable path.\n\n## Thinnest joints\n\nThe two thinnest joints come at the main transitions. The first is the move from the example to the section heading's causal language. The second is the move from the example to the non-regression remedy, where the capability placed in scope differs from the capability the example lost. The third joint is the remedy's implied sufficiency: scoping the capability is treated as if it ensured detection, but the check's means of exercising a dispositional capability is never stated. The two `HOLDS` joints are the note's local inferences about disjoint capabilities. They hold under the example as stated and rank last.\n\n## For the human\nLook first at whether the checked-scope sentence should name the first-order capability the example loses, and whether \"prevents\" should be conditioned on a check that exercises the revision path.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 3559dc64c0d1420db4bd39028c55543b\ncompleted-at: '2026-11-17T07:24:55Z'\nfindings:\n- scope: passage\n  quotes:\n  - When non-regression protects the revision path\n  - Preserving the path is therefore a consequence of non-regression only under an\n    additional condition\n  reason: The note presents scope inclusion as the condition under which non-regression\n    protects or preserves the revision path. In the parent framework, non-regression\n    is part of a comparison that judges the adopted states, and the parent's Scope\n    separates that judgment from whether an evaluator controlled adoption. A successor\n    that closes the path and fails a correctly scoped comparison has still been installed,\n    and a system whose only revision path is gone cannot use the failed verdict to\n    revert. Protection therefore also requires the check to gate installation. State\n    that second condition, or rephrase protection as 'the successor fails the requirement'.\n- scope: passage\n  quotes:\n  - If that scope includes the ability to revise the system's improvement machinery,\n    a successor that destroys the only applicable revision path fails the requirement\n    even if its production performance improves.\n  reason: 'The note does not say how revision capability can be checked before the\n    successor is installed. The linked repeatable-path note accepts two kinds of evidence:\n    a later episode, which arrives only after installation, and a specified transition\n    mechanism, which supports the claim prospectively. Only prospective evidence,\n    such as the mechanism argument or a trial revision run in staging, can make the\n    check prevent closure rather than detect it. One sentence naming this pre-installation\n    form would make the protection claim operational and would explain why ordinary\n    production non-regression checks cannot cover it.'\n- scope: document\n  quotes: []\n  reason: Non-regression scoping is the only safeguard the note names. A common design\n    keeps the revision machinery outside the edit surface the successor can change,\n    which protects the path without any comparison check. The note's literal claim\n    is restricted to non-regression and survives this point. Still, a brief contrast\n    would stop readers from treating checked-scope inclusion as the only remedy. It\n    would also tie the note to the parent's caveat that fixed placements need a stated\n    reason.\ncontract: report\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/662dc1536394a006839f608e/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/662dc1536394a006839f608e/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/3559dc64c0d1420db4bd39028c55543b/outputs/review.md\nraw-output-sha256: e7c3aa8ed66a9e1b0db0a40c2b8bbb4af922357159abd8f3e6a86a05713e6078\nattack-outcome: partially lands\n---\n\n# Critique: An improvement can close the path to further improvement\n\n**Note:** kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n**Central commitment:** A successor can improve a declared production dimension while disabling the machinery that would produce another revision, and non-regression prevents this only when revision capability is included in the checked scope.\n**Critique mode:** claim\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThe opponent is an engineer who designs self-modifying agent loops, for example an archive-and-evaluate loop. In such a loop, a modified agent enters the archive only after a check confirms it can still edit code. The opponent accepts the first half of the note: a production gain and a lost revision path are compatible. That point is close to the general rule that a check covers only what it measures, and the note states it correctly. The objection targets the second half. The note says non-regression \"protects\" the revision path, and that preservation is \"a consequence of non-regression\", once revision capability is in the checked scope. The opponent says scope inclusion is necessary but not sufficient. Two further conditions do the protective work.\n\n1. **The check must control adoption.** In the better-factory framework this note supplements, non-regression is part of a comparison that judges the *installed* successor. The parent note says this directly: \"A comparison judges the adopted states. Whether an evaluator also controlled adoption is a separate causal question.\" A correctly scoped comparison that runs after installation reports that the successor fails, but by then the path is already closed. This loss differs from a production regression. A regressed production capability can be repaired by a later revision. A closed revision path removes the internal route that would make the repair. For the agent at the declared boundary, a failed verdict that arrives after installation cannot be acted on. This is the note's own hypothetical: the faster configuration has been installed and has removed the workflow.\n\n2. **Revision capability must be checkable before installation.** Production non-regression can be checked by running the task set on the candidate. Revision capability has no equivalent check that is just as simple. The linked repeatable-path note accepts two kinds of evidence for continuity: a later episode, which comes after installation, and a specified transition mechanism that survives the transition. Only the second kind, or a trial revision run in staging, is available when the adoption decision is made. \"Include it in the checked scope\" therefore points to a check whose feasible form the note leaves unstated.\n\nOn this view, the note puts the protective mechanism in scope declaration. The work is actually done by a gate that runs before installation, using evidence that is available before installation. Getting scope right without that gate yields an accurate post-mortem, not protection.\n\n## How the note engages it\n\nPartially engaged. The body sentence about a successor that destroys the only applicable revision path is accurate: it says the successor \"fails the requirement\", not that it is prevented. The note also hands the detailed operational test to the repeatable-path note (\"That note supplies the detailed test\"). The separation between judging states and controlling adoption appears only in the parent note's Scope. This note's description (\"non-regression prevents this\"), section heading (\"When non-regression protects the revision path\") and conclusion (\"a consequence of non-regression\") each turn the necessary scope condition into protection without stating the adoption condition. The timing of the check is not discussed. The third section (\"Remaining able to improve is not improving again\") answers a different objection, about over-reading preservation, not the objection that preservation is under-delivered.\n\n## Constructive findings\n\n- State that scope inclusion makes a path-closing successor *fail* non-regression, and that this *prevents* closure only when the check gates installation. Otherwise the check records the loss after installation. One sentence in \"When non-regression protects the revision path\" would do it. The description's \"prevents\" should then match.\n- Name the pre-installation form of the check: a trial revision carried through representation, determination, admission and installation in staging, or an argument from a specified transition mechanism. This also explains why non-regression on ordinary production tasks cannot cover revision capability: the task set never exercises the revision path.\n- Optionally, add to Scope that the path closes for good at the declared boundary when the successor removes the only revision path. This is the asymmetry with ordinary regressions that makes adoption-time checking matter more here.\n\n## Secondary objections (optional)\n\n- The note names no safeguard other than non-regression. Keeping the revision machinery outside the edit surface the successor can change protects the path without any check. The note's literal claim is limited to non-regression, so this does not refute it. A contrast would still stop readers from treating scope inclusion as the only remedy.\n- The opening argument (\"Checking the current gain does not check that the revision mechanism survives\") is close to the general rule that a check covers only what it measures. The note's specific contribution is the claim that production task sets do not exercise the revision path. That claim is implied, not stated, and stating it would make the note's reach clearer.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews\nlaunch: 76e6bcdda6b948d4bfc9555d5f1c1de3\ncompleted-at: '2026-11-17T07:25:05Z'\nfindings:\n- scope: passage\n  quotes:\n  - Checking the current gain does not check that the revision mechanism survives.\n  reason: 'DOUBTFUL — universal: a check of the current production gain never checks\n    survival of the revision mechanism — counterexample: when declared production\n    performance itself depends on the revision mechanism during the evaluated episode\n    (an agent whose task set requires adapting instructions to new task variants mid-run,\n    or a production pipeline that reuses the same evaluator the revision workflow\n    uses), removing the mechanism degrades the measured gain, so the production check\n    does detect the loss; the premise holds only when production and revision are\n    decoupled, which the hypothetical stipulates but the general sentence does not\n    state. The same case dents the necessity reading of the description''s ''only\n    when'' — coupled revision is protected without being separately included in the\n    checked scope, unless ''checked scope'' is read to absorb it — LOCAL — instance'\n- scope: passage\n  quotes:\n  - a successor that destroys the only applicable revision path fails the requirement\n    even if its production performance improves\n  reason: 'DOUBTFUL — universal (implied sufficiency, carried by the heading ''When\n    non-regression protects the revision path''): including the revision capability\n    in the checked scope makes non-regression protect the path — reason: the successor\n    fails the requirement in fact, but the check that enforces it may not detect the\n    failure at transition time; a revision path can pass a pre-adoption test (the\n    workflow runs, a dummy change installs) and still be unable to carry a real later\n    revision through adoption and use, e.g. an evaluator broken only for the kinds\n    of proposals that later arise. Inclusion is necessary but not sufficient; protection\n    also needs a check that exercises the full path the note names (evidence → proposal\n    → adoption → installation → later use). The note''s description already states\n    only the necessary condition, so the commitment survives once the section''s sufficiency\n    phrasing is qualified — LOCAL — instance'\n- scope: passage\n  quotes:\n  - The speed gain can be real. The lost revision capability can also be real.\n  reason: 'HOLDS — possibility claim: a change can improve a declared production dimension\n    while removing the revision capability. The hypothetical agent that installs a\n    faster configuration with no revision workflow is a coherent instance, and one\n    coherent instance is enough to establish a ''can'' claim; the hunt found no reason\n    that production speed and revision capability must move together in general.'\n- scope: passage\n  quotes:\n  - A non-regression requirement protects only the capabilities included in its checked\n    scope.\n  reason: 'HOLDS — universal, read as a claim about what the requirement enforces:\n    an unchecked capability may survive by accident or through coupling (see the first\n    finding), but the requirement does not protect it as such. The hunt found no case\n    where a non-regression requirement enforces a capability outside what it checks;\n    the coupled case is protection by the checked capability, not by the requirement\n    reaching an unchecked one.'\n- scope: passage\n  quotes:\n  - A successor can replace its revision workflow and preserve the capability, provided\n    the replacement can carry another revision through to use.\n  reason: 'HOLDS — functional identity of the capability: the revision capability\n    is individuated by what it can do (carry a revision through to use), not by the\n    component or files that implement it. Hunted cases where a replacement with equal\n    reach still counts as loss (e.g. provenance or audit trail lost) bear on other\n    capabilities, not on the revision capability as the note defines it.'\n- scope: document\n  quotes: []\n  reason: 'HOLDS — unstated: whether a revision capability is lost is fixed relative\n    to a declared system boundary and kind of revision, so a maintainer-held path\n    does not count as the agent''s path. Counterexample hunted: systems where all\n    revision is maintainer-driven and agent self-revision was never expected, where\n    calling its absence a ''loss'' would mis-sort; the Scope section fences this (''The\n    loss is relative to the declared system boundary and kind of revision'') and the\n    deliberate fixed-deployment case, so the premise survives at its stated scope.'\ncontract: report\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/90e7b25bbda99eee38a461fa/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/artifact/reviews/90e7b25bbda99eee38a461fa/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/76e6bcdda6b948d4bfc9555d5f1c1de3/outputs/review.md\nraw-output-sha256: 77b097f9ce3a7564d559330d1903035c57ee3619f18fc216ca890f5cb2bfd7b9\n---\n\n# Premise decomposition: An improvement can close the path to further improvement\n\n**Register:** claim\n**Central commitment (one sentence):** A successor can improve a declared production dimension while disabling the machinery that would produce another revision, and non-regression prevents this only when the revision capability is included in the checked scope.\n\n## Premises and counterexamples\n\nThe commitment has two parts. The first is a possibility claim. It consumes the premise that production gain and revision capability can separate, and the premise that a production check does not see the revision mechanism. The second is a conditional about non-regression. It consumes the premise that a requirement protects only what it checks. In the section's sufficiency reading, it also consumes the premise that including revision capability in the checked scope is enough to catch its loss. Two background premises let \"loss of revision capability\" be judged: the capability is identified by its function rather than its component, and loss is relative to a declared system boundary.\n\nThe possibility half survives: one coherent hypothetical establishes \"can\". Both dents fall on the non-regression half and are local. The general sentence that a production check never sees the revision mechanism needs the decoupling condition that the hypothetical quietly supplies. The sufficiency phrasing in \"When non-regression protects the revision path\" exceeds what the description commits to, because a checked scope can include the capability and still miss a latent break. Each dent can be repaired with a qualification in `## Scope` without changing the claim. No premise failed globally.\n\n## For the human\n\nLook first at \"Checking the current gain does not check that the revision mechanism survives\". It is stated universally, and it fails when production performance depends on the revision mechanism. Add the decoupling condition, or say that coupled revision counts as being within the checked scope.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis\nlaunch: 1890c03ec06c4644aa79c0af58be01a0\ncompleted-at: '2026-11-17T07:25:46Z'\nfindings:\n- scope: passage\n  quotes:\n  - Checking the current gain does not check that the revision mechanism survives.\n  reason: The opening states only that a gain and a lost revision path can coexist.\n    The note's practical condition, that non-regression protects the revision path\n    only when revision capability is inside the checked scope, appears in the description\n    and the second section but not in the opening. A reader who stops after the opening\n    knows the failure but not how to prevent it. A revision could add one clause to\n    the opening that names the checked-scope condition, so the opening carries both\n    halves the description already commits to.\n- scope: document\n  quotes: []\n  reason: 'One boundary, that surviving files or one closed path do not settle whether\n    the revision capability survives, is spread over three places: the maintainer-editable-files\n    paragraph in the first section, the replacement-versus-retained-files paragraph\n    in the non-regression section, and the last two Scope bullets. The reader meets\n    the same distinction three times without a single statement of it. A revision\n    could state it once, most naturally in the non-regression section where the capability\n    is defined by function rather than component, and reduce the other occurrences\n    to what they add that is distinct, such as the declared system boundary.'\ncontract: report\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis/artifact/reviews/87297685b8ab5ae923ee2aa9/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis/artifact/reviews/87297685b8ab5ae923ee2aa9/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis/calls/launches/1890c03ec06c4644aa79c0af58be01a0/outputs/review.md\nraw-output-sha256: 20464f92b7d3354f89876cd0e7fc439a605a3bf872514f71dd976a4c9b000c90\n---\n\n# Simplification synthesis: An improvement can close the path to further improvement\n\nThe four checks found a compact note with no branches and a findable claim. Most findings are local: a \"no contradiction\" recap after the example and a \"therefore\" sentence that restates the preceding scope rule. Those are minor cuts and do not reach this synthesis's threshold. Two opportunities combine findings into a change that alters how the reader takes in the argument.\n\n## Opportunities\n\n### 1. Put the checked-scope condition in the opening\n\n- Location: opening paragraph, \"Checking the current gain does not check that the revision mechanism survives.\"; condition currently stated in \"When non-regression protects the revision path\".\n- Combines: core-claim-obscured (info finding on the opening).\n- Preserve or decide: The title and opening present the possibility claim; the description pairs it with the non-regression condition. The author should decide whether the condition is part of the note's core contribution, as the description says, or a consequence developed later. If it is core, surface it in the opening. That would not require changing the title, which may stay as the possibility claim. Keep the condition's conditional form. It must not read as \"non-regression preserves the path\". One possible resolution, illustrative only: \"A non-regression requirement prevents this only if revision capability is among the capabilities it checks.\"\n\n### 2. State the artifact-versus-capability boundary once\n\n- Location: \"The files might remain editable by a maintainer…\" paragraph; \"The required function need not stay in its original component…\" paragraph; Scope bullets \"The loss is relative to the declared system boundary…\" and \"Closing one path does not establish loss of the capability if another applicable path remains.\"\n- Combines: detail-overhang (editable-files caveat recurring three times); marginal-value-redundancy (the \"another applicable path\" bullet, and the maintainer bullet as partial repetition).\n- Preserve or decide: Three distinct meanings are bundled here and must survive any fold. (a) Surviving artifacts do not show surviving capability. (b) A replacement mechanism can preserve the capability. (c) Loss is relative to the declared system boundary, so a maintainer's path does not count as the agent's. The first paragraph also hands off the detailed test to the repeatable-operative-path note. That handoff should stay wherever the boundary ends up. The author must also decide whether the first section needs any version of the objection at that point, or whether the example can run straight into the non-regression section.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nnote-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role\nlaunch: c42df8939f3c4f9f9a734893ce709b2b\ncompleted-at: '2026-11-17T07:26:18Z'\nfindings:\n- scope: passage\n  quotes:\n  - A system can improve at its current work while losing the ability to improve itself\n    again.\n  reason: 'SUPPLIED — kb/theory/README.md — needs only a citation: an index entry\n    that labels the note a supplement to the better-factory comparison that explains\n    why a current gain can remove future revision capability. The note''s supplement\n    line and opening paragraph match that label.'\ncontract: report\ntarget-sha256: 28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role/artifact/reviews/a9a57b10e0be4006131b1c54/inputs/target/kb/theory/an-improvement-can-close-the-path-to-further-improvement.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role/artifact/reviews/a9a57b10e0be4006131b1c54/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role/calls/launches/c42df8939f3c4f9f9a734893ce709b2b/outputs/review.md\nraw-output-sha256: 780b62336e6c2afb1b5b490cbae6d394c0e8f4d08b35bdceee0dbd8eabe86ae5\n---\n\n# Role in the KB: An improvement can close the path to further improvement\n\n## Role\nThe note supplements the better-factory comparison. It explains why a gain in current production can remove the capability to revise the system again, and when non-regression would prevent that. In the supplied inbound contexts, only the theory collection index (`kb/theory/README.md`) links to it. That link is a navigation citation, and no dependent argues from the note or uses its terms.\nRelied on: only the note's headline claim, for the index label: a current gain can remove future revision capability, framed as a supplement to the better-factory comparison. Unused: the hypothetical agent example; the claim that non-regression protects only capabilities in its checked scope; the claim that a replacement workflow can preserve the capability while editable files alone do not; the distinction between remaining able to improve and actually improving again; the scope limits (deliberate fixed deployments, boundary-relative loss, alternative paths).\n\n## Dependents\n- `kb/theory/README.md`: needs a citation that matches its index label, \"supplement to the better-factory comparison: explains why a current gain can remove future revision capability\".\n\n## Duplication\nNone. The index entry is a one-line label. It does not restate the note's argument.\n\n## Untaken recommendations\nNone. No linking source recommends a change to the note.\n\n## Reach\nA change to the note's headline claim or to its framing as a supplement to the better-factory comparison would reach `kb/theory/README.md`, whose entry paraphrases both. A change to any other claim or term reaches no dependent, because none argues from the note. The note links outward to the better-factory comparison (`kb/theory/a-better-factory-claim-compares-operative-states.md`), the repeatable-operative-path note and the compounding note. Those outbound links make it depend on them; they do not make those notes dependents of this one.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews",
+      "ok": false,
+      "counts": {
+        "reviewed": 46
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/an-improvement-can-close-the-path-to-further-improvement.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

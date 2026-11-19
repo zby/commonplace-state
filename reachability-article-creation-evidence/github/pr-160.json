@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\nCompress the controlled programming-agent section from a condition list, question list, and repeated qualifications into two paragraphs.\n\nThe shorter version retains only the boundaries needed by the program article:\n\n- theory conditions and matched starting components;\n- treatment-induced machinery changes as outcomes;\n- delayed demands that expose earlier mistakes;\n- causal revision and coherent modification at comparable cost;\n- the additional later-production requirement for a factory-learning claim;\n- conclusions limited to the contrasts actually run.\n\nDetailed protocol design remains outside the article. This PR changes one section in one file and leaves the merged Naurian argument untouched.",
+    "closedAt": "2026-08-31T15:57:22Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T15:51:35Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:51:35Z",
+        "messageBody": "",
+        "messageHeadline": "Compress the controlled programming-agent test",
+        "oid": "7a857dd2781c52596e72a28d0d12ecb5436823a6"
+      }
+    ],
+    "createdAt": "2026-08-31T15:51:51Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 14,
+        "deletions": 33
+      }
+    ],
+    "headRefName": "compress-controlled-programming-agent-test",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T15:57:22Z",
+    "number": 160,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Compress the controlled programming-agent test",
+    "updatedAt": "2026-08-31T15:57:22Z",
+    "url": "https://github.com/zby/commonplace/pull/160"
+  },
+  "inline_review_comments": []
+}

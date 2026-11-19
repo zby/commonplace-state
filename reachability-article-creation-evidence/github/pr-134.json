@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "position-theory-mediated-lineage",
+    "body": "## Summary\n\n- reorganizes the program article into the six bounded units defined in `article-roles.md`;\n- keeps the opening focused on the central question, deployed-system learning unit, theory mediation, two testbeds, and an early disclosure that current evidence is human-inclusive;\n- moves the fixed-boundary operator-allocation discussion into the bootstrap section, where it explains the transition being measured;\n- keeps the full cut-set, contraction, closure, and warrant derivation in *The decisions that stay human, and what would move them*;\n- folds truth-versus-fit into the evidence section and combines the recorded episode with the studies that could change the program's status;\n- removes the standalone Sutton section and routes the full scaling argument and later weight-update disagreement to the Bitter Lesson companion;\n- retains the two-lineage positioning introduced by PR #132, but places it after the proposed mechanism is intelligible;\n- adds the lightweight-search-control and backtracking notes to the article's source lineage;\n- reduces the article by 52 lines while preserving the causal evidence ladder, theory intervention, longitudinal study, alternatives, and abandonment conditions.\n\n## Editorial intent\n\nThis is a full structural edit with minimal claim-level change. The article now has one spine:\n\n> Can retained project theory causally sustain coherent modification across delayed feedback, and what evidence would establish or defeat that conjecture?\n\nSupporting arguments remain available through their companion articles instead of being re-derived as competing top-level movements.\n\n## Dependency\n\nThis PR is stacked on `position-theory-mediated-lineage` / PR #132 because both change the same article. It contains one additional article-only commit. After PR #132 is merged, this PR can be retargeted to `main` without carrying unrelated changes.",
+    "closedAt": "2026-08-30T18:42:17Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T18:34:26Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T18:34:26Z",
+        "messageBody": "",
+        "messageHeadline": "Restructure the theory-mediated research program",
+        "oid": "5e102f33ca1c74c15344cacd6a3cbfdd1971facd"
+      }
+    ],
+    "createdAt": "2026-08-30T18:35:06Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 234,
+        "deletions": 286
+      }
+    ],
+    "headRefName": "restructure-theory-mediated-program",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T18:42:17Z",
+    "number": 134,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Restructure the theory-mediated research program around one spine",
+    "updatedAt": "2026-08-30T18:42:17Z",
+    "url": "https://github.com/zby/commonplace/pull/134"
+  },
+  "inline_review_comments": []
+}

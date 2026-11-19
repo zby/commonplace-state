@@ -1,0 +1,655 @@
+{
+  "ok": false,
+  "complete": false,
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z",
+  "artifact": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "An agent or maintainer deciding whether and how often to check a retained derived result in a KB should be able to read the trade-off in one pass, see why a stop-authorizing result (the completeness mark) warrants a defined check while a candidate-only result (a connect report) can be reused, and know which conditions a mechanical check needs.",
+    "must-keep": [
+      "Accepting some risk between checks can be right, provided it is an explicit choice rather than a hidden consequence of trusting the copy.",
+      "These conditions make a check possible and worth relying on, not free or current.",
+      "The four mechanical-check conditions keep their order and numbering: 1 a derivation or comparison rule, 2 a locatable copy and source, 3 a source available at check time, 4 a sufficiently trustworthy checker.",
+      "Testing or centralizing a validator lowers the cost of assurance but does not prove the validator correct.",
+      "This requires that the consumer actually stops and that the suppressed search would find more task-relevant material.",
+      "Assurance dates from the last check."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The first two sentences of the section 'The completeness mark: a stop-authorizing claim with a defined check': gloss 'tag head' and 'participating collections' at first mention; the INFO item on 'the validator' is not required",
+        "finding": "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/accessibility/undefined-terms.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only two units: cut the middle sentence of 'No known change does not establish freshness' ('Even the enforced mark can be stale ...') and the restated conditionality 'The suppression mechanism is conditional.' in the Scope bullet, keeping that bullet's prevalence disclaimer; keep 'This lets subsequent reads reuse the checked result.' and leave the section's 'only if' sentence unchanged (open claim question)",
+        "finding": "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/kb/instructions/compression-bundle/marginal-value-redundancy.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The first paragraph's sentence containing the frontloading link",
+        "finding": "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/parsing-ambiguity.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The second paragraph's sentence beginning 'A stale copy can also hide its own error'; keep the wording 'the copy suppresses the search that would have exposed what it misses'",
+        "finding": "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/clause-packing.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The Relevant Notes entry for llm-recompute-cost-inverts-the-store-vs-recompute-default.md: its link text and annotation",
+        "finding": "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/misleading-link-text.md"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/reviews",
+      "ok": false,
+      "counts": {
+        "reviewed": 46
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/reference/README.md",
+          "kb/reference/workflow-architecture.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/frontmatter/claim-strength.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/clause-packing.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/misleading-link-text.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "fix-strategy-taxonomy/accessibility/undefined-terms",
+      "scope": "The first two sentences of the section 'The completeness mark: a stop-authorizing claim with a defined check': gloss 'tag head' and 'participating collections' at first mention; the INFO item on 'the validator' is not required",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/findings/accessibility/undefined-terms.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/reports/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+      "scope": "Only two units: cut the middle sentence of 'No known change does not establish freshness' ('Even the enforced mark can be stale ...') and the restated conditionality 'The suppression mechanism is conditional.' in the Scope bullet, keeping that bullet's prevalence disclaimer; keep 'This lets subsequent reads reuse the checked result.' and leave the section's 'only if' sentence unchanged (open claim question)",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/findings/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/reports/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+      "scope": "The first paragraph's sentence containing the frontloading link",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/findings/sentence/parsing-ambiguity.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/reports/fix-strategy-taxonomy/sentence/parsing-ambiguity.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/sentence/parsing-ambiguity.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/clause-packing",
+      "scope": "The second paragraph's sentence beginning 'A stale copy can also hide its own error'; keep the wording 'the copy suppresses the search that would have exposed what it misses'",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/findings/sentence/clause-packing.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/reports/fix-strategy-taxonomy/sentence/clause-packing.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/sentence/clause-packing.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/misleading-link-text",
+      "scope": "The Relevant Notes entry for llm-recompute-cost-inverts-the-store-vs-recompute-default.md: its link text and annotation",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/findings/sentence/misleading-link-text.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/reports/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/texts/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.md",
+      "sha256": "1e6f346febb4bb7f7d16dcb927a9aa2d73f27cd378f26f306db9ec6900e5374f",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.diff",
+      "before-sha256": "0d0cf44cba15ace932e01cefaf52f09ede4b4729916d13af8b19014f735708eb",
+      "entries": [
+        "fix-strategy-taxonomy/accessibility/undefined-terms",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+        "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+        "fix-strategy-taxonomy/sentence/clause-packing",
+        "fix-strategy-taxonomy/sentence/misleading-link-text"
+      ],
+      "at": "2026-11-18T16:13:46Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z",
+    "made-for": {
+      "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+      "sha256": "1e6f346febb4bb7f7d16dcb927a9aa2d73f27cd378f26f306db9ec6900e5374f",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "step": "Claim questions from the assessment"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "stale-reviews",
+        "what": "42 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "step": "Stale reviews",
+          "command": "commonplace-review status kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "kb/reference/README.md",
+      "kb/reference/workflow-architecture.md",
+      "kb/work/README.md",
+      "kb/work/documentation-consolidation/README.md"
+    ]
+  }
+}

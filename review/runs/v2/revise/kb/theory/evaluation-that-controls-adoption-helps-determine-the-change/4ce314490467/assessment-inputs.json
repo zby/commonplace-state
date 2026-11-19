@@ -1,0 +1,483 @@
+{
+  "findings": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion_id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/compression-bundle/marginal-value-redundancy.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 7e280ea5c281cae159c80c9c759469682e1da1250b68065aa914ca6cabedf4ab\ncriterion: kb/instructions/compression-bundle/marginal-value-redundancy.md\ncriterion-sha256: a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews\nlaunch: 9f2e510ec8584d67a0025f6e87bab2d2\ncompleted-at: '2026-11-17T13:08:30Z'\nfindings:\n- scope: passage\n  quotes:\n  - the second is an unfulfilled requirement, not by itself evidence that the system\n    would fail or degrade without the task\n  - This example establishes a gap against the specification, not that skipping review\n    causes harm.\n  reason: 'Defensive redundancy. The opening paragraph already closes this point:\n    ''Whether a specified task is useful or necessary is a separate question.'' The\n    clause in the second paragraph and the sentence in the weekly-review example each\n    repeat that a missing task is not evidence of harm or necessity. Neither adds\n    a new boundary. Keep the opening statement, end the second paragraph''s sentence\n    at ''an unfulfilled requirement'', and cut the closing sentence of the weekly-review\n    example.'\n  level: warn\n- scope: passage\n  quotes:\n  - rather than deciding who deserves causal credit for an improvement\n  reason: Unsure whether this clause does necessary work. It rules out a reading (causal\n    credit for an improvement) that nothing earlier in the note invites. The clause\n    may exist to set up the contrast with the linked better-factory note, but the\n    next sentence already makes that contrast. If the causal-credit reading is not\n    a likely confusion for readers arriving from that note, cut the clause.\n  level: info\ncontract: verdict\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/3699a66b5deca0788098f172/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/3699a66b5deca0788098f172/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/calls/launches/9f2e510ec8584d67a0025f6e87bab2d2/outputs/review.md\nraw-output-sha256: cc9bc25dc11d8b2008d2189966310df297fc687ea7412029b5433160cbf15390\n---\n\n# Review\n\nThe note is compact, and most of its chunks earn their place. The opening states the distinction. The second paragraph defines a blocking dependency and an unfulfilled requirement. The two hypothetical cases make the distinction concrete. The 'Both cases' paragraph adds new boundary cases: a non-binding recommendation that still blocks, and human-authored rules applied without a new judgment. The weekly-review example and the subsequent-revision paragraph extend the distinction to monitoring and later revisions. The final paragraph of 'Name the process being automated' restates the opening's claim requirement, but it turns that requirement into a decision rule for adoption-only and wider-process claims. It also adds the retirement-versus-automation contrast, so it passes the conclusion check. Both Scope bullets supply boundary cases that appear nowhere else in the note: anticipated influence, and a habitual wait without a written rule.\n\nThe warning targets one repeated hedge. The point that an undone specified task does not show that the task is necessary appears three times: in the opening, in the second paragraph and at the end of the weekly-review example. The Scope's habitual-wait bullet echoes it a fourth time. After the opening, these repetitions guard against a misreading the note has already closed. They do not change what the reader can infer. One statement is enough.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 3707753f84e8f72696b0d30a580c6c0df6e56e914201550d788f69e4f906601b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews\nlaunch: 7f1d0011a71144719462deb32e2ee462\ncompleted-at: '2026-11-17T13:08:56Z'\nfindings:\n- scope: passage\n  quotes:\n  - Removing that stop requires deciding whether its check can be automated or is\n    unnecessary\n  reason: THIN — the two options offered are not exhaustive. The check can also be\n    moved out of the blocking path and kept as a non-blocking specified task, such\n    as post-adoption sample review with rollback. The note's own weekly-review example\n    shows this third option. Removing the stop therefore does not force a choice between\n    automating the check and declaring it unnecessary, and the note does not say why\n    relocation is excluded or how it would be classified.\n- scope: passage\n  quotes:\n  - Calling the whole process automated would conceal an omitted task.\n  reason: THIN — concealment follows only if 'automated' means that every specified\n    task is performed without a person. The note never states that meaning. Under\n    the common reading, a process that runs without waiting for a person, the label\n    is accurate and nothing is concealed. The normative opening line, 'A claim of\n    full automation must say which tasks it preserves and which requirements it retires',\n    relies on this same unstated definition.\n- scope: passage\n  quotes:\n  - Using an optional study's available findings does not itself require future studies.\n    Making a new human assessment a condition of each revision does.\n  reason: THIN — the line drawn here depends on whether the assessment is a formal\n    condition. It leaves unclassified a revision that happens only because an optional\n    study found something. That revision would not have occurred without human work,\n    yet the note counts it neither as a dependency nor as an unfulfilled requirement.\n    The Scope bullet about 'human influence' gestures at this case but does not show\n    that counterfactual necessity falls outside 'required human intervention'.\n- scope: passage\n  quotes:\n  - Conversely, a program can apply human-authored acceptance rules without requiring\n    a new human judgment for each change.\n  reason: 'HOLDS — the sentence is true and relevant, but ''Conversely'' presents\n    it as the inverse of the preceding sentence about non-binding recommendations,\n    and it is not. It is an independent point: the activity''s label does not settle\n    whether a per-change human stop exists. The claim stands on its own; only the\n    connective overstates the logical relation.'\n- scope: passage\n  quotes:\n  - The first is a blocking dependency; the second is an unfulfilled requirement,\n    not by itself evidence that the system would fail or degrade without the task.\n  reason: HOLDS — this follows from the two definitions in the preceding sentences.\n    A specification gap shows only a mismatch with the specification, not harm, and\n    the note keeps that limit consistently, for example 'This example establishes\n    a gap against the specification, not that skipping review causes harm.'\ncontract: report\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/c0c80bced65c66b3055bdb50/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/c0c80bced65c66b3055bdb50/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/calls/launches/7f1d0011a71144719462deb32e2ee462/outputs/review.md\nraw-output-sha256: 4dd8d98d5a7e087efa588db780971701be4659ad31982ca2d353bb59e62f1b6a\n---\n\n# Friction check: Removing approval waits can leave required human evaluation in place\n\n**Central claim (one sentence):** Removing a human approval wait, which blocks execution, is a different change from automating or retiring a specified human evaluation task, which can go undone without blocking; so a claim of automation must say which specified tasks remain and which requirements were dropped.\n\n## Filter\n**Filter:** SURVIVES\n\nThe note holds three categories at once: blocking waits, specified but non-blocking tasks, and optional assessment that is neither. Committing to one does not force giving up another. They are separated by two independent axes: whether execution waits and whether the specification requires the task. Habitual unwritten waits fall on the first axis, and the note classifies them consistently. One risk does not dissolve the claim: the axes are relative to a specification the note treats as given. If a reader ties \"automated\" to the waiting axis only, the normative \"must say\" weakens. The claim itself stays consistent.\n\n## Thinnest joints\n\nThe three THIN joints rank above the HOLDS joints because each leans on something the note does not supply. The first is the thinnest because the note's own later example contradicts the dichotomy it asserts. The required-approval case says removing the stop needs one of two decisions. The weekly-review case then shows a third route: demote the check to a non-blocking specified task. The second joint carries the note's normative weight, the \"must say\" obligation. It depends on an unstated definition of \"automated\", which is a gap in terminology, not in logic. The third concerns an edge case at the boundary between \"required\" and \"influential\" human work. It matters less to the central claim but is where a reader would most likely misclassify a real process. The two HOLDS joints were the strongest remaining candidates. Under the skeptical default they still hold: one is definitional, and in the other only the connective is wrong.\n\n## For the human\nLook first at the required-approval paragraph: decide whether \"move the check to post-adoption review\" counts as automating it, retiring it, or a third kind of change, and define \"automated\" to match.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews\nlaunch: 81cebe575ec34e988464b87bb2fe753f\ncompleted-at: '2026-11-17T13:09:03Z'\nfindings:\n- scope: passage\n  quotes:\n  - the second is an unfulfilled requirement, not by itself evidence that the system\n    would fail or degrade without the task\n  reason: 'The note''s only arbiter of whether a non-blocking human task is ''required''\n    is the written process specification, but it never says what makes that specification\n    authoritative over the running process. An operations-minded opponent holds that\n    a task nothing waits on and whose output nothing consumes has already been retired\n    de facto, so the ''required human evaluation'' the title says remains in place\n    may be a dead letter. Add one or two sentences that tie ''required'' to something\n    beyond the text: either the task''s output is consumed by a later decision (the\n    revision paragraph already points this way), or someone owns the specification\n    and could be held to it. Then say that a specified task with neither is a stale\n    requirement, to be retired explicitly.'\n- scope: passage\n  quotes:\n  - A claim about the wider process must distinguish tasks performed automatically\n    from tasks no longer required.\n  reason: 'The disclosure duty is the note''s answer to the ''dead specification''\n    objection: if a requirement has lapsed in practice, the claimant must say it was\n    retired. The note does not show that it intends this answer. One sentence would\n    show it: an unenforced requirement does not make an automation claim false, but\n    treating it as automated rather than retired does. That turns the partially landing\n    attack into one the note visibly answers.'\n- scope: passage\n  quotes:\n  - assigns a maintainer a weekly sample review and rollback of harmful changes\n  reason: 'The worked example puts a scheduled task (the weekly review) together with\n    a conditional one (rollback when harm is found). An exception-triggered human\n    task is the commonest form ''monitoring'' takes in automated pipelines, and it\n    does not fit cleanly into either the ''wait'' category or the ''specified task\n    left undone'' category: it is undone only when its trigger fires. Separating the\n    two would show whether the distinction survives the case operators most often\n    call ''human in the loop on exception''.'\n- scope: document\n  quotes: []\n  reason: The file slug, 'evaluation-that-controls-adoption-helps-determine-the-change',\n    states a different claim (credit or determination of the change) from the title,\n    'Removing approval waits can leave required human evaluation in place'. The body\n    also explicitly sets aside causal credit ('rather than deciding who deserves causal\n    credit for an improvement'). A reader or linker who goes by the filename will\n    expect the wrong commitment. Relocate the file so its slug matches the title.\ncontract: report\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/9c3670b18dcc7a0904b88547/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/9c3670b18dcc7a0904b88547/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/calls/launches/81cebe575ec34e988464b87bb2fe753f/outputs/review.md\nraw-output-sha256: 903922939841c5233b679de8a6370090c68e27c180df1cf483263b8f2a9e26ae\nattack-outcome: partially lands\n---\n\n# Critique: Removing approval waits can leave required human evaluation in place\n\n**Note:** kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n**Central commitment:** Removing a human approval wait (a blocking dependency) is a different change from removing a specified human evaluation task (a requirement that can stay unfulfilled while execution proceeds), so a full-automation claim must say which human tasks it keeps and which requirements it retires.\n**Critique mode:** claim\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThe opponent is an operations or \"policy-as-code\" practitioner. Their stance is that a process is what executes and what is enforced, not what a document says. On that view, the note's three categories reduce to two: blocking dependencies, and everything else. A specified human task that nothing waits on, and whose output no later step consumes, is not a part of the process that \"remains in place\". It is a stale document. Unenforced requirements decay: the weekly sample review in the note's own example is exactly the kind of obligation that lapses quietly once adoption no longer stops for it. So once every human wait is removed, \"the process is automated\" is a true description of the running system. Requiring the claimant to also list \"requirements it retires\" asks them to account for fictions. It also lets anyone block an automation claim by writing a requirement nobody acts on.\n\nThe best form of the argument goes further. The note's test for \"required\" (assigned by \"the process specification\") makes the distinction depend on how the system is documented, not on how it behaves. The behavioural property that matters is whether a human output is consumed by a later decision. That property is already captured either by a wait (adoption or revision stops for it) or by nothing at all. If so, the \"specified task\" category is idle: it adds no information about the system beyond the existence of a sentence in a document.\n\n## How the note engages it\n\nThe note **partially engages** the objection, and the engagement is substantial.\n\n- It concedes the behavioural point outright. An unfulfilled specified task is \"not by itself evidence that the system would fail or degrade without the task\". The example \"establishes a gap against the specification, not that skipping review causes harm.\" The note claims nothing about necessity.\n- It already has the answer to the \"fictions\" charge, though it does not state it as an answer. \"Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.\" The opponent's own position, that the requirement has lapsed de facto, is exactly what the note asks the claimant to say out loud. That is cheap, and it is informative to whoever owns the specification. The disclosure duty does not stop automation; it relabels part of it.\n- It partly addresses the consumption criterion in \"Name the process being automated\". If the next revision requires the maintainer's assessment, that assessment is a dependency of the revision process. That is the opponent's \"consumed by a later decision\" test, applied to a later process.\n- It handles the reverse direction: a habitual wait with no written rule is still a wait to remove.\n\nWhat the note leaves exposed is the authority of \"the specification\". It never says why a written assignment that nothing enforces or consumes still counts as \"required\", and the title asserts that such evaluation \"remains in place\". Against an opponent for whom specification and operation coincide, that phrase claims more than the note defends. The attack therefore lands against the title's wording and against the unexplained reliance on the specification. It does not land against the core distinction, which survives because the note asks for disclosure, not preservation.\n\n## Constructive findings\n\n- Ground \"required\" in more than the text. A specified human task counts as required when its output feeds a later decision, or when an owner of the specification would treat its omission as a defect. A specified task with neither is a stale requirement that should be retired explicitly. The note has the materials for this in the revision paragraph.\n- State the answer to the dead-specification objection directly. An unenforced requirement does not make an automation claim false. Calling it automated instead of retired does.\n- Split the example's scheduled review from its conditional rollback. Exception-triggered human tasks are the commonest real form of monitoring, and they test whether the wait/task distinction covers \"human on exception\".\n\n## Secondary objections (optional)\n\n- An informed requirements engineer would call the wait-versus-obligation distinction standard, not novel. That affects the note's contribution, not its truth. The note's value lies in applying the distinction to automation claims about agent processes, and it should make that application its emphasis.\n- The filename slug describes a different commitment (who determines the change) from the title and body. The body explicitly sets aside causal credit. Linkers who go by the slug will cite the note for the wrong claim.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews\nlaunch: 93928ef4a37d4da29985ed89053a7148\ncompleted-at: '2026-11-17T13:09:41Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — Unstated premise, read as universal: for every process the note\n    addresses, a specification exists, or can be reconstructed, that settles which\n    human evaluation tasks are required. This premise lets the note sort a task as\n    required, retired or optional. — Many agent and KB maintenance processes run on\n    tacit norms with no written specification. Scope bullet 2 covers this case for\n    habitual waits but not for habitual tasks. Suppose a maintainer has for months\n    sampled adopted changes and rolled back bad ones, and no rule demands it. The\n    note cannot then say whether stopping the practice ''retires a requirement'' or\n    merely ''ends an optional study''. An optional study can also drift into a tacit\n    requirement when its findings routinely trigger rollbacks. Informal processes\n    are common in the note''s domain, so this is not a rare edge case. — LOCAL: the\n    commitment survives if Scope says the task-side distinction applies where a specification\n    exists or is made explicit, and that a habitual task needs the same treatment\n    the note gives a habitual wait. — prevalence'\n- scope: passage\n  quotes:\n  - Retiring an unnecessary review may be justified, but it is a change in requirements,\n    not automation of that review.\n  reason: 'DOUBTFUL — Universal premise: a specified human task can disappear in only\n    two ways, automation or retirement, so every full-automation claim can be split\n    into ''performed automatically'' and ''no longer required''. — Some changes fit\n    neither category. In substitution, the weekly human sample review is replaced\n    by metric-triggered automatic rollback, which serves the review''s purpose by\n    a different task. In partial automation, a machine triages and a human confirms\n    only flagged changes. In the first case the requirement is reformulated, neither\n    automated nor retired. In the second the task is split. Either way a reader applying\n    the two-way split would mis-sort the change. — LOCAL: add substitution and partial\n    automation as named cases, or say the two categories apply per requirement after\n    it has been restated. — instance'\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — Unstated premise, read as universal: ''blocking dependency''\n    and ''unfulfilled requirement'' are disjoint, so each required human evaluation\n    is either a wait or a non-blocking task. — Deferred or conditional blocking is\n    both. Example: adoption proceeds now, but if the weekly review is not signed off\n    within seven days, further adoptions pause. Other examples are an escalation rule\n    that halts on an unreviewed backlog and a rate limit lifted only by review. The\n    task is undone while execution continues, until it becomes a wait. A full-automation\n    claim that lists such a review as merely a ''preserved task'' would hide a dependency\n    that will eventually block. — LOCAL: name conditional or deferred blocking in\n    Scope, or classify a task by whether any execution path waits on it. — instance'\n- scope: passage\n  quotes:\n  - The process depends on human intervention even if the maintainer always approves.\n  reason: 'HOLDS — Universal premise: a required approval stop is a dependency whatever\n    its approval rate. — The hunt looked for a case where an always-approved stop\n    is not a dependency. A rubber-stamp approval still halts execution while the maintainer\n    is absent. The premise concerns structure, not outcome, so the approval rate cannot\n    defeat it.'\n- scope: passage\n  quotes:\n  - A specified task can remain undone while execution continues.\n  reason: 'HOLDS — Possibility premise: some specified tasks do not block execution.\n    — The note''s own weekly-review example instantiates it, and post-hoc audits and\n    monitoring duties in ordinary operations do too. The premise asserts only possibility,\n    so no counterexample is available. The disjointness the note silently adds is\n    attacked in a separate finding.'\n- scope: passage\n  quotes:\n  - A non-binding recommendation still creates a dependency if the agent must wait\n    for it.\n  reason: 'HOLDS — Conditional universal premise: a wait creates a dependency whether\n    or not the awaited input binds the decision. — The hunt looked for a non-binding\n    input that the agent waits for without depending on it. The only candidate is\n    a wait with a timeout default. That case is a bounded dependency, not a refutation.'\n- scope: passage\n  quotes:\n  - a program can apply human-authored acceptance rules without requiring a new human\n    judgment for each change\n  reason: 'HOLDS — Possibility premise: human-authored rules can gate changes without\n    a per-change human judgment. — CI test suites and lint gates are ordinary instances.\n    The premise does not say the rules stay adequate without human revision. Revision\n    is a separate requirement, which the note handles.'\n- scope: passage\n  quotes:\n  - Calling the whole process automated would conceal an omitted task.\n  reason: 'HOLDS — Premise: a claim that the whole process is automated is read as\n    covering its specified tasks, so leaving out an undone task misleads. — A possible\n    counterexample is the common usage in which ''automated'' means only the execution\n    path. The note fences that usage explicitly (''A claim about automated adoption\n    alone need not include monitoring or revision''), so the premise applies only\n    to whole-process claims, where it holds.'\n- scope: passage\n  quotes:\n  - Using an optional study's available findings does not itself require future studies.\n  reason: 'HOLDS — Universal premise: consuming the findings of a past optional study\n    does not turn future studies into requirements. — The hunt looked for consumption\n    that creates a requirement. Each candidate, such as a rule saying ''revise only\n    after the next study'', makes the study a condition of revision. The next sentence\n    of the note already sorts that case as a dependency.'\n- scope: passage\n  quotes:\n  - not by itself evidence that the system would fail or degrade without the task\n  reason: 'HOLDS — Premise qualified by ''by itself'': an unfulfilled requirement\n    does not show that the task is needed. — Specifications routinely contain vestigial\n    or precautionary tasks. The hedge already concedes cases where other evidence\n    shows need, so no counterexample defeats the premise at its stated modality.'\ncontract: report\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/4bfd8db041eb578aa5c092e8/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/artifact/reviews/4bfd8db041eb578aa5c092e8/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews/calls/launches/93928ef4a37d4da29985ed89053a7148/outputs/review.md\nraw-output-sha256: 5b45226a0601e4873e2b8073798d537b94ad7181280979de8fd0d6590f02a182\n---\n\n# Premise decomposition: Removing approval waits can leave required human evaluation in place\n\n**Register:** claim\n**Central commitment (one sentence):** Removing a human approval wait differs from removing a specified human evaluation task. Adoption can therefore run without a person while required human evaluation remains, and a full-automation claim must say which tasks it preserves and which requirements it retires.\n\n## Premises and counterexamples\n\nThe title claim is modal (\"can leave\"), and the weekly-review example easily instantiates it. The weight therefore falls on the claim's normative half: the demand that a full-automation claim split its human tasks into preserved and retired. That demand consumes three things:\n\n- a structural distinction between waits and non-blocking tasks;\n- a reference point, the specification, that settles which tasks are required;\n- a partition of how a required task can leave the process, by automation or by retirement.\n\nThe structural premises hold under an active hunt. A dependency is structural, so its approval rate does not affect it. A non-binding input that execution waits for is still a dependency. Human-authored rules can gate changes without per-change judgment.\n\nThe weak points are the three silent premises that make the classification usable. All three dents are local. None of them defeats the central distinction. Each one marks a case where a reader applying the distinction as stated would mis-sort a real process:\n\n- a process with no written specification;\n- a review replaced by a different mechanism;\n- a review that is non-blocking until a deadline, after which it blocks.\n\nEach can be repaired with a scope qualification or a named extra case.\n\n## For the human\n\nLook first at the unstated premise that a specification settles which tasks are required. Informal, tacit-norm processes are common in the note's domain. The note fences habitual waits but not habitual tasks.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis\nlaunch: 0272481faa50417d9409527889e59355\ncompleted-at: '2026-11-17T13:10:25Z'\nfindings:\n- scope: passage\n  quotes:\n  - Whether a specified task is useful or necessary is a separate question.\n  - not by itself evidence that the system would fail or degrade without the task\n  - This example establishes a gap against the specification, not that skipping review\n    causes harm.\n  - It is an actual wait to remove, not evidence that the evaluation is needed to\n    meet a stated requirement.\n  reason: 'The note disclaims necessity four times: in the opening, the definitions\n    paragraph, the weekly-review example and the habitual-wait Scope bullet. After\n    the opening, the repeats make the note read as defending against an objection\n    instead of drawing its distinction, and the reader cannot tell whether each repeat\n    adds a boundary. A revision could state the necessity disclaimer once, as a scope\n    boundary in the opening or in Scope, and end the other passages at their positive\n    point (for example, end the definitions sentence at ''an unfulfilled requirement'').'\n- scope: passage\n  quotes:\n  - This distinguishes human work within the process from optional assessment of its\n    results, rather than deciding who deserves causal credit for an improvement.\n  reason: The positioning paragraph sits between the definitions and the cases, and\n    it rules out a causal-credit reading that nothing earlier in the note invites.\n    This delays the cases that apply the definitions. A revision could move the link\n    to the before/after comparison note to the end of the note, or cut it to a one-line\n    pointer there, and drop the causal-credit clause unless readers from the linked\n    note are likely to bring that question.\ncontract: report\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis/artifact/reviews/ec6ad1908ec603540d44c8ff/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis/artifact/reviews/ec6ad1908ec603540d44c8ff/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis/calls/launches/0272481faa50417d9409527889e59355/outputs/review.md\nraw-output-sha256: 85ea635e924fda6cd942a241c11516c74d673138029d9493aa20f551c967a12f\n---\n\n# Simplification synthesis: Removing approval waits can leave required human evaluation in place\n\nThe four checks found the note compact and its claim prominent. Branch-bloat found no competing branch, and detail-overhang reported only a one-sentence overhang in the subsequent-revision paragraph. That overhang is local compression, so this synthesis leaves it out. Two opportunities combine several findings into one structural change each.\n\n## Opportunities\n\n### 1. State the necessity disclaimer once\n\n- Location: opening paragraph (\"Whether a specified task is useful or necessary is a separate question.\"); second paragraph (\"not by itself evidence that the system would fail or degrade without the task\"); \"Name the process being automated\", first paragraph (\"This example establishes a gap against the specification, not that skipping review causes harm.\"); Scope, second bullet (\"not evidence that the evaluation is needed to meet a stated requirement\").\n- Combines: marginal-value-redundancy (warn: defensive redundancy); the habitual-wait echo the same review notes in its body.\n- Preserve or decide: Keep one explicit statement that an undone specified task is a gap against the specification, not evidence of harm or necessity. This separation is part of the claim, so it cannot simply be deleted. The author must decide where it lives: in the opening, as a definitional consequence, or in Scope, as a boundary. Check that the weekly-review example still reads as a specification gap and not as a harm claim when its caveat is removed. The habitual-wait bullet also says such a wait is \"an actual wait to remove\". Keep that point even if its necessity clause goes.\n\n### 2. Let the definitions lead straight into the cases\n\n- Location: third paragraph of the introduction (\"This distinguishes human work within the process … a judgment that the system improved does not by itself show whether human evaluation was required to operate it.\").\n- Combines: core-claim-obscured (info: positioning apparatus before the examples); marginal-value-redundancy (info: causal-credit clause does no visible work).\n- Preserve or decide: Keep the link to [the comparison of operative states](./a-better-factory-claim-compares-operative-states.md) and the contrast it carries: a judgment that the system improved does not show whether human evaluation was required. The author must decide whether readers of that note are likely to treat evaluation as a claim to causal credit. If so, the clause should stay, perhaps at the end of the note. If not, it can go. Moving the paragraph changes only placement and should not weaken the complement relation to a bare see-also.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nnote-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role\nlaunch: 5079e64614bb4ec0b46892a41314ed24\ncompleted-at: '2026-11-17T13:10:55Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: 'SUPPLIED — kb/theory/README.md — needs only an index citation: the title\n    and a gloss saying the note distinguishes automated adoption from required human\n    monitoring or revision, and from optional assessment. The note''s opening section,\n    its ''Name the process being automated'' section and its optional-assessment case\n    together carry all three parts of that gloss.'\ncontract: report\ntarget-sha256: 4ce314490467b56a65602d322f71dc9333598a43919d4e4549ca983cbf4f4a27\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role/artifact/reviews/9e219955637de6f9aaca83ec/inputs/target/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role/artifact/reviews/9e219955637de6f9aaca83ec/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role/calls/launches/5079e64614bb4ec0b46892a41314ed24/outputs/review.md\nraw-output-sha256: fb933d3248d0070ad8a86e1fe4d630c0a0ae1cd4ef6df28e07cdf9777f2c8a6d\n---\n\n# Role in the KB: Removing approval waits can leave required human evaluation in place\n\n## Role\nOnly the theory collection index cites the note; no dependent argues from it, borrows a term from it or uses it as a premise. Its KB role, as dependents show it, is an indexed entry for the distinction between removing a human approval wait, leaving a specified human monitoring or revision task in place, and optional assessment.\nRelied on: the overall three-way distinction (automated adoption vs. required human monitoring or revision vs. optional assessment), as an index gloss only. Unused: \"blocking dependency\" vs. \"unfulfilled requirement\"; the claim that automating a review differs from retiring it as a change in requirements; the required-approval and optional-assessment cases; the weekly-review example; the scope points on anticipated assessment and habitual waits; the links to the operative-states and routine-approvals notes.\n\n## Dependents\n- `kb/theory/README.md` — an index citation with a one-line gloss of the note's distinction.\n\n## Duplication\nNone. The README gloss summarizes the note's description and is not a competing statement of the claim.\n\n## Untaken recommendations\nNone. The only linking file is an index and recommends no change.\n\n## Reach\nA change to the note's title or to its central three-way distinction would reach `kb/theory/README.md`, whose link text and gloss restate them. No dependent relies on the note's other claims or terms (the blocking-dependency/unfulfilled-requirement pair, the automation-vs-retirement claim, the examples or the scope points), so changing those reaches no one.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 43,
+        "fresh": 3
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::frontmatter/claim-strength",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::frontmatter/title-as-claim",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::frontmatter/title-composability",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/4ce314490467/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/evaluation-that-controls-adoption-helps-determine-the-change.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

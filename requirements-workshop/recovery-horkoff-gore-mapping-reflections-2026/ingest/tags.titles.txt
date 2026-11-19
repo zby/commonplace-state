@@ -1,0 +1,34 @@
+Observability
+theory-builder
+curation
+Architecture
+artifact-analysis
+Agent memory
+Context engineering
+deploy-time-learning
+review-system
+Tag heads for kb/tags/
+reflection
+claims-and-grounding
+KB maintenance
+LLM reliability
+Prose readability
+constraining
+Links
+continual-learning
+improvement-loop
+discovery
+software-factory
+Commonplace architecture
+Failure modes
+Self-improving systems
+warranted-autonomy
+Trace-learning
+Method-guided action
+Goal prioritization
+Learning theory
+Evaluation
+Tags
+Document system
+Computational model
+Type system

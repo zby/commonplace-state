@@ -1,0 +1,1 @@
+The test-design paragraphs in “Proportion may make support compete with the claim”; repeated evidence qualifications across “Position supplies a cue, not a substitute for meaning” and “Scope,” retaining conditions beside their claims and all distinct limits.

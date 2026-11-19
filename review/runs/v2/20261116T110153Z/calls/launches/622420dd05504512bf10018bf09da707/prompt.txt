@@ -1,0 +1,46 @@
+Task:
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/reference/proposals/source-registers-without-duplicated-path-inventories.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/reference/types/design-proposal.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+This is a type-conformance gate. The gate is the note's type spec:
+authoring instructions and a template, not a Failure mode / Test procedure.
+The embedded type spec below is the authoritative gate text for this pair.
+Judge whether the note does what the type spec's authoring instructions ask.
+If the type spec carries a `## Review` section, treat it as the operative test.
+- PASS: the note does what the authoring instructions ask.
+- WARN: the note conforms overall, but specific instructions go unmet; name each unmet instruction as a finding.
+- FAIL: the note does not do what the authoring instructions ask.
+Structural checks (frontmatter fields, schema conformance) are the deterministic validator's job; do not re-check them here.
+Catalog gates judge four properties for every note: whether a claim title is a proposition, whether it is contestable, whether it composes as a linkable phrase, and whether the description discriminates the note. Leave those to their gates; judge a title or description here only against a convention this document adds.
+
+Reading scope:
+- The note's relative links resolve from `kb/reference/proposals/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+
+Inputs (read these exact files):
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/inputs/criterion.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/inputs/output-contract-2.md
+
+Required outputs (write these exact files):
+- review.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/outputs/review.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261116T110153Z/calls/launches/622420dd05504512bf10018bf09da707/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

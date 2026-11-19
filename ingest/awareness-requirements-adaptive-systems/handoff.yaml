@@ -1,0 +1,19 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/awareness-requirements-adaptive-systems.ingest.md
+snapshot_sha256: c21c3462537ab42498d65008dc43aa729199076a203e10929629ea2b26c6c349
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-16T22:54:47+01:00'
+occasion: What can requirements engineering contribute, and what are its limits, for
+  understanding operationalization, goal authority, and revisable knowledge in agent-operated
+  knowledge work?
+checks:
+- at: '2026-11-16T22:57:44+01:00'
+  failures: []
+- at: '2026-11-16T22:57:54+01:00'
+  failures: []
+- at: '2026-11-16T22:57:54+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T22:57:54+01:00'

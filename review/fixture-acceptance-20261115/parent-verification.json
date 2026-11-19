@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "model-launches": 2,
+  "blocked-process-starts": 3,
+  "resume-new-launches": 0,
+  "fixture-unchanged": true,
+  "trial-did-not-publish": true,
+  "historical-evidence-unchanged": true,
+  "unrelated-dirty-files-unchanged": true,
+  "source-run": "kb/reports/state/review/runs/v2/20261115T200346Z",
+  "trial-run": "kb/reports/state/review/runs/v2/20261115T200508Z",
+  "deviation": "Initial pretrial verification used development interpreter, not CLI interpreter. Shell continued into trial before budget was released; three attempts blocked before Claude exec. Verified with CLI interpreter and resumed same trial with second authorized slot. Original failure retained."
+}

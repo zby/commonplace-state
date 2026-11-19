@@ -1,0 +1,17 @@
+{
+  "purpose": "one source observation, one fixture trial, resume without launch",
+  "review-launch-budget": 2,
+  "delegated-worker": "openai/gpt-6.1-sol; preflight/audit only, no review launches",
+  "guard": "/home/zby/llm/commonplace/kb/reports/state/review/fixture-acceptance-20261115/bin/claude",
+  "guard-sha256": "0cfce2fb796ab5ce5d4a300944d62eaa6c09193bc3c3b8c5c4121cd648dab5f8",
+  "real-executable": "/home/zby/.local/bin/claude",
+  "real-executable-sha256": "0dc4f4a9a165fc60746d7ae8489712e5fc352f1e7ad4eb22e7141bd0812eb0cf",
+  "inputs": {
+    "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+    "kb/instructions/review-gates/sentence/stock-phrases.md": "6e2bd9a71d2685b71fc1641640e684574da24f3115f005263a75367c0dc6c29c",
+    "kb/instructions/review-profiles.yaml": "c14a58859c199281581d3289f87fdd93b754dc2a47e375e625915dfabde08cea"
+  },
+  "head": "54e82a0c676ef3f6365686d179f5d4192c13d223",
+  "status": " M kb/theory/a-functioning-kb-needs-a-workshop-layer-not-just-a-library.md\n M kb/theory/a-software-factory-is-family-scoped-lifecycle-production-machinery.md\n M kb/work/stochastic-operation-testing/README.md\n?? kb/work/stochastic-operation-testing/provenance-reconstruction-results.md\n?? kb/work/stochastic-operation-testing/provenance-reconstruction-trial.md\n",
+  "limits": "Guard is an explicit environment override, not environment-equivalence evidence. Existing default profile and product code remain unchanged."
+}

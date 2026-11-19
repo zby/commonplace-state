@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "id": "19b741e20e071b895283e66e",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/redundant-restatement",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/*",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/redundant-restatement",
+    "target-sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "criterion-bytes-sha256": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "3e57a626eb488f007b0cfd7b405a15ff0902ab193fab9a2e9b9ecdeaafacdcb1",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "afef9bcd909f9b0fb80278a113317436fceca010",
+  "content-state": {
+    "kb/agentic-system-analyses/instructions/analyse-agentic-system/worker-profiles.yaml": {
+      "kind": "file",
+      "sha256": "741e0f193b2e9bafeaa071ea452f09e1752e691e591197fcf238f396d738c046"
+    },
+    "kb/instructions/review-profiles.yaml": {
+      "kind": "file",
+      "sha256": "7f8dfdb9d06bf0b6eed16e6ccf8f3cd4fd376b03839f2be18cac4944bc30947c"
+    },
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/tasks/profiles.yaml": {
+      "kind": "file",
+      "sha256": "53896bc2b801e4da1365486d7ccd2b3aac8dcc5eb30e833fd515cc5b378a7ed4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "b0317f8cee5d396370e4b6a65ecc3eeec8e8c6205308dab3ea57bb4dd395d94c",
+  "executor": {
+    "path": "provenance/67330922450df516e56b0be4531419ebe8bb2cc21baad4bacfa962e92ec70cd8.json",
+    "sha256": "67330922450df516e56b0be4531419ebe8bb2cc21baad4bacfa962e92ec70cd8"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "bytes": 16238,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/redundant-restatement.md",
+      "path": "inputs/criterion.md",
+      "sha256": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "bytes": 1834,
+      "input": "gate-redundant-restatement.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "3e57a626eb488f007b0cfd7b405a15ff0902ab193fab9a2e9b9ecdeaafacdcb1",
+      "bytes": 3338
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/3d6f8665a9b04e2c816a2b4805122f0c/review-redundant-restatement.md"
+  ],
+  "completed-result-sha256": {
+    "results/3d6f8665a9b04e2c816a2b4805122f0c/review-redundant-restatement.md": "a54036db86b49bc06a850cc7e001753fedb410796b9be89f8eaa8e1e4a655460"
+  },
+  "latest-result": "results/3d6f8665a9b04e2c816a2b4805122f0c/review-redundant-restatement.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/*",
+      "key": "4373b3fa98d2ffc7e32959b27ce338aa542fcbaeed7d498aa2edd6162d6c657d"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

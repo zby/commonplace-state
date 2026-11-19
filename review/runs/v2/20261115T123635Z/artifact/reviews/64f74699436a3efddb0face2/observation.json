@@ -1,0 +1,641 @@
+{
+  "version": 2,
+  "id": "64f74699436a3efddb0face2",
+  "request": {
+    "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+    "call-job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+    "note": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+    "criterion": "kb/instructions/critique-note.md",
+    "contract": "report",
+    "kind": "critique",
+    "criterion-id": "kb/instructions/critique-note",
+    "target-sha256": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+    "criterion-bytes-sha256": "6a402875150a2649f57275adda6ca69ae7669f0b06ef57a14b0685e5ff6ab220",
+    "contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+    "prompt-sha256": "983d224b37cf50d445e103872c814a1e1d5bda765b715a3a9acd96b172e03b4d",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 600.0,
+    "call-inputs": {
+      "note.md": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+      "criterion.md": "6a402875150a2649f57275adda6ca69ae7669f0b06ef57a14b0685e5ff6ab220",
+      "output-contract-0.md": "4205f8baf98f2f2a0ac0c84750bb6bd155582a605295a4fdfcadef61ffec0303",
+      "output-contract-1.md": "e38c6c6b9bfd84e8766710f6838452af3d7b050dc878c7dcd52c36944daebd45"
+    }
+  },
+  "kb-commit": "8fc81c97815895e6e22e006b8cb3fb6eec319504",
+  "content-state": {
+    "kb/reference/README-REVIEW-SYSTEM.md": {
+      "kind": "file",
+      "sha256": "336a0281e0718699ce9717c4b21ef925cb409de10f34fcc51a16bfce7220f46f"
+    },
+    "kb/reference/commands.md": {
+      "kind": "file",
+      "sha256": "c0ca6c8b62fc9c546162a1f354ae8ae0d6cd204aac10fbd8a1d6db6682a61cca"
+    },
+    "kb/reference/review-architecture.md": {
+      "kind": "file",
+      "sha256": "af011f5b9dfc73a65158ce005f665591eaf78d894ba3b7856ebfeb9de709b30d"
+    },
+    "kb/theory/a-functioning-kb-needs-a-workshop-layer-not-just-a-library.md": {
+      "kind": "file",
+      "sha256": "770f0cae7d043682e62ee7342f0c5d4ccbdddfc26f7215f8c0ef7114b00f8a61"
+    },
+    "kb/theory/a-software-factory-is-family-scoped-lifecycle-production-machinery.md": {
+      "kind": "file",
+      "sha256": "f4dee748bce52437ff68f4d869d0e6fc751634016e471a7f12b0ccae36fadadd"
+    },
+    "kb/types/README.md": {
+      "kind": "file",
+      "sha256": "a4512362e362ee41e8ba125028ac3519551f5c0dbf4b3dcbae89a1b486134cba"
+    },
+    "kb/types/review-result.md": {
+      "kind": "file",
+      "sha256": "4205f8baf98f2f2a0ac0c84750bb6bd155582a605295a4fdfcadef61ffec0303"
+    },
+    "kb/types/review-result.schema.yaml": {
+      "kind": "file",
+      "sha256": "e38c6c6b9bfd84e8766710f6838452af3d7b050dc878c7dcd52c36944daebd45"
+    },
+    "kb/work/review-on-workjig/types-plan.md": {
+      "kind": "file",
+      "sha256": "a2dbd363eae4bcf6518b22591ad9c65b75783d4956a7cfcf504c5ce52956cd9e"
+    },
+    "kb/work/review-operation-unification/README.md": {
+      "kind": "file",
+      "sha256": "454e3c0459a1568dcd6bf59917d095581c189521e72fc263a7cc98f39af3a8d6"
+    },
+    "kb/work/review-operation-unification/execution-contract.md": {
+      "kind": "file",
+      "sha256": "dacbdbd77ebf08766fe4e6d8b18928d69406368e00fccb6609a752a45fdfff8e"
+    },
+    "kb/work/review-operation-unification/implementation.md": {
+      "kind": "file",
+      "sha256": "78084ad895ce631cfee34b280baeea772e8c56724159b321bed497913cf9aa2c"
+    },
+    "kb/work/review-operation-unification/operation-command-sketch.md": {
+      "kind": "file",
+      "sha256": "10db1a51f90a4d012ce4e6a78f77009581e266f57d82515e7303b4a117781715"
+    },
+    "kb/work/review-operation-unification/plan.md": {
+      "kind": "file",
+      "sha256": "cac367baa248ef43319b7bd9af4c42a387beab75e25bf73e9e9784fec3c4982e"
+    },
+    "kb/work/stochastic-operation-testing/README.md": {
+      "kind": "file",
+      "sha256": "49a80737159aaac76a0fe35a15e2e8361102ac844b989e969e1833f79c88aac6"
+    },
+    "kb/work/stochastic-operation-testing/provenance-reconstruction-results.md": {
+      "kind": "file",
+      "sha256": "3b8e26ccef80beabf38854c6a023f2ca506648e412adfbba6da985b46650d3f4"
+    },
+    "kb/work/stochastic-operation-testing/provenance-reconstruction-trial.md": {
+      "kind": "file",
+      "sha256": "49b185769327036e7d237b031798144f865e585c97638136f2f501624e510c33"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "75b4b5a95b7e5ccb1c89d38694652517d79f582ce0d19b9cbfc6867af18a0a62"
+    },
+    "src/commonplace/lib/frontmatter.py": {
+      "kind": "file",
+      "sha256": "85669e0c9b899ecaf0a8a11495435afbfdccf645c04c12657400ca02306651e7"
+    },
+    "src/commonplace/lib/review_workflows/criteria.py": {
+      "kind": "file",
+      "sha256": "3f2ede9ae1566506974e213f59d2dddd56bde3e52006364023c3120e74d36bc1"
+    },
+    "src/commonplace/lib/review_workflows/edits.py": {
+      "kind": "file",
+      "sha256": "adc9f7ef8efc2c5e62e910e76b0b23ab17f7378893d08d71242b8d34b1928fca"
+    },
+    "src/commonplace/lib/review_workflows/fixtures.py": {
+      "kind": "file",
+      "sha256": "b853c116145a201fe67da98d5acdc3c72caa14c241edebb29abfe3d999c3b08b"
+    },
+    "src/commonplace/lib/review_workflows/full_pass.py": {
+      "kind": "file",
+      "sha256": "28516b22fbddf4fd527ccd43c1af693e539d049b5191a6d565c7916d120fc8b5"
+    },
+    "src/commonplace/lib/review_workflows/gates.py": {
+      "kind": "file",
+      "sha256": "3c3314b1fac8eb7501b4b1bd05bbdf7c47eebe32acf1692ee58d805472ebe067"
+    },
+    "src/commonplace/lib/review_workflows/observations.py": {
+      "kind": "file",
+      "sha256": "63bc37b21f4bc83b3a635d03f2012d6a90447fb4f00224bc6c700cc62cb32ad5"
+    },
+    "src/commonplace/lib/review_workflows/outcomes.py": {
+      "kind": "deleted"
+    },
+    "src/commonplace/lib/review_workflows/result_contract.py": {
+      "kind": "file",
+      "sha256": "9f441c23621627edd90af655f11ce3b0d4c8a84382be462beb790c26f8a44496"
+    },
+    "src/commonplace/lib/review_workflows/results.py": {
+      "kind": "file",
+      "sha256": "a77bb031d8a7b86ae8ddd1428b50ed8b21b2fbe7e599e43d8822f61e1c415924"
+    },
+    "src/commonplace/lib/validation.py": {
+      "kind": "file",
+      "sha256": "caeefd150d82ee3ae6575437d0904cfe4db52ad6efb36780a22a56d1cc90c5a7"
+    },
+    "tests/commonplace/relocation/relocation_review_helpers.py": {
+      "kind": "file",
+      "sha256": "116bc6fea71bac134c2fbe7102cb738c366f7b67ff15bfa4fac7a860ce86c89e"
+    },
+    "tests/commonplace/review_workflows/result_helpers.py": {
+      "kind": "file",
+      "sha256": "a4ae13178b6abd6fb055c60f3f5561f737d5e059010b4bb05d35fcbce91a421c"
+    },
+    "tests/commonplace/review_workflows/test_full_pass.py": {
+      "kind": "file",
+      "sha256": "80eb5b0a2bf26add562743bba6b8ddb7cf26f2d9fc763d3af48a5afc237e63c5"
+    },
+    "tests/commonplace/review_workflows/test_gates.py": {
+      "kind": "file",
+      "sha256": "10c658a3cb07aaf424c3d675e9e2401a93f315809052578f8b0a1b5bf00a69c1"
+    },
+    "tests/commonplace/review_workflows/test_observations.py": {
+      "kind": "file",
+      "sha256": "8968f81b43506747e46d3dea76b4e3225dd31a4f4e2264b9cdbe6938f60692ac"
+    },
+    "tests/commonplace/review_workflows/test_outcomes.py": {
+      "kind": "deleted"
+    },
+    "tests/commonplace/review_workflows/test_project_status.py": {
+      "kind": "file",
+      "sha256": "d7f65c87eca6aa5a9e300d9c8ed390ef66ceea46d74af3a5808828dffa5bea66"
+    },
+    "tests/commonplace/review_workflows/test_result_contract.py": {
+      "kind": "file",
+      "sha256": "82dc3156e638b90ffa3b803ade563460bf81b7f0e26643bcacbe4696c93857c6"
+    },
+    "tests/commonplace/review_workflows/test_review_decisions.py": {
+      "kind": "file",
+      "sha256": "d529fc271c9a4afa0ad26444a229136c8e62150258a2dece386b88d0c7b65447"
+    },
+    "tests/commonplace/review_workflows/test_review_results.py": {
+      "kind": "file",
+      "sha256": "dd9f5b0ef390cd0bdbf3db999bd0e9343a77d16723abcef1e5259ac75c08536a"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-sha256": "116ff37e91ad12f36c24645b269803fa86e8b7f7fe8d3389e334399e0383fdce",
+  "context": "live authored KB; operational inputs confined to this run",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+      "path": "inputs/target/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+      "sha256": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+      "bytes": 13518
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/critique-note.md",
+      "path": "inputs/criterion.md",
+      "sha256": "6a402875150a2649f57275adda6ca69ae7669f0b06ef57a14b0685e5ff6ab220",
+      "bytes": 4533
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "983d224b37cf50d445e103872c814a1e1d5bda765b715a3a9acd96b172e03b4d",
+      "bytes": 1565
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "4205f8baf98f2f2a0ac0c84750bb6bd155582a605295a4fdfcadef61ffec0303",
+      "bytes": 3394
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "e38c6c6b9bfd84e8766710f6838452af3d7b050dc878c7dcd52c36944daebd45",
+      "bytes": 3320
+    }
+  ],
+  "executor": {
+    "packages": {
+      "python": "3.13.1 (main, Dec  6 2024, 18:40:43) [Clang 18.1.8 ]",
+      "jsonschema": "4.26.0",
+      "certifi": "2026.10.23",
+      "oauthlib": "4.0.1",
+      "idna": "3.20",
+      "urllib3": "2.8.0",
+      "requests": "2.34.2",
+      "PyYAML": "6.0.3",
+      "charset-normalizer": "3.5.2",
+      "typing-inspection": "0.4.5",
+      "annotated-types": "0.8.0",
+      "referencing": "0.37.0",
+      "typing_extensions": "4.16.0",
+      "pydantic": "2.14.3",
+      "workjig": "0.3.1",
+      "jsonschema-specifications": "2025.9.1",
+      "pydantic_core": "2.50.4",
+      "rpds-py": "2026.9.1",
+      "xdk": "0.10.6",
+      "llm-commonplace": "0.3.3",
+      "python-dotenv": "1.2.4",
+      "attrs": "26.1.0",
+      "requests-oauthlib": "2.0.0"
+    },
+    "source": "/home/zby/llm/commonplace/src/commonplace/lib/review_workflows/observations.py",
+    "code": {
+      "__init__.py": "cdc039417cdbf9a1a43c73cdbd21d23af52e0070addc82deaa8fea2ec68f0d0b",
+      "_data/templates/CLAUDE.md.template": "4eb5537684dd89df26fadacf757480a42306c4ce5003cf2e748319759e980b7a",
+      "_data/templates/user-dialectical-evidential-COLLECTION.md": "82f3314c781306e12a4ec27bf8bcb48659dbe89c5a10869261ab98d6c053b4a2",
+      "_data/templates/user-instructions-COLLECTION.md": "36825253b2b67dd48848f1a5f160ad7b26a1e2d39f1c1637e364256c66ec3c10",
+      "_data/templates/user-instructions-README.md": "c76ca7e1e3f89c7e14cea2d6949577b8d55c626210af445c3f5e065b2b877e49",
+      "_data/templates/user-notes-COLLECTION.md": "1bbed7067365a8b002226a3c16d184e62e5357eb85a2d2a488f9e7a07a5d190f",
+      "_data/templates/user-notes-README.md": "b698e26ab5dd25c9e71523b4bd494e1e63f041a15ca723cf682f733de50bda95",
+      "_data/templates/user-reference-COLLECTION.md": "f92097efc7a00ae0dba8f2b813f9679f1883f1f2493f3306848145c441bd3cd4",
+      "_data/templates/user-reference-README.md": "ae938441cb3065212faa8ee7a946a65e95b418490311f0cacccbf0d0f380c02d",
+      "_data/templates/user-reports-COLLECTION.md": "908c65309a38bffe8e8bf11ed7863bf46e602b039989da751bcb2d62c843db49",
+      "_data/templates/user-reports-README.md": "c389d2edcff4c2e0489b59f32e42919472ee914ca7900193e7510df521944f99",
+      "_data/templates/user-reports-gitignore": "4178e02e95bfa4b05e57b9514a6c19b5ec27696d1825615a2a12737f1a2f3659",
+      "_data/templates/user-reports-retained-README.md": "8bafedcd157e11d2a787a61862e828a17a323b5b7551a59d9c696af6d62d2fa8",
+      "_data/templates/user-reports-state-README.md": "5fba3dc84040b1054d1a4a98c2abfdbbd0ff26d110672dd47fe57330cd3452e0",
+      "_data/templates/user-reports-state-validation-ignore": "c0ad0641663811c50500061e98af8f26c75ea1e749f6d6d91d6ceac127776c0f",
+      "_data/templates/user-sources-COLLECTION.md": "e86a36669f4e0728bc56d9d3fee360b4c7ca9fba8462915c0dc0bad75990dfbf",
+      "_data/templates/user-sources-README.md": "2e618bf51b4a2d8603d029fb8b65a7c4fb770593b503a91b4fdecbb53e06cbc2",
+      "_data/templates/user-tags-COLLECTION.md": "4663140fb632217c87ba942ecff05ca979f66220148e185c1070be51b1cd6f8e",
+      "_data/templates/user-tags-README.md": "76eeb95a2a17ef7c9b50286196025f0cfeab59910ac2ea4d786d7347ca1f61bf",
+      "_data/templates/user-work-COLLECTION.md": "26dfb8df01b3952850bc5fbe393a24682839e1e0848a7d414a105e5b17957373",
+      "_data/templates/user-work-README.md": "58fcedfc35582fe4b42378f6a9e1a67abf00adecdbe521cc44e139c654bc6996",
+      "cli/__init__.py": "6d6ea9742da409420f8ca2fe291fd52f7e8a58a3cbfafffc4ec5a7b1ca3b6432",
+      "cli/analysis.py": "b1a04eadb92e0215c7556dc3234888541b75b44be54741370bd0a217f999f566",
+      "cli/github_snapshot.py": "24cc1f6bff60be18a038aec8122fbcd0b3e5ed0dce7f3955effb704c9f8d1871",
+      "cli/ingest_handoff.py": "79d7365f5c3c01ec00ab6ed14c9bf831ec90f7b5333f3ab8a70808b8e408afe9",
+      "cli/init_project.py": "f8e5981a7c619660d6f5504bc4d773befda9855976157db92c04e9bc67793f9b",
+      "cli/promotion_candidates.py": "a886fac8bf15730ad0c0c64ac4e590f68e70f5d0d1c1c6d8195cb2fec3c12dd8",
+      "cli/relocate_directory.py": "db03826084159fe052424e8769d750cf4f1986a2393c0acc91f1edd565602f48",
+      "cli/relocate_note.py": "fe94baa7453b2778388308cea43a47b5541c24f9c899dc255c899267008ec634",
+      "cli/review_workflows.py": "75b4b5a95b7e5ccb1c89d38694652517d79f582ce0d19b9cbfc6867af18a0a62",
+      "cli/source.py": "56c8400207b61682fb832b93f1c759cf263a73fa7e3594fafda6a1b2776a0324",
+      "cli/status.py": "d9a0e02eed1dac6d68ec1acb77874cdee22d71c34892ec4f3dd9c91fc75f3ee9",
+      "cli/task.py": "207fb59c10c29511444977d2038f73a5e6b3fc29ebb3583374a8722255df3d74",
+      "cli/validate_notes.py": "892e4a274dd72ba2244d6ab4168d404aede7194952645e458cfa4e86b7db39ee",
+      "cli/verify_quotes.py": "9a6374a400df897c4d4da95d3da036fa8b357b34e76d7ec366586587fc741050",
+      "cli/x_snapshot.py": "b349f3548d9d5a9a81cd4fa350193498a6ee3bde47c3900fa832d5213b8024b4",
+      "docs/__init__.py": "dc29a9d93845d4762800bc0f5e0e6efad8de8133f0d6d9b2597506d5ef1069d2",
+      "docs/properdocs_hooks.py": "2e6251dc378c3c87f3ea2ace6b5e2b909afd0b8a88e58a76e343bc8c555f8362",
+      "docs/site_links.py": "288663e4fe1506d278b7f789c800b832cc12a66b7f2d0f2f431dda0df540003e",
+      "headless/__init__.py": "05d9ab4d9ec688e60c7126db804f3c5b97e2f9ec06d37dbb27a6da620f66e0cb",
+      "headless/corrections.py": "2197d5966b18c8a668c96ff723944182fe7093c2298af85c348865df5bbc1e5d",
+      "headless/decisions.py": "fa38652c3a4e1b8e033e517ce66a9bbc5c004630c18f1136749cebdc16f92473",
+      "headless/harness.py": "1406b094758c9546421556f067bf629ce30ecc3400c2eb900621d3bd67aa2fcb",
+      "headless/jobs.py": "14c987b40f834277e47f100c1861e967a35a6f30b8300ce6a79ca684e9f4b950",
+      "headless/operator.py": "92a448928197dd163271294816a7bc7a879996403603547cb552242512130822",
+      "lib/__init__.py": "adf246a6362ea473ced0627aca6158d34c748c0eeaace2cb9eda94bf677c7090",
+      "lib/agentic_analysis/__init__.py": "0c993c0af4e33a828717f4ea7a7ad9458b608f60e968472d0b75a67c476ec127",
+      "lib/agentic_analysis/analyses.py": "f3b4c3abd93449087cfcf61313490854a981fd9d64496d315dd4364bad9165e9",
+      "lib/agentic_analysis/audit.py": "fffbe41b0db5bd0f08175731d83397b3ede2fb19d5388c91652519c7688ef5f8",
+      "lib/agentic_analysis/automation.py": "733e49d1a54db9ec5083608fc284d33e32d5b695de21bd8df716fae4055f943e",
+      "lib/agentic_analysis/boundary.py": "a408644b363835879b6031d9ea35129442984482638ef2b504b76cf578f4dd7d",
+      "lib/agentic_analysis/checks.py": "befb13268b544cb0ffe462399c58d90c9f2bf39905f07701ca16d0d2f355cb97",
+      "lib/agentic_analysis/claude_code_tool_failures.py": "b6d915487124ec10e7cbea7ea6738d5d88f110385e1dfdc9322ee608412ce57d",
+      "lib/agentic_analysis/declared_checks.py": "bb62bcadaaea1f97c524e1adcc437bb8368ac89e851a7b6b7e07512a29c45808",
+      "lib/agentic_analysis/durable.py": "1bb884a096aea8512d29e0f8c6b9d455f21d21318946fe49d532096927cba2d8",
+      "lib/agentic_analysis/effects.py": "ceb9ed673a0bf72600435a5a7dd867ffb9b9cd00ddd2dc35c664465c4fea68c8",
+      "lib/agentic_analysis/execution.py": "56b211874f6bf87c6c96ca10c51843784013282b70e43932c3e923bb731f5ede",
+      "lib/agentic_analysis/guards.py": "ae8ca6321a6512637979f83dfa522c451cf0f8e68b5d6965c17c1d6c2967605f",
+      "lib/agentic_analysis/integration.py": "f3bb435ba92141bfd720df5e26f67c96f538869d1d52f4c8196e60f46155b410",
+      "lib/agentic_analysis/ledger.py": "49ef05479e5d9175707901d5115601bba18d22522bd517faa0cc7537c20e0534",
+      "lib/agentic_analysis/opening.py": "02a3b0d010b625431e42b6513285a0e190e4e563eda9333340384f53cec37d7a",
+      "lib/agentic_analysis/plan.py": "768918a278cdc24c0762df76f9ca12fa0fdaada4a60cc97ea24de037e0058107",
+      "lib/agentic_analysis/preparation.py": "fefbbc025d0f99ae54d913651757cff25956886c8dc90971cecdfd4c57c52e07",
+      "lib/agentic_analysis/prompts.py": "0b0dce79cca64a37747904fd080a406b2fa13fa41e7dbe7149fae81fdb5fa5d3",
+      "lib/agentic_analysis/publication.py": "57212b6d5edd4f28b45ce5d789f6ceb19c2ebbdf5c7cb2383e26dfb890605adc",
+      "lib/agentic_analysis/records.py": "98246cfd08dbac19877a1a3a98ec2b9e5a624f43994baa7c903bdf5870bd24f6",
+      "lib/agentic_analysis/rules.py": "f89a8ca26e2add39cc88970a400d4152435741b998c5a53e3f590956559a841e",
+      "lib/agentic_analysis/run_ids.py": "a239a33092f29866588170e88b4a17f6c360828386358141ec31b5f0f0222fc3",
+      "lib/agentic_analysis/sources.py": "d21091677c7f45ba6648852b46113f03033c21cdd1d850c16d8d26d9c9920912",
+      "lib/agentic_analysis/tool_failures.py": "1a996b7bcd813e32c9a6855234e9691604ae1bd48027f4721933f19a962c4e35",
+      "lib/agentic_analysis/verification.py": "1727b7bee0600c485617d3e34f65b58a883df6872f0fb8f1fd1fa375be4aa008",
+      "lib/agentic_analysis/workflow.py": "9f80f7f0a87fae4fb132e450a8d493448b46f5cbf291900b264de5beb98be653",
+      "lib/agentic_analysis/worktree.py": "7713f67f5271ca9e69f7bb3fa8d60775bbfaa68f411bb8020a5d9b8966f32a86",
+      "lib/candidate.py": "e42c4e8f2b8f184b2986620aecfd9dcfa8b0fa513540743a294d4f0ba50bf31d",
+      "lib/directory_artifact.py": "3cdb6cc116f1a35b5870bf85d65d8728bffbe0b3834c7dca44d83eed6dbc85e1",
+      "lib/directory_layout.py": "de84b8fb7c01660477b08d3d2dc46d2e36aa6390a97fc3e4673afa3d9edc088c",
+      "lib/frontmatter.py": "85669e0c9b899ecaf0a8a11495435afbfdccf645c04c12657400ca02306651e7",
+      "lib/hashing.py": "ec9ed5089cd1cc02aa6d6226d3dfd20ab6814b4d0d1f6052da458b56e5088291",
+      "lib/index_directory.py": "a4b7f33cda6d04e63cf066952c32a75343ea5a75e44001c7afcdaf6d75bc7433",
+      "lib/index_generated.py": "3361a3442be032a4098231021505a3483b48ca9c3e793d506e62948471eb8887",
+      "lib/ingest_handoff.py": "1730f3c1908bb957c5e1fcef4e0e6f82cd3c550d0625ce26deba9faf2f7ef254",
+      "lib/library.py": "d59c203dc4e763d67224a258f61eecbea286fac686e12e23bae46234581c833f",
+      "lib/lifecycle_validation.py": "9702b92d57446ddea936e2fd7696776f109df14f761235c378d5cd7ddbe53da5",
+      "lib/naming.py": "d19fd85ed6ecc6b554b992d9878128a662ff396f9effe05327c1bc6243dce169",
+      "lib/note_parser.py": "e16764bb581732d4153a292f80da832088c58439fb14ec4fb7efecb62efb278a",
+      "lib/project_paths.py": "e2977255a36ddb1a63d227731a3fe80f62017930d5b00befc46b09f3a4c12c3c",
+      "lib/project_status.py": "25539fc83ec09269327d36b41b019f937564e2d54debecd735b1492468bded2c",
+      "lib/promotion.py": "25e68cc0dbd378b56cbe23f1e6d7d74614fcd8575ae5348992868542b53ec324",
+      "lib/quote_generation.py": "8b68d15cac288b22306f0d5e6e0a4e5e279ccd4f5184c1bc4e1c0c5a3728192d",
+      "lib/quote_grounding.py": "b71fcfb168c210365dd371cd1c9fcfa6835ade2eb2f882125d30bbb4ff147d0a",
+      "lib/quote_matching.py": "8b8c274ad2e86cda5b3a507c10bd578020e7080cf02cdca4a75dec43230f173a",
+      "lib/quote_verification.py": "62ae67770047529e283b3dc33fec2d4546dec800df6487ddcea8d628e50d9962",
+      "lib/relocation.py": "efeafcc0b98cc2d79b3939930fd2f58cb8f028e0546e3a6e8c24bf99888b3a09",
+      "lib/review_workflows/__init__.py": "039b3e535ccbfa765b883c8f7c96200e3ff2af462ad760f3a640da12f73a718e",
+      "lib/review_workflows/criteria.py": "3f2ede9ae1566506974e213f59d2dddd56bde3e52006364023c3120e74d36bc1",
+      "lib/review_workflows/decisions.py": "34d171578742e4c38fb1bfb5dbdcfffac065b3fdd7c4e952cb9cb538a7200198",
+      "lib/review_workflows/edits.py": "adc9f7ef8efc2c5e62e910e76b0b23ab17f7378893d08d71242b8d34b1928fca",
+      "lib/review_workflows/fixtures.py": "b853c116145a201fe67da98d5acdc3c72caa14c241edebb29abfe3d999c3b08b",
+      "lib/review_workflows/full_pass.py": "28516b22fbddf4fd527ccd43c1af693e539d049b5191a6d565c7916d120fc8b5",
+      "lib/review_workflows/gates.py": "3c3314b1fac8eb7501b4b1bd05bbdf7c47eebe32acf1692ee58d805472ebe067",
+      "lib/review_workflows/observations.py": "63bc37b21f4bc83b3a635d03f2012d6a90447fb4f00224bc6c700cc62cb32ad5",
+      "lib/review_workflows/result_contract.py": "9f441c23621627edd90af655f11ce3b0d4c8a84382be462beb790c26f8a44496",
+      "lib/review_workflows/results.py": "a77bb031d8a7b86ae8ddd1428b50ed8b21b2fbe7e599e43d8822f61e1c415924",
+      "lib/review_workflows/revise.py": "d27ea9d6b54ef22f8f319f3411be7df6856ed62daa26d8a2ba12c987d90c74dc",
+      "lib/snapshot.py": "01e2aafad514c76811038d05d10129fc90be2c0dc448b60d65e32bd48b933d3d",
+      "lib/source_identity.py": "06f559a657935e88187579e1d772605b07b4adb668abb3dfde66f71dbcd0d0d8",
+      "lib/systems_matrix.py": "266856bf983f094c828950a14b9fe0a0394b3d441b94f1fe54bb8eafe41fda5a",
+      "lib/tasks.py": "b379af0845c30bccd02e417efa551a5521fed7400ea94cdf21b9e7c7677afe50",
+      "lib/trace_scan.py": "d76265fcb91dcd3cb033886eb4d12dfa16329d8d32fc099d486b0579eb593433",
+      "lib/type_resolver.py": "14b710c9c525bac37bedac912e38618da2942e80d6aa595828a9447118ffaed4",
+      "lib/validation.py": "caeefd150d82ee3ae6575437d0904cfe4db52ad6efb36780a22a56d1cc90c5a7",
+      "scaffold_manifest.py": "1a98651db58bf5cf2027beea894ed91ca4ceea4f76ef251fb7d05d4b7a3478ce"
+    },
+    "executable": "/home/zby/.local/bin/claude",
+    "reported-version": "2.1.325 (Claude Code)",
+    "executable-sha256": "0dc4f4a9a165fc60746d7ae8489712e5fc352f1e7ad4eb22e7141bd0812eb0cf",
+    "effective-configuration": "unassessed",
+    "gaps": [
+      "automatically loaded context and provider internals not verified"
+    ]
+  },
+  "state": "out-of-attempts",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "call": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "key": "4748a685d9212bf91f9f9188f97537135abbf3a4d7f969bd6296afc0089680fe",
+      "status": "delivered",
+      "launches": [
+        "21126e398f51457a933fc4ef3e955aac"
+      ],
+      "problem": null,
+      "dismissed": false,
+      "unsettled": []
+    },
+    {
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "call": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "key": "cc48fb0cbda1fa14af8d489205668542751cb44430cf32877ca4d03dd02bfd93",
+      "status": "delivered",
+      "launches": [
+        "9e0005e01eb24428a525c03c6709a685"
+      ],
+      "problem": null,
+      "dismissed": false,
+      "unsettled": []
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1794746278.1942596,
+      "event": "rejected",
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "key": "cc48fb0cbda1fa14af8d489205668542751cb44430cf32877ca4d03dd02bfd93",
+      "problems": [
+        "review: [base] missing pinned criterion: /home/zby/llm/commonplace/kb/reports/COLLECTION.md"
+      ]
+    },
+    {
+      "time": 1794746376.9986846,
+      "event": "rejected",
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "key": "4748a685d9212bf91f9f9188f97537135abbf3a4d7f969bd6296afc0089680fe",
+      "problems": [
+        "review: [base] missing pinned criterion: /home/zby/llm/commonplace/kb/reports/COLLECTION.md"
+      ]
+    },
+    {
+      "time": 1794746377.0401306,
+      "event": "rejected",
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::kb/instructions/critique-note",
+      "key": "4748a685d9212bf91f9f9188f97537135abbf3a4d7f969bd6296afc0089680fe",
+      "problems": [
+        "review: [base] missing pinned criterion: /home/zby/llm/commonplace/kb/reports/COLLECTION.md"
+      ]
+    }
+  ],
+  "launch-evidence": [
+    {
+      "launch": "21126e398f51457a933fc4ef3e955aac",
+      "source": "calls/launches/21126e398f51457a933fc4ef3e955aac/stdout.log",
+      "tools": [
+        "Task",
+        "CronCreate",
+        "CronDelete",
+        "CronList",
+        "DesignSync",
+        "Edit",
+        "EnterWorktree",
+        "ExitWorktree",
+        "Glob",
+        "Grep",
+        "ListAgents",
+        "LSP",
+        "PushNotification",
+        "Read",
+        "RemoteTrigger",
+        "ReportFindings",
+        "ScheduleWakeup",
+        "SendMessage",
+        "Skill",
+        "TaskStop",
+        "ToolSearch",
+        "WebFetch",
+        "WebSearch",
+        "Workflow",
+        "Write",
+        "mcp__claude_ai_Claude_Docs__batch",
+        "mcp__claude_ai_Claude_Docs__create",
+        "mcp__claude_ai_Claude_Docs__delete",
+        "mcp__claude_ai_Claude_Docs__export",
+        "mcp__claude_ai_Claude_Docs__guide",
+        "mcp__claude_ai_Claude_Docs__query",
+        "mcp__claude_ai_Claude_Docs__read",
+        "mcp__claude_ai_Claude_Docs__update",
+        "mcp__scry__attest",
+        "mcp__scry__batch",
+        "mcp__scry__chat",
+        "mcp__scry__coverage_estimate",
+        "mcp__scry__coverage_request",
+        "mcp__scry__coverage_status",
+        "mcp__scry__creativity",
+        "mcp__scry__datalog",
+        "mcp__scry__embed",
+        "mcp__scry__feedback",
+        "mcp__scry__fetch",
+        "mcp__scry__find",
+        "mcp__scry__guide",
+        "mcp__scry__index_request",
+        "mcp__scry__market_status",
+        "mcp__scry__memory",
+        "mcp__scry__memory_write",
+        "mcp__scry__page_as_of",
+        "mcp__scry__pain",
+        "mcp__scry__qrandom",
+        "mcp__scry__recipe_derive",
+        "mcp__scry__recipe_write",
+        "mcp__scry__recipes",
+        "mcp__scry__rerank",
+        "mcp__scry__reservations",
+        "mcp__scry__sample",
+        "mcp__scry__schema",
+        "mcp__scry__semantic_join",
+        "mcp__scry__share",
+        "mcp__scry__share_get",
+        "mcp__scry__share_list",
+        "mcp__scry__share_run",
+        "mcp__scry__share_update",
+        "mcp__scry__sql",
+        "mcp__scry__vector_delete",
+        "mcp__scry__vectors",
+        "mcp__scry__whoami",
+        "mcp__scry__wish"
+      ],
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth"
+        }
+      ]
+    },
+    {
+      "launch": "9e0005e01eb24428a525c03c6709a685",
+      "source": "calls/launches/9e0005e01eb24428a525c03c6709a685/stdout.log",
+      "tools": [
+        "Task",
+        "CronCreate",
+        "CronDelete",
+        "CronList",
+        "DesignSync",
+        "Edit",
+        "EnterWorktree",
+        "ExitWorktree",
+        "Glob",
+        "Grep",
+        "ListAgents",
+        "LSP",
+        "PushNotification",
+        "Read",
+        "RemoteTrigger",
+        "ReportFindings",
+        "ScheduleWakeup",
+        "SendMessage",
+        "Skill",
+        "TaskStop",
+        "ToolSearch",
+        "WebFetch",
+        "WebSearch",
+        "Workflow",
+        "Write",
+        "mcp__claude_ai_Claude_Docs__batch",
+        "mcp__claude_ai_Claude_Docs__create",
+        "mcp__claude_ai_Claude_Docs__delete",
+        "mcp__claude_ai_Claude_Docs__export",
+        "mcp__claude_ai_Claude_Docs__guide",
+        "mcp__claude_ai_Claude_Docs__query",
+        "mcp__claude_ai_Claude_Docs__read",
+        "mcp__claude_ai_Claude_Docs__update",
+        "mcp__scry__attest",
+        "mcp__scry__batch",
+        "mcp__scry__chat",
+        "mcp__scry__coverage_estimate",
+        "mcp__scry__coverage_request",
+        "mcp__scry__coverage_status",
+        "mcp__scry__creativity",
+        "mcp__scry__datalog",
+        "mcp__scry__embed",
+        "mcp__scry__feedback",
+        "mcp__scry__fetch",
+        "mcp__scry__find",
+        "mcp__scry__guide",
+        "mcp__scry__index_request",
+        "mcp__scry__market_status",
+        "mcp__scry__memory",
+        "mcp__scry__memory_write",
+        "mcp__scry__page_as_of",
+        "mcp__scry__pain",
+        "mcp__scry__qrandom",
+        "mcp__scry__recipe_derive",
+        "mcp__scry__recipe_write",
+        "mcp__scry__recipes",
+        "mcp__scry__rerank",
+        "mcp__scry__reservations",
+        "mcp__scry__sample",
+        "mcp__scry__schema",
+        "mcp__scry__semantic_join",
+        "mcp__scry__share",
+        "mcp__scry__share_get",
+        "mcp__scry__share_list",
+        "mcp__scry__share_run",
+        "mcp__scry__share_update",
+        "mcp__scry__sql",
+        "mcp__scry__vector_delete",
+        "mcp__scry__vectors",
+        "mcp__scry__whoami",
+        "mcp__scry__wish"
+      ],
+      "model": "claude-opus-5-5",
+      "mcp": [
+        {
+          "name": "scry",
+          "status": "connected"
+        },
+        {
+          "name": "claude.ai Claude Docs",
+          "status": "connected"
+        },
+        {
+          "name": "claude.ai Google Calendar",
+          "status": "needs-auth"
+        },
+        {
+          "name": "claude.ai Google Drive",
+          "status": "needs-auth"
+        },
+        {
+          "name": "claude.ai Gmail",
+          "status": "needs-auth"
+        }
+      ]
+    }
+  ],
+  "content-rejections": 2,
+  "rejection-events": 3
+}

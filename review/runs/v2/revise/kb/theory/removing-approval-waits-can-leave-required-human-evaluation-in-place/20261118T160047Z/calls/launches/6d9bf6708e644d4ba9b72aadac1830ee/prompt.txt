@@ -1,0 +1,44 @@
+Task:
+Assess one artifact for revision. Nobody will answer questions. If you cannot, write <the problem file named at the end of this invocation> instead of guessing.
+
+The artifact is `kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md` in this repository; its text is <Inputs: artifact.md>. Judge this input text; the file on disk may differ. The instruction is <Inputs: criterion.md>: do its step 1, the assessment, and nothing after it. The plan is validated and ordinary passes run automatically. The operator named no purpose: propose one as the instruction directs. The passes you may recommend are listed in <Inputs: passes.md>; choose only from them, by name.
+
+The artifact's stored review results with outcome warn or fail are inputs. Each line gives the result file's repository path, its criterion and the depth the criterion declares:
+- `kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/compression-bundle/marginal-value-redundancy.md` (criterion `kb/instructions/compression-bundle/marginal-value-redundancy`, depth 4, outcome warn): <Inputs: finding-1.md>
+
+The depth 1 review reports on this text, the compression synthesis when it ran, and the role report are inputs. Each line gives the result file's repository path, or for the synthesis and the role report its run directory, and its criterion:
+- `kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/composition-friction-gate.md` (criterion `kb/instructions/composition-friction-gate`, outcome report): <Inputs: report-1.md>
+- `kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/critique-note.md` (criterion `kb/instructions/critique-note`, outcome report): <Inputs: report-2.md>
+- `kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/premise-decomposition-gate.md` (criterion `kb/instructions/premise-decomposition-gate`, outcome report): <Inputs: report-3.md>
+- `kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis` (criterion `kb/instructions/compression-bundle/high-impact-simplification-synthesis`, outcome report): <Inputs: report-4.md>
+- `kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role` (criterion `kb/instructions/role-in-the-kb-gate`, outcome report): <Inputs: report-5.md>
+
+Output:
+- Write the assessment to <Required outputs: assessment.md>, as the instruction's step 1 describes.
+- Write the plan to <Required outputs: plan.md>: a YAML mapping holding exactly the decision fields below. `purpose` is the purpose the assessment works under; `must-keep` lists what this run keeps beyond the write brief's Must keep, as the instruction's step 1 says, each item as a claim's text; `passes` lists the recommended passes in run order, each a mapping with `pass` (its name) and, when the pass should touch only part of the artifact, `scope` naming that part, and, for a pass that fixes a finding, `finding` naming that review result file's repository path, as listed above; `stop` is null, or the reason when the instruction says to stop. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+The decision fields, each required:
+- `purpose`: a str value
+- `must-keep`: a list value
+- `passes`: a list value
+- `stop`: a str or null value
+
+
+Inputs (read these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/artifact.md
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/criterion.md
+- finding-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/finding-1.md
+- passes.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/passes.md
+- report-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/report-1.md
+- report-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/report-2.md
+- report-3.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/report-3.md
+- report-4.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/report-4.md
+- report-5.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/inputs/report-5.md
+
+Required outputs (write these exact files):
+- plan.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/outputs/plan.md
+- assessment.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/outputs/assessment.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/calls/launches/6d9bf6708e644d4ba9b72aadac1830ee/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

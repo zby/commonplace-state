@@ -1,0 +1,18 @@
+# Premise decomposition: Cross-task transition policy remains scheduling behind a tool interface
+
+**Note:** kb/notes/codified-scheduling-patterns-can-turn-tools-into-hidden-schedulers.md
+**Register:** claim
+**Central commitment (one sentence):** Code that owns transition decisions across distinct task goals performs scheduling even when exposed as a tool, and that scheduling is hidden only when the tool interface presents it as an ordinary capability while obscuring its progression state or transition authority.
+
+## Premises and counterexamples
+
+1. **A component's architectural role follows the decisions it owns rather than the interface through which it is invoked.** — HOLDS — Wrapping the same transition-owning component in a function call, RPC endpoint, command, or model-facing tool changes its invocation path but does not transfer its decision authority; in candidate counterexamples where the component merely recommends a transition and the caller decides, it no longer owns the decision and therefore falls outside the premise.
+2. **Code remains ordinary tool implementation whenever every step serves one invoked capability.** — DEFEATED — A caller can invoke `run_feature_workflow` as one capability even though its implementation decomposes the work into research, implementation, and review and owns the transitions among them; indeed, the note's own example gives that one-invocation shape a scheduler role, so “one invoked capability” does not by itself distinguish internal procedure from cross-task scheduling. — LOCAL — instance
+3. **When code owns progression choices among already distinguished task goals, including branching or stopping across them, it owns a scheduling responsibility.** — HOLDS — A hunt through planners, workflow runners, retry controllers, and declarative transition tables found no case that retained authority over which distinct goal executes next without performing the “what happens next” responsibility; cases that only return advice leave the actual progression choice elsewhere and do not satisfy the ownership condition.
+4. **Changing the capability surface for the next call is by itself sufficient to classify code as scheduling.** — DEFEATED — An authorization interceptor can remove administrative tools from the next call when a credential expires while leaving the current goal and all progression decisions unchanged; it changes the capability surface as access enforcement, not as task scheduling. — LOCAL — instance
+5. **A tool-wrapped scheduler has a single hidden-or-exposed status determined by whether its interface presents it as an ordinary capability and obscures progression state or transition authority.** — DOUBTFUL — A workflow can expose its state, transition graph, pause, and cancel controls in an operator API while presenting only an opaque `run_feature_workflow` call to the model; the scheduler is exposed to operators but hidden from the model, so the classification needs an audience or interface boundary before it yields one status. — LOCAL — instance
+6. **Preserving a codified cross-task policy requires explicit control logic that determines or constrains which transition executes.** — HOLDS — Encoding the policy as a transition table, workflow DSL, guard set, type-state protocol, or application loop changes the form and location of the control, but each candidate still explicitly constrains execution; if a model may freely choose a different transition, the codified policy has not been preserved as policy.
+
+## For the human
+
+Look first at premise 2: an arbitrarily composite workflow can still be invoked as one capability, so the ordinary-tool boundary needs a criterion tied to owned cross-goal transitions rather than invocation count.

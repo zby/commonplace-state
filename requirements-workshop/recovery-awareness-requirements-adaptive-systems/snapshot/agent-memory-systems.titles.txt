@@ -1,0 +1,175 @@
+Agent Memory Systems
+Writing conventions for kb/agent-memory-systems/
+What the matrix shows across 148 agent memory systems
+Trace-learning techniques in related systems
+Agent memory systems comparison table
+browzy.ai
+Amazon Science SAGE
+Trajectory-Informed Memory Generation
+G-Memory
+Mnemosyne / IsaacCLupus mnemosyn spec
+ClawVault
+AgeMem
+Spacebot
+Fintool
+Neo4j Agent Memory Service (NAMS)
+llm-wiki-coordination
+Link
+Lightweight agent memory systems
+AI-Context-OS
+Incremental Self-Improvement
+MemPalace
+o-o
+Voyager
+Sig
+getsentry/skills
+OpenWiki
+Cortex
+WeKnora
+Letta
+Thalo
+REM
+interview-doc-agent
+Agent Skills for Context Engineering
+Exocomp
+EchoWiki
+Sparks
+Agent Workflow Memory
+memwiki
+SkillRL
+LLM Wiki (cobusgreyling)
+AgentFly
+Continuity
+Tolaria
+HALO
+Mem0
+Agent memory system review
+byterover-cli
+MemoryOS
+Playground
+LLM Wiki (MehmetGoekce)
+Agent-R
+cq
+Claude Context Guard
+Engraph
+Agentic Harness Engineering
+napkin
+SkillWeaver
+EQUIPA
+AI Research OS Workshop
+Closure-SDK
+claude-obsidian
+Siftly
+MentisDB
+Memori
+supermemory
+Thalo entity types compared to commonplace document types
+hyalo
+AutoSci
+ReframeWeb
+Beever Atlas
+Smriti-MCP
+GBrain
+ReasoningBank
+TheKnowledge
+cass_memory_system
+Review framework and comparison matrix: design and decisions
+dense-mem
+Signet AI
+LLM-Wiki-v3
+Semiont
+MiroShark
+sift-kg
+Agent-S
+SkillNote
+OS-Copilot
+Awesome Agent Memory
+LACP
+Echel
+WUPHF
+Synthadoc
+sage-wiki
+Pond
+Claude Workstream Kit
+Graphiti
+EchoWiki
+Gnosis
+ai-modules
+CrewAI Memory
+nao
+Cognee
+KBLaM
+Clude
+Synapptic
+ai-memex-cli
+OpenViking
+OpenClerk
+pi-self-learning
+Decapod
+Phantom
+llmwiki-marimo
+Agentic Local Brain
+Scroll
+SkillX
+VLM-wiki
+ExpeL
+llm-wiki (Pratiyush)
+Memex
+LLM-WIKI-MCP
+Auto-claude-code-research-in-sleep
+llm-context-base
+HyperAgents
+DocMason
+HippoRAG
+OpenSage
+kgai
+Voiden
+OKF Harness
+Quicky Wiki
+Atomic
+Operational Ontology Framework
+Virtual Context
+ACE
+Reflexion
+CocoIndex
+Meta-Harness
+LLM Wiki (nvk)
+Hermes Agent
+Autocontext
+Exo
+Compound Engineering Plugin
+EchoWiki
+llm-project-wiki
+EchoWiki
+Secure LLM-Wiki
+auto-harness
+Binder
+Dynamic Cheatsheet
+Ars Contexta
+CORAL
+Pal
+AriGraph
+Hindsight
+A-mem
+LLM Wiki (cobusgreyling)
+deja-vu
+Funes
+SAGE
+Synto
+Eidetic
+Tendril
+Self-Training-LLM
+Swamp
+Nuggets
+Kompl
+Zikkaron
+Stash
+Archie
+LLM Wiki (kenhuangus)
+Context Constitution
+EchoesVault / echoes-vault-opencode
+Origin
+xMemory
+Tracecraft
+Basic Memory
+ATLAS

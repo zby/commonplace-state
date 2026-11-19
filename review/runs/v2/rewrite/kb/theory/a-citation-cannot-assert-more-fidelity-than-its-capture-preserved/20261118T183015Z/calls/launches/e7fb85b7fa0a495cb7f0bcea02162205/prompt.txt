@@ -1,0 +1,38 @@
+Task:
+Do one step of the rewrite of one note. Nobody will answer questions. If you cannot do it, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md` in this repository. The instruction for this step is <Inputs: instruction.md>; follow it. The note's text when the run started is `note`; it is not evidence for its own claims. The candidate keeps the note's frontmatter `title`, `type` and `brief` declaration and its H1, drops `user-verified` when the body changes and adds no validation failure.
+The inputs, by role:
+- `commission` (the commission: the current direction, the sources, and the intent and boundaries of this rewrite beyond the write brief): <Inputs: commission.md>
+- `type-contract` (the note's type spec): <Inputs: type-contract.md>
+- `collection-contract` (the contract of the note's collection): <Inputs: collection-contract.md>
+- `sources` (the source list): <Inputs: sources.md>
+- `source-1` (a captured source): <Inputs: source-1.md>
+- `source-2` (a captured source): <Inputs: source-2.md>
+- `inbound` (the passages that cite the note; not evidence or preservation requirements): <Inputs: inbound.md>
+- `note` (the note's text when the run started): <Inputs: note.md>
+
+Output:
+- Write the complete candidate text, frontmatter included, to <Required outputs: candidate.md>.
+- Write the citation consequences to <Required outputs: report.md>, under `## Affected citations`.
+- Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+
+Inputs (read these exact files):
+- collection-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/collection-contract.md
+- commission.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/commission.md
+- inbound.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/inbound.md
+- instruction.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/instruction.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/note.md
+- source-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/source-1.md
+- source-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/source-2.md
+- sources.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/sources.md
+- type-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/inputs/type-contract.md
+
+Required outputs (write these exact files):
+- candidate.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/outputs/candidate.md
+- report.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/outputs/report.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/calls/launches/e7fb85b7fa0a495cb7f0bcea02162205/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

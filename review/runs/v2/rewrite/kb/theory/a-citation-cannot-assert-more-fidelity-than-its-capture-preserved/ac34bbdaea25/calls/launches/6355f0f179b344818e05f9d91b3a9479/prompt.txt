@@ -1,0 +1,28 @@
+Task:
+Do one step of the rewrite of one note. Nobody will answer questions. If you cannot do it, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md` in this repository. The instruction for this step is <Inputs: instruction.md>; follow it. You do not receive the note's text, and you must not read it: do not open `kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md`, its write brief file, any earlier text of it in git history or under kb/reports/, or any file that quotes it. Read no repository file except the referenced sources the source list names. 
+The inputs, by role:
+- `commission` (the commission: the current direction, the sources, and the intent and boundaries of this rewrite beyond the write brief): <Inputs: commission.md>
+- `type-contract` (the note's type spec): <Inputs: type-contract.md>
+- `collection-contract` (the contract of the note's collection): <Inputs: collection-contract.md>
+- `reconstruction` (the reconstruction of the sources): <Inputs: reconstruction.md>
+
+Output:
+- Write the claim account to <Required outputs: claim-account.md>: Markdown with one `## ` section per material commitment of the reconstruction, saying how the note treats it.
+- Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+
+Inputs (read these exact files):
+- collection-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/inputs/collection-contract.md
+- commission.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/inputs/commission.md
+- instruction.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/inputs/instruction.md
+- reconstruction.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/inputs/reconstruction.md
+- type-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/inputs/type-contract.md
+
+Required outputs (write these exact files):
+- claim-account.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/outputs/claim-account.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/calls/launches/6355f0f179b344818e05f9d91b3a9479/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

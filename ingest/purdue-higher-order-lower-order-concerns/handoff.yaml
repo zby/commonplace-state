@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/purdue-higher-order-lower-order-concerns.ingest.md
+snapshot_sha256: 6b53eb2ba265e7a57f404dccc45bd23a5bec40b44a52b44058bc0e14e9aae06d
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: false
+opened: '2026-11-13T17:51:41+01:00'
+occasion: How should Commonplace order revision concerns, and does ordering by what
+  a change invalidates differ from ordering by degrees of freedom?
+checks:
+- at: '2026-11-13T17:56:51+01:00'
+  failures: []
+- at: '2026-11-13T17:57:01+01:00'
+  failures: []
+- at: '2026-11-13T17:57:01+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-13T17:57:01+01:00'

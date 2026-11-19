@@ -1,0 +1,26 @@
+Task:
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/types-give-agents-structural-hints-before-opening-documents.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/critique-note.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write the complete report the criterion asks for.
+- End with exactly one result line, the last non-empty line of the file: `## Result: REPORT`. Do not write PASS, WARN or FAIL.
+
+
+Inputs (read these exact files):
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/ee3a330d62144a4db422efd273ab1b2a/inputs/criterion.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/ee3a330d62144a4db422efd273ab1b2a/inputs/note.md
+
+Required outputs (write these exact files):
+- review.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/ee3a330d62144a4db422efd273ab1b2a/outputs/review.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/ee3a330d62144a4db422efd273ab1b2a/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

@@ -1,0 +1,1 @@
+Wrote `assessment.md` and `plan.md` to the required output paths. Recommended one scoped `readability-and-flow` pass. No artifact edits made.

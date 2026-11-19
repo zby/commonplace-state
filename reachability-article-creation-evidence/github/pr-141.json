@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\nThis PR collects the editorial changes made after #140 was merged and applies them cleanly on current `main`.\n\n- foreground Naur's claim that program theory remains with programmers, creating the article's central tension;\n- describe both testbeds in parallel: Commonplace as the live human-agent loop and programming agents as the prospective controlled comparison;\n- remove the provisional positioning section pending ingestion of the relevant literature;\n- audit enumerations throughout the article, removing repeated example lists and scoping the four-role table to the current research design with *typical* rather than exhaustive failures;\n- retain only lists that carry real structure: the causal path, evidence ladder, and three immediate payoffs;\n- correct the Bitter Lesson discussion: agents write much of the material, while operators still supply decisive high-level direction and selection, so the issue is the production-and-selection process rather than literal authorship;\n- complete a sentence-level pass for consistency, flow, and defensive or redundant prose.\n\n## Result\n\nThe second testbed is now concrete, the related-work claim is deferred rather than prematurely summarized, and the article distinguishes definitions from examples more consistently.",
+    "closedAt": "2026-08-30T21:34:44Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T21:29:06Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:29:06Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify testbeds and tighten research-program exposition",
+        "oid": "ffce1f24436a60f7c80b83dee1d25aa0e1b0dbdb"
+      }
+    ],
+    "createdAt": "2026-08-30T21:29:17Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 142,
+        "deletions": 192
+      }
+    ],
+    "headRefName": "clarify-research-program-testbeds",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T21:34:44Z",
+    "number": 141,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Clarify and tighten the theory-mediated research program",
+    "updatedAt": "2026-08-30T21:34:44Z",
+    "url": "https://github.com/zby/commonplace/pull/141"
+  },
+  "inline_review_comments": []
+}

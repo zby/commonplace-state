@@ -1,0 +1,3 @@
+- A claim of full automation must say which tasks it preserves and which requirements it retires.
+- Whether a specified task is useful or necessary is a separate question.
+- Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.

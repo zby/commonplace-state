@@ -1,0 +1,52 @@
+---
+type: types/type-spec.md
+name: design-proposal
+description: Contract for unadopted Commonplace designs — problem, explanatory case, alternatives, feasibility, and the commitment requested
+schema: ./design-proposal.schema.yaml
+---
+
+# Design proposal
+
+## Authoring Instructions
+
+Use a design proposal for a finished but unadopted design: the problem, the option space, the forces, and the free choices — without deciding. A design still being worked out stays in the workshop layer (`kb/work/`); a decided and implemented choice becomes an ADR (`../adr/`). Where proposals may live is a placement rule in [`kb/reference/COLLECTION.md`](../COLLECTION.md); everything a proposal must be is stated here ([ADR 084](../adr/084-kind-rules-live-in-type-specs-and-operations-in-instructions.md)).
+
+- **No adoption decision.** A proposal may recommend a candidate, hold several options, or leave forces unresolved. A recommendation does not authorize adoption. When a choice ships, it becomes an ADR and the proposal leaves the frontier (see Lifecycle).
+- **Problem, outcome, and explanatory case.** The opening states the problem, the outcome adoption would seek, and why the candidate changes are expected to produce it. Distinguish current facts, explanatory conjectures, intended outcomes, and candidate choices. An explanation of why an option could work does not establish that it is the only acceptable choice: [explanatory and constructive commitments differ in what they change](../../theory/theory-and-capacity-building-make-the-same-kind-of-commitment.md).
+- **Inspectable option space.** Distinguish independently stated boundary commitments, constraints derived from them, local requirements, and open choices. Show materially different alternatives and the consequences that distinguish them; familiar package names alone do not expose the choices they bundle. When a consequential decomposition is itself at issue, include a rival decomposition under the same boundary commitments, or state the unresolved gap if none has been found. A [boundary-preserving rival demotes a claimed constraint to a choice](../../theory/a-framework-rule-with-a-boundary-preserving-rival-is-not-inherited.md); failure to find one proves no necessity. Analytic combinations without a feasibility argument remain unresolved regions, not available options. The map need only expose the differences relevant to this decision, not enumerate every combination ([design-space exploration](../../theory/first-principles-analysis-maps-design-space-before-selection.md)).
+- **Detail answers a design question.** Concrete detail, prototype results, field names, schemas, thresholds, or procedures belong when they establish feasibility, distinguish rivals, test an uncertainty, or satisfy a named constraint. Mark illustrative details as non-binding and identify choices still open. Detail does not replace the option space or make an illustrative implementation authoritative. This permits prototypes during exploration while keeping [closure later than exploration](../../theory/first-principles-analysis-maps-design-space-before-selection.md).
+- **Transferable theory stays in notes.** A requirement or rationale that forms an independently transferable truth-apt claim belongs in `kb/theory/` and is cited from here via a `rests-on` edge. A proposal to change adopted theory vocabulary belongs in `kb/theory/proposals/`. The design proposal inlines system-specific constraints, candidate options, and the context needed to evaluate them.
+- **Dated current-state anchor.** State the system facts the proposal rests on under a `## Current state (as of YYYY-MM-DD)` heading. Going stale against later ADRs is an expected lifecycle event, not a defect: refresh or retire.
+- **Operativity and warrant** (proposals authored 2026-07-24 or later). For each option that changes behavior-determining organization, state its operativity path — what would consume the change, through which channel, with what force ([operative change](../../theory/definitions/operative-change.md)). "No consumer yet; one must be built" is a valid answer and exactly what the adoption decision needs to see. If an option adds or strengthens automated evaluation, also name what warrants the oracle and where that warrant stops.
+- **Feasibility and commitment scope.** For each candidate presented as adoptable, give a feasibility argument or witness and identify unresolved obstacles, including dependencies on uncertain results. State whether the requested commitment is a bounded probe, reversible trial, routine reliance, or a choice creating costly dependencies. Match support to that scope; neither a successful local trial nor a borrowed design establishes wider applicability ([starting warrant and earned scope](../../theory/derivation-and-inheritance-give-starting-warrant-earns-scope.md)). If reversal would be costly, identify what would depend on the choice, what reversal would disturb, and its warrant: an enduring constraint, discriminating transfer evidence or proof for a stated scope, or [coordination value](../../theory/definitions/coordination-value.md) from actual adopters needing a shared structure. Cheap reversible trials do not require this entrenchment argument ([adoption versus entrenchment](../../theory/current-task-fit-alone-does-not-warrant-costly-entrenchment.md)).
+- **Adoption criteria and unresolved choices.** Name what would have to be observed, built, or decided for an option to be adopted, and which unresolved result could change selection, scope, timing, or abandonment. Where a consequential choice is deferred for evidence, identify the alternative that remains feasible, the observation or bounded probe that could change the decision, and the condition that returns it to decision with a follow-on response. A probe names its knowledge gap, cost, output, and stop condition; it must not create the full dependency structure it is meant to evaluate. Account for the cost of waiting and any expiry of the alternative. A promise of more research without these conditions is not [productive deferral](../../theory/productive-deferral-requires-option-evidence-and-convergence.md).
+- **Unmistakably proposed.** The description leads with "Proposal:". Readers of `kb/reference/` are usually trying to act on the shipped system, so a proposal never presents shipped behavior as open, or proposed behavior as shipped.
+
+## Frontmatter
+
+| Field | Required | Use |
+|---|---:|---|
+| `description` | Yes | Leads with `Proposal:`; an archived adopted proposal may use `Proposal (adopted):`. |
+| `type` | Yes | `reference/types/design-proposal.md`, including once archived. |
+| `tags` | No | Navigation tags. |
+| `traits` | No | Review-routing traits, e.g. `has-external-sources`. |
+
+- The schema enforces the `Proposal` lead and the dated current-state heading; the other clauses are checked by type-conformance review.
+- Review separates the artifact's regions. Current-state claims answer to the system; explanatory conjectures answer to argument and evidence; candidate choices answer to requirements, constraints, consequences, and trade-offs. Intended outcomes are prospective, not claims of achieved results. Do not flag a stated benefit solely because it has not yet been achieved, or demand hesitant wording solely because an explanation remains conjectural. Criticize its explanatory case, feasibility, or requested commitment rather than automatically deleting or hedging it. Neither confident wording nor tentative wording supplies support.
+- Type-conformance review applies the content requirements above without demanding a particular matrix, section layout, or production history. A finished proposal can contain unresolved choices when it makes their consequences and route to resolution inspectable. Claim-title expectations do not apply.
+
+## Lifecycle
+
+A proposal is in one of three states, or has been withdrawn. Each transition has one procedure.
+
+| State | What must hold | Enters by |
+|---|---|---|
+| **Live** (`kb/reference/proposals/`) | Every clause above. Nothing it contains has shipped. | Promotion from a workshop, or a new proposal written directly |
+| **Partially adopted** (still live) | The shipped part is gone from the proposal: shipped behavior is described in reference docs and recorded in an ADR or its implementing commit, and the current-state anchor notes the adoption. A proposal that silently retains shipped content has become a false description. | [Extract the adopted part of a proposal](../../instructions/extract-adopted-part-of-a-proposal.md) |
+| **Archived** (`kb/reference/proposals/archive/`) | Fully adopted, or retired by a later decision that forecloses it. Nothing still current remains: shipped behavior, decision-relevant reasoning, and transferable requirements have left, and what stays is the irreproducible remainder — dated current-state anchors and the measurements the design rested on. An ADR names it by title in prose, with no path and no link. The file is frozen: correct it only for link integrity when something it points at moves. | [Retire an artifact](../../instructions/retire-artifact.md) |
+
+**Withdrawn** is the exit for a live proposal whose problem no longer exists in the system, or whose adoption trigger has lapsed, when no decision forecloses it. The operator decides; the withdrawing commit's body names which condition holds and its evidence. Anything still current is extracted first ([ADR 085](../adr/085-withdrawn-proposals-are-deleted.md)).
+
+When a live proposal's current-state anchor may have gone stale, [refresh the proposal's current state](../../instructions/refresh-a-proposal-current-state.md); a refresh routes shipped or foreclosed content to the procedures above and reports a lapsed trigger to the operator.
+
+**Retirement destination: archive to `kb/reference/proposals/archive/` when the proposal is adopted or retired by a decision; delete when it is withdrawn.** Archived files keep this type ([ADR 056](../adr/056-adopted-and-retired-proposals-archive-out-of-the-frontier.md)). [Retire an artifact](../../instructions/retire-artifact.md) reads this line to pick its destination.

@@ -1,0 +1,26 @@
+---
+gate_id: prose/unbridged-cross-domain
+name: Unbridged cross-domain evidence
+description: 'Evidence from one domain is cited as if it directly supports a claim in another domain without stating why the transfer is valid.'
+type: types/review-gate.md
+lens: prose
+watches: [body]
+staleness: changed
+depth: 3
+---
+
+## Failure mode
+
+Evidence from one domain is cited as if it directly supports a claim in another domain without stating why the transfer is valid.
+
+## Test
+
+For each cited study or empirical result, compare the source domain to the note's argument domain. If they differ, look for an explicit bridge in the note that states the shared mechanism.
+
+If the transfer only works as an analogy, the note should say so.
+
+---
+
+Relevant Notes:
+
+- [Figurative wording can suggest relations that the target claim does not justify](../../../theory/figurative-wording-imports-source-domain-entailments-unless-mapped.md) — rests-on: distinguishes an inspectable correspondence from a justified transfer; mapping alone does not supply warrant

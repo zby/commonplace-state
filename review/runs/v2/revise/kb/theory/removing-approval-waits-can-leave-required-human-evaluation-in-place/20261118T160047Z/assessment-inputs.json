@@ -1,0 +1,485 @@
+{
+  "findings": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion_id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/compression-bundle/marginal-value-redundancy.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 7c0e6973430767ada1017279b0e9567ecaf500f2a7ed8b3bee8ed0f57ac7594d\ncriterion: kb/instructions/compression-bundle/marginal-value-redundancy.md\ncriterion-sha256: a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews\nlaunch: 6f2678952bd046c08c020059be0ae91c\ncompleted-at: '2026-11-18T16:03:14Z'\nfindings:\n- scope: passage\n  quotes:\n  - This example establishes a gap against the specification, not that skipping review\n    causes harm.\n  reason: Defensive redundancy. The opening paragraph already says usefulness or necessity\n    is a separate question. The second paragraph already says an unfulfilled requirement\n    is 'not by itself evidence that the system would fail or degrade without the task.'\n    This sentence makes the same disclaimer a third time and adds nothing new. Cut\n    it; the paragraph's point ends at 'would conceal an omitted task.'\n  level: warn\n- scope: passage\n  quotes:\n  - This distinguishes human work within the process from optional assessment of its\n    results, rather than deciding who deserves causal credit for an improvement.\n  reason: The first clause repeats the distinction that the previous sentence ('Optional\n    assessment creates neither...') has just drawn. Only the causal-credit contrast\n    and the link to the before/after comparison do new work. It may be better to fold\n    the contrast into the linking sentence, but it serves as a boundary with the linked\n    note, so the reviewer is unsure whether the clause should go.\n  level: info\ncontract: verdict\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/d8a50108ab9c57a1771816ce/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/d8a50108ab9c57a1771816ce/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/calls/launches/6f2678952bd046c08c020059be0ae91c/outputs/review.md\nraw-output-sha256: 9b6c4bd4c9db341ce5d31a4fe11243d8892e8b0fc2866b45282ff3c33778a141\n---\n\n# Review\n\n## Summary\n\nMost of the note earns its space. The two hypothetical cases make the distinction concrete. The closing paragraph of the first section adds new boundary cases: a non-binding recommendation that still blocks, and human-authored rules applied without a new judgment. \"Name the process being automated\" adds the subsequent-revision case and lists the kinds of change, which turns the opening claim into a reporting rule. The Scope bullets add boundary cases the body does not cover: anticipated influence and habitual unwritten waits.\n\nThe main problem is that the necessity caveat appears several times. The note says a specified task is not evidence of necessity in the lead, in the mechanism paragraph and in the closing sentence about retiring a review. Each of those places has a job. The sentence after the weekly-review example repeats the caveat with no new job. Under this gate's defensive-redundancy rule, it should be cut. A smaller restatement near the start of the third paragraph is flagged INFO as a possible fold.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 3707753f84e8f72696b0d30a580c6c0df6e56e914201550d788f69e4f906601b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews\nlaunch: 2bd21c1d3db34db2a334293c0fc058c0\ncompleted-at: '2026-11-18T16:03:52Z'\nfindings:\n- scope: passage\n  quotes:\n  - A habitual wait for human input can block automation even without a written rule.\n    It is an actual wait to remove, not evidence that the evaluation is needed to\n    meet a stated requirement.\n  reason: 'UNSUPPORTED — The note defines a requirement by what the process specification\n    assigns, then classifies an unwritten habitual wait as purely a wait \"to remove\".\n    It never argues why the habit could not be an unwritten specification: a tacit\n    requirement that the team actually relies on. If it can be, removing the habit\n    would retire a requirement, which is the change the note insists must be declared,\n    not just removing a wait. The phrase \"to remove\" also adds a normative conclusion\n    that nothing in the note''s definitions supplies. The definitions only say the\n    habit is a blocking dependency.'\n- scope: passage\n  quotes:\n  - A claim of full automation must say which tasks it preserves and which requirements\n    it retires.\n  reason: 'THIN — The obligation rests on the later example: calling the process automated\n    \"would conceal an omitted task\". The note never says what scope \"full automation\"\n    claims. The obligation follows only if \"full automation\" is read as a claim that\n    every specified task is performed without a person. If the claim covers only adoption,\n    the note itself says that such a claim \"need not include monitoring or revision\".\n    So the \"must\" applies only to wider-process claims, and the opening sentence states\n    it without that condition.'\n- scope: passage\n  quotes:\n  - Calling the whole process automated would conceal an omitted task.\n  reason: THIN — Concealment needs a reader who takes \"automated\" to mean the review\n    is being done somehow. The note does not establish that this is the usual reading,\n    as opposed to \"proceeds without human waits\". The example shows that a specified\n    task goes undone. It does not show that the label \"automated\" asserts the task\n    is done. A one-line statement of what \"the whole process automated\" commits to\n    would make the inference go through.\n- scope: passage\n  quotes:\n  - 'This is an optional study: neither adoption nor a required monitoring or revision\n    task depends on it.'\n  reason: 'HOLDS — The hypothetical sets these conditions itself: the agent adopts\n    under its existing rules, and no specification is mentioned that requires the\n    later examination. The classification follows from the definitions in the second\n    paragraph. Its only weakness is that the absence of a requiring specification\n    is assumed rather than shown, which is acceptable for a constructed case.'\n- scope: passage\n  quotes:\n  - Repeated acceptance does not settle that choice\n  reason: 'HOLDS — The note relies on the linked note for this. That note supplies\n    the mechanism: routine approvals may never have met the exceptional case that\n    needs judgment, or may have been granted without checking. The joint holds within\n    the scope the note uses it for: deciding whether the check is moved, automated\n    or retired.'\ncontract: report\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/7f10791dc4cdd3fd059fc438/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/7f10791dc4cdd3fd059fc438/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/calls/launches/2bd21c1d3db34db2a334293c0fc058c0/outputs/review.md\nraw-output-sha256: 7575503ea90f11bd409dd09e8e7336cc8157f7f165e583c44ad7c1457b39eaaf\n---\n\n# Friction check: Removing approval waits can leave required human evaluation in place\n\n**Central claim (one sentence):** Removing a blocking human approval wait is a different change from automating or retiring a human evaluation task that the process specification requires. So a claim about automating the wider process must state which human tasks remain and which requirements were retired.\n\n## Filter\n**Filter:** SURVIVES\n\nThe claim has three parts: a blocking dependency (a wait), an unfulfilled specified requirement (a task), and optional assessment (neither). These categories can coexist, and the note keeps them apart consistently. Removing an approval wait can turn the check into later human work, an automated check, or a retirement. Each of these is a single, coherent outcome. The note never asks one change to be both automation and retirement of the same review. It explicitly separates the two (\"a change in requirements, not automation of that review\"). The one place where the categories strain is the unwritten habitual wait, covered under the joints below. That strain is a gap in the definitions, not a contradiction that dissolves the claim.\n\n## Thinnest joints\n\nMost of the note's inferences are definitional. Once \"wait\" means execution blocks and \"requirement\" means the specification assigns the task, the case classifications and the \"conversely\" contrasts follow directly. Those joints are strong.\n\nThe weak points are where the note moves from its definitions to a normative statement or a claim about meaning:\n\n- The habitual-wait bullet ranks thinnest. It applies the specification-based definition of requirement to a case the definition does not cover: an unwritten practice. It then adds \"to remove\" without argument.\n- The two \"full automation\" joints rank next. They depend on an unstated reading of what \"automated\" asserts. The note's own scope rule says adoption-only claims are exempt, but the opening sentence does not carry that condition.\n- The optional-study classification and the reliance on the linked routine-approvals note hold under the skeptical default. They are listed here because they are the remaining load-bearing inferences, not because they fail.\n\n## For the human\nLook first at the habitual-wait bullet. Decide whether an unwritten but relied-on human check counts as a specified requirement. If it does, the note's rule against silently retiring requirements also covers removing habits.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews\nlaunch: 5d5a2a20929945d19f8e4adf07ad07ed\ncompleted-at: '2026-11-18T16:03:53Z'\nfindings:\n- scope: passage\n  quotes:\n  - Adoption may proceed without a person while the process specification still assigns\n    monitoring or later revision decisions to one.\n  reason: 'The note never says what gives a process specification authority to make\n    a task required. It also never says how to tell an in-force requirement from stale\n    text once the only enforcing mechanism, the wait, is gone. Without that condition,\n    an opponent can call every unenforced specified task an already-retired requirement,\n    and the distinction becomes a choice of description. One or two sentences should\n    state the condition: for example, the requirement is still endorsed by whoever\n    owns the process, or a person is still accountable for doing it.'\n- scope: passage\n  quotes:\n  - A habitual wait for human input can block automation even without a written rule.\n    It is an actual wait to remove, not evidence that the evaluation is needed to\n    meet a stated requirement.\n  reason: The two categories rest on different evidence. Waits are identified from\n    practice, so an unwritten habit counts. Requirements are identified only from\n    text, so an unwritten expectation does not count and an unenforced written one\n    does. The note gives no reason for this split. The opponent uses that silence\n    to argue that, judged by practice, an unenforced specified review is not a requirement\n    at all. The note should either justify the split or apply the same evidence standard\n    to both.\n- scope: passage\n  quotes:\n  - Calling the whole process automated would conceal an omitted task.\n  reason: This sentence carries the note's practical claim, but it assumes the weekly\n    review is still in force. The worked example needs one sentence on what would\n    make the review still in force rather than already abandoned. With that sentence,\n    'conceal' would follow from the example instead of being asserted.\n- scope: document\n  quotes: []\n  reason: 'Secondary. The distinction resembles the standard human-in-the-loop versus\n    human-on-the-loop (supervisory control) contrast in automation research. The note\n    neither cites that contrast nor says what it adds. Its added element appears to\n    be the third case: optional assessment that is neither blocking nor required.\n    Saying so would make the note''s contribution easier to see.'\ncontract: report\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/1048ff53bff8da13d9f9db8f/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/1048ff53bff8da13d9f9db8f/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/calls/launches/5d5a2a20929945d19f8e4adf07ad07ed/outputs/review.md\nraw-output-sha256: 3b6f135817a64a9cdff9267990381ad9bebf3cba3b7bda091de259a5455145f5\nattack-outcome: partially lands\n---\n\n# Critique: Removing approval waits can leave required human evaluation in place\n\n**Note:** kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n**Central commitment:** Removing a blocking human approval wait is a different change from automating or retiring a specified human evaluation task, so a claim of full automation must say which specified tasks remain and which requirements were retired. Both differ from optional assessment, which neither blocks execution nor is required.\n**Critique mode:** claim (a distinction claim with a normative consequence for how automation claims are reported)\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThe opponent holds an operational view of controls, which I call \"enforced-or-absent.\" Compliance-as-code practitioners and SRE and policy-as-code engineers hold it: a control exists only if something enforces it. Commonplace's own linked note leans the same way. It treats a state as operative only when later work actually depends on it, as opposed to merely stored text ([a better-factory claim compares operative states](./a-better-factory-claim-compares-operative-states.md)).\n\nThe note sorts human evaluation into three cases:\n\n1. **Blocking wait:** execution cannot proceed until a person acts.\n2. **Required but non-blocking task:** the specification assigns the task, but execution continues if nobody does it.\n3. **Optional assessment:** neither of the above.\n\nOn the opponent's view, case 2 is not stable. The approval wait was what enforced the evaluation. After the wait is removed, nothing makes the weekly sample review happen: no gate, no alarm, no escalation. The review continues to exist only as text in a specification. A requirement that nothing enforces and that no execution depends on is a dead letter, not a live requirement. So removing the wait did not \"leave required human evaluation in place.\" It retired the requirement in fact, and the specification is simply out of date. Calling the process \"automated\" is then accurate about the operative process, and the only error is a stale document.\n\nThe note's own Scope section supports this reading. It counts a habitual, unwritten wait as real because practice determines what blocks. Applied to requirements, the same evidence standard makes an unpracticed, unenforced written review not a requirement.\n\nUnder this view the note's distinction does not separate two changes. It separates one change (removing the only enforcement) from the paperwork that should record it. The headline turns a documentation lag into a claim about the process.\n\n## How the note engages it\n\n**Partially engaged.**\n\n- The note anticipates part of the objection. It says that \"whether a specified task is useful or necessary is a separate question.\" It says the omitted-review example \"establishes a gap against the specification, not that skipping review causes harm.\" It also says that \"retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.\" So the note concedes that retirement is a legitimate outcome and asks only that it be reported as retirement. Its reporting obligation (\"must say which tasks it preserves and which requirements it retires\") survives the attack. Even the opponent should agree that the change must be reported as retirement or as automation, and the note asks only for that.\n- The note does not answer the central move. It never says what makes a specified task *required* once nothing enforces it. Every judgment of \"required\" depends on \"the process specification,\" whose authority the note assumes.\n- The Scope bullet on habitual waits creates the asymmetry the opponent uses. Waits are recognized from practice; requirements are recognized from text. The note gives no reason for the different evidence standards.\n\nSo the attack does not defeat the distinction. A wait and an unfulfilled requirement are different kinds of dependency, and the reporting obligation holds. The attack does weaken the title's claim that required human evaluation is *left in place*, and the claim that calling the process automated would *conceal* an omitted task. Both hold only if the specification remains authoritative after its enforcement is removed. The note assumes that condition and never states it.\n\n## Constructive findings\n\n- State the condition under which an unenforced specified task is still required. Candidates: the process owner still endorses the task, a named person remains accountable for it, or missing it would count as a fault under the process's governance. Place the condition next to the \"process specification\" sentence in the opening paragraph.\n- Address the evidence asymmetry in Scope. Either explain why waits are identified from practice and requirements from text, for example because a requirement is a normative commitment rather than a behavior, or apply the same standard to both.\n- In the weekly-review example, add one sentence on what keeps the review in force rather than abandoned, so that \"conceal an omitted task\" follows from the example. Alternatively, weaken it to \"would leave unstated whether the review was retired.\"\n- Optionally, say that the reporting obligation holds on either reading. If the requirement is still live, the task is undone. If it was abandoned in fact, the claim must report a retirement. This turns the opponent's view into a sub-case the note already covers.\n\n## Secondary objections (optional)\n\n- **Unacknowledged precedent.** The blocking versus non-blocking contrast closely matches human-in-the-loop versus human-on-the-loop (supervisory control) in automation research. The note's distinct contribution appears to be the third case, optional assessment that is neither a dependency nor a requirement. The note should name that contribution against the familiar contrast.\n- **Mixed cases.** A required task enforced only by a deadline or an escalation, such as a missed weekly review that raises an alert, falls between a blocking wait and an unfulfilled requirement. The note's two-way split does not place it. Mentioning such cases would show the split is a spectrum of enforcement strength, not a binary.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews\nlaunch: 84dec3e1b3b045abaa8f37f7fbd2a162\ncompleted-at: '2026-11-18T16:04:22Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: DOUBTFUL — (unstated, universal) Every process has a determinate specification\n    that fixes which human tasks are required, so each human evaluation can be sorted\n    as either a specified requirement or optional assessment — Many agent and KB processes\n    have no written specification of after-adoption work. Requirements live in team\n    norms, onboarding habits or one maintainer's belief. Take a maintainer who 'usually'\n    samples changes on Fridays, with no written rule. Is that an unfulfilled requirement\n    when skipped, or an optional study? The note's test ('its specification does not\n    require it') cannot sort it. The Scope section admits practice for waits ('A habitual\n    wait ... even without a written rule') but gives no matching rule for habitual\n    requirements. Implicit requirements are the ordinary case, not a marked exception,\n    so the sorting test is unavailable across a common class of processes. The distinction\n    survives if the note states how unwritten requirements are identified, or limits\n    itself to processes with an explicit specification — LOCAL — prevalence\n- scope: passage\n  quotes:\n  - Adoption continues if the maintainer does nothing, but the specified review goes\n    undone. Calling the whole process automated would conceal an omitted task.\n  reason: 'DOUBTFUL — (universal) A specified task that goes undone after automation\n    is an omitted task, and calling the process automated without naming it conceals\n    that omission — Counterexample: a process document still assigns a weekly review\n    that has not been done for a year, and that no participant treats as binding.\n    Automating adoption then conceals nothing. The specification is stale, and the\n    ''omitted task'' exists only on paper. The note treats the written specification\n    as authoritative for requirements, even though it uses practice as authoritative\n    for waits. A stale specification makes the specification-gap test report a concealment\n    that no reader would be misled by. The fix is a qualification that the specification\n    is the currently operative one, or that a lapsed requirement is retired in fact\n    even if not on paper — LOCAL — instance'\n- scope: passage\n  quotes:\n  - A claim of full automation must say which tasks it preserves and which requirements\n    it retires.\n  reason: DOUBTFUL — (normative, universal) A claim of full automation leaves its\n    reader uninformed about retained human tasks unless it lists them — In domains\n    such as deployment pipelines, 'fully automated' is a conventional, marked scope.\n    It covers the execution path and conventionally excludes on-call monitoring and\n    rollback, which readers in that domain already expect to stay human. There the\n    omission is priced into the term, and listing retained tasks adds no information.\n    The note partly concedes this ('A claim about automated adoption alone need not\n    include monitoring or revision'). The opening 'must' should therefore apply where\n    the scope of 'full' is not already fixed by convention, or to claims about the\n    wider process only — LOCAL — priced-exception\n- scope: passage\n  quotes:\n  - A specified task can remain undone while execution continues.\n  reason: 'HOLDS — (existential) A specified task and a blocking wait can come apart:\n    execution can proceed while a required task is not done — The hunt looked for\n    specified tasks that are necessarily blocking. Mechanically enforced reviews,\n    such as branch protection, are blocking, but the note classifies them as waits,\n    not as counterexamples. The existential claim needs only one case of a non-blocking\n    specified task, and the note''s weekly-review example supplies a re-derivable\n    one'\n- scope: passage\n  quotes:\n  - Calling an activity evaluation does not tell us whether execution waits for it\n    or the specification requires it.\n  reason: HOLDS — (universal) The activity of examining results and forming a verdict\n    does not fix its process role; role is set by blocking and requirement status\n    — No defeater found. The same review can be gating, scheduled-required or optional,\n    as the paired cases show. The non-binding-but-awaited recommendation case confirms\n    that role follows blocking, not label or authority\n- scope: passage\n  quotes:\n  - Retiring an unnecessary review may be justified, but it is a change in requirements,\n    not automation of that review.\n  reason: HOLDS — (universal) Retiring a requirement and automating the task that\n    meets it are distinct changes — The hunt considered partial replacement, where\n    an automated check covers part of what a human review covered. The note already\n    says 'These changes can be combined', so a mixed case decomposes into automation\n    of one part and retirement of the remainder. It does not mis-sort\n- scope: passage\n  quotes:\n  - Repeated acceptance does not settle that choice\n  reason: HOLDS — (universal, negative) A record of repeated human approvals does\n    not by itself decide whether the check should remain human, be automated or be\n    retired — A record that included seeded defects the approver caught or missed\n    would bear on the choice. That evidence goes beyond acceptance, so the premise\n    holds as stated. Its support is delegated to the linked note\n- scope: passage\n  quotes:\n  - a program can apply human-authored acceptance rules without requiring a new human\n    judgment for each change.\n  reason: HOLDS — (existential) Human authorship of acceptance criteria does not make\n    each application a human dependency — The hunt found no defeater. Rule authorship\n    is a one-time human contribution, and each per-change application by a program\n    needs no person. The case where rules must be re-authored for each change would\n    make authorship a dependency, and the note's framing already sorts it as one\n- scope: passage\n  quotes:\n  - Anticipated assessment can shape proposals without creating a human stop.\n  reason: HOLDS — (existential) Human influence through anticipated review is not\n    a blocking dependency — The hunt found no defeater. An agent that tunes proposals\n    to anticipated scrutiny still proceeds without anyone acting, so no wait exists\ncontract: report\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/29ae6d13c1bafe2db3873144/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/artifact/reviews/29ae6d13c1bafe2db3873144/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews/calls/launches/84dec3e1b3b045abaa8f37f7fbd2a162/outputs/review.md\nraw-output-sha256: 8ba4546e5b8ad94d1e6e6bb4334c862829154d074943986bdff3eae12d9b9911\n---\n\n# Premise decomposition: Removing approval waits can leave required human evaluation in place\n\n**Register:** claim\n**Central commitment (one sentence):** Removing a human approval wait is a different change from automating or retiring a specified human evaluation task, so an account of automation must state which required human tasks it keeps and which it retires, and optional assessment belongs to neither change.\n\n## Premises and counterexamples\n\nThe commitment is a separation claim, and its core is existential. It holds if the two changes can come apart. That core rests on two structural premises: that a blocking wait and a specified task are separable, and that an activity's role comes from blocking and requirement status rather than from its being \"evaluation\". Both survived the hunt.\n\nThe weaker premises are the ones the note uses to make the distinction operational. The note sorts each human evaluation as a wait, a requirement or optional, and that sorting needs some authority that says what is required. The note silently treats the process specification as that authority. The specification is a determinate object when it is written and current. It is not determinate when requirements are unwritten, which is common, or written but lapsed. The Scope section already treats waits by practice (\"habitual wait ... even without a written rule\") but treats requirements by specification only. That asymmetry is where both specification-related doubts arise. Neither reaches the central commitment. The separation still holds wherever requirements are determinate. The repair is a scope qualification, or a rule for identifying unwritten or lapsed requirements.\n\nThe normative \"must\" in the opening paragraph depends on a third premise: that omitting retained tasks leaves readers uninformed. Domains where \"fully automated\" has a conventional, bounded scope dent that premise. The note's later concession, that adoption-only claims need not include monitoring, partly answers it. The opening sentence does not carry that concession.\n\nThe remaining premises cover distinctness of retirement and automation, the insufficiency of approval records, rule authorship and anticipatory influence. They held under a hunt and are recorded so that the boundary of what was tested is visible.\n\n## For the human\n\nLook first at the unstated premise that a determinate process specification fixes which human tasks are required. The Scope section should say how unwritten or lapsed requirements are identified, as it already does for habitual waits.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis\nlaunch: 6e3003fb2a294f2a86a7891dc3dd70c0\ncompleted-at: '2026-11-18T16:04:59Z'\nfindings: []\ncontract: report\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis/artifact/reviews/2af306bb3453f4e77dd2da3a/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis/artifact/reviews/2af306bb3453f4e77dd2da3a/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis/calls/launches/6e3003fb2a294f2a86a7891dc3dd70c0/outputs/review.md\nraw-output-sha256: 8687ad5b078cdad5de8e36ac65b1a7595a9b7d855321c92d1e08b44539981109\n---\n\n# Simplification synthesis: Removing approval waits can leave required human evaluation in place\n\n## Opportunities\n\nNone\n\n## Why nothing clears the threshold\n\nThe note states its claim in the title and first sentence. The second paragraph defines the two terms the claim depends on: a blocking dependency and an unfulfilled requirement. The two cases, the weekly-review example and the Scope bullets then support or limit that claim in order. The core-claim-obscured and branch-bloat checks both passed with no findings. No buried thesis, competing branch or hidden argumentative sequence needs a global reorganization.\n\nThe remaining findings are local:\n\n- **Repeated necessity caveat.** Detail-overhang (INFO) and marginal-value-redundancy (WARN) both flag \"This example establishes a gap against the specification, not that skipping review causes harm.\" The opening and the definition paragraph already make this caveat. One could combine these findings into a single cross-cutting fold, stating the caveat once in the definition paragraph. But the other occurrences do separate jobs. The opening sets the claim's scope. The habitual-wait Scope bullet separates an actual wait from a requirement. The retirement sentence classifies retirement as a change in requirements. So the fold reduces to cutting one sentence. That is minor compression, which the per-check findings already cover, and it does not materially change how a reader understands the claim.\n- **Early list of what happens to a removed check.** The detail-overhang INFO finding notes that the Required approval case lists outcomes that the later section lists in full. Shortening it is a wording improvement.\n- **Restated distinction before the causal-credit contrast.** The marginal-value INFO finding suggests folding the first clause of the third paragraph into the link sentence. This is local compression and keeps the boundary with the linked note.\n\nEach of these can be applied as a local edit without a choice of meaning, conceptual role or conclusion. None needs the broader authorial judgment this synthesis is meant to surface.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nnote-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role\nlaunch: 5191416e156041db89ef7e7d79afacf1\ncompleted-at: '2026-11-18T16:05:24Z'\nfindings: []\ncontract: report\ntarget-sha256: 41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role/artifact/reviews/ddfe3e7bb2114fe0e23009fe/inputs/target/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role/artifact/reviews/ddfe3e7bb2114fe0e23009fe/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role/calls/launches/5191416e156041db89ef7e7d79afacf1/outputs/review.md\nraw-output-sha256: d027f8df72a6953e4e5de344ed40ae917918b8f12bef3158519f9f9b936b0f15\n---\n\n# Role in the KB: Removing approval waits can leave required human evaluation in place\n\n## Role\nNothing links to this note. No file under `kb/` outside `kb/reports/` and `kb/work/` cites it, so no dependent uses it for a term, a claim, a distinction or a premise. Its role in the KB is currently only its own content.\nRelied on: none. Unused: all of the note's terms and claims, including the distinction between an actual wait (blocking dependency) and a specified task (unfulfilled requirement), \"optional assessment\", and the claim that retiring a review is a change in requirements, not automation of it.\n\n## Dependents\nNone. The supplied inbound contexts report that no file links to the note.\n\n## Duplication\nNone. With no linking passages, no dependent text is available to compare.\n\n## Untaken recommendations\nNone. No linking source recommends a change to the note.\n\n## Reach\nNo dependent relies on the note's claims or terms. A change to any of them reaches no linking file. This says only that nothing cites the note yet, not that its claims are weak.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews",
+      "ok": false,
+      "counts": {
+        "reviewed": 46
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/reference/README.md",
+          "kb/reference/workflow-architecture.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

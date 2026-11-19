@@ -1,0 +1,1 @@
+The sentence 'This example establishes a gap against the specification, not that skipping review causes harm.' in 'Name the process being automated'; leave 'Calling the whole process automated would conceal an omitted task.' unchanged (open claim question).

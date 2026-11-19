@@ -1,0 +1,38 @@
+Task:
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/an-improvement-can-close-the-path-to-further-improvement.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/compression-bundle/detail-overhang.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+This is one compression check. It reports PASS, INFO or WARN and has no FAIL.
+Write PASS as outcome: pass; INFO as outcome: pass with info findings; WARN as outcome: warn.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+
+Inputs (read these exact files):
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/inputs/criterion.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/inputs/output-contract-2.md
+
+Required outputs (write these exact files):
+- review.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/outputs/review.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/reviews/calls/launches/5bd30aa500c440b485cfd623231b2e33/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

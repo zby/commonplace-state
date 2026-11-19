@@ -1,0 +1,54 @@
+Task:
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/sentence/clause-packing.md`: its text is <Inputs: gate-clause-packing.md>; write its review to <Required outputs: review-clause-packing.md>.
+- `kb/instructions/review-gates/sentence/concept-attribution.md`: its text is <Inputs: gate-concept-attribution.md>; write its review to <Required outputs: review-concept-attribution.md>.
+- `kb/instructions/review-gates/sentence/framing-mismatch.md`: its text is <Inputs: gate-framing-mismatch.md>; write its review to <Required outputs: review-framing-mismatch.md>.
+- `kb/instructions/review-gates/sentence/misleading-link-text.md`: its text is <Inputs: gate-misleading-link-text.md>; write its review to <Required outputs: review-misleading-link-text.md>.
+- `kb/instructions/review-gates/sentence/parsing-ambiguity.md`: its text is <Inputs: gate-parsing-ambiguity.md>; write its review to <Required outputs: review-parsing-ambiguity.md>.
+- `kb/instructions/review-gates/sentence/stock-phrases.md`: its text is <Inputs: gate-stock-phrases.md>; write its review to <Required outputs: review-stock-phrases.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own typed findings and outcome:
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+
+Inputs (read these exact files):
+- gate-clause-packing.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-clause-packing.md
+- gate-concept-attribution.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-concept-attribution.md
+- gate-framing-mismatch.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-framing-mismatch.md
+- gate-misleading-link-text.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-misleading-link-text.md
+- gate-parsing-ambiguity.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-parsing-ambiguity.md
+- gate-stock-phrases.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/gate-stock-phrases.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/inputs/output-contract-2.md
+
+Required outputs (write these exact files):
+- review-clause-packing.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-clause-packing.md
+- review-concept-attribution.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-concept-attribution.md
+- review-framing-mismatch.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-framing-mismatch.md
+- review-misleading-link-text.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-misleading-link-text.md
+- review-parsing-ambiguity.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-parsing-ambiguity.md
+- review-stock-phrases.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/outputs/review-stock-phrases.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/revise/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/ac34bbdaea25/reviews/calls/launches/bcff828f4ddc413d82dfd67967e04c0a/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

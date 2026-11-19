@@ -1,0 +1,1 @@
+The opening paragraph and the Evaluation Questions (the 'understanding is available/live' and 'structure the agent already had' wording); 'fossilize' and 'the natural operation' may be proposed

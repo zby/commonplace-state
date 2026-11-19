@@ -1,0 +1,9 @@
+--- kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md (candidate)
++++ kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md (revised candidate)
+@@ -21,5 +21,5 @@
+ 
+ ## Scope
+ 
+-- Covers textual sources whose retained text can be reread. Audio, images, oral quotation and sources whose original is gone are out of scope.
++- Covers textual sources whose retained text can be reread. Audio, images and oral quotation are out of scope.
+ - The claim rests on the reasoning above, not on measured citation errors.

@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "Revert the direct better-successor framing to an experience-causal one:\nthe target is a factory whose production experience causes retained\nchanges that later work depends on, with improvement judged separately\nby comparing snapshot factory states under the fixed declared\ncomparison. The successor becomes a measurement boundary on a\ncontinuous, interleaved process \u2014 matching how current agentic coding\nsystems actually retain learning \u2014 rather than the product of one\ndiscrete construction episode, which a capable builder could produce\nfrom the specification alone without learning anything.\n\nTwo guardrails come with the revert. The successor-construction\nexperiment gains a history-withholding intervention so learning versus\nconstruction is a contrast the experiment actually runs, and the\nCommonplace testbed paragraph names the production-time instrumentation\ncost the interleaved view incurs. Theory acquisition is stated as\ncommitment, not reorganization of information the experience already\ncontains: a theory conjectures mechanisms beyond the observed cases and\nresolves choices because production needed some resolution, which is\nthe structural source of its fallibility and why raw-record retrieval\nis a named competing baseline rather than an equivalent.",
+    "closedAt": "2026-09-01T06:50:54Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-09-01T06:47:01Z",
+        "authors": [
+          {
+            "email": "noreply@anthropic.com",
+            "id": "MDQ6VXNlcjgxODQ3",
+            "login": "claude",
+            "name": "Claude"
+          }
+        ],
+        "committedDate": "2026-09-01T06:47:01Z",
+        "messageBody": "\u2026target\n\nRevert the direct better-successor framing to an experience-causal one:\nthe target is a factory whose production experience causes retained\nchanges that later work depends on, with improvement judged separately\nby comparing snapshot factory states under the fixed declared\ncomparison. The successor becomes a measurement boundary on a\ncontinuous, interleaved process \u2014 matching how current agentic coding\nsystems actually retain learning \u2014 rather than the product of one\ndiscrete construction episode, which a capable builder could produce\nfrom the specification alone without learning anything.\n\nTwo guardrails come with the revert. The successor-construction\nexperiment gains a history-withholding intervention so learning versus\nconstruction is a contrast the experiment actually runs, and the\nCommonplace testbed paragraph names the production-time instrumentation\ncost the interleaved view incurs. Theory acquisition is stated as\ncommitment, not reorganization of information the experience already\ncontains: a theory conjectures mechanisms beyond the observed cases and\nresolves choices because production needed some resolution, which is\nthe structural source of its fallibility and why raw-record retrieval\nis a named competing baseline rather than an equivalent.",
+        "messageHeadline": "Make interleaved experience-driven learning the program's conceptual \u2026",
+        "oid": "f101911e0327743598451bf4eae664ff29526bff"
+      }
+    ],
+    "createdAt": "2026-09-01T06:50:39Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 31,
+        "deletions": 14
+      }
+    ],
+    "headRefName": "claude/learning-factories-framework-h8n3sr",
+    "isDraft": false,
+    "mergedAt": "2026-09-01T06:50:54Z",
+    "number": 171,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Make interleaved experience-driven learning the program's conceptual target",
+    "updatedAt": "2026-09-01T06:50:55Z",
+    "url": "https://github.com/zby/commonplace/pull/171"
+  },
+  "inline_review_comments": []
+}

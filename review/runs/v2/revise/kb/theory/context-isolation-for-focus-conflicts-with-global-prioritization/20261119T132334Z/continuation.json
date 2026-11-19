@@ -1,0 +1,21 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132334Z",
+  "made-for": {
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132334Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "failure",
+      "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132334Z/reviews: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/*: launch_error after 3 launch(es): [Errno 2] No such file or directory: 'claude'",
+      "actor": "session-agent",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132334Z/report.json"
+      ]
+    }
+  ]
+}

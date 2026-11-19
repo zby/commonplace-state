@@ -1,0 +1,6 @@
+- Accepting some risk between checks can be right, provided it is an explicit choice rather than a hidden consequence of trusting the copy.
+- These conditions make a check possible and worth relying on, not free or current.
+- The four mechanical-check conditions keep their order and numbering: 1 a derivation or comparison rule, 2 a locatable copy and source, 3 a source available at check time, 4 a sufficiently trustworthy checker.
+- Testing or centralizing a validator lowers the cost of assurance but does not prove the validator correct.
+- This requires that the consumer actually stops and that the suppressed search would find more task-relevant material.
+- Assurance dates from the last check.

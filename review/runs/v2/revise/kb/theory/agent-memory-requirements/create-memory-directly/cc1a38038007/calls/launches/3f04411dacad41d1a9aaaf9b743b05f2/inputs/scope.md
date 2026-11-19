@@ -1,0 +1,1 @@
+The second paragraph (creation contract) and the Methods section, especially its last bullet on write-time aids

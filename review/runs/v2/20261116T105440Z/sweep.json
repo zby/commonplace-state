@@ -1,0 +1,23 @@
+{
+  "format": 2,
+  "profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/reference/proposals/deterministic-write-context-assembly.md"
+    ],
+    "criteria": [
+      "type"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

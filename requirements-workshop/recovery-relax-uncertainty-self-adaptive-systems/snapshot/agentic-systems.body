@@ -1,0 +1,4 @@
+QUERY: rg -n -i 'ENV.{0,25}MON|RELAX|invariant.{0,40}relax|relax.{0,40}invariant|requirements.{0,35}(uncertainty|runtime|monitor)' kb/agentic-systems/ --glob *.md --glob !*.brief.md
+kb/agentic-systems/reports/retained-archive/AAS-2026-09-25-openviking-01/result.md:642:Target: `kb/reports/state/agentic-system-analysis/AAS-2026-09-25-openviking-01/result.md`; `commonplace-validate --full` passed after specialist integration.
+
+EXIT: 0

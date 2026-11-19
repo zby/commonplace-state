@@ -1,0 +1,175 @@
+Agent Memory Systems
+Writing conventions for kb/agent-memory-systems/
+G-Memory
+sift-kg
+What the matrix shows across 148 agent memory systems
+ClawVault
+WUPHF
+Spacebot
+SkillNote
+Stash
+Link
+ReasoningBank
+EchoesVault / echoes-vault-opencode
+AI-Context-OS
+OpenViking
+Basic Memory
+o-o
+OpenWiki
+xMemory
+MiroShark
+Cortex
+Tracecraft
+Agent Skills for Context Engineering
+Semiont
+Trajectory-Informed Memory Generation
+REM
+Context Constitution
+LLM Wiki (cobusgreyling)
+LLM-Wiki-v3
+Mnemosyne / IsaacCLupus mnemosyn spec
+EchoWiki
+cq
+Mem0
+LLM Wiki (cobusgreyling)
+AgeMem
+EQUIPA
+memwiki
+Eidetic
+llm-wiki (Pratiyush)
+Tolaria
+Continuity
+Archie
+Fintool
+Funes
+Pond
+LLM Wiki (MehmetGoekce)
+MentisDB
+Self-Training-LLM
+Lightweight agent memory systems
+MemoryOS
+ReframeWeb
+Operational Ontology Framework
+Smriti-MCP
+AI Research OS Workshop
+Neo4j Agent Memory Service (NAMS)
+ai-modules
+SAGE
+LLM Wiki (nvk)
+Agent-S
+auto-harness
+AutoSci
+CORAL
+sage-wiki
+Hermes Agent
+Incremental Self-Improvement
+LLM Wiki (kenhuangus)
+Clude
+Gnosis
+Hindsight
+Signet AI
+ACE
+Voyager
+Sig
+Kompl
+Pal
+Origin
+SkillWeaver
+Decapod
+Letta
+A-mem
+Synapptic
+VLM-wiki
+EchoWiki
+Swamp
+Ars Contexta
+Cognee
+Exocomp
+Memex
+pi-self-learning
+Nuggets
+Dynamic Cheatsheet
+llm-context-base
+OS-Copilot
+SkillRL
+HippoRAG
+Siftly
+EchoWiki
+EchoWiki
+SkillX
+Voiden
+Agent memory system review
+byterover-cli
+CocoIndex
+LLM-WIKI-MCP
+hyalo
+Secure LLM-Wiki
+llm-project-wiki
+Echel
+Claude Context Guard
+Exo
+GBrain
+HyperAgents
+CrewAI Memory
+llm-wiki-coordination
+WeKnora
+Thalo entity types compared to commonplace document types
+ai-memex-cli
+LACP
+interview-doc-agent
+llmwiki-marimo
+OpenSage
+Review framework and comparison matrix: design and decisions
+DocMason
+Agent Workflow Memory
+napkin
+Quicky Wiki
+Atomic
+Closure-SDK
+claude-obsidian
+MemPalace
+Claude Workstream Kit
+Virtual Context
+Agent-R
+Trace-learning techniques in related systems
+HALO
+getsentry/skills
+Engraph
+nao
+Playground
+Amazon Science SAGE
+Thalo
+Agent memory systems comparison table
+Memori
+Phantom
+supermemory
+browzy.ai
+Beever Atlas
+Sparks
+TheKnowledge
+Agentic Harness Engineering
+Reflexion
+ExpeL
+AgentFly
+Auto-claude-code-research-in-sleep
+Graphiti
+Compound Engineering Plugin
+Scroll
+dense-mem
+kgai
+Binder
+Awesome Agent Memory
+Synthadoc
+Synto
+AriGraph
+Tendril
+Agentic Local Brain
+deja-vu
+OpenClerk
+Autocontext
+KBLaM
+OKF Harness
+ATLAS
+cass_memory_system
+Zikkaron
+Meta-Harness

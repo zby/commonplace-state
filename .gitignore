@@ -1,0 +1,12 @@
+# Owned by the main Commonplace repository.
+/.commonplace-validation-ignore
+
+# Keep experiment payloads local, outside the state repository.
+/stochastic-operation-testing/
+
+# Harness session stores retain full traces; keep subprocess logs local.
+stdout.log
+stderr.log
+
+# File-hash inventories of archive preflights are large and reproducible; keep them local.
+/review/cutover/*-preflight/inventory.json

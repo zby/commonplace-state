@@ -1,0 +1,9 @@
+QUERY: rg -n -i '^description:.*(requirement|objective|diagnostic|observab|fixed.*decomposition|bounded.*adapt)' kb/reference/ --glob *.md --glob !*.brief.md
+kb/reference/agent-memory-coverage.md:2:description: "How Commonplace's shipped surfaces realize agent-memory requirements: control plane, contracts, storage roles, validation, review, activation, promotion, lifecycle, and current gaps"
+kb/reference/proposals/ablation-baselines-for-the-declared-objective.md:2:description: "Proposal: measure the declared objective — useful and warranted work per unit of human judgment — by running matched repository tasks under ablated conditions (no curated theory, no review, episodes only, stronger bare model)"
+kb/reference/proposals/routine-bilateral-isolation-for-literature-assessment.md:2:description: "Proposal: decide whether prospective matched evidence should promote bilateral isolation from a conditional diagnostic to a routine literature-assessment control"
+kb/reference/proposals/replaceable-workflow-orchestrators.md:3:description: "Proposal: separate Commonplace workflow requirements from execution machinery so an agent-plus-script orchestrator and a harness-native orchestrator can implement the same workflow."
+kb/reference/adr/063-all-article-drafts-circulate-behind-a-banner.md:2:description: "Removes the excluded article-draft subtree so every draft circulates from the collection root with a visible authored banner as its only draft-specific circulation requirement"
+kb/reference/adr/012-types-for-structure-traits-for-review.md:2:description: Types define structural requirements checked by validation; traits route semantic review gates; the traits-only semantic boundary is amended by ADR-038/041, which make both contracts conformance gates
+
+EXIT: 0

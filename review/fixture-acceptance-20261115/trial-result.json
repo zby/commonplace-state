@@ -1,0 +1,25 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/20261115T200508Z",
+  "fixture-sha256": "37854de058571b8ef68474dd30d76d6d44905813054d4fc250d343332d969e1a",
+  "evidence-root": "kb/reports/state/review/runs/v2/20261115T200508Z/tree",
+  "stopped": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::sentence/stock-phrases: process_error after 3 launch(es): exit 78; Acceptance launch budget exhausted; no model was called.",
+  "observations": [
+    {
+      "note": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+      "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+      "job": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md::sentence/stock-phrases",
+      "state": "not-run",
+      "outcome": null,
+      "problem": null,
+      "result": null
+    }
+  ],
+  "changed": [],
+  "gaps": [
+    "dependency artifacts and user-level harness configuration not pinned",
+    "effective tool/MCP availability must be inspected after each launch",
+    "Git history omitted; tree content reconstructed from archive",
+    "ignored source snapshots included only when explicitly supplied as inputs"
+  ],
+  "effective-configuration": "unassessed"
+}

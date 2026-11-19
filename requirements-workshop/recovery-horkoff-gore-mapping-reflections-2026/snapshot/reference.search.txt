@@ -1,0 +1,16 @@
+$ rg -n -i ^description:.*(goal|intent|rationale|authority) kb/reference/ --glob *.md
+kb/reference/commonplace-agent-memory-gap-plan.md:2:description: "Plan for closing Commonplace's current agent-memory gaps: session traces, candidates, cue activation, behavioral evaluation, lifecycle, source alignment, import, ranking, and authority"
+kb/reference/proposals/authority-grades-and-learning-from-operator-decisions.md:2:description: "Proposal: put authority grades on the atomic instructions of the improvement procedure, expose cross-run narrowing as a composition failure, and move grades toward automation only on discriminating evidence from recorded operator decisions"
+kb/reference/agentic-system-analysis-design-brief.md:2:description: "Operator goals and evaluation priorities to read before changing agentic-system analysis code, worker instructions, report contracts or publication design"
+kb/reference/design-rationale-management.md:2:description: "How Commonplace distributes design-rationale records across proposals, ADRs, contracts, and enforcement, without enforcing end-to-end continuity"
+kb/reference/storage-architecture.md:2:description: Authority and lifecycle boundaries among Commonplace's authored files, local source copies, derived artifacts, and operational state
+kb/reference/proposals/archive/ingest-source-units-and-supporting-material.md:2:description: "Proposal (adopted): dated pre-migration source-unit contracts and corpus observations behind the ingest authority decision"
+kb/reference/control-plane-goals.md:2:description: How Commonplace ships KB goals in always-loaded context — the AGENTS.md layout, the scaffolded AGENTS.md and CLAUDE.md templates, and the install-time fill-in contract
+kb/reference/adr/125-analysis-commands-own-preparation-and-bounded-queues.md:2:description: "Analysis commands own isolated preparation, durable allocation bindings and bounded queues while the pinned workflow and Workjig retain role and worker-launch authority"
+kb/reference/adr/013-skills-first-delivery-with-core-local-type-split.md:2:description: Historical decision to move skills to top-level sources, keep KB Goals always-loaded, split types into core and local, and use dynamic type discovery for practitioner-defined types
+kb/reference/adr/060-rationale-becomes-rests-on-and-off-pattern-grounds-reclassified.md:2:description: "Replaces rationale with source-as-subject rests-on, reclassifies every off-pattern grounds edge, and gives the global type surface collection-owned link authorization"
+kb/reference/adr/092-write-briefs-are-optional-sidecars-named-by-a-validated-pointer.md:2:description: "Decision that a document may carry an optional write brief, its preface for writers kept in a sibling <stem>.brief.md, declared by a validated brief: pointer and read by cp-skill-write as binding intent"
+kb/reference/adr/045-source-genre-is-a-single-open-field-on-the-snapshot.md:2:description: "Superseded decision that placed the required open-vocabulary source genre on snapshots before tracked ingests became the durable source authority"
+EXIT 0
+$ rg -n -i goal model|stakeholder intention|reasoning authority kb/reference/ --glob *.md
+EXIT 1

@@ -1,0 +1,11 @@
+--- kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md (candidate)
++++ kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md (revised candidate)
+@@ -17,7 +17,7 @@
+ 
+ A tag head's `complete: true` [mark](../types/tag-readme.md) asserts that every artifact carrying the tag in the participating collections is reached from the head in one hop. Its contract lets readers skip the by-tag `rg` membership search. That permission is the mark's value and its risk: a false mark tells exhaustive consumers to stop looking while members are still out there.
+ 
+-Re-running the sweep on every read would remove the saving. Instead the mark has a deterministic check: a defined rule (one-hop reach over tagged artifacts) applied to named inputs (the participating collections and nothing else), which the validator reads when they are supplied. An inexpensive, defined check on a claim that authorizes stopping makes enforcement attractive. Enforcement is reactive: the validator flags a gap when the head is next validated, so a mark can be false in between. The check covers reach given the tags; whether an assignment fits the tag is for semantic review.
++The validator performs the membership derivation when the head is validated, rather than on every read. This lets subsequent reads reuse the checked result. The check applies a defined rule (one-hop reach over tagged artifacts) to named inputs (the participating collections and nothing else), which the validator reads when they are supplied. An inexpensive, defined check on a claim that authorizes stopping makes enforcement attractive. Enforcement is reactive: the validator flags a gap when the head is next validated, so a mark can be false in between. The check covers reach given the tags; whether an assignment fits the tag is for semantic review.
+ 
+ ## The connect report: candidates whose reuse can be reasonable
+ 

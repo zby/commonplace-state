@@ -1,0 +1,19 @@
+# Premise decomposition: Experiment design for causal selective evaluation
+
+**Note:** kb/work/causal-impact-selective-evaluation/experiment-design.md
+**Register:** claim
+**Central commitment (one sentence):** A credible test of causal selective evaluation should first compare selector policies offline on a fixed candidate set with independent audit and full cost accounting, then test adaptive procedure generation as a separate factor, and finally run a distinct online phase for trajectory effects.
+
+## Premises and counterexamples
+
+1. **A fixed-candidate offline comparison can isolate selector-policy differences well enough to make it the right first comparison.** — HOLDS — The main counterexample hunt is that selector choices can change later candidates, but the note already removes that confound by freezing the candidate set and presenting this phase only as an offline contrast, not as deployment proof.
+2. **The trusted registered procedure set is rich enough that an offline selector comparison over it mostly measures selector quality rather than registry incompleteness.** — DOUBTFUL — If many material obligations have no trusted registered procedure, every arm can look similar because the important effects are unobservable on the fixed surface; the study then measures performance over the current registry, not over the full obligation set the harness actually affects. — LOCAL — prevalence
+3. **Seeded known effects, held-out human-audited obligations, and random omitted-obligation audits can provide an independent reference surface strong enough to score harmful misses and calibration.** — DOUBTFUL — A selector can systematically miss a class of harmful effects that never enters the seeded set or the held-out audits, so all arms can satisfy the reported harmful-miss bounds while still failing on an important uncaptured region. — LOCAL — prevalence
+4. **Total evaluation cost can be measured comparably across arms, including model calls, retries, sandboxing, human adjudication, maintenance, and reuse.** — DOUBTFUL — Long-horizon costs such as registry upkeep, reviewer fatigue, and reuse benefits often materialize over later workloads rather than inside one experiment, so the apparent total can depend heavily on modeling assumptions instead of directly observed cost. — LOCAL — priced-exception
+5. **Selector policy and adaptive procedure retrieval, adaptation, or generation are separable enough to treat procedure source as a distinct experimental factor.** — HOLDS — The active counterexample hunt is that generation changes the available action space, but that does not defeat separability by itself: the same selector can still be crossed with fixed-registry and adaptive-procedure conditions, which is exactly the comparison the note proposes.
+6. **Technical validity and observational validity for generated procedures can be checked independently enough to tell whether generation actually improves evidence acquisition.** — DOUBTFUL — A generated procedure can execute cleanly inside containment and satisfy structural checks while still keying on a proxy that does not really detect the obligation the selector meant to inspect. — LOCAL — instance
+7. **A separate online phase started from common checkpoints can add deployment-relevant evidence about trajectory effects without making the offline phase redundant.** — HOLDS — The strongest counterexample would be that online divergence alone already answers the selector question, but the note explicitly argues the opposite: once commitment decisions change later states, the online phase becomes an end-to-end outcome measure rather than a clean selector-quality comparison.
+
+## For the human
+
+Look first at premise 3: the design's credibility depends on whether the independent reference surface is wide enough to catch important harmful misses rather than only the harms already legible to the current seeded and audited obligation set.

@@ -1,0 +1,16 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/agent-text-at-scale.ingest.md
+snapshot_sha256: b6593910b606e717463b87ead232c7db5347b8a78512588aa6a89d269b84b637
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: false
+opened: '2026-11-19T12:08:22+01:00'
+checks:
+- at: '2026-11-19T12:09:40+01:00'
+  failures: []
+- at: '2026-11-19T12:09:56+01:00'
+  failures: []
+- at: '2026-11-19T12:09:56+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-19T12:09:56+01:00'

@@ -1,0 +1,6 @@
+QUERY: rg -n -i 'stakeholder.{0,50}(invariant|relax)|ENV.{0,15}MON|observation.to.goal|requirement.{0,30}(authority|uncertainty)|DEP.{0,25}(regression|dependenc)' kb/tags/ --glob *.md --glob !*.brief.md
+kb/tags/commonplace-architecture-README.md:26:- [Edge ownership and storage choice](../theory/many-to-many-edge-state-is-where-files-yield-to-a-database.md) — the freshness store supplies a bounded example of workload requirements and a separate database authority decision
+kb/tags/agent-memory-README.md:22:- [Make Authority Explicit](../theory/agent-memory-requirements/make-authority-explicit.md) — governance rule for who can read, write, promote, activate, enforce, revise, and retire memory
+kb/tags/warranted-autonomy-README.md:25:- [Make memory authority explicit](../theory/agent-memory-requirements/make-authority-explicit.md) — risk and verification govern automation, review, and approval
+
+EXIT: 0

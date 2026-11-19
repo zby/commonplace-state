@@ -1,0 +1,2 @@
+- Direct memory creation is the context-efficient path when understanding is already available during work.
+- Forcing the lesson through later trace extraction spends future context on rediscovery and risks losing structure the agent already had.

@@ -1,0 +1,175 @@
+Agent memory system review
+Agent Memory Systems
+Writing conventions for kb/agent-memory-systems/
+What the matrix shows across 148 agent memory systems
+HALO
+Voyager
+Playground
+Letta
+Engraph
+Exocomp
+Memori
+Trajectory-Informed Memory Generation
+SkillRL
+GBrain
+Mnemosyne / IsaacCLupus mnemosyn spec
+byterover-cli
+LACP
+AgeMem
+Claude Context Guard
+Agent-R
+WeKnora
+Fintool
+Closure-SDK
+interview-doc-agent
+Thalo entity types compared to commonplace document types
+Lightweight agent memory systems
+Agent Workflow Memory
+Review framework and comparison matrix: design and decisions
+Sig
+Incremental Self-Improvement
+Neo4j Agent Memory Service (NAMS)
+Trace-learning techniques in related systems
+napkin
+SkillNote
+claude-obsidian
+Agent memory systems comparison table
+MentisDB
+OS-Copilot
+cass_memory_system
+AI-Context-OS
+ReasoningBank
+browzy.ai
+OpenWiki
+EchoWiki
+ReframeWeb
+Agentic Harness Engineering
+Amazon Science SAGE
+OpenViking
+Agent Skills for Context Engineering
+supermemory
+Echel
+Beever Atlas
+LLM Wiki (cobusgreyling)
+Smriti-MCP
+MiroShark
+TheKnowledge
+Mem0
+Thalo
+dense-mem
+AutoSci
+llm-wiki-coordination
+sift-kg
+G-Memory
+Tolaria
+WUPHF
+AgentFly
+ClawVault
+Semiont
+MemPalace
+getsentry/skills
+Signet AI
+Spacebot
+MemoryOS
+Basic Memory
+LLM-Wiki-v3
+Link
+Awesome Agent Memory
+SkillWeaver
+hyalo
+xMemory
+Sparks
+cq
+Tracecraft
+AriGraph
+Synthadoc
+EQUIPA
+Context Constitution
+SAGE
+Siftly
+o-o
+Graphiti
+Hindsight
+Self-Training-LLM
+Funes
+deja-vu
+ATLAS
+Archie
+Cortex
+LLM Wiki (cobusgreyling)
+Stash
+Reflexion
+Zikkaron
+Tendril
+EchoesVault / echoes-vault-opencode
+REM
+Compound Engineering Plugin
+Binder
+Eidetic
+Kompl
+Decapod
+Auto-claude-code-research-in-sleep
+Scroll
+EchoWiki
+OpenSage
+Origin
+Virtual Context
+VLM-wiki
+ai-memex-cli
+A-mem
+Meta-Harness
+Cognee
+Swamp
+Pal
+Atomic
+Nuggets
+Autocontext
+Quicky Wiki
+pi-self-learning
+memwiki
+LLM-WIKI-MCP
+EchoWiki
+DocMason
+SkillX
+CrewAI Memory
+Claude Workstream Kit
+Pond
+Synto
+OpenClerk
+ai-modules
+Dynamic Cheatsheet
+Clude
+OKF Harness
+Agentic Local Brain
+Continuity
+KBLaM
+EchoWiki
+kgai
+nao
+llmwiki-marimo
+LLM Wiki (MehmetGoekce)
+ExpeL
+Secure LLM-Wiki
+llm-project-wiki
+ACE
+llm-context-base
+AI Research OS Workshop
+Ars Contexta
+HyperAgents
+Hermes Agent
+Agent-S
+Operational Ontology Framework
+CORAL
+CocoIndex
+LLM Wiki (nvk)
+LLM Wiki (kenhuangus)
+auto-harness
+sage-wiki
+llm-wiki (Pratiyush)
+Exo
+Voiden
+HippoRAG
+Synapptic
+Phantom
+Memex
+Gnosis

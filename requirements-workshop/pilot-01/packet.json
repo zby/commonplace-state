@@ -1,0 +1,46 @@
+{
+  "K17": {
+    "source_cards": [
+      {"id": "S1", "locator": "fictional record /cards/cedar-sort", "text": "Retained Monday edition: In Monday's Cedar tray rehearsal, 18 of 20 envelopes reached the named tray without help. No other route was tested."},
+      {"id": "S2", "locator": "fictional record /cards/cedar-sort (same locator, current edition)", "text": "Retained Tuesday edition, replacing Monday's page: In Tuesday's Cedar tray rehearsal, 18 of 20 envelopes reached the named tray without help. No other route was tested."},
+      {"id": "S3", "locator": "fictional refresh receipt", "text": "Tuesday: source download completed. Paragraph-write step raised WriteError and did not run to completion; citation preview is blank. Dashboard badge: DOWNLOAD OK. The retained editions above were separately supplied by the record keeper."}
+    ],
+    "draft_paragraph": "The latest Cedar tray rehearsal delivered 18 of 20 envelopes without help [/cards/cedar-sort]. Cedar meets the threshold for Wednesday's identical tray run, so release that run.",
+    "reader_decision": "Decide whether to release Wednesday's Cedar tray run under this rule: release only if the latest rehearsal delivered at least 17 of 20 envelopes without help on the identical route. Tuesday is the latest rehearsal; Wednesday uses that route. State what result remains supported and whether to release, hold, or seek missing evidence.",
+    "update_facts": "The paragraph predates Tuesday's refresh. There are no later rehearsals. The blank preview and dashboard badge are not additional delivery measurements. No conclusion about other routes is requested.",
+    "edit_authority": "Replace this paragraph using only these cards and facts. You may retain supported claims, change scope, and state the operational decision. You cannot rerun a rehearsal or repair the refresh tool. Return one reader-facing paragraph, at most 55 words, not a repair plan or rationale."
+  },
+  "N42": {
+    "source_cards": [
+      {"id": "S1", "locator": "fictional record /cards/label-reader", "text": "Latest label-reading trial: 18 of 20 machine-printed labels were copied correctly on the first attempt. All trial labels were machine-printed; no handwritten labels were included."},
+      {"id": "S2", "locator": "fictional procedure receipt", "text": "The prescribed retrieval procedure downloaded /cards/label-reader, checked its title and checksum, and inserted its citation. Every prescribed step completed successfully. Dashboard badge: CHECK PASSED. The procedure does not check whether a trial population matches a proposed use."},
+      {"id": "S3", "locator": "fictional shift manifest", "text": "Friday's pending batch contains only handwritten labels. No handwritten-label trial result is supplied. Machine-printed labels are not part of Friday's batch."}
+    ],
+    "draft_paragraph": "The label reader copied 18 of 20 labels correctly on its latest trial [/cards/label-reader]. It therefore meets the first-attempt accuracy threshold for Friday's handwritten-label batch; release the batch to the reader.",
+    "reader_decision": "Decide whether Friday's handwritten-label batch may be released to the reader under this rule: release only with a trial of at least 17 correct first-attempt copies out of 20 labels of the same kind as the pending batch. Preserve any useful supported trial result and specify the next action if Friday's release is not supported.",
+    "update_facts": "An audit supplied the full trial population and shift manifest after the draft was written. No contrary machine-printed-label result is supplied. Successful retrieval is not an accuracy measurement. No authorized alternative processing route is specified.",
+    "edit_authority": "Replace this paragraph using only these cards and facts. You may retain supported claims, change scope, and state the operational decision. You cannot conduct a trial or change Friday's batch. Return one reader-facing paragraph, at most 55 words, not a repair plan or rationale."
+  },
+  "P63": {
+    "source_cards": [
+      {"id": "S1", "locator": "fictional record /cards/maple-sort", "text": "Retained Monday edition: In Monday's Maple rack rehearsal, 18 of 20 folders reached the named rack without help. No other route was tested."},
+      {"id": "S2", "locator": "fictional record /cards/maple-sort (same locator, current edition)", "text": "Retained Tuesday edition, replacing Monday's page: In Tuesday's Maple rack rehearsal, 12 of 20 folders reached the named rack without help. No other route was tested."},
+      {"id": "S3", "locator": "fictional refresh receipt", "text": "Tuesday: source download completed. Paragraph-write step raised WriteError and did not run to completion; citation preview is blank. Dashboard badge: DOWNLOAD OK. The retained editions above were separately supplied by the record keeper."}
+    ],
+    "draft_paragraph": "The latest Maple rack rehearsal delivered 18 of 20 folders without help [/cards/maple-sort]. Maple meets the threshold for Wednesday's identical rack run, so release that run.",
+    "reader_decision": "Decide whether to release Wednesday's Maple rack run under this rule: release only if the latest rehearsal delivered at least 17 of 20 folders without help on the identical route. Tuesday is the latest rehearsal; Wednesday uses that route. State what result remains supported and whether to release, hold, or seek missing evidence.",
+    "update_facts": "The paragraph predates Tuesday's refresh. There are no later rehearsals. The blank preview and dashboard badge are not additional delivery measurements. No conclusion about other routes is requested.",
+    "edit_authority": "Replace this paragraph using only these cards and facts. You may retain supported claims, change scope, and state the operational decision. You cannot rerun a rehearsal or repair the refresh tool. Return one reader-facing paragraph, at most 55 words, not a repair plan or rationale."
+  },
+  "R85": {
+    "source_cards": [
+      {"id": "S1", "locator": "fictional archive /archive/booklet-feed-monday", "text": "Verified Monday rehearsal: 19 of 20 folded booklets fed without a jam. This is a retained historical record, not Tuesday's result."},
+      {"id": "S2", "locator": "fictional record /cards/booklet-feed", "text": "Tuesday's current report is not readable in the supplied material. An attempted opening shows a blank citation preview and no report text. There is no status code, response body, execution log, or independent copy. A permission denial, an empty saved report, or a preview conversion failure could each produce this display; none is established."},
+      {"id": "S3", "locator": "fictional queue receipt", "text": "Tuesday's rehearsal job was queued. Dashboard badge: QUEUE OK. This receipt records neither job completion nor how many booklets fed without a jam."}
+    ],
+    "draft_paragraph": "Tuesday's latest rehearsal fed 19 of 20 folded booklets without a jam [/cards/booklet-feed]. The feeder meets the threshold for Wednesday's identical booklet run, so release that run.",
+    "reader_decision": "Decide whether to release Wednesday's folded-booklet run under this rule: release only if Tuesday's rehearsal fed at least 17 of 20 folded booklets without a jam. Monday cannot substitute. State what result can still be reported and the next action if release cannot yet be justified.",
+    "update_facts": "The draft's Tuesday count has no supplied support apart from its unreadable citation. Monday's archive remains verified. There are no other results. Obtaining a readable Tuesday report is permitted as a next action, but cannot be done during this task. The cause of the blank preview has not been observed.",
+    "edit_authority": "Replace this paragraph using only these cards and facts. You may retain supported claims, change scope, and state the operational decision. You cannot open a report, rerun a rehearsal, or diagnose the preview tool. Return one reader-facing paragraph, at most 55 words, not a repair plan or rationale."
+  }
+}

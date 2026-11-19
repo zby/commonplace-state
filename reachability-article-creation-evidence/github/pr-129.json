@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This follow-up sharpens the article's opening after the compression pass.\n\nChanges:\n- removes the invented cache vignette;\n- opens by linking directly to Naur's original *Programming as Theory Building* essay;\n- states the research object as an automated system-building process rather than an unspecified \"system\";\n- defines the target as a broad software factory made from the model, retained artifacts, tools, runtime, and correction machinery;\n- shortens the later reintroduction of Naur's coherent-modification test.\n\nThe central question now asks whether an automated system-building process can hold and revise a fallible theory of the software it builds well enough to keep successive modifications coherent under delayed feedback.",
+    "closedAt": "2026-08-30T17:04:52Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T16:51:31Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T16:51:31Z",
+        "messageBody": "Replace the illustrative cache vignette with a direct reference to Naur's original essay and sharpen the central question around an automated process that repeatedly builds and modifies a software system.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Open with the automated system-building question",
+        "oid": "384393c3a966a0e80fdb6bba55cf2c0118dafd69"
+      }
+    ],
+    "createdAt": "2026-08-30T16:51:55Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 23,
+        "deletions": 28
+      }
+    ],
+    "headRefName": "sharpen-theory-mediated-opening",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T17:04:52Z",
+    "number": 129,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Open the research program with the automated system-building question",
+    "updatedAt": "2026-08-30T17:04:52Z",
+    "url": "https://github.com/zby/commonplace/pull/129"
+  },
+  "inline_review_comments": []
+}

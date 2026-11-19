@@ -1,0 +1,17 @@
+{
+  "open": false,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/artifact/publications/1.md",
+      "sha256": "a607ee1c20d2f9678d0fa0ebeca09982d17a01d365e3bfca2b1f02f39d990b32",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/an-improvement-can-close-the-path-to-further-improvement/28e4977c71d1/artifact/publications/1.diff",
+      "before-sha256": "28e4977c71d1722304dbfa6ed9b70589b670e9a1a08cccbd5896d3ac4d3c8b54",
+      "entries": [
+        "narrow-overclaims",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-17T07:30:18Z"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Friction check: Weakly discriminated qualities tend to be underselected
+
+**Note:** kb/notes/weakly-discriminated-qualities-tend-to-be-underselected.md
+**Central claim (one sentence):** Given usable variation in multiple qualities, a fixed candidate distribution and acceptance rule, and directionally aligned but unequally discriminating quality checks, acceptance tends to enrich the better-discriminated qualities more, while inheritance is additionally required for that disparity to accumulate across iterations.
+
+## Filter
+**Verdict:** SURVIVES
+The claimed properties can coexist: one acceptance rule can respond more reliably to variation in one quality than another, producing unequal within-round enrichment without requiring the weak quality to decline, and reuse of accepted outputs can separately carry that disparity into later rounds.
+
+## Signal — thinnest joints
+1. **“The first two conditions create unequal enrichment within one selection round.”** — UNSUPPORTED — The conditions require unequal discrimination that affects survival, but they do not define discrimination or enrichment tightly enough to establish an ordering of expected enrichment. Candidate variance, selection rate, score scaling, residual quality correlations, and how the signals enter the acceptance rule can make the more reliable discriminator have the smaller enrichment effect even when it changes survival.
+2. **“Across representative loops satisfying the named conditions, weakly discriminated qualities should usually receive less acceptance enrichment than strongly discriminated qualities.”** — UNSUPPORTED — The within-loop conditions do not supply a population or sampling rule for “representative” loops, and therefore cannot support the frequency claim “usually.” The note identifies this as conjectural, but offers no evidence that the unmodeled distributions, weights, and correlations favor the predicted ordering more often than its rivals.
+3. **“If the stronger oracle reliably favors better designs in the same candidate set, selection was a material bottleneck.”** — UNSUPPORTED — A changed ranking demonstrates that the proposed oracle carries additional discrimination, not that the original acceptance boundary materially caused the retained-output problem. That diagnosis also needs the new ranking to alter actual acceptance and improve calibrated downstream outcomes relative to the original oracle.
+4. **“Conditioning on acceptance then enriches the patch population more strongly for correctness than for maintainability.”** — THIN — Fast rejection of behavioral failures and noisy maintainability review make this ordering plausible, but do not establish it without the candidate joint distribution, the acceptance rule, and observed enrichment on both qualities. The note's following paragraph correctly concedes that the cited deployment does not isolate this mechanism.
+5. **“Combining checks helps only when each contributes genuine discrimination and their failure modes differ, since error correction requires above-chance, decorrelated oracles.”** — THIN — Above-chance marginal information and sufficiently distinct errors support ensemble gains, but “each” and “failure modes differ” are stronger than the reason establishes: a composite can still improve when some included checks are redundant, and useful dependence is a matter of degree rather than a binary difference in failure modes.
+
+## For the human
+Look first at the jump from unequal discrimination that affects survival to an ordering of expected enrichment; the note needs a sharper quantitative condition before its within-round premise can carry the broader “usually” conjecture.

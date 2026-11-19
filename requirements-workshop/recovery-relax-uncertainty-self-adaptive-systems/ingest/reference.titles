@@ -1,0 +1,252 @@
+Commonplace as an instrument
+Documentation site
+Instruction generation
+Navigation
+Agent memory coverage
+Harness sub-agent model selection regression
+The declared Commonplace frame
+Source-adoption policy
+Commonplace agent memory gap plan
+The tag-readme trace read as a self-improving loop
+The collection–type split is asymmetric: collections never own frontmatter semantics
+Collection prototypes
+Vocabulary collision ledger
+Vocabulary unification ledger
+Commonplace architecture
+Content routing
+Storage
+Review architecture
+The validation contract
+Where change candidates come from in Commonplace
+Answerability
+Review system
+Unresolved frontier
+Design proposal
+Collection
+ADR
+Commonplace doctrine
+Control-plane goals
+Directory artifact
+Special collection
+Link vocabulary and linking approach
+Scenario architecture
+Shipped skills as instructions, with generated stubs everywhere
+Epistemic stance
+Normalized autonomy and revision comparison fields
+Writing conventions for kb/reference/
+Replaceable workflow orchestrators
+Agentic-system analysis design brief
+Backlink surfacing
+Trajectory-aware evaluation of transforming agent workflows
+Commonplace CLI commands
+Automated note refinement as a search over a fixed source bundle
+Collections and types
+Gate learning from accepted edits
+Checked inline blocks for shared instruction text
+Design rationale management in Commonplace
+Reference
+Write-time vocabulary collision controls
+Keyword tags without heads
+Type-selected Python validation checks
+One improvement procedure over atomic instructions
+Repair dispositions for defeated claims are an epistemic policy with an option space
+Tag maintenance and derived browsing
+Cost-per-yield records for routine controllers
+Worktree-relative worker paths
+Shared analysis contract conformance
+Structured-output codec for the review protocol
+Code navigation tool portfolio for analysis workers
+Decisions bind their consumers through site back-pointers
+075-Commit messages carry read-path trailers
+Source registers without duplicated path inventories
+077-Content routing by regeneration source and consumer
+Multi-repository agentic-system analysis
+Deterministic write-context assembly
+093 — Memory comparisons keep evidence per value
+120 — Report verification selects omission questions by consequence
+Proposals
+119 — Analysis workers launch through Workjig
+115 — Analysis records are cited by Markdown links
+039-Tool visibility is package-owned and git is never invoked
+096 — Analysis passes declare their own records under lens prefixes
+067-Review workers read one prompt and write one output
+113 — Artifact runs execute declared plans with pinned judgments
+081-Literature disposition is explicit and claim-grained
+Recorded revision of write briefs
+105 — Let analysts run their acceptance check before submission
+064-Install Commonplace commands as a user-level uv tool
+Channel-compiled instruction artifacts
+100 — Check required route fields at member acceptance
+022-active-vocabulary-and-write-path-first-mentions
+015-standardize-authored-type-definitions-on-json-schema
+Review budget enforcement is a separable decision
+097 — Agentic analysis drops decisions that change no result
+010-review state should move to sqlite once reviews leave git and accumulate operational metadata
+Merging analysis runs back from isolated worktrees
+035-Review jobs finalize all-or-nothing with derived artifacts
+Bidirectional codification as a comparative test
+061-Articles may circulate as revisable working papers
+089-Tags are one namespace per KB with heads in kb/tags
+Operational destinations for literature-grounding findings
+126 — Integrate analysis publications by default
+013-skills-first-delivery-with-core-local-type-split
+085-Withdrawn proposals are deleted
+Exceeding a review budget splits the task
+047-Type specifications use normal deterministic validation
+031-Review state uses invocation-owned review pairs
+Quote occurrence location and verification
+125 — Analysis commands own preparation and bounded queues
+Factored dependency pairs for review freshness
+027-Package scaffold assets without source-tree symlinks
+Fewer authored decisions in agentic-system analysis
+Harness capture for agentic-analysis diagnostics
+043-Review state separates completion, outcomes, and freshness baselines
+Where subtree-scoped write-time contracts live
+063-All article drafts circulate behind a banner
+086-Projects read the library from the installed package instead of a copy
+Code-scheduled workflows
+058-Directional identifiers use the source as subject
+076-Source-claim grounding is a promoted skill
+017-collection-md-is-the-register-convention-boundary
+019-Collection-owned link vocabulary with per-destination outbound rules
+095 — Directory artifacts add shared set validation
+135 — Improvement procedures are three plans on one runner
+009-Link relationship semantics
+004-Replace areas with tags
+024-Schema severity is per-constraint, fail by default
+038-Type-conformance reviews use the type spec as the gate
+040-`scripts/` is the accumulation substrate for ad hoc tooling
+109 — Publish analyses with declared limits
+103-Classify memory profiles after record verification
+059-External is a reserved outbound destination
+099-Agentic analysis method and reports belong to the collection
+057-Articles use an editorial profile and excluded drafts
+080-Full passes hand claim changes back as a pending revise
+062-Drafts may circulate at the root behind a draft banner
+034-Queued review jobs and execution provenance
+029-Review execution unified on (note, gate) pairs
+018-Types are path references to instruction docs
+111 — Directory types declare their layout
+079-Grounding reviews budget sixteen distinct linked artifacts
+Ablation baselines for the declared objective
+Publishing analyses with unresolved issues
+052-General freshness store, review-first migration
+033-Honest review state behind a versioned migration substrate
+087-Source and report types are global library types
+129-Workflow run bundles live under the state tree and are kept
+090-One completeness mark reaches members in one hop
+134 — Stops record the operator's answers in one typed file
+091-Refutation needs a checkable counterexample, and corroboration needs a test
+060-Rationale becomes rests-on and off-pattern grounds are reclassified
+042-Register becomes a default profile under open-ended text contracts
+041-Collection-conformance reviews use COLLECTION.md as the gate
+Artifact function as a routing field
+084-Kind rules live in type specs and operations in instructions
+122-Collections set the unquoted-source limit
+053-Retire distillation without a successor term
+110 — Every analysis output has a type
+078-Writers invoke grounding and evidence stays in the ingest
+106 — Merge analysis publications from isolated worktrees
+Temporary amendments to published analyses
+021-Ship library content under kb/commonplace
+066-Claims declare modality in text, and passes repair mode mismatch
+092-Write briefs are optional sidecars named by a validated pointer
+Routine bilateral isolation for literature assessment
+107-Classify memory by scoped findings
+114 — Directory types declare what a role verifies
+098 — Separate analysis reconciliation from synthesis
+030-Harness-facing seams: batch prepare/ingest endpoints and runner adapters
+069-Collection contract bundles become one-time prototypes
+055-Explanatory-reach replaces bare reach as the technical term
+Calibrating semantic gates against labelled fixtures
+032-Review freshness uses DB snapshots, not Git
+116 — One word per concept across prose and code
+025-Complete generated indexes are build-time only; agents read curated heads plus scoped rg
+124-Retire unique operational semantics as the form criterion
+007-Reports collection separates output retention policies
+020-Link vocabulary: add contrasts and mechanism; declare directional asymmetry
+054-Add adapted-from and operationalized-from lineage relations
+Generalized validation invalidation
+037-Promote skills into runtime surfaces by copying
+User-level uv tool installation for Commonplace commands
+071-Text contract is part of the collection definition
+073-Untracked source snapshots require ingest grounding
+008-Stdlib-only core scripts
+Review configuration object
+136 — Note rewrites run as a workflow that ends at operator approval
+A reader-facing banner for user verification
+049-Validator resolution returns scope and loads types directly
+065-Publish only supported freshness transitions
+Directory types declare their layout
+Collection-as-artifact freshness
+014-scripts-as-python-package-one-tree-model
+117 — Plans derive their structural jobs from the type
+127 — Review runs as workflows over result files
+005-quality-check-placement
+006-two-tree-installation-layout
+012-types-for-structure-traits-for-review
+046-Verbatim quotes are validated against their cited source
+036-Review acceptance is current state, not append-only history
+123-Theory names the Commonplace library collection
+130-The operator-decision record is a query over the state tree
+070-Notes bind choices; reference records Commonplace selections and state
+Ingest source units and supporting material
+Adopt the declared layout in the analysis workflow
+132 — Review atoms retain observations behind current results
+056-Adopted and retired proposals archive out of the frontier
+074-Git is the change-history layer
+118 — Analyses run as a workflow over headless harnesses
+133 — Edit operations run alone through one typed route
+Source genre is one open-vocabulary field on the snapshot
+Workflow recovery history
+108 — Declaring analysts correct their reports
+048-Imperative type rules dispatch by canonical path
+112 — One quote resolver for grounding and analysis evidence
+Model partition registry
+044-User verification replaces global note status
+028-Design proposals live in kb/reference/proposals; ADRs record implemented decisions only
+026-Split index into a committed tag-readme type with enforced marks
+050-Validation runs share parsed artifacts and collection indexes
+045-Source genre is a single open field on the snapshot
+Lens-prefixed canonical record IDs
+Reusable commitment support as the route from theory building to other knowledge work
+102-Separate the analysis collection and publish stable system paths
+131-Conformance reviews leave titles and descriptions to their gates
+Semantic contract for tags and tag heads
+088-Type values are paths on a two-root search path
+072-Ingest reports own source authority and snapshots are local materializations
+002-inline-global-types-in-writing-guide
+Authority grades and learning from operator decisions
+Assertion force separate from lifecycle status
+Periodic connect-report mining
+051-Full-pass packets own guarded captures and resolutions
+104-Name analysis records with stable short handles
+094 — Quotations require a unique occurrence or a containing range
+Required route fields as labelled record lines
+Plans without structural wrapper code
+101 — Open analysis runs through workflow start
+External articles collection
+Document validation in working-set context
+Evidence granularity for memory-comparison counts
+023-Quote-anchored citations for code-grounded reviews
+Separate analysis reconciliation from synthesis
+068-Collection contracts stop enumerating available types
+Review link budget prices reviewer attention
+Record acceptance reads and judged versions
+Harness-orchestrated review sweeps
+121 — Audit analysis traces without gating publication
+083-Agentic analysis uses minimal rerunnable state
+Recoverable replacement of an incumbent review
+Proposal archive
+016-custom-types-use-template-instruction-pairs
+Atomic-step grounding bounds unquoted sources per note
+011-Notes must be accessible to external readers
+003-connect-skill-discovery-strategy
+Coded engine stops
+082-Grounding is bounded on the artifact by unquoted sources per note
+Per-artifact write briefs
+Source-claim grounding skill and evidence-retention boundary
+Open an analysis run in code
+128-One ignored operational tree under kb/reports/state
+Deterministic note-to-ingest claim checking
+Tag scope is declared where membership claims are made

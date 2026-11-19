@@ -1,0 +1,1 @@
+- Direct memory creation is the context-efficient path when understanding is already available during work.

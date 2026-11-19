@@ -1,0 +1,436 @@
+Warranted reader update is the objective of substantive writing
+Title as claim enables traversal as reasoning
+Tool usefulness, computational autonomy, warrant, and system power are separate dimensions
+A note is an atomic step relative to the check that reads it
+LLM frameworks should keep the tool loop optional
+LLM-mediated schedulers are a degraded variant of the clean model
+Grouping procedures by shared maintenance operations may ease audits
+A linked note discharges its own grounding, so a citing note owes representation, not re-grounding
+Factory-learning mechanisms should be compared on the same causal job
+Reliability dimensions map to oracle-hardening stages
+Clear instructions can compose into an unsettled contract
+Scheduler-LLM separation exploits an error-correction asymmetry
+An experiment identifies only the contrast it actually runs
+LLM context is composed without scoping
+Constraining and extraction can trade generality for reliability, speed, or cost
+A method's ceiling bounds the method, not the transfer it already made
+Warranted autonomy is bounded by oracle domain
+Systematic prompt variation serves verification and diagnosis, not explanatory-reach testing
+Claw learning loops must improve action capacity, not just retrieval
+Intent controls a local choice only when it distinguishes its live alternatives
+A compact, refreshable whole-picture narrative can replace infeasible fragment reconciliation
+Minimum viable vocabulary is the naming set that most reduces extraction cost for a bounded observer
+Model-resolved indirection adds interpretation work to LLM execution
+Methodology with incomplete coverage and its live theory fallback form a two-layer execution system
+Preferential codification concentrates less predictable work at the agent boundary
+A consumption channel delivers force without the history that earned it
+Human analogies can motivate functions without determining component boundaries
+A citation cannot assert more fidelity than its capture preserved
+Canonical files may defer a shared schema while database authority remains a separate commitment
+A context-operation interface bounds the projections its policy can realize
+Commitment, not derivation, creates new ground truth
+Spec mining is codification's operational mechanism
+The wikiwiki principle: lowest-friction capture, then progressive refinement in place
+Design for the first-time human, except on access cost
+A proximate target is checked for achievement, not for warrant
+Traditional software can bracket executor conformance; LLM systems cannot
+Agent memory needs discoverable, loadable, composable, trusted knowledge under bounded context
+An omitted improvement-loop function and a frozen one need different repairs
+A guard against a conjectured requirement removes the experiment that would test it
+Edge ownership selects the key; choosing files or a database requires a workload comparison
+Attempted recovery identifies informational gaps, not provenance or authority
+KB goals in always-loaded context guide inclusion decisions
+Prompt ablation converts human insight into deployable agent framing
+Specification-level separation recovers scoping before it recovers error correction
+An addressable theory can coordinate heterogeneous factory development
+Human-LLM differences are load-bearing for knowledge system design
+Opening position can signal a human reader's theme; proportion remains conjectural
+Traversal improvements should be deferred via logging to avoid mid-task context switching
+Memory design adds operational axes to artifact analysis
+Reflection makes retained lessons second-order: a lesson can reject or rescope a prior commitment
+Generality bought to avoid counterexamples is paid for in precision
+Instructions are typed callables with document type signatures
+Opposed recompute factors do not decide documentation segmentation
+Machinery persists by warrant, not position, in a reflective loop
+Topology, isolation, and verification form a causal chain for reliable agent scaling
+A framework rule with a boundary-preserving rival is not an inherited constraint
+Retained system-definition artifacts enable persistent deployment-time adaptation
+Addressability grain, not compression ratio, sets a matched selective-read floor
+Continual learning requires governing behaviour-changing writes, not just storing content
+Revision guided by rationale needs faithfulness, not just legibility
+Structured claim
+Natural-language meaning is coordination among learned approximations, not approximation of a target
+Theory proposal
+Open-ended construction builds an object and a theory of it
+Unified calling conventions enable bidirectional refactoring between neural and symbolic
+Borrowing can operate through retained artifacts or weight activation
+Verification needs a typed target before it needs an oracle
+An adversarial human-agent loop can reconstruct the writing-is-thinking filter
+Error correction works with above-chance oracles and decorrelated checks
+Codification and relaxing navigate the bitter lesson boundary
+A fixed-model house must retain missing procedures for theory use
+A methodology governs its own extension only as far as it settles the meta-decisions it raises
+Maintenance capacity must match harmful-artifact inflow
+Weight-resident methodologies provide context-efficient behavioral compression
+Frontloading can specialize instructions around known inputs
+Open-domain memory retention needs a declared output spec
+Scenario decomposition drives architecture
+Subtasks that need different tools force loop exposure in agent frameworks
+Frontloading spares execution context
+Oracle accumulation improves selection for later candidates in its maintained domain
+Final task success does not establish intended-path health
+Structured-prompt gains do not establish training-distribution selection
+Ad hoc prompts extend the system without schema changes
+Localized retention pays when sparse changes have bounded impact in a matching decomposition
+Compiling a coordination strategy preserves primitive authority but expands aggregate authority
+MCP bundles stateless tools with a stateful runtime
+Improvements outside the admitted formal language need a pre-formal stage somewhere
+Diagnostic richness constrains outer-loop learning quality
+Storage substrate
+Document types should be verifiable
+Knowledge artifact
+Use tests a decomposition locally; retained rationale is what makes transfer testable
+Epiplexity by example: what entropy and complexity miss
+Representational form
+An enforced tag-README combines a MOC pattern with checked membership
+Enforcement without structured recovery is incomplete
+Inspectable artifact, not supervision, defeats the blackbox problem
+Software factory
+Agents navigate by deciding what to read next
+System-definition artifact
+Alexander's patterns connect to knowledge system design at multiple levels
+Axes of artifact analysis
+Weakly discriminated qualities tend to be underselected
+Theory builder
+Progressive constraining commits only after patterns stabilize
+Prompting changes failure diagnosis with the semantic reference
+Behavior-determining organization
+Information value is observer-relative
+Coordination value
+Designing a Memory System for LLM-Based Agents
+Design rationale must preserve decision premises its interpreter cannot regenerate
+Areas exist because useful operations require reading notes together
+The self-improving-system definition classifies its boundary cases without ad hoc exceptions
+Checks for the theory-builder definition
+Context engineering
+Dependency locality supports ordering heuristics, not a reading-cost rule
+Bounded-context orchestration model
+Language models for bounded judgments form an emerging category
+Self-improving system
+Constraining
+A retained instruction preserves what testing selected
+Lineage
+Symbolic form holds consumers to a semantic reference
+Link-following and search impose different metadata requirements
+Software house
+The four-field record exposes an efficiency, security, and sovereignty risk triad
+Actionable methodology
+"Agent" is a useful technical convention, not a definition
+Methodological and computational closure track different changes
+Compounding is tested in later improvement, not by the accepting metric
+Improvements can accumulate without compounding
+A theory's prototype standing is its revision cost: external binding plus lost investment
+Session history should not be the default next context
+World models assess explanatory-reach through action-conditioned prediction
+Elicitation requires maintained question-generation systems
+Intent-framed delegation is a control regime; prompt length does not establish it
+System-definition artifacts are crystallized reasoning under context scarcity
+Reflective system
+Trace-extracted memory earns authority per operation, not at capture
+Knowledge storage does not imply contextual activation
+The deployed system, not the model alone, is the unit of learning
+Addressable theory
+Program refinement
+Learning is not only about generality
+Factory development
+Decomposition heuristics for bounded-context scheduling
+Near-decomposability may make local inspection affordable
+Operative change
+System use provides evidence of theory fit and causal usefulness, not an independent test
+Evidence bearing on an improvement objective
+Solve low-degree-of-freedom subproblems first to avoid blocking better designs
+Task families and product families classify different things
+Discovery lifecycle
+Narrowing bought to survive review is paid for in content
+Behavioral authority
+An accepted edit verifies the change, not the rule
+Human writing structures transfer to LLMs because failure modes overlap
+Operative part
+Learning inside a fixed decomposition inherits its mistakes
+Ad hoc explanation can be rational when error is cheap and local
+A claim's test record does not determine its fit in a working theory
+Agent orchestration needs coordination guarantees, not just coordination channels
+Skills derive from methodology
+Stateful tools recover control by becoming hidden schedulers
+Brainstorming: maintainability oracles for agentic development
+A capable agent needs methodology selection, not just relevant knowledge
+Gödel machines are a proof-governed case of reflective self-modification
+Link strength is encoded in position and prose
+RLM has the model write ephemeral orchestrators over sub-agents
+Synthesis is not error correction
+Deterministic validation should be a script
+Factory construction is not evidence of production-knowledge acquisition
+Reach-assessment
+Runtime structure determines the control surfaces available to governance
+Computationally directed self-improvement is a fixed-boundary reallocation ending in contraction
+Directory placement is total, frontmatter classification is partial
+Criteria edits invalidate verdicts; process edits invalidate artifacts
+Abstract an experience into a lesson only when you can state where the lesson stops
+Domain pricing routes an exception to idealization assessment but does not decide it
+A failure explanation becomes search control only when it changes a later branch decision
+Decorrelated reviewers still share the field's prior, so read their findings by the claim's stance
+Backtracking keeps lightweight search control provisional
+Brainstorming: how explanatory-reach informs KB design
+Bottom-up structure inference needs capture at the decision surface, not the state
+Reflection buys addressability
+An author should fix what the executor can't determine, not what it will
+Git-backed provenance depends on explicit contribution and dependency semantics
+Productive deferral requires a preserved option, discriminating evidence, and a convergence rule
+Literature reuse can reverse a paper’s hierarchy of contributions
+Unattended work needs the functions that interaction supplied
+Agent statelessness means the context engine should inject context automatically
+English can approximate a model-defined prompt language
+The chat-history model trades context efficiency for implementation simplicity
+A search controller is tested by what it brings to stronger evaluation
+Artifact classification separates content kind, lineage, and authority
+A retrieval miss is a local reflective-path failure
+System use is an initial selection environment when theory fit lacks a fixed oracle
+First-principles reasoning selects for explanatory-reach over adaptive fit
+Tentative theory
+Soft degradation can bind before the hard cap even when required evidence fits
+Retained artifact
+LLM-executed methodologies are metacircular interpreters, not compilers
+Indexes lower recall when they suppress retrieval that would find more
+A knowledge base should support fluid resolution-switching
+Codification
+Theory
+A linked note's durable payload is what its consumption path cannot reliably supply
+A software factory is family-scoped lifecycle production machinery
+Retained theories may improve sample efficiency under structured shifts
+Naur's human-only conclusion needs more than the absence of explicit criteria
+Notes need quality scores to scale curation
+False-positive generation is filtered; false-positive acceptance becomes operative
+Universal software factory needs a declared universality axis
+Code complements the weight–prompt pair with independently executed symbolic operations
+Agent statelessness makes routing architectural, not learned
+Problem matches guide method search; mechanism matches bound transfer
+LLM debugging separates specification gaps, instruction violations, and run-to-run variation
+Broad software demands create pressure for agentic factory development
+Linking theory
+A proposal-selection improvement loop requires search, evaluation, and operative retention
+Increasing computational autonomy relocates human effort to the frontier instead of reducing it
+Implementations do not establish shared semantics
+Writing conventions for kb/theory/
+Warranted transfer out of the human cut leaves people the hardest-to-warrant decisions
+A benchmark that holds the client fixed exports the least-warrantable decisions by design
+Changing requirements conflate genuine change with disambiguation failure
+A derived copy of recomputable truth must be checked or absent
+Constraining during deployment can produce learning outside weights
+Semantic sub-goals that exceed one context window become scheduling problems
+Skills are instructions plus routing and execution policy
+LLM↔code boundaries are natural checkpoints
+Superseded choices need a historical witness; refuted beliefs lose subject-matter standing
+Writing styles are strategies for managing underspecification
+Scaling absorbs scaffolding at fixed task difficulty, not at the deployment frontier
+Orchestration strategies and run-state have opposite persistence economics
+The bitter lesson selects production methods, not representational forms
+Open-ended improvement must allocate search before decisive evaluation is available
+A better-factory claim compares operative states under an antecedent assessment relation
+Citing retained theory at the decision point is a mediation trace
+Always-loaded context mechanisms in agent harnesses
+Silent disambiguation is the semantic analogue of tool fallback
+Operational signals that a component is a relaxing candidate
+Instruction specificity should match loading frequency
+Statecharts and programs differ in what they show, not in what they can compute
+Activate Behavior-Changing Memory Before The Mistake
+Claim-routed reading may beat reading-first for synthesis notes
+Full-identity keys decouple a batch protocol from its packing axis
+Why directories despite their costs
+Model signals could guide harness-level context unloading and recall
+The adaptation survey corroborates memory requirements but misses artifact governance
+Exact implementation does not validate a requirement against its objective
+Use Trace Extraction As Meta-Learning
+Feedback-trained memory management is oracle-dependent even when its operations are hand-designed
+Keep Lineage And Compiled Views From Drifting
+Parametric reproduction alone cannot replace an authoritative record
+Evaluate Memory By Effects, Not By Existence
+Revising an improvement objective is licensed from outside it or is not improvement
+Make Authority Explicit
+Adaptation signals choose pressure; artifact analysis chooses the retained surface
+Serve Multiple Consumers, Not One Retrieval Interface
+Preserve Evidence Without Making History The Next Context
+Promote Only When Future Value Exceeds Maintenance Cost
+Factory learning is experience-responsive retention that improves the factory
+Theory proposals
+Import External Knowledge Into Internal Form
+Agent Memory Requirements
+Specification strategy should follow where understanding lives
+A repeatable operative path keeps a redesign class open to revision
+Causal and proof obligations are two formal routes to assessing explanatory-reach
+Revise the behavioral-authority decomposition
+LLM output variation depends on decoding and execution conditions
+Retire, Redact, Supersede, And Relax Memory
+Technical constraints turn KB objective-function choice from philosophy into engineering
+Create Memory Directly
+Agent orchestration needs a privilege quarantine, not just a permission scope
+Context efficiency is the central design concern in agent systems
+The verifiability gradient
+Automating KB learning is an open problem
+Pointer design tradeoffs in progressive disclosure
+A specific intent may out-yield local rationales, but contingent facts stay separate
+Stale self-description conceals its own staleness
+Thresholding fixed monotone transforms of one probability does not add an independent check
+Agent-runtime analysis should separate scheduling, context assembly, and external state
+Title as claim exposes commitments, enabling Popperian maintenance
+An optimal long-run learning strategy invests in its own machinery
+Load-bearing vocabulary collisions should be prevented or visibly scoped at write time
+Reasoning production is not reasoning evaluation
+Index completeness does not determine editorial orientation
+Maintenance operations catalogue should stage stable procedures for instructions
+Open-ended theory learning and factory learning close the same reflective loop
+Distinct residue classes require distinct functions in a self-improving architecture
+Natural-language project state may specialize weight-resident search heuristics
+Access burden and transformation burden are distinct query dimensions
+Retained theories compared with retained traces under resource limits
+Discarding software requires preserving the operational knowledge later work needs
+Inbound and outbound links serve asymmetric reader needs
+Periodic KB hygiene should be externally triggered, not embedded in routing
+Workflow compatibility across implementation changes
+Acceptance authority does not require a separate repair session
+Soft-bound traditions as sources for context engineering strategies
+Generate KB skills at build time, don't parameterise them
+Measurable, widespread model failures are candidates for upstream fixes
+Selecting an LLM output fixes a result, not its interpretation
+Opacity depends on the inspection question and budget
+LLM learning phases fall between human learning modes rather than mapping onto them
+Automated tests for text
+Reverse compression is when LLM output expands without adding information
+Cross-task transition policy remains scheduling behind a tool interface
+Moving the interpretation–enforcement boundary requires cross-form coverage
+Active work state is not retrospective memory or chat history
+Mocking the tool boundary makes instruction behavior testable in isolation
+LLM generation can hide a relaxed goal where human writing exposes a stall
+Discarding all experience-dependent state prevents cross-run accumulation
+Recognition, not linking, is the hard problem in knowledge systems
+The readable-artifact loop is the tractable unit for continual learning
+Process structure and output structure are independent levers
+Claim modality is the inference form of the refuter
+A universal knowledge framework demotes content taxonomies to defaults
+Psychology-to-agent transfer needs per-principle failure-mode testing
+The Bitter Lesson defense portfolio has one load-bearing member for the form-only rebuttal
+Cheap generation breaks text volume as an effort signal
+Self-improvement is relative to a declared objective
+Agent memory is a crosscutting concern, not a separable niche
+Error messages that teach are a constraining technique
+Knowledge-access architecture must be evaluated end to end, not by retrieval alone
+A theory builder becomes a software house when new domains require production-machinery changes
+Out-of-spec output is a failure of the interpreter, not the spec
+In-context learning presupposes context engineering
+The augmentation-automation boundary is discrimination not accuracy
+Open-ended knowledge work shares one epistemic layer across roles
+Measuring autonomy well enough to see it improve is an open problem
+Convert still requires semantic description
+Cheap adoption and weak retirement accumulate cost
+Candidacy evidence licenses escalation to assessment, not acceptance
+Mechanistic constraints make Popperian KB recommendations actionable
+Context contamination operates below an agent's compliance reasoning
+Quality signals for KB evaluation
+Evaluation automation is phase-gated by comprehension
+The 2026-08-30 Commonplace revision used retained theory to guide computational search
+Current-task fit alone does not warrant costly structural entrenchment
+Review automation should target verifiable subroles before reviewer identity
+AGENTS.md should be organized as a control plane
+A vibe-noting trace shows persistence enables revision, not certification
+The tag-readme change as an observed causal-connection trace
+Seven documentation cases left routing and synthesis
+Commonplace as a reflective self-improving system
+First-principles analysis maps a design space before selecting within it
+Consumer, channel and force can stay fixed while the governed use changes
+Real self-improving systems occupy combinations no single rung captures
+Oracle strength spectrum
+Holding a program theory means sustaining coherent search under delayed feedback
+Legal drafting solves the same problem as context engineering
+Instantiation alone cannot model agent learning across sessions
+Under sub-agent decomposition, feasibility is the heaviest fork's net load
+Conversation vs prompt refinement in agent-to-agent coordination
+Automated synthesis is missing good oracles
+Project-theory possession requires comparing new demands with existing organization
+An independent pass tightened three of four Pirolli grounding verdicts
+Three simplification passes exposed different clarity–precision tradeoffs
+Commonplace builds a theory builder and tests whether it learns
+A goal-holding interpreter fails soft, and its workarounds tax a bounded budget
+Lightweight search control allocates further search without licensing adoption
+Accumulation counts dependence through the retained result, not through the evidence it caused
+Six reported self-improvement paths expose bounded redesign surfaces within supplied methods
+The boundary of automation is the boundary of verification
+Rule-based context selection needs a pre-existing signal
+Source changes should surface downstream review targets, while reverse lineage can remain searchable
+Missing rationale does not exclude a theory builder; weight-only retention excludes one across runs
+Two rewrites exposed a syntax-or-repetition tradeoff
+Capability placement should follow autonomy readiness
+Treat continual learning as representational-form coevolution
+Why notes have types
+Naur's compiler case tests one historically bounded documentation-and-consumption system
+LLM recompute cost shifts the store-vs-recompute balance
+An insufficient summary precedes the source rather than replacing it
+A hand-crafted bootstrap fits the Bitter Lesson only if learning can outgrow it
+Skill discovery re-fires in every sub-agent context, not just the top-level invocation
+RLM, λ-RLM, Tendril, and llm-do separate restriction from persistence
+Brainstorming how to enrich web search
+Links encode conditional possibilities, not obligations
+Type system enforces metadata that navigation depends on
+Semantic review catches content errors that structural validation cannot
+Three-space agent memory echoes Tulving's taxonomy but the analogy may be decorative
+LLM contexts interpret instructions and content through the same token medium
+Structured output is easier for humans to review
+Known-target discovery benchmarks show reachability, not discovery closure
+Text testing framework — source material
+Programming practices for prompts need evidence matched to the question
+Flat memory predicts specific cross-contamination failures that are empirically testable
+A checked outcome licenses retaining an episode, not abstracting its explanation
+Disconnected witnesses do not establish a full causal path through theory
+An action model matters only through its consumption path
+Cost-sensitive formalisms for tentative theory search
+Full write briefs cut edit drift; one-line briefs did not
+Agent orchestration occupies a multi-dimensional design space
+Retaining episode evidence keeps a distilled rule open to re-examination
+Title as claim makes overlap between notes visible
+Mixed epistemic status must be preserved below the document level
+An artifact must preserve the scope of each named system choice
+Explicit retention provides direct targets for selective revision
+The practical scheduler is the host language, not a reified select
+An agentic substrate becomes a software factory through family-specific production machinery
+Theory building has distinct epistemic, structural, and implementation precedents
+A bare writing prompt does not determine its intended contribution
+Reflective coverage is graded across representational forms
+Unresolved revision choices put dependent polish at risk of rework
+Semantic work can be relocated but not eliminated
+Brainstorming: how to test whether pairwise comparison can harden soft oracles
+Figurative wording can suggest relations that the target claim does not justify
+The bitter lesson selects against unearned reach, not against structure
+A complete theory path does not establish improved capacity
+Raw accumulation does not create usable memory
+History has one chance to become checkable
+Derivation and inheritance give starting warrant; discriminating evidence or proof earns scope
+Generation confidence does not by itself certify soundness
+Competing causal theories can guide distinguishing experiments
+LLM output deviation requires three-way diagnosis because remedies target different relations
+Local materialization should outperform distant natural-language declarations
+Choosing what to learn requires both validity and learning-value gates
+A claim without external assessment carries three obligations
+Theory building and capacity building make the same kind of fallible commitment
+Directory-scoped types are cheaper than global types
+Any barrier-delimited symbolic program with LLM calls is a batched select/call program
+Vibe-noting
+Memory-backed personalization can look like model improvement
+A functioning knowledge base needs a workshop layer, not just a library
+Reasoning limits may select for design commitments
+A borrowed pattern transfers only as far as source and target share a mechanism
+Claim notes should use Toulmin-derived sections for structured argument
+Theory warrant should be tracked at the finest granularity evidence licenses
+Short composable notes maximize combinatorial discovery
+A retained-theory intervention isolates one surface, not the whole program theory
+Methodology enforcement is constraining
+Promotion selects for unreliable activation, and the regress ends only at an external trigger
+Codify-versus-LLM decision heuristics
+Link graph plus timestamps enables make-like staleness detection

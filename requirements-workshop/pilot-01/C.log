@@ -1,0 +1,11 @@
+6945f5ac-e644-4355-88d0-0289591c47db: completed — commonplace-worker @ /home/zby/llm/commonplace [1 slots]
+Session: 01a1eba6-3a9b-75af-abc3-b41e7a2fd47b
+Session file: /home/zby/.pi/agent/sessions/--home-zby-llm-commonplace--/2026-11-17T22-35-02-171Z_01a1eba6-3a9b-75af-abc3-b41e7a2fd47b.jsonl
+Execution records: /home/zby/.pi/agent/sessions/--home-zby-llm-commonplace--/2026-11-17T22-35-02-171Z_01a1eba6-3a9b-75af-abc3-b41e7a2fd47b.jsonl.subagent/27c8e2dc-0033-488c-92ff-2b0ecbf71889
+N42: The reader copied 18 of 20 machine-printed labels correctly on first attempts [/cards/label-reader]. Friday’s batch contains only handwritten labels, for which no trial result is supplied. Hold release; obtain a handwritten-label trial showing at least 17 correct first-attempt copies out of 20. Successful retrieval does not establish accuracy for handwritten labels.
+
+K17: Monday’s and Tuesday’s Cedar rehearsals each delivered 18 of 20 envelopes without help [/cards/cedar-sort, retained editions]. Tuesday is latest and used Wednesday’s identical route, meeting the 17-of-20 threshold. Release Wednesday’s run. The paragraph-write failure does not negate the separately retained Tuesday result; neither rehearsal supports other routes.
+
+P63: Monday’s Maple rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered 12 of 20 [/cards/maple-sort, retained editions]. Wednesday uses Tuesday’s route, so hold the run: the latest result fails the 17-of-20 threshold. The paragraph-write failure does not negate Tuesday’s retained result; Monday cannot establish current eligibility.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam [/archive/booklet-feed-monday]; Tuesday’s count is unsupported. Hold Wednesday’s run and obtain a readable Tuesday report establishing whether at least 17 of 20 fed without a jam. Monday cannot substitute; the queue receipt establishes no result, and the blank preview’s cause remains unknown.

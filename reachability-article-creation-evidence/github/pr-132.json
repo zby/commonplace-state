@@ -1,0 +1,69 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This PR replaces the single-neighbor framing with a criteria-based literature position.\n\nArticle changes:\n- removes the implication that Workspace Optimization is the overall nearest precedent;\n- separates the structural lineage from computational reflection, Models@run.time, requirements reflection, and architecture-based self-adaptation;\n- separates the epistemic lineage from explanation-based learning and empirical theory refinement;\n- states the proposed contribution as their conjunction in one longitudinal self-modification path;\n- retains Workspace Optimization as a close contemporary LLM-agent implementation analogue;\n- keeps the recent harnesses as nearby fragments rather than the defining comparison.\n\nNew durable note:\n- explains why \u201cclosest\u201d requires a named comparison axis;\n- distinguishes object/target, learning mechanism, and implementation morphology;\n- records the limitations of each lineage;\n- states the proposed synthesis without claiming it has already been demonstrated;\n- derives stronger experimental baselines: runtime self-modeling/self-adaptation, explicit theory refinement, Workspace Optimization, and direct or parametric alternatives.\n\nThe article remains compact; the detailed source positioning and primary-source links live in `theory-mediated-system-learning-combines-runtime-self-modeling-with-theory-refinement.md`.",
+    "closedAt": "2026-08-30T18:41:50Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T17:44:36Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T17:44:36Z",
+        "messageBody": "Replace the unstable single-neighbor ranking with a three-axis comparison: runtime self-modeling and self-adaptation supply the reflective target, explicit theory refinement supplies the epistemic mechanism, and Workspace Optimization supplies a contemporary LLM-agent implementation analogy.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Position theory-mediated system learning across its neighboring lineages",
+        "oid": "d983066f1ca620a1373a2a3831595b063f7192f4"
+      },
+      {
+        "authoredDate": "2026-08-30T17:46:45Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T17:46:45Z",
+        "messageBody": "Position runtime self-modeling and self-adaptation as the structural lineage, theory refinement as the epistemic lineage, and Workspace Optimization as a contemporary implementation analogy. Link the program article to the durable positioning note.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Replace the nearest-neighbor claim with a lineage synthesis",
+        "oid": "860b9f197f483b77a80b2de810304117b0d4bbc4"
+      }
+    ],
+    "createdAt": "2026-08-30T17:47:28Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 41,
+        "deletions": 11
+      },
+      {
+        "path": "kb/notes/theory-mediated-system-learning-combines-runtime-self-modeling-with-theory-refinement.md",
+        "additions": 187,
+        "deletions": 0
+      }
+    ],
+    "headRefName": "position-theory-mediated-lineage",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T18:41:49Z",
+    "number": 132,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Position theory-mediated system learning across its actual lineages",
+    "updatedAt": "2026-08-30T18:41:50Z",
+    "url": "https://github.com/zby/commonplace/pull/132"
+  },
+  "inline_review_comments": []
+}

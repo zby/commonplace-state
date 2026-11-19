@@ -1,0 +1,6 @@
+QUERY: rg -n -i '^description:.*(requirement|objective|diagnostic|observab|fixed.*decomposition|bounded.*adapt)' kb/tags/ --glob *.md --glob !*.brief.md
+kb/tags/agent-memory-README.md:2:description: "Curated head for the agent-memory tag — how agents retain, recall, and govern knowledge across sessions: memory-system requirements, activation, trace extraction, lifecycle, and comparisons of external memory systems"
+kb/tags/goal-prioritization-README.md:2:description: "Curated head for the goal-prioritization tag — which of the goals, requirements, quality criteria and candidate improvements that could govern a task gets effort, on whose authority and what evidence, and when work stops"
+kb/tags/self-improving-systems-README.md:2:description: "Curated head for the self-improving-systems tag — systems that make operative, evidence-responsive changes to their own organization; definition, objective, accumulation, and six child areas from theory builder to continual learning"
+
+EXIT: 0

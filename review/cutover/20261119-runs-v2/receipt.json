@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "authorized-by": "Operator, 2026-11-19: \"I think we can archive the run records now\"; then \"archive in place, bump workjig on main and align our code with it\".",
+  "checked-at": "2026-11-19T12:37:44.595929+00:00",
+  "preflight": "kb/reports/state/review/cutover/20261119-preflight/inventory.json",
+  "preflight-sha256": "86689b17ac897418ae72178e8cda741ac93249092e0e262199a3fcc9dd520087",
+  "archived-runs": "kb/reports/state/review/runs/v2",
+  "archived-run-count": 109,
+  "active-namespace": "kb/reports/state/review/runs/v2, unchanged: new runs open beside the archived ones, which are the runs listed in the preflight inventory",
+  "reason": "These runs hold Workjig run records in format 2. Workjig 0.5.0 reads only format 4 and offers no migration, so the runs cannot be opened, resumed, retried or acknowledged after the upgrade.",
+  "historical-runs": "retained in place as evidence; not resumable. Version 2 observations read their own input captures and need no Workjig record.",
+  "moves": {},
+  "held-locks": [],
+  "unsettled-launches": [],
+  "pending-operator-entries": [],
+  "paid-calls": 0,
+  "regenerated-results": 0,
+  "verified-file-count": 14015,
+  "completed-at": "2026-11-19T12:37:49.077801+00:00"
+}

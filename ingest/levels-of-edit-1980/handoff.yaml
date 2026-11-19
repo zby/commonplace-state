@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/levels-of-edit-1980.ingest.md
+snapshot_sha256: 1abdb131342c0ab5f117a727aeca8583e2033aa2d665cdaabe7c174d7b565710
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: false
+opened: '2026-11-13T17:45:07+01:00'
+occasion: How should Commonplace order revision concerns, and does ordering by what
+  a change invalidates differ from ordering by degrees of freedom?
+checks:
+- at: '2026-11-13T17:46:49+01:00'
+  failures: []
+- at: '2026-11-13T17:46:57+01:00'
+  failures: []
+- at: '2026-11-13T17:46:58+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-13T17:46:58+01:00'

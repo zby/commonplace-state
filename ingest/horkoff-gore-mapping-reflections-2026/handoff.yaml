@@ -1,0 +1,19 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/horkoff-gore-mapping-reflections-2026.ingest.md
+snapshot_sha256: 8aec99a99f1982411637d031cdfc072425a94dd0425939a8ca626bbbe6a35a79
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-16T22:59:43+01:00'
+occasion: What can requirements engineering contribute, and what are its limits, for
+  understanding operationalization, goal authority, and revisable knowledge in agent-operated
+  knowledge work?
+checks:
+- at: '2026-11-16T23:02:30+01:00'
+  failures: []
+- at: '2026-11-16T23:02:38+01:00'
+  failures: []
+- at: '2026-11-16T23:02:39+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T23:02:39+01:00'

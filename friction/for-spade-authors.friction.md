@@ -1,0 +1,19 @@
+# Friction check: An invitation to the SPADE authors
+
+**Note:** kb/work/causal-impact-selective-evaluation/for-spade-authors.md
+**Central claim (one sentence):** SPADE's separation of environment proposal, validation, and learning-value estimation could inform generated acceptance tests for harness changes, but only if the acceptance setting adds independent observation-validity, containment, cost, and selection-validity checks that SPADE itself does not supply.
+
+## Filter
+**Verdict:** SURVIVES
+
+The claim commits to one consistent thing: SPADE is treated as a precedent for a candidate-generation pattern, not as evidence that generated procedures are already valid acceptance tests. The desired properties can coexist because the draft explicitly narrows the transfer from "SPADE proves this works" to "SPADE suggests a design shape worth testing." The main tension is that generation is motivated by the cost of a growing historical evaluation surface while adding its own generation, validation, sandboxing, and audit costs. The draft keeps that tension live by making total evidence cost and cost amortization part of the experiment rather than assuming synthesis saves work.
+
+## Signal - thinnest joints
+1. **"The proposed addition is a revisable impact theory. Given the current system and a candidate change, it predicts which behavioral functions or obligations may materially change. An evidence-acquisition policy then decides which evidence is worth buying."** - THIN - The transition assumes the impact theory can produce predictions specific enough to drive evidence purchase, but the draft has not yet specified the prediction form, confidence model, or loss function that would let a policy compare "worth buying" across generated and stored evidence.
+2. **"SPADE suggests expanding that policy from selecting stored benchmarks or historical anchors to synthesizing an executable procedure for the particular change."** - THIN - SPADE establishes that executable environment synthesis can be part of a training loop, but the reason does not yet establish that synthesis is a reliable action for acceptance evidence. The missing support is how a generated procedure stays tied to the obligation instead of to surface differences exposed by the candidate-aware prompt.
+3. **"The proposed acceptance contrast asks whether the incumbent and candidate differ on a specified obligation under the same procedure."** - UNSUPPORTED - Same-procedure comparison can show behavioral difference, but it does not by itself show obligation-relevant difference. The draft later says an independent authority must define the obligation and count outcomes against it, so this joint currently relies on a requirement stated after the inference rather than on a mechanism already present.
+4. **"Whether memory of earlier regressions, misses, and unsuitable procedures improves that search without narrowing it is a hypothesis for the experiment."** - THIN - The draft correctly demotes the memory transfer to a hypothesis, but the analogy remains underspecified. SPADE memory supports curriculum search for learning value; memory of regressions and false negatives could also overfit the evaluator to historical failure modes or reproduce the impact theory's blind spots.
+5. **"SPADE is useful here because it keeps proposal breadth, validity, and value distinct. It does not answer these acceptance questions."** - HOLDS - The cited separation supports the conclusion. The draft lists execution validity, observation validity, decision value, and selection validity as distinct acceptance questions, and it does not let SPADE's functional checks stand in for those stronger requirements.
+
+## For the human
+Look first at the obligation-validity bridge: the draft needs the missing concretization that turns incumbent/candidate discrimination into evidence about a specified behavioral obligation rather than arbitrary behavioral difference.

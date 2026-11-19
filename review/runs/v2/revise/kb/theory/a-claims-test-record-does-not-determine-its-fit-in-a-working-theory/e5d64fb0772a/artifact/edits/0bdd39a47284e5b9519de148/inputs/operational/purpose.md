@@ -1,0 +1,1 @@
+Judge whether the rewritten note states good theory, and improve its text where the reviews find real defects.

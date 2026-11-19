@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This follow-up revises the flow after the Naur-first opening.\n\nThe article now:\n- introduces the research object as the whole automated software-development system before asking the question;\n- names model weights, prompts, code, runtime, tools, persistence, and checks as jointly producing behavior;\n- asks the central question once, in terms of an automated software factory and delayed feedback;\n- separates the research-program claim from the system-boundary explanation instead of placing both in one abrupt paragraph;\n- broadens the learning surface from programs, rules, schemas, and tests to weight updates, prompt and retained-state revisions, code and tool changes, and runtime policy;\n- defines theory mediation after the general system-learning path;\n- combines the neighboring-system discussion and removes the later restatement of the question;\n- improves the transition into the two testbeds; and\n- aligns the functional table with the established weight-plus-prompt model-mediated operation.\n\nIt also adds the Naur ingest to `source_notes`, since the opening now relies directly on the original essay.",
+    "closedAt": "2026-08-30T17:17:59Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T17:15:02Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T17:15:02Z",
+        "messageBody": "Present the research object as the whole automated software-development system, introduce weights, prompts, code, and runtime before defining learning, remove the repeated research question from the neighboring-work contrast, and improve the flow into the testbeds and functional architecture.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Clarify the code-prompt-weight system and smooth the opening",
+        "oid": "98bfc437b79df3cd69e21f2ef34674cdd86c058e"
+      }
+    ],
+    "createdAt": "2026-08-30T17:15:39Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 58,
+        "deletions": 56
+      }
+    ],
+    "headRefName": "smooth-theory-mediated-flow",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T17:17:59Z",
+    "number": 130,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Clarify the code-prompt-weight system and smooth the program flow",
+    "updatedAt": "2026-08-30T17:17:59Z",
+    "url": "https://github.com/zby/commonplace/pull/130"
+  },
+  "inline_review_comments": []
+}

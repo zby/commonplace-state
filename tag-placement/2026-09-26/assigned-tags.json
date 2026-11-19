@@ -1,0 +1,1626 @@
+{
+  "kb/notes/a-bare-writing-prompt-does-not-determine-its-intended-contribution.md": [
+    "llm-reliability",
+    "computational-model"
+  ],
+  "kb/notes/a-better-factory-claim-compares-operative-states.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/a-claim-without-external-assessment-carries-three-obligations.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "warranted-autonomy"
+  ],
+  "kb/notes/a-claims-warrant-does-not-determine-its-fit-in-a-working-theory.md": [
+    "learning-theory",
+    "evaluation",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/a-complete-theory-path-does-not-establish-improved-capacity.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/a-consumption-channel-delivers-force-without-the-history-that.md": [
+    "failure-modes",
+    "artifact-analysis",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md": [
+    "context-engineering",
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/a-fixed-model-house-must-retain-missing-procedures-for-theory-use.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/a-framework-rule-with-a-boundary-preserving-rival-is-not-inherited.md": [
+    "document-system"
+  ],
+  "kb/notes/a-goal-holding-interpreter-fails-soft-workarounds-tax-a-bounded-budget.md": [
+    "learning-theory",
+    "llm-reliability"
+  ],
+  "kb/notes/a-knowledge-base-should-support-fluid-resolution-switching.md": [
+    "context-engineering"
+  ],
+  "kb/notes/a-linked-note-discharges-its-own-grounding-so-a-citing-note-owes.md": [
+    "kb-maintenance",
+    "links",
+    "evaluation",
+    "claims-and-grounding"
+  ],
+  "kb/notes/a-method-ceiling-bounds-the-method-not-the-transfer-already-made.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/a-methodology-governs-its-own-extension-only-as-far-as-it-settles.md": [
+    "constraining",
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/a-note-is-an-atomic-step-relative-to-the-check-that-reads-it.md": [
+    "kb-maintenance",
+    "evaluation",
+    "review-system"
+  ],
+  "kb/notes/a-proposal-selection-loop-requires-search-evaluation-and-retention.md": [
+    "computational-model",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/a-proximate-target-is-checked-for-achievement-not-for-warrant.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md": [
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/a-retained-instruction-preserves-what-testing-selected.md": [
+    "context-engineering"
+  ],
+  "kb/notes/a-retrieval-miss-is-a-local-reflective-path-failure.md": [
+    "computational-model",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/a-search-controller-is-tested-by-what-it-brings-to-stronger-evaluation.md": [
+    "evaluation",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/a-universal-knowledge-framework-demotes-content-taxonomies-to-defaults.md": [
+    "document-system"
+  ],
+  "kb/notes/abstract-an-experience-only-when-you-can-state-the-boundary.md": [
+    "learning-theory",
+    "deploy-time-learning",
+    "failure-modes"
+  ],
+  "kb/notes/access-burden-and-transformation-burden-are-distinct-query-dimensions.md": [
+    "computational-model"
+  ],
+  "kb/notes/accumulation-counts-dependence-through-the-retained-result.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/active-work-state-is-not-retrospective-memory-or-chat-history.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/ad-hoc-explanation-can-be-rational-when-error-is-cheap-and-local.md": [
+    "learning-theory",
+    "discovery",
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/ad-hoc-prompts-extend-the-system-without-schema-changes.md": [
+    "learning-theory",
+    "constraining",
+    "deploy-time-learning"
+  ],
+  "kb/notes/addressability-grain-sets-a-matched-selective-read-floor.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/addressable-theory-can-coordinate-heterogeneous-factory-development.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/adversarial-loop-can-reconstruct-the-writing-is-thinking-filter.md": [
+    "document-system"
+  ],
+  "kb/notes/agent-is-a-tool-loop.md": [
+    "computational-model"
+  ],
+  "kb/notes/agent-memory-is-a-crosscutting-concern-not-a-separable-niche.md": [
+    "learning-theory",
+    "computational-model",
+    "agent-memory"
+  ],
+  "kb/notes/agent-memory-needs-discoverable-composable-trusted-knowledge-under.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/agent-memory-requirements/README.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/activate-behavior-changing-memory.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/agent-memory-requirements/adaptation-survey-corroborates-memory-requirements.md": [
+    "agent-memory",
+    "learning-theory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/create-memory-directly.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/evaluate-memory-by-effects.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/agent-memory-requirements/import-external-knowledge.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/keep-compiled-views-aligned.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/make-authority-explicit.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/preserve-evidence-without-loading-history.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/promote-only-when-value-exceeds-cost.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/retire-redact-supersede-relax.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/serve-multiple-consumers.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/agent-memory-requirements/use-trace-extraction-as-meta-learning.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/agent-orchestration-needs-coordination-guarantees-not-just.md": [
+    "computational-model"
+  ],
+  "kb/notes/agent-orchestration-occupies-a-multi-dimensional-design-space.md": [
+    "computational-model"
+  ],
+  "kb/notes/agent-runtime-analysis-should-separate-scheduling-context-state.md": [
+    "computational-model",
+    "architecture"
+  ],
+  "kb/notes/agentic-substrate-needs-family-specific-machinery-to-be-a-factory.md": [
+    "computational-model",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/agentic-systems-interpret-underspecified-instructions.md": [
+    "learning-theory",
+    "computational-model",
+    "constraining",
+    "llm-reliability"
+  ],
+  "kb/notes/agents-md-should-be-organized-as-a-control-plane.md": [
+    "architecture"
+  ],
+  "kb/notes/agents-navigate-by-deciding-what-to-read-next.md": [
+    "links"
+  ],
+  "kb/notes/alexander-patterns-and-knowledge-system-design.md": [
+    "methodology"
+  ],
+  "kb/notes/always-loaded-context-mechanisms-in-agent-harnesses.md": [
+    "computational-model",
+    "architecture"
+  ],
+  "kb/notes/an-accepted-edit-verifies-the-change-not-the-rule.md": [
+    "learning-theory",
+    "agent-memory"
+  ],
+  "kb/notes/an-action-model-matters-only-through-its-consumption-path.md": [
+    "computational-model",
+    "artifact-analysis"
+  ],
+  "kb/notes/an-enforced-tag-readme-is-a-moc-with-a-machine-checked-contract.md": [
+    "kb-maintenance",
+    "document-system",
+    "curation"
+  ],
+  "kb/notes/an-experiment-identifies-only-the-contrast-it-actually-runs.md": [
+    "evaluation"
+  ],
+  "kb/notes/an-insufficient-summary-precedes-the-source-rather-than-replacing.md": [
+    "context-engineering",
+    "document-system"
+  ],
+  "kb/notes/an-omitted-loop-function-and-a-frozen-one-need-different-repairs.md": [
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/an-open-domain-theory-builder-becomes-a-software-house-when-new-domains-require-production-machinery-changes.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "software-factory"
+  ],
+  "kb/notes/an-optimal-long-run-learning-strategy-invests-in-its-own-machinery.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/any-symbolic-program-with-llm-calls-is-a-select-call-program.md": [
+    "computational-model"
+  ],
+  "kb/notes/artifact-classification-separates-content-kind-lineage-and-authority.md": [
+    "artifact-analysis",
+    "document-system"
+  ],
+  "kb/notes/artifacts-must-preserve-named-choice-scope.md": [
+    "document-system",
+    "artifact-analysis"
+  ],
+  "kb/notes/artifacts-produced-from-sources-need-lineage-recorded-at-the-source.md": [
+    "links"
+  ],
+  "kb/notes/automated-synthesis-is-missing-good-oracles.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/automated-tests-for-text.md": [
+    "document-system"
+  ],
+  "kb/notes/automating-kb-learning-is-an-open-problem.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/axes-of-artifact-analysis.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/backtracking-keeps-lightweight-search-control-provisional.md": [
+    "computational-model",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/bitter-lesson-selects-against-unearned-reach-not-against-structure.md": [
+    "learning-theory",
+    "constraining",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/borrowed-patterns-transfer-only-over-shared-mechanism.md": [
+    "methodology"
+  ],
+  "kb/notes/borrowing-can-operate-through-retained-artifacts-or-weight-activation.md": [
+    "methodology",
+    "context-engineering"
+  ],
+  "kb/notes/bounded-context-orchestration-model.md": [
+    "computational-model"
+  ],
+  "kb/notes/brainstorming-how-explanatory-reach-informs-kb-design.md": [
+    "learning-theory",
+    "kb-maintenance",
+    "discovery"
+  ],
+  "kb/notes/brainstorming-how-to-test-whether-pairwise-comparison-can-harden.md": [
+    "evaluation",
+    "llm-reliability",
+    "context-engineering"
+  ],
+  "kb/notes/brainstorming-maintainability-oracles-for-agentic-development.md": [
+    "learning-theory",
+    "llm-reliability",
+    "evaluation"
+  ],
+  "kb/notes/broad-software-demands-create-pressure-for-agentic-factory-development.md": [
+    "computational-model",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/candidacy-evidence-licenses-escalation-not-acceptance.md": [
+    "discovery"
+  ],
+  "kb/notes/capable-agents-need-methodology-selection.md": [
+    "context-engineering",
+    "methodology"
+  ],
+  "kb/notes/changing-requirements-conflate-genuine-change-with-disambiguation.md": [
+    "learning-theory",
+    "deploy-time-learning"
+  ],
+  "kb/notes/cheap-adoption-and-weak-retirement-accumulate-cost.md": [
+    "document-system",
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/cheap-generation-breaks-text-volume-as-an-effort-signal.md": [
+    "context-engineering",
+    "llm-reliability"
+  ],
+  "kb/notes/checked-outcome-licenses-episode-retention-not-abstraction.md": [
+    "learning-theory",
+    "agent-memory"
+  ],
+  "kb/notes/choosing-what-to-learn-requires-both-validity-and-learning-value-gates.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/citing-retained-theory-at-the-decision-point-is-a-mediation-trace.md": [
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/claim-modality-is-the-inference-form-of-the-refuter.md": [
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/claim-notes-should-use-toulmin-derived-sections-for-structured.md": [
+    "type-system"
+  ],
+  "kb/notes/code-complements-weight-prompt-with-symbolic-operations.md": [
+    "computational-model",
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/codify-versus-llm-decision-heuristics.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/codifying-predictable-choices-leaves-agents-with-less-predictable-work.md": [
+    "computational-model",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/commitment-not-derivation-creates-new-ground-truth.md": [
+    "kb-maintenance",
+    "learning-theory",
+    "constraining",
+    "claims-and-grounding"
+  ],
+  "kb/notes/commonplace-builds-a-theory-builder-and-tests-whether-it-learns.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/competing-causal-theories-can-guide-distinguishing-experiments.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/compiling-coordination-preserves-primitive-not-aggregate-authority.md": [
+    "computational-model"
+  ],
+  "kb/notes/compounding-is-tested-in-later-improvement-not-by-the-accepting-metric.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/computationally-directed-self-improvement-is-a-reallocation.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/constraining-and-extraction-both-trade-generality-for-reliability.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/constraining-during-deployment-is-continuous-learning.md": [
+    "learning-theory",
+    "constraining",
+    "deploy-time-learning",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/context-contamination-operates-below-an-agents-compliance-reasoning.md": [
+    "llm-reliability",
+    "context-engineering"
+  ],
+  "kb/notes/context-efficiency-is-the-central-design-concern-in-agent-systems.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/context-operation-interface-bounds-context-policy.md": [
+    "context-engineering",
+    "computational-model",
+    "agent-memory"
+  ],
+  "kb/notes/continual-learning-requires-governing-behaviour-changing-writes.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/conversation-vs-prompt-refinement-in-agent-to-agent-coordination.md": [
+    "computational-model"
+  ],
+  "kb/notes/cost-sensitive-formalisms-for-tentative-theory-search.md": [
+    "learning-theory",
+    "computational-model",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/criteria-edits-invalidate-verdicts-process-edits-invalidate-artifacts.md": [
+    "kb-maintenance",
+    "review-system"
+  ],
+  "kb/notes/cross-task-transition-policy-remains-scheduling-behind-tools.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/current-task-fit-alone-does-not-warrant-costly-entrenchment.md": [
+    "document-system"
+  ],
+  "kb/notes/decomposition-heuristics-for-bounded-context-scheduling.md": [
+    "computational-model"
+  ],
+  "kb/notes/definitions/actionable-methodology.md": [
+    "methodology"
+  ],
+  "kb/notes/definitions/addressable-theory.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "theory-builder"
+  ],
+  "kb/notes/definitions/behavior-determining-organization.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/definitions/behavioral-authority.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/codification.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/definitions/constraining.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/definitions/context-engineering.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/definitions/coordination-value.md": [
+    "document-system"
+  ],
+  "kb/notes/definitions/discovery-lifecycle.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/definitions/evidence-bearing-on-an-improvement-objective.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/definitions/factory-development.md": [
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/definitions/knowledge-artifact.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/lineage.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/operative-change.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/definitions/operative-part.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/reach-assessment.md": [
+    "computational-model",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/definitions/reflective-system.md": [
+    "computational-model",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/definitions/representational-form.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/retained-artifact.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/self-improving-system.md": [
+    "computational-model",
+    "self-improving-systems"
+  ],
+  "kb/notes/definitions/software-factory.md": [
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/definitions/software-house.md": [
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/definitions/storage-substrate.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/system-definition-artifact.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/definitions/tentative-theory.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "theory-builder"
+  ],
+  "kb/notes/definitions/theory-builder.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "theory-builder"
+  ],
+  "kb/notes/derivation-and-inheritance-give-starting-warrant-earns-scope.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/design-for-the-first-time-human-except-on-access-cost.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/design-rationale-must-preserve-unregenerable-decision-premises.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/designing-agent-memory-systems.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/deterministic-validation-should-be-a-script.md": [
+    "document-system"
+  ],
+  "kb/notes/diagnostic-richness-constrains-outer-loop-learning-quality.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/directory-placement-is-total-frontmatter-classification-is-partial.md": [
+    "document-system",
+    "type-system"
+  ],
+  "kb/notes/directory-scoped-types-are-cheaper-than-global-types.md": [
+    "type-system"
+  ],
+  "kb/notes/disconnected-witnesses-do-not-establish-a-causal-path-through-theory.md": [
+    "self-improving-systems",
+    "evaluation",
+    "warranted-autonomy"
+  ],
+  "kb/notes/document-types-should-be-verifiable.md": [
+    "type-system"
+  ],
+  "kb/notes/documentation-generates-the-system-rather-than-describing-it.md": [
+    "artifact-analysis",
+    "kb-maintenance"
+  ],
+  "kb/notes/domain-pricing-routes-an-exception-to-idealization-assessment.md": [
+    "document-system",
+    "failure-modes",
+    "kb-maintenance"
+  ],
+  "kb/notes/elicitation-requires-maintained-question-generation-systems.md": [
+    "llm-reliability",
+    "failure-modes",
+    "evaluation"
+  ],
+  "kb/notes/enforcement-without-structured-recovery-is-incomplete.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/ephemeral-computation-prevents-accumulation.md": [
+    "learning-theory",
+    "artifact-analysis",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/ephemerality-is-safe-where-embedded-operational-knowledge-has-low.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/epiplexity-by-example-what-entropy-and-complexity-miss.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/error-correction-works-above-chance-oracles-with-decorrelated-checks.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/error-messages-that-teach-are-a-constraining-technique.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/evaluation-automation-is-phase-gated-by-comprehension.md": [
+    "learning-theory",
+    "llm-reliability",
+    "evaluation",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/evidence/a-five-link-cap-missed-four-grounding-findings-in-twelve-reviews.md": [
+    "evaluation",
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/evidence/commonplace-as-a-reflective-system.md": [
+    "computational-model",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/evidence/commonplace-revision-used-theory-guided-computational-search.md": [
+    "self-improving-systems",
+    "theory-builder",
+    "improvement-loop"
+  ],
+  "kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md": [
+    "evaluation",
+    "document-system"
+  ],
+  "kb/notes/evidence/in-one-episode-recognition-appeared-only-in-the-corpus-loaded-run.md": [
+    "evaluation",
+    "context-engineering"
+  ],
+  "kb/notes/evidence/independent-pass-tightened-three-of-four-pirolli-verdicts.md": [
+    "evaluation",
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/evidence/missing-rationale-does-not-exclude-a-builder-weights-do-across-runs.md": [
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/evidence/quotes-route-rollout-grounded-more-uses-without-earning-claim-ids.md": [
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/evidence/real-self-improving-systems-occupy-combinations-no-rung-captures.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/evidence/seven-documentation-cases-left-routing-and-synthesis.md": [
+    "artifact-analysis",
+    "kb-maintenance"
+  ],
+  "kb/notes/evidence/single-artifact-review-bundles-still-cut-claude-costs-substantially.md": [
+    "evaluation",
+    "kb-maintenance",
+    "observability",
+    "review-system"
+  ],
+  "kb/notes/evidence/six-commonplace-paths-establish-broad-addressability-not-completeness.md": [
+    "artifact-analysis",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/evidence/tag-readme-trace-observed-causal-connection.md": [
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/evidence/three-simplification-passes-exposed-different-tradeoffs.md": [
+    "document-system",
+    "evaluation"
+  ],
+  "kb/notes/evidence/two-rewrites-exposed-a-syntax-or-repetition-tradeoff.md": [
+    "document-system",
+    "evaluation"
+  ],
+  "kb/notes/evidence/vibe-noting-trace-shows-persistence-enables-revision-not-certification.md": [
+    "evaluation",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/evolving-understanding-needs-holistic-rewrite-not-composition.md": [
+    "context-engineering",
+    "document-system"
+  ],
+  "kb/notes/exact-implementation-does-not-validate-a-requirement.md": [
+    "learning-theory",
+    "constraining",
+    "deploy-time-learning"
+  ],
+  "kb/notes/execution-indeterminism-is-a-property-of-the-sampling-process.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/factory-construction-does-not-establish-knowledge-acquisition.md": [
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/factory-learning-is-experience-responsive-retention-that-improves.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "software-factory",
+    "continual-learning"
+  ],
+  "kb/notes/factory-learning-mechanisms-should-be-compared-on-the-same-causal-job.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/failure-explanation-changes-later-branch-decisions.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/false-positive-generation-is-filtered-before-retention.md": [
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/feasibility-is-the-heaviest-forks-net-load.md": [
+    "computational-model"
+  ],
+  "kb/notes/files-defer-centralized-schema-commitment-until-invariants-stabilize.md": [
+    "architecture"
+  ],
+  "kb/notes/final-task-success-does-not-establish-intended-path-health.md": [
+    "computational-model",
+    "kb-maintenance",
+    "observability"
+  ],
+  "kb/notes/first-principles-analysis-maps-design-space-before-selection.md": [
+    "artifact-analysis"
+  ],
+  "kb/notes/first-principles-reasoning-selects-for-explanatory-reach-over.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/flat-memory-predicts-specific-cross-contamination-failures-that-are.md": [
+    "learning-theory",
+    "agent-memory"
+  ],
+  "kb/notes/formal-systems-assess-explanatory-reach-through-causal-and-proof.md": [
+    "computational-model",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/frontloading-spares-execution-context.md": [
+    "computational-model"
+  ],
+  "kb/notes/full-identity-keys-decouple-a-batch-protocol-from-its-packing-axis.md": [
+    "computational-model"
+  ],
+  "kb/notes/generality-bought-to-avoid-counterexamples-is-paid-for-in.md": [
+    "document-system",
+    "failure-modes"
+  ],
+  "kb/notes/generate-instructions-at-build-time.md": [
+    "architecture"
+  ],
+  "kb/notes/generation-confidence-does-not-by-itself-certify-soundness.md": [
+    "learning-theory",
+    "failure-modes",
+    "llm-reliability"
+  ],
+  "kb/notes/goedel-machines-are-a-proof-governed-case-of-self-modification.md": [
+    "computational-model",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/history-has-one-chance-to-become-checkable.md": [
+    "context-engineering"
+  ],
+  "kb/notes/holding-the-client-fixed-exports-the-least-warrantable-decisions.md": [
+    "self-improving-systems",
+    "evaluation",
+    "warranted-autonomy"
+  ],
+  "kb/notes/human-analogies-suggest-functions-not-component-boundaries.md": [
+    "computational-model"
+  ],
+  "kb/notes/human-llm-differences-are-load-bearing-for-knowledge-system-design.md": [
+    "document-system"
+  ],
+  "kb/notes/human-writing-structures-transfer-to-llms-because-failure-modes.md": [
+    "type-system"
+  ],
+  "kb/notes/improvements-can-accumulate-without-compounding.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/in-context-learning-presupposes-context-engineering.md": [
+    "learning-theory",
+    "context-engineering"
+  ],
+  "kb/notes/inbound-and-outbound-links-serve-asymmetric-reader-needs.md": [
+    "links"
+  ],
+  "kb/notes/increasing-computational-autonomy-relocates-human-effort.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/index-completeness-does-not-determine-editorial-orientation.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/indexes-lower-recall-when-they-suppress-retrieval-that-would-find-more.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/information-value-is-observer-relative.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/inspectable-artifact-not-supervision-defeats-the-blackbox-problem.md": [
+    "learning-theory",
+    "observability",
+    "constraining"
+  ],
+  "kb/notes/instantiation-alone-cannot-model-agent-learning-across-sessions.md": [
+    "computational-model",
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/instruction-specificity-should-match-loading-frequency.md": [
+    "architecture"
+  ],
+  "kb/notes/intent-controls-choices-by-distinguishing-live-alternatives.md": [
+    "methodology"
+  ],
+  "kb/notes/kb-goals-in-always-loaded-context-guide-inclusion-decisions.md": [
+    "architecture"
+  ],
+  "kb/notes/knowledge-access-architecture-must-be-evaluated-end-to-end.md": [
+    "context-engineering"
+  ],
+  "kb/notes/knowledge-storage-does-not-imply-contextual-activation.md": [
+    "llm-reliability",
+    "failure-modes",
+    "evaluation"
+  ],
+  "kb/notes/known-target-discovery-benchmarks-show-reachability-not-discovery.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/learning-is-not-only-about-generality.md": [
+    "learning-theory"
+  ],
+  "kb/notes/legal-drafting-solves-the-same-problem-as-context-engineering.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/lightweight-search-control-does-not-license-adoption.md": [
+    "computational-model",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/link-following-and-search-impose-different-metadata-requirements.md": [
+    "links"
+  ],
+  "kb/notes/link-graph-plus-timestamps-enables-make-like-staleness-detection.md": [
+    "kb-maintenance",
+    "observability",
+    "curation"
+  ],
+  "kb/notes/link-strength-is-encoded-in-position-and-prose.md": [
+    "links"
+  ],
+  "kb/notes/linked-note-durable-payload-is-what-consumption-path-cannot-supply.md": [
+    "context-engineering"
+  ],
+  "kb/notes/linking-theory.md": [
+    "links"
+  ],
+  "kb/notes/links-encode-conditional-possibilities-not-obligations.md": [
+    "links"
+  ],
+  "kb/notes/literature-reuse-can-reverse-a-papers-hierarchy-of-contributions.md": [
+    "methodology"
+  ],
+  "kb/notes/llm-code-boundaries-are-natural-checkpoints.md": [
+    "learning-theory",
+    "computational-model",
+    "constraining"
+  ],
+  "kb/notes/llm-context-interprets-instructions-and-content-through-one-medium.md": [
+    "computational-model"
+  ],
+  "kb/notes/llm-context-is-composed-without-scoping.md": [
+    "computational-model"
+  ],
+  "kb/notes/llm-debugging-starts-with-retry-versus-rewrite-triage.md": [
+    "learning-theory",
+    "computational-model",
+    "llm-reliability"
+  ],
+  "kb/notes/llm-executed-methodologies-are-metacircular-interpreters.md": [
+    "constraining",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/llm-frameworks-should-keep-the-tool-loop-optional.md": [
+    "computational-model"
+  ],
+  "kb/notes/llm-generation-relaxes-goals-where-human-writing-stalls.md": [
+    "learning-theory",
+    "llm-reliability"
+  ],
+  "kb/notes/llm-learning-phases-fall-between-human-learning-modes.md": [
+    "learning-theory"
+  ],
+  "kb/notes/llm-mediated-schedulers-are-a-degraded-variant-of-the-clean-model.md": [
+    "computational-model"
+  ],
+  "kb/notes/llm-output-deviation-requires-three-way-diagnosis.md": [
+    "llm-reliability",
+    "computational-model"
+  ],
+  "kb/notes/llm-recompute-cost-inverts-the-store-vs-recompute-default.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/local-materialization-should-outperform-distant-declarations.md": [
+    "learning-theory",
+    "artifact-analysis",
+    "computational-model"
+  ],
+  "kb/notes/localized-retention-pays-where-change-is-sparse-in-a-matching.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/machinery-persists-by-warrant-not-position-in-a-reflective-loop.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/maintenance-capacity-must-match-harmful-artifact-inflow.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/maintenance-operations-catalogue-should-stage-stable-procedures.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/many-to-many-edge-state-is-where-files-yield-to-a-database.md": [
+    "architecture"
+  ],
+  "kb/notes/measuring-autonomy-well-enough-to-see-it-improve-is-an-open-problem.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/mechanistic-constraints-make-popperian-kb-recommendations-actionable.md": [
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/memory-backed-personalization-can-look-like-model-improvement.md": [
+    "agent-memory",
+    "computational-model",
+    "llm-reliability"
+  ],
+  "kb/notes/memory-design-adds-operational-axes-to-artifact-analysis.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/memory-management-policy-is-learnable-but-oracle-dependent.md": [
+    "learning-theory",
+    "agent-memory"
+  ],
+  "kb/notes/methodological-and-computational-closure-track-different-changes.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/methodology-enforcement-is-constraining.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/minimum-viable-vocabulary-is-the-naming-set-that-most-reduces.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/mixed-epistemic-status-must-be-preserved-below-the-document-level.md": [
+    "evaluation",
+    "context-engineering"
+  ],
+  "kb/notes/model-resolved-indirection-adds-interpretation-work-to-llm-execution.md": [
+    "computational-model"
+  ],
+  "kb/notes/moving-the-interpretation-enforcement-boundary-requires-coverage.md": [
+    "constraining",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/narrowing-bought-to-survive-review-is-paid-for-in-content.md": [
+    "document-system",
+    "failure-modes"
+  ],
+  "kb/notes/natural-language-project-state-specializes-search-heuristics.md": [
+    "context-engineering",
+    "self-improving-systems",
+    "theory-builder",
+    "improvement-loop"
+  ],
+  "kb/notes/naur-equates-machine-execution-with-formulated-criteria.md": [
+    "context-engineering",
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/naurs-compiler-case-tests-one-historically-bounded-documentation-and-consumption-system.md": [
+    "context-engineering",
+    "deploy-time-learning"
+  ],
+  "kb/notes/notes-need-quality-scores-to-scale-curation.md": [
+    "kb-maintenance",
+    "observability",
+    "curation"
+  ],
+  "kb/notes/only-explicit-retention-is-durable-writable-and-addressable.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "agent-memory",
+    "reflection"
+  ],
+  "kb/notes/opacity-is-a-scale-threshold.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/open-domain-memory-retention-needs-a-declared-output-spec.md": [
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/open-ended-construction-builds-an-object-and-a-theory-of-it.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/open-ended-improvement-allocates-search-before-evaluation.md": [
+    "computational-model",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/open-ended-theory-learning-and-factory-learning-close-the-same.md": [
+    "self-improving-systems",
+    "learning-theory",
+    "software-factory"
+  ],
+  "kb/notes/operational-signals-that-a-component-is-a-relaxing-candidate.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/opposed-recompute-factors-do-not-decide-documentation-segmentation.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/oracle-accumulation-improves-the-selection-environment.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/oracle-strength-spectrum.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/orchestration-needs-privilege-quarantine-not-permission-scope.md": [
+    "computational-model"
+  ],
+  "kb/notes/orchestration-strategies-and-run-state-have-opposite-persistence.md": [
+    "computational-model",
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/out-of-spec-output-is-a-failure-of-the-interpreter-not-the-spec.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/parametric-reproduction-cannot-replace-an-authoritative-record.md": [
+    "agent-memory"
+  ],
+  "kb/notes/periodic-kb-hygiene-should-be-externally-triggered-not-embedded-in.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/pointer-design-tradeoffs-in-progressive-disclosure.md": [
+    "links",
+    "computational-model"
+  ],
+  "kb/notes/problem-matches-guide-method-search-mechanism-matches-bound-transfer.md": [
+    "methodology"
+  ],
+  "kb/notes/process-structure-and-output-structure-are-independent-levers.md": [
+    "type-system"
+  ],
+  "kb/notes/program-theory-sustains-search-under-delayed-feedback.md": [
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/progressive-constraining-commits-only-after-patterns-stabilize.md": [
+    "learning-theory",
+    "computational-model",
+    "constraining"
+  ],
+  "kb/notes/project-theory-relates-new-demands-to-existing-organization.md": [
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/promotion-selects-for-unreliable-activation-and-the-regress-ends-only.md": [
+    "agent-memory",
+    "context-engineering",
+    "failure-modes"
+  ],
+  "kb/notes/prompt-ablation-converts-human-insight-to-deployable-framing.md": [
+    "evaluation"
+  ],
+  "kb/notes/prototype-standing-is-revision-cost-binding-plus-lost-investment.md": [
+    "learning-theory",
+    "constraining",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/psychology-to-agent-transfer-needs-per-principle-failure-mode-testing.md": [
+    "evaluation"
+  ],
+  "kb/notes/quality-signals-for-kb-evaluation.md": [
+    "kb-maintenance",
+    "observability",
+    "curation"
+  ],
+  "kb/notes/raw-accumulation-does-not-create-usable-memory.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/readable-artifact-loop-is-the-tractable-unit-for-continual-learning.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/reasoning-production-is-not-reasoning-evaluation.md": [
+    "evaluation",
+    "llm-reliability"
+  ],
+  "kb/notes/recognition-not-linking-is-the-hard-problem-in-knowledge-systems.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/reflection-buys-addressability.md": [
+    "computational-model",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/reflection-makes-retained-lessons-second-order.md": [
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/reflective-coverage-is-graded-across-representational-forms.md": [
+    "computational-model",
+    "constraining",
+    "self-improving-systems",
+    "reflection"
+  ],
+  "kb/notes/reliability-dimensions-map-to-oracle-hardening-stages.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/research/adaptation-agentic-ai-analysis.md": [
+    "learning-theory",
+    "artifact-analysis",
+    "agent-memory",
+    "context-engineering"
+  ],
+  "kb/notes/residue-classes-need-different-mechanisms-so-architecture-is-mixed.md": [
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/retained-artifacts-enable-persistent-deployment-time-adaptation.md": [
+    "learning-theory",
+    "deploy-time-learning",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/retained-theories-may-improve-sample-efficiency.md": [
+    "learning-theory",
+    "discovery",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/retained-theory-intervention-isolates-one-explicit-surface.md": [
+    "self-improving-systems",
+    "evaluation",
+    "theory-builder"
+  ],
+  "kb/notes/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md": [
+    "agent-memory",
+    "learning-theory",
+    "context-engineering"
+  ],
+  "kb/notes/reverse-compression-is-when-llm-output-expands-without-adding.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/reviewers-share-the-fields-prior-so-interpret-findings-by-stance.md": [
+    "methodology"
+  ],
+  "kb/notes/revising-an-improvement-objective-is-licensed-from-outside-it.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/revision-guided-by-rationale-needs-faithfulness-not-just-legibility.md": [
+    "learning-theory",
+    "discovery",
+    "evaluation",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/rlm-has-the-model-write-ephemeral-orchestrators-over-sub-agents.md": [
+    "computational-model"
+  ],
+  "kb/notes/rlm-tendril-and-llm-do-place-symbolic-work-at-different-persistence.md": [
+    "computational-model",
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/rule-based-context-selection-needs-a-pre-existing-signal.md": [
+    "context-engineering",
+    "agent-memory"
+  ],
+  "kb/notes/runtime-structure-determines-governance-control-surfaces.md": [
+    "architecture",
+    "computational-model"
+  ],
+  "kb/notes/scaling-absorbs-scaffolding-at-fixed-difficulty-not-at-the-frontier.md": [
+    "learning-theory",
+    "deploy-time-learning"
+  ],
+  "kb/notes/scheduler-llm-separation-exploits-an-error-correction-asymmetry.md": [
+    "computational-model",
+    "llm-reliability"
+  ],
+  "kb/notes/selecting-an-llm-output-fixes-a-result-not-its-interpretation.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/self-improvement-is-relative-to-a-declared-objective.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/semantic-review-catches-content-errors-that-structural-validation.md": [
+    "kb-maintenance",
+    "observability",
+    "review-system"
+  ],
+  "kb/notes/semantic-sub-goals-that-exceed-one-context-window-become-scheduling.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/semantic-work-can-be-relocated-but-not-eliminated.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/session-history-should-not-be-the-default-next-context.md": [
+    "computational-model"
+  ],
+  "kb/notes/short-composable-notes-maximize-combinatorial-discovery.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/silent-disambiguation-is-the-semantic-analogue-of-tool-fallback.md": [
+    "learning-theory",
+    "computational-model",
+    "observability",
+    "llm-reliability"
+  ],
+  "kb/notes/skill-discovery-re-fires-in-every-sub-agent-context.md": [
+    "computational-model",
+    "architecture"
+  ],
+  "kb/notes/soft-bound-traditions-as-sources-for-context-engineering-strategies.md": [
+    "context-engineering"
+  ],
+  "kb/notes/soft-degradation-often-binds-before-the-hard-cap-when-evidence-fits.md": [
+    "context-engineering"
+  ],
+  "kb/notes/solve-low-degree-of-freedom-subproblems-first-to-avoid-blocking.md": [
+    "computational-model"
+  ],
+  "kb/notes/spec-mining-as-codification.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/specific-intent-may-out-yield-local-rationales-facts-stay-separate.md": [
+    "document-system",
+    "context-engineering"
+  ],
+  "kb/notes/specification-level-separation-recovers-scoping-before-it-recovers.md": [
+    "computational-model",
+    "llm-reliability"
+  ],
+  "kb/notes/specification-strategy-should-follow-where-understanding-lives.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/stale-self-description-conceals-its-own-staleness.md": [
+    "self-improving-systems",
+    "artifact-analysis",
+    "reflection"
+  ],
+  "kb/notes/stateful-tools-recover-control-by-becoming-hidden-schedulers.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/structure-inference-needs-capture-at-the-decision-surface.md": [
+    "agent-memory",
+    "context-engineering",
+    "learning-theory"
+  ],
+  "kb/notes/structured-output-is-easier-for-humans-to-review.md": [
+    "type-system"
+  ],
+  "kb/notes/structured-prompt-gains-do-not-establish-distribution-selection.md": [
+    "type-system"
+  ],
+  "kb/notes/subtasks-that-need-different-tools-force-loop-exposure-in-agent.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/superseded-choices-are-retained-superseded-beliefs-are-not.md": [
+    "kb-maintenance",
+    "artifact-analysis",
+    "claims-and-grounding"
+  ],
+  "kb/notes/synthesis-is-not-error-correction.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/system-definition-artifacts-are-crystallized-reasoning-under-context.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/system-use-provides-evidence-of-theory-fit-not-independent-warrant.md": [
+    "learning-theory",
+    "deploy-time-learning",
+    "evaluation",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/system-use-selects-theory-fit-without-a-fixed-oracle.md": [
+    "learning-theory",
+    "deploy-time-learning",
+    "evaluation",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/systematic-prompt-variation-serves-verification-and-diagnosis-not.md": [
+    "evaluation",
+    "llm-reliability",
+    "learning-theory"
+  ],
+  "kb/notes/task-families-and-product-families-classify-different-things.md": [
+    "computational-model",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/technical-constraints-make-kb-objective-choice-engineering.md": [
+    "document-system"
+  ],
+  "kb/notes/the-augmentation-automation-boundary-is-discrimination-not-accuracy.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/the-bitter-lesson-defense-portfolio-has-one-load-bearing-member.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/the-bitter-lesson-selects-production-methods-not-representational.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/the-boundary-of-automation-is-the-boundary-of-verification.md": [
+    "llm-reliability"
+  ],
+  "kb/notes/the-chat-history-model-trades-context-efficiency-for-implementation.md": [
+    "computational-model"
+  ],
+  "kb/notes/the-deployed-system-not-the-model-is-the-unit-of-learning.md": [
+    "learning-theory",
+    "deploy-time-learning",
+    "computational-model",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/the-four-field-record-exposes-an-efficiency-security-and-sovereignty.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/the-practical-scheduler-is-the-host-language.md": [
+    "computational-model",
+    "context-engineering"
+  ],
+  "kb/notes/the-self-improving-system-definition-classifies-its-boundary-cases.md": [
+    "self-improving-systems"
+  ],
+  "kb/notes/theory-and-capacity-building-make-the-same-kind-of-commitment.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/theory-and-methodology-form-a-two-layer-execution-system.md": [
+    "learning-theory",
+    "constraining",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/theory-building-has-distinct-precedents.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/theory-warrant-tracked-at-the-finest-granularity-evidence-licenses.md": [
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/three-space-agent-memory-echoes-tulvings-taxonomy-but-the-analogy.md": [
+    "learning-theory",
+    "agent-memory"
+  ],
+  "kb/notes/title-as-claim-enables-traversal-as-reasoning.md": [
+    "document-system",
+    "links"
+  ],
+  "kb/notes/title-as-claim-exposes-commitments-enabling-popperian-maintenance.md": [
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/title-as-claim-makes-overlap-between-notes-visible.md": [
+    "kb-maintenance",
+    "claims-and-grounding"
+  ],
+  "kb/notes/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md": [
+    "computational-model",
+    "llm-reliability"
+  ],
+  "kb/notes/trace-extracted-memory-earns-authority-per-operation-not-at-capture.md": [
+    "agent-memory",
+    "learning-theory",
+    "context-engineering"
+  ],
+  "kb/notes/traditional-software-can-bracket-executor-conformance-llm-systems.md": [
+    "llm-reliability",
+    "computational-model"
+  ],
+  "kb/notes/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md": [
+    "kb-maintenance",
+    "curation"
+  ],
+  "kb/notes/treat-continual-learning-as-representational-form-coevolution.md": [
+    "learning-theory",
+    "self-improving-systems",
+    "continual-learning"
+  ],
+  "kb/notes/type-system-enforces-metadata-that-navigation-depends-on.md": [
+    "type-system"
+  ],
+  "kb/notes/types-give-agents-structural-hints-before-opening-documents.md": [
+    "type-system"
+  ],
+  "kb/notes/underspecification-and-indeterminism-complicate-programming-for.md": [
+    "learning-theory",
+    "computational-model",
+    "constraining"
+  ],
+  "kb/notes/unformalized-improvements-need-a-pre-formal-stage-in-the-loop.md": [
+    "self-improving-systems",
+    "constraining",
+    "continual-learning"
+  ],
+  "kb/notes/unified-calling-conventions-enable-bidirectional-refactoring.md": [
+    "learning-theory",
+    "computational-model",
+    "constraining"
+  ],
+  "kb/notes/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md": [
+    "document-system"
+  ],
+  "kb/notes/universal-software-factory-needs-a-declared-universality-axis.md": [
+    "computational-model",
+    "self-improving-systems",
+    "software-factory"
+  ],
+  "kb/notes/use-tests-a-decomposition-locally-rationale-makes-transfer-testable.md": [
+    "learning-theory",
+    "deploy-time-learning"
+  ],
+  "kb/notes/usefulness-autonomy-warrant-and-power-are-separate-dimensions.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/verifiability-gradient.md": [
+    "learning-theory",
+    "constraining"
+  ],
+  "kb/notes/verifiable-subroles-before-reviewer-identity.md": [
+    "evaluation",
+    "llm-reliability"
+  ],
+  "kb/notes/verification-needs-a-typed-target-before-it-needs-an-oracle.md": [
+    "learning-theory",
+    "artifact-analysis"
+  ],
+  "kb/notes/vocabulary-collisions-prevented-at-write-time-not-read-time.md": [
+    "computational-model"
+  ],
+  "kb/notes/warranted-autonomy-is-bounded-by-oracle-domain.md": [
+    "self-improving-systems",
+    "evaluation",
+    "warranted-autonomy"
+  ],
+  "kb/notes/warranted-reader-update-is-the-objective-of-substantive-writing.md": [
+    "context-engineering",
+    "learning-theory",
+    "discovery"
+  ],
+  "kb/notes/warranted-transfer-leaves-people-the-hardest-to-warrant-decisions.md": [
+    "self-improving-systems",
+    "warranted-autonomy"
+  ],
+  "kb/notes/weakly-discriminated-qualities-tend-to-be-underselected.md": [
+    "learning-theory",
+    "llm-reliability",
+    "evaluation",
+    "self-improving-systems",
+    "improvement-loop"
+  ],
+  "kb/notes/weight-resident-methodologies-compress-behavior-in-context.md": [
+    "context-engineering",
+    "methodology"
+  ],
+  "kb/notes/why-directories-despite-their-costs.md": [
+    "document-system"
+  ],
+  "kb/notes/why-notes-have-types.md": [
+    "type-system"
+  ],
+  "kb/notes/wikiwiki-principle-lowest-friction-capture-then-progressive-refinement.md": [
+    "type-system"
+  ],
+  "kb/notes/world-models-assess-explanatory-reach-through-action-conditioned.md": [
+    "computational-model",
+    "self-improving-systems",
+    "theory-builder"
+  ],
+  "kb/notes/writing-styles-are-strategies-for-managing-underspecification.md": [
+    "computational-model"
+  ]
+}

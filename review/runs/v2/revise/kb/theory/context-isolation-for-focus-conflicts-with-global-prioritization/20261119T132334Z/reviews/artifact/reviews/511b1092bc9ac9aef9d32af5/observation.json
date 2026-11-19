@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "id": "511b1092bc9ac9aef9d32af5",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-as-claim",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/*",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/title-as-claim",
+    "target-sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "criterion-bytes-sha256": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "962c9b93096475dc4d9b90d60fc4886031f6f1b3f877d952e5c8c6f2d0e4807d",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "gate-claim-strength.md": "8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367",
+      "gate-description-discrimination.md": "17cbbd1fca45e6be71ce6750fe85980667f4958045e3610c4bb9378b13702bcf",
+      "gate-title-as-claim.md": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "gate-title-body-alignment.md": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "gate-title-composability.md": "f8cac17c0f9608c444b3115f63e8e2458abf21903cb5a82a4e41d74dbf629e52",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "afef9bcd909f9b0fb80278a113317436fceca010",
+  "content-state": {
+    "kb/agentic-system-analyses/instructions/analyse-agentic-system/worker-profiles.yaml": {
+      "kind": "file",
+      "sha256": "741e0f193b2e9bafeaa071ea452f09e1752e691e591197fcf238f396d738c046"
+    },
+    "kb/instructions/review-profiles.yaml": {
+      "kind": "file",
+      "sha256": "7f8dfdb9d06bf0b6eed16e6ccf8f3cd4fd376b03839f2be18cac4944bc30947c"
+    },
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/tasks/profiles.yaml": {
+      "kind": "file",
+      "sha256": "53896bc2b801e4da1365486d7ccd2b3aac8dcc5eb30e833fd515cc5b378a7ed4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "b0317f8cee5d396370e4b6a65ecc3eeec8e8c6205308dab3ea57bb4dd395d94c",
+  "executor": {
+    "path": "provenance/39295bfb8adf9bf320b84811885ada4b7ba6aad3c0862004798b0c74488e0ded.json",
+    "sha256": "39295bfb8adf9bf320b84811885ada4b7ba6aad3c0862004798b0c74488e0ded"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "bytes": 16238,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+      "path": "inputs/criterion.md",
+      "sha256": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "bytes": 1118,
+      "input": "gate-title-as-claim.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "962c9b93096475dc4d9b90d60fc4886031f6f1b3f877d952e5c8c6f2d0e4807d",
+      "bytes": 3001
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/*",
+      "key": "ce7fb1fb8dfed3d6a73ab6e8441697a6acf91a27b9f37bbb037f07c091359255"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795094680.6442828,
+      "event": "stopped-call",
+      "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/*",
+      "key": "ce7fb1fb8dfed3d6a73ab6e8441697a6acf91a27b9f37bbb037f07c091359255",
+      "reason": "launch_error after 3 launch(es): [Errno 2] No such file or directory: 'claude'"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

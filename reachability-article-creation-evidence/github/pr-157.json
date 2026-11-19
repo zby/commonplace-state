@@ -1,0 +1,134 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\n- distinguish minimal factory learning from the harder target of open-ended coherent modification;\n- use Naur to state a scoped functional requirement: some project-specific state must perform the mapping, justification, and integration work of program theory;\n- keep the carrier open \u2014 theory may be implicit or distributed, while natural-language theory is the specific addressable realization under test;\n- stop treating search, trajectories, learned policies, and optimization as automatically substituting for theory, since they may construct, revise, apply, or embody it;\n- restore partial and fallible theory, tentative change, backtracking, recovery, and theory revision as the realistic model of software development;\n- preserve the experimental boundary: a natural-language-theory intervention tests that explicit surface, and a factory-learning claim additionally requires changed reusable family machinery to affect later production.\n\n## Files\n\n- the research-program article;\n- the neutral factory-learning mechanism comparison;\n- the note on theory-mediated heterogeneous factory development.\n\nThe article title is deliberately unchanged in this PR.",
+    "closedAt": "2026-08-31T15:38:42Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T15:02:36Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:02:36Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify the factory-learning claim in the controlled test",
+        "oid": "0dae1f427f7ceb4838c9b9440db496c7888ef4fa"
+      },
+      {
+        "authoredDate": "2026-08-31T15:16:35Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:16:35Z",
+        "messageBody": "",
+        "messageHeadline": "Compress the controlled-test boundary",
+        "oid": "c0e58a86e8ae4ae0603154a5165701f0e8f0040c"
+      },
+      {
+        "authoredDate": "2026-08-31T15:17:31Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:17:31Z",
+        "messageBody": "",
+        "messageHeadline": "Restore final newline",
+        "oid": "f18bfd0096f222950efe5048d0655df93d28fd82"
+      },
+      {
+        "authoredDate": "2026-08-31T15:24:24Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:24:24Z",
+        "messageBody": "",
+        "messageHeadline": "Separate update mechanisms from the project-theory function",
+        "oid": "0692da9a7d70c91fa6e69b92a30348a44539f76d"
+      },
+      {
+        "authoredDate": "2026-08-31T15:24:53Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:24:53Z",
+        "messageBody": "",
+        "messageHeadline": "Scope theory indispensability to coherent modification",
+        "oid": "83f51fa8879fcfdf7f4cb827299300d5c06d91af"
+      },
+      {
+        "authoredDate": "2026-08-31T15:26:08Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T15:26:08Z",
+        "messageBody": "",
+        "messageHeadline": "Restore the Naurian theory constraint and fallible search",
+        "oid": "368570e0ab3b10c1ac1486616c2248129201e1bb"
+      }
+    ],
+    "createdAt": "2026-08-31T15:02:46Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 147,
+        "deletions": 90
+      },
+      {
+        "path": "kb/notes/factory-learning-mechanisms-should-be-compared-on-the-same-causal-job.md",
+        "additions": 22,
+        "deletions": 6
+      },
+      {
+        "path": "kb/notes/theory-mediation-can-coordinate-heterogeneous-factory-development.md",
+        "additions": 37,
+        "deletions": 10
+      }
+    ],
+    "headRefName": "clarify-factory-learning-test-boundary",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T15:38:42Z",
+    "number": 157,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Restore the Naurian theory constraint and fallible search",
+    "updatedAt": "2026-08-31T15:38:42Z",
+    "url": "https://github.com/zby/commonplace/pull/157"
+  },
+  "inline_review_comments": []
+}

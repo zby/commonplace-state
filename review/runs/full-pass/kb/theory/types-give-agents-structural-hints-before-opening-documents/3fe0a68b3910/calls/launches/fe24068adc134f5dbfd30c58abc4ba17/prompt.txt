@@ -1,0 +1,33 @@
+Task:
+Apply one method to one note. Nobody will answer questions. If you cannot apply it, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/types-give-agents-structural-hints-before-opening-documents.md` in this repository; the text under review is <Inputs: note.md>. Judge this input text; the note's file in the checkout may hold an older text. The method is `instructions/run-compression-bundle-on-note.md`; its text is <Inputs: criterion.md>. The supporting files its links name are inputs:
+- `instructions/compression-bundle/README.md`: <Inputs: support-README.md>
+- `instructions/compression-bundle/branch-bloat.md`: <Inputs: support-branch-bloat.md>
+- `instructions/compression-bundle/core-claim-obscured.md`: <Inputs: support-core-claim-obscured.md>
+- `instructions/compression-bundle/detail-overhang.md`: <Inputs: support-detail-overhang.md>
+- `instructions/compression-bundle/high-impact-simplification-synthesis.md`: <Inputs: support-high-impact-simplification-synthesis.md>
+- `instructions/compression-bundle/marginal-value-redundancy.md`: <Inputs: support-marginal-value-redundancy.md>
+
+Do the method's work yourself in this session, as its fresh, single-use reviewer: where it tells you to dispatch or delegate, do that work instead; where it names a path for its report, write the report to <Required outputs: report.md> instead; where it would ask the user, record the question in the report.
+
+Output:
+- Write the method's complete report to <Required outputs: report.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+
+Inputs (read these exact files):
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/criterion.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/note.md
+- support-README.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-README.md
+- support-branch-bloat.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-branch-bloat.md
+- support-core-claim-obscured.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-core-claim-obscured.md
+- support-detail-overhang.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-detail-overhang.md
+- support-high-impact-simplification-synthesis.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-high-impact-simplification-synthesis.md
+- support-marginal-value-redundancy.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/inputs/support-marginal-value-redundancy.md
+
+Required outputs (write these exact files):
+- report.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/outputs/report.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/full-pass/kb/theory/types-give-agents-structural-hints-before-opening-documents/3fe0a68b3910/calls/launches/fe24068adc134f5dbfd30c58abc4ba17/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

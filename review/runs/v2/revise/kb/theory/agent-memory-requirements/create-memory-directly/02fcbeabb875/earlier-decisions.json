@@ -1,0 +1,56 @@
+{
+  "decisions": [
+    {
+      "proposal": {
+        "quote": "the natural operation is to write the useful artifact",
+        "change": "write the useful artifact",
+        "reason": "'the natural operation is' is a roundabout frame; the imperative states the same recommendation"
+      },
+      "state": "rejected",
+      "reason": "I don't like turning it into instruction",
+      "revisit": null,
+      "decided-by": "operator",
+      "decided-at": "2026-11-16T14:03:11Z",
+      "answers-file": "kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/plain-wording-answers-523f009476ed.md"
+    },
+    {
+      "proposal": {
+        "quote": "are still live",
+        "change": "are still in the agent's context",
+        "reason": "'live' is a figure for 'still held in context'; the literal phrase says where the information is"
+      },
+      "state": "approved",
+      "reason": "the metaphors are rather simple - so we could keep them - but on the other hand agents often overload the text with metaphors - so removing them is usually a good approach",
+      "revisit": null,
+      "decided-by": "operator",
+      "decided-at": "2026-11-16T14:03:11Z",
+      "answers-file": "kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/plain-wording-answers-523f009476ed.md"
+    },
+    {
+      "proposal": {
+        "quote": "while understanding was live",
+        "change": "while the agent still held that understanding",
+        "reason": "same figure as in the opening paragraph; use one literal wording for both"
+      },
+      "state": "approved",
+      "reason": "the metaphors are rather simple - so we could keep them - but on the other hand agents often overload the text with metaphors - so removing them is usually a good approach",
+      "revisit": null,
+      "decided-by": "operator",
+      "decided-at": "2026-11-16T14:03:11Z",
+      "answers-file": "kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/plain-wording-answers-523f009476ed.md"
+    },
+    {
+      "proposal": {
+        "quote": "A check can fossilize a temporary workaround.",
+        "change": "A check can make a temporary workaround permanent.",
+        "reason": "'fossilize' is a figure; the literal verb keeps the meaning (the workaround persists after it is needed)"
+      },
+      "state": "approved",
+      "reason": "the metaphors are rather simple - so we could keep them - but on the other hand agents often overload the text with metaphors - so removing them is usually a good approach",
+      "revisit": null,
+      "decided-by": "operator",
+      "decided-at": "2026-11-16T14:03:11Z",
+      "answers-file": "kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/plain-wording-answers-523f009476ed.md"
+    }
+  ]
+}

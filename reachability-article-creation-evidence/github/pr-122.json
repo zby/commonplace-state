@@ -1,0 +1,384 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\nRecenter the theory-mediated self-improvement workshop on one scientific question: whether a computational composite can use fallible project-specific theory to keep modification search, backtracking, recovery, and revision coherent across delayed feedback.\n\nThe PR now separates four positions that had been conflated:\n\n1. a narrow rebuttal: the Bitter Lesson constrains production methods but does not imply that every learned result must live in weights;\n2. a working conjecture: explicit project theory may improve coherent search and targeted revision under sparse or delayed feedback;\n3. a first construction strategy: use the already-computational Commonplace loop as a live selection environment where retained artifacts guide LLM search and the operator currently supplies much of the high-level global-fit signal;\n4. an open comparison: retain this strategy only insofar as increasing computation improves useful search, recurring operator judgments become reusable selection machinery, human effort falls, transfer extends beyond anticipated domains, and the process competes with more direct learning methods.\n\nBootstrapping is therefore no longer presented as a defense or as a pre-computational phase. The unresolved problem is selection and credit assignment for global theory fit, not the presence of computation.\n\n## Main changes\n\n- make coherent modification the program's center and treat warranted transfer, evaluation, and closure as supporting questions;\n- distinguish evidence that a claim is true or valid from evidence that it fits the larger working theory;\n- state explicitly that the present loop already uses computation for retrieval, interpretation, search, synthesis, criticism, editing, testing, and retention;\n- record the current workshop conversation as a human-inclusive computational theory-mediated episode;\n- identify the operator's sparse global-fit judgments as the current high-level selection signal rather than describing the work as handcrafting before computation;\n- add the live system as an initial, consequence-bearing selection environment for global theory fit;\n- require recurring human judgments to be candidates for tests, validators, learned critics, search objectives, methods, episode schemas, or code;\n- keep end-to-end, evolutionary, parametric, stronger-model, and other computational approaches as live alternatives;\n- retain domain-extensibility and decreasing marginal human judgment as long-run tests rather than current accomplishments;\n- distinguish structural computational closure from capability and warrant;\n- distinguish semantic interpretation from epistemic reach-assessment;\n- separate mediation, empirical contact, theory learning, and recurrent later use as evidence levels;\n- treat representation, interpretation, verification, and continuity as distinct functions without claiming that today's representational carriers must remain separate;\n- narrow the adverse-selection claim to its conditional form and specify the before-and-after evidence needed to test it;\n- compress the public surface to a hub, the Naur argument, the Bitter Lesson argument, and experimental protocols or results.\n\n## Current episode\n\nThe 2026-08-30 conversation provides a concrete record:\n\n1. the model read retained Commonplace artifacts and repository state;\n2. computational synthesis produced a review, candidate distinctions, experiments, and repository changes;\n3. the operator supplied sparse corrections about the Bitter Lesson framing and the location of the evaluator gap;\n4. the theory and workshop artifacts were revised and retained;\n5. the revised state guided later turns.\n\nThis supports mediation, theory-state revision, and recurrence at the human-inclusive boundary. It does not establish autonomous selection, independent truth, or scaling with additional computation.\n\n## Proposed experiments\n\n### Theory intervention\n\nCompare four matched conditions over sequential programming demands with delayed consequences:\n\n1. correct project theory;\n2. an information-matched record without synthesized theory-level organization;\n3. theory withheld; and\n4. plausible but wrong or outdated theory.\n\nMeasure candidate generation, architectural preservation, diagnosis, backtracking, recovery, delayed-demand performance, collateral regressions, human intervention, and effects on a later episode.\n\n### Selection-environment bootstrap\n\nInstrument a sequence of real Commonplace improvements. Record which retained artifacts guide model search, which proposals and checks are computational, which global-fit judgments remain human and why, which downstream consequences bear on them, whether rival or ablated claims change the result, and whether recurring judgments become reusable selection machinery on later episodes.\n\n## Scope\n\nThe PR updates the active research surface only. Completed adequacy, absorption, grounding, and compatibility investigations remain intact as historical evidence records.\n\nWorkshop: `kb/work/theory-mediated-self-improvement-series`\nModel: `gpt-5.6-pro`",
+    "closedAt": "2026-08-30T07:52:41Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-29T23:23:38Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-29T23:23:38Z",
+        "messageBody": "Make coherent modification the central research question, separate structural closure from warrant and semantic interpretation from evaluation, and treat the current mixed-form system as provisional bootstrap state for domain-extensible learning.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Recenter theory-mediated research on a scalable bootstrap",
+        "oid": "af8090455086b3e55c1e9a8a5cc262a8845788c8"
+      },
+      {
+        "authoredDate": "2026-08-29T23:26:14Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-29T23:26:14Z",
+        "messageBody": "State the residue result directly as a requirement for distinct functions rather than permanent representational mixture, and link the Bitter Lesson article to Sutton's original essay.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Clarify functional mixedness and source attribution",
+        "oid": "928e6b15d9e20b8bf418cd3f6df49eb72b140468"
+      },
+      {
+        "authoredDate": "2026-08-30T06:25:28Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:25:28Z",
+        "messageBody": "",
+        "messageHeadline": "Add system-building selection environment claim",
+        "oid": "8fb2d93418b0a534fb02b2f4823fea328e8d3b41"
+      },
+      {
+        "authoredDate": "2026-08-30T06:26:07Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:26:07Z",
+        "messageBody": "",
+        "messageHeadline": "Reframe bootstrap as provisional strategy",
+        "oid": "3176084face013e58aa2f302fc04b6ea1ac3d9f9"
+      },
+      {
+        "authoredDate": "2026-08-30T06:26:43Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:26:43Z",
+        "messageBody": "",
+        "messageHeadline": "Separate Bitter Lesson rebuttal from bootstrap strategy",
+        "oid": "c2f0d14ba5300fef41b144d55f1128906335c669"
+      },
+      {
+        "authoredDate": "2026-08-30T06:27:33Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:27:33Z",
+        "messageBody": "",
+        "messageHeadline": "Present bootstrap as first strategy, not defense",
+        "oid": "ffba299e26750f11c8bb4fbcb67f98e2cd857129"
+      },
+      {
+        "authoredDate": "2026-08-30T06:28:12Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:28:12Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify bootstrap strategy and evaluation gap",
+        "oid": "7bf09fb059b6890bee737da7610fd025b446f122"
+      },
+      {
+        "authoredDate": "2026-08-30T06:28:55Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:28:55Z",
+        "messageBody": "",
+        "messageHeadline": "Add evaluator-incomplete bootstrap model",
+        "oid": "37ec222810a6a09f235fda42c11fdc19a8944da7"
+      },
+      {
+        "authoredDate": "2026-08-30T06:30:39Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:30:39Z",
+        "messageBody": "",
+        "messageHeadline": "Frame bootstrapping as a first research strategy",
+        "oid": "9e066d9410f1a2ee4f25fd1031fa24a416867ddd"
+      },
+      {
+        "authoredDate": "2026-08-30T06:31:03Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:31:03Z",
+        "messageBody": "",
+        "messageHeadline": "Recast bootstrap as evaluator-growth problem",
+        "oid": "5d2be2bc03463291ce85983aa8163e46c5d76095"
+      },
+      {
+        "authoredDate": "2026-08-30T06:31:27Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T06:31:27Z",
+        "messageBody": "",
+        "messageHeadline": "Separate Bitter Lesson rebuttal from first strategy",
+        "oid": "bfef1cfa4eaeebb08a96412fd39d669f397a8417"
+      },
+      {
+        "authoredDate": "2026-08-30T07:04:28Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:04:28Z",
+        "messageBody": "",
+        "messageHeadline": "Record computational theory-guided workshop episode",
+        "oid": "b70b9b8130a492af9ec9260f1c35f90a1c160b91"
+      },
+      {
+        "authoredDate": "2026-08-30T07:05:02Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:05:02Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify that the bootstrap already uses computation",
+        "oid": "933405f7ff3a33d5f4cd62201b1f9ccbac8445b5"
+      },
+      {
+        "authoredDate": "2026-08-30T07:06:11Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:06:11Z",
+        "messageBody": "",
+        "messageHeadline": "State that the workshop already uses computation",
+        "oid": "509bbf9b85d5af3ed3f68cfb3cc3884d720a5cfd"
+      },
+      {
+        "authoredDate": "2026-08-30T07:07:26Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:07:26Z",
+        "messageBody": "",
+        "messageHeadline": "Distinguish current computation from selection bottlenecks",
+        "oid": "b978c4074e273bbd7f255eff813d78416e1934a3"
+      },
+      {
+        "authoredDate": "2026-08-30T07:08:18Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:08:18Z",
+        "messageBody": "",
+        "messageHeadline": "Describe Commonplace as an already-computational learning loop",
+        "oid": "61e68a5e1a3233c72deb9d4af48bfc22d3038062"
+      },
+      {
+        "authoredDate": "2026-08-30T07:09:11Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:09:11Z",
+        "messageBody": "",
+        "messageHeadline": "Make the hub explicit about current computational search",
+        "oid": "893b847a533861950d29d89fb3a9d02a14daf36f"
+      },
+      {
+        "authoredDate": "2026-08-30T07:10:13Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:10:13Z",
+        "messageBody": "",
+        "messageHeadline": "Frame bootstrap problem as improving an existing computational loop",
+        "oid": "2d3ba68b069fc7970235a6c2670cb026db614b81"
+      },
+      {
+        "authoredDate": "2026-08-30T07:11:22Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T07:11:22Z",
+        "messageBody": "",
+        "messageHeadline": "Align article roles with the existing computational loop",
+        "oid": "e766e412da8375d24ef114e994e7c1a5b6aeed52"
+      }
+    ],
+    "createdAt": "2026-08-29T23:24:04Z",
+    "files": [
+      {
+        "path": "kb/articles/the-bitter-lesson-does-not-require-everything-to-live-in-weights.md",
+        "additions": 334,
+        "deletions": 82
+      },
+      {
+        "path": "kb/articles/the-decisions-that-stay-human-and-what-would-move-them.md",
+        "additions": 341,
+        "deletions": 121
+      },
+      {
+        "path": "kb/articles/what-bound-naurs-theory-to-programmers.md",
+        "additions": 30,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/a-hand-crafted-bootstrap-fits-the-bitter-lesson-only-if-learning-can-outgrow-it.md",
+        "additions": 184,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/residue-classes-need-different-mechanisms-so-architecture-is-mixed.md",
+        "additions": 149,
+        "deletions": 53
+      },
+      {
+        "path": "kb/notes/the-bitter-lesson-defense-portfolio-has-one-load-bearing-member.md",
+        "additions": 144,
+        "deletions": 52
+      },
+      {
+        "path": "kb/notes/theory-mediated-self-improvement-needs-interpretation-and-retention.md",
+        "additions": 167,
+        "deletions": 63
+      },
+      {
+        "path": "kb/notes/warranted-transfer-leaves-people-the-hardest-to-warrant-decisions.md",
+        "additions": 137,
+        "deletions": 43
+      },
+      {
+        "path": "kb/notes/when-global-theory-fit-lacks-a-fixed-oracle-use-in-building-the-system-is-an-initial-selection-environment.md",
+        "additions": 206,
+        "deletions": 0
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/README.md",
+        "additions": 210,
+        "deletions": 75
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/article-roles.md",
+        "additions": 99,
+        "deletions": 72
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/computational-theory-guided-conversation-episode-2026-08-30.md",
+        "additions": 145,
+        "deletions": 0
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/shared-model.md",
+        "additions": 345,
+        "deletions": 159
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/target-problems.md",
+        "additions": 63,
+        "deletions": 36
+      }
+    ],
+    "headRefName": "integrate-bitter-lesson-bootstrap",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T07:52:41Z",
+    "number": 122,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Recenter theory-mediated research on coherent modification and selection bootstrapping",
+    "updatedAt": "2026-08-30T18:23:10Z",
+    "url": "https://github.com/zby/commonplace/pull/122"
+  },
+  "inline_review_comments": []
+}

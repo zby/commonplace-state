@@ -1,0 +1,96 @@
+{
+  "kind": "controller-only-revalidation",
+  "source-run": "kb/reports/state/review/runs/v2/20261115T123635Z",
+  "new-model-calls": 0,
+  "published-current-results": false,
+  "original-evidence-rewritten": false,
+  "recovered-input": "reports/COLLECTION.md supplied from current checkout, not claimed as an original capture",
+  "recovered-input-sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+  "controller-source-sha256": "671a3aaf8395533440d1e1bac223b215f9e65de3e6c03b222f11c37a6d94ef7c",
+  "results": [
+    {
+      "observation": "3419da94374b47ec0349caae",
+      "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+      "launch": "d4038b1945f24408abbed53c3d78a6b0",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/d4038b1945f24408abbed53c3d78a6b0/outputs/review.md",
+      "raw-output-sha256": "01efd5b52075a8368192b7e4dd434a8f618f1785c840f91597140259238e7eb0",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/3419da94374b47ec0349caae/d4038b1945f24408abbed53c3d78a6b0/review.md",
+      "completed-result-sha256": "7263f8fa55906c03aa819ff337ec1d8c441827f806615b189a8df5006cd87808",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "3419da94374b47ec0349caae",
+      "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+      "launch": "2f43a0778bba491d9f088bec0d3ab58c",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/2f43a0778bba491d9f088bec0d3ab58c/outputs/review.md",
+      "raw-output-sha256": "1951f53bf27f9c8c8ced56c29c7b0e8f3cdf9d1551b948ffad55bc1e28b141e9",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/3419da94374b47ec0349caae/2f43a0778bba491d9f088bec0d3ab58c/review.md",
+      "completed-result-sha256": "a52bd25398d4fa8a79eba176615d3677e825c41ffb3d00db55f317a4042af6b3",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "64f74699436a3efddb0face2",
+      "criterion": "kb/instructions/critique-note.md",
+      "launch": "21126e398f51457a933fc4ef3e955aac",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/21126e398f51457a933fc4ef3e955aac/outputs/review.md",
+      "raw-output-sha256": "23d2fe1da73e1e0f80a13012c94decdaa1574b66bd42b47e6e2e16001ff0be46",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/64f74699436a3efddb0face2/21126e398f51457a933fc4ef3e955aac/review.md",
+      "completed-result-sha256": "95f967f386e44a87c71758c9a0c2d6fa5386c865231f79d853bb126b299e1604",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "64f74699436a3efddb0face2",
+      "criterion": "kb/instructions/critique-note.md",
+      "launch": "9e0005e01eb24428a525c03c6709a685",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/9e0005e01eb24428a525c03c6709a685/outputs/review.md",
+      "raw-output-sha256": "6ef5922275bcf44dd3a7b0ba6c531fb9ba9c3fb3a3d055f1259f99c166c5add7",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/64f74699436a3efddb0face2/9e0005e01eb24428a525c03c6709a685/review.md",
+      "completed-result-sha256": "a31440760d8b4753e70cd598087507b2d49b380740659022815ce36ab2c7e9f0",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "d9afba1f7ccbc253a4856928",
+      "criterion": "kb/types/note.md",
+      "launch": "a5810bff8eaf4679b97aae35cff37aba",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/a5810bff8eaf4679b97aae35cff37aba/outputs/review.md",
+      "raw-output-sha256": "52b3e5370fc9518098233736ebee4c7d381378eccd7db7c753be16fb9deef1cb",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/d9afba1f7ccbc253a4856928/a5810bff8eaf4679b97aae35cff37aba/review.md",
+      "completed-result-sha256": "1904591d4be52c03f55110c9460ea90de9364e712aecf51777b712b37d0e0f5a",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "d9afba1f7ccbc253a4856928",
+      "criterion": "kb/types/note.md",
+      "launch": "79dfb30bc21646259729484fa86f4bb2",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/79dfb30bc21646259729484fa86f4bb2/outputs/review.md",
+      "raw-output-sha256": "51ed7f2570f2b9f9a8099415d62c4e7d4e77372d338eb9436c76ef36aa45ddb5",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/d9afba1f7ccbc253a4856928/79dfb30bc21646259729484fa86f4bb2/review.md",
+      "completed-result-sha256": "8934d41eccc57c549a808d0a8eabea0b8ed47239e7067aa72ee28484c31a1875",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    },
+    {
+      "observation": "e5acfb7c990ee45af19eb7b2",
+      "criterion": "kb/theory/COLLECTION.md",
+      "launch": "06f87208a8044d749aad26547fbc825e",
+      "raw-output": "kb/reports/state/review/runs/v2/20261115T123635Z/calls/launches/06f87208a8044d749aad26547fbc825e/outputs/review.md",
+      "raw-output-sha256": "e5d7424f99d4036f3ed1d851642c2e7c88b9a95a4396d23a0831e591596c16b2",
+      "original-contract-sha256": "d6cb429f353da63ee3eb956257dc3c0d9e6080b42cb7c2554e2042f242c9fcbf",
+      "repaired-contract-sha256": "5a084df09d1b0de08e2dcd8e2316c8ae5af96860a9ebdfc00fb62dd34597653e",
+      "completed-result": "kb/reports/state/review/recovery/20261115T123635Z-controller-repair/e5acfb7c990ee45af19eb7b2/06f87208a8044d749aad26547fbc825e/review.md",
+      "completed-result-sha256": "7afb666bcca8dc04126144f9a6b70464f5aa0c8a389977fb48aa1737a29eb301",
+      "validation": "passed at current-view and retained paths; literal unique anchors also checked"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+The validation contract
+Commonplace as an instrument
+Instruction generation
+Agent memory coverage
+Answerability
+The declared Commonplace frame
+Unresolved frontier
+Commonplace doctrine
+The tag-readme trace read as a self-improving loop
+Special collection
+Writing conventions for kb/reference/
+Collection
+Collection prototypes
+Agentic-system analysis design brief
+Directory artifact
+Vocabulary collision ledger
+Review system
+Commonplace CLI commands
+Content routing
+Commonplace architecture
+Design rationale management in Commonplace
+Design proposal
+Review architecture
+Documentation site
+ADR
+Where change candidates come from in Commonplace
+Navigation
+Harness sub-agent model selection regression
+Source-adoption policy
+Commonplace agent memory gap plan
+Control-plane goals
+The collection–type split is asymmetric: collections never own frontmatter semantics
+Link vocabulary and linking approach
+Vocabulary unification ledger
+Epistemic stance
+Scenario architecture
+Storage
+113 — Artifact runs execute declared plans with pinned judgments
+Reference
+105 — Let analysts run their acceptance check before submission
+109 — Publish analyses with declared limits
+120 — Report verification selects omission questions by consequence
+Collections and types
+022-active-vocabulary-and-write-path-first-mentions
+080-Full passes hand claim changes back as a pending revise
+024-Schema severity is per-constraint, fail by default
+089-Tags are one namespace per KB with heads in kb/tags
+043-Review state separates completion, outcomes, and freshness baselines
+115 — Analysis records are cited by Markdown links
+059-External is a reserved outbound destination
+047-Type specifications use normal deterministic validation
+018-Types are path references to instruction docs
+017-collection-md-is-the-register-convention-boundary
+027-Package scaffold assets without source-tree symlinks
+004-Replace areas with tags
+067-Review workers read one prompt and write one output
+129-Workflow run bundles live under the state tree and are kept
+015-standardize-authored-type-definitions-on-json-schema
+099-Agentic analysis method and reports belong to the collection
+Backlink surfacing
+063-All article drafts circulate behind a banner
+081-Literature disposition is explicit and claim-grained
+111 — Directory types declare their layout
+Gate learning from accepted edits
+019-Collection-owned link vocabulary with per-destination outbound rules
+134 — Stops record the operator's answers in one typed file
+035-Review jobs finalize all-or-nothing with derived artifacts
+Write-time vocabulary collision controls
+086-Projects read the library from the installed package instead of a copy
+100 — Check required route fields at member acceptance
+075-Commit messages carry read-path trailers
+013-skills-first-delivery-with-core-local-type-split
+039-Tool visibility is package-owned and git is never invoked
+Repair dispositions for defeated claims are an epistemic policy with an option space
+095 — Directory artifacts add shared set validation
+046-Verbatim quotes are validated against their cited source
+125 — Analysis commands own preparation and bounded queues
+056-Adopted and retired proposals archive out of the frontier
+038-Type-conformance reviews use the type spec as the gate
+010-review state should move to sqlite once reviews leave git and accumulate operational metadata
+112 — One quote resolver for grounding and analysis evidence
+Keyword tags without heads
+103-Classify memory profiles after record verification
+126 — Integrate analysis publications by default
+045-Source genre is a single open field on the snapshot
+Tag maintenance and derived browsing
+062-Drafts may circulate at the root behind a draft banner
+031-Review state uses invocation-owned review pairs
+128-One ignored operational tree under kb/reports/state
+029-Review execution unified on (note, gate) pairs
+Replaceable workflow orchestrators
+072-Ingest reports own source authority and snapshots are local materializations
+042-Register becomes a default profile under open-ended text contracts
+Checked inline blocks for shared instruction text
+079-Grounding reviews budget sixteen distinct linked artifacts
+094 — Quotations require a unique occurrence or a containing range
+Trajectory-aware evaluation of transforming agent workflows
+052-General freshness store, review-first migration
+083-Agentic analysis uses minimal rerunnable state
+058-Directional identifiers use the source as subject
+082-Grounding is bounded on the artifact by unquoted sources per note
+034-Queued review jobs and execution provenance
+090-One completeness mark reaches members in one hop
+016-custom-types-use-template-instruction-pairs
+One improvement procedure over atomic instructions
+135 — Improvement procedures are three plans on one runner
+091-Refutation needs a checkable counterexample, and corroboration needs a test
+044-User verification replaces global note status
+Automated note refinement as a search over a fixed source bundle
+060-Rationale becomes rests-on and off-pattern grounds are reclassified
+003-connect-skill-discovery-strategy
+Type-selected Python validation checks
+002-inline-global-types-in-writing-guide
+084-Kind rules live in type specs and operations in instructions
+Structured-output codec for the review protocol
+071-Text contract is part of the collection definition
+106 — Merge analysis publications from isolated worktrees
+078-Writers invoke grounding and evidence stays in the ingest
+051-Full-pass packets own guarded captures and resolutions
+Shared analysis contract conformance
+040-`scripts/` is the accumulation substrate for ad hoc tooling
+041-Collection-conformance reviews use COLLECTION.md as the gate
+127 — Review runs as workflows over result files
+101 — Open analysis runs through workflow start
+Recorded revision of write briefs
+011-Notes must be accessible to external readers
+076-Source-claim grounding is a promoted skill
+Proposals
+036-Review acceptance is current state, not append-only history
+092-Write briefs are optional sidecars named by a validated pointer
+057-Articles use an editorial profile and excluded drafts
+023-Quote-anchored citations for code-grounded reviews
+077-Content routing by regeneration source and consumer
+009-Link relationship semantics
+132 — Review atoms retain observations behind current results
+093 — Memory comparisons keep evidence per value
+121 — Audit analysis traces without gating publication
+087-Source and report types are global library types
+033-Honest review state behind a versioned migration substrate
+098 — Separate analysis reconciliation from synthesis
+119 — Analysis workers launch through Workjig
+108 — Declaring analysts correct their reports
+122-Collections set the unquoted-source limit
+053-Retire distillation without a successor term
+096 — Analysis passes declare their own records under lens prefixes
+085-Withdrawn proposals are deleted
+097 — Agentic analysis drops decisions that change no result
+061-Articles may circulate as revisable working papers
+054-Add adapted-from and operationalized-from lineage relations
+064-Install Commonplace commands as a user-level uv tool
+Channel-compiled instruction artifacts
+114 — Directory types declare what a role verifies
+028-Design proposals live in kb/reference/proposals; ADRs record implemented decisions only
+074-Git is the change-history layer
+073-Untracked source snapshots require ingest grounding
+012-types-for-structure-traits-for-review
+050-Validation runs share parsed artifacts and collection indexes
+069-Collection contract bundles become one-time prototypes
+107-Classify memory by scoped findings
+066-Claims declare modality in text, and passes repair mode mismatch
+Bidirectional codification as a comparative test
+116 — One word per concept across prose and code
+030-Harness-facing seams: batch prepare/ingest endpoints and runner adapters
+049-Validator resolution returns scope and loads types directly
+055-Explanatory-reach replaces bare reach as the technical term
+Review budget enforcement is a separable decision
+025-Complete generated indexes are build-time only; agents read curated heads plus scoped rg
+136 — Note rewrites run as a workflow that ends at operator approval
+Ablation baselines for the declared objective
+124-Retire unique operational semantics as the form criterion
+130-The operator-decision record is a query over the state tree
+117 — Plans derive their structural jobs from the type
+Merging analysis runs back from isolated worktrees
+006-two-tree-installation-layout
+110 — Every analysis output has a type
+021-Ship library content under kb/commonplace
+131-Conformance reviews leave titles and descriptions to their gates
+Artifact function as a routing field
+Operational destinations for literature-grounding findings
+048-Imperative type rules dispatch by canonical path
+104-Name analysis records with stable short handles
+Exceeding a review budget splits the task
+014-scripts-as-python-package-one-tree-model
+Temporary amendments to published analyses
+070-Notes bind choices; reference records Commonplace selections and state
+Quote occurrence location and verification
+118 — Analyses run as a workflow over headless harnesses
+068-Collection contracts stop enumerating available types
+005-quality-check-placement
+037-Promote skills into runtime surfaces by copying
+026-Split index into a committed tag-readme type with enforced marks
+Routine bilateral isolation for literature assessment
+123-Theory names the Commonplace library collection
+008-Stdlib-only core scripts
+Fewer authored decisions in agentic-system analysis
+102-Separate the analysis collection and publish stable system paths
+065-Publish only supported freshness transitions
+133 — Edit operations run alone through one typed route
+007-Reports collection separates output retention policies
+088-Type values are paths on a two-root search path
+Harness capture for agentic-analysis diagnostics
+Harness-orchestrated review sweeps
+Calibrating semantic gates against labelled fixtures
+Lens-prefixed canonical record IDs
+020-Link vocabulary: add contrasts and mechanism; declare directional asymmetry
+Per-artifact write briefs
+Where subtree-scoped write-time contracts live
+Proposal archive
+Review configuration object
+Semantic contract for tags and tag heads
+Generalized validation invalidation
+Source registers without duplicated path inventories
+Deterministic note-to-ingest claim checking
+External articles collection
+Code-scheduled workflows
+Deterministic write-context assembly
+Review link budget prices reviewer attention
+A reader-facing banner for user verification
+Assertion force separate from lifecycle status
+Required route fields as labelled record lines
+Atomic-step grounding bounds unquoted sources per note
+Publishing analyses with unresolved issues
+Cost-per-yield records for routine controllers
+Evidence granularity for memory-comparison counts
+Collection-as-artifact freshness
+Multi-repository agentic-system analysis
+User-level uv tool installation for Commonplace commands
+Separate analysis reconciliation from synthesis
+Directory types declare their layout
+Factored dependency pairs for review freshness
+Plans without structural wrapper code
+Ingest source units and supporting material
+Source genre is one open-vocabulary field on the snapshot
+032-Review freshness uses DB snapshots, not Git
+Coded engine stops
+Periodic connect-report mining
+Model partition registry
+Workflow recovery history
+Authority grades and learning from operator decisions
+Adopt the declared layout in the analysis workflow
+Shipped skills as instructions, with generated stubs everywhere
+Worktree-relative worker paths
+Reusable commitment support as the route from theory building to other knowledge work
+Open an analysis run in code
+Normalized autonomy and revision comparison fields
+Recoverable replacement of an incumbent review
+Decisions bind their consumers through site back-pointers
+Record acceptance reads and judged versions
+Document validation in working-set context
+Code navigation tool portfolio for analysis workers
+Tag scope is declared where membership claims are made
+Source-claim grounding skill and evidence-retention boundary

@@ -1,0 +1,16 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/building-agents-fold-subagents-into-main-loop.ingest.md
+snapshot_sha256: b48cc4467467b986b319e8594c26946e678c18124cbba3e59da119036b8b3baa
+incumbent_sha256: 4521ff8644c183fcd593b32529d57f7d6802ce081a3ce80457436283d2386f94
+code_grounded: false
+created_snapshot: false
+opened: '2026-11-17T16:25:07+01:00'
+checks:
+- at: '2026-11-17T16:30:10+01:00'
+  failures: []
+- at: '2026-11-17T16:30:23+01:00'
+  failures: []
+- at: '2026-11-17T16:30:24+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-17T16:30:24+01:00'

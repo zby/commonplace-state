@@ -1,0 +1,28 @@
+{
+  "schema": "commonplace-review-targets/2",
+  "model_partition": "gpt-6-sol",
+  "targets": [
+    {
+      "note_path": "kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md",
+      "criterion_path": "commonplace:instructions/review-gates/frontmatter/tag-placement-20260926.md",
+      "criterion_id": "frontmatter/tag-placement-20260926",
+      "reasons": [
+        "note-changed"
+      ],
+      "result_kind": "verdict",
+      "changed_inputs": [
+        {
+          "input_role": "note",
+          "artifact_path": "kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md",
+          "version_kind": "file-text",
+          "status": "input-changed",
+          "accepted_snapshot_id": 1210,
+          "accepted_content_sha256": "82fb3c3308bc25c602c0250ab1092f5097a0700983662b10af0357bc212d6643",
+          "current_content_sha256": "7f23c1b6cdbe1d7e40152e690db62f8117bc84a0db954ff794cbe5d426f93fda",
+          "diff": "--- a/kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md\n+++ b/kb/notes/evidence/full-write-briefs-cut-edit-drift-one-line-briefs-did-not.md\n@@ -7,7 +7,7 @@\n \n # Full write briefs cut edit drift; one-line briefs did not\n \n-In one pre-registered pilot, writers editing a KB document under pressure dropped far fewer of its commissioned requirements when they were given the document's full write brief. A brief rebuilt afterwards from the commissioned document and its backlinks did nearly as well. A one-sentence brief did no better than no brief. The pilot tested the [per-artifact write-brief proposal](../../reference/proposals/per-artifact-write-briefs.md) on 2026-09-26. Its protocol was frozen at commit `05f3c44a` before any run, and the results were recorded at `1d76442f`.\n+In one pre-registered pilot, writers editing a KB document under pressure dropped far fewer of its commissioned requirements when they were given the document's full write brief. A brief rebuilt afterwards from the commissioned document and its backlinks did nearly as well. A one-sentence brief did no better than no brief. The pilot tested the design proposal *Per-artifact write briefs* on 2026-09-26; the decision it informed is [ADR 092](../../reference/adr/092-write-briefs-are-optional-sidecars-named-by-a-validated-pointer.md). Its protocol was frozen at commit `05f3c44a` before any run, and the results were recorded at `1d76442f`.\n \n ## What was tested\n \n@@ -59,6 +59,6 @@\n \n Relevant Notes:\n \n-- [Per-artifact write briefs](../../reference/proposals/per-artifact-write-briefs.md) \u2014 see-also: the proposal whose conjectures this pilot tested; its options and delivery routes\n+- [ADR 092: Write briefs are optional sidecars named by a validated pointer](../../reference/adr/092-write-briefs-are-optional-sidecars-named-by-a-validated-pointer.md) \u2014 see-also: the decision this pilot's evidence informed, adopting optional briefs delivered by a validated pointer\n - [Warranted reader update is the objective of substantive writing](../warranted-reader-update-is-the-objective-of-substantive-writing.md) \u2014 grounds: the reader update is one of the commission item kinds this pilot separated from boundaries\n - [Knowledge storage does not imply contextual activation](../knowledge-storage-does-not-imply-contextual-activation.md) \u2014 extends: a brief changed edits only when delivered into the writer's context; this pilot measures how much, and which kind of content, that delivery preserved"
+        }
+      ],
+      "baseline_revision": 1
+    }
+  ]
+}

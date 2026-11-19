@@ -1,0 +1,19 @@
+# Friction check: A retained operative path keeps improvement machinery open to revision
+
+**Note:** kb/notes/a-retained-operative-path-keeps-improvement-machinery-open-to-revision.md
+**Central claim (one sentence):** For a named redesign class, improvement machinery remains open to revision when a retained causal path represents the challenged organization, routes relevant evidence through an identifiable authority, installs the determined successor into live behavior, demonstrates later dependence on it, and leaves the successor available to the same kind of challenge again.
+
+## Filter
+**Verdict:** SURVIVES
+
+The sought properties can coexist: scope to a named redesign class, represented and challengeable machinery, an authorized evidence-to-change transition, an installed and later-used successor, recursive re-challengeability, and no permanently external controller. A versioned live workflow is a consistent witness: each transition can run under its incumbent rule while that rule remains an eligible target of a later authorized transition. The claim does not require every component or redesign class to be open at once.
+
+## Signal — thinnest joints
+1. **“The first case closes a reflective self-improvement path”** — UNSUPPORTED — The tag-README episode establishes evidence, installation, and later use, but the stated record does not establish the sixth obligation: that the resulting marks/schema/validator organization, together with a usable challenge path, remained available for another revision episode. Repository editability would show only possible reach by the note's own distinction.
+2. **“The sixth keeps the process recursively open”** — THIN — Keeping the successor available as a target, plus whatever evidence or rationale is needed to challenge it, does not by itself establish that evidence can again reach a represented change process, receive authorization, be installed, and govern later operation. This inference works only if the rest of the operative path is also retained after the successor is installed, which the sixth obligation does not explicitly require.
+3. **“The episode demonstrates an operative redesign path for agent architecture”** — UNSUPPORTED — The Darwin Gödel Machine paragraph says the added stage and role were retained and that descendants *could* inherit and revise them; it does not state that a later operation actually depended on that installed redesign. Possibility of inheritance does not establish obligation five under the note's demonstrated-reach standard.
+4. **“The participants and authority are identifiable, so the change does not authorize itself merely by being generated” / “The next three establish an operative change”** — THIN — Identifiable authority distinguishes an admitted change from a merely generated proposal, but the note does not show why this is necessary for revision openness rather than for governance or auditability. An explicit automatic update rule could install a generated successor and make later behavior depend on it; the argument needs to say that the rule itself is the identifiable authority, or narrow what “authorize itself” excludes.
+5. **“The first two obligations make redesign formulable rather than merely possible”** — THIN — Representing the organization makes a redesign target formulable, but evidence reaching a determination process establishes causal linkage, not formulation. The conclusion compresses two different achievements and does not explain what the second obligation adds to formulability.
+
+## For the human
+Look first at the gap between leaving a successor challengeable and retaining a repeatable operative path through another authorized, installed, later-used revision; that gap also weakens the strongest Commonplace and Darwin Gödel Machine case labels.

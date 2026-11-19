@@ -1,0 +1,2 @@
+Nothing links to this note. No file under `kb/` outside `kb/reports/` and `kb/work/` cites it, so no dependent uses it for a term, a claim, a distinction or a premise. Its role in the KB is currently only its own content.
+Relied on: none. Unused: all of the note's terms and claims, including the distinction between an actual wait (blocking dependency) and a specified task (unfulfilled requirement), "optional assessment", and the claim that retiring a review is a change in requirements, not automation of it.

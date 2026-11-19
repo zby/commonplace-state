@@ -1,0 +1,29 @@
+Task:
+Assess one artifact for revision. Nobody will answer questions. If you cannot, write <the problem file named at the end of this invocation> instead of guessing.
+
+The artifact is `kb/theory/position-and-proportion-set-what-a-reader-retains.md` in this repository; its text is <Inputs: artifact.md>. Judge this input text; the file on disk may differ. The instruction is <Inputs: criterion.md>: do its step 1, the assessment, and nothing after it. The operator reads the assessment and edits the plan before any pass runs. The operator named no purpose: propose one as the instruction directs. The write brief is <Inputs: brief.md>. The passes you may recommend are listed in <Inputs: passes.md>; choose only from them, by name.
+
+Output:
+- Write the assessment to <Required outputs: assessment.md>, as the instruction's step 1 describes.
+- Write the plan to <Required outputs: plan.md>: a YAML mapping holding exactly the decision fields below. `purpose` is the purpose the assessment works under; `defend` lists the claims the assessment marks as divergence, each as the claim's text; `passes` lists the recommended passes in run order, each a mapping with `pass` (its name) and, when the pass should touch only part of the artifact, `scope` naming that part; `stop` is null, or the reason when the instruction says to report a rewrite and stop. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+The decision fields, each required:
+- `purpose`: a str value
+- `defend`: a list value
+- `passes`: a list value
+- `stop`: a str or null value
+
+
+Inputs (read these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/inputs/artifact.md
+- brief.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/inputs/brief.md
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/inputs/criterion.md
+- passes.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/inputs/passes.md
+
+Required outputs (write these exact files):
+- plan.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/outputs/plan.md
+- assessment.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/outputs/assessment.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/calls/launches/b8f017a8865641188877eb73b43b699a/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

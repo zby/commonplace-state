@@ -1,0 +1,8 @@
+{
+  "artifact": "kb/articles/what-an-automated-reviewer-should-measure.md",
+  "start-sha256": "1bac5e289ba859aeac2958e635a359a31c1ab42ae8a9f77bec94727ec11cc185",
+  "final-sha256": "94e5f75c0b57547b659df4cd5d241277f80c30d49e2112ed326a51ae37758bd2",
+  "context-sha256": "cf8e8f9d45d888a17f4de8a2aa70556d5f2081bace859ae9355a9ca9e867e4f3",
+  "candidate": "kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/artifact/final.md",
+  "diff": "kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/artifact/final.diff"
+}

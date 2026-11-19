@@ -1,0 +1,1 @@
+The whole note except the weekly-review paragraph under "Name the process being automated" (the paragraph beginning "Suppose adoption is automatic") and the second Scope bullet ("A habitual wait for human input ...")

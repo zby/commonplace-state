@@ -1,0 +1,37 @@
+{
+  "limit": 2,
+  "used": 2,
+  "phase": "trial",
+  "events": [
+    {
+      "at": "2026-11-15T20:03:47.707745+00:00",
+      "phase": "source",
+      "allowed": true,
+      "pid": 2813718
+    },
+    {
+      "at": "2026-11-15T20:05:21.213366+00:00",
+      "phase": "source",
+      "allowed": false,
+      "pid": 2814859
+    },
+    {
+      "at": "2026-11-15T20:05:51.309292+00:00",
+      "phase": "source",
+      "allowed": false,
+      "pid": 2815200
+    },
+    {
+      "at": "2026-11-15T20:06:21.420113+00:00",
+      "phase": "source",
+      "allowed": false,
+      "pid": 2815809
+    },
+    {
+      "at": "2026-11-15T20:07:37.953861+00:00",
+      "phase": "trial",
+      "allowed": true,
+      "pid": 2816402
+    }
+  ]
+}

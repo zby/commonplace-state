@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z/artifact/publications/1.md",
+      "sha256": "5111320ea026b34d7697f869a35f72cbd6b3245b5c481328ae21f02df13ae524",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z/artifact/publications/1.diff",
+      "before-sha256": "41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea",
+      "entries": [
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy"
+      ],
+      "at": "2026-11-18T19:06:17Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

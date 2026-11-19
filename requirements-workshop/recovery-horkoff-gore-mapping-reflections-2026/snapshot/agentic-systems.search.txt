@@ -1,0 +1,7 @@
+$ rg -n -i ^description:.*(goal|intent|governance|delegat) kb/agentic-systems/ --glob *.md
+kb/agentic-systems/reviews/fractal.md:2:description: "Fractal as a code-grounded RLM harness: PredictRLM workspace turns, SBX sandbox mounts, headless delegation, and session continuity outside the repo."
+kb/agentic-systems/reviews/ai-agent-book.md:2:description: "Whole-book comparison of AI Agents in Depth with Commonplace, separating broad architectural convergence from differences in memory admission, epistemic warrant, governance, and orchestration"
+kb/agentic-systems/reviews-archive/arsumbris.md:3:description: 'arsumbris release-wide review: typed-file memory, adapter-specific governance and instructed
+EXIT 0
+$ rg -n -i goal model|goal drift|reasoning authority kb/agentic-systems/ --glob *.md
+EXIT 1

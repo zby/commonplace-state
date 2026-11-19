@@ -1,0 +1,6 @@
+{
+  "name": "stop-answers.md",
+  "input-key": "bb543139118659b31236969d20a6114e754cda9e6e9e0969063d6418e4299d66",
+  "proposal": "---\ntype: types/answers.md\ndescription: The operator's answers to kb/reports/state/review/runs/v2/revise/kb/theory/a-note-is-an-atomic-step-relative-to-the-check-that-reads-it/0ab4dcfcce1b/artifact/plan.yaml\nquestion: kb/reports/state/review/runs/v2/revise/kb/theory/a-note-is-an-atomic-step-relative-to-the-check-that-reads-it/0ab4dcfcce1b/artifact/plan.yaml\nquestion-sha256: bb543139118659b31236969d20a6114e754cda9e6e9e0969063d6418e4299d66\nitems:\n- id: text\n  proposal:\n    text: kb/reports/state/review/runs/v2/revise/kb/theory/a-note-is-an-atomic-step-relative-to-the-check-that-reads-it/0ab4dcfcce1b/artifact/plan.yaml\n    text-sha256: bb543139118659b31236969d20a6114e754cda9e6e9e0969063d6418e4299d66\n  state: pending\n---\n\n# Answers\n\nSet each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.\n",
+  "key": "4ae4702ebcf9e1a575892b44cd193e0e9e3df9ecb94e9829c412a5bc49a7330d"
+}

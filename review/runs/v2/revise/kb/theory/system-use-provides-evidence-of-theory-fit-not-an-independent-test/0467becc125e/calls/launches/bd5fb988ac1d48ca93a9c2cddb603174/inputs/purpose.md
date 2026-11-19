@@ -1,0 +1,1 @@
+Make the note easier to read for KB maintainers without changing its claims.

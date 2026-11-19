@@ -1,0 +1,28 @@
+{"time": 1794828895.4242325, "event": "launch", "job": "assessment", "key": "8847ca2d6a9b0dd8d7e2b9cb80d07e36208cf6c201c217103ea09636dee0c20a", "launch": "716985d96237403896e896d406190df2", "status": "delivered"}
+{"time": 1794828895.4296167, "event": "answered", "job": "assessment", "key": "8847ca2d6a9b0dd8d7e2b9cb80d07e36208cf6c201c217103ea09636dee0c20a", "problem": false}
+{"time": 1794828895.4376543, "event": "accepted", "path": "assessment.md", "sha256": "2b45fe9452b13a7c65a1d438a8a4ac80656ced7fcab62e1ab0d63159c9519f73"}
+{"time": 1794828895.4405663, "event": "accepted", "path": "plan.yaml", "sha256": "4b13e3e053150b1dae2a236d1fdf57d2f51fd2c9906937e967e88adefbe50082"}
+{"time": 1794828895.441437, "event": "accepted", "path": "start.md", "sha256": "cc1a3803800712b9e251cb1f6c948e31f777af92c4d633bc4f6ee2944280bbea"}
+{"time": 1794828951.4860623, "event": "launch", "job": "readability-and-flow", "key": "e944be12c924c02d9c1766b197c14cccac69fc4f79e3ddee99eec313fef3e089", "launch": "3f04411dacad41d1a9aaaf9b743b05f2", "status": "delivered"}
+{"time": 1794828951.488652, "event": "answered", "job": "readability-and-flow", "key": "e944be12c924c02d9c1766b197c14cccac69fc4f79e3ddee99eec313fef3e089", "problem": false}
+{"time": 1794828952.6353605, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "3e770fe6a95b6f1fb679605aabe3baab5568226ab585863ea380bbd0c561db35"}
+{"time": 1794828952.6357207, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "0bdfa3ce9899554531cdf9949d928fd9ac673d1f3941e7ebec2b623341d4f608"}
+{"time": 1794828979.6240768, "event": "launch", "job": "plain-wording/propose", "key": "523f009476ed899355e6d0f1c04f10f1742c1ec063051fde73ba6c4fc4e43312", "launch": "8d5b82d6bd03429ba3da0f446115d625", "status": "delivered"}
+{"time": 1794828979.627744, "event": "answered", "job": "plain-wording/propose", "key": "523f009476ed899355e6d0f1c04f10f1742c1ec063051fde73ba6c4fc4e43312", "problem": false}
+{"time": 1794828979.6577382, "event": "accepted", "path": "plain-wording-answers-523f009476ed.md", "sha256": "020287d20c5c84e41ac19c16c3b8aad8d67019c09529827f5fc5d43c6e06cfa4"}
+{"time": 1794837907.4486365, "event": "launch", "job": "assessment", "key": "db51e5e036c484379b4714174bf4c5b76b0398d1634da10352c0f8c7caa8500c", "launch": "1966e59ad1934cbeaee6eacb853893e5", "status": "delivered"}
+{"time": 1794837907.4513516, "event": "answered", "job": "assessment", "key": "db51e5e036c484379b4714174bf4c5b76b0398d1634da10352c0f8c7caa8500c", "problem": false}
+{"time": 1794837907.4586358, "event": "accepted", "path": "assessment.md", "sha256": "e03224eccacc660d10f70902a3a9dce67dddd9fbd2b718e1c963a5f45ae5e06f"}
+{"time": 1794837907.4613545, "event": "accepted", "path": "plan.yaml", "sha256": "3556a5e678b3e9bbe8b788ad7c28b48a9faf1100610dfee71a229535145709ae"}
+{"time": 1794837907.4617617, "event": "accepted", "path": "start.md", "sha256": "cc1a3803800712b9e251cb1f6c948e31f777af92c4d633bc4f6ee2944280bbea"}
+{"time": 1794837949.9833462, "event": "launch", "job": "readability-and-flow", "key": "c2f643e29b5f9f90bf97dc9cafee6e1f58029f3626f99c570566bd2689bc695c", "launch": "0b558ed4f3234b0a97f094efec6aface", "status": "delivered"}
+{"time": 1794837949.9852777, "event": "answered", "job": "readability-and-flow", "key": "c2f643e29b5f9f90bf97dc9cafee6e1f58029f3626f99c570566bd2689bc695c", "problem": false}
+{"time": 1794837951.2455351, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "9134755087e540ce6c82aca4a0b775e6d957dd5057816d4ea343bc6bd9785325"}
+{"time": 1794837951.245904, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "a4fdf4354bc61827ef815e0304ac1293f8919b458c3fd9ec73f13e4f0f4393e9"}
+{"time": 1794837990.9837167, "event": "launch", "job": "fix-strategy-taxonomy/prose/anthropomorphic-framing", "key": "705f86547eb0993d10d10ea17dfc5d77cea17e670572b8da8703c55f334e1979", "launch": "394fdd1b6cca43158d97ac777cfea952", "status": "delivered"}
+{"time": 1794837990.9879162, "event": "answered", "job": "fix-strategy-taxonomy/prose/anthropomorphic-framing", "key": "705f86547eb0993d10d10ea17dfc5d77cea17e670572b8da8703c55f334e1979", "problem": false}
+{"time": 1794837992.2279408, "event": "accepted", "path": "reports/fix-strategy-taxonomy/prose/anthropomorphic-framing.md", "sha256": "4690df8797db06eef163f31db06768ab4887354b2021ed2c50d44f7ccdb8ec75"}
+{"time": 1794837992.2283492, "event": "accepted", "path": "texts/fix-strategy-taxonomy/prose/anthropomorphic-framing.md", "sha256": "df76b4a5a6e353b691bd8f13146ceca02eea258bad516a969f879d973f0946df"}
+{"time": 1794837992.2296355, "event": "accepted", "path": "final.md", "sha256": "df76b4a5a6e353b691bd8f13146ceca02eea258bad516a969f879d973f0946df"}
+{"time": 1794837992.229937, "event": "accepted", "path": "final.diff", "sha256": "f32bf30196437cdf2a52b0ed76496685d66052909f53345be4c58957466a8ea0"}
+{"time": 1794837992.2317598, "event": "accepted", "path": "publication-answers.md", "sha256": "07fa633e119296d931ba751d99c38cb721352d8c452e6948f68fcc6bd242e75b"}

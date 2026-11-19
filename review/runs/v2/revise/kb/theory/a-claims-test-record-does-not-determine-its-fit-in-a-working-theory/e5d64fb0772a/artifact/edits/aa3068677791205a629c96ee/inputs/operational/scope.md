@@ -1,0 +1,1 @@
+The §82 citation sentence in 'Fit is not an independent test': mark the could-have-failed criterion as adapted from Popper's sincere-attempt condition, and cite §82 starred note *1 and Appendix *ix.

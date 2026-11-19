@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## What happened\n\nPR #134 was still based on `position-theory-mediated-lineage` when it was merged. PR #132 had already been squash-merged into `main`, so merging #134 updated the old feature branch rather than `main`. The rendered article therefore contains the lineage expansion from #132 but not the structural edit from #134.\n\n## This repair\n\nThis branch was created directly from the current `main` tip after #132. It reapplies only the intended article state from #134, producing a clean one-file diff against `main`.\n\nThe article:\n\n- follows the six bounded units defined in `article-roles.md`;\n- keeps the opening focused on the central question, learning unit, theory mediation, testbeds, and the human-inclusive evidence disclosure;\n- places the two-lineage positioning after the fallible-search mechanism;\n- moves operator reallocation and cut-set language to the bootstrap discussion, while routing the full derivation to the decisions companion;\n- combines the evidence ladder with truth-versus-fit evaluation;\n- combines the recorded episode with the proposed intervention and longitudinal study;\n- removes the standalone Sutton section and routes the full scaling argument to the Bitter Lesson companion;\n- preserves the alternatives and abandonment conditions.\n\nThis is a restack/repair only: no new theory changes beyond the already-reviewed #134 content.",
+    "closedAt": "2026-08-30T18:57:40Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T18:54:17Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T18:54:17Z",
+        "messageBody": "",
+        "messageHeadline": "Restack the theory-mediated program restructure onto main",
+        "oid": "44f9d887bf8a5a96a5ea6331ef8812464a74f750"
+      }
+    ],
+    "createdAt": "2026-08-30T18:54:35Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 234,
+        "deletions": 286
+      }
+    ],
+    "headRefName": "restack-theory-mediated-program-clean",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T18:57:40Z",
+    "number": 135,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Apply the theory-mediated program restructure to main",
+    "updatedAt": "2026-08-30T18:57:41Z",
+    "url": "https://github.com/zby/commonplace/pull/135"
+  },
+  "inline_review_comments": []
+}

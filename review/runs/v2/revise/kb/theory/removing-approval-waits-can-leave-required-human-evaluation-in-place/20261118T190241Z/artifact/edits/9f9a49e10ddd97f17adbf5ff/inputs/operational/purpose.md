@@ -1,0 +1,1 @@
+Agents and maintainers deciding whether to remove a human approval wait from a KB procedure should be able to tell whether the change only removes a wait or also automates or retires a required evaluation task, and should report which.

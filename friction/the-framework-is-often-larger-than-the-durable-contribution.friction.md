@@ -1,0 +1,18 @@
+# Friction check: The framework is often larger than the durable contribution
+
+**Note:** kb/notes/the-framework-is-often-larger-than-the-durable-contribution.md
+**Central claim (one sentence):** When a case fits a familiar framework, the durable artifact should default to a case-specific recognition anchor—condition, mapping, operation or local fact, and framework link—and retain framework exposition only when consumers cannot reconstruct it or need it for accessibility, disambiguation, warrant, or fidelity.
+
+## Filter
+**Verdict:** SURVIVES
+The claim asks minimal retained prose, reliable framework activation, preservation of case-specific information, and enough warrant and fidelity to support checking. These goals can coexist because minimal-plus-linked is a default rather than an absolute: the anchor activates the framework, while the stated exceptions retain framework content or derivation when reconstruction, auditability, or exactness requires it.
+
+## Signal — thinnest joints
+1. **“Adding a missing warrant or example when a consumer demonstrably misses it ... is cheap and targeted. Trimming a bloated note later is expensive”** — UNSUPPORTED — The note asserts the repair-cost asymmetry without establishing it. Recovering a missing warrant can require repeating the original derivation after its context is gone, while redundant exposition can sometimes be removed cheaply; a demonstrated miss also presupposes a feedback path from use to revision.
+2. **“a future consumer with access to the same parametric knowledge can reconstruct the framework; what changed was the recognition that this situation is an instance of it”** — THIN — Shared framework knowledge supports omitting a tutorial, but it does not establish that recognition is the only change. Applying the framework may also produce a case-specific consequence, boundary, or warrant; later sections preserve such material, but this inference does not state that condition.
+3. **“the consumer population is unknown: over-retention bakes in an assumption about a weak reader ... while minimal-plus-linked defers the decision to read time”** — THIN — A link lets a reader choose whether to load shared detail, but unknown consumers also include readers who cannot reconstruct the framework or follow the link. The uncertainty by itself does not favor minimal retention unless framework accessibility and a usable read-time choice are assumed.
+4. **“If a smaller form preserves the contribution's effect, the removed material was scaffolding; if behavior degrades, the missing explanation, example, or warrant belongs”** — THIN — One representative behavioral comparison supports a boundary for the tested model, task, population, and measured effect, not the stronger classification of material as scaffolding or necessary. The following validity-window qualification narrows the result, but the test still needs success criteria that include auditability and fidelity when those are claimed values.
+5. **“The framework behind it is shared across many notes, so it belongs in an artifact of its own, linked rather than re-taught inline”** — HOLDS — If several notes genuinely share the same framework, centralizing its exposition and retaining case-specific anchors avoids duplication while keeping the framework addressable; the note separately identifies activation and access conditions that can defeat this inference.
+
+## For the human
+Look first at the claimed repair-cost asymmetry: the minimal-by-default recommendation depends on missing context being cheaper to restore than surplus context is to remove, but the note has not supplied that mechanism or its boundary conditions.

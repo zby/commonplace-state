@@ -1,0 +1,11 @@
+--- kb/theory/a-claims-test-record-does-not-determine-its-fit-in-a-working-theory.md (candidate)
++++ kb/theory/a-claims-test-record-does-not-determine-its-fit-in-a-working-theory.md (revised candidate)
+@@ -29,7 +29,7 @@
+ 
+ ## The two kinds of evidence inform each other
+ 
+-Evidence about fit can send a claim back for testing. A claim that repeatedly yields no useful prediction, recovery guidance or transfer shows poor fit, which is not evidence that it is false. A claim whose predictions repeatedly come out wrong in use has not been refuted by that alone, but it is a reason for a new independent test. A new test result can likewise bear on fit: a claim that survives a severe test may give a reason to restructure the working theory, even when the restructuring makes the theory less convenient.
++Evidence about fit can send a claim back for testing. Two cases differ. A claim that is seldom useful in the theory, because it predicts nothing the work needs, has only a fit problem; that says nothing about whether it is true. A claim whose predictions keep failing in use is in doubt. The fault may still lie in another claim used with it, so the failures call for an independent test of the claim itself. A new test result can likewise bear on fit: a claim that survives a severe test may give a reason to restructure the working theory, even when the restructuring makes the theory less convenient.
+ 
+ Neither may be substituted for the other. "This claim helped the system" is not evidence that the claim is true unless the help was a test it could have failed. "This claim is well tested" is not by itself a reason to retain it in this theory.
+ 

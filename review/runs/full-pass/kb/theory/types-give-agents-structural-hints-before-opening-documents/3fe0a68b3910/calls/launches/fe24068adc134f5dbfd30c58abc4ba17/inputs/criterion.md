@@ -1,0 +1,108 @@
+---
+description: Produce a disposable edit-strategy report for one note using the unanchored compression criteria and high-impact synthesis
+type: types/instruction.md
+---
+
+# Run the compression bundle on one note
+
+Review a specific note against the compression criteria without writing review result files.
+
+This is deliberately separate from the gate sweep in [run-review-batches.md](./run-review-batches.md). Its files retain `gate_id` and “compression gate” as local historical names, but they are unanchored edit-strategy criteria, not review-system gates: they never enter `--all-gates` or write review result files. Use them when the goal is a disposable report rather than fresh review evidence.
+
+Inputs:
+
+- first argument: `{note-path}` — repository-relative note path, for example `kb/theory/linking-theory.md`
+- optional second argument: `{output-path}` — repository-relative Markdown path for the sub-agent's report. If omitted, write it to the report state tree as `kb/reports/state/compression-bundle/<note-name>.md`.
+
+## Compression criteria
+
+Use these criterion files, in this order:
+
+1. [core-claim-obscured.md](./compression-bundle/core-claim-obscured.md)
+2. [branch-bloat.md](./compression-bundle/branch-bloat.md)
+3. [detail-overhang.md](./compression-bundle/detail-overhang.md)
+4. [marginal-value-redundancy.md](./compression-bundle/marginal-value-redundancy.md)
+
+After the four criteria, apply [high-impact-simplification-synthesis.md](./compression-bundle/high-impact-simplification-synthesis.md) to the artifact and the combined findings. This synthesis has no independent verdict; it selects the few structural changes most worth authorial attention.
+
+Do not request these criteria from `commonplace-review run gates`, and do not write under `kb/reports/state/review/results/`.
+
+## Dispatch
+
+The parent reads the target once immediately before dispatch and reads the four
+criteria plus the synthesis instruction. It launches one fresh reviewer with a
+complete packet containing:
+
+- the target path as identity and the captured full note text as the sole
+  authoritative assessed bytes; the reviewer does not reopen the live path;
+- the four criteria in the required order, preserving each `gate_id`, name,
+  failure mode, test, and examples, followed by the synthesis instruction;
+- `{output-path}` and the output contract below; and
+- the boundary that the target artifact, rather than ambient conversation or
+  topic familiarity, supplies its intended contribution.
+
+The reviewer independently applies every criterion, synthesizes the combined
+findings, and writes only `{output-path}`. It does not edit the note, write
+review-database state. It chooses its analytic route within those bounds.
+
+The parent verifies that the report exists and satisfies the output contract,
+then closes, terminates, or releases the single-use reviewer. If a fresh worker
+cannot be launched, stop rather than reuse a context that may share the
+author's framing.
+
+## Output Contract
+
+The sub-agent report should be plain Markdown:
+
+```markdown
+# Compression Bundle Review: <note title>
+
+**Target:** `<note-path>`
+**Bundle:** [compression-bundle/](./compression-bundle/README.md)
+
+## Overall Result
+
+PASS|INFO|WARN
+
+## Gate Results
+
+| Gate | Result | Summary |
+|---|---|---|
+| compression/core-claim-obscured | PASS|INFO|WARN | ... |
+| compression/branch-bloat | PASS|INFO|WARN | ... |
+| compression/detail-overhang | PASS|INFO|WARN | ... |
+| compression/marginal-value-redundancy | PASS|INFO|WARN | ... |
+
+## Findings
+
+### compression/<gate-id>
+
+- WARN|INFO: <specific location and action>
+
+## High-impact Simplification Opportunities
+
+### 1. <short opportunity name>
+
+- Location: <heading and smallest useful quotation or section range>
+- Reader problem: <why this materially obscures the claim, structure, or flow>
+- Direction: <possible compression, fold, deletion, or reorganization>
+- Combines: <relevant compression findings, or “cross-cutting”>
+- Preserve or decide: <meanings, implications, or structural choices that constrain the revision>
+```
+
+Omit per-gate finding sections when a gate has no findings beyond a concise PASS summary. Do not emit PASS-per-paragraph output. Report zero to three high-impact opportunities; write `None` when no opportunity clears the synthesis threshold.
+
+`PASS`, `INFO`, and `WARN` here are local report labels. They are not review-system decisions, and the report has no `## Result: REPORT` line because it is not written as a review result.
+
+## Reviewer Bias
+
+The compression bundle is intentionally edit-strategy oriented. It should flag true, coherent, and locally defensible material when the material does not earn its current context cost. Prefer compression, folding, deletion, demotion to open question, or rehoming over additive repair unless extra wording is necessary to preserve the core claim.
+
+The final synthesis is selective rather than exhaustive. It may combine several findings into one larger revision, but it must leave semantic or evidential choices unresolved instead of hiding them inside a cleaner rewrite.
+
+## Do Not
+
+- Do not mutate the target note.
+- Do not request these criteria from `commonplace-review run gates`.
+- Do not write review result files.
+- Do not skip any gate in the bundle.

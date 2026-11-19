@@ -1,0 +1,17 @@
+{
+  "article_paths_with_persisted_reviews": [
+    "kb/articles/a-research-program-for-learning-software-factories.md",
+    "kb/articles/the-reachability-conjecture-train-the-house-not-the-llm.md"
+  ],
+  "review_job_count": 16,
+  "review_pair_count": 70,
+  "outcomes": {
+    "fail": 2,
+    "pass": 52,
+    "report": 2,
+    "warn": 14
+  },
+  "artifact_snapshot_count": 37,
+  "full_pass_count": 3,
+  "cache_report_count": 6
+}

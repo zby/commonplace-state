@@ -1,0 +1,1 @@
+The first two sentences of the section 'The completeness mark: a stop-authorizing claim with a defined check': gloss 'tag head' and 'participating collections' at first mention; the INFO item on 'the validator' is not required

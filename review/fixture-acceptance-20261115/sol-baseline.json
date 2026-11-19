@@ -1,0 +1,97 @@
+{
+  "captured-at": "2026-11-15T19:43:49.136964+00:00",
+  "method": "Read-only python3 stdlib hashes. Manifest digests are SHA-256 of json.dumps(relative_path_to_sha256, sort_keys=True). Source package manifest excludes __pycache__ and .pyc. Historical run manifests include all files, including calls/.lock. Library manifest mirrors Git-visible policy and excludes hidden paths and reports/state.",
+  "head": "54e82a0c676ef3f6365686d179f5d4192c13d223",
+  "git-status": " M kb/theory/a-functioning-kb-needs-a-workshop-layer-not-just-a-library.md\n M kb/theory/a-software-factory-is-family-scoped-lifecycle-production-machinery.md\n M kb/work/stochastic-operation-testing/README.md\n?? kb/work/stochastic-operation-testing/provenance-reconstruction-results.md\n?? kb/work/stochastic-operation-testing/provenance-reconstruction-trial.md\n",
+  "dirty-content": {
+    "kb/theory/a-functioning-kb-needs-a-workshop-layer-not-just-a-library.md": {
+      "sha256": "770f0cae7d043682e62ee7342f0c5d4ccbdddfc26f7215f8c0ef7114b00f8a61",
+      "bytes": 11337
+    },
+    "kb/theory/a-software-factory-is-family-scoped-lifecycle-production-machinery.md": {
+      "sha256": "f4dee748bce52437ff68f4d869d0e6fc751634016e471a7f12b0ccae36fadadd",
+      "bytes": 12864
+    },
+    "kb/work/stochastic-operation-testing/README.md": {
+      "sha256": "42a17543fbab190715ec22357ed4db27ba84528ae4822f355e52ce652de29ea6",
+      "bytes": 23206
+    },
+    "kb/work/stochastic-operation-testing/provenance-reconstruction-results.md": {
+      "sha256": "3b8e26ccef80beabf38854c6a023f2ca506648e412adfbba6da985b46650d3f4",
+      "bytes": 8531
+    },
+    "kb/work/stochastic-operation-testing/provenance-reconstruction-trial.md": {
+      "sha256": "49b185769327036e7d237b031798144f865e585c97638136f2f501624e510c33",
+      "bytes": 3814
+    }
+  },
+  "target": {
+    "path": "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md",
+    "sha256": "e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8",
+    "bytes": 13518,
+    "body-freshness-sha256": "c00c53aa547c9fec40bc86f6e94410169cda037feb81c9f3d5efa9e0cb9e51f5"
+  },
+  "criterion": {
+    "path": "kb/instructions/review-gates/sentence/stock-phrases.md",
+    "criterion-id": "sentence/stock-phrases",
+    "sha256": "6e2bd9a71d2685b71fc1641640e684574da24f3115f005263a75367c0dc6c29c",
+    "bytes": 1299
+  },
+  "profile-file": {
+    "path": "kb/instructions/review-profiles.yaml",
+    "sha256": "c14a58859c199281581d3289f87fdd93b754dc2a47e375e625915dfabde08cea",
+    "bytes": 1634
+  },
+  "library": {
+    "root": "/home/zby/llm/commonplace/kb",
+    "policy": "git-visible-or-installed-v1",
+    "files": 6887,
+    "sha256": "c6a961182cb87bf0b892dba321f46b55f65895a01567eef1e7f1ffb0871477b2"
+  },
+  "executor": {
+    "source-package": "/home/zby/llm/commonplace/src/commonplace",
+    "files": 112,
+    "code-manifest-sha256": "408ccafcac8371dbfc75c0cf410f01599116be67ec37ddb7ac112fe88133f4da"
+  },
+  "contract-input-hashes": {
+    "types/review-result.md": "29e815bcfc1377e104bf87ead4678a50ce91fd5bb6f70c2a99d158006e12f99c",
+    "types/review-result.schema.yaml": "e38c6c6b9bfd84e8766710f6838452af3d7b050dc878c7dcd52c36944daebd45",
+    "reports/COLLECTION.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d"
+  },
+  "contract-fingerprint": "9969d7db1b8228822ac807fdc50483981fc6d62c7effbe601a7de3fac2e131a0",
+  "historical-v2-runs": {
+    "20261115T123635Z": {
+      "files": 86,
+      "file-manifest-sha256": "5c9abb88a8e28a30ace6a2b1a68d650dd81efa8a4fcd0cec1c400b70d17ce116",
+      "stock-phrases-observation": "3419da94374b47ec0349caae",
+      "stock-phrases-observation-sha256": "e098b75fa03bbc2294b59adcdfda4f88249a1b488a398f8fce7acd7700919caf",
+      "library-policy": null
+    },
+    "20261115T132933Z": {
+      "files": 74,
+      "file-manifest-sha256": "3e93acfd72620439737ff765806e8fb92577a52253bd5a4a2641052fd83bd2a8",
+      "stock-phrases-observation": "3870487350f9a4b6d7cbc816",
+      "stock-phrases-observation-sha256": "4d58156a03c52faa51f5c1e8387ae50baac6ed7c85ce789db36bd6c66aa79f6a",
+      "library-policy": null
+    }
+  },
+  "current-result-views": {
+    "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md/kb/instructions/critique-note.md": "14e56bf7203ee75136a09c6f662ca37499ab94a302eb3c08d13bc48a6e9d1556",
+    "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md/kb/theory/COLLECTION.md": "77ec0229a3e1ab98be200f7031056b79ed954adab5b5895081c737c7ad1dfa48",
+    "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md/kb/types/note.md": "40157f8e324eb662d8e7368ac8007b0295f529c25b0cff0d2df7a271ba72d4f7",
+    "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md/sentence/stock-phrases.md": "ff5eef6a0133bdf807315be30dd321a69a35c099ccd49082abec8de6f9008a7f"
+  },
+  "cutover-receipt": {
+    "path": "kb/reports/state/review/cutover/20261115-v2/receipt.json",
+    "sha256": "867c08d300b1c83a31fe6e276dd69ed7620d5da6f8cd28a3094dab8d9982076a",
+    "bytes": 869408
+  },
+  "committed-tree-symlink-check": "No tracked symlink target escapes the committed tree by lexical path normalization; extraction and overlay checks remain required.",
+  "new-review-model-launches-by-sol": 0,
+  "limits": [
+    "Hashes identify bytes; this receipt does not retain dirty bytes or make a fixture.",
+    "Library and executor are source-checkout calculations, not a verification of the command interpreter's loaded package or package versions.",
+    "Historical manifests identify existing v2 runs only; v1 archived payloads were not rehashed by Sol.",
+    "Concurrent changes after the capture time require parent verification."
+  ]
+}

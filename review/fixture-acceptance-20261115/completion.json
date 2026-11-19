@@ -1,0 +1,15 @@
+{
+  "status": "complete-qualified-machinery-acceptance",
+  "focused-workshop": "closed",
+  "decision": "kb/reference/adr/132-review-atoms-retain-observations-behind-current-results.md",
+  "retained-report": "kb/reports/retained/review-atom-acceptance-20261115/README.md",
+  "review-model-launches": 2,
+  "budget-blocked-process-starts": 3,
+  "final-resume-new-launches": 0,
+  "reported-review-model-cost-usd": 0.6519774,
+  "tests-passed": 382,
+  "slow-tests-included": true,
+  "markdown-artifacts-validated": 11,
+  "preexisting-edits": "preserved; only three closure-navigation paragraphs updated in shared stochastic README",
+  "committed": false
+}

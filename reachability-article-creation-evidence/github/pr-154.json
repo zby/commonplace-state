@@ -1,0 +1,79 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "refoundation-04-write-learning-bridge",
+    "body": "## Intent\n\nReplace the theory-first dependency order with the derived architecture, while preserving the article's strongest Naur, coherent-modification, causal-evidence, experiment, and system-boundary material.\n\n## New order\n\n1. bounded LLM calls inside persistent agentic software;\n2. family-specific production knowledge configures a software factory;\n3. broad demands create pressure for agentic factory development;\n4. production experience can change reusable machinery used later;\n5. multiple learning mechanisms can perform that causal job;\n6. theory mediation enters as the specific comparative research bet;\n7. Naur, longitudinal coherence, interventions, evidence, and bootstrapping test the bet.\n\n## Important boundaries\n\n- a fixed universal substrate remains possible in principle;\n- task families are not silently treated as product families;\n- recursive factory construction is acknowledged as prior art and separated from acquisition of specialization;\n- learning does not imply improvement, reflection, closure, autonomy, breadth, or compounding;\n- theory guides generate-and-verify search rather than replacing search.\n\n## Dependency\n\nThis draft is stacked on PR 153. Its base is the learning-bridge branch, so the diff contains only the research-program article rewrite. After PR 153 merges, retarget this PR to `main` before merging.",
+    "closedAt": "2026-08-31T13:18:26Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T12:52:44Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:52:44Z",
+        "messageBody": "Bring merged PR 147 into the ontology and learning-bridge branch before restructuring the research-program article.\n\nModel: GPT-5.6 Pro",
+        "messageHeadline": "Merge the contained article state into the refoundation stack",
+        "oid": "8b0eb8c3f56be15e54f1617093dbb6f921cb07b3"
+      },
+      {
+        "authoredDate": "2026-08-31T12:54:20Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:54:20Z",
+        "messageBody": "Derive factory-level continual learning before theory mediation, preserve the Naur and causal-evidence core, and state theory as a comparative mechanism rather than an architectural premise.\n\nModel: GPT-5.6 Pro",
+        "messageHeadline": "Refound the research program on agentic factory learning",
+        "oid": "87b25baf81664dc7cb88f3fd0407511340fe6e46"
+      },
+      {
+        "authoredDate": "2026-08-31T12:59:46Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T12:59:46Z",
+        "messageBody": "Make the updated bridge branch an explicit parent while preserving the final research-program article tree.\n\nModel: GPT-5.6 Pro",
+        "messageHeadline": "Restack the article rewrite on the learning bridge",
+        "oid": "cc7480496cac87082dcc0dce75d07689c1323cc2"
+      }
+    ],
+    "createdAt": "2026-08-31T13:00:09Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 380,
+        "deletions": 158
+      }
+    ],
+    "headRefName": "refoundation-05-restructure-research-program",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T13:18:26Z",
+    "number": 154,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Refoundation 5/5: restructure the research program around agentic factory learning",
+    "updatedAt": "2026-08-31T13:18:26Z",
+    "url": "https://github.com/zby/commonplace/pull/154"
+  },
+  "inline_review_comments": []
+}

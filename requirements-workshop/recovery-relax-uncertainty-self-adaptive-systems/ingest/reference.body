@@ -1,0 +1,4 @@
+QUERY: rg -n -i 'stakeholder.{0,50}(invariant|relax)|ENV.{0,15}MON|observation.to.goal|requirement.{0,30}(authority|uncertainty)|DEP.{0,25}(regression|dependenc)' kb/reference/ --glob *.md --glob !*.brief.md
+kb/reference/instruction-generation.md:69:The templates flow through `_write_template` with the replacements dictionary. The committed control-plane files name no machine path; they point to `.commonplace/library.md`. The scaffold creates no `.envrc` or Commonplace-specific project venv; command discovery belongs to the user-level uv tool installation.
+
+EXIT: 0

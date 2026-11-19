@@ -1,0 +1,45 @@
+commonplace-worker @ /home/zby/llm/commonplace: completed
+Session: 01a1eba6-b310-76a0-8526-0753277f0cc8
+Session file: /home/zby/.pi/agent/sessions/--home-zby-llm-commonplace--/2026-11-17T22-35-33-009Z_01a1eba6-b310-76a0-8526-0753277f0cc8.jsonl
+Execution records: /home/zby/.pi/agent/sessions/--home-zby-llm-commonplace--/2026-11-17T22-35-33-009Z_01a1eba6-b310-76a0-8526-0753277f0cc8.jsonl.subagent/174dfc63-5463-4d38-a17c-8f811fcbd1d6
+All 24 paragraphs pass both semantic components. No error flags or format failures identified.
+
+Word counts use whitespace-separated words, include citations, exclude ID labels, and count hyphenated compounds as one word.
+
+| Output | ID | Supported scope | Calibrated decision | Joint | Words | Flags / format failures |
+|---|---|---:|---:|---:|---:|---|
+| A | N42 | 1 | 1 | 1 | 49 | None |
+| A | K17 | 1 | 1 | 1 | 49 | None |
+| A | P63 | 1 | 1 | 1 | 52 | None |
+| A | R85 | 1 | 1 | 1 | 52 | None |
+| B | N42 | 1 | 1 | 1 | 45 | None |
+| B | K17 | 1 | 1 | 1 | 50 | None |
+| B | P63 | 1 | 1 | 1 | 54 | None |
+| B | R85 | 1 | 1 | 1 | 52 | None |
+| C | N42 | 1 | 1 | 1 | 51 | None |
+| C | K17 | 1 | 1 | 1 | 47 | None |
+| C | P63 | 1 | 1 | 1 | 50 | None |
+| C | R85 | 1 | 1 | 1 | 53 | None |
+| D | N42 | 1 | 1 | 1 | 48 | None |
+| D | K17 | 1 | 1 | 1 | 48 | None |
+| D | P63 | 1 | 1 | 1 | 48 | None |
+| D | R85 | 1 | 1 | 1 | 50 | None |
+| E | N42 | 1 | 1 | 1 | 49 | None |
+| E | K17 | 1 | 1 | 1 | 44 | None |
+| E | P63 | 1 | 1 | 1 | 46 | None |
+| E | R85 | 1 | 1 | 1 | 55 | None |
+| F | N42 | 1 | 1 | 1 | 47 | None |
+| F | K17 | 1 | 1 | 1 | 47 | None |
+| F | P63 | 1 | 1 | 1 | 49 | None |
+| F | R85 | 1 | 1 | 1 | 51 | None |
+
+**Marginal judgments**
+
+- **All P63 paragraphs:** Tuesday’s abbreviated count inherits “folders without help” from the coordinated Monday/Tuesday comparison. The route connection is supplied within each paragraph. This is ordinary ellipsis, not a missing measurement boundary.
+- **B and D, R85:** Neither explicitly says “Monday cannot substitute.” Both nevertheless preserve Monday as historical, identify Tuesday’s result as unavailable, and withhold release pending a qualifying Tuesday report. That makes the substitution limit recoverable.
+- **A, C and E, R85:** Seeking a report establishing “whether” Tuesday met the gate is sufficient. The paragraphs hold release rather than treating mere receipt of any report as authorization.
+- **F, R85:** “Showing at least 17 of 20” inherits folded booklets feeding without a jam from the paragraph’s opening measurement. It does not introduce a different metric or assert a Tuesday count.
+- **F, P63:** “No result is missing” is appropriately limited to the evidence needed for the present decision. It does not require further verification or turn the known failure into uncertainty.
+- **E, R85:** Exactly 55 words under the stated convention; no length violation.
+
+No disputed phrase has two reasonable readings that change a component verdict.

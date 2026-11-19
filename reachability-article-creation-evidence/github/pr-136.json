@@ -1,0 +1,104 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\n- removes `What bound Naur's theory to programmers` from the article collection and deletes its duplicate accepted workshop copy;\n- redirects the former article URL to the canonical Naur note;\n- makes the note explicitly distinguish retained theory from the capacity to hold a theory, and routes the longitudinal bearer test to the coherent-search note;\n- treats the local repair episode as illustration only, not evidence of theory possession, bearer failure, or computational capacity;\n- replaces the program article's detailed unrun experiment protocol with a compact account of the evidence that was not retained and the minimum contrasts that could change the claim;\n- updates the homepage, repository README, article index, workshop plan, article-role map, accepted-baseline register, and incumbent ledger to use the notes as the bearer module.\n\n## Resulting public surface\n\nThe bearer argument now has two canonical homes:\n\n1. `naur-equates-machine-execution-with-formulated-criteria.md` for the historical inference and why trained recognizers reopen the question;\n2. `program-theory-sustains-search-under-delayed-feedback.md` for the remaining longitudinal search-and-recovery test.\n\nA future Naur article would need a genuinely distinct external-reader exposition rather than another assembly of those notes.\n\nThe program article now says what evidence is missing, emphasizes prospective evidence retention, and leaves detailed controls and measurement catalogues in the workshop until a study is actually run.\n\n## Validation\n\nThe branch is one commit ahead of current `main`. The full GitHub Actions test workflow passed.",
+    "closedAt": "2026-08-30T19:55:29Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T19:50:18Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T19:50:18Z",
+        "messageBody": "",
+        "messageHeadline": "Remove the Naur article and keep only executable research claims",
+        "oid": "d422ae4993c899a5463a65197225d5ce7fa7290d"
+      }
+    ],
+    "createdAt": "2026-08-30T19:51:36Z",
+    "files": [
+      {
+        "path": "README.md",
+        "additions": 5,
+        "deletions": 3
+      },
+      {
+        "path": "kb/articles/README.md",
+        "additions": 2,
+        "deletions": 3
+      },
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 31,
+        "deletions": 68
+      },
+      {
+        "path": "kb/articles/what-bound-naurs-theory-to-programmers.md",
+        "additions": 0,
+        "deletions": 108
+      },
+      {
+        "path": "kb/index.md",
+        "additions": 7,
+        "deletions": 5
+      },
+      {
+        "path": "kb/notes/naur-equates-machine-execution-with-formulated-criteria.md",
+        "additions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/README.md",
+        "additions": 14,
+        "deletions": 12
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/accepted/README.md",
+        "additions": 4,
+        "deletions": 5
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/accepted/what-bound-naurs-theory-to-programmers.md",
+        "additions": 0,
+        "deletions": 78
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/article-roles.md",
+        "additions": 22,
+        "deletions": 14
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/incumbent-ledger.md",
+        "additions": 9,
+        "deletions": 2
+      },
+      {
+        "path": "properdocs.yml",
+        "additions": 1,
+        "deletions": 0
+      }
+    ],
+    "headRefName": "remove-naur-article-and-trim-experiments",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T19:55:29Z",
+    "number": 136,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Remove the duplicated Naur article and trim speculative protocols",
+    "updatedAt": "2026-08-30T19:55:29Z",
+    "url": "https://github.com/zby/commonplace/pull/136"
+  },
+  "inline_review_comments": []
+}

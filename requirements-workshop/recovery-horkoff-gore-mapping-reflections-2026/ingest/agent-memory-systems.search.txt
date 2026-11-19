@@ -1,0 +1,9 @@
+$ rg -n -i ^description:.*(goal|governance|authority) kb/agent-memory-systems/ --glob *.md
+kb/agent-memory-systems/trace-learning-techniques-in-related-systems.md:2:description: Trace-learning systems compared on ingestion pattern, representational form, behavioral authority, artifact structure, and evidence tier across repo reviews and lightweight coverage
+kb/agent-memory-systems/lightweight/nams.md:2:description: "Doc-grounded review of NAMS skill distillation and governance: scoped context-graph memory becomes provenance-linked, review-gated procedure artifacts with drift repair"
+kb/agent-memory-systems/reviews/decapod.md:2:description: "Decapod review: Rust repo-native governance kernel with SQLite stores, context capsules, trace lessons, proof gates, and pull-first memory reads"
+kb/agent-memory-systems/reviews/funes.md:2:description: "Funes review: Git-native Librarian protocol for raw-source preservation, compiled Markdown wiki memory, outputs, and health-check governance"
+kb/agent-memory-systems/reviews/stash.md:2:description: "Stash review: MCP-served Postgres/pgvector memory with episodes, consolidated facts, graph-like relations, goals, failures, hypotheses, and decay"
+EXIT 0
+$ rg -n -i stakeholder|goal interpretation|goal revision kb/agent-memory-systems/ --glob *.md
+EXIT 1

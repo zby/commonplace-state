@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Summary\n\nRestore the earlier TL;DR structure: agentic machinery, software-factory configuration, and factory learning first.\n\nThe revised ending keeps the newer distinction in two short sentences:\n\n- open-ended coherent modification requires some form of project theory;\n- fallible natural-language theory is the explicit, revisable realization under test.\n\nThis changes only the TL;DR line.",
+    "closedAt": "2026-08-31T16:30:26Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T16:11:07Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T16:11:07Z",
+        "messageBody": "",
+        "messageHeadline": "Restore a readable software-factory TLDR",
+        "oid": "4cf021a679708dce34ec6d7acaf4a44fde2b8d55"
+      }
+    ],
+    "createdAt": "2026-08-31T16:11:17Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 1,
+        "deletions": 1
+      }
+    ],
+    "headRefName": "restore-readable-software-factory-tldr",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T16:30:26Z",
+    "number": 161,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Restore a readable software-factory TL;DR",
+    "updatedAt": "2026-08-31T16:30:26Z",
+    "url": "https://github.com/zby/commonplace/pull/161"
+  },
+  "inline_review_comments": []
+}

@@ -1,0 +1,15 @@
+# Premise decomposition: Addressability grain, not compression ratio, sets a matched selective-read floor
+
+**Note:** `kb/notes/addressability-grain-sets-a-matched-selective-read-floor.md`
+**Register:** claim
+**Central commitment (one sentence):** For recoverable content and a known one-unit question, a summary lowers the matched raw selective-read floor only when its access path retrieves a smaller answer-bearing addressed unit than the source path, so whole-artifact compression ratio alone does not decide the comparison.
+
+## Premises and counterexamples
+1. **In a matched one-unit comparison, each path has a smallest answer-bearing addressed unit whose measured read volume is the relevant raw retrieval floor for that path.** — HOLDS — The main counterexample shape to hunt is a task that still needs multiple units or extra interpretation after the selected unit, but the note excludes those cases by requiring one explicit answer-bearing unit at the stated reliability.
+2. **Whole-artifact compression ratio by itself cannot determine which path has the lower matched selective-read floor unless each whole artifact is also that path's smallest addressable unit.** — HOLDS — A possible defeater would be a case where whole-artifact ratio alone fixes the addressed-unit relation despite smaller internal units existing, but that requires extra structure beyond ratio alone and so does not defeat the premise as stated.
+3. **The comparison is well-formed only when the question, target information, required reliability, and read-volume currency are held constant, and a known key retrieves one explicit answer-bearing unit on each side without loading other units.** — HOLDS — The obvious edge cases are ambiguous keys, multi-hit inspection, or answers reconstructed across several locations, but the note routes those outside this one-unit test rather than silently counting them as in-scope defeats.
+4. **For recoverable content, raw read volume can be isolated from separate costs such as sufficiency, freshness, discovery help, retrieval overhead, and maintenance, so those costs do not change the matched read-volume floor itself.** — HOLDS — A candidate defeater would need one of those other costs to alter the amount of material loaded while still remaining a distinct cost rather than part of read volume; the note's ledger split prevents that collapse.
+5. **A source path can be finer-grained than a summary path, and a summary path can be finer-grained than a source path, because addressability grain depends on the exposed keys and retrieval path rather than on whether the artifact is a 'summary' or 'source'.** — HOLDS — The Commonplace examples are contingent evidence rather than proof, but the premise itself is a structural claim about access paths, and no concrete case here forces summary or source status alone to determine the finer grain.
+
+## For the human
+No non-`HOLDS` premise surfaced; if you want the next stress test, start with premise 3, because ambiguous keys or multi-location answers are the fastest way this argument leaves its stated one-unit regime.

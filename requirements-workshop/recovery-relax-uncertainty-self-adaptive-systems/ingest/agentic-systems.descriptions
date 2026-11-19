@@ -1,0 +1,5 @@
+QUERY: rg -n -i '^description:.*(requirement|objective|diagnostic|observab|fixed.*decomposition|bounded.*adapt)' kb/agentic-systems/ --glob *.md --glob !*.brief.md
+kb/agentic-systems/reviews-archive/sol-pi.md:3:description: SoL-Pi wraps Pi with optional fused actions, recoverable observations, checked diagnostic excerpts
+kb/agentic-systems/reviews-archive/primescientist.md:3:description: "PrimeScientist's research-plan tree, retained rationale and diagnostics, with score-dependent inheritance and bounded budget/evaluator guarantees"
+
+EXIT: 0

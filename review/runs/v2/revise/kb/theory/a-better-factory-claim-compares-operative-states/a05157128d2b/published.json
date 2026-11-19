@@ -1,0 +1,19 @@
+{
+  "open": false,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/a-better-factory-claim-compares-operative-states/a05157128d2b/artifact/publications/1.md",
+      "sha256": "82e236912f18b343e173852a6bb1b7a22b5bfcba85dea8754941fbbbdd2ccbcd",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/a-better-factory-claim-compares-operative-states/a05157128d2b/artifact/publications/1.diff",
+      "before-sha256": "a05157128d2b484721e22e5ce6a2c52816922a6bbe185d20025ad265eafdc830",
+      "entries": [
+        "fix-strategy-taxonomy/accessibility/undefined-terms",
+        "readability-and-flow",
+        "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+        "fix-strategy-taxonomy/prose/mannered-prose"
+      ],
+      "at": "2026-11-18T00:34:33Z"
+    }
+  ]
+}

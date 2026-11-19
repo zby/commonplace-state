@@ -1,0 +1,68 @@
+[
+  {
+    "id": "E",
+    "pair": 1,
+    "order": [
+      "N42",
+      "K17",
+      "P63",
+      "R85"
+    ],
+    "arm": "checklist"
+  },
+  {
+    "id": "D",
+    "pair": 1,
+    "order": [
+      "N42",
+      "K17",
+      "P63",
+      "R85"
+    ],
+    "arm": "relation"
+  },
+  {
+    "id": "B",
+    "pair": 2,
+    "order": [
+      "N42",
+      "K17",
+      "R85",
+      "P63"
+    ],
+    "arm": "relation"
+  },
+  {
+    "id": "F",
+    "pair": 2,
+    "order": [
+      "N42",
+      "K17",
+      "R85",
+      "P63"
+    ],
+    "arm": "checklist"
+  },
+  {
+    "id": "C",
+    "pair": 3,
+    "order": [
+      "N42",
+      "K17",
+      "P63",
+      "R85"
+    ],
+    "arm": "relation"
+  },
+  {
+    "id": "A",
+    "pair": 3,
+    "order": [
+      "N42",
+      "K17",
+      "P63",
+      "R85"
+    ],
+    "arm": "checklist"
+  }
+]

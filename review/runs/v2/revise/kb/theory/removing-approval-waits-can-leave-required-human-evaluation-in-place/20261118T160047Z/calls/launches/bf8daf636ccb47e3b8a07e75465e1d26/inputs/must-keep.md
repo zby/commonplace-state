@@ -1,0 +1,2 @@
+- Removing a human approval wait and removing a specified evaluation task are different changes.
+- Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.

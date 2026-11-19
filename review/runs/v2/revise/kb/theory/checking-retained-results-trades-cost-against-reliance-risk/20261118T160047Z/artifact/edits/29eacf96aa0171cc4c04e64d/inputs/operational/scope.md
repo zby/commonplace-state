@@ -1,0 +1,1 @@
+The second paragraph's sentence beginning 'A stale copy can also hide its own error'; keep the wording 'the copy suppresses the search that would have exposed what it misses'

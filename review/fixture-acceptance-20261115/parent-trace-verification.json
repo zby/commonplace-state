@@ -1,0 +1,46 @@
+[
+  {
+    "launch": "bd69886bc175419199cd16207d642e14",
+    "model": "claude-opus-5-5",
+    "cost": 0.2997354,
+    "tool-count": 71,
+    "mcp": [
+      {
+        "name": "scry",
+        "status": "connected",
+        "source": "local"
+      },
+      {
+        "name": "claude.ai Claude Docs",
+        "status": "connected",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Google Calendar",
+        "status": "needs-auth",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Google Drive",
+        "status": "needs-auth",
+        "source": "claudeai"
+      },
+      {
+        "name": "claude.ai Gmail",
+        "status": "needs-auth",
+        "source": "claudeai"
+      }
+    ],
+    "stderr": "",
+    "trace-sha256": "6abe7aeb9ad5ff78f4bb7adce6d302d127c4a79937e3e3a0384ecad264ea5994"
+  },
+  {
+    "launch": "d9d718b95b7746a5b039987907b6b9e4",
+    "model": "claude-opus-5-5",
+    "cost": 0.352242,
+    "tool-count": 25,
+    "mcp": [],
+    "stderr": "Ignoring 4 permissions.allow entries from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects[\"/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261115T200508Z/tree\"].hasTrustDialogAccepted: true in /home/zby/.claude.json.\n",
+    "trace-sha256": "823435ef878b1f968ec319c07ee100d3ea2a6c1df5ac87dd9867e8cf58053ba3"
+  }
+]

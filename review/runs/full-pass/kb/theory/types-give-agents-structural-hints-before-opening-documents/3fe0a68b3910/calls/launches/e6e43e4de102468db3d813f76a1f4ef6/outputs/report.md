@@ -1,0 +1,19 @@
+# Friction check: Types give agents structural hints before opening documents
+
+**Note:** kb/theory/types-give-agents-structural-hints-before-opening-documents.md
+**Central claim (one sentence):** Reading a document's type (which says what operations the document affords) and its description (which says which instance of that type is relevant) lets an agent decide whether to load the document without opening it.
+
+## Filter
+**Verdict:** SURVIVES
+
+The claim needs four properties at once: (a) routing happens before loading; (b) the type carries actionable information; (c) types assert structure, not subject matter; (d) the agent can narrow a large set to a few relevant documents. These can coexist, because the note splits the work: structure-only types cannot filter by topic relevance (c), so the description must filter by relevance (d). That split is consistent. However, it moves most of the relevance-filtering load onto the description. This bears on joints 1 and 2 below: the note opens by framing types as the thing that solves routing.
+
+## Signal — thinnest joints
+1. **"Without types, an agent must either load everything (wasteful) or guess what's relevant (error-prone)."** — UNSUPPORTED — This is a false dichotomy. Without types, an agent can still route by description, title, filename, directory or search. The note itself later gives the description the instance-relevance job. So the problem that "Types solve" is mostly solved by descriptions, which do not need types. The note never shows what routing failure remains when descriptions exist but types do not.
+2. **"This is why [description is the most important field]"** — THIN — The preceding paragraph argues that *types* provide pre-opening hints. That does not establish that the *description* is the most important field. If anything, the paragraph promotes the type. The description's primacy follows from its instance-level filtering role, which the same paragraph only asserts in its next sentence. The "This is why" connective points at the wrong ground.
+3. **"Together they let an agent narrow from hundreds of files to the few it needs without opening any of them."** — THIN — This needs descriptions that discriminate well enough among same-type documents, which the note does not argue for. It also needs the agent to know what each type name affords, which is easy to miss: the type vocabulary or type specs must already be in context, and that has its own context cost. "Without opening any" is also too strong: the "few it needs" must still be opened, so the claim is really about pruning, not about avoiding loads.
+4. **"The verifiability criterion is what makes this work: types must assert structural properties, not subject matter."** — THIN — The "design note" example shows that subject-matter types are uninformative in a single-topic KB. It does not show that *verifiability* is what makes routing work. A structural type could be unverified and still route correctly if authors comply, and a verifiable type could still be useless for routing. The note merges "verifiable" and "structural" into one requirement without deriving one from the other. The phrase "what makes this work" claims necessity, and the argument supports only usefulness.
+5. **"descriptions don't appear spontaneously; the type system is what makes them exist."** — THIN — Enforcement guarantees that a description field is present. It does not guarantee that the field works as a retrieval filter rather than a summary, and joint 3 depends on the filter quality. The step from "metadata exists reliably" to "the hints work" skips this quality gap. The linked note may cover it, but this note does not.
+
+## For the human
+Look first at the opening dichotomy (joint 1). Concretize what a type adds to routing beyond what a good description already does. If the answer is small, the title's credit to types, and the "This is why" link to description primacy, both need to be reworked.

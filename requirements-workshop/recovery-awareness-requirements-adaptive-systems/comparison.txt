@@ -1,0 +1,52 @@
+awareness-requirements-adaptive-systems.connect.md
+archive sha256: 0e8f08883a9ca162bfd9254b259ceaafb5bf42cdf465d545559acc1355bfca74
+archive Connections Found:
+- [Final task success](../../../../theory/final-task-success-does-not-establish-intended-path-health.md) — **compares-with**: requirements referring to intermediate requirement states offer a way to express what terminal task success leaves unobserved; instrumentation still determines which states become visible.
+- [Diagnostic richness](../../../../theory/diagnostic-richness-constrains-outer-loop-learning-quality.md) — **compares-with**: detecting a violated success-rate requirement differs from explaining its cause or selecting a repair; the paper implements monitoring, not the full feedback loop.
+- [RELAX](../../../../sources/relax-uncertainty-self-adaptive-systems.ingest.md) — **compares-with**: the paper directly contrasts requirements about success/failure frequencies with fuzzy degrees of satisfaction and claims approximation, not semantic equivalence.
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) — **compares-with**: a precisely monitored quality constraint still depends on the separately chosen mapping from softgoal to measurable requirement and success threshold.
+archive Bidirectional Candidates:
+None.
+archive Reverse-edge Candidates:
+None.
+replacement sha256: 66244beb96ac87f3864dd1acd588a308abd8259ed2aa1cc84351dae6562496dc
+replacement Connections Found:
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) — **compares-with**: correct evaluation of instrumented requirement-state constraints does not validate the softgoal-to-quality-constraint mapping or chosen success thresholds against the wider purpose.
+- [Diagnostic richness](../../../../theory/diagnostic-richness-constrains-outer-loop-learning-quality.md) — **compares-with**: aggregate failures and trends identify violated constraints but do not explain causes or choose repairs; the paper implements monitoring, not the complete feedback loop.
+- [Objective revision](../../../../theory/revising-an-improvement-objective-is-licensed-from-outside-it.md) — **compares-with**: AR11 illustrates lowering success-rate targets to avoid repeated notifications; distinguish a licensed alert-control policy from evidence that weakening substantive success is improvement.
+- [RELAX](../../../../sources/relax-uncertainty-self-adaptive-systems.ingest.md) — **compares-with**: the source directly compares fuzzy degrees of satisfaction with rates over discrete requirement outcomes; its threshold combinations approximate selected fuzzy requirements, not their general semantics.
+- [Requirements Reflection](../../../../sources/requirements-reflection-runtime-entities.ingest.md) — **compares-with**: both reify requirements at runtime, but monitoring requirement states is distinct from the proposed synchronization of changed requirements and architecture.
+- [SkillRL](../../../../agent-memory-systems/reviews/SkillRL.md) — **compares-with**: compare aggregate success-rate conditions with a reviewed implementation whose low-rate trigger acquires failed-trajectory skills. A monitoring predicate and the policy it triggers are separate design objects; neither common formalism nor transfer effectiveness is established.
+replacement Bidirectional Candidates:
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) → [Awareness ingest (snapshot required)](../../../../sources/awareness-requirements-adaptive-systems.ingest.md) — **evidenced-by** under theory's contract: a qualifying case of locally tested monitor verdicts without outcome validation. Independently useful to theory readers; not empirical corroboration of the general claim. The durable target is the ingest, never the snapshot.
+replacement Reverse-edge Candidates:
+None.
+
+awareness-requirements-adaptive-systems.ingest.connect.md
+archive sha256: 66abdaee06e2ce6f8199d7dfee03d539526ea46a05f60fb237e8ce2d6891a463
+archive Connections Found:
+- [Learning inside a fixed decomposition](../../../../theory/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md) — **compares-with**: monitoring tests hold requirement classes and event mappings fixed; changing a threshold is not evidence that the system can repair that representation.
+
+- [Final task success](../../../../theory/final-task-success-does-not-establish-intended-path-health.md) — **compares-with**: requirements referring to intermediate requirement states offer a way to express what terminal task success leaves unobserved; instrumentation still determines which states become visible.
+- [Diagnostic richness](../../../../theory/diagnostic-richness-constrains-outer-loop-learning-quality.md) — **compares-with**: detecting a violated success-rate requirement differs from explaining its cause or selecting a repair; the paper implements monitoring, not the full feedback loop.
+- [RELAX](../../../../sources/relax-uncertainty-self-adaptive-systems.ingest.md) — **compares-with**: the paper directly contrasts requirements about success/failure frequencies with fuzzy degrees of satisfaction and claims approximation, not semantic equivalence.
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) — **compares-with**: a precisely monitored quality constraint still depends on the separately chosen mapping from softgoal to measurable requirement and success threshold.
+archive Bidirectional Candidates:
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) → accepted Awareness Requirements ingest — **evidenced-by**: a qualifying modeling case, not corroboration: softgoal → quality constraint → satisfaction-rate requirement → instrumented verdict exposes distinct links whose warrant is not supplied by correct monitor execution. This helps a reader inspect the upstream/downstream distinction with a concrete RE mechanism independently of the outbound link. Any author must check source budget and evidence scope.
+archive Reverse-edge Candidates:
+None.
+replacement sha256: 95dc67b81420fda247416a6fa0e90d549eb08ce221a38194bfe63509b675c960
+replacement Connections Found:
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) — **compares-with**: preserve the existing comparison; checking emitted requirement-state events against a temporal predicate does not establish that the predicate or its metric serves the stakeholder purpose.
+- [Diagnostic richness](../../../../theory/diagnostic-richness-constrains-outer-loop-learning-quality.md) — **compares-with**: preserve the existing boundary comparison; violation rates and histories locate failed constraints but do not uniquely locate causes or choose repairs.
+- [Fixed decomposition](../../../../theory/learning-inside-a-fixed-decomposition-inherits-its-mistakes.md) — **compares-with**: preserve the existing analysis link; tests fix requirement classes, event mappings and semantics. Changing a threshold does not show revision of that representation, nor does its fixedness establish that it is mistaken.
+- [Objective revision](../../../../theory/revising-an-improvement-objective-is-licensed-from-outside-it.md) — **compares-with**: the ingest's AR11 alert-suppression concern makes the outside-license distinction useful: a designer-specified target change is not evidence of self-authorized terminal-goal improvement.
+- [RELAX](../../../../sources/relax-uncertainty-self-adaptive-systems.ingest.md) — **compares-with**: distinguish fuzzy degrees of satisfaction and stakeholder-bounded flexibility from rates over discrete requirement outcomes and criticality-driven monitoring. The source offers approximations, not general semantic equivalence.
+- [Requirements Reflection](../../../../sources/requirements-reflection-runtime-entities.ingest.md) — **compares-with**: distinguish runtime requirements objects used for state monitoring from the separate proposal to synchronize requirements changes with architecture; neither account establishes learned goal revision.
+- [Jureta 2008 ontology](../../../../sources/revisiting-core-ontology-requirements-engineering-2008.ingest.md) — **compares-with**: its local, defeasible softgoal approximation provides a complementary object of criticism upstream of AwReq verdicts; monitoring a chosen quality constraint does not by itself test that approximation.
+- [SkillRL](../../../../agent-memory-systems/reviews/SkillRL.md) — **compares-with**: a concrete low-success-rate trigger supplies an agent-learning comparison for aggregate predicates, while failed-trajectory skill acquisition supplies an action policy the AwReq paper leaves outside its demonstrated monitoring loop. No shared formalism or tested transfer is implied.
+replacement Bidirectional Candidates:
+- [Exact implementation](../../../../theory/exact-implementation-does-not-validate-a-requirement.md) → [Awareness ingest (snapshot required)](../../../../sources/awareness-requirements-adaptive-systems.ingest.md) — **evidenced-by** under theory's contract: a qualifying worked monitoring case that separates conformance from upstream adequacy; not corroboration of the general theory. Check source budget and evidence scope before any future authoring. Empty Quotes means this use currently requires the pinned snapshot.
+replacement Reverse-edge Candidates:
+None.
+

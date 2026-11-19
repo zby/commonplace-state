@@ -1,0 +1,561 @@
+{
+  "ok": false,
+  "complete": false,
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z",
+  "artifact": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "An agent or maintainer who reports or designs the automation of a KB or agent process should be able to tell removing a human approval wait apart from automating or retiring a required human task and from optional assessment, and say which human tasks an automation claim keeps and which requirements it retires.",
+    "must-keep": [
+      "Removing a human approval wait and removing a specified evaluation task are different changes.",
+      "Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "narrow-overclaims",
+        "scope": "The opening paragraph's sentence \"A claim of full automation must say which tasks it preserves and which requirements it retires.\" only"
+      },
+      {
+        "pass": "abstractions",
+        "scope": "The whole note except the weekly-review paragraph under \"Name the process being automated\" (the paragraph beginning \"Suppose adoption is automatic\") and the second Scope bullet (\"A habitual wait for human input ...\")"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/reviews",
+      "ok": false,
+      "counts": {
+        "reviewed": 46
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/reference/README.md",
+          "kb/reference/workflow-architecture.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "narrow-overclaims",
+      "scope": "The opening paragraph's sentence \"A claim of full automation must say which tasks it preserves and which requirements it retires.\" only",
+      "effort": "judgment",
+      "finding": null,
+      "state": "no-change",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/reports/narrow-overclaims.md",
+      "text": null,
+      "answers": null
+    },
+    {
+      "name": "abstractions",
+      "scope": "The whole note except the weekly-review paragraph under \"Name the process being automated\" (the paragraph beginning \"Suppose adoption is automatic\") and the second Scope bullet (\"A habitual wait for human input ...\")",
+      "effort": "judgment",
+      "finding": null,
+      "state": "waiting",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/reports/abstractions.md",
+      "text": null,
+      "answers": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md"
+    }
+  ],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z",
+    "made-for": {
+      "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+      "sha256": "41c2fb95159816cf6bc2a4c7308d794bb413549e264e21787f2221a048788cea",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "proposals",
+        "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "step": "Proposals awaiting decision",
+          "command": "commonplace-review run revise kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md --answers kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md --purpose 'An agent or maintainer who reports or designs the automation of a KB or agent process should be able to tell removing a human approval wait apart from automating or retiring a required human task and from optional assessment, and say which human tasks an automation claim keeps and which requirements it retires.' --must-keep 'Removing a human approval wait and removing a specified evaluation task are different changes.' --must-keep 'Retiring an unnecessary review may be justified, but it is a change in requirements, not automation of that review.'",
+          "record": "commonplace-review answers record kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md"
+        },
+        "answers": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md"
+        ],
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/abstractions-answers.md",
+          "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/edits/3ac11b80aa0026b5194a41c1/results/001ad28428d046088be5075196e73bf1/result.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "step": "Claim questions from the assessment"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T160047Z/artifact/assessment.md"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "kb/reference/README.md",
+      "kb/reference/workflow-architecture.md"
+    ]
+  }
+}

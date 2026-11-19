@@ -1,0 +1,26 @@
+{
+  "format": 2,
+  "profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md"
+    ],
+    "criteria": [
+      "sentence/stock-phrases",
+      "type",
+      "collection",
+      "critique"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

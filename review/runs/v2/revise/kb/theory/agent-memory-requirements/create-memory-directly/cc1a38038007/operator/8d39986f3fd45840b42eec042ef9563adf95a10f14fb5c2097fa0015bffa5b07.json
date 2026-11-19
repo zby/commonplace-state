@@ -1,0 +1,6 @@
+{
+  "name": "publication-answers.md",
+  "input-key": "8c2aa033805b2933cd6c256bfe9038528cda2ac644eee4d7a1190ab355e1ba50",
+  "proposal": "---\ntype: types/answers.md\ndescription: The operator's answers to kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/final.md\nquestion: kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/final.md\nquestion-sha256: df76b4a5a6e353b691bd8f13146ceca02eea258bad516a969f879d973f0946df\nitems:\n- id: text\n  proposal:\n    text: kb/reports/state/review/runs/v2/revise/kb/theory/agent-memory-requirements/create-memory-directly/cc1a38038007/artifact/final.md\n    text-sha256: df76b4a5a6e353b691bd8f13146ceca02eea258bad516a969f879d973f0946df\n  state: pending\n---\n\n# Answers\n\nSet each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.\n",
+  "key": "e8b8f9d1da0f5adb082d7c11409d9ca3a1957e579759ea13fb94c75575c84548"
+}

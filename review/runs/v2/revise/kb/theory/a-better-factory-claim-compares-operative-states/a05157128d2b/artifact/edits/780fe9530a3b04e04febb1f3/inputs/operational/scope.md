@@ -1,0 +1,1 @@
+The opening sentence's clause 'a retained change to its reusable machinery that later work depends on'

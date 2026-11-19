@@ -1,0 +1,19 @@
+# Friction check: Codifying predictable choices leaves agents with less predictable work
+
+**Note:** kb/notes/codifying-predictable-choices-leaves-agents-with-less-predictable-work.md
+**Central claim (one sentence):** When a system preferentially codifies the choices whose mappings and acceptable results are cheaper to specify and verify than the choices it leaves to agents, the remaining agent work becomes operationally less predictable even in a deterministic domain, which in turn favors deferring some decisions to execution and moves later self-improvement toward the uncodified frontier.
+
+## Filter
+**Verdict:** SURVIVES
+
+One coherent arrangement can satisfy the note's commitments at once: under a fixed workload and routing policy, the system migrates the choices with cheap, reliable symbolic witnesses into codified controls, so the overall system becomes more predictable while the residual agent layer is comparatively more concentrated in cases that still require interpretation. The planning and self-improvement sections remain conditional consequences of that same boundary shift rather than incompatible second claims.
+
+## Signal — thinnest joints
+1. **“Repeated successful responses expose a regularity; retained theory explains it; methodology narrows the admissible response; verification establishes whether a symbolic control is safe; codification then removes that choice from future open-ended judgment.”** — UNSUPPORTED — Repeated success can show a recurring pattern, but it does not by itself establish an explanatory theory, a settled admissible response, or a verifier strong enough to license safe codification. Several distinct warrants are compressed into one staircase, so the frontier-moving loop inherits unproved steps.
+2. **“The selection effect supports adaptive planning only where execution changes the available evidence.”** — UNSUPPORTED — The note shows that some choices should be deferred when execution reveals missing premises, but it also cites contingency-space cost without showing that every planning gain reduces to new evidence rather than staged computation, option preservation, or avoiding premature commitment under known complexity.
+3. **“when a system preferentially codifies choices that are more predictable than the choices it leaves to agents, the residual agent workload becomes less predictable.”** — THIN — The premise compares choices one by one, but the conclusion shifts to a whole workload. The note does not state the aggregation rule, comparison baseline, or minimum migrated share needed for the workload itself to count as less predictable rather than merely containing a higher share of hard cases.
+4. **“Only the first two reasons necessarily give the executor an information advantage over an earlier planner.”** — THIN — An expensive contingency space can justify deferral even when the planner already has the relevant evidence but cannot economically enumerate or coordinate every branch in advance. Conversely, weak verification or implementation cost can also depend on information surfaced during execution, so the neat partition is asserted faster than shown.
+5. **“Retained methodology can govern the transition only insofar as it settles the meta-decisions that its own extension raises.”** — THIN — The note imports a governance limit by citation but does not name the concrete meta-decisions this codification loop raises, or show how leaving them unsettled blocks governance rather than merely slowing extension. The self-improvement consequence depends on a specific failure mode that is not reconstructed here.
+
+## For the human
+Look first at the compressed bridge from selective codification to workload-level unpredictability and then at the self-improvement staircase, because those are the places where the note most needs explicit comparison rules and missing intermediate warrants.

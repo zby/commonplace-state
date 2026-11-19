@@ -1,0 +1,69 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This restarts the program article from the core claim rather than the agentic-system ontology.\n\nMain changes:\n- open with `a software factory can build a better software factory`\n- separate factory construction, factory learning, and factory improvement\n- define *better* to preserve the capabilities needed for continued factory development while improving declared production outcomes\n- remove the agentic-substrate framing from the article\n- make Naur's retained-theory / held-theory distinction the explanation of the coherent-modification problem\n- keep natural-language theory as the contingent LLM implementation bet\n- stage the experiments: first test Naurian theory-holding in ordinary projects, then test factory-level learning and better successor factories\n- align `article-roles.md` so later edits preserve this spine\n\nThe diff is limited to the program article and its internal role contract.",
+    "closedAt": "2026-08-31T20:29:36Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T20:27:41Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T20:27:41Z",
+        "messageBody": "",
+        "messageHeadline": "Rewrite learning software factories program from first principles",
+        "oid": "c79b75a2419e2d6b581710b8e4a86398c386f6ae"
+      },
+      {
+        "authoredDate": "2026-08-31T20:28:09Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T20:28:09Z",
+        "messageBody": "",
+        "messageHeadline": "Align program article role with first-principles rewrite",
+        "oid": "dc2f480c35edbd17ef5f7a37125d321b797ad275"
+      }
+    ],
+    "createdAt": "2026-08-31T20:28:23Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 41,
+        "deletions": 69
+      },
+      {
+        "path": "kb/work/theory-mediated-self-improvement-series/article-roles.md",
+        "additions": 12,
+        "deletions": 10
+      }
+    ],
+    "headRefName": "rewrite-learning-software-factories-from-scratch",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T20:29:35Z",
+    "number": 167,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Rewrite learning software factories program from first principles",
+    "updatedAt": "2026-08-31T20:29:36Z",
+    "url": "https://github.com/zby/commonplace/pull/167"
+  },
+  "inline_review_comments": []
+}

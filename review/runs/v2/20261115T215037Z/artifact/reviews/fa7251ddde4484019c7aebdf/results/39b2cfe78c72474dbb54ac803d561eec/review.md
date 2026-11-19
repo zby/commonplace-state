@@ -1,0 +1,59 @@
+---
+type: types/review-result.md
+findings:
+- scope: document
+  quotes: []
+  reason: 'The note says where the rule applies in two places that do not quite agree.
+    ''Where the rule applies'' says judgment-verified dependents fall outside the
+    rule: hand-maintenance there is ''not forbidden; it is unavoidable''. Precondition
+    1 instead sends natural-language summaries and judgments to ''live reads or are
+    omitted'', and the footer gloss on the automation-boundary note says ''where verification
+    is unavailable, omission is the only safe state''. The scoping section is also
+    the densest part of the note and is longer than the claim it scopes. As a result,
+    the reader finishes the note without one clear statement of the rule''s domain.
+    One direction is to cut the scoping section down to the regime flip: managed staleness
+    where checking takes judgment, and checked-or-absent where a Level A check exists.
+    The preconditions list would then become the concrete test for that flip, and
+    the duplicated statement of what counts as mechanically re-derivable could go.
+    The author must first decide which boundary is meant.'
+outcome: report
+description: Retained report review of kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md
+  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md
+contract: report
+note: kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md
+criterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md
+note-sha256: e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8
+criterion-sha256: 369e03ee61367597afb70d9b5ac04139c1663d1d01e076df22afd518e286dd34
+target-sha256: e45d20f1aae9a37f7d05cc3f038b8c988ecf738fc0ddf506320b3b4c640420a8
+target-capture: kb/reports/state/review/runs/v2/20261115T215037Z/artifact/reviews/fa7251ddde4484019c7aebdf/inputs/target/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md
+observation: kb/reports/state/review/runs/v2/20261115T215037Z/artifact/reviews/fa7251ddde4484019c7aebdf/observation.json
+contract-sha256: 51160927a1a6a1ab75b5816a18aae4fb5a75347eedf7c08240605699f9cd90ec
+profile:
+  harness: claude-code
+  launch-model: opus
+  effort: medium
+model: claude-opus-5-5
+run: kb/reports/state/review/runs/v2/20261115T215037Z
+launch: 39b2cfe78c72474dbb54ac803d561eec
+completed-at: '2026-11-15T21:51:32Z'
+raw-output: kb/reports/state/review/runs/v2/20261115T215037Z/calls/launches/39b2cfe78c72474dbb54ac803d561eec/outputs/review.md
+raw-output-sha256: 602a22a5c39425ee601d521d2ed9262f161c5eeafcd4405a479e1a002ee80f57
+format: 2
+---
+
+# Simplification synthesis: A derived copy of recomputable truth must be checked or absent
+
+## Opportunities
+
+### 1. State the rule's domain once, as the Level A flip, and make the preconditions its test
+
+- Location: `## Where the rule applies: the deterministic end of derived knowledge` (both paragraphs) together with `## What "checked" requires — and its limits`, items 1 and 3 ("natural-language summaries and judgments do not — there is no comparison a machine can run, so they stay as live reads or are omitted"; "When this precondition fails, the value was never a recomputable copy in the first place").
+- Reader problem: the reader has to work out the rule's scope from two sections. The scoping section spends most of its length on managed-staleness machinery from neighbouring notes: the taxonomy of derived and abstracted dependents, the repair split, timestamps, holistic rework and interrupt placement. Only then does it reach the point the rule needs, which is that Level A check cost flips the regime. Two sections later, the preconditions restate where mechanical re-derivation applies. On this point they appear to give a different answer for non-mechanical content: omit it or read it live, rather than leaving it under managed staleness.
+- Direction: reduce the scoping section to two statements. First, dependents verified by judgment stay under managed staleness, through the linked lineage and timestamp notes. Second, a mechanical derivation rule makes verification Level A, and checked-or-absent then becomes binding. The preconditions list can then serve as the test for that second statement, with precondition 1 no longer repeating the scope argument. One possible lead sentence, offered for illustration and not as a settled rewrite: "Where verifying a dependent takes judgment, the KB manages staleness and tolerates hand-maintenance; where a machine can re-derive it, verification is free and the copy must be checked or absent."
+- Combines: core-claim-obscured finding 1 (the scoping section is denser than the claim and introduces terms such as "interrupt placement" that the reader must decode first); detail-overhang finding 1 (the general dependent-knowledge taxonomy and repair split are not used by the rule). The overlap with precondition 1 and precondition 3 is a cross-cutting addition from reading the whole note.
+- Preserve or decide:
+  - **Decide (prerequisite):** does the omit branch reach content that cannot be checked mechanically? The scoping section says no: such dependents are hand-maintained under managed staleness. Precondition 1 ("stay as live reads or are omitted") and the automation-boundary footer gloss ("omission is the only safe state") can be read as saying yes. The fold cannot proceed until the author picks one reading. A compression edit should not pick it silently. One possible resolution is to say that precondition 1 applies only to copies the author meant to treat as recomputable. Another is that the omission advice is limited to *trusted* summaries. These are materially different scopes.
+  - **Preserve:** the asymmetry argument that justifies "forbidden" and keep it ahead of the scope statement. Also preserve the Level B to Level A link to the text-testing pyramid, because it is what names the boundary. Keep the point that the validator itself is the edit-time surface, so lineage only needs to be machine-followable; precondition 2 depends on it. Keep precondition 3's handoff of execution-generated evidence to the executor.
+  - **Preserve:** the contrast relations in the footer, managed staleness via lineage and make-like timestamps. Their glosses should still match whichever boundary the author chooses.
+
+Other supplied findings were left out as local compressions below this synthesis's threshold. These are: the opening sentence leads with examples before the two-states rule (offset by the title and description); instance 1 restates precondition 4's amortization argument; and instance 4 carries a build-path gloss that ADR 027 already holds. Each one can be applied in place without authorial judgment.

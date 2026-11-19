@@ -1,0 +1,6 @@
+- A system can improve at its current work while losing the ability to improve itself again.
+- A non-regression requirement protects only the capabilities included in its checked scope.
+- Merely declaring non-regression on ordinary production tasks does not include it.
+- Keeping the old files does not preserve the capability if the successor no longer permits or consumes their changes.
+- Preserving the path leaves another improvement possible; it does not establish that another improvement will occur.
+- A fixed deployment can deliberately give up self-revision; a production gain alone does not establish its preservation.

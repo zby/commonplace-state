@@ -1,0 +1,28 @@
+Task:
+Assess one artifact for revision. Nobody will answer questions. If you cannot, write <the problem file named at the end of this invocation> instead of guessing.
+
+The artifact is `kb/articles/what-an-automated-reviewer-should-measure.md` in this repository; its text is <Inputs: artifact.md>. Judge this input text; the file on disk may differ. The instruction is <Inputs: criterion.md>: do its step 1, the assessment, and nothing after it. The plan is validated and ordinary passes run automatically. The operator named no purpose: propose one as the instruction directs. The passes you may recommend are listed in <Inputs: passes.md>; choose only from them, by name.
+
+Output:
+- Write the assessment to <Required outputs: assessment.md>, as the instruction's step 1 describes.
+- Write the plan to <Required outputs: plan.md>: a YAML mapping holding exactly the decision fields below. `purpose` is the purpose the assessment works under; `defend` lists the claims the assessment marks as divergence, each as the claim's text; `passes` lists the recommended passes in run order, each a mapping with `pass` (its name) and, when the pass should touch only part of the artifact, `scope` naming that part; `stop` is null, or the reason when the instruction says to report a rewrite and stop. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+The decision fields, each required:
+- `purpose`: a str value
+- `defend`: a list value
+- `passes`: a list value
+- `stop`: a str or null value
+
+
+Inputs (read these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/inputs/artifact.md
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/inputs/criterion.md
+- passes.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/inputs/passes.md
+
+Required outputs (write these exact files):
+- plan.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/outputs/plan.md
+- assessment.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/outputs/assessment.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/eb34b518247b4a2aba225464239c4ffd/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "Superseded by #166, which restacks the retained-vs-held distinction onto current main and folds it into a broader compression/reorganization of the research-program article.",
+    "closedAt": "2026-08-31T18:52:34Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T18:45:14Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T18:45:14Z",
+        "messageBody": "",
+        "messageHeadline": "Distinguish retained from held project theory",
+        "oid": "d136fffa871b1946941733c59dac8e0be8f12e0f"
+      }
+    ],
+    "createdAt": "2026-08-31T18:45:27Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 17,
+        "deletions": 0
+      }
+    ],
+    "headRefName": "held-theory-distinction",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T18:52:34Z",
+    "number": 165,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Distinguish retained from held project theory",
+    "updatedAt": "2026-08-31T19:58:45Z",
+    "url": "https://github.com/zby/commonplace/pull/165"
+  },
+  "inline_review_comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z",
+  "made-for": {
+    "note": "kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md",
+    "sha256": "5111320ea026b34d7697f869a35f72cbd6b3245b5c481328ae21f02df13ae524",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "step": "Claim questions from the assessment"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "stale-reviews",
+      "what": "44 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "step": "Stale reviews",
+        "command": "commonplace-review status kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/removing-approval-waits-can-leave-required-human-evaluation-in-place/20261118T190241Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

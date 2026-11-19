@@ -1,0 +1,21 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.md",
+      "sha256": "1e6f346febb4bb7f7d16dcb927a9aa2d73f27cd378f26f306db9ec6900e5374f",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.diff",
+      "before-sha256": "0d0cf44cba15ace932e01cefaf52f09ede4b4729916d13af8b19014f735708eb",
+      "entries": [
+        "fix-strategy-taxonomy/accessibility/undefined-terms",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+        "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+        "fix-strategy-taxonomy/sentence/clause-packing",
+        "fix-strategy-taxonomy/sentence/misleading-link-text"
+      ],
+      "at": "2026-11-18T16:13:46Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

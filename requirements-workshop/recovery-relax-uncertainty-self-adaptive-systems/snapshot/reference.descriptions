@@ -1,0 +1,8 @@
+QUERY: rg -n -i '^description:.*(relax|invariant|requirements|observability|monitoring|self-adapt|adaptation bound)' kb/reference/ --glob *.md --glob !*.brief.md
+kb/reference/agent-memory-coverage.md:2:description: "How Commonplace's shipped surfaces realize agent-memory requirements: control plane, contracts, storage roles, validation, review, activation, promotion, lifecycle, and current gaps"
+kb/reference/proposals/bidirectional-codification-comparative-test.md:2:description: "Proposal: promote bidirectional codification from design guidance to a comparative conjecture, tested by evolving the same task stream under natural-language-only, symbolic-only, one-way promotion, and bidirectional codify-and-relax regimes"
+kb/reference/adr/012-types-for-structure-traits-for-review.md:2:description: Types define structural requirements checked by validation; traits route semantic review gates; the traits-only semantic boundary is amended by ADR-038/041, which make both contracts conformance gates
+kb/reference/proposals/write-time-vocabulary-collision-controls.md:2:description: "Proposal: mechanical controls for the one-term-one-sense invariant — reserved-term registry, slot-escape lint, coinage collision screen, naming-review gate, and clausal-binding link check"
+kb/reference/proposals/replaceable-workflow-orchestrators.md:3:description: "Proposal: separate Commonplace workflow requirements from execution machinery so an agent-plus-script orchestrator and a harness-native orchestrator can implement the same workflow."
+
+EXIT: 0

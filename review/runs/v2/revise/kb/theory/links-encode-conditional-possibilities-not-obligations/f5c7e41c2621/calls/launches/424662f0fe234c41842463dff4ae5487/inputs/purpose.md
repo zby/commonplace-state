@@ -1,0 +1,1 @@
+Make the note's wording plain for a KB maintainer reading it for the first time.

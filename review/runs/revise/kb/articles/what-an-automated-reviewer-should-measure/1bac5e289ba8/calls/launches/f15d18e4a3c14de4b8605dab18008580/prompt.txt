@@ -1,0 +1,24 @@
+Task:
+Run one simplification pass over one artifact. Nobody will answer questions. If you cannot run it within the pass's bounds, write <the problem file named at the end of this invocation> instead of guessing.
+
+The artifact is `kb/articles/what-an-automated-reviewer-should-measure.md` in this repository; the text under revision is <Inputs: artifact.md>. The artifact's file in the checkout may hold an older text: work on this input, not the file. The pass is `instructions/simplification-passes/readability-and-flow.md`; its text is <Inputs: criterion.md>. The revision instruction is <Inputs: workflow.md>. The purpose is <Inputs: purpose.md>. No claim is marked as defended. Apply the pass only to this part of the artifact: <Inputs: scope.md>. 
+
+Output:
+- Write the complete revised artifact, frontmatter included, to <Required outputs: artifact.md>. Do not edit the artifact's file: code checks your text. If the pass changes nothing, write the text unchanged.
+- Write the pass's report to <Required outputs: report.md>, as the pass describes it, followed by the items you noticed but did not apply. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+
+Inputs (read these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/inputs/artifact.md
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/inputs/criterion.md
+- purpose.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/inputs/purpose.md
+- scope.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/inputs/scope.md
+- workflow.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/inputs/workflow.md
+
+Required outputs (write these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/outputs/artifact.md
+- report.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/outputs/report.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/revise/kb/articles/what-an-automated-reviewer-should-measure/1bac5e289ba8/calls/launches/f15d18e4a3c14de4b8605dab18008580/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

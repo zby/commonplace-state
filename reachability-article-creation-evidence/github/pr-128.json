@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "This is a deliberately light editorial pass over the merged precision revision.\n\nWhat changed:\n- reduced the article from 544 to 399 lines (about 27%);\n- removed the introductory roadmap and repeated qualifications;\n- combined adjacent definitions and boundary statements;\n- shortened the workspace-optimization and Commonplace-evidence discussions;\n- moved the proposed experiment and longitudinal study ahead of the longer Bitter Lesson positioning;\n- compressed the Bitter Lesson material to the narrow rebuttal, bootstrap prediction, reasons for trying it first, and abandonment conditions;\n- shortened the invitation.\n\nWhat did not change:\n- the central coherent-modification question;\n- the deployed-system and no-weight-update positions;\n- the program-theory / retained-theory-state distinction;\n- the Naur departure and Sutton/Javed disagreement;\n- the four implementation roles, evidence ladder, truth-versus-fit distinction, current evidence boundary, study design, and failure criteria.\n\nThe deeper questions remain in `program-article-review-residuum-2026-08-30.md`; this PR does not try to settle them.",
+    "closedAt": "2026-08-30T16:20:24Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T16:09:27Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T16:09:27Z",
+        "messageBody": "Remove repeated qualifications and duplicate Bitter Lesson exposition while preserving the article's substantive claims, evidence levels, current episode, and proposed studies. Move the studies ahead of the longer strategic positioning so the empirical program arrives sooner.\n\nWorkshop: kb/work/theory-mediated-self-improvement-series\nModel: gpt-5.6-pro",
+        "messageHeadline": "Compress the theory-mediated research-program article",
+        "oid": "067e4e35fc4e04cd940688237f216ea762f9e900"
+      }
+    ],
+    "createdAt": "2026-08-30T16:16:43Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 276,
+        "deletions": 421
+      }
+    ],
+    "headRefName": "compress-theory-mediated-program",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T16:20:24Z",
+    "number": 128,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Compress the theory-mediated research-program article",
+    "updatedAt": "2026-08-30T16:20:24Z",
+    "url": "https://github.com/zby/commonplace/pull/128"
+  },
+  "inline_review_comments": []
+}

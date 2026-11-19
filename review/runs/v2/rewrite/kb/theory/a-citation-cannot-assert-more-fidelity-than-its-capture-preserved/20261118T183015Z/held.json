@@ -1,0 +1,11 @@
+{
+  "candidate": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/artifact/final.md",
+  "sha256": "2c542224db59078fe4488928b3a3dbfa07c1531cb9336a42c98e60f0ee20d1b0",
+  "before-sha256": "5bd25a2d9c50c0e46dda61815e0a6dffc5483866bf01c603f83ba973ed830a23",
+  "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/artifact/final.diff",
+  "diff-sha256": "b3508f3f989ee6d5e4bf564d41ee5ee142076b5b5d1c0dff67d4e933d7aa846f",
+  "new-warnings": [],
+  "entries": [],
+  "review": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-citation-cannot-assert-more-fidelity-than-its-capture-preserved/20261118T183015Z/artifact/review-1.md",
+  "review-sha256": "86b2e6d881a73151e02d750af2b76b94024b04592d3635d03a494bbe201d2b8f"
+}

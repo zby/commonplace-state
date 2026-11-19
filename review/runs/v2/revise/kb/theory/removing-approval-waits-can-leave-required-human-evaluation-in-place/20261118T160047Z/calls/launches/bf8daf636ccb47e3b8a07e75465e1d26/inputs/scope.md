@@ -1,0 +1,1 @@
+The opening paragraph's sentence "A claim of full automation must say which tasks it preserves and which requirements it retires." only

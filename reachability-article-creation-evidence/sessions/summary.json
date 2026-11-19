@@ -1,0 +1,17 @@
+{
+  "raw_session_count": 173,
+  "raw_session_source_bytes": 447089603,
+  "redacted_session_count": 33,
+  "redaction_count": 62,
+  "claude_file_history_snapshot_count": 3,
+  "session_start_cutoff": "2026-09-03T00:01:42+02:00",
+  "public_claude_session_ids_from_commits": [
+    "session_012Ma4T7JFQG5nfkHfM5A91a",
+    "session_018LdxVWUNtrShvRUuhRyMWC",
+    "session_01BdwF6UcMSvKcaotcd66hrF",
+    "session_01Fij6ArDT4z5oftvcRaRG2e",
+    "session_01MDAHsAZ7PY59pHWtuy7GjU",
+    "session_01NKC1pMpMbvwKH6udJnBRU2",
+    "session_01W7Hk8MMDFM6Wr5stgAr9sp"
+  ]
+}

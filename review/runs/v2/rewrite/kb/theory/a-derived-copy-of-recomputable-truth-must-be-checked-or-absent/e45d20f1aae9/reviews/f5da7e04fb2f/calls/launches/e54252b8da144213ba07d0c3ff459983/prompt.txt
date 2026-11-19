@@ -1,0 +1,61 @@
+Task:
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+This is the review of a rewrite candidate. The note's text input is the candidate: the full text the rewrite
+proposes for the note, not the note's current file. The criterion is the rewrite's review instruction.
+The rewrite's other inputs are the operational inputs below, each named by its role in the instruction.
+- FAIL: the candidate cannot be published without a change; each such change is a finding of level fail.
+- WARN: the candidate can be published, and findings of level warn ask for changes.
+- PASS: the candidate can be published as it is; a finding, if any, has level info and asks for no change.
+Write outcome: fail exactly when a finding has level fail. The reason of each warn or fail finding states
+`Basis:`, the input and passage that show the problem, and then `Required change:`, the change it needs.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+Explicit self-contained operational inputs (do not browse their origins):
+- commission: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/artifact/commission.md` supplied as <Inputs: supplied-commission.md>
+- type-contract: `kb/types/note.md` supplied as <Inputs: supplied-type-contract.md>
+- collection-contract: `kb/theory/COLLECTION.md` supplied as <Inputs: supplied-collection-contract.md>
+- start: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/artifact/start.md` supplied as <Inputs: supplied-start.md>
+- reconstruction: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/artifact/reconstruction.md` supplied as <Inputs: supplied-reconstruction.md>
+- claim-account: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/artifact/claim-account.md` supplied as <Inputs: supplied-claim-account.md>
+- kb-role: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/role` supplied as <Inputs: supplied-kb-role.md>
+- candidate-report: `kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/artifact/candidate-1-report.md` supplied as <Inputs: supplied-candidate-report.md>
+
+Inputs (read these exact files):
+- criterion.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/criterion.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/output-contract-2.md
+- supplied-candidate-report.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-candidate-report.md
+- supplied-claim-account.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-claim-account.md
+- supplied-collection-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-collection-contract.md
+- supplied-commission.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-commission.md
+- supplied-kb-role.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-kb-role.md
+- supplied-reconstruction.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-reconstruction.md
+- supplied-start.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-start.md
+- supplied-type-contract.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/inputs/supplied-type-contract.md
+
+Required outputs (write these exact files):
+- review.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/outputs/review.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/rewrite/kb/theory/a-derived-copy-of-recomputable-truth-must-be-checked-or-absent/e45d20f1aae9/reviews/f5da7e04fb2f/calls/launches/e54252b8da144213ba07d0c3ff459983/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

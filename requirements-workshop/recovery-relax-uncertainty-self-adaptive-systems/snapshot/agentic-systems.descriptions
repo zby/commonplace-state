@@ -1,0 +1,3 @@
+QUERY: rg -n -i '^description:.*(relax|invariant|requirements|observability|monitoring|self-adapt|adaptation bound)' kb/agentic-systems/ --glob *.md --glob !*.brief.md
+
+EXIT: 1

@@ -1,0 +1,26 @@
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/an-improvement-can-close-the-path-to-further-improvement.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/accessibility/jargon-persistence.md`: its text is <Inputs: gate-jargon-persistence.md>; write its review to <Required outputs: review-jargon-persistence.md>.
+- `kb/instructions/review-gates/accessibility/notation-opacity.md`: its text is <Inputs: gate-notation-opacity.md>; write its review to <Required outputs: review-notation-opacity.md>.
+- `kb/instructions/review-gates/accessibility/undefined-terms.md`: its text is <Inputs: gate-undefined-terms.md>; write its review to <Required outputs: review-undefined-terms.md>.
+- `kb/instructions/review-gates/accessibility/unidentified-references.md`: its text is <Inputs: gate-unidentified-references.md>; write its review to <Required outputs: review-unidentified-references.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own typed findings and outcome:
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.

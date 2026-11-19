@@ -1,0 +1,39 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z",
+  "made-for": {
+    "note": "kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md",
+    "sha256": "1e6f346febb4bb7f7d16dcb927a9aa2d73f27cd378f26f306db9ec6900e5374f",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "step": "Claim questions from the assessment"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "stale-reviews",
+      "what": "42 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "step": "Stale reviews",
+        "command": "commonplace-review status kb/theory/checking-retained-results-trades-cost-against-reliance-risk.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/checking-retained-results-trades-cost-against-reliance-risk/20261118T160047Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

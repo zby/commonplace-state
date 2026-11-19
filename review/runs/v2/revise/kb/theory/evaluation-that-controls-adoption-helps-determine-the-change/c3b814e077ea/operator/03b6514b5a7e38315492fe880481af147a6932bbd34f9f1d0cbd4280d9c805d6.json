@@ -1,0 +1,6 @@
+{
+  "name": "stop-answers.md",
+  "input-key": "d7fbc49c1702becbff10f6902076263525faba6e182e3d8efa55468dc3014a4a",
+  "proposal": "---\ntype: types/answers.md\ndescription: The operator's answers to kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/c3b814e077ea/artifact/plan.yaml\nquestion: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/c3b814e077ea/artifact/plan.yaml\nquestion-sha256: d7fbc49c1702becbff10f6902076263525faba6e182e3d8efa55468dc3014a4a\nitems:\n- id: text\n  proposal:\n    text: kb/reports/state/review/runs/v2/revise/kb/theory/evaluation-that-controls-adoption-helps-determine-the-change/c3b814e077ea/artifact/plan.yaml\n    text-sha256: d7fbc49c1702becbff10f6902076263525faba6e182e3d8efa55468dc3014a4a\n  state: pending\n---\n\n# Answers\n\nSet each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.\n",
+  "key": "f1a3919a0be231ac29f28dc7b02dabf3ed34af7541b72d7f3fe6ae6cae02e1e3"
+}

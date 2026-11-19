@@ -1,0 +1,21 @@
+{
+  "guard-hash": {
+    "passed": true,
+    "sha256": "0cfce2fb796ab5ce5d4a300944d62eaa6c09193bc3c3b8c5c4121cd648dab5f8"
+  },
+  "real-executable-hash": {
+    "passed": true,
+    "sha256": "0dc4f4a9a165fc60746d7ae8489712e5fc352f1e7ad4eb22e7141bd0812eb0cf"
+  },
+  "no-shared-report-state-payload-in-kb-archive": {
+    "passed": true,
+    "expected-tracked-marker-only": [
+      "kb/reports/state/.commonplace-validation-ignore"
+    ],
+    "payload-paths": []
+  },
+  "reconstructed-symlinks": {
+    "passed": true,
+    "count": 35
+  }
+}

@@ -1,0 +1,19 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/revisiting-core-ontology-requirements-engineering-2008.ingest.md
+snapshot_sha256: 3fd5ccf2031710b6ef8aafae9cd10dc890050d03be2207c83d2cd19c2a9895cf
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: false
+opened: '2026-11-16T23:03:22+01:00'
+occasion: What can requirements engineering contribute, and what are its limits, for
+  understanding operationalization, goal authority, and revisable knowledge in agent-operated
+  knowledge work?
+checks:
+- at: '2026-11-16T23:08:12+01:00'
+  failures: []
+- at: '2026-11-16T23:08:22+01:00'
+  failures: []
+- at: '2026-11-16T23:08:26+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T23:08:26+01:00'

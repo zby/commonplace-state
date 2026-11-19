@@ -1,0 +1,64 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "PR #138 was squash-merged at its earlier two-commit head. The old branch then received two additional commits that were not part of that merge. This PR restacks exactly those two commits onto the current `main`:\n\n1. `Add agentic-systems theory as research-program payoff`\n2. `Polish research program coherence and flow`\n\nNo already-merged #138 content is reintroduced as a new change; this branch starts from the squash-merge commit on `main`.",
+    "closedAt": "2026-08-30T21:10:02Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-30T21:08:59Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:08:59Z",
+        "messageBody": "",
+        "messageHeadline": "Add agentic-systems theory as research-program payoff",
+        "oid": "fcd86ffcc40cacdb2c3f624fc5e602fb5bd96916"
+      },
+      {
+        "authoredDate": "2026-08-30T21:09:03Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-30T21:09:03Z",
+        "messageBody": "",
+        "messageHeadline": "Polish research program coherence and flow",
+        "oid": "b8a7e210f9f37d27fe9fd8f6d83154d9f0946b46"
+      }
+    ],
+    "createdAt": "2026-08-30T21:09:14Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 39,
+        "deletions": 35
+      }
+    ],
+    "headRefName": "restack-pr138-unmerged",
+    "isDraft": false,
+    "mergedAt": "2026-08-30T21:10:02Z",
+    "number": 140,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Restack unmerged research-program follow-ups",
+    "updatedAt": "2026-08-30T21:10:02Z",
+    "url": "https://github.com/zby/commonplace/pull/140"
+  },
+  "inline_review_comments": []
+}

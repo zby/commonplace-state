@@ -1,0 +1,19 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/relax-uncertainty-self-adaptive-systems.ingest.md
+snapshot_sha256: f212c669171101192a51f02dee34747054f684a210b4c51524f7a5e8f169e1aa
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-16T22:48:51+01:00'
+occasion: What can requirements engineering contribute, and what are its limits, for
+  understanding operationalization, goal authority, and revisable knowledge in agent-operated
+  knowledge work?
+checks:
+- at: '2026-11-16T22:52:39+01:00'
+  failures: []
+- at: '2026-11-16T22:52:50+01:00'
+  failures: []
+- at: '2026-11-16T22:52:50+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-16T22:52:50+01:00'

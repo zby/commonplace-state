@@ -1,0 +1,54 @@
+
+Output A
+N42: The reader copied 18 of 20 machine-printed labels correctly on the first attempt; no handwritten labels were tested. Hold Friday’s handwritten-only batch. Release requires a handwritten-label trial achieving at least 17 correct first-attempt copies out of 20. Obtain that trial evidence before release; successful retrieval does not establish accuracy.
+
+K17: Monday’s and Tuesday’s Cedar tray rehearsals each delivered 18 of 20 envelopes without help, on the tested route only. Tuesday is the latest rehearsal and exceeds the 17-of-20 threshold. Release Wednesday’s identical-route run. The failed paragraph refresh and blank citation preview do not negate the separately retained Tuesday result.
+
+P63: Monday’s Maple rack rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered only 12 of 20 on the same tested route. Hold Wednesday’s identical-route run: Tuesday fails the 17-of-20 threshold. The failed paragraph refresh does not preserve Monday’s result as the latest or invalidate the retained Tuesday result.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam; Tuesday’s result is unavailable. Hold Wednesday’s run and obtain a readable Tuesday report showing whether at least 17 of 20 fed without a jam. Monday cannot substitute; the queue receipt proves no outcome, and the blank preview’s cause remains unknown.
+
+Output B
+N42: The reader copied 18 of 20 machine-printed labels correctly on the first attempt [/cards/label-reader]; no handwritten labels were tested. Hold Friday’s handwritten-only batch. Before release, obtain a handwritten-label trial showing at least 17 correct first-attempt copies out of 20; successful retrieval does not establish accuracy.
+
+K17: Monday’s and Tuesday’s Cedar rehearsals each delivered 18 of 20 envelopes without help on the tested route [/cards/cedar-sort, retained editions]. Tuesday is latest and exceeds the 17-of-20 threshold for Wednesday’s identical route. Release Wednesday’s run; the failed paragraph refresh and blank preview do not negate the separately supplied Tuesday result.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam [/archive/booklet-feed-monday]. Tuesday’s result is unavailable; neither the blank preview nor the queue receipt establishes its outcome. Hold Wednesday’s run and obtain a readable Tuesday report confirming at least 17 of 20 jam-free feeds before release. The preview’s cause remains unknown.
+
+P63: Monday’s Maple rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered only 12 of 20 [/cards/maple-sort, retained editions]. Hold Wednesday’s identical-route run: Tuesday falls below the required 17 of 20. The failed paragraph refresh and blank preview do not erase the supplied Tuesday result; no qualifying latest result supports release.
+
+Output C
+N42: The reader copied 18 of 20 machine-printed labels correctly on first attempts [/cards/label-reader]. Friday’s batch contains only handwritten labels, for which no trial result is supplied. Hold release; obtain a handwritten-label trial showing at least 17 correct first-attempt copies out of 20. Successful retrieval does not establish accuracy for handwritten labels.
+
+K17: Monday’s and Tuesday’s Cedar rehearsals each delivered 18 of 20 envelopes without help [/cards/cedar-sort, retained editions]. Tuesday is latest and used Wednesday’s identical route, meeting the 17-of-20 threshold. Release Wednesday’s run. The paragraph-write failure does not negate the separately retained Tuesday result; neither rehearsal supports other routes.
+
+P63: Monday’s Maple rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered 12 of 20 [/cards/maple-sort, retained editions]. Wednesday uses Tuesday’s route, so hold the run: the latest result fails the 17-of-20 threshold. The paragraph-write failure does not negate Tuesday’s retained result; Monday cannot establish current eligibility.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam [/archive/booklet-feed-monday]; Tuesday’s count is unsupported. Hold Wednesday’s run and obtain a readable Tuesday report establishing whether at least 17 of 20 fed without a jam. Monday cannot substitute; the queue receipt establishes no result, and the blank preview’s cause remains unknown.
+
+Output D
+N42: The reader correctly copied 18 of 20 machine-printed labels on first attempt [/cards/label-reader]. Friday’s batch contains only handwritten labels, for which no trial result is supplied. Hold the batch pending a handwritten-label trial achieving at least 17 of 20 correct first-attempt copies; successful retrieval does not establish accuracy.
+
+K17: Monday’s and Tuesday’s Cedar rehearsals each delivered 18 of 20 envelopes without help [/cards/cedar-sort, retained editions]. Tuesday is latest and tested Wednesday’s identical route, meeting the 17-of-20 threshold. Release Wednesday’s run. The failed paragraph refresh does not negate the separately retained Tuesday result; neither rehearsal tested other routes.
+
+P63: Monday’s Maple rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered 12 of 20 [/cards/maple-sort, retained editions]. Tuesday tested Wednesday’s identical route and falls below the 17-of-20 threshold. Hold Wednesday’s run; Monday’s result cannot substitute, and the download badge supplies no additional delivery measurement.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam [/archive/booklet-feed-monday]. Tuesday’s result is unavailable; its blank preview has no established cause, and the queue receipt proves neither completion nor performance. Hold Wednesday’s run and obtain a readable Tuesday report establishing at least 17 of 20 jam-free feeds.
+
+Output E
+N42: The reader copied 18 of 20 machine-printed labels correctly on the first attempt. Friday’s batch contains only handwritten labels, for which no trial result is supplied. Hold the batch pending a handwritten-label trial showing at least 17 correct first-attempt copies out of 20; successful retrieval does not establish accuracy.
+
+K17: Monday’s and Tuesday’s Cedar tray rehearsals each delivered 18 of 20 envelopes without help on the tested route. Tuesday is the latest rehearsal and exceeds the 17-of-20 threshold. Release Wednesday’s identical-route run; the failed paragraph refresh does not invalidate the separately retained Tuesday result.
+
+P63: Monday’s Maple rack rehearsal delivered 18 of 20 folders without help, but Tuesday’s latest rehearsal delivered only 12 of 20 on the same route. Hold Wednesday’s identical-route run: Tuesday fails the required 17-of-20 threshold. The failed paragraph refresh does not invalidate the separately retained Tuesday result.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam, but cannot substitute for Tuesday’s required result. Hold Wednesday’s run and obtain a readable Tuesday report establishing whether at least 17 of 20 fed without a jam. Neither the blank preview nor the queue receipt establishes Tuesday’s outcome; the preview’s cause remains unknown.
+
+Output F
+N42: The reader correctly copied 18 of 20 machine-printed labels on the first attempt; no handwritten labels were tested. Hold Friday’s handwritten-only batch. Successful retrieval does not establish accuracy for that batch. Obtain a handwritten-label trial showing at least 17 correct first-attempt copies out of 20 before release.
+
+K17: Monday’s and Tuesday’s Cedar rehearsals each delivered 18 of 20 envelopes without help on the tested route. Tuesday is latest and meets the 17-of-20 threshold for Wednesday’s identical route; release that run. The failed paragraph update and blank preview do not negate the separately retained Tuesday result.
+
+R85: Monday’s verified rehearsal fed 19 of 20 folded booklets without a jam, but cannot substitute for Tuesday. Tuesday’s result is unavailable; neither the blank preview nor the queue receipt establishes it, and the preview’s cause is unknown. Hold Wednesday’s run pending a readable Tuesday report showing at least 17 of 20.
+
+P63: Monday’s Maple rehearsal delivered 18 of 20 folders without help; Tuesday’s latest rehearsal delivered 12 of 20 on the same route. Hold Wednesday’s identical-route run: Tuesday fails the 17-of-20 threshold. The failed paragraph update and blank preview do not negate the separately retained Tuesday result; no result is missing.

@@ -1,0 +1,7 @@
+{
+  "name": "publication.json",
+  "input-key": "112f360d3cfb75fc59df2c1cc962516a62605267c9e0bb29c220f3c26637659e",
+  "proposal": "{\n  \"artifact\": \"kb/theory/position-and-proportion-set-what-a-reader-retains.md\",\n  \"start-sha256\": \"0090306470d3544c958461f2f1103c3844ac005c3bdec89f2d6e9f67f17df0c7\",\n  \"final-sha256\": \"6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f\",\n  \"context-sha256\": \"266689185da32275cdcd9d60754093a98f0f4b3badec6a39a27da967145964ab\",\n  \"candidate\": \"kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/artifact/final.md\",\n  \"diff\": \"kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/artifact/final.diff\"\n}\n",
+  "key": "6753fd25744a882949e396b4a0437e7df85ec3acaa4a13f150e17c527b5116ef",
+  "answer": "{\n  \"artifact\": \"kb/theory/position-and-proportion-set-what-a-reader-retains.md\",\n  \"start-sha256\": \"0090306470d3544c958461f2f1103c3844ac005c3bdec89f2d6e9f67f17df0c7\",\n  \"final-sha256\": \"6868ff186dc6156751afd0b6774407a031745781b0863698ed9096f08394cc7f\",\n  \"context-sha256\": \"266689185da32275cdcd9d60754093a98f0f4b3badec6a39a27da967145964ab\",\n  \"candidate\": \"kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/artifact/final.md\",\n  \"diff\": \"kb/reports/state/review/runs/revise/kb/theory/position-and-proportion-set-what-a-reader-retains/0090306470d3/artifact/final.diff\"\n}\n"
+}

@@ -1,0 +1,49 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "Follow-up to #167.\n\nThis corrects two implications in the rewritten opening:\n\n- Prior work includes software factories configured to produce software factories as members of their declared family; the capability is not attributed to every factory.\n- The better successor is the explicit object of construction, evaluation, and revision\u2014not a side effect of ordinary software production.\n\nThe core path is deliberately direct:\n\n```\nfactory F configured to produce factories\n  -> construct candidate successor F'\n  -> evaluate F' against the declared objective and prior scope\n  -> revise F'\n  -> accept F' only if it is better\n```\n\nThe article does not define a separate side-channel learning relation. In practice, evaluation may revise retained theory or construction machinery, but that remains part of candidate construction; the improvement claim rests on the accepted successor.\n\n`Better` means at least as capable on the predecessor's declared prior scope\u2014including continued factory production and improvement\u2014and strictly better on at least one relevant production dimension.\n\nThe experimental section separates the initial Naurian theory-holding benchmark from the later explicit successor-factory construction task.\n\nRebased onto current `main` (`bdfa977`). The rebase keeps the removed workshop structure deleted and adopts the renamed `factory-construction-does-not-establish-knowledge-acquisition.md` reference. The PR now changes only the program article.",
+    "closedAt": "2026-08-31T21:16:58Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T21:13:49Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T21:13:49Z",
+        "messageBody": "Rebase the PR onto current main, keep the deleted workshop structure removed, and update the renamed factory-construction note reference.",
+        "messageHeadline": "Make better-factory construction the direct target",
+        "oid": "63295c4714000a6f4cb3ddc496f67280f923e2c3"
+      }
+    ],
+    "createdAt": "2026-08-31T20:38:43Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-learning-software-factories.md",
+        "additions": 26,
+        "deletions": 28
+      }
+    ],
+    "headRefName": "direct-better-factory-target",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T21:16:58Z",
+    "number": 168,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Make better-factory construction the direct target",
+    "updatedAt": "2026-08-31T21:16:59Z",
+    "url": "https://github.com/zby/commonplace/pull/168"
+  },
+  "inline_review_comments": []
+}

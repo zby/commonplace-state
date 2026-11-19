@@ -1,0 +1,14 @@
+# Premise decomposition: Superseded choices need a historical witness; refuted beliefs lose subject-matter standing
+
+**Note:** kb/notes/superseded-choices-are-retained-superseded-beliefs-are-not.md
+**Register:** claim
+**Central commitment (one sentence):** Retention after displacement should follow remaining truth role rather than maintenance operation: preserve at least one reliable witness to a superseded residual choice event when nothing else preserves it, while refuted beliefs are rewritten unless they separately earn retention in a different historical role.
+
+## Premises and counterexamples
+1. **A genuine residual choice remains true as a historical event after later supersession: a later choice can expire its prescription, but it cannot undo the fact that the system committed to X at t.** — HOLDS — Active counterexample hunt turned up only voided, unauthorized, or misrecorded "choices"; those are cases where no genuine commitment existed, not cases where a real earlier commitment became false because a later one replaced it.
+2. **A refuted belief about subject matter loses standing as that same subject-matter claim; if retained, it survives only as a different historical proposition about what the system or field once believed.** — HOLDS — The obvious edge cases are the note's own carve-outs: beliefs about the system's commitments and explicitly time-indexed claims that remain true are not refuted beliefs in this sense. No concrete within-scope case was found where a genuinely refuted subject-matter belief still kept standing in that same role.
+3. **When no other retained artifact can reconstruct a residual choice event, deleting every reliable witness makes that choice unavailable to a later bounded reader.** — HOLDS — Counterexamples depended on some other surviving minutes, logs, metadata, or contemporaneous artifact carrying the event, which falls outside the premise as stated. No case was found where an otherwise unreconstructable choice stayed checkable after every reliable witness disappeared.
+4. **The combination of remaining historical truth and possible irrecoverability is sufficient to make witness-retention obligatory for superseded residual choices.** — DEFEATED — A team can make a genuine but low-stakes residual choice such as adopting a temporary dashboard color or one-sprint meeting cadence, later supersede it, and delete the only contemporaneous rationale without any obvious failure of the knowledge system. The event remains true and may be unreconstructable, but that alone does not show that at least one witness must survive. The note needs a materiality, accountability, or downstream-use threshold that its claim does not state. — GLOBAL — instance
+
+## For the human
+Look first at premise 4: the note's descriptive asymmetry may hold, but its preservation rule overreaches unless it says which superseded choices are important enough that losing the only witness is actually a failure.

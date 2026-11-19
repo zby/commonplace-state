@@ -1,0 +1,1 @@
+An agent or maintainer deciding whether and how often to check a retained derived result in a KB should be able to read the trade-off in one pass, see why a stop-authorizing result (the completeness mark) warrants a defined check while a candidate-only result (a connect report) can be reused, and know which conditions a mechanical check needs.

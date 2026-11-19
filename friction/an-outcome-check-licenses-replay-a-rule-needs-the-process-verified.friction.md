@@ -1,0 +1,17 @@
+# Friction check: A checked outcome licenses retaining an episode, not abstracting its explanation
+
+**Note:** kb/notes/an-outcome-check-licenses-replay-a-rule-needs-the-process-verified.md
+**Central claim (one sentence):** A single result-only check can warrant retaining an episode as case-level evidence, but abstracting an explanation from it additionally requires evidence that the claimed process faithfully represents what produced the result and an explicit boundary for transfer.
+
+## Filter
+**Verdict:** SURVIVES
+Case-level retention, refusal to authorize literal re-execution, and stronger evidence requirements for explanatory transfer can hold at once: the retained episode asserts only what happened in one recorded case, while the explanation makes additional claims about the producing process and applicability beyond that case.
+
+## Signal — thinnest joints
+1. **“Evidence of a valid and faithful process is necessary for abstracting an episode's explanation, but it is not sufficient until the transfer boundary is also stated.”** — THIN — A stated boundary limits the rule's claim but does not establish that the explanation actually transfers throughout that boundary. If “until” means that faithful process evidence becomes sufficient once a scope is named, evidence for cross-case relevance is still missing; if the sentence names only two necessary conditions, it should not suggest that the second closes the evidential gap.
+2. **“A faithful trace can provide that connection. So can an intervention that tests a candidate mechanism's causal role.”** — THIN — Calling a trace faithful presupposes the connection the note needs to establish, so the first sentence does not identify what evidence verifies faithfulness. An intervention can establish a candidate feature's causal relevance, but it does not by itself show that the inspected artifact completely or accurately represents the route that produced the original result. The two methods support different parts of the requirement and need their evidential roles separated.
+3. **“Repeated, varied, or exhaustive outcome tests can warrant an extensional rule over a declared domain without identifying its mechanism.”** — THIN — Exhaustive coverage can support a mapping over the covered domain, but repeated or varied tests require a sampling or generalization argument before they warrant a rule over a declared domain. The next sentence retreats to the tested domain, leaving the inference from tested cases to the larger declared domain unspecified.
+4. **“A result-only pass can warrant retaining the episode as evidence or a demonstration. It licenses only a case-level claim: ‘this produced the target result in the recorded episode.’”** — THIN — The outcome check establishes that the final result met its target, but retaining the whole episode as evidence also assumes that the record is authentic and that its inputs and actions are represented accurately. “Demonstration” can further suggest that the recorded route is exemplary, even though the note has not yet established route validity or faithfulness; the narrower input–outcome record follows more directly than the episode-as-demonstration wording.
+
+## For the human
+Look first at the “not sufficient until the transfer boundary is stated” joint: decide whether the note claims two merely necessary conditions or a sufficient warrant, because a named scope is not itself evidence that the explanation transfers within it.

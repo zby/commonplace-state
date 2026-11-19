@@ -1,0 +1,439 @@
+{
+  "pull_request": {
+    "author": {
+      "id": "MDQ6VXNlcjY5NTY=",
+      "is_bot": false,
+      "login": "zby",
+      "name": "Zbigniew \u0141ukasiak"
+    },
+    "baseRefName": "main",
+    "body": "## Why this PR exists\n\nPRs 152, 153, and 154 were marked merged, but their bases were feature branches rather than `main`. Their workshop rebase, bridge notes, and article rewrite therefore remained on the stack branches. Current `main` contains the containment and Greenfield ontology imports, but not the rest of the refoundation.\n\nThis PR lands the stranded work on current `main` and applies the precision fixes identified during review.\n\n## Lands on `main`\n\n- the re-based agentic-system-learning workshop and conceptual spine;\n- six durable bridge notes from agentic substrate through factory-level continual learning to theory mediation;\n- the research-program article restructured so theory mediation is a candidate mechanism rather than an architectural premise.\n\n## Greenfield cleanup\n\n- preserve the 2003 configured-IDE formulation separately from the mature 2007 development-and-runtime-environment definition;\n- reserve **factory specialization** for Greenfield's operation on reusable viewpoints, artifacts, activities, and assets;\n- use **acquisition of family-specific production knowledge** for the stronger learning question;\n- distinguish candidate factory-development artifacts from installed revisions;\n- restore the member-specific configured-schema caveat;\n- keep prompts and evaluators in the later agentic mapping rather than the historical ontology;\n- remove the computational-closure leak from the construction/acquisition comparison;\n- update Greenfield, Tool Factory, and MDSoFa source-to-note provenance.\n\nThe former construction note path remains as a compatibility pointer so existing links do not break.\n\n## Boundaries preserved\n\n- a fixed universal substrate remains possible in principle;\n- task families do not automatically define software product families;\n- factory construction from supplied knowledge is not acquisition of that knowledge;\n- factory learning does not imply improvement, reflection, closure, autonomy, breadth, or compounding;\n- theory mediation remains a comparative hypothesis against trial and error, trajectories, program search, learned policies, optimization, and mixtures.\n",
+    "closedAt": "2026-08-31T13:40:02Z",
+    "comments": [],
+    "commits": [
+      {
+        "authoredDate": "2026-08-31T13:24:29Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:24:29Z",
+        "messageBody": "Bring the workshop rebase, factory-learning bridge notes, and research-program rewrite together in one tree rooted at current main. The earlier stacked PRs were merged into their feature branches rather than the default branch.",
+        "messageHeadline": "Land the merged refoundation work on main",
+        "oid": "4eade08c607ad3d5fd975140e50340339f8ba60a"
+      },
+      {
+        "authoredDate": "2026-08-31T13:25:41Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:25:41Z",
+        "messageBody": "",
+        "messageHeadline": "Preserve the version boundary in the software-factory definition",
+        "oid": "d0cf2eefcbc27b8b121ef9a9d3c656fa07966a0d"
+      },
+      {
+        "authoredDate": "2026-08-31T13:25:58Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:25:58Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify factory-development scope and member-local variation",
+        "oid": "aa1928cd29b2e3bd106da7da6125d898d7ada4c5"
+      },
+      {
+        "authoredDate": "2026-08-31T13:26:16Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:26:16Z",
+        "messageBody": "",
+        "messageHeadline": "Separate factory construction from production-knowledge acquisition",
+        "oid": "39b27c579a527a61adf21ff7dfb250a16308ad95"
+      },
+      {
+        "authoredDate": "2026-08-31T13:26:39Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:26:39Z",
+        "messageBody": "",
+        "messageHeadline": "Keep a compatibility pointer for the renamed factory-construction note",
+        "oid": "b63f0a2e21c48b22a18c5a9480aa532a82be7602"
+      },
+      {
+        "authoredDate": "2026-08-31T13:27:11Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:27:11Z",
+        "messageBody": "",
+        "messageHeadline": "Tighten the versioned Greenfield ontology reconstruction",
+        "oid": "50be88933c4ca24745f7ef185676dda8655ebc48"
+      },
+      {
+        "authoredDate": "2026-08-31T13:27:28Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:27:28Z",
+        "messageBody": "",
+        "messageHeadline": "Use production-knowledge terminology in the agentic factory mapping",
+        "oid": "f77f197e336cd549cac175fd15e34e2dc17ccbad"
+      },
+      {
+        "authoredDate": "2026-08-31T13:27:44Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:27:44Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify task-family and product-family scope terminology",
+        "oid": "9b45b37abe7972b6173cffd3823eabf7cec438b5"
+      },
+      {
+        "authoredDate": "2026-08-31T13:28:02Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:28:02Z",
+        "messageBody": "",
+        "messageHeadline": "Separate factory specialization from production-knowledge acquisition",
+        "oid": "73ae5ccb725eb4218948906e0e2aa209c1e02abe"
+      },
+      {
+        "authoredDate": "2026-08-31T13:29:08Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:29:08Z",
+        "messageBody": "",
+        "messageHeadline": "Integrate the refounded article with corrected Greenfield terminology",
+        "oid": "c8de73359022114aff65e7af29eb85be883da52a"
+      },
+      {
+        "authoredDate": "2026-08-31T13:29:34Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:29:34Z",
+        "messageBody": "",
+        "messageHeadline": "Update the refoundation workshop after integrating the stack",
+        "oid": "6c5a8fcb49e1bd166051f98ed6386b6b959409e8"
+      },
+      {
+        "authoredDate": "2026-08-31T13:30:03Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:30:03Z",
+        "messageBody": "",
+        "messageHeadline": "Align the conceptual spine with Greenfield terminology",
+        "oid": "5d96c23a1113e0a46d614dd43fe4e6435e4d9b3f"
+      },
+      {
+        "authoredDate": "2026-08-31T13:31:17Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:31:17Z",
+        "messageBody": "",
+        "messageHeadline": "Record the integrated refoundation state and remaining dispositions",
+        "oid": "9291c15eb13714c514e1c8b49c6ca9aee81b4549"
+      },
+      {
+        "authoredDate": "2026-08-31T13:32:09Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:32:09Z",
+        "messageBody": "",
+        "messageHeadline": "Use family-production-knowledge terminology in the mechanism comparison",
+        "oid": "d7c8503dd3133a962bf554a0fddd5be00168741f"
+      },
+      {
+        "authoredDate": "2026-08-31T13:32:32Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:32:32Z",
+        "messageBody": "\u2026ology",
+        "messageHeadline": "Clarify the theory-mediation hypothesis against the Greenfield termin\u2026",
+        "oid": "21bc98588d09768e2dd895a11a7a907989df27ec"
+      },
+      {
+        "authoredDate": "2026-08-31T13:33:06Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:33:06Z",
+        "messageBody": "",
+        "messageHeadline": "Route the Greenfield 2003 ingest to the durable factory notes",
+        "oid": "8308a2e2349bc70ad436245de92e5b939ffc41b4"
+      },
+      {
+        "authoredDate": "2026-08-31T13:33:33Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:33:33Z",
+        "messageBody": "",
+        "messageHeadline": "Route the Tool Factory ingest to the production-knowledge boundary",
+        "oid": "63161f6bf5f70706be589125bc0443a47fb6faa3"
+      },
+      {
+        "authoredDate": "2026-08-31T13:33:57Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:33:57Z",
+        "messageBody": "",
+        "messageHeadline": "Route the MDSoFa ingest to the construction-versus-acquisition boundary",
+        "oid": "52a6681a1ef5c5b392b9dee94ad2a7ba65832c76"
+      },
+      {
+        "authoredDate": "2026-08-31T13:34:26Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:34:26Z",
+        "messageBody": "",
+        "messageHeadline": "Align the Greenfield 2007 ingest with the imported ontology boundary",
+        "oid": "92c2fcb1349a7048d29235dfafbf708638f5d234"
+      },
+      {
+        "authoredDate": "2026-08-31T13:36:06Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:36:06Z",
+        "messageBody": "",
+        "messageHeadline": "Mark source provenance as completed in the transition map",
+        "oid": "067fca54a2f11b8d09dc6c8b0e9fb2b6104647f4"
+      },
+      {
+        "authoredDate": "2026-08-31T13:36:53Z",
+        "authors": [
+          {
+            "email": "zzbbyy@gmail.com",
+            "id": "MDQ6VXNlcjY5NTY=",
+            "login": "zby",
+            "name": "Zbigniew \u0141ukasiak"
+          }
+        ],
+        "committedDate": "2026-08-31T13:36:53Z",
+        "messageBody": "",
+        "messageHeadline": "Keep repository-integration details out of the workshop theory",
+        "oid": "35687e2b9caa6141fcce5ccb3c4b99ff6f6c4e2f"
+      }
+    ],
+    "createdAt": "2026-08-31T13:35:02Z",
+    "files": [
+      {
+        "path": "kb/articles/a-research-program-for-theory-mediated-system-learning.md",
+        "additions": 384,
+        "deletions": 158
+      },
+      {
+        "path": "kb/notes/a-software-factory-can-produce-another-factory-without-acquiring-its-family-specific-production-knowledge.md",
+        "additions": 92,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/a-software-factory-can-produce-another-factory-without-learning-its-specialization.md",
+        "additions": 4,
+        "deletions": 84
+      },
+      {
+        "path": "kb/notes/a-software-factory-is-family-scoped-lifecycle-production-machinery.md",
+        "additions": 11,
+        "deletions": 9
+      },
+      {
+        "path": "kb/notes/a-software-factory-learns-when-production-experience-changes-reusable-machinery-used-later.md",
+        "additions": 113,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/an-agentic-substrate-becomes-a-software-factory-through-family-specific-production-machinery.md",
+        "additions": 76,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/broad-software-demands-create-pressure-for-agentic-factory-development.md",
+        "additions": 91,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/definitions/factory-development.md",
+        "additions": 10,
+        "deletions": 5
+      },
+      {
+        "path": "kb/notes/definitions/software-factory.md",
+        "additions": 7,
+        "deletions": 5
+      },
+      {
+        "path": "kb/notes/factory-learning-mechanisms-should-be-compared-on-the-same-causal-job.md",
+        "additions": 104,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/task-families-and-product-families-classify-different-things.md",
+        "additions": 69,
+        "deletions": 0
+      },
+      {
+        "path": "kb/notes/theory-mediation-can-coordinate-heterogeneous-factory-development.md",
+        "additions": 129,
+        "deletions": 0
+      },
+      {
+        "path": "kb/sources/cook-kent-tool-factory-2003.ingest.md",
+        "additions": 12,
+        "deletions": 10
+      },
+      {
+        "path": "kb/sources/greenfield-mass-customizing-software-factories-2007.ingest.md",
+        "additions": 15,
+        "deletions": 8
+      },
+      {
+        "path": "kb/sources/greenfield-short-software-factories-oopsla-2003.ingest.md",
+        "additions": 12,
+        "deletions": 8
+      },
+      {
+        "path": "kb/sources/langlois-exertier-mdsofa-software-factory-factory-2004.ingest.md",
+        "additions": 15,
+        "deletions": 9
+      },
+      {
+        "path": "kb/work/agentic-system-learning-refoundation/README.md",
+        "additions": 124,
+        "deletions": 237
+      },
+      {
+        "path": "kb/work/agentic-system-learning-refoundation/conceptual-spine.md",
+        "additions": 110,
+        "deletions": 227
+      },
+      {
+        "path": "kb/work/agentic-system-learning-refoundation/transition-map.md",
+        "additions": 94,
+        "deletions": 139
+      }
+    ],
+    "headRefName": "land-refoundation-and-clean-greenfield-boundaries",
+    "isDraft": false,
+    "mergedAt": "2026-08-31T13:40:02Z",
+    "number": 155,
+    "reviews": [],
+    "state": "MERGED",
+    "title": "Land the refoundation stack and clean Greenfield boundaries",
+    "updatedAt": "2026-08-31T13:40:02Z",
+    "url": "https://github.com/zby/commonplace/pull/155"
+  },
+  "inline_review_comments": []
+}

@@ -1,0 +1,1 @@
+An agent or maintainer who designs or approves self-revising KB and agent workflows should notice that a check of a production gain does not show that the revision path survives, and know what a non-regression check must cover before it counts against losing that path.

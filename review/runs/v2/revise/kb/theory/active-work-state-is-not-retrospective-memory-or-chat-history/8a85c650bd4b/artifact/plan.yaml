@@ -1,0 +1,7 @@
+purpose: Apply this one operation as its instruction directs; the operator named no
+  other purpose.
+defend: []
+stop: null
+passes:
+- pass: fix-strategy-taxonomy
+  finding: kb/reports/state/review/results/kb/theory/active-work-state-is-not-retrospective-memory-or-chat-history.md/semantic/underspecified-assertions.md
