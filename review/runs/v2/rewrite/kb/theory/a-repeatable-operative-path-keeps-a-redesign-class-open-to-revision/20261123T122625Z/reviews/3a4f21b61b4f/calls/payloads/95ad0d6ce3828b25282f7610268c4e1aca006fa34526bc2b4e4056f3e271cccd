@@ -1,0 +1,165 @@
+---
+type: types/collection-contract.md
+unquoted-source-limit: 5
+---
+
+# Writing conventions for kb/theory/
+
+## Text contract and explanatory-reach
+
+This collection retains **beliefs about the design space** — truth-apt claims
+that explain how systems of this kind can work, including bounded claims about
+one fixed design. A claim may be grounded in or bounded to a particular system,
+including Commonplace, when it preserves the particular's proposition-relative
+scope and contributes more than the selected value or resulting state.
+Truth-aptness of a local observation alone does not place it here.
+
+Apply the placement test to the artifact's intended contribution: **after every
+named system choice is recoverably scoped, does a substantive claim about the
+design space remain?** A fixed choice needs stable reidentification at every
+distinction that could change truth or licensed inference. A ranged choice
+needs a recoverable range and valuation rule. A substantive witness needs the
+universal prohibition it contradicts or the existence claim it verifies. If scoping leaves only what Commonplace
+selected or the current or historical state that selection produced, the
+artifact belongs in `kb/reference/`.
+
+The claim that remains after scoping is a new universal hypothesis, not a
+summary of the particulars it came from: no number of singular observations
+establishes a universal statement ([Popper, *Logic of Scientific Discovery*,
+§§13–15](../sources/popper-logic-of-scientific-discovery.ingest.md)). Link the
+cases it was generalized from as `abstracted-from`; they explain its origin
+and do not corroborate it. A particular system may still appear as the case a
+universal claim is applied to: the claim supplies the law, and the system's
+selections supply the initial conditions (§12).
+
+Quality goal is **explanatory-reach** — the most general formulation the argument supports, with boundaries mapped. A note with explanatory-reach compresses many situations into one explanation.
+
+Tests for explanatory-reach:
+- Change one premise — can you predict the change in the conclusion?
+- Would the insight apply in a different domain?
+- Could someone say exactly how it's wrong, not just that it's incomplete?
+- Does it account for where the pattern actually works and fails, not just why it should?
+
+Notes that only record "X works" are adaptive — useful but brittle. Explaining *why* X works gives explanatory-reach. Explanatory-reach is a direction, not a gate.
+
+Apply explanatory-reach to claim formulation:
+- State the claim under the weakest assumptions the argument actually uses.
+- Treat qualifiers in the title, description, opening claim, and main proof as obligations. If a qualifier does not change the reasoning when removed, drop it from the claim or move it to an application, corollary, or scope note.
+- Keep real boundaries explicit. A boundary belongs in the claim when the argument depends on it; otherwise it belongs in `## Scope`, `## Caveats`, or a nearby narrower application note.
+- Prefer a general lemma plus narrower consequences over a narrow lemma whose extra assumptions are only needed by one downstream use.
+
+**Don't defend against objections you've already closed.** A clause that pre-empts a misreading the previous clause already ruled out doesn't add rigor, it pads: "a hypothesis to be tested, not a definitional truth" — being a hypothesis to be tested already means it isn't one. State the claim once; let review catch what still needs defending.
+
+**Admit real gaps instead of hedging around them.** Precision means an agent can't misread the claim — it does not mean stacking qualifications against every conceivable pushback. When the argument has an actual gap — an assumption you can't yet defend, a case you haven't worked through — name it plainly in `## Scope` or `## Open Questions` as an opening for later investigation. A named gap is more useful than one padded shut with defensive language, and it's what review and later notes are for.
+
+**Formulation constraint — scope the choices you name.** For every named system
+choice, the title, description, and opening argument must preserve the
+proposition-relative reference rule or range and the role that choice plays.
+Those can come from the surface itself or from context the intended consumer is
+guaranteed to receive. A fixed opaque design may use stable reidentification
+when hidden identity distinctions cannot change truth or licensed inference. A
+ranged variable needs a recoverable range and valuation rule. A substantive
+witness must state which universal prohibition the instance contradicts or
+which existence claim it verifies; a single instance cannot support a
+universal claim (§15). Literal quantifier
+syntax is neither necessary nor sufficient. Substitution can expose dependence
+on a local term, but the consumption boundary decides whether its scope is
+missing. If no substantive claim remains after each choice is scoped, move the
+artifact to `kb/reference/` because its intended contribution is what
+Commonplace selected or the state that selection produced. Claims later in the
+body obey the same scoping rule; explicitly scoped local reports and examples
+may serve as the theory's origin, illustration, or test without becoming the
+artifact's intended contribution; only a test counts as corroboration (see
+"Origin is not corroboration").
+
+**Theory-independence constraint.** The claim must stand if any single cited description is removed — otherwise it's still a description.
+
+**Design-shaped artifacts need a theoretical claim.** A construction may stay here when it witnesses a substantive truth-apt existential claim. Mark its [residual selections as choices](./artifact-classification-separates-content-kind-lineage-and-authority.md), not as evidence that the selections are uniquely correct. The requirements must be substantive enough that exhibiting any witness is informative; otherwise the unadopted design belongs in `kb/reference/proposals/` under [ADR 028](../reference/adr/028-design-proposals-live-in-reference-proposals.md). Proposal status is a workflow state, not an information kind.
+
+**Hypotheses stay recognizable in prose.** State the conjectural force in the title, description, opening, or a clearly named hypotheses/open-questions section. `user-verified: true` may attest that a note responsibly presents a conjecture; it does not turn the conjecture into established fact.
+
+**Claim modality (ADR 066, ADR 091).** A claim asserts in one of three modes, and the mode determines what refutes it. **Universal** — the default reading for any claim that does not state otherwise. A counterexample refutes it when others can check it again: a specified case whose conflict with the claim any reader can re-derive, or an observed effect shown to recur. A single unrepeated report of an exception raises a problem to test; it does not by itself refute ([Popper, *Logic of Scientific Discovery*, §22](../sources/popper-logic-of-scientific-discovery.ingest.md)). A contradiction refutes the claim together with the conditions it was applied under (§18), so a refutation names which part it blames: the claim, or those conditions. **Statistical** — the claim states a tendency ("usually", "most", "under conditions C"); a single instance does not refute it, prevalence evidence does — and the claim must still forbid something: state the comparison, conditions, or rate that prevalence evidence could refute, or the tendency is vacuous. This stated-refuter requirement is Popper's treatment of probabilistic claims (§§65–68) made per-claim: a frequency claim is strictly unfalsifiable until a refuting prevalence is fixed in advance, and here that decision lives in the claim text rather than in a field-wide convention. **Ideal-type** — the claim states a deliberately simple first-order model whose exceptions are conceded and accounted for; what refutes it is an exception the domain treats as ordinary unmarked practice, or the model losing explanatory dominance — see [domain pricing routes an exception to idealization assessment but does not decide it](./domain-pricing-routes-an-exception-to-idealization-assessment.md). Ideal-type acceptance and refutation are comparative — inference to the best explanation with its virtues (declared use, mechanism, bound, dominance) written as attackable commitments rather than reviewer judgment; the bound is absolute, so "best available" alone never suffices. A priced exception is Lakatos's anomaly rather than a refuter: it earns the claim an idealization assessment, and the adequacy record then decides the verdict. Declare the mode in the claim text itself — title, thesis, or a named section; an ideal-type claim carries its adequacy record (declared use, omitted mechanism, consequence bound, explanatory dominance) in the body, where review attacks it like any content. There is no frontmatter mode field: undeclared text reads as universal. Mode is orthogonal to lifecycle stage — a note still at the conjecture stage may conjecture a universal or a tendency; declare both when both apply. Repair under review is mode-aware and runs in both directions: reframing a defeated universal down to statistical or ideal-type requires meeting the target mode's guard, and a claim hedged below its warrant is reframed up, not left vacuous.
+
+## Title and body composability
+
+**Claim titles by default.** Name the note like a claim, not a topic — something that could be true or false.
+
+- *Composability test:* `since [title](./title.md)` or `because [title](./title.md)` reads naturally as prose.
+- *Strength test:* the claim is contestable. "Continuous learning can happen outside of weights" passes; "continuous learning is substrate-independent" fails — nobody pushes back.
+
+Add the `title-as-claim` trait when using one, so review gates check the promise.
+
+**Body composability.** Another note should be able to cite this one as a premise without inheriting unrelated claims or examples. If a second cluster would poison imports, split it off or move it to `kb/work/`.
+
+Exception: notes with the `synthesis` trait weave multiple cited claims into a single argument and are cited as a unit. Component claims that need to stand as citable premises should be extracted into their own notes.
+
+Exceptions to claim titles: multi-claim specs, definitions, indexes, and exploratory drafts not ready to assert.
+
+## Outbound links
+
+Author each outbound link from the reader need at its source. A reciprocal link is allowed when the reverse direction independently helps readers; never add one merely to mirror an existing edge. Relationship symmetry describes semantics, not an authoring obligation: `contradicts` and `contrasts` are self-dual, while the other labels are directional. Find inbound links on demand with repository search; no backlink view is currently generated. Inline for strongest commitment, with a connective word that fits the argument (e.g. `since [title](path)`, `because [title](path)`, `but [title](path)`, `as in [title](path)`). Footer for labelled — `- [title](path) — label: context phrase`.
+
+Scan `kb/theory/`, `kb/types/`, `kb/reference/`, `kb/agent-memory-systems/`, `kb/agentic-systems/`, `kb/sources/`, `kb/instructions/`, and `kb/tags/` for link targets. Do not link into `kb/work/` (workshop layer — value is consumed, not imported). Most links land within `kb/theory/` — the densest path. Outbound edges to `kb/instructions/` are rare — the usual direction is inverse (`instruction → note` via `rests-on`) — except `operationalized-from`, recorded as an `Operationalized into:` footer at this collection's methodology note when a procedure in `kb/instructions/` adds ordering, defaults, or stopping conditions the methodology doesn't itself fix; see the lineage semantics in `kb/reference/link-vocabulary.md`. Edges to `kb/sources/` point to the tracked ingest of the source the claim was abstracted from or that corroborates it, never to its local snapshot.
+
+**Origin is not corroboration.** Evidence corroborates a claim only when it reports an attempt to refute that claim which the claim could have failed ([Popper, *Logic of Scientific Discovery*, §82 and appendix \*ix](../sources/popper-logic-of-scientific-discovery.ingest.md)). The rule is the same for internal evidence (session traces, reports, ADRs) and external sources; what decides is how the evidence was produced, not where it came from. A case or source the claim was built from is linked `abstracted-from`, never as corroboration of that claim. An `evidenced-by` link that claims corroboration says in its context phrase what the claim risked, and whether the evidence was recorded after the claim or independently of how it was built; otherwise the phrase says the evidence qualifies or bounds the claim. A corroboration appraisal is dated: it holds relative to the evidence accepted when it was made (§84).
+
+**Labels:**
+
+| label | kind | destinations | reader-need |
+|---|---|---|---|
+| `extends` | asym | theory | wants the argument developed further |
+| `grounds` | asym | theory | wants to verify the premise |
+| `enables` | asym | theory | wants the operational prerequisite |
+| `exemplifies` | asym (instance→general) | theory | wants the general claim this instance falls under |
+| `mechanism` | asym | theory | wants to understand how the claim operates |
+| `contradicts` | sym | theory | wants to resolve a disagreement |
+| `contrasts` | sym | theory | wants the neighbouring-shape distinction |
+| `defined-in` | asym | theory/definitions, reference/definitions | reader may not know the term |
+| `evidenced-by` | asym | theory, types, reference, reports/retained, agent-memory-systems, agentic-systems, sources, external | the target observation, case, or source corroborates, qualifies, or bounds this assertion; corroboration requires a test the claim could have failed (see "Origin is not corroboration") |
+| `derived-from` | asym | reference, agent-memory-systems, agentic-systems, sources | claim is worked out from this source, adding nothing beyond it — see the lineage semantics in `kb/reference/link-vocabulary.md` |
+| `abstracted-from` | asym | theory/evidence, reference, reports/retained, agent-memory-systems, agentic-systems, sources | claim generalizes beyond this source; the source is evidence, authority is earned by testing |
+| `operationalized-from` | asym | instructions | procedure adds ordering, defaults, or stopping conditions this methodology note doesn't itself fix; not claim-preserving — see lineage semantics in `kb/reference/link-vocabulary.md` |
+| `see-also` | asym | reference, agent-memory-systems, agentic-systems, sources, instructions | adjacent companion; use sparingly |
+
+## Source grounding
+
+A note's grounding check must fit one pass, so the note is bounded on the artifact side ([ADR 082](../reference/adr/082-grounding-is-bounded-on-the-artifact-by-unquoted-sources.md)): at most five distinct tracked sources (`kb/sources/*.ingest.md`) cited without a verbatim quotation paired to each. This contract sets the bound in its `unquoted-source-limit` field, so it holds for every artifact here, definitions and proposals included ([ADR 122](../reference/adr/122-collections-set-the-unquoted-source-limit.md)); `commonplace-validate` fails past five.
+
+To discharge a source, quote a passage that matches uniquely in the ingest's `## Quotes` section. Retain the passage through `cp-skill-ground`, never by editing the ingest. Put the citation immediately after the closing quotation mark:
+
+```markdown
+"exact words from the passage" ([source](../sources/example.ingest.md), verbatim)
+```
+
+Repeat the citation after each separate quotation, even when two quotes in one bullet come from the same ingest. A link at the start of the bullet followed by bare `(verbatim)` markers does not reliably identify the source of each quote.
+
+A source linked with `(snapshot required)` anywhere in the note always counts. Links to other notes never count; a linked note has passed its own grounding review, and this note owes it faithful representation, not re-grounding. Over the bound, quote or split by claim; a claim carried jointly by several sources is quoted together, not split.
+
+Two conventions keep the bound honest:
+
+- **A source cited as evidence is cited in the body.** A footer-only source citation has no sentence to carry its use, so nothing in the note can be checked against it and nothing can quote it. Either host it in a sentence or drop the entry.
+- **A casebook hosts its retained evidence in prose.** When sources sit in table rows, put the quotes in a short block under the table — one sentence per source, naming the row — rather than in the cells.
+
+## Definition placement
+
+Definitions whose intended contribution supplies vocabulary for transferable
+theory belong under `kb/theory/definitions/`. Definitions constituted by a
+Commonplace selection, contract, or implemented classification belong under
+`kb/reference/definitions/`. The `definition` type does not decide placement.
+
+## Evidence placement
+
+Use `kb/theory/evidence/` when a note's primary contribution is what a bounded dataset, experiment, trace cohort, or comparative casebook establishes about the design space. Apply the placement test to the inference: when, after Commonplace's choices are scoped, it concerns only those fixed choices or their measured effects (no free variable), the evidence note belongs in `kb/reports/retained/` beside the raw evidence, keeping the note type; a theory note may still cite it. These remain theoretical notes under this collection contract: state both the inference the evidence supports and its limit. The larger theory may still be incomplete, but the evidence artifact must make its own bounded inference. Keep observations whose theory-facing inference is unresolved in `kb/work/`; put first occurrences and pure pattern records without explanation in `kb/log.md`. Put raw captures in `kb/sources/` and descriptions retained to represent a particular system's current or historical state in that system's descriptive collection.
+
+## Proposal placement
+
+Use `kb/theory/proposals/` for finished theory the KB has not decided to import into its vocabulary: frameworks, distinctions, terms, and changes to adopted definitions. Placement follows adoption state, not doubt about the content; a conjecture that needs no new vocabulary is an ordinary note that states its conjectural force. Every artifact under `proposals/` carries the collection-local [`theory-proposal`](./types/theory-proposal.md) type, which states what a proposal must contain and how it is adopted or deleted ([ADR 084](../reference/adr/084-kind-rules-live-in-type-specs-and-operations-in-instructions.md)). Other notes may point to a proposal but do not cite it as a premise or use its terms as settled vocabulary.
+
+## What does NOT belong here
+
+- Unadopted system designs → `kb/reference/proposals/` (`design-proposal` type), unless recast as an existential claim per above
+- Records of what Commonplace selected, and descriptions of the current or historical state those selections produced → `kb/reference/`
+- Descriptions of a specific system's contract, interface, or current construction → `kb/reference/` for Commonplace, or `kb/agent-memory-systems/` and `kb/agentic-systems/` for external systems
+- Procedures and how-to guidance → `kb/instructions/`
+- Raw captures without frontmatter → `text` type, any collection
+- Work in progress → `kb/work/` (workshops)

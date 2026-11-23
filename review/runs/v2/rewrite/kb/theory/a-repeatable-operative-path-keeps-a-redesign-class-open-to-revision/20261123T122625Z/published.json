@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261123T122625Z/artifact/publications/1.md",
+      "sha256": "75a8f14941b8e54a8104508eafeab737b62e430a220224eb40bd612c5f63ab2c",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261123T122625Z/artifact/publications/1.diff",
+      "before-sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "entries": [],
+      "at": "2026-11-23T12:37:35Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

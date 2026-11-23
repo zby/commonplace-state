@@ -1,0 +1,14 @@
+# Rewrite report
+
+## Affected citations
+
+- `kb/agentic-systems/reviews/agno-agentos.md`, body passage: "a stronger claim would need later evidence reaching a represented and authorized redesign path for the improvement machinery itself." The main use still holds. Broad writability is not shown revision of the improvement machinery, and the candidate keeps the Agno case bounded to target-side edits. The word "represented" no longer fits. The candidate treats representation as the observer identifying the changed part and class, and it states that the system need not inspect or expose that part. The overshoot circuit shows a repeatable path with no self-representation. Follow-up: assess whether that sentence should drop "represented" or restate the requirement as admission, installation, later use and a repeated change of the same class. The footer `rests-on` entry stays supported.
+- `kb/tags/reflection-README.md`, gloss: "the causal path a redesign class needs, from representation through admission to continuity." The step names still match the candidate. However, the gloss may suggest that the system represents itself. The candidate now says repeatability neither requires nor follows from inspectability. Consequence: the gloss is supported as wording, but the tag head should be reassessed so it does not present this note as making self-representation a condition. The note's substantive link to reflection is now a boundary claim: repeatability is distinct from addressability.
+- `kb/theory/program-theory-sustains-search-under-delayed-feedback.md`, footer: "supplies continuity and executable recovery across later episodes." The candidate supports continuity across later episodes. It does not supply "executable recovery". The old note did not clearly supply it either. Follow-up: assess the citing passage and narrow the phrase to continuity, or remove the reference if recovery was the reason for citing it.
+
+The other inbound uses are still supported: `a-better-factory-claim-compares-operative-states.md`, `a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md`, `an-improvement-can-close-the-path-to-further-improvement.md`, `axes-of-artifact-analysis.md` and `evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md`.
+
+## Other changes affecting dependents
+
+- The candidate removes the ADR 028 → ADR 057 and ADR 007 reuse cases, as the commission excludes the unsupported ADR 028 claim. No inbound passage relied on them.
+- The candidate drops the "complete addressability of behavioral authority" paragraph and the `behavior-determining-organization`, `behavioral-authority`, `methodological closure`, `cumulativity` and `commonplace-declared-frame` links. The `reflection-buys-addressability` footer label changes from `grounds` to `contrasts` because representation is no longer a requirement on the system.

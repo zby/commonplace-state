@@ -8,7 +8,10 @@ items:
   proposal:
     text: kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/plan.yaml
     text-sha256: bdb90b891867cf329e30138db9e7378306e495d3d707e8a2669c9ea4a3b228f0
-  state: pending
+  state: approved
+  decided-by: operator
+  decided-at: '2026-11-23T12:25:30Z'
+  reason: 'OK - this also needs more examples - because it is extremely abstract.'
 ---
 
 # Answers

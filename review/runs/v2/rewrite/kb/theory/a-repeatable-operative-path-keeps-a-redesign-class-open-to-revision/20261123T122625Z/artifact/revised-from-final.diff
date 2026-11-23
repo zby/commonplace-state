@@ -1,0 +1,36 @@
+--- kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md (candidate)
++++ kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md (revised candidate)
+@@ -1,5 +1,5 @@
+ ---
+-description: "Operationalizes repeatable operative revision for a named redesign class as a causal path through representation, evidence-bearing determination, admission, installation, dependence, and continuity"
++description: "Distinguishes a change that took effect from one that can happen again: a circuit can adjust a hidden gain twice, while a review bot can enforce a rule that bars further rule changes."
+ type: theory/types/structured-claim.md
+ traits: [title-as-claim, has-comparison, has-external-sources]
+ tags: [self-improving-systems, reflection, improvement-loop, learning-theory]
+@@ -22,7 +22,7 @@
+ 5. **Dependence: does later operation use it?** The next cycle drives the motor with gain 4.
+ 6. **Continuity: can the path change the result again?** If that cycle overshoots, the same logic halves 4 to 2, and the following cycle uses 2. The second halving is a later episode, and it witnesses the path running from the state the first halving produced. The design supports the same conclusion in advance: while the halving logic and the writable register remain, every installed gain is open to another halving.
+ 
+-The verdict depends on the class. For gain adjustment, the path is operative and repeatable. For circuit redesign, such as changing the threshold, the halving rule, or what is measured, there is no path: nothing in the circuit can change those parts. Repeated gain changes are not evidence that the circuit can redesign itself.
++The verdict depends on the class. For gain adjustment, the path is operative and repeatable. For circuit redesign, such as changing the threshold, the halving rule, or what is measured, there is no path: nothing in the circuit can change those parts. A second halving shows that the circuit can change the gain again, not that it can change the rule that halves it.
+ 
+ The verdict does not depend on benefit. If the overshoots came from sensor noise, repeated halving may leave the motor too sluggish. The path repeats either way.
+ 
+@@ -36,7 +36,7 @@
+ 
+ **Tag-README verification in Commonplace.** The [tag-README trace](./evidence/tag-readme-trace-observed-causal-connection.md) records one real change in verification machinery. The `learning-theory` tag index had grown to 18.8 KB and 55 entries, and its promise to list every member could no longer be checked; a maintainer measured the size by hand. An agent drafted a split into two types. ADR 026 recorded the decision, and commits added a `complete` mark, schema support, validator checks, and tests, which the maintainer reviewed and merged. When the `learning-theory` head later adopted a coverage mark, the new check caught a member that the documented `rg` search had missed: a note whose tags used block-style YAML.
+ 
+-Read against the test, the redesign class is "how completeness of a tag head is verified". The ADR, review, and commits record determination, admission, and installation. The caught member shows dependence: a later operation used the installed check, and its result differed from the old search. The record does not show continuity. The catch is a use of the new check, not a second redesign of the check. A continuity witness would be a later change to the mark, schema, or validator made through the same route. People performed the diagnosis, the review, and the admission. That fits an operative path, because the ADR, tests, and validator retain the route rather than one person's memory.
++Read against the test, the redesign class is "how completeness of a tag head is verified". The ADR, review, and commits record determination, admission, and installation. The caught member shows dependence: a later operation used the installed check, and its result differed from the old search. The record does not show continuity. The catch is a use of the new check, not a second redesign of the check. A continuity witness would be a later change to the mark, schema, or validator made through the same route. The maintainer noticed the problem. An agent connected it to an earlier finding about incomplete indexes and drafted the split; the maintainer reviewed and merged the change. The decision, tests, and validator let a later maintainer trace the change without relying on either participant’s memory.
+ 
+ **Agno's improvement loop.** In a practitioner account, a coding agent derives probes from a target agent's specification and stored sessions, runs them against the live agent, and fixes failures: "It edits the agent code in agents/radar.py, restarts, and re-runs only what failed." ([source](../sources/how-to-recursively-improve-your-agents-2084301728363462919.ingest.md), verbatim) The walkthrough continues the loop "until every probe passes" ([source](../sources/how-to-recursively-improve-your-agents-2084301728363462919.ingest.md), verbatim). If the self-reported account is accurate, each edit after a restart applies to the target state the previous edit produced, so the loop repeats changes in one class: edits to the target agent's instructions, tools, parameters, and code. The account says nothing about changes to the coding agent, the probe derivation, the specification, the judge, or the platform. It shows target-side repeatability only. It neither shows that the surrounding method can be revised nor that it cannot.
+ 
+@@ -44,7 +44,7 @@
+ 
+ ## Reasoning
+ 
+-Each question names a causal step a change needs before it can matter. Without a named part and class, "it can change" has no fixed reference: the circuit is repeatable for gains and closed for its own logic. Without determination, evidence does not reach the change. Without admission, a candidate never displaces the incumbent. Without installation and dependence, the change never alters operation. Continuity asks whether the transition left the path usable for the next change.
++The first question fixes what the reader is testing: can the circuit change the gain, or can it change the halving rule? Naming that distinction is the reader’s task, not a step the circuit performs. The remaining questions ask what actually produces the change and whether it can happen again. Without determination, evidence does not reach the change. Without admission, a candidate never displaces the incumbent. Without installation and dependence, the change never alters operation. Continuity asks whether the transition left the path usable for the next change.
+ 
+ Repeatability differs from five properties it is often confused with.
+ 
