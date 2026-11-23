@@ -1,0 +1,582 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z",
+  "artifact": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Keep this a simple foundation: distinguish finding an incident from recognizing when its lesson applies. Leave implications for later notes.",
+    "must-keep": [
+      "A fixed review rule can use the lesson; the incident does not show the rule must change.",
+      "A reviewer following the original instruction could still recognize it.",
+      "The test is not whether the reviewer retrieved the incident. It is whether the reviewer distinguishes apparent corroboration from independent support on the new page."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "repair-claim-title",
+        "scope": "H1 and description line only",
+        "finding": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/frontmatter/claim-strength.md"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/work/revise-assessor-comparisons/README.md",
+          "kb/work/revise-assessor-comparisons/blind-opus.txt",
+          "kb/work/revise-assessor-comparisons/replication.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/frontmatter/claim-strength.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/frontmatter/title-body-alignment.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/theory/COLLECTION.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/types/note.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/explanatory-reach.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/internal-consistency.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/sentence/framing-mismatch.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "repair-claim-title/frontmatter/claim-strength",
+      "scope": "H1 and description line only",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/findings/frontmatter/claim-strength.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/reports/repair-claim-title/frontmatter/claim-strength.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/texts/repair-claim-title/frontmatter/claim-strength.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/texts/repair-claim-title/frontmatter/claim-strength.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.md",
+      "sha256": "17840712dbccefe4ff6f161decca5902ec45c3eef892ebc2415f20ed475f8e11",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.diff",
+      "before-sha256": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71",
+      "entries": [
+        "repair-claim-title/frontmatter/claim-strength"
+      ],
+      "at": "2026-11-23T11:50:19Z",
+      "decided-by": "automatic",
+      "revised": false,
+      "relocation": {
+        "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+        "new-title": "Fixed review rules apply incident lessons by recognition, not retrieval",
+        "destination": "kb/theory/fixed-review-rules-apply-incident-lessons-by-recognition-not-retrieval.md"
+      }
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z",
+    "made-for": {
+      "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+      "sha256": "17840712dbccefe4ff6f161decca5902ec45c3eef892ebc2415f20ed475f8e11",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "stale-reviews",
+        "what": "14 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "kb/work/revise-assessor-comparisons/README.md",
+      "kb/work/revise-assessor-comparisons/blind-opus.txt",
+      "kb/work/revise-assessor-comparisons/replication.md"
+    ]
+  }
+}

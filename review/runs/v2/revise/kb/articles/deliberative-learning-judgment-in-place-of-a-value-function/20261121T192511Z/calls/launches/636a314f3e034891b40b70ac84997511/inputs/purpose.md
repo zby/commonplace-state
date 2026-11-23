@@ -1,0 +1,1 @@
+Machine-learning and agent-systems researchers who do not know Commonplace should be able to state the article's two-level claim (deliberative learning as a learning paradigm with a judgment in the selection role, and the bet that a fixed-weight language model can fill that judge role), follow it without internal vocabulary, and see what evidence would decide the bet.

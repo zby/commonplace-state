@@ -1,0 +1,36 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z",
+  "made-for": {
+    "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+    "sha256": "17840712dbccefe4ff6f161decca5902ec45c3eef892ebc2415f20ed475f8e11",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "stale-reviews",
+      "what": "14 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-review status kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

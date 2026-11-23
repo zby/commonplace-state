@@ -1,0 +1,1 @@
+Give a reader of Commonplace a concise declaration of the assumptions used here, not a survey of Popper. Clarify how to distinguish a conjecture from an adopted convention and why choosing a reference set does not guarantee convergence. Remove the stub aside and distinguish exclusions from commitments.

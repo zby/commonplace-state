@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "id": "f32bffffba51bb1ce72008db",
+  "request": {
+    "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::kb/instructions/critique-note",
+    "call-job": "kb/theory/ephemeral-computation-prevents-accumulation.md::kb/instructions/critique-note",
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "criterion": "kb/instructions/critique-note.md",
+    "contract": "report",
+    "kind": "critique",
+    "criterion-id": "kb/instructions/critique-note",
+    "target-sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "criterion-bytes-sha256": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "9de9ebf4a671000176b99df24c4135ec97f570bb30c1b1f40bc0be350d375b4c",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "criterion.md": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d.json",
+    "sha256": "e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "path": "inputs/target/kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "bytes": 5415,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/critique-note.md",
+      "path": "inputs/criterion.md",
+      "sha256": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+      "bytes": 4542,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "9de9ebf4a671000176b99df24c4135ec97f570bb30c1b1f40bc0be350d375b4c",
+      "bytes": 1546
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/ephemeral-computation-prevents-accumulation.md::kb/instructions/critique-note",
+      "key": "53f5d3d688ed7d1773c78155d775ba2756a569f24760245325e3a9fd64bcc73a"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795187301.2093213,
+      "event": "stopped-call",
+      "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::kb/instructions/critique-note",
+      "key": "53f5d3d688ed7d1773c78155d775ba2756a569f24760245325e3a9fd64bcc73a",
+      "reason": "process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 137h30m53s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 137h30m53s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"c8cc4a33-edbd-4194-abaa-9c62cbc89fc6-1\"}"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

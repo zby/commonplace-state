@@ -1,0 +1,1 @@
+The opening sentence attributing the constrain/relax framing to the linked note, including its link text (link target unchanged), and the 'Instructions are typed callables … practical rather than just analogical' sentences.

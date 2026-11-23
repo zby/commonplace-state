@@ -1,0 +1,1 @@
+The WARN items only: identify Commonplace at its first mention ('as Commonplace currently is') as the authors' agent-operated knowledge-base framework, and gloss EURISKO at its first mention. Leave the rest of the EURISKO paragraph unchanged.

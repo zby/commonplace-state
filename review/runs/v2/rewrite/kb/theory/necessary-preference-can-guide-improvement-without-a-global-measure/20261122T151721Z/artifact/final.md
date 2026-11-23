@@ -1,0 +1,80 @@
+---
+description: "How to decide whether to keep a change when gains and losses fall on different tasks, and which uncertainties justify further investigation before acting"
+type: types/note.md
+traits: [title-as-claim, has-comparison, has-external-sources]
+tags: [evaluation, self-improving-systems, robust-comparison]
+---
+
+# Necessary preference can guide improvement without a global measure
+
+Suppose a trial of a revised instruction finds that it helps on 90 tasks, hurts on 10, and makes no difference elsewhere. Should we keep it? Answering requires two assumptions. First, those counts reflect how often each kind of task will occur in expected use. Second, gains and losses add up across tasks. Under both, let a helped task gain `g` on average and a harmed task lose `l`. The revision comes out ahead exactly when `90g > 10l`, that is, when the loss-to-gain ratio `l/g` is below nine.
+
+Nobody has to know the ratio. The question is which ratios the purpose of the work leaves plausible:
+
+- **All below nine.** If each gain saves a manual check and each loss adds a comparable check, we have grounds to rule out a ratio near nine while leaving the exact value open. Every remaining ratio favors the revision, so we can keep it without choosing one.
+- **Up to exactly nine.** At nine the revision and the old instruction score the same. Every plausible ratio makes the revision at least as good, but one makes it no better.
+- **Across nine.** If a loss can invalidate a day's work, ratios above nine become plausible. Some plausible ratios favor the revision and others favor the old instruction, so the comparison stays open.
+
+The same counts give three different answers. What changes is the set of weightings the work admits, not the evidence about tasks. This is the general method: rank two versions only where every admissible weighting agrees, and say precisely where they do not.
+
+## What a claim of improvement asserts
+
+First fix the comparison: the **alternative** (what we would have instead), the **work** being judged, the **affected parties** whose gains and losses count, and the **horizon**. Then:
+
+**A step is an improvement when every compatible measure of that work scores the successor strictly higher than the predecessor.**
+
+A measure here is a whole way of valuing the work, such as one loss-to-gain ratio in the example. It is not one dimension of the work, such as cost. A measure is **compatible** when its treatment of gains and losses agrees with the purpose of the work and the commitments established so far. Compatibility must be argued from those commitments independently of which version a measure favors. Excluding a measure because it delivers the unwanted verdict smuggles a weighting back in without defending it.
+
+The method is borrowed. In [Greco, Mousseau and Słowiński](../sources/greco-ordinal-regression-revisited.ingest.md)'s ordinal regression, the compatible measures are additive value functions consistent with a decision maker's judgments about reference alternatives. The authors define "the necessary weak preference relation which holds for any two alternatives a, b from set A if and only if for all compatible value functions a is preferred to b" ([source](../sources/greco-ordinal-regression-revisited.ingest.md), verbatim), and "the possible weak preference relation which holds for this pair if and only if for at least one compatible value function a is preferred to b" ([source](../sources/greco-ordinal-regression-revisited.ingest.md), verbatim). Their preference is weak: at least as good. "When no preference information is provided, the necessary weak preference relation is a weak dominance relation" ([source](../sources/greco-ordinal-regression-revisited.ingest.md), verbatim), and each added judgment orders more pairs.
+
+Our definition makes two choices beyond the source. It requires strict preference under every compatible measure, so the break-even case at nine satisfies necessary weak preference but is not an improvement. It also requires the compatible set to be nonempty. If no measure fits the commitments, every comparison would hold vacuously; the commitments conflict and need revision before any verdict.
+
+The source fixes the criteria and lets a person supply the judgments. It does not show that a stated purpose is adequate, or that the relevant criteria can be read off prose. Here an objection can introduce a criterion nobody listed, which widens the compatible set and can withdraw a verdict.
+
+This is a working definition, not the only meaning of "better". State it, with the four fixed choices and the compatible set, before a test, and keep it fixed for that test. New evidence can still overturn the verdict. Revising the definition after seeing who lost starts a new test.
+
+Report one of five verdicts:
+
+- **Improvement.** Every compatible measure strictly favors the successor.
+- **Weakly better.** Every compatible measure scores the successor at least as high, and some score them equal: necessary weak preference without improvement. The converse is **weakly worse**.
+- **Tie.** Every compatible measure scores the versions equal.
+- **Loss.** Every compatible measure strictly favors the predecessor.
+- **Open.** Some compatible measure favors each version, so each is only possibly preferred, or the evidence does not yet establish which verdict holds. Say which.
+
+A possible preference alone cannot justify a step. If one compatible measure favors the step and another favors undoing it, the step and its reversal would both count as improvements.
+
+## Open for missing evidence, open for trade-offs
+
+The two ways a comparison stays open call for different work.
+
+**Missing outcome evidence.** We may not know how often harmed tasks occur or how much a loss costs. Evidence can settle this. Investigate an unknown only if a plausible answer could reverse the verdict. If a day-losing failure is plausible, learn how often it happens; a more precise estimate of the small gains will not change the answer.
+
+**Disagreement over trade-offs.** Even with outcomes known, the purpose may admit measures that weigh them differently: tolerance for rare severe failures, the horizon over which savings count, or author effort against maintainer effort. More evidence about outcomes cannot settle this. Only a further commitment, argued from purpose, narrows the set. Narrowing it merely to reach agreement defeats the verdict.
+
+**An open comparison is not an injunction against acting.** We can still take the step as a decision. Report it as a decision, not a demonstrated improvement, and name the evidence or commitment that would reopen it. [Reversibility can favor a change by limiting future loss](./reversibility-can-favor-a-change-by-limiting-future-loss.md) when a mistake can be found and undone.
+
+## A release judgment: Python 3.11 over 3.10
+
+Should maintained application projects take CPython 3.11 as their default over 3.10? The alternative is the whole release: we cannot take the new interpreter while keeping every old interface. Local checks showed one workload running faster without source edits, new library facilities such as `asyncio.TaskGroup` and `tomllib`, and the removal of `inspect.getargspec`, which a 3.10 program could still call.
+
+The purpose shapes the compatible set. Because this is a default, a project with an unrepairable dependency can stay on 3.10. A measure counting only the worst-off project is therefore not compatible; it would be where the people harmed could not avoid the loss. If blockers are rare and caught by testing before moving, every compatible measure favors 3.11. Without evidence bounding how widespread blockers are, the comparison is open for missing evidence, and adopting 3.11 is a decision under that assumption. [An objection can show where to split a comparison](./an-objection-can-show-where-to-split-a-comparison.md) examines what a challenge to this judgment can settle.
+
+## What Commonplace chooses to count
+
+**Commonplace's objective is more useful and better-warranted knowledge work for the human judgment spent.** This is a practical commitment about the work we value, not a claim that every project should adopt it. Automating a task is not, by itself, a gain.
+
+Its terms can pull apart: stricter checks can raise warrant while consuming more human judgment. The objective therefore bounds which measures are compatible rather than collapsing them into one score. A validator that finds a note the old search missed shows a gain. Whether that gain is worth its upkeep is a weighing for the people who rely on the index and those who maintain it. The objective tells us what to weigh; it does not calculate the answer.
+
+## Scope
+
+- The break-even arithmetic assumes frequencies that reflect expected use and additive value across tasks. If the value of one gain depends on what happens on other tasks, as with cumulative context load, the additive family can exclude the relevant trade-off.
+- Possible preference carries no probability. Saying what share of plausible weightings favors a change requires an explicit distribution over them, which this rule does not supply.
+- A verdict holds only for the fixed alternative, work, parties and horizon. Changing any of them is a different comparison.
+
+---
+
+Relevant Notes:
+
+- [Defining improvement for open-ended work](./defining-improvement-for-open-ended-work.md) — extends: this note proposes one working definition meeting the requirements that note sets out
+- [Selection-based learning needs only a local comparison](./selection-based-learning-needs-only-a-local-comparison.md) — contrasts: why selection needs only a comparison among candidates at hand; this note supplies one such comparison
+- [Self-improvement is relative to a declared objective](./self-improvement-is-relative-to-a-declared-objective.md) — grounds: why the objective must be identifiable independently of the change it judges

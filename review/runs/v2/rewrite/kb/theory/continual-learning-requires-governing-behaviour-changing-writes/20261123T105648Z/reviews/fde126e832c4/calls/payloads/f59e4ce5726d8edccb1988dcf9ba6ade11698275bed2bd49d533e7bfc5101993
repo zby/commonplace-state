@@ -1,0 +1,36 @@
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+This is the review of a rewrite candidate. The note's text input is the candidate: the full text the rewrite
+proposes for the note, not the note's current file. The criterion is the rewrite's review instruction.
+The rewrite's other inputs are the operational inputs below, each named by its role in the instruction.
+- FAIL: the candidate cannot be published without a change; each such change is a finding of level fail.
+- WARN: the candidate can be published, and findings of level warn ask for changes.
+- PASS: the candidate can be published as it is; a finding, if any, has level info and asks for no change.
+Write outcome: fail exactly when a finding has level fail. The reason of each warn or fail finding states
+`Basis:`, the input and passage that show the problem, and then `Required change:`, the change it needs.
+
+Use the supplied inputs. For a referenced source, read only the exact repository path named in supplied-sources. Do not browse other runs, delegate, or copy full snapshots into outputs.
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+Explicit self-contained operational inputs (do not browse their origins):
+- commission: `kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/commission.md` supplied as <Inputs: supplied-commission.md>
+- type-contract: `kb/types/note.md` supplied as <Inputs: supplied-type-contract.md>
+- collection-contract: `kb/theory/COLLECTION.md` supplied as <Inputs: supplied-collection-contract.md>
+- start: `kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/start.md` supplied as <Inputs: supplied-start.md>
+- sources: `kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/sources.md` supplied as <Inputs: supplied-sources.md>
+- source-1: `kb/theory/definitions/behavioral-authority.md` supplied as <Inputs: supplied-source-1.md>
+- source-2: `kb/theory/definitions/knowledge-artifact.md` supplied as <Inputs: supplied-source-2.md>
+- source-3: `kb/theory/definitions/system-definition-artifact.md` supplied as <Inputs: supplied-source-3.md>
+- source-4: `kb/theory/evidence/consumer-channel-and-force-can-stay-fixed-while-the-governed-use.md` supplied as <Inputs: supplied-source-4.md>
+- inbound: `controller: inbound links collected from kb/` supplied as <Inputs: supplied-inbound.md>
+- candidate-report: `kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/candidate-1-report.md` supplied as <Inputs: supplied-candidate-report.md>

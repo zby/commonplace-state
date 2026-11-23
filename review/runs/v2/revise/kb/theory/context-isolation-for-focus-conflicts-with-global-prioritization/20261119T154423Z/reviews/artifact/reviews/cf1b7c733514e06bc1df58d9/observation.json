@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "id": "cf1b7c733514e06bc1df58d9",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/undefined-terms",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/*",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "accessibility/undefined-terms",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "4d24ab80b3642b9fd28c0287668c8a1ee3dfd43abc0f79b3a89be4d84f2ed8bb",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "gate-jargon-persistence.md": "386074809a9cd2540746a963a84a5bf1f956f7eecea6d32384c5c702709e51d5",
+      "gate-notation-opacity.md": "1169b01cde2019fc32462be33de88364d0eebd8a030621ab4fd4143257dc17fe",
+      "gate-undefined-terms.md": "a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38",
+      "gate-unidentified-references.md": "422847c587793f494bfa140e10c46772cc1decaf72d3a611ec83daa39da288c3",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "29c60f681a7e4e255e6c73adff5578ea11a008ef",
+  "content-state": {
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "1336efe96cefde0ae03233301cabf2748c229c900370734b2ad91d63a746ffe4"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "file",
+      "sha256": "54bcbd6ef11a578f76b3c2de11c46b85e5fb42aac2c5887e263b7ddc06fa026b"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "8de6d5503c3dbcd9fc6decf80751c045e9415669d7a6352c0b161113cb1df463",
+  "executor": {
+    "path": "provenance/6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10.json",
+    "sha256": "6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+      "path": "inputs/criterion.md",
+      "sha256": "a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38",
+      "bytes": 2455,
+      "input": "gate-undefined-terms.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "4d24ab80b3642b9fd28c0287668c8a1ee3dfd43abc0f79b3a89be4d84f2ed8bb",
+      "bytes": 2812
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/62ef267b890a4b7f929ae88949223c8c/review-undefined-terms.md"
+  ],
+  "completed-result-sha256": {
+    "results/62ef267b890a4b7f929ae88949223c8c/review-undefined-terms.md": "5d2520a72c54c376e34fc34a2e986ea73ef2ae87ea43d282cec303a681a6ff92"
+  },
+  "latest-result": "results/62ef267b890a4b7f929ae88949223c8c/review-undefined-terms.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/*",
+      "key": "d1a602360db00823b8a65bb0ce2e3b8ece421eb422e0e5d69797f218204e7d81"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,1 @@
+The claim-strength review recorded a **fail**. The title restates what the note’s definition of a repeatable path already assumes. [Review]( /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T143951Z/calls/launches/b62a7485c8c0449ba0710b2483a1bbd6/outputs/review.md)

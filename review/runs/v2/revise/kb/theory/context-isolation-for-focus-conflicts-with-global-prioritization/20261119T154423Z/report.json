@@ -1,0 +1,478 @@
+{
+  "ok": false,
+  "outcome": "failed",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z",
+  "artifact": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+  "mode": "full",
+  "plan": null,
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 44,
+        "fresh": 4
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/reference/README-REVIEW-SYSTEM.md",
+          "kb/work/review-and-editing-commands/README.md",
+          "kb/work/review-and-editing-commands/command-proposal.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/claim-strength",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/description-discrimination",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-as-claim",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-composability",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "triage": null,
+  "passes": [],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z",
+    "made-for": {
+      "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "failure",
+        "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/role: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate: process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"f06916d6-f46c-40ee-93f1-3e569a45798c-1\"}",
+        "actor": "session-agent",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/report.json"
+        ]
+      }
+    ]
+  },
+  "stopped": "reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/role: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate: process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"f06916d6-f46c-40ee-93f1-3e569a45798c-1\"}",
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "kb/reference/README-REVIEW-SYSTEM.md",
+      "kb/work/review-and-editing-commands/README.md",
+      "kb/work/review-and-editing-commands/command-proposal.md"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+Run one edit operation on one note. Nobody will answer questions. If you cannot run it within its bounds, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/reference/epistemic-stance.md` in this repository; the text to edit is <Inputs: text.md>. The note's file in the checkout may hold another text: work on this input, not the file. The operation is `kb/instructions/simplification-passes/readability-and-flow.md`; its text is <Inputs: operation.md>. The shared edit contract is <Inputs: execution.md>; follow it.
+
+The caller supplies these inputs, by role:
+- `purpose` (from `plan:purpose`): <Inputs: purpose.md>
+- `must-keep` (from `plan:must-keep`): <Inputs: must-keep.md>
+
+Output:
+- Write the edit result to <Required outputs: result.md>: YAML frontmatter, then a `# Report` heading and the report the operation's Report section describes. The frontmatter holds `type: types/edit-result.md`, `outcome` and the fields that outcome needs:
+  - `outcome: changed` when you applied changes: one line per change under `changes`, the target of every link you removed under `removed-links`, and the complete changed text, frontmatter included, written to <Optional outputs: candidate.md>.
+  - `outcome: unchanged` when nothing needs changing: say why in the report. Write no candidate.
+- Supply only these fields; code adds every hash, path and identity. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.

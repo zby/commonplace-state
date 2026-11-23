@@ -1,0 +1,64 @@
+---
+description: "Use when claims are settled but sections repeat, interrupt each other, or bury the point; sentences need a second reading; or repeated openings hide the distinction a reader scans a list or table for"
+type: types/edit-operation.md
+effort: judgment
+decision: none
+depth: 4
+---
+
+# Readability and flow
+
+Make the artifact's structure carry its argument, so a reader meets each idea
+once, in the place it does the most work.
+
+Effort: judgment. Structural moves need judgment; run tightening alone as simple when the assessment recommended nothing structural.
+
+## Steps
+
+Apply these structural moves, each only where the whole read shows the need:
+
+- **Surface the divergence.** The sentence a reader would repeat when
+  recommending the artifact belongs in the opening or the claim section, not
+  two-thirds in.
+- **Group comparison cases.** Formal and empirical comparisons sit in one
+  section, formal first, so the argument section runs without interruption.
+- **State the comparison basis.** A section that says what a route gains
+  names what it is compared against in its first sentence.
+- **Lead with what the reader is scanning for.** In a list or table used
+  to choose or compare items, identify what the reader needs to tell apart.
+  Read the entries side by side. If a shared opening buries that distinction,
+  bring it forward or move the shared wording to a heading. Keep an opening
+  that helps the reader group items. Keep a qualifier with the words it limits.
+- **Deduplicate caveats.** When a caveat appears twice, keep the one nearest
+  its mechanism and cut the other; do not cross-reference.
+- **Split and merge at argument boundaries.** Split a paragraph that carries
+  two subjects; merge adjacent short paragraphs on one subject with a
+  connective that says how they relate.
+- **Tighten.** Remove words that add no content, semicolon splices, and
+  clauses that restate the previous sentence.
+- **Parse on first reading.** Rewrite a sentence the reader has to read
+  twice. Give a pronoun with two possible antecedents its noun. Move a
+  qualifier next to the claim it limits. Turn a noun stack or a
+  nominalization into a verb. Split a sentence that carries two points. Keep
+  a word to one sense within the artifact ("fails the theory" and "fails a
+  condition" read as one relation).
+
+Read the seams after each move. A relocated paragraph's first sentence must
+work in its new place.
+
+## Report
+
+Each structural move in one line, and the count of sentence-level edits. Do
+not list tightening or parsing edits individually.
+
+## Preserve
+
+Every claim, example, link, and qualification. If a move would require
+choosing between two readings of a sentence, leave it and flag it.
+
+---
+
+Relevant Notes:
+
+- [Three simplification passes exposed different clarity–precision tradeoffs](../../theory/evidence/three-simplification-passes-exposed-different-tradeoffs.md) — rests-on: evidence that readability gains and claim preservation are separate properties of a pass, so this pass checks both
+- [Opening position can signal a human reader's theme; proportion remains conjectural](../../theory/position-and-proportion-set-what-a-reader-retains.md) — rests-on: grounds moving an obscured claim in the human thematic-cue rationale, without assuming the same effect for LLM readers

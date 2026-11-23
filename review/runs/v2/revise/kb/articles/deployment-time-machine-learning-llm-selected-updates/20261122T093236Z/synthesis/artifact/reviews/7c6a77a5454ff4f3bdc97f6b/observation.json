@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "id": "7c6a77a5454ff4f3bdc97f6b",
+  "request": {
+    "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "call-job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+    "contract": "report",
+    "kind": "compression-synthesis",
+    "criterion-id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "target-sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+    "criterion-bytes-sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "21f581e9b65e8483313f60bb02c6442f2d04c99eaeab3c9d01d2b0376e7b8a8b",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "criterion.md": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-branch-bloat.md": "c7e97e8e6391d1d69351cb0a9df53942bb2ba2ed57af5b6f2aad81b6844a1320",
+      "supplied-core-claim-obscured.md": "c642870f92f50f4b231287afedab59ddcfd204b7ed20bec5b548808d6ca806e7",
+      "supplied-detail-overhang.md": "edadfd701ba5ad9576e1063bb9f837ad814d873cc254b5da3b018903917ad053",
+      "supplied-marginal-value-redundancy.md": "0086761b5dfbcbbce554bdb6ac884fa6d64b72a140ab6dfada21d36a3f5954af"
+    }
+  },
+  "kb-commit": "d4fe04e384b198fcfc99e199329cb8f656744b7e",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "cb45225733de1c72735c5b5582b87dc0e294e4483d31f6c75b2ebfdb43884e54"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "f3906dc69a9db3f1f665365135716fdec9c7d561a3d8b9d0364157ec80f6ca84"
+    },
+    "kb/tags/deploy-time-learning-README.md": {
+      "kind": "file",
+      "sha256": "c9d81d3d7bd48633bcd1e1fb98031e93e317a5f2eba3aef10dffd2df1a570210"
+    },
+    "kb/theory/constraining-during-deployment-can-produce-learning-outside-weights.md": {
+      "kind": "file",
+      "sha256": "619ce82a9aee96087d8d56322ce3ae58a6ea3bd6a9f397237fcd9e8349b77eca"
+    },
+    "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md": {
+      "kind": "file",
+      "sha256": "d4cf3b3a1cc74902819628197e803dae5ded35ff2566701407c61f63cb5932f5"
+    },
+    "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md": {
+      "kind": "file",
+      "sha256": "dc5796e68e0184d2489c9d94288bee829bce65ec92f9abcb12006bf898729522"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "d8d3282e6971444b8cc3a8805a842212676fcd8ac7a0a3227725b8b7a70102df",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "bytes": 26137,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "path": "inputs/criterion.md",
+      "sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "bytes": 4827,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "21f581e9b65e8483313f60bb02c6442f2d04c99eaeab3c9d01d2b0376e7b8a8b",
+      "bytes": 2695
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/branch-bloat.md",
+      "sha256": "c7e97e8e6391d1d69351cb0a9df53942bb2ba2ed57af5b6f2aad81b6844a1320",
+      "bytes": 4607,
+      "input": "supplied-branch-bloat.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+      "path": "inputs/operational/core-claim-obscured.md",
+      "sha256": "c642870f92f50f4b231287afedab59ddcfd204b7ed20bec5b548808d6ca806e7",
+      "bytes": 5528,
+      "input": "supplied-core-claim-obscured.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/operational/detail-overhang.md",
+      "sha256": "edadfd701ba5ad9576e1063bb9f837ad814d873cc254b5da3b018903917ad053",
+      "bytes": 5434,
+      "input": "supplied-detail-overhang.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/operational/marginal-value-redundancy.md",
+      "sha256": "0086761b5dfbcbbce554bdb6ac884fa6d64b72a140ab6dfada21d36a3f5954af",
+      "bytes": 5948,
+      "input": "supplied-marginal-value-redundancy.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/2ae6f0c0ccd742c09eabcb14fde001ed/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/2ae6f0c0ccd742c09eabcb14fde001ed/review.md": "1d22684628638e21b1a52b9277e3b32c5ebc976983079d6e1ea24642b7044157"
+  },
+  "latest-result": "results/2ae6f0c0ccd742c09eabcb14fde001ed/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "b2f2e98c13ddc5808131fcb1fc12b7536f95213a377cad10cd3801d811c299b6"
+    },
+    {
+      "call": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "db7a49b8a7d9bb4c7863f7cb6263d6d2bcbd4f6b1979a2977a826a2e38dd24fa"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795340398.439858,
+      "event": "rejected",
+      "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "b2f2e98c13ddc5808131fcb1fc12b7536f95213a377cad10cd3801d811c299b6",
+      "problems": [
+        "review: [base] title: 103 chars exceeds limit of 100"
+      ]
+    }
+  ],
+  "content-rejections": 1,
+  "rejection-events": 1
+}

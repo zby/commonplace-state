@@ -1,0 +1,32 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "fixed-plan",
+  "purpose": "Help a maintainer compare agent-memory requirements with shipped capabilities and limits. Make the order and reasoning clear, distinguish how records are created, found and checked from what future use demonstrates, and avoid repeating the inventory.",
+  "must-keep": [
+    "Distinguish curated heads and rg in the checkout from complete listings generated for the site, and replaceable current review results from retained observations."
+  ],
+  "plan": "purpose: Help a maintainer compare agent-memory requirements with shipped capabilities\n  and limits. Make the order and reasoning clear, distinguish how records are created,\n  found and checked from what future use demonstrates, and avoid repeating the inventory.\nmust-keep:\n- Distinguish curated heads and rg in the checkout from complete listings generated\n  for the site, and replaceable current review results from retained observations.\nstop: null\npasses:\n- pass: readability-and-flow\n",
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": null
+}

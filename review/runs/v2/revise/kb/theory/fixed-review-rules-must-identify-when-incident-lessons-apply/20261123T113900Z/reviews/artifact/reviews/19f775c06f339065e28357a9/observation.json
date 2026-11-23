@@ -1,0 +1,1200 @@
+{
+  "version": 3,
+  "id": "19f775c06f339065e28357a9",
+  "request": {
+    "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/framing-mismatch",
+    "call-job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/*",
+    "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+    "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "sentence/framing-mismatch",
+    "target-sha256": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71",
+    "criterion-bytes-sha256": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "b8dee593d39a70140c5b5ba3e898bd4bfe301bb38834bd3cf1c005fee5190874",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71",
+      "gate-clause-packing.md": "1546b936d349c05735443368da75ea0829b04f34cd3e6084351c128713f320a1",
+      "gate-concept-attribution.md": "75949108abe516c6d5d80ba7a1c9546fbb81cc202dd215042cf5a323075358e6",
+      "gate-framing-mismatch.md": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+      "gate-misleading-link-text.md": "29771fdb3d02cdf416ad3b68c38b2ae29bb69fe4332f316cc9475de3aa4508c2",
+      "gate-parsing-ambiguity.md": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "gate-stock-phrases.md": "01fe5fea193e21d064468eb1b1c7495441fe3ca291ba101f15b3da55209e5241",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "5be94e42ee9cf79310d2aa875d99f000069ebc4e",
+  "content-state": {
+    "kb/agent-memory-systems/trace-learning-techniques-in-related-systems.md": {
+      "kind": "file",
+      "sha256": "00135e1d3f36f51a9851acaf221fd5aa1ba54b8e0102b13402fcbe145314f2b2"
+    },
+    "kb/agentic-systems/reviews/ai-agent-book.md": {
+      "kind": "file",
+      "sha256": "f11f0b95992123e04777ba41d83aa9a38f87f6291c1a0a1df015020eeb68bc60"
+    },
+    "kb/sources/adaptation-of-agentic-ai-survey-post-training-memory-skills.ingest.md": {
+      "kind": "file",
+      "sha256": "b0c0daca4e035ace6452ce71d67d6859c47b38fa1f4a9b46f2885fbd219a2984"
+    },
+    "kb/sources/agentic-reasoning-for-llms-survey.ingest.md": {
+      "kind": "file",
+      "sha256": "0c80183073a515df0eacf16e3d6b20f17bfe04aa351987cdd95a8b36857c4ec3"
+    },
+    "kb/sources/chunking-in-soar-general-learning-mechanism.ingest.md": {
+      "kind": "file",
+      "sha256": "2f704d129ab2bbd1d431164482279736d9928e09ea1e93f7786804c39aeaad62"
+    },
+    "kb/sources/continual-learning-in-token-space.ingest.md": {
+      "kind": "file",
+      "sha256": "3f8c2d92610b89fce0134cef53504262f02bbd49f688d21f37b9973e02dc2633"
+    },
+    "kb/sources/dfa-moe-dual-forgetting-vision-language-continual-learning.ingest.md": {
+      "kind": "file",
+      "sha256": "f419f6bf2704339eb14a9261aee0998c753dfbf6b7f01fb594913edef5b8bac0"
+    },
+    "kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md": {
+      "kind": "file",
+      "sha256": "6851ccb0e8258c995886939725dd90d3e772d9e6f90d1ab97abb25eae70f909d"
+    },
+    "kb/sources/externalization-in-llm-agents-unified-review.ingest.md": {
+      "kind": "file",
+      "sha256": "5233990f4e674232a4ad06d607d8082730e98ba0b7302499c50e716f8b67be2d"
+    },
+    "kb/sources/from-harness-lock-in-to-portable-context-layer.ingest.md": {
+      "kind": "file",
+      "sha256": "974e2d014bb39f705480b47765c95fba17e3866a7d955c2c0071168f0285b239"
+    },
+    "kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md": {
+      "kind": "file",
+      "sha256": "7afadd1a89276916a30894f92a35d25f7b49c95c46c9f6de3ea727bf5c488242"
+    },
+    "kb/sources/harness-continual-learning-adaptation-beyond-model-parameters.ingest.md": {
+      "kind": "file",
+      "sha256": "3abd9a83c16d951bb3105eb9ef499a9439fc6c3bafb3c41154dc220d81e75733"
+    },
+    "kb/sources/hot-take-llm-can-jump.ingest.md": {
+      "kind": "file",
+      "sha256": "0613abb053519d453c011c10b97f9fd5032993ba59606b3c0b1c415868e97a80"
+    },
+    "kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md": {
+      "kind": "file",
+      "sha256": "e0a246e204cc7941c0f9f9de5bc53b23b4c81128cab144a61131a26bba323bf3"
+    },
+    "kb/sources/hyra-2-next-step-for-auto-research.ingest.md": {
+      "kind": "file",
+      "sha256": "e0c834ca9a76a6cd2cb7a65cd6a3e393087ef2270a0d6d1aa992da6bc0944896"
+    },
+    "kb/sources/intern-s2-mobius-arxiv-v1.ingest.md": {
+      "kind": "file",
+      "sha256": "6b32ea1725b3f8100612bb5cd3aba6c7d9d79aea27441cfbba0507a3d04b7f1a"
+    },
+    "kb/sources/into-the-unknown-self-learning-large-language-models.ingest.md": {
+      "kind": "file",
+      "sha256": "a319faf6d87f114f3989b4701fd969320e03bd275022ca98d0e1af2d85830fec"
+    },
+    "kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md": {
+      "kind": "file",
+      "sha256": "e3530d01294fa6a1750db5157fccd5907f47c3dafd79665d417da7ac91f506a2"
+    },
+    "kb/sources/language-models-need-sleep-self-modify-consolidate-memories.ingest.md": {
+      "kind": "file",
+      "sha256": "635c4c1f168ef464dc1b7234d53943bc2ed5ceaddb135663d7329107d03743ab"
+    },
+    "kb/sources/llm-agents-are-not-always-faithful-self-evolvers.ingest.md": {
+      "kind": "file",
+      "sha256": "89b60b3278c000f02bfdd5dcba175dee204e2bf021ff22c086f2d8de202cef18"
+    },
+    "kb/sources/llm-knowledge-bases-something-i-m-finding-very-useful.ingest.md": {
+      "kind": "file",
+      "sha256": "95fa73d0c65b9c589b9b769ee792e9cba713462bf46c26bd354ffd855490e98c"
+    },
+    "kb/sources/long-horizon-agents-levels-ticks-cascaded-intelligence.ingest.md": {
+      "kind": "file",
+      "sha256": "18a0128f93f22a10eb0e7c11e1d5f775eaeaf828ac57fb091b2dc591dd2ac190"
+    },
+    "kb/sources/merchantbench-long-term-coherence.ingest.md": {
+      "kind": "file",
+      "sha256": "e9f71f7a9b3e1fc9e2dc1ccf29d0d580caf4d68ae87213e0176f5d64968193a5"
+    },
+    "kb/sources/metr-hugging-face-incident-investigation.ingest.md": {
+      "kind": "file",
+      "sha256": "e827f4dc6bb5d7a6ac0c8a440cccb0fab80a5b9c74989714fcfd23a64fa04338"
+    },
+    "kb/sources/nested-learning-the-illusion-of-deep-learning-architecture.ingest.md": {
+      "kind": "file",
+      "sha256": "b7276ed88d99896c4ebc486af93318e30afb4425a465a00bd64ce1aa87176f6b"
+    },
+    "kb/sources/on-learning-how-to-learn-learning-strategies.ingest.md": {
+      "kind": "file",
+      "sha256": "1ed0dee2babb773f2ec0173706b19fd0cdf62734eb8909fa070ba6923c120f26"
+    },
+    "kb/sources/open-continual-learning-2080310986850840656.ingest.md": {
+      "kind": "file",
+      "sha256": "4fdc44941b3a4b26a43cd8bc9d34897dc710097d7b5d688f94c1ce0d1d2b320c"
+    },
+    "kb/sources/prime-agent-a-self-improving-rlm-harness.ingest.md": {
+      "kind": "file",
+      "sha256": "6727a07f4aaaaeef153d335928267ff29ba8dc6aacad183987175ee8860d2a03"
+    },
+    "kb/sources/self-training-large-language-models-through-knowledge-detection.ingest.md": {
+      "kind": "file",
+      "sha256": "d4e68ff998044a006c0179a29f01326042fc10ad227aaa3b6f0b72f6c83bd7cb"
+    },
+    "kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md": {
+      "kind": "file",
+      "sha256": "188a3d26e54e594ffd0e156a2453c300bb5f6f9e6807cdf3cb0f34e400560ae0"
+    },
+    "kb/sources/skillrl-evolving-agents-recursive-skill-augmented-rl.ingest.md": {
+      "kind": "file",
+      "sha256": "9376d57ea79df5f752641ea48483a22a044cefdfe6cb1c81a20fa2854e5450bc"
+    },
+    "kb/sources/the-thing-we-refer-to-as-memory-in-llms-is-just-a-bunch-of.ingest.md": {
+      "kind": "file",
+      "sha256": "7dcde88029a8fdfc9d419cf31fe689fa146ed9f2c8d1009f056ba27f5a27057b"
+    },
+    "kb/sources/the-what-and-when-of-self-evolving-agents.ingest.md": {
+      "kind": "file",
+      "sha256": "bc167262fdd6ea9f8a9b2e81ad066fbc12c01d7c48099796ae019f2894c99218"
+    },
+    "kb/sources/transformers-learn-in-context-by-gradient-descent.ingest.md": {
+      "kind": "file",
+      "sha256": "05e3566b8beb56b6d9419f46a873e2ddb12d72ac2a57a708184bd94d18bd928d"
+    },
+    "kb/sources/we-should-take-text-optimization-more-seriously.ingest.md": {
+      "kind": "file",
+      "sha256": "1d8d0072aca97086b32d2da0e6d0e767e0bdf3d793cf0d4c13f62cba6d9ed364"
+    },
+    "kb/sources/when-is-it-better-to-think-without-words.ingest.md": {
+      "kind": "file",
+      "sha256": "0129e56eea313f0c8d3dd059c5e465e223fc577507cadaab06ef63f238879a7b"
+    },
+    "kb/sources/workspace-optimization-how-to-train-your-agent.ingest.md": {
+      "kind": "file",
+      "sha256": "bacd78f049d40288721cd15e0a4036e9ea4210bbeeedb9de675655a814ee2e39"
+    },
+    "kb/tags/continual-learning-README.md": {
+      "kind": "file",
+      "sha256": "5a706af3199622ac6167ab05805defd8bd4fd27bf0e3f817fbd38c20ff5434f0"
+    },
+    "kb/theory/agent-memory-requirements/activate-behavior-changing-memory.md": {
+      "kind": "file",
+      "sha256": "121847c29a78540e1fc4bfe4f86af017e1d2bbed59e1f37253f8e19b7333bbb1"
+    },
+    "kb/theory/axes-of-artifact-analysis.md": {
+      "kind": "file",
+      "sha256": "54e44cc5acdd18dcd3339bdb8c7b8ec1696284b2ccab58fcdef57ff244026c4b"
+    },
+    "kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md": {
+      "kind": "deleted"
+    },
+    "kb/theory/deployed-systems-can-learn-from-feedback-with-fixed-model-weights.md": {
+      "kind": "file",
+      "sha256": "18efbb6ef10a4f17cf25900c3785318932560619cd33c9ae21bb7fa9fa6f4c36"
+    },
+    "kb/theory/factory-learning-is-experience-responsive-retention-that-improves.md": {
+      "kind": "file",
+      "sha256": "6b15cdb9df9777d9d01f9b110df62f9b93b6359f1c62bc8899e6970a37e63912"
+    },
+    "kb/theory/files-defer-centralized-schema-commitment-until-invariants-stabilize.md": {
+      "kind": "file",
+      "sha256": "c6d9d6a1a8d384f063b073f8fb3c56dc8825b6d241a07c30d0e9ba5cda6d3abb"
+    },
+    "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md": {
+      "kind": "file",
+      "sha256": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71"
+    },
+    "kb/theory/readable-artifact-loop-is-the-tractable-unit-for-continual-learning.md": {
+      "kind": "file",
+      "sha256": "c92096fe8d6d99c44201af279a4fd69303e95121d6d92f211fa65cd228f518ee"
+    },
+    "kb/theory/reflection-buys-addressability.md": {
+      "kind": "file",
+      "sha256": "f55e863a28131bccec77b70cafd52bac978897bfa8256ad4d2db38d7448b24d1"
+    },
+    "kb/theory/system-definition-artifacts-are-crystallized-reasoning-under-context.md": {
+      "kind": "file",
+      "sha256": "e143cb6a5ec28de9ff33bdc3c4ef6a405c2d11106681928962c98c02d82ba949"
+    },
+    "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md": {
+      "kind": "file",
+      "sha256": "20c56bb0b51334bcd64744c5a9254ce8b22ccc1cdcf552ca6bca48c3cb3fe00f"
+    },
+    "kb/theory/treat-continual-learning-as-representational-form-coevolution.md": {
+      "kind": "file",
+      "sha256": "7bf24b852231176264b72e1338bdf95ae9062f471d710a45bf422a560479d9fe"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "917035c18a4850325571a4ad8ef9ac04cc7b55e494eb3302dcc4ea42bbd464cb"
+    },
+    "kb/work/agent-memory-design/2026-04-23-extractable-theory-notes.md": {
+      "kind": "file",
+      "sha256": "6090bb491bd923b95db81d51b5105348dfefe3b3620fdb6d3a6caf665e4ce318"
+    },
+    "kb/work/agent-memory-design/2026-04-23-grounding-report.md": {
+      "kind": "file",
+      "sha256": "50d3503e24730a1845f841b61fc0d71e5b74f1c0b24ccab4e05ae91c8582338d"
+    },
+    "kb/work/replaying-operator-rulings/COORDINATION.md": {
+      "kind": "file",
+      "sha256": "211f04ca68a2a1a5a6da535cbea4ec064513071c2dc7c0491b5823710d873773"
+    },
+    "kb/work/replaying-operator-rulings/README.md": {
+      "kind": "file",
+      "sha256": "f1ccb64a977423fc13616c23992f88f03d53c000125fc029b364ea8851ecf736"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/design.md": {
+      "kind": "file",
+      "sha256": "38e3bd9d5a7fbbe87868af3454cb4d52fe447dbb8571f8ec32ea4878d79a94d2"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/results.md": {
+      "kind": "file",
+      "sha256": "fba2ae7c0d9c9bc4d9bcb1d931e9f7ad51edde8c83fd007a80a0121855b94372"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/design.md": {
+      "kind": "file",
+      "sha256": "5d150694dab124ecb41c9722b70ed58d8bb68729fab98c278daad45af6429371"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/results.md": {
+      "kind": "file",
+      "sha256": "fe8b37645db77022a19c9ba7bd0876f08f443ee7109db71e9044b33e8b4de414"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run.py": {
+      "kind": "file",
+      "sha256": "1f6fac89c233c3bbb032c2fdf1f569fab31e53246f97a67f0c0b5b1984778fed"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a1.meta.json": {
+      "kind": "file",
+      "sha256": "aa3aadffdae4a300ff258c572f2c23314fdf650cc7aa2552f0c80b510d3f9ccb"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a1.txt": {
+      "kind": "file",
+      "sha256": "3121ffa4cd55ae0a185904b2a53336067e8fabfa637aab73c29980df49e1076d"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a2.meta.json": {
+      "kind": "file",
+      "sha256": "71196253314650e2669b15f9e55395cbd3e722d5eac870646865940a709b60ed"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a2.txt": {
+      "kind": "file",
+      "sha256": "9675431990834944e78d623750c016cdc8a561d4c6240314fb6404ab1fee3e2e"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a3.meta.json": {
+      "kind": "file",
+      "sha256": "6bf1519dba29bc9738e15a9531e4836a19e6a5a30234fcc7bf1e9581304ccc01"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a3.txt": {
+      "kind": "file",
+      "sha256": "004f68c029575b87b1273c756e8ccfbc54b0ae7118ddc88f1d2ee1049e6d74c1"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a4.meta.json": {
+      "kind": "file",
+      "sha256": "9dbb00d1b67000704c98f98328041b372c8402f6bce3ebfe054a635d189ac8cf"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a4.txt": {
+      "kind": "file",
+      "sha256": "a9638b35508b30bc8f595c77476de0e6881ac41e248af6422093f967b8c3bd20"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a5.meta.json": {
+      "kind": "file",
+      "sha256": "dcd4602ecf3130fa76380d7bd6937c29288203f2e8c7409119173b6156875b71"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a5.txt": {
+      "kind": "file",
+      "sha256": "a9f48484524fa7f14c8eb09c8d64cdafa5c998468da0945ee548109fd2a47264"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a6.meta.json": {
+      "kind": "file",
+      "sha256": "c98d3362f60bdc5f3171baf2620e3f980d469e54e65dffabc64e50007eccabf0"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/a6.txt": {
+      "kind": "file",
+      "sha256": "e5ac2ad5a32db42422cfea6b8d76bbea4b305c4ac1d74142c82b95b3aa5c46ee"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/key.json": {
+      "kind": "file",
+      "sha256": "9578bf28831eaa3849e8ede26820d3e17ab31134067942d96ec0628abe544bd7"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/packet.sha256": {
+      "kind": "file",
+      "sha256": "cab17c2dc43ac2b9680462c8fa0abbe67f2d49dd95ec66a94d204ee2ce20a36d"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/scorer1.meta.json": {
+      "kind": "file",
+      "sha256": "4f69064c5cb54daea55a973f527a1ec407f80cecca51dfc2d502e5927d5b9caa"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/scorer1.txt": {
+      "kind": "file",
+      "sha256": "5428e25ecdd2e563b369adf4ea0e946f5d1f8a359a7563830144b03a79cab10b"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/scorer2.meta.json": {
+      "kind": "file",
+      "sha256": "3088baf5602cd6b89a8f074480ffc0cd445abcab11e56ace6db035d923d1b403"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/round-2/run/scorer2.txt": {
+      "kind": "file",
+      "sha256": "c81a72f38495cb044c3f9466bc06eb9e91aa8218f7c40106d235a46cc87adb11"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run.py": {
+      "kind": "file",
+      "sha256": "ae84809fd0ae4514518b039fdbff6de16fc2ba1ac1c0a7af6376e25fab6aad16"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a1.meta.json": {
+      "kind": "file",
+      "sha256": "21f039d47f286072880c0bd819db0e740eaacaf74a4543ec55dbe03b65ef0e23"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a1.txt": {
+      "kind": "file",
+      "sha256": "e869df7833764bb5690181d87af1a98ccfa82ff8d5dfa91adf47712edd5c05c3"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a2.meta.json": {
+      "kind": "file",
+      "sha256": "ae9e12298bcef54bff3cbd885bd8709b666a64ff0d754bee1fa24aa8b67c8fcc"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a2.txt": {
+      "kind": "file",
+      "sha256": "7bfef487a83d5ba36fc4ab816c2b14cb7eda259206ae489f054750e2403312e2"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a3.meta.json": {
+      "kind": "file",
+      "sha256": "29ef57bab70dd684acf2ef35f5ebce98e82c0dc090b5d9959178b930cfe00a2b"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a3.txt": {
+      "kind": "file",
+      "sha256": "7f31f2b6e65992f91537b644db03564d5b28002c27abea59387e83c72293176e"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a4.meta.json": {
+      "kind": "file",
+      "sha256": "9d42b1ccfe7fec74b9ae469b41f66f8a1cbbe7058836c47c457225d9e058b91e"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a4.txt": {
+      "kind": "file",
+      "sha256": "c5109d2a9d9f37ee8ee4c74974e80ae65949b52ce607c7c72be46725634dfb2c"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a5.meta.json": {
+      "kind": "file",
+      "sha256": "e7a9e7430fbe9e2ad206a3ff3f1ce440791d2d7e69578fee9e618ba259858bd5"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a5.txt": {
+      "kind": "file",
+      "sha256": "ef5b9dbc9651036bba58258c00a40218e06b381ea804368fd67df1581c6e23c1"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a6.meta.json": {
+      "kind": "file",
+      "sha256": "386648596df0979780b51142bb47a9afbadd2b7aa28414d27a2b67077259fe78"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/a6.txt": {
+      "kind": "file",
+      "sha256": "2815fae2f525ef29396c18e1847c4de4cffefa65b3e46d56e2655c28aaf6cac6"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/key.json": {
+      "kind": "file",
+      "sha256": "33fcbc995b85edee35fdc7055a361367bb8f9bb0c7ab47c5174cefc606915421"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/packet.sha256": {
+      "kind": "file",
+      "sha256": "dd206112ce0f5fbb4a824e68fdd00fc49ae4da3ac0bd69eab9ee0ae396f1a9c9"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/scorer1.meta.json": {
+      "kind": "file",
+      "sha256": "f0ab6def3be3e455d8d65c8bbe61fbe53efc239832ba4dc5013cf7f8b83b67da"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/scorer1.txt": {
+      "kind": "file",
+      "sha256": "0e37bebed54d86717b0217f3da545eafe067ca347297c30bf5b77339ecaddd3b"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/scorer2.meta.json": {
+      "kind": "file",
+      "sha256": "b8ac023be355555582b243f2e0ded0109e8400cb85bc1a080a942c3bd534c609"
+    },
+    "kb/work/replaying-operator-rulings/case-2-optional-connect/run/scorer2.txt": {
+      "kind": "file",
+      "sha256": "5d9ff702b73fb2be58988839aa0d42ae16c9355f4630da477fad4cd50b99da8f"
+    },
+    "kb/work/replaying-operator-rulings/claims/elaborated-demotions-13a1803f6/README.md": {
+      "kind": "file",
+      "sha256": "e903bd038ea18cefbd4d10a9dfdcd0c53c0039a74ea78d0d5250bca316c0dc37"
+    },
+    "kb/work/replaying-operator-rulings/claims/enumerated-demotions-13a1803f6/README.md": {
+      "kind": "file",
+      "sha256": "82861fdb7cebd21c61229ff3faebcb2006b12a59174282b8bcf95e64f2b9ad25"
+    },
+    "kb/work/replaying-operator-rulings/claims/optional-connect-8db5c7666-round-2/README.md": {
+      "kind": "file",
+      "sha256": "e7b3444d0dd7b3e72099861e294794bb4e29c63b0678e1899809bb1e78ebac21"
+    },
+    "kb/work/replaying-operator-rulings/claims/optional-connect-8db5c7666/README.md": {
+      "kind": "file",
+      "sha256": "17a553abbd9f1f010a184ec9d6027e508f79f993bbf208cfcc08f97be14b19ca"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-results.md": {
+      "kind": "file",
+      "sha256": "be5825c79a680d66ffdb77cb29a614d5e747dc952bd0abf22f125f28a694aeda"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-retained-reason.md": {
+      "kind": "file",
+      "sha256": "fe61e14df10e6b1476aa775d326489b57d06709ef88eddc13eeae5a3df1f6893"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w01.txt": {
+      "kind": "file",
+      "sha256": "c62279755ddcd21725ef1ff8e428593e444cb77082ff282928c41ae47c9d72b1"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w02.txt": {
+      "kind": "file",
+      "sha256": "e1f14b2a4ebe8cf157021ca83cc2b3a9a445f0c570d89df2598a8e947a6e509f"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w03.txt": {
+      "kind": "file",
+      "sha256": "f6e50778ac66455bfecd15f5948f037a6ed5554fc3f3b05b26c3d42d6d077742"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w04.txt": {
+      "kind": "file",
+      "sha256": "94d3265602f4adb9321d5786cdfeaa19630baac66958bb02ca3ece35bd681f67"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w05.txt": {
+      "kind": "file",
+      "sha256": "38e3582b890ba32f998fb5d844cf218923b7558833946c101a6748a23219089d"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w06.txt": {
+      "kind": "file",
+      "sha256": "ff83df41f84b3fb6aaf49aef5149aeaaa3fa0acb9074e64ec152e88866afac1b"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w07.txt": {
+      "kind": "file",
+      "sha256": "aca3d216d8c7ce51dc2e90015c12adc55706c37121a39b882f111d63883b17fb"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w08.txt": {
+      "kind": "file",
+      "sha256": "587ab769c6992c17750c76df41216ba64a47f6718858641c28a26a957e93b9e9"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w09.txt": {
+      "kind": "file",
+      "sha256": "26686ff5d55b316056e83bc4e6e933865ccba1903773813d6b3d9c79127ec031"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w10.txt": {
+      "kind": "file",
+      "sha256": "da84556334bcefcfc5860903068dda6cdadfc7753c5a6c67bd1425fa599f1931"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w11.txt": {
+      "kind": "file",
+      "sha256": "34e8ecadf8bcf59cc989b29d2cbfe184587cc8e87c80fc1ac9966caa5ae89e44"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w12.txt": {
+      "kind": "file",
+      "sha256": "379b3350276dd16d55fbb7de880b3d8b9b167bd3b42b8c0c18c6a153a478428c"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w13.txt": {
+      "kind": "file",
+      "sha256": "078bfa35ccdb847c9140b1770049d66ff3df762e8a9d9738c0cbf2e184e3eedf"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w14.txt": {
+      "kind": "file",
+      "sha256": "a938751dfce0f7fb7c8d36d9bb8b05bd28485c62c84c00ea2a658e3e75f26485"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w15.txt": {
+      "kind": "file",
+      "sha256": "81e12157d4093ce1fd0bc738ffd5c24e8ac8203af866c5c17e9dc9da80c29cd6"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w16.txt": {
+      "kind": "file",
+      "sha256": "2451517028365026b50cb49dd66bfc2d24071498a66458e02916a34f54dbf4b8"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w17.txt": {
+      "kind": "file",
+      "sha256": "fad76be9f806d779688876ccf639057ae38f8a381638c14a312aba439dd3a936"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w18.txt": {
+      "kind": "file",
+      "sha256": "1affb5be9ad5a5d370d2f38205567449f2a5324878fb1c1f33abc8a65a1a07fd"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w19.txt": {
+      "kind": "file",
+      "sha256": "a11ddd95bae8fcf21d4bc8a42f651bbf0b58a6bdb18dee6f2ba859582b915deb"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w20.txt": {
+      "kind": "file",
+      "sha256": "e974ceb5ace71e43baeba35c777cd82f98e7be5f45b64187ba5057890754c880"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w21.txt": {
+      "kind": "file",
+      "sha256": "b9ad5d79b2ac84462ff101f85a7b34837fe350f16182f04980c4acb36b70fa65"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w22.txt": {
+      "kind": "file",
+      "sha256": "fbe57bdc784a0fdd460c2d601829d547cb6b5d4a7de49a0f98ad02a761ecebc2"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w23.txt": {
+      "kind": "file",
+      "sha256": "037849097d921413d37508e8292995d666a3a5ed55d1a4c4ebb38974d0b2c907"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/answers/w24.txt": {
+      "kind": "file",
+      "sha256": "656ba4c67a2134e4eac5c7c5cfbfef66923303a9791601cf3352099df28be8af"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/build.py": {
+      "kind": "file",
+      "sha256": "21f0cde6cfccd2585169583307488508d6443f90e6904c084070534330ae1011"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/first-scorer.json": {
+      "kind": "file",
+      "sha256": "ac7f15166454b435ea8cb736bb28d19b558626efc15675de513565b387df4428"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/key.json": {
+      "kind": "file",
+      "sha256": "b20d69df0a02eebcad84755aa7b31f85df99000558598ea5d366b9cfcc82014c"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/runall.sh": {
+      "kind": "file",
+      "sha256": "6b47efb02a9ce9d886817d01a21f3907cc56dbbda70ac909970218e80f95bc72"
+    },
+    "kb/work/replaying-operator-rulings/experiment-3-runs/second-scorer.txt": {
+      "kind": "file",
+      "sha256": "b9a1251c902de982f98a61de4b84a4c9d821754dcb42432e5ce2cf118fde7f80"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-enumerated-demotions.md": {
+      "kind": "file",
+      "sha256": "345904a298769255507d1e48e93e66a2b8730bb16c0de50958f83180aa834fba"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-results.md": {
+      "kind": "file",
+      "sha256": "5936a07b8ea1057a1d41c1d93cd158d419e592192769804a2fed106f8b2c4a73"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x01.txt": {
+      "kind": "file",
+      "sha256": "328256f92edd4f1f5339b04beb89be415fbc0108cbdadd61acb5c0620bca45b1"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x02.txt": {
+      "kind": "file",
+      "sha256": "f8bd15c306cd085cae829e6e5ee6208593117a58ab37bc20c0513c9730a24a96"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x03.txt": {
+      "kind": "file",
+      "sha256": "f1e81602fbb60a1104b489b7d50ebf06c5055f5181e098996ea7370c9f9a40a1"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x04.txt": {
+      "kind": "file",
+      "sha256": "f83edf561d9646442716a811424e4c459e4079eddc5ee269778ba401dcfe8c3f"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x05.txt": {
+      "kind": "file",
+      "sha256": "de2144c137b98c6f54f5a950eabe4fd6889180e64237f0a973b4f4c0b7ab17a5"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x06.txt": {
+      "kind": "file",
+      "sha256": "ae19fb9057b4a63761badff21ff1fc51b6965566d7dd7c4f299e93409da3fe1c"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x07.txt": {
+      "kind": "file",
+      "sha256": "623579179615577c739d62b92e2074ca879dc8622dadf90d1189b9623b70edf6"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x08.txt": {
+      "kind": "file",
+      "sha256": "9053ed83633aad8f453fd6ad66a67c7ae6715daaa774d5cbcbd5ac2c076759ed"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x09.txt": {
+      "kind": "file",
+      "sha256": "84a6c969ca78765abf3b4f0954eeb439aa1685d66b13ccab28da2a38d964d270"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x10.txt": {
+      "kind": "file",
+      "sha256": "a1393350d372f4c03ff72f8a6482ead0d6b571f540160e294ecd1a8ae49e4d43"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x11.txt": {
+      "kind": "file",
+      "sha256": "6541b9804e6f5f08f91a014c38e2b1e2fb7175c8028887691e0999c73fee0328"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x12.txt": {
+      "kind": "file",
+      "sha256": "f6ccec818e603ca829fe2472b8ddaedf8c60fab8b46b70c2ee918f1607bbf9dc"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x13.txt": {
+      "kind": "file",
+      "sha256": "d43053679e9273ea8d539919fede1f4ec9346c76de4aa5e839e4fb5b8596be9a"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x14.txt": {
+      "kind": "file",
+      "sha256": "6d36d1477524f45e5e8fd3936be285d564d1260e0d014c7829dd266b6e18225e"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x15.txt": {
+      "kind": "file",
+      "sha256": "d49de33c3ab76997f819808161840c2bf71fc99449e7e899a70e08bafd7d8b57"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/answers/x16.txt": {
+      "kind": "file",
+      "sha256": "d1171790289deb87e4a5d9b6b5df0c44854ca01d42450c5c72bd1eab41bd3fda"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/build.py": {
+      "kind": "file",
+      "sha256": "0ddf55e6468a0a9a5df93bc643997d2d820ef86971ed39867688a4d0d4993d23"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/first-scorer.txt": {
+      "kind": "file",
+      "sha256": "028d6e94290f804d9f5458dc09bee9780e675d2fdbacf5411f45fb4c7a476ef4"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/key.json": {
+      "kind": "file",
+      "sha256": "5b6ea787a8109e2c7ff0e6f3d9e4ca2017351db9b5c26cf92feb302364cd0f93"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/runall.sh": {
+      "kind": "file",
+      "sha256": "6b47efb02a9ce9d886817d01a21f3907cc56dbbda70ac909970218e80f95bc72"
+    },
+    "kb/work/replaying-operator-rulings/experiment-4-runs/second-scorer.txt": {
+      "kind": "file",
+      "sha256": "028d6e94290f804d9f5458dc09bee9780e675d2fdbacf5411f45fb4c7a476ef4"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-elaborated-demotions.md": {
+      "kind": "file",
+      "sha256": "751fc0c8090d67eb1f2be90e5fb4eb4888651e305eaa1c395e28dd79f70e1b31"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-results.md": {
+      "kind": "file",
+      "sha256": "6f5c2f05f6f8bbd5cdbb5280a373bf0fbc12f2248af68fe2c4bb5daba7f936fd"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y01.txt": {
+      "kind": "file",
+      "sha256": "25e43ffcb33618572cb75ed615e3370839dae723cf41e45d8f549bf4391edd51"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y02.txt": {
+      "kind": "file",
+      "sha256": "6f51ada6866cf8015143dc0994b9d2d5009f89775a84a9b7426563402ba2bada"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y03.txt": {
+      "kind": "file",
+      "sha256": "b0c65c3cf4d7da754c4c195bc1d1387bcc9fd19f6c67dd5052bc2a3bb1dc9b65"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y04.txt": {
+      "kind": "file",
+      "sha256": "dda8f7f3a7febaede89cab330eb0ef34e12ced696d8bbd9e1c08131acace0b9c"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y05.txt": {
+      "kind": "file",
+      "sha256": "ad862e870fe09c4ffa1f46a8884c5351069684399d06c755f5bdd7c5e086d3ad"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y06.txt": {
+      "kind": "file",
+      "sha256": "0e0e33ffaf2c84c0c34a5a3d54708671092b89a374aee056b6f8f55477dccdc9"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y07.txt": {
+      "kind": "file",
+      "sha256": "8fd21480e503051acc0414e9efc8f2168f4ccd5a2eea14172d011c9f2fffaafe"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y08.txt": {
+      "kind": "file",
+      "sha256": "82793b669f0b2526eabf3a8fcb282fb5a01be125ce957873b917e913c9fc4d30"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y09.txt": {
+      "kind": "file",
+      "sha256": "5152ada7537ca6968be6861991adcc6ef323f8bc741530f484dfe83d04f82097"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y10.txt": {
+      "kind": "file",
+      "sha256": "113d4e96687494fa9c25b3ece9061bfa6b76a29bf74cf5bb9f4911e82c62f2ac"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y11.txt": {
+      "kind": "file",
+      "sha256": "dde65c9b24f4c7453779339609df78747ffebab323c31b4209c8fde8a661c2ff"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y12.txt": {
+      "kind": "file",
+      "sha256": "ad38da13fd523ef80416f348b3f02243abf2ad30a3b0f208eeff8818b363e608"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y13.txt": {
+      "kind": "file",
+      "sha256": "b631920bd5b6c97113bd386f20fccdee243e294469b5dbf30968816418821773"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y14.txt": {
+      "kind": "file",
+      "sha256": "b58e123d753ffe373b5f697f6d0cabdeb59d4c4bdf878c0405a3c3185eba24c3"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y15.txt": {
+      "kind": "file",
+      "sha256": "23fc13ee33d4076ea7217d2b460c6fe505f34ee42028e03080ef39e248efdd90"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y16.txt": {
+      "kind": "file",
+      "sha256": "ff0b3cacbbb526c7bbd6162431aa35edae60e4ef3e93f35ec0e3b622734f8c46"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y17.txt": {
+      "kind": "file",
+      "sha256": "46b838ec294e5ef3953a28d94b57bcd7949d08bdcc88155158f8203a7b832cef"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y18.txt": {
+      "kind": "file",
+      "sha256": "08baaeacaebaac6cd53016d45ad9f9b9e661c53e6d64144732a6cb3ee1ed6b11"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y19.txt": {
+      "kind": "file",
+      "sha256": "773cff96e316a880fefff4b28b6bca573b4b683ad18f883a832c44f011834508"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y20.txt": {
+      "kind": "file",
+      "sha256": "a6bde8a7745cdaae25d80e0e6fa0a778258345f6a425a6629e803e614badb713"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y21.txt": {
+      "kind": "file",
+      "sha256": "d90f65c70ef9f34dca9b67f4c83f7c4fa5a9a16fabae7c4c862a5c49f53ba7c3"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y22.txt": {
+      "kind": "file",
+      "sha256": "6183416985d73b18a1e45615f8ef4f5712af48aca38c3e60fe4a8311b618cae2"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y23.txt": {
+      "kind": "file",
+      "sha256": "0a8445ac862c31e9c1726e5f2a0e87b4a6f374111a5691f23da0f248dba23274"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/answers/y24.txt": {
+      "kind": "file",
+      "sha256": "273df362172dcceeafeb7d5a1ec30de7485348b93c9596d52897628d53f0d28f"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/build_c.py": {
+      "kind": "file",
+      "sha256": "957dd668f527668ce1ab97d423972610f7853ab3969409ccdf96d9368d968439"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/build_e.py": {
+      "kind": "file",
+      "sha256": "9c5680c4219ab160e61481175e941547ce63cc95c8fa91d453e6c6e0917b8ce3"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/first-scorer.txt": {
+      "kind": "file",
+      "sha256": "a45044d8d1ab086a0cea99055e1e4ab5fc7dee2eda2045d71b9311b9a77ac800"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/key.json": {
+      "kind": "file",
+      "sha256": "3db239de7f4a5e56c18e5ebd7e1ecef20f558b7cd7c5567f9433aba05551dc7f"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D1-1.txt": {
+      "kind": "file",
+      "sha256": "0e783095199fc25e9f823d2d5fb951340a363a7dc333695c443b614293433b37"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D1-2.txt": {
+      "kind": "file",
+      "sha256": "0cb82045c89707725151f3623009a06e4b62f712162bb364290306ede34672c6"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D2-1.txt": {
+      "kind": "file",
+      "sha256": "3ecead458558a164180036474281e0be5d8cec4d0601e5f0a5799b2cb046e0ce"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D2-2.txt": {
+      "kind": "file",
+      "sha256": "5e1ddc7ba09667ecc6baf035274635041dc77d87648e33e97d898d28bb43f3f5"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D3-1.txt": {
+      "kind": "file",
+      "sha256": "a34b78713d038289a0a7d1e8a21ced8fecf431273d2ef413329797d12be2538e"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/revised-drafts/D3-2.txt": {
+      "kind": "file",
+      "sha256": "26a648c4d1b3585bd8f316e5c481ce1a3da61494d1beb622d20f03274c63890e"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/run_e.sh": {
+      "kind": "file",
+      "sha256": "9d38db2f39d1c8e9b01ba634187f19bbaa847f854cb7ca08c8b2b64439538d5b"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/runall.sh": {
+      "kind": "file",
+      "sha256": "6b47efb02a9ce9d886817d01a21f3907cc56dbbda70ac909970218e80f95bc72"
+    },
+    "kb/work/replaying-operator-rulings/experiment-5-runs/second-scorer.txt": {
+      "kind": "file",
+      "sha256": "a45044d8d1ab086a0cea99055e1e4ab5fc7dee2eda2045d71b9311b9a77ac800"
+    },
+    "kb/work/replaying-operator-rulings/session-replay-candidates.md": {
+      "kind": "file",
+      "sha256": "5d777468cc4d4ad1b469ee23ed7c06fd6880a9bd45094f584ddfa984dd669b2c"
+    },
+    "kb/work/revise-assessor-comparisons/README.md": {
+      "kind": "file",
+      "sha256": "c57899a97f9adf0b1d3a7acdc09a53a4468ef23c39399a79951c2f9b65843532"
+    },
+    "kb/work/revise-assessor-comparisons/amendment.txt": {
+      "kind": "file",
+      "sha256": "57bdfd149ec80fc27a2b73c659627bb96ddbf11579779fb83da68ce63a8d4685"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/mixed-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "69c08f0c67462f5d934900e66843121bf74f20f7063c9a74eba83cec379aac2e"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/mixed-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "026115684a4b5861e2e21d261fd73cfcb46234228c1eb68c072e452809f2bd02"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/mixed-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "8bfcd110d53038b2045778a233cab08999bd3a01cdf8f6a5d8f00ba902ee9730"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/mixed-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "3a56eeda8094c86ef6f9faed2cfbc1d7d481f8e700dd631e5921f10b5a527c76"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/stop-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "f05badcdc7aeaab628f8112e23f51992ed112b298808ef2ddcbacd2d28e3e86d"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/stop-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "169dd80e2a7bb6448bc815560e7141d60684d13de74fc734fc1d6712800bdbc6"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/stop-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "ba499e00899c59e8f4095c02dbf70687cfc9669a201c1300a599055cffc1419e"
+    },
+    "kb/work/revise-assessor-comparisons/answers-opus/stop-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "08b35191e112e2e367bab8f30e8af94037be1effb3200198fdb69ac54268fe99"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/mixed-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "3e59418538688625f4ae41c5485940d11e11fff267c320478a00c99e95ff90fd"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/mixed-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "f1f018ee0aebd70f354bf6c163366a0afac01f64d0bf3d48a2ee213fabeb6157"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/mixed-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "b7b55e8fc7c294c1e5705a4ca1387268063cecafb0f73ce5f066b21771104dcf"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/mixed-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "3769d9b3f208b67679ee7e2e0e061147e4ed42f5ff84aeff341a34e6c34f2e56"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/stop-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "040910ed9135180d85e54e434e416285391de735de9797e955715d0ff924730b"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/stop-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "952e42c88e7264bd2efd84ec3ed13884184201f0fc78da51466d9297d3bf8678"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/stop-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "62e1c013b636e7a269b2069bd9684917e998592d41cc250a366ff25bfe655ce1"
+    },
+    "kb/work/revise-assessor-comparisons/answers-sol/stop-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "7ce9ed9eba86ac08cc4e46af2b814541a417cfe45d6b45a6d34f133261b1a9f9"
+    },
+    "kb/work/revise-assessor-comparisons/answers/mixed-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "393d4294c19e1816496f0b16aed62381a4dcf5063dc6e2e6872783fca59ee7ef"
+    },
+    "kb/work/revise-assessor-comparisons/answers/mixed-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "506ea055c1d7bb15dd2058d3686fc8fa3de6f53a05f33a4c0643bee35c94bf4f"
+    },
+    "kb/work/revise-assessor-comparisons/answers/mixed-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "1cd787345b1aa8b7521aed71b28ef818691bf9c0dd4b44ad1d93d862226bb6da"
+    },
+    "kb/work/revise-assessor-comparisons/answers/mixed-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "f2e6e7bc2e4499c1bd7791a3ffd030786e865d654d0b30c76f0603cf0df7240b"
+    },
+    "kb/work/revise-assessor-comparisons/answers/stop-x/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "26c42277454f554e5714788e12c86a13a836844cec643b4426be81b99e8daa6c"
+    },
+    "kb/work/revise-assessor-comparisons/answers/stop-x/plan.md.txt": {
+      "kind": "file",
+      "sha256": "22066b0180d2808be8d3f35b88c0c3f7ff6aeedeaa004dde65b3f1a9b9e28034"
+    },
+    "kb/work/revise-assessor-comparisons/answers/stop-y/assessment.md.txt": {
+      "kind": "file",
+      "sha256": "87132ed9e2d50ec7125182a2b00b40087979ccadf43564c7f6156de27bd228c9"
+    },
+    "kb/work/revise-assessor-comparisons/answers/stop-y/plan.md.txt": {
+      "kind": "file",
+      "sha256": "47b36a49a87a1c0d2b344a1c15303688357febf86352ee717085e988336e354a"
+    },
+    "kb/work/revise-assessor-comparisons/blind-appraisal.txt": {
+      "kind": "file",
+      "sha256": "fb55abfa720aa0fed3f1a9bad9a15169a430a5e1a91429a99463f82ef93ed763"
+    },
+    "kb/work/revise-assessor-comparisons/blind-sol.txt": {
+      "kind": "file",
+      "sha256": "d72c3ec6f6c8471b9ee502b28d261ce4305ab48af2390b3b472c6276a612c861"
+    },
+    "kb/work/revise-assessor-comparisons/manifest.json": {
+      "kind": "file",
+      "sha256": "6591d2810576542e5163b4c76c373b92a14016097c0b0d4e37bf6d47d6a84b80"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/artifact.md.txt": {
+      "kind": "file",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/criterion.md.txt": {
+      "kind": "file",
+      "sha256": "8aeb1c028881af9b6de27b851ce1605f0451ed72c37c50289de528be2d32a301"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-1.md.txt": {
+      "kind": "file",
+      "sha256": "77eb2137ccf326731831f043d0622f13e72d08d4e71e3160095889d46f7935bf"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-10.md.txt": {
+      "kind": "file",
+      "sha256": "89d8c553fe3bb4b521508eff17d57d490a9a196be265fba387b153661c295dd2"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-2.md.txt": {
+      "kind": "file",
+      "sha256": "5fba837d1689d7de49d466c8606496290c72c84fd70c86a59619e9860ae5e0b7"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-3.md.txt": {
+      "kind": "file",
+      "sha256": "e46566639341a5eb10c2b6bdf949ce25f1f87cf6d26e9407e7e0733fa324400e"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-4.md.txt": {
+      "kind": "file",
+      "sha256": "86f6c2f8d840121ba19b28a738a6fca5190e998f80ebd73679d25c01acdc4a5a"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-5.md.txt": {
+      "kind": "file",
+      "sha256": "f814e06c16c6f1eff2caf1a96bb7494797bb2e9d566419119aacd486b771afd8"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-6.md.txt": {
+      "kind": "file",
+      "sha256": "0ae561e7987ee93793392e99e42674c5d3e695be145637872112fca4a0e981ff"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-7.md.txt": {
+      "kind": "file",
+      "sha256": "d9f351cbd80dfc66e7e5cce69cce23bea58c7fe975f404d82f1f18c972443b23"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-8.md.txt": {
+      "kind": "file",
+      "sha256": "1e03973120a1e46210389c25f87b611a016fe227790af0c84f8adb17c1d98dfc"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/finding-9.md.txt": {
+      "kind": "file",
+      "sha256": "110da6a1a89eea6341c8c9c9598579e344411db781a40d02f7e2ccdcf16ec075"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/must-keep.md.txt": {
+      "kind": "file",
+      "sha256": "9a3b0841d109f279baa4a87cd69812e54d972f6e7b98d783473090c1175c7777"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/passes.md.txt": {
+      "kind": "file",
+      "sha256": "57893e0003ebc072b465f261b1d6351578cd13cb618511bee30e27e814628d1b"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/purpose.md.txt": {
+      "kind": "file",
+      "sha256": "d45db3a020146f29fe47016f20fd68548b176373c6dbf34b328637f88be0f57b"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/report-1.md.txt": {
+      "kind": "file",
+      "sha256": "8caa5407f3520175a292c7bf1a060e538a8abe14284f738a117f1d7544ed81f6"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/report-2.md.txt": {
+      "kind": "file",
+      "sha256": "6987fdd3ef98f12b1cd898559b397ce658e67bd9f3bee5262f69376012851a67"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/report-3.md.txt": {
+      "kind": "file",
+      "sha256": "e1fe0f9af73d32013416874629d689b60d6ee89d1a0650a5c2eeb18487a9700e"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/report-4.md.txt": {
+      "kind": "file",
+      "sha256": "5f4b7d56ee3ca7ca84edb39ce82f1f88a6557f273cb496ffc90adae96d57dbad"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/inputs/report-5.md.txt": {
+      "kind": "file",
+      "sha256": "659e6d6927e23eca97219e0d67c5e43946a99c0773f3aebde7ee8581b84a3d09"
+    },
+    "kb/work/revise-assessor-comparisons/packets/mixed/task.txt": {
+      "kind": "file",
+      "sha256": "f1601bf38357005253fe1652812f04de868f190deb9d114398918d2c9dc4037a"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/artifact.md.txt": {
+      "kind": "file",
+      "sha256": "2214be116a950b1be4016de0633a69bd6e3df247b8c6750c25d37d0ef7013038"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/criterion.md.txt": {
+      "kind": "file",
+      "sha256": "8aeb1c028881af9b6de27b851ce1605f0451ed72c37c50289de528be2d32a301"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-1.md.txt": {
+      "kind": "file",
+      "sha256": "7eab3b6f1cb72f34c99cd245e659c5dd709501fb08981bfa170634cc437cd8f0"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-10.md.txt": {
+      "kind": "file",
+      "sha256": "6783375ebb0e0d40fccac80016b4fb3cfd8cf8050afce2e9ef945aacca5b3607"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-11.md.txt": {
+      "kind": "file",
+      "sha256": "9530a0f2cc68a309dcddabee1b8d11dd586525dafde7e2d6d697b775fef4b771"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-12.md.txt": {
+      "kind": "file",
+      "sha256": "469761c9f5bd080f1db295f0e6c83452df779c8ad692b3e4d74bac318f1c0ef0"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-13.md.txt": {
+      "kind": "file",
+      "sha256": "4fc8560ad4ad43810980ef7b609236966f7d3826bef41d46cd24e7ec898fc893"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-2.md.txt": {
+      "kind": "file",
+      "sha256": "3a388526a873e5a235f6b4ec08bb1c4196c40f3e481177c9ca43e4ab86039709"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-3.md.txt": {
+      "kind": "file",
+      "sha256": "a71db6a297ff2bcb0cf0333e3ee10bb337969b0dbcd88b8f393462469b3f66bb"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-4.md.txt": {
+      "kind": "file",
+      "sha256": "b2bae35e491e73e99a914f4e9893ca6961a85411249f84176bb5403b86c03eaa"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-5.md.txt": {
+      "kind": "file",
+      "sha256": "9cd6bb6628a32a5e84cd7f43f50a3ed013ff1eff0c4c938846c99b8cfe9e7bdc"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-6.md.txt": {
+      "kind": "file",
+      "sha256": "48866409f72811d474e20b14fa1c8c5aa222c2a03c1392400f53eea2a27561cd"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-7.md.txt": {
+      "kind": "file",
+      "sha256": "dc06b69ba58df1611581af6317e2787221a13af101be83bc9b37dd9bcd7b308c"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-8.md.txt": {
+      "kind": "file",
+      "sha256": "8367aa9743911c588233b7534273706b094f7383c863d5ec2b3d45aa16e85012"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/finding-9.md.txt": {
+      "kind": "file",
+      "sha256": "6c8369cd2f02fcbc456572327b71564a95565b51860269ac6810a260b598952f"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/passes.md.txt": {
+      "kind": "file",
+      "sha256": "57893e0003ebc072b465f261b1d6351578cd13cb618511bee30e27e814628d1b"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/report-1.md.txt": {
+      "kind": "file",
+      "sha256": "5329d1d7c97d98ab5174d62009a7b5176ad906dbb4b10d7c2e087633c8fb563f"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/report-2.md.txt": {
+      "kind": "file",
+      "sha256": "cfa05998005299cab7c81c159470b9ab56ab002de17de94774ab06281b7525a2"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/report-3.md.txt": {
+      "kind": "file",
+      "sha256": "4e15258eca49739853ad0592a38b521287d5c3d68cf65d5294dfe1226873683c"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/report-4.md.txt": {
+      "kind": "file",
+      "sha256": "5b507f458d77eb3729cd168c5e45ac35fbc94b74a070816081bad5bc8bb802dc"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/inputs/report-5.md.txt": {
+      "kind": "file",
+      "sha256": "d5d24c8fed64b4e308153be76e57511fc1a1a558fac78f6f1d03bb4c57a86563"
+    },
+    "kb/work/revise-assessor-comparisons/packets/stop/task.txt": {
+      "kind": "file",
+      "sha256": "4ef2a99d174fdcba4f8ca278f3bc1b7733755142ca7eb95e57830738d1fbd17a"
+    },
+    "kb/work/revise-assessor-comparisons/replication.md": {
+      "kind": "file",
+      "sha256": "0de5862e3dc677550e5de0e8783b3a69931bf030f84a97c410fd8c84ba0a1770"
+    },
+    "kb/work/tag-maintenance-and-collection-scope/README.md": {
+      "kind": "file",
+      "sha256": "91c10aa6589ba75d4e7ecf75159a05ac926367dd0d4b18e08da71ce19ec16817"
+    },
+    "kb/work/tag-maintenance-and-collection-scope/search-command-ledger.md": {
+      "kind": "file",
+      "sha256": "39bb9d0542ec4718a1df6028bb28c64c2f22b7ffec67270f7d47f6de63e20a80"
+    },
+    "properdocs.yml": {
+      "kind": "file",
+      "sha256": "8bcb482d422908553fcc5442861ace61b5af4069205b41ef225a3f770f6905dd"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "1be69b9ff7e82ed9c9fbd120ac64a1e6b27fd3ab5b92a238f959d78f7a6c1ed4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+      "path": "inputs/target/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+      "sha256": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71",
+      "bytes": 1245,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+      "path": "inputs/criterion.md",
+      "sha256": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+      "bytes": 1227,
+      "input": "gate-framing-mismatch.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "b8dee593d39a70140c5b5ba3e898bd4bfe301bb38834bd3cf1c005fee5190874",
+      "bytes": 3131
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/2021ef15d4474341b7b3eafc0e8aa06b/review-framing-mismatch.md"
+  ],
+  "completed-result-sha256": {
+    "results/2021ef15d4474341b7b3eafc0e8aa06b/review-framing-mismatch.md": "f2839c1fddbbffeed6842022f264c7e31e02c71a7d4e02ca9a83ca19772eae5b"
+  },
+  "latest-result": "results/2021ef15d4474341b7b3eafc0e8aa06b/review-framing-mismatch.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/*",
+      "key": "02e64520fa7a01d48749574248a55eb55377eec5b2a24a886ae9a9d35312fd6c"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

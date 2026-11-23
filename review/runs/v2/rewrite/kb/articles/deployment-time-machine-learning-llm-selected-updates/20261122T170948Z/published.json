@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/publications/1.md",
+      "sha256": "a4b723468d9f98455cb99ab1cc11437653f99a3b566eacdf4763d3433ae4eb9b",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/publications/1.diff",
+      "before-sha256": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5",
+      "entries": [],
+      "at": "2026-11-22T17:23:30Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

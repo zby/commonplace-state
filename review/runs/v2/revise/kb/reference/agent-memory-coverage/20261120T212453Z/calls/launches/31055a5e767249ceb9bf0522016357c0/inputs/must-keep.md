@@ -1,0 +1,1 @@
+- Distinguish curated heads and rg in the checkout from complete listings generated for the site, and replaceable current review results from retained observations.

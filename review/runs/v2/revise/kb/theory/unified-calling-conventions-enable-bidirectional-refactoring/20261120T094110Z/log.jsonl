@@ -1,0 +1,28 @@
+{"time": 1795167670.7769084, "event": "accepted", "path": "start.md", "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"}
+{"time": 1795168556.600788, "event": "launch", "job": "assessment", "key": "e574f38d048ca1af103b0126833c7be3ee8a249b0ca6d99e3a29a79ac6482b80", "launch": "e5a97df97da84454b60fadf4a645f330", "status": "delivered"}
+{"time": 1795168556.6029346, "event": "answered", "job": "assessment", "key": "e574f38d048ca1af103b0126833c7be3ee8a249b0ca6d99e3a29a79ac6482b80", "problem": false}
+{"time": 1795168556.6283274, "event": "accepted", "path": "assessment.md", "sha256": "de2d32dedb34c7f86718a9692eda2cb0c2128657da30812e5e5397af40bd4124"}
+{"time": 1795168556.6360583, "event": "accepted", "path": "plan.yaml", "sha256": "2c274553ff849f271c11364bbcfe473c34d62a0f9215cb0314fed0ba1983fa9d"}
+{"time": 1795168556.6378663, "event": "accepted", "path": "findings/semantic/grounding-alignment.md", "sha256": "d1dc229c8be30e266b7e63b63b6269aac6e195b2b73bcb6c9d1bb9cc7f59f9eb"}
+{"time": 1795168556.6391919, "event": "accepted", "path": "findings/prose/source-residue.md", "sha256": "4664ce3513a07eb1a011129788206e03b73f01d1be7194530d8258fa66917521"}
+{"time": 1795168556.6404138, "event": "accepted", "path": "findings/semantic/completeness-boundary-cases.md", "sha256": "9a601df9abeac49265be91bfb0d97d1197b501bda3bc70fef80d2a9950dd2c89"}
+{"time": 1795168615.1787074, "event": "launch", "job": "narrow-overclaims", "key": "8491cb4a1fee1347d50f7bdb257a7838143acb1ec0161601738724cb0e79c8f2", "launch": "1d3fc3be796f4f65836ce003eb213848", "status": "delivered"}
+{"time": 1795168615.1796489, "event": "answered", "job": "narrow-overclaims", "key": "8491cb4a1fee1347d50f7bdb257a7838143acb1ec0161601738724cb0e79c8f2", "problem": false}
+{"time": 1795168616.3821335, "event": "accepted", "path": "reports/narrow-overclaims.md", "sha256": "cb77d62e13949ed3096c0d78ccc2bddf0f51240ced7a0de143df999b7fe88e6b"}
+{"time": 1795168616.3825037, "event": "accepted", "path": "texts/narrow-overclaims.md", "sha256": "8db07906b7690ad43932741f4438eef6fbe093630e3b77637fbbf6c85354489e"}
+{"time": 1795168680.0332563, "event": "launch", "job": "fix-strategy-taxonomy/semantic/grounding-alignment", "key": "a14e313248e18252b2206108c84648d497cb278d29f0b72e0b6aa27c37ee107d", "launch": "f4784f4c832c470f8829229710c44b53", "status": "delivered"}
+{"time": 1795168680.0343487, "event": "answered", "job": "fix-strategy-taxonomy/semantic/grounding-alignment", "key": "a14e313248e18252b2206108c84648d497cb278d29f0b72e0b6aa27c37ee107d", "problem": false}
+{"time": 1795168681.2663658, "event": "accepted", "path": "reports/fix-strategy-taxonomy/semantic/grounding-alignment.md", "sha256": "27bfe768c136afde62bd0c95ffb7af042deae621ad2252a9c9ee625b462e341b"}
+{"time": 1795168681.26678, "event": "accepted", "path": "texts/fix-strategy-taxonomy/semantic/grounding-alignment.md", "sha256": "8a68d80eb4f779b8b90de828142f985e323d8b319154afbec7167b005296cd46"}
+{"time": 1795168728.809515, "event": "launch", "job": "fix-strategy-taxonomy/prose/source-residue", "key": "decaddf43a83c79bcdbd0727dad638198bf9a1d3c15ba807c61124f3326d354e", "launch": "ece807e845a84ea880d6f8e992c79ec7", "status": "delivered"}
+{"time": 1795168728.811435, "event": "answered", "job": "fix-strategy-taxonomy/prose/source-residue", "key": "decaddf43a83c79bcdbd0727dad638198bf9a1d3c15ba807c61124f3326d354e", "problem": false}
+{"time": 1795168730.0086632, "event": "accepted", "path": "reports/fix-strategy-taxonomy/prose/source-residue.md", "sha256": "87cc90415f627db4689fbfd2cf267b9ddf30a0224d294547555a10d574ea0747"}
+{"time": 1795168730.009035, "event": "accepted", "path": "texts/fix-strategy-taxonomy/prose/source-residue.md", "sha256": "16df14fe441f5f528d2446ab0a130a2c7b4187fead42ad5db7b5a790eab30522"}
+{"time": 1795168780.936328, "event": "launch", "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases", "key": "56616ffdc483bffa178e9c4dea3382fb94faac96e88d86c0b7a471f5ee18eca9", "launch": "4bff5df96edc4edd95de19208d6cb70b", "status": "delivered"}
+{"time": 1795168780.9379778, "event": "answered", "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases", "key": "56616ffdc483bffa178e9c4dea3382fb94faac96e88d86c0b7a471f5ee18eca9", "problem": false}
+{"time": 1795168782.4183161, "event": "accepted", "path": "reports/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md", "sha256": "5d98ac087cf4ed904b73a505be903d30a119584173687dfc50695dcd43729c38"}
+{"time": 1795168782.4186895, "event": "accepted", "path": "texts/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md", "sha256": "c313ede182020d64c7bde03019de23a6edf6bbcca9f1859f8eced54ebde46139"}
+{"time": 1795168852.5140018, "event": "launch", "job": "readability-and-flow", "key": "73972238357b85c75c85826079c032bc6a141c6090d2a4cd14fc62b0c2ef6a3a", "launch": "61e5ac8d299b46e9954b3d6a77597a19", "status": "delivered"}
+{"time": 1795168852.5149992, "event": "answered", "job": "readability-and-flow", "key": "73972238357b85c75c85826079c032bc6a141c6090d2a4cd14fc62b0c2ef6a3a", "problem": false}
+{"time": 1795168853.7249177, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "ae8e2f2f8127a04b20057c8a0e6cd20d76a2589847ef20ef04714a43267b2ea0"}
+{"time": 1795168853.7252698, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "619f99101fbaf6912c769229e997d8cc9c48c12d8b8022e85a450de82405a976"}

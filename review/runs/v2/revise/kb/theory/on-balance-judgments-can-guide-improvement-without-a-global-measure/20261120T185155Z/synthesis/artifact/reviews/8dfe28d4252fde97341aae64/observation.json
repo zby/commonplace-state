@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "id": "8dfe28d4252fde97341aae64",
+  "request": {
+    "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "call-job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+    "contract": "report",
+    "kind": "compression-synthesis",
+    "criterion-id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "target-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+    "criterion-bytes-sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "86cb0203a3dd6e47b2aaa8e1c48eac2c58577a08d62e2c3abaf2c2b677ed37a0",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "criterion.md": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-branch-bloat.md": "1d7840553d1fc8a8486d97526b9efb28f0cf7e6a7fd92c93c39a3faf383fa2b6",
+      "supplied-core-claim-obscured.md": "cd2d59ed935db03fc4a8930a947a136a645c68d7562f65b04588d74011633b4b",
+      "supplied-detail-overhang.md": "e46566639341a5eb10c2b6bdf949ce25f1f87cf6d26e9407e7e0733fa324400e",
+      "supplied-marginal-value-redundancy.md": "86f6c2f8d840121ba19b28a738a6fca5190e998f80ebd73679d25c01acdc4a5a"
+    }
+  },
+  "kb-commit": "a0b27b7f336100d8d55460e77fd1d6d2c9cf990d",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f03a1bdb9ae166091cc81265ad153b5dcc5f7a8ad0aabc6a6b7e6b9fa1e725dc",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "bytes": 10288,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "path": "inputs/criterion.md",
+      "sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "bytes": 4827,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "86cb0203a3dd6e47b2aaa8e1c48eac2c58577a08d62e2c3abaf2c2b677ed37a0",
+      "bytes": 2753
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/branch-bloat.md",
+      "sha256": "1d7840553d1fc8a8486d97526b9efb28f0cf7e6a7fd92c93c39a3faf383fa2b6",
+      "bytes": 4759,
+      "input": "supplied-branch-bloat.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+      "path": "inputs/operational/core-claim-obscured.md",
+      "sha256": "cd2d59ed935db03fc4a8930a947a136a645c68d7562f65b04588d74011633b4b",
+      "bytes": 5221,
+      "input": "supplied-core-claim-obscured.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/operational/detail-overhang.md",
+      "sha256": "e46566639341a5eb10c2b6bdf949ce25f1f87cf6d26e9407e7e0733fa324400e",
+      "bytes": 4626,
+      "input": "supplied-detail-overhang.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/operational/marginal-value-redundancy.md",
+      "sha256": "86f6c2f8d840121ba19b28a738a6fca5190e998f80ebd73679d25c01acdc4a5a",
+      "bytes": 4845,
+      "input": "supplied-marginal-value-redundancy.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/ab8bc6970b284070a3c8f4b303e95737/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/ab8bc6970b284070a3c8f4b303e95737/review.md": "749d9639b86091b524ee76e57a6358db76daf193229b8e8b6a93ce6b84e712fc"
+  },
+  "latest-result": "results/ab8bc6970b284070a3c8f4b303e95737/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "40fc8c1d519a68a1c5be24000fd94d351e571b190b8a1710ea66094bf10ab338"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

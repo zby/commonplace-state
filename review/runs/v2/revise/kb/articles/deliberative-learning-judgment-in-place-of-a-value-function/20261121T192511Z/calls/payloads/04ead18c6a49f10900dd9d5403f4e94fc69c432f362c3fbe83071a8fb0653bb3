@@ -1,0 +1,1 @@
+Only the list 'Once the alternative, whose costs count, and the horizon are fixed' in the on-balance paragraph. Do not touch the Harness Evolution sentence.

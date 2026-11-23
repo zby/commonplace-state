@@ -1,0 +1,1 @@
+The two WARN link texts: 'inspectability as a property of form' and 'a plausible written rule need not be what actually drove the model's behavior'. Keep both link targets.

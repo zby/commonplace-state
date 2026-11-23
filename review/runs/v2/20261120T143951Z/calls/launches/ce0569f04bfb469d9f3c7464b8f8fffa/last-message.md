@@ -1,0 +1,1 @@
+The claim-strength review passed with no findings. The title makes a contestable causal claim about how technical constraints shape the choice of a knowledge base objective. [Review](/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T143951Z/calls/launches/ce0569f04bfb469d9f3c7464b8f8fffa/outputs/review.md)

@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/minton-carbonell-learning-search-control-rules.ingest.md
+snapshot_sha256: 334ed825f4b6eab788c61fe628e0eb78206a2b1e0d2aceb29a6cf1c433076e11
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T16:08:22+01:00'
+occasion: Which parts of deliberative learning, if any, have precedents in symbolic
+  learning and its retention judgments?
+checks:
+- at: '2026-11-21T16:10:41+01:00'
+  failures: []
+- at: '2026-11-21T16:10:56+01:00'
+  failures: []
+- at: '2026-11-21T16:10:56+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T16:10:56+01:00'

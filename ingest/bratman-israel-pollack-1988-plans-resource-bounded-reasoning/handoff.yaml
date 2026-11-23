@@ -1,0 +1,20 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/bratman-israel-pollack-1988-plans-resource-bounded-reasoning.ingest.md
+snapshot_sha256: 78ca59e978fd821229321e243c33cf59ac8bf1c91c2e0e6f177270a087fe95ee
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T14:59:43+01:00'
+occasion: 'Background for a workshop on deliberative learning (kb/work/learning-method-name).
+  Questions: what the deliberation process weighs and by what criterion; why commitment
+  limits reconsideration; whether anything is said about retaining or revising plans
+  from outcomes.'
+checks:
+- at: '2026-11-21T15:04:04+01:00'
+  failures: []
+- at: '2026-11-21T15:04:26+01:00'
+  failures: []
+- at: '2026-11-21T15:04:28+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T15:04:28+01:00'

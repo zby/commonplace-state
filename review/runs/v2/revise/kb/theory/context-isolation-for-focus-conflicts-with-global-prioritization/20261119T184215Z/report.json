@@ -1,0 +1,598 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z",
+  "artifact": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Help an agent-systems architect recognise when context isolation removes the comparison set required for relational global prioritization, distinguish missing-context indiscrimination from default-driven failure direction, and see the architectural trade-offs of splitting narrow-deep execution from wide-shallow triage.",
+    "must-keep": [
+      "When the right allocation or escalation decision changes with live competing work and no locally comparable live signal enters the worker, isolating context for task focus removes the live comparison set relational global prioritization requires.",
+      "Missing competing-work context alone causes priority indiscrimination; it does not by itself set the direction of failure (over-escalation versus silent continuation), which requires a separate mechanism.",
+      "Standing priority rules in static context cannot order a local branch against unseen live competing work across a changing workload.",
+      "Splitting narrow-deep execution from wide-shallow triage relocates the trade-off to the summary boundary between views rather than eliminating it."
+    ],
+    "stop": "Stop for a claim-level rewrite before running text passes; use `commonplace-revise rewrite kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md --commission FILE` with the commission prepared with `cp-skill-write-multistage`.\n\nWhy this stop is raised after the rejected earlier stop (`2026-11-19T15:16:25Z`): both the text changed to embed the operator's earlier local-calibration boundary (lines 10, 14, 26, 58) and local fixes (lines 12, 18, 20-23, 32, 37, 39), AND the new depth-1 reports present a new case the operator's earlier reason does not address (O(1) concrete marginal-anchor injection, which compares concrete tasks in local scope without a numeric common scale) alongside new tensions introduced by the post-rejection edits.\n\nUnsupported/refuted claims requiring rewrite (all Defect):\n1. Universal claim, abstract-bar vs. global-view dichotomy, and \"small workload\" boundary defeated by concrete marginal-anchor injection (lines 10, 14, 26, 30, 58, 66) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/explanatory-reach.md`): the claim that without a locally calibrated numeric scale no compact injected signal is locally comparable—so concrete side-by-side comparison requires a separate wide-shallow global view (line 26) and comparison-sufficient live state fits in-window only on a small workload (line 58)—is false for concrete marginal-anchor injection (injecting a ~50-300 token live card naming the 1-5 concrete competing tasks at the current priority cutoff). That anchor requires no numeric scale, enables side-by-side comparison of concrete tasks in local scope, and scales as O(1) with the cutoff frontier rather than O(N) with portfolio size. Stipulating away working summaries inside Condition 2 makes Condition 2 outcome-insulated while punting its structural triggers (e.g., content-addressed cross-portfolio coupling, concurrent sibling-worker staleness, or attention interference) to Open Question 2.\n2. Two conflicting readings of the focus-degradation threshold and binary impossibility of a shared call (lines 10, 14, 30, 54, 58) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/underspecified-assertions.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): the artifact's own wording supports Reading 1 — strict zero measurable focus degradation (\"without degrading focus\", lines 14, 30; \"without eroding focus\", line 54) — and Reading 2 — exceeding the task's usable-window feasibility ceiling (\"usable attention budget\", line 10; \"fits inside one usable window\", line 58). Under soft attention decay, Reading 1 forces a split whenever co-loading causes any focus dip, which is defeated by the case where mild focus loss inside the feasibility margin outperforms a split architecture's larger compression-misclassification or deep-context fallback costs; Reading 2 permits compact O(1) summaries on large workloads.\n3. Observer-relative \"scale-bearing local facts\" tension at the execution-triage interface (lines 12, 32, 53) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): two statements sit in conflict—line 12 states that cross-boundary blast radius, external deadlines, and external reversibility depend on excluded state, yet line 32 assigns \"scale-bearing local facts\" to the isolated worker as purely task-internal judgments (and line 53 treats missed emergencies as worker omission of severe local detail). Case: an isolated worker refactoring a serialization helper verifies locally that changing JSON key order breaks nothing inside its module and does not flag it, unaware that an external billing check hashes raw JSON; logging every locally benign detail instead breaks triage compression.\n4. Unattended stopping/redirection overclaim and motivating-example causal tensions (lines 18, 22-23, 37, 41, 54) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`): (a) line 37 leaves diminishing-returns and global opportunity-cost stopping to triage while workers stop only on hard blockers or pre-injected stop rules, and line 54 leaves within-episode branch choices inside the worker, yet line 41 claims unbundling local stopping from immediate operator action addresses degraded stopping and redirection in unattended work—case: a mid-run tangent or debugging loop never triggers a hard blocker, so post-stop asynchronous decoupling cannot halt or redirect it; (b) line 23 attributes earnest low-value tangents to absent external competing work while conceding in its parenthetical that the already-loaded in-window primary task supplies no counterweight, and line 22's \"either way\" bridge over the juice-box/bleeding-finger example sits in tension with line 18's claim that isolated agents retain pretrained base-rate severity priors.\n\nAffected dependents (role report: `kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/role`): rescoping when context isolation removes the comparison set and forces the narrow-deep execution vs. wide-shallow triage split, and tightening the tangent-chasing and unattended stopping/redirection claims, affects claims relied on by `kb/tags/context-engineering-README.md`, `kb/tags/goal-prioritization-README.md`, `kb/tags/architecture-README.md`, `kb/reference/where-change-candidates-come-from-in-commonplace.md`, `kb/theory/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md`, `kb/theory/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md`, `kb/theory/unattended-work-needs-the-functions-that-interaction-supplied.md`, `kb/theory/weakly-discriminated-qualities-tend-to-be-underselected.md`, and `kb/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md`, so the operator must decide dependent updates alongside the rewrite.",
+    "passes": []
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/reviews",
+      "ok": true,
+      "counts": {
+        "fresh": 46,
+        "reviewed": 2
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/jargon-persistence",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/notation-opacity",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/undefined-terms",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::accessibility/unidentified-references",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/claim-to-section-ratio",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/connection-inflation",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/could-be-a-paragraph",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::complexity/framework-decoration",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/claim-strength",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/description-discrimination",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-as-claim",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-body-alignment",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-composability",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/anthropomorphic-framing",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/mannered-prose",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/orphan-references",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/proportion-mismatch",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/redundant-restatement",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/source-residue",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/unbridged-cross-domain",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/completeness-boundary-cases",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/conceptual-role-conflation",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/epistemic-status-blur",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/explanatory-reach",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/grounding-alignment",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/internal-consistency",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/load-bearing-qualifiers",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/underspecified-assertions",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/unearned-generality",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::semantic/unwarranted-scope",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/clause-packing",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/concept-attribution",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/framing-mismatch",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/misleading-link-text",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/parsing-ambiguity",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/stock-phrases",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/bullet-capitalization",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/compound-bullet",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::structural/general-before-specific",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/types/note",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/theory/COLLECTION",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/critique-note",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/work/documentation-consolidation/routes-and-skills.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/complexity/claim-to-section-ratio.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/complexity/connection-inflation.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/branch-bloat.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/prose/anthropomorphic-framing.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/prose/source-residue.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/epistemic-status-blur.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/explanatory-reach.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/sentence/clause-packing.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/sentence/framing-mismatch.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/sentence/stock-phrases.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/structural/compound-bullet.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/role"
+  ],
+  "triage": null,
+  "passes": [],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": "Stop for a claim-level rewrite before running text passes; use `commonplace-revise rewrite kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md --commission FILE` with the commission prepared with `cp-skill-write-multistage`.\n\nWhy this stop is raised after the rejected earlier stop (`2026-11-19T15:16:25Z`): both the text changed to embed the operator's earlier local-calibration boundary (lines 10, 14, 26, 58) and local fixes (lines 12, 18, 20-23, 32, 37, 39), AND the new depth-1 reports present a new case the operator's earlier reason does not address (O(1) concrete marginal-anchor injection, which compares concrete tasks in local scope without a numeric common scale) alongside new tensions introduced by the post-rejection edits.\n\nUnsupported/refuted claims requiring rewrite (all Defect):\n1. Universal claim, abstract-bar vs. global-view dichotomy, and \"small workload\" boundary defeated by concrete marginal-anchor injection (lines 10, 14, 26, 30, 58, 66) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/explanatory-reach.md`): the claim that without a locally calibrated numeric scale no compact injected signal is locally comparable—so concrete side-by-side comparison requires a separate wide-shallow global view (line 26) and comparison-sufficient live state fits in-window only on a small workload (line 58)—is false for concrete marginal-anchor injection (injecting a ~50-300 token live card naming the 1-5 concrete competing tasks at the current priority cutoff). That anchor requires no numeric scale, enables side-by-side comparison of concrete tasks in local scope, and scales as O(1) with the cutoff frontier rather than O(N) with portfolio size. Stipulating away working summaries inside Condition 2 makes Condition 2 outcome-insulated while punting its structural triggers (e.g., content-addressed cross-portfolio coupling, concurrent sibling-worker staleness, or attention interference) to Open Question 2.\n2. Two conflicting readings of the focus-degradation threshold and binary impossibility of a shared call (lines 10, 14, 30, 54, 58) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/underspecified-assertions.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): the artifact's own wording supports Reading 1 — strict zero measurable focus degradation (\"without degrading focus\", lines 14, 30; \"without eroding focus\", line 54) — and Reading 2 — exceeding the task's usable-window feasibility ceiling (\"usable attention budget\", line 10; \"fits inside one usable window\", line 58). Under soft attention decay, Reading 1 forces a split whenever co-loading causes any focus dip, which is defeated by the case where mild focus loss inside the feasibility margin outperforms a split architecture's larger compression-misclassification or deep-context fallback costs; Reading 2 permits compact O(1) summaries on large workloads.\n3. Observer-relative \"scale-bearing local facts\" tension at the execution-triage interface (lines 12, 32, 53) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): two statements sit in conflict—line 12 states that cross-boundary blast radius, external deadlines, and external reversibility depend on excluded state, yet line 32 assigns \"scale-bearing local facts\" to the isolated worker as purely task-internal judgments (and line 53 treats missed emergencies as worker omission of severe local detail). Case: an isolated worker refactoring a serialization helper verifies locally that changing JSON key order breaks nothing inside its module and does not flag it, unaware that an external billing check hashes raw JSON; logging every locally benign detail instead breaks triage compression.\n4. Unattended stopping/redirection overclaim and motivating-example causal tensions (lines 18, 22-23, 37, 41, 54) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`): (a) line 37 leaves diminishing-returns and global opportunity-cost stopping to triage while workers stop only on hard blockers or pre-injected stop rules, and line 54 leaves within-episode branch choices inside the worker, yet line 41 claims unbundling local stopping from immediate operator action addresses degraded stopping and redirection in unattended work—case: a mid-run tangent or debugging loop never triggers a hard blocker, so post-stop asynchronous decoupling cannot halt or redirect it; (b) line 23 attributes earnest low-value tangents to absent external competing work while conceding in its parenthetical that the already-loaded in-window primary task supplies no counterweight, and line 22's \"either way\" bridge over the juice-box/bleeding-finger example sits in tension with line 18's claim that isolated agents retain pretrained base-rate severity priors.\n\nAffected dependents (role report: `kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/role`): rescoping when context isolation removes the comparison set and forces the narrow-deep execution vs. wide-shallow triage split, and tightening the tangent-chasing and unattended stopping/redirection claims, affects claims relied on by `kb/tags/context-engineering-README.md`, `kb/tags/goal-prioritization-README.md`, `kb/tags/architecture-README.md`, `kb/reference/where-change-candidates-come-from-in-commonplace.md`, `kb/theory/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md`, `kb/theory/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md`, `kb/theory/unattended-work-needs-the-functions-that-interaction-supplied.md`, `kb/theory/weakly-discriminated-qualities-tend-to-be-underselected.md`, and `kb/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md`, so the operator must decide dependent updates alongside the rewrite.",
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z",
+    "made-for": {
+      "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "plan-stop",
+        "what": "The plan stops with a proposal, which names its own route: Stop for a claim-level rewrite before running text passes; use `commonplace-revise rewrite kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md --commission FILE` with the commission prepared with `cp-skill-write-multistage`.\n\nWhy this stop is raised after the rejected earlier stop (`2026-11-19T15:16:25Z`): both the text changed to embed the operator's earlier local-calibration boundary (lines 10, 14, 26, 58) and local fixes (lines 12, 18, 20-23, 32, 37, 39), AND the new depth-1 reports present a new case the operator's earlier reason does not address (O(1) concrete marginal-anchor injection, which compares concrete tasks in local scope without a numeric common scale) alongside new tensions introduced by the post-rejection edits.\n\nUnsupported/refuted claims requiring rewrite (all Defect):\n1. Universal claim, abstract-bar vs. global-view dichotomy, and \"small workload\" boundary defeated by concrete marginal-anchor injection (lines 10, 14, 26, 30, 58, 66) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/explanatory-reach.md`): the claim that without a locally calibrated numeric scale no compact injected signal is locally comparable—so concrete side-by-side comparison requires a separate wide-shallow global view (line 26) and comparison-sufficient live state fits in-window only on a small workload (line 58)—is false for concrete marginal-anchor injection (injecting a ~50-300 token live card naming the 1-5 concrete competing tasks at the current priority cutoff). That anchor requires no numeric scale, enables side-by-side comparison of concrete tasks in local scope, and scales as O(1) with the cutoff frontier rather than O(N) with portfolio size. Stipulating away working summaries inside Condition 2 makes Condition 2 outcome-insulated while punting its structural triggers (e.g., content-addressed cross-portfolio coupling, concurrent sibling-worker staleness, or attention interference) to Open Question 2.\n2. Two conflicting readings of the focus-degradation threshold and binary impossibility of a shared call (lines 10, 14, 30, 54, 58) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/underspecified-assertions.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): the artifact's own wording supports Reading 1 — strict zero measurable focus degradation (\"without degrading focus\", lines 14, 30; \"without eroding focus\", line 54) — and Reading 2 — exceeding the task's usable-window feasibility ceiling (\"usable attention budget\", line 10; \"fits inside one usable window\", line 58). Under soft attention decay, Reading 1 forces a split whenever co-loading causes any focus dip, which is defeated by the case where mild focus loss inside the feasibility margin outperforms a split architecture's larger compression-misclassification or deep-context fallback costs; Reading 2 permits compact O(1) summaries on large workloads.\n3. Observer-relative \"scale-bearing local facts\" tension at the execution-triage interface (lines 12, 32, 53) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`): two statements sit in conflict—line 12 states that cross-boundary blast radius, external deadlines, and external reversibility depend on excluded state, yet line 32 assigns \"scale-bearing local facts\" to the isolated worker as purely task-internal judgments (and line 53 treats missed emergencies as worker omission of severe local detail). Case: an isolated worker refactoring a serialization helper verifies locally that changing JSON key order breaks nothing inside its module and does not flag it, unaware that an external billing check hashes raw JSON; logging every locally benign detail instead breaks triage compression.\n4. Unattended stopping/redirection overclaim and motivating-example causal tensions (lines 18, 22-23, 37, 41, 54) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`): (a) line 37 leaves diminishing-returns and global opportunity-cost stopping to triage while workers stop only on hard blockers or pre-injected stop rules, and line 54 leaves within-episode branch choices inside the worker, yet line 41 claims unbundling local stopping from immediate operator action addresses degraded stopping and redirection in unattended work—case: a mid-run tangent or debugging loop never triggers a hard blocker, so post-stop asynchronous decoupling cannot halt or redirect it; (b) line 23 attributes earnest low-value tangents to absent external competing work while conceding in its parenthetical that the already-loaded in-window primary task supplies no counterweight, and line 22's \"either way\" bridge over the juice-box/bleeding-finger example sits in tension with line 18's claim that isolated agents retain pretrained base-rate severity priors.\n\nAffected dependents (role report: `kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/role`): rescoping when context isolation removes the comparison set and forces the narrow-deep execution vs. wide-shallow triage split, and tightening the tangent-chasing and unattended stopping/redirection claims, affects claims relied on by `kb/tags/context-engineering-README.md`, `kb/tags/goal-prioritization-README.md`, `kb/tags/architecture-README.md`, `kb/reference/where-change-candidates-come-from-in-commonplace.md`, `kb/theory/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md`, `kb/theory/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md`, `kb/theory/unattended-work-needs-the-functions-that-interaction-supplied.md`, `kb/theory/weakly-discriminated-qualities-tend-to-be-underselected.md`, and `kb/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md`, so the operator must decide dependent updates alongside the rewrite.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "record": "commonplace-revise answers record kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/stop-answers.md"
+        },
+        "answers": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/stop-answers.md"
+        ],
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/assessment.md",
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/plan.yaml"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T184215Z/artifact/assessment.md"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "README.md",
+      "kb/instructions/approve-a-text.md",
+      "kb/instructions/composition-friction-gate.md",
+      "kb/instructions/compression-bundle/README.md",
+      "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "kb/instructions/continue-a-revise-pass.md",
+      "kb/instructions/cp-skill-write-multistage/SKILL.md",
+      "kb/instructions/cp-skill-write-multistage/references/promotion.md",
+      "kb/instructions/decide-items.md",
+      "kb/instructions/premise-decomposition-gate.md",
+      "kb/instructions/retire-artifact.md",
+      "kb/instructions/review-profiles.yaml",
+      "kb/instructions/role-in-the-kb-gate.md",
+      "kb/instructions/run-compression-bundle-on-note.md",
+      "kb/instructions/run-review-batches.md",
+      "kb/instructions/simplification-passes/README.md",
+      "kb/instructions/simplification-passes/execute-a-revision-pass.md",
+      "kb/instructions/simplification-passes/revise-an-article-or-note.md",
+      "kb/reference/README-REVIEW-SYSTEM.md",
+      "kb/reference/README.md",
+      "kb/reference/adr/034-queued-review-jobs-and-execution-provenance.md",
+      "kb/reference/adr/139-only-commonplace-revise-writes-a-note.md",
+      "kb/reference/commands.md",
+      "kb/reference/review-architecture.md",
+      "kb/reference/storage-architecture.md",
+      "kb/types/README.md",
+      "kb/types/answers.md",
+      "kb/types/edit-operation.md",
+      "kb/work/README.md",
+      "kb/work/documentation-consolidation/reference-inventory.md",
+      "kb/work/review-and-editing-commands/README.md",
+      "kb/work/review-and-editing-commands/command-proposal.md",
+      "pyproject.toml",
+      "src/commonplace/cli/review_workflows.py",
+      "src/commonplace/cli/revise.py",
+      "src/commonplace/lib/project_status.py",
+      "src/commonplace/lib/review_workflows/decisions.py",
+      "src/commonplace/lib/review_workflows/edit_operations.py",
+      "src/commonplace/lib/review_workflows/edits.py",
+      "src/commonplace/lib/review_workflows/fixtures.py",
+      "src/commonplace/lib/review_workflows/gates.py",
+      "src/commonplace/lib/review_workflows/revise.py",
+      "src/commonplace/lib/review_workflows/rewrite.py",
+      "tests/commonplace/review_workflows/test_atom_acceptance.py",
+      "tests/commonplace/review_workflows/test_controller_failures.py",
+      "tests/commonplace/review_workflows/test_edit_operations.py",
+      "tests/commonplace/review_workflows/test_gates.py",
+      "tests/commonplace/review_workflows/test_observations.py",
+      "tests/commonplace/review_workflows/test_publication.py",
+      "tests/commonplace/review_workflows/test_review_decisions.py",
+      "tests/commonplace/review_workflows/test_revise.py",
+      "tests/commonplace/review_workflows/test_rewrite.py"
+    ]
+  }
+}

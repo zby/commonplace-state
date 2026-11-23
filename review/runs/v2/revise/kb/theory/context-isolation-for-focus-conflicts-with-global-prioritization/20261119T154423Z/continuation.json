@@ -1,0 +1,21 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z",
+  "made-for": {
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "failure",
+      "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/role: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate: process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"f06916d6-f46c-40ee-93f1-3e569a45798c-1\"}",
+      "actor": "session-agent",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/report.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The title passes the claim-strength criterion. An informed reader could reasonably dispute the effect it attributes to the KB’s constraints. [Review]( /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T133828Z/calls/launches/cef0e60fb9694766b2270aa060573965/outputs/review.md)

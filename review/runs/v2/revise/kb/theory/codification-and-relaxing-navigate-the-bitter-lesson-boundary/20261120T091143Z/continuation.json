@@ -1,0 +1,36 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z",
+  "made-for": {
+    "note": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+    "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "stale-reviews",
+      "what": "40 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-review status kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

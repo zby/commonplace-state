@@ -1,0 +1,21 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145118Z",
+  "made-for": {
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145118Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "failure",
+      "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145118Z/reviews: kb/theory/ephemeral-computation-prevents-accumulation.md::complexity/*: process_error after 3 launch(es): exit 1; ird_party/jetski/language_server/server.go:2699\n  | main.main.func4\n  | \tthird_party/jetski/cmd/cli/main.go:964\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_amd64.s:1237\nWraps: (4) open /home/zby/.gemini/antigravity-cli/installation_id\nWraps: (5) read-only file system\nError types: (1) *withstack.withStack (2) *withstack.withStack (3) *withstack.withStack (4) *fs.PathError (5) syscall.Errno\nFailed to start: open /home/zby/.gemini/antigravity-cli/installation_id: read-only file system",
+      "actor": "session-agent",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145118Z/report.json"
+      ]
+    }
+  ]
+}

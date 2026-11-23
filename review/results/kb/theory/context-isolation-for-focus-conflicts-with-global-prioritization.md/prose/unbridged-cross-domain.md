@@ -4,49 +4,28 @@ format: 2
 description: Retained verdict review of kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
   against kb/instructions/review-gates/prose/unbridged-cross-domain.md
 note: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
-note-sha256: 7a6f9106f19b3e96bc06338a1aa5f6ac6eef97041b3db55e50a5b60a31ecceda
+note-sha256: cd5d2711b477e1ec78f936b01b02ebf0f7c6e2b760aca5a01631094f2eff367b
 criterion: kb/instructions/review-gates/prose/unbridged-cross-domain.md
 criterion-sha256: 5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f
 outcome: pass
 profile:
-  harness: claude-code
-  launch-model: opus
-  effort: medium
-model: claude-opus-5-5
-run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews
-launch: 3d6f8665a9b04e2c816a2b4805122f0c
-completed-at: '2026-11-19T13:26:47Z'
+  harness: antigravity
+  launch-model: gemini-4-neon
+  effort: high
+model: gemini-4-neon-high
+run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews
+launch: cbd318117d3442b0ab04feebafe5ce5b
+completed-at: '2026-11-19T15:48:01Z'
 findings: []
 contract: verdict
-target-sha256: d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea
-target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/inputs/note.md
-observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/artifact/reviews/740e88bba3f753ddffef62e2/observation.json
+target-sha256: 12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78
+target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/inputs/note.md
+observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/artifact/reviews/eb57bdeb9eab20d4bd6c53d8/observation.json
 contract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161
-raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/outputs/review-unbridged-cross-domain.md
-raw-output-sha256: 2872e4fe5afdee96d69524a28905a09d1bee6a824d5ae7ee6706868b8ec12299
+raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/outputs/review-unbridged-cross-domain.md
+raw-output-sha256: 0896ce26c0bcd5c95cf919adce6fa2b8b9218e7f8105bb76cb50899a8b6a6317
 ---
 
 # Review
 
-## Summary
-
-The note's only cited empirical material is the practitioner account of coding
-agents, together with the Anthropic write-up quoted within it. The argument's
-domain is agent systems under bounded context generally. Coding agents are a
-subset of that domain, not a separate domain, and the note does not use the
-account as evidence that transfers to other kinds of agents:
-
-- It says the account "motivated this analysis".
-- It names a confound the account cannot resolve: worker behavior versus a
-  workflow that pings on every stop.
-- The Scope section says that neither the account nor the Commonplace
-  mechanisms provide a controlled comparison. The footer labels the source
-  "origin, not corroboration".
-
-The claim rests on a structural argument about which information is present in
-a bounded window, not on transferred results.
-
-The comparison between a human specialist and a stateless agent is a contrast
-that explains why the failure arises in agents. It does not import a finding
-from human cognition. The babysitting image belongs to the quoted source and is
-not offered as a mechanism the note relies on.
+No study or empirical result from a foreign domain is cited as direct support without a bridge. The Nostalgebraist account (including the quoted Anthropic write-up and its explicitly flagged babysitting comparison) and the Commonplace mechanisms sit within the note's agent-systems domain and are explicitly bounded as motivating origin and local design examples rather than empirical corroboration. The comparison to a human specialist is used as a structural contrast explaining why stateless agents differ, not as cross-domain evidence.

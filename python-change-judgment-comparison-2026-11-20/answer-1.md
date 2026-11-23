@@ -1,0 +1,5 @@
+I’d keep the build that omits frame pointers as the default for now. The proposed build used 1% more CPU time for the same requests under usual traffic. That cost would recur whenever services ran comparable workloads. Preserving frame pointers had a concrete benefit in the incident replays: it revealed the caller in three of the four cases where investigators had lacked that information. What remains unknown is whether seeing the caller would have changed the diagnosis or shortened those investigations enough to justify the recurring cost.
+
+The strongest reason to change the default is timing. If a performance problem disappears before a service can redeploy, switching builds afterward loses the chance to capture the caller. I’d therefore use the frame-pointer build from the outset for services where missing a transient problem would be especially costly. Even there, a third-party library can still interrupt the call chain.
+
+This is a provisional judgment. Evidence that caller visibility regularly changes what investigators do or substantially shortens costly incidents would move me toward changing the default.

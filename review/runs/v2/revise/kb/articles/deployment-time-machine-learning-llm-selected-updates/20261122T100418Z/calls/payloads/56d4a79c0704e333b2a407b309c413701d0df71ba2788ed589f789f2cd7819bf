@@ -1,0 +1,61 @@
+---
+description: "Use when an artifact's TL;DR uses terms it never defines, ends on jargon, or its title carries a metaphor or bare term that reads wrongly before the body explains it"
+type: types/edit-operation.md
+effort: judgment
+decision: none
+depth: 6
+---
+
+# Opening and title
+
+Make the TL;DR readable by someone who will read nothing else, and the title a
+literal statement of the artifact's central contrast.
+
+Effort: judgment. Title proposals need judgment; the TL;DR edits alone may run as simple.
+
+## Steps
+
+TL;DR:
+
+- Use only terms the TL;DR itself introduces. Where the body's technical term
+  appears, replace it with the plain description the TL;DR gave earlier, so
+  the opening ends where it began.
+- State the alternative the artifact denies in one sentence, so the reader
+  knows what is at stake before the argument.
+- Cut words that add no content ("some software" is "software").
+- Identify a named person at first mention, in the sentence, not inside a
+  link.
+- Define a term at its first use. Do not delete a term the body relies on
+  later; a plain-language opening that drops it leaves a later section using
+  it cold.
+- When a term appears only in a link entry or only in the body, search the
+  KB for inbound uses before choosing which side to fix. A term other notes
+  cite this artifact as the source of stays, and is introduced in the body.
+
+Title:
+
+- Keep the half that names the claim. Replace a metaphor or a bare term with
+  the full term and the literal contrast ("the LLM stays fixed, the software
+  house learns", not "train the house").
+- Check the slug the title would produce against the 70-character limit
+  before proposing it.
+- Propose the title; do not apply it in this operation. A file relocation is
+  separate. For a claim-strength finding that can be fixed without body edits,
+  use [Repair a claim title](./repair-claim-title.md).
+
+## Report
+
+Old and new TL;DR, proposed titles with one line each on what each
+emphasizes, and the slug length.
+
+## Preserve
+
+The title, the H1 and the file slug: a title change is a proposal in the
+report, never an edit. A term the body relies on later.
+
+---
+
+Relevant Notes:
+
+- [Design for the first-time human, except on access cost](../../theory/design-for-the-first-time-human-except-on-access-cost.md) — rests-on: the TL;DR is written for the reader who reads nothing else and has no KB context
+- [Title as claim enables traversal as reasoning](../../theory/title-as-claim-enables-traversal-as-reasoning.md) — rests-on: a literal claim title lets traversal read as reasoning; a metaphorical title breaks that

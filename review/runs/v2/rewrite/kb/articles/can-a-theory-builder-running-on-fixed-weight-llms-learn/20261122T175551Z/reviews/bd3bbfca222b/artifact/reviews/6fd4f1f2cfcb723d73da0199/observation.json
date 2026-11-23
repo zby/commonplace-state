@@ -1,0 +1,237 @@
+{
+  "version": 3,
+  "id": "6fd4f1f2cfcb723d73da0199",
+  "request": {
+    "job": "kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "call-job": "kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "note": "kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md",
+    "criterion": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+    "contract": "verdict",
+    "kind": "rewrite-review",
+    "criterion-id": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "target-sha256": "1045364087c1b9d4d484fc7b53e9eda49b1d0c60d051c69db8253b3b421134f2",
+    "criterion-bytes-sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "9a3b39066075df852512f4479c350a6397213dfce283f13665018e1f4e00dfb5",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "1045364087c1b9d4d484fc7b53e9eda49b1d0c60d051c69db8253b3b421134f2",
+      "criterion.md": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-commission.md": "4102b275b6060ca5973b1fe9575d9beb66021339729a869e6d26add9fe8e56bd",
+      "supplied-type-contract.md": "67e5014396781a309377cfc87db1b1b92a105f448ed73253b1d9a07db19db2e4",
+      "supplied-collection-contract.md": "347ebf9f3da4b9069bddf9b4e90f231a9f3d35bbc4973ae096fcd15f1fb3a459",
+      "supplied-start.md": "773a923dcbe1a710fe3a0c50598d48d1aeeb98b1b2a58e1702a61a2dfa31c0a7",
+      "supplied-sources.md": "dc5fe3b8866f93b51dcc4c4c8d3c7e452351783034df902b6d229092e9c6b913",
+      "supplied-source-1.md": "b7d632d153c8002cca8fd20076e1d79eed355120a68588f3d41ec5437c092eb9",
+      "supplied-source-2.md": "8d1d17e2052b243f8ee7fe59c2a71b19c089a08d2ba220b86fbe3133801203bc",
+      "supplied-source-3.md": "fcabb33b7a2428239a41936e504a74505dd5c38f167828db696d3d418a9623ff",
+      "supplied-source-4.md": "4c0561769ed6421bdf1fa01221336a86ce33fbe48f7e2adcb5d8eb473f182b4b",
+      "supplied-source-5.md": "3bb592bff6c35175216138f4ac46c86dde7ff469abd7a62ad82639e191b33d2f",
+      "supplied-source-6.md": "4d8b2f59258a0a0ce68fbc527bbaf7e85eee0a3050fc1e6c0fda764ed8533dc2",
+      "supplied-source-7.md": "62da378a3913f53195561dea4f787d31c5904b0be1c1e75cc496d438cbb79a67",
+      "supplied-inbound.md": "194dd7c874377d3b067ab5669a9cc5a941b050e915c1ad15fa61dbba3d0d9827",
+      "supplied-candidate-report.md": "bd1d9cac17dec3a878957b3c51fdd9e8d5abfb3a1068e7d548b0cb375e6ca7c5"
+    }
+  },
+  "kb-commit": "e813612a47fe322e0c7f50b53b691b2da8fe6a66",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "68b7896744004e49bbb467b21c9f07484d0c235813ba1fabf0fc32ac33803779",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md",
+      "path": "inputs/target/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md",
+      "sha256": "1045364087c1b9d4d484fc7b53e9eda49b1d0c60d051c69db8253b3b421134f2",
+      "bytes": 7580,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "bytes": 1639,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "9a3b39066075df852512f4479c350a6397213dfce283f13665018e1f4e00dfb5",
+      "bytes": 4404
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/commission.md",
+      "path": "inputs/operational/commission.md",
+      "sha256": "4102b275b6060ca5973b1fe9575d9beb66021339729a869e6d26add9fe8e56bd",
+      "bytes": 4923,
+      "input": "supplied-commission.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/types/article.md",
+      "path": "inputs/operational/type-contract.md",
+      "sha256": "67e5014396781a309377cfc87db1b1b92a105f448ed73253b1d9a07db19db2e4",
+      "bytes": 1098,
+      "input": "supplied-type-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/COLLECTION.md",
+      "path": "inputs/operational/collection-contract.md",
+      "sha256": "347ebf9f3da4b9069bddf9b4e90f231a9f3d35bbc4973ae096fcd15f1fb3a459",
+      "bytes": 11168,
+      "input": "supplied-collection-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/start.md",
+      "path": "inputs/operational/start.md",
+      "sha256": "773a923dcbe1a710fe3a0c50598d48d1aeeb98b1b2a58e1702a61a2dfa31c0a7",
+      "bytes": 21773,
+      "input": "supplied-start.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/sources.md",
+      "path": "inputs/operational/sources.md",
+      "sha256": "dc5fe3b8866f93b51dcc4c4c8d3c7e452351783034df902b6d229092e9c6b913",
+      "bytes": 1654,
+      "input": "supplied-sources.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/commonplace-builds-a-theory-builder-and-tests-whether-it-learns.md",
+      "path": "inputs/operational/source-1.md",
+      "sha256": "b7d632d153c8002cca8fd20076e1d79eed355120a68588f3d41ec5437c092eb9",
+      "bytes": 16970,
+      "input": "supplied-source-1.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/theory-builder.md",
+      "path": "inputs/operational/source-2.md",
+      "sha256": "8d1d17e2052b243f8ee7fe59c2a71b19c089a08d2ba220b86fbe3133801203bc",
+      "bytes": 17217,
+      "input": "supplied-source-2.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/addressable-theory.md",
+      "path": "inputs/operational/source-3.md",
+      "sha256": "fcabb33b7a2428239a41936e504a74505dd5c38f167828db696d3d418a9623ff",
+      "bytes": 7244,
+      "input": "supplied-source-3.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/revision-guided-by-rationale-needs-faithfulness-not-just-legibility.md",
+      "path": "inputs/operational/source-4.md",
+      "sha256": "4c0561769ed6421bdf1fa01221336a86ce33fbe48f7e2adcb5d8eb473f182b4b",
+      "bytes": 8752,
+      "input": "supplied-source-4.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/retained-theories-may-improve-sample-efficiency.md",
+      "path": "inputs/operational/source-5.md",
+      "sha256": "3bb592bff6c35175216138f4ac46c86dde7ff469abd7a62ad82639e191b33d2f",
+      "bytes": 28540,
+      "input": "supplied-source-5.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/operational/source-6.md",
+      "sha256": "4d8b2f59258a0a0ce68fbc527bbaf7e85eee0a3050fc1e6c0fda764ed8533dc2",
+      "bytes": 17908,
+      "input": "supplied-source-6.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/testing-whether-a-theory-builder-learns.md",
+      "path": "inputs/operational/source-7.md",
+      "sha256": "62da378a3913f53195561dea4f787d31c5904b0be1c1e75cc496d438cbb79a67",
+      "bytes": 19660,
+      "input": "supplied-source-7.md"
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "194dd7c874377d3b067ab5669a9cc5a941b050e915c1ad15fa61dbba3d0d9827",
+      "bytes": 8773,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/candidate-1-report.md",
+      "path": "inputs/operational/candidate-report.md",
+      "sha256": "bd1d9cac17dec3a878957b3c51fdd9e8d5abfb3a1068e7d548b0cb375e6ca7c5",
+      "bytes": 4301,
+      "input": "supplied-candidate-report.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/c46c628cd75446ce8d0ab72a4997ff6c/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/c46c628cd75446ce8d0ab72a4997ff6c/review.md": "b4ef24b8112c31ce3c5d303be688ca70e7f5d684d106b51ae3d1f2bc999de20d"
+  },
+  "latest-result": "results/c46c628cd75446ce8d0ab72a4997ff6c/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+      "key": "c8d4da62fd16abc8120fd891e36089dfd1a1fc9ad22f50441520556f27d51164"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

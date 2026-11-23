@@ -1,0 +1,1 @@
+The two WARN sentences only: 'The structural contrast with weight training is starkest when laid side by side:' and 'This is where the second level of our thesis—the machine learning bet—enters.'

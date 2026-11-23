@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/publications/1.md",
+      "sha256": "290a20ce99fc4dcc6f713000be92ae9bc2f15fc222d31d9b48be77ab58618875",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/publications/1.diff",
+      "before-sha256": "773a923dcbe1a710fe3a0c50598d48d1aeeb98b1b2a58e1702a61a2dfa31c0a7",
+      "entries": [],
+      "at": "2026-11-22T18:01:43Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

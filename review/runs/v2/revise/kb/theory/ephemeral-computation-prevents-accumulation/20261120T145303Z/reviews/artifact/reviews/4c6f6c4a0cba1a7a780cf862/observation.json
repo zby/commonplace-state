@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "id": "4c6f6c4a0cba1a7a780cf862",
+  "request": {
+    "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::sentence/parsing-ambiguity",
+    "call-job": "kb/theory/ephemeral-computation-prevents-accumulation.md::sentence/*",
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "sentence/parsing-ambiguity",
+    "target-sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "criterion-bytes-sha256": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "110f7c885331feb3435e74a739013bdbcd070213f36f4b29642021956199cd96",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "gate-clause-packing.md": "1546b936d349c05735443368da75ea0829b04f34cd3e6084351c128713f320a1",
+      "gate-concept-attribution.md": "75949108abe516c6d5d80ba7a1c9546fbb81cc202dd215042cf5a323075358e6",
+      "gate-framing-mismatch.md": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+      "gate-misleading-link-text.md": "29771fdb3d02cdf416ad3b68c38b2ae29bb69fe4332f316cc9475de3aa4508c2",
+      "gate-parsing-ambiguity.md": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "gate-stock-phrases.md": "01fe5fea193e21d064468eb1b1c7495441fe3ca291ba101f15b3da55209e5241",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d.json",
+    "sha256": "e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "path": "inputs/target/kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "bytes": 5415,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+      "path": "inputs/criterion.md",
+      "sha256": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "bytes": 1115,
+      "input": "gate-parsing-ambiguity.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "110f7c885331feb3435e74a739013bdbcd070213f36f4b29642021956199cd96",
+      "bytes": 3114
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/22de938edbb2472ba71c405f0591518e/review-parsing-ambiguity.md"
+  ],
+  "completed-result-sha256": {
+    "results/22de938edbb2472ba71c405f0591518e/review-parsing-ambiguity.md": "8be5057507e1dcbac9d4268b2dcc3b04de93d38834f65217ec21cc4fe0ac7584"
+  },
+  "latest-result": "results/22de938edbb2472ba71c405f0591518e/review-parsing-ambiguity.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/ephemeral-computation-prevents-accumulation.md::sentence/*",
+      "key": "7726097ac7d3c665b0d5bf56438305aa4ea55ab7a31aeb2a7b53331568ef59d5"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

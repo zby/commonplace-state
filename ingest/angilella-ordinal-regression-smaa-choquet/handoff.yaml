@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/angilella-ordinal-regression-smaa-choquet.ingest.md
+snapshot_sha256: 4d8549589f6711ddc30809a652e2541ec19c6a8411a02072aa1e22892bf01f90
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:29:37+01:00'
+occasion: What can Commonplace conclude when a comparison leaves trade-off weights
+  open?
+checks:
+- at: '2026-11-21T09:34:40+01:00'
+  failures: []
+- at: '2026-11-21T09:34:53+01:00'
+  failures: []
+- at: '2026-11-21T09:34:53+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:34:53+01:00'

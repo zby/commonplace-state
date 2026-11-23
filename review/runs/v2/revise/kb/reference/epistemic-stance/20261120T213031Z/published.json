@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/reference/epistemic-stance/20261120T213031Z/artifact/publications/1.md",
+      "sha256": "c50ac64c7609d42b8c66404bc5ba9736ea56ecb1fd6444d3e4c5c6f31c4b9428",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/reference/epistemic-stance/20261120T213031Z/artifact/publications/1.diff",
+      "before-sha256": "aec1262fa733dc855a52f37cb0b5bb312a55178246d72a8ee35840e09627eaa6",
+      "entries": [
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T21:31:24Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

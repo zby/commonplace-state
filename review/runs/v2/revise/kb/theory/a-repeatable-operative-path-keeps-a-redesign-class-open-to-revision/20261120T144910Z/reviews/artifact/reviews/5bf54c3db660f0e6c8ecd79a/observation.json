@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "id": "5bf54c3db660f0e6c8ecd79a",
+  "request": {
+    "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/theory/types/structured-claim",
+    "call-job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/theory/types/structured-claim",
+    "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+    "criterion": "kb/theory/types/structured-claim.md",
+    "contract": "verdict",
+    "kind": "type",
+    "criterion-id": "kb/theory/types/structured-claim",
+    "target-sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+    "criterion-bytes-sha256": "98a00dddd5309cfd5b1469663924ed553b0e41a7a9a0dcea424cc9072c06e7c4",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "b6293c8386f6d4412fd878ca4cae987ceaaef301e227bf938fc9eea790d92b20",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "criterion.md": "98a00dddd5309cfd5b1469663924ed553b0e41a7a9a0dcea424cc9072c06e7c4",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "path": "inputs/target/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "bytes": 13491,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/theory/types/structured-claim.md",
+      "path": "inputs/criterion.md",
+      "sha256": "98a00dddd5309cfd5b1469663924ed553b0e41a7a9a0dcea424cc9072c06e7c4",
+      "bytes": 1967,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "b6293c8386f6d4412fd878ca4cae987ceaaef301e227bf938fc9eea790d92b20",
+      "bytes": 2908
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/f2d445e7942c462c92d243709972dcf0/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/f2d445e7942c462c92d243709972dcf0/review.md": "724dcc54fa854ef1d52eb7b32aff30b15357dcae82d009435b712c02ca38a1d2"
+  },
+  "latest-result": "results/f2d445e7942c462c92d243709972dcf0/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/theory/types/structured-claim",
+      "key": "a97a235e2d6816e13d10130b09080458f21f67e4b13ef3a68a5e030481d7aff8"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

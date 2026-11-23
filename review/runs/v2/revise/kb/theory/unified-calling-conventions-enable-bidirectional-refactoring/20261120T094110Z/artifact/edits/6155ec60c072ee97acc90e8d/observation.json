@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "id": "6155ec60c072ee97acc90e8d",
+  "request": {
+    "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+    "call-job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "target-sha256": "16df14fe441f5f528d2446ab0a130a2c7b4187fead42ad5db7b5a790eab30522",
+    "criterion-bytes-sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "8e7efe3c2defa7d6bf54f3cd38204dd1d1efdf1ac486111683d3f3eef55b2d8a",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "16df14fe441f5f528d2446ab0a130a2c7b4187fead42ad5db7b5a790eab30522",
+      "operation.md": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "execution.md": "5f2adc7587f19d4e6f968c92eb491cd46e609b2804ea2a9d93d22706b0b0b854",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "e6c368666241be5fedce7b3d94e76a35f2ff2ddb048d9c8c8acb3d7e6ab28e10",
+      "must-keep.md": "71d72c382ee5187f941f77d8b01884982c932e3c70eb05c133536f10ad7ad08c",
+      "scope.md": "e01f00de50574f86db4c1f5fe82d4966f40531f3914d3a42ade4dc434810d036",
+      "kb-role.md": "e7920518ed4d04f258cea7a1280afbb96ddd43dded30373c6e6a9d48c8bc2453",
+      "finding.md": "9a601df9abeac49265be91bfb0d97d1197b501bda3bc70fef80d2a9950dd2c89"
+    }
+  },
+  "kb-commit": "b1ef6dcc1bf5e90c794cbe00d218c8f527418287",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "9c330d343a1ae3db9a21dbb5b44188ae3a36af10f8b08881b852063f22bf2a1b",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "16df14fe441f5f528d2446ab0a130a2c7b4187fead42ad5db7b5a790eab30522",
+      "bytes": 8161,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+      "path": "inputs/criterion.md",
+      "sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "bytes": 6254,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "8e7efe3c2defa7d6bf54f3cd38204dd1d1efdf1ac486111683d3f3eef55b2d8a",
+      "bytes": 2051
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "e6c368666241be5fedce7b3d94e76a35f2ff2ddb048d9c8c8acb3d7e6ab28e10",
+      "bytes": 200,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "71d72c382ee5187f941f77d8b01884982c932e3c70eb05c133536f10ad7ad08c",
+      "bytes": 681,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "e01f00de50574f86db4c1f5fe82d4966f40531f3914d3a42ade4dc434810d036",
+      "bytes": 266,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "e7920518ed4d04f258cea7a1280afbb96ddd43dded30373c6e6a9d48c8bc2453",
+      "bytes": 1010,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/findings/semantic/completeness-boundary-cases.md",
+      "path": "inputs/operational/finding.md",
+      "sha256": "9a601df9abeac49265be91bfb0d97d1197b501bda3bc70fef80d2a9950dd2c89",
+      "bytes": 4420,
+      "input": "finding.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/4bff5df96edc4edd95de19208d6cb70b/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/4bff5df96edc4edd95de19208d6cb70b/result.md": "a783da0ec937cc9454531ee26ff42ff7a41b2178ca30da0f6618a24efc7b8781"
+  },
+  "latest-result": "results/4bff5df96edc4edd95de19208d6cb70b/result.md",
+  "calls": [
+    {
+      "call": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+      "key": "56616ffdc483bffa178e9c4dea3382fb94faac96e88d86c0b7a471f5ee18eca9"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

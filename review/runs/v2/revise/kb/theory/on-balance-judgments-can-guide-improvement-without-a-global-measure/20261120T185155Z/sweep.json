@@ -1,0 +1,40 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "full",
+  "purpose": "Explain how on-balance judgments guide decisions without a global measure, and where analysis helps or stops.",
+  "must-keep": [
+    "Preserve the agreed title, the section anchor what-commonplace-chooses-to-count used by four references, and the distinction between a Commonplace practical choice and a universal measure. Keep contrasting worked examples, including the Python release and routing threshold. Preserve the rule that a decision-relevant unknown warrants investigation when a plausible answer could reverse the choice."
+  ],
+  "plan": null,
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  }
+}

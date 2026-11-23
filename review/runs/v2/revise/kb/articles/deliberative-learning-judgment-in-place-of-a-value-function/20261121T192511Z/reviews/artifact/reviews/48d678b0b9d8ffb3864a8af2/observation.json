@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "id": "48d678b0b9d8ffb3864a8af2",
+  "request": {
+    "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::frontmatter/title-body-alignment",
+    "call-job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::frontmatter/*",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/title-body-alignment",
+    "target-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+    "criterion-bytes-sha256": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "fb9af8e3977e617fc1003d41b437b8dd3705e9adbcf9ef67a0a1c8b1fe8b0efe",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "gate-description-discrimination.md": "17cbbd1fca45e6be71ce6750fe85980667f4958045e3610c4bb9378b13702bcf",
+      "gate-title-body-alignment.md": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "bytes": 20341,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+      "path": "inputs/criterion.md",
+      "sha256": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "bytes": 1127,
+      "input": "gate-title-body-alignment.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "fb9af8e3977e617fc1003d41b437b8dd3705e9adbcf9ef67a0a1c8b1fe8b0efe",
+      "bytes": 2457
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/bdfbde965aac4fe598acb9a5dcaa39dc/review-title-body-alignment.md"
+  ],
+  "completed-result-sha256": {
+    "results/bdfbde965aac4fe598acb9a5dcaa39dc/review-title-body-alignment.md": "a20cc009ef52d0fbab4a6ccdb0b2178956f741698da761cdc79915633cfb655d"
+  },
+  "latest-result": "results/bdfbde965aac4fe598acb9a5dcaa39dc/review-title-body-alignment.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::frontmatter/*",
+      "key": "3a04bebd7da838da0924ff0eba05abfc9cd0add212890482a20e58d2b316ad23"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "id": "c3b9546561adac34b48050a1",
+  "request": {
+    "job": "kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "call-job": "kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "note": "kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+    "contract": "verdict",
+    "kind": "rewrite-review",
+    "criterion-id": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "target-sha256": "7b9188fdd46e73512db87839042d72a7b191c52e6f048ffe9327f0900c5f3d48",
+    "criterion-bytes-sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "d5f66ef81636790cbc6f0ffce9891b6d2dac4ebd4902402649e44c000b2fac1c",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "7b9188fdd46e73512db87839042d72a7b191c52e6f048ffe9327f0900c5f3d48",
+      "criterion.md": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-commission.md": "fdbd0a837805f7991fe5bd7183cd88c20c40ee68aee714544d19ddc7a4e22ea3",
+      "supplied-type-contract.md": "e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b",
+      "supplied-collection-contract.md": "95ad0d6ce3828b25282f7610268c4e1aca006fa34526bc2b4e4056f3e271cccd",
+      "supplied-start.md": "d7e9bf65b0bfdc6e6e9b38c33b86399592d342631edb8cd6b1fccf478d91b877",
+      "supplied-sources.md": "a28b511b6936893fe04c36fdd500c72a2abe4ce49c2f977d3cbf6e3c853e7276",
+      "supplied-source-1.md": "8a1240e73572d6c7a582a7c57c838f8e379df6ed069d78224431cb935abe7785",
+      "supplied-source-2.md": "8c0582584a7a5874886c23083329ce257c5a605d57b28821600f4019ffc613f5",
+      "supplied-source-3.md": "f593cb05810e491ad7261edf2b549ff78ad360694efaa8a104240147143f97a5",
+      "supplied-inbound.md": "50d43d325ef992f4a30db518d657b060fdcc664f939864fc4bcc9e679029199b",
+      "supplied-candidate-report.md": "9ebb9e76e3a2fb33343bf18491fe4982ff783d7b7a01355905341c2fcca06bbc"
+    }
+  },
+  "kb-commit": "40ba0bad38c26effcf71c440e31512c7dd89c45c",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "adab4e8b617826297af0f184dff5f4540dbb336f9b3a9f693d9aef83ed910596",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "7b9188fdd46e73512db87839042d72a7b191c52e6f048ffe9327f0900c5f3d48",
+      "bytes": 9929,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "bytes": 1639,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "d5f66ef81636790cbc6f0ffce9891b6d2dac4ebd4902402649e44c000b2fac1c",
+      "bytes": 3963
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/commission.md",
+      "path": "inputs/operational/commission.md",
+      "sha256": "fdbd0a837805f7991fe5bd7183cd88c20c40ee68aee714544d19ddc7a4e22ea3",
+      "bytes": 2979,
+      "input": "supplied-commission.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/types/note.md",
+      "path": "inputs/operational/type-contract.md",
+      "sha256": "e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b",
+      "bytes": 3758,
+      "input": "supplied-type-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/COLLECTION.md",
+      "path": "inputs/operational/collection-contract.md",
+      "sha256": "95ad0d6ce3828b25282f7610268c4e1aca006fa34526bc2b4e4056f3e271cccd",
+      "bytes": 19589,
+      "input": "supplied-collection-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/start.md",
+      "path": "inputs/operational/start.md",
+      "sha256": "d7e9bf65b0bfdc6e6e9b38c33b86399592d342631edb8cd6b1fccf478d91b877",
+      "bytes": 19928,
+      "input": "supplied-start.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/sources.md",
+      "path": "inputs/operational/sources.md",
+      "sha256": "a28b511b6936893fe04c36fdd500c72a2abe4ce49c2f977d3cbf6e3c853e7276",
+      "bytes": 863,
+      "input": "supplied-sources.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/sources/greco-ordinal-regression-revisited.ingest.md",
+      "path": "inputs/operational/source-1.md",
+      "sha256": "8a1240e73572d6c7a582a7c57c838f8e379df6ed069d78224431cb935abe7785",
+      "bytes": 6496,
+      "input": "supplied-source-1.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/defining-improvement-for-open-ended-work.md",
+      "path": "inputs/operational/source-2.md",
+      "sha256": "8c0582584a7a5874886c23083329ce257c5a605d57b28821600f4019ffc613f5",
+      "bytes": 10937,
+      "input": "supplied-source-2.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/selection-based-learning-needs-only-a-local-comparison.md",
+      "path": "inputs/operational/source-3.md",
+      "sha256": "f593cb05810e491ad7261edf2b549ff78ad360694efaa8a104240147143f97a5",
+      "bytes": 4937,
+      "input": "supplied-source-3.md"
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "50d43d325ef992f4a30db518d657b060fdcc664f939864fc4bcc9e679029199b",
+      "bytes": 30219,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/candidate-1-report.md",
+      "path": "inputs/operational/candidate-report.md",
+      "sha256": "9ebb9e76e3a2fb33343bf18491fe4982ff783d7b7a01355905341c2fcca06bbc",
+      "bytes": 3752,
+      "input": "supplied-candidate-report.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/454f0793cbb846b38e7d6a211e44e9ef/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/454f0793cbb846b38e7d6a211e44e9ef/review.md": "d692cf44bb3ab66b48a5fac3e16919313ddb99b984739711ae6003441af8d82f"
+  },
+  "latest-result": "results/454f0793cbb846b38e7d6a211e44e9ef/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+      "key": "28b514e91cb0b8b17a7a98f793058023f2752f45a759c358dbc1782a20a71014"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

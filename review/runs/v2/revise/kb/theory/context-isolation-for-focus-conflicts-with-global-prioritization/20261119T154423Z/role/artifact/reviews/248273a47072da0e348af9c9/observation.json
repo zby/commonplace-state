@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "id": "248273a47072da0e348af9c9",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/role-in-the-kb-gate.md",
+    "contract": "report",
+    "kind": "role",
+    "criterion-id": "kb/instructions/role-in-the-kb-gate",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "0a0c232b23e0aeeb342cad07447c00d57586112a294ded43aca03b510aad033e",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "criterion.md": "98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-inbound.md": "d7bd3e981c2fd1a6a9217760660d48a00ffacf08807d6ad104bf47f68605907c"
+    }
+  },
+  "kb-commit": "29c60f681a7e4e255e6c73adff5578ea11a008ef",
+  "content-state": {
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/reference/README-REVIEW-SYSTEM.md": {
+      "kind": "file",
+      "sha256": "f8defc288248fa7bb09d47700a0cf841e66db599b04a145620674a191ccc6e34"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "1336efe96cefde0ae03233301cabf2748c229c900370734b2ad91d63a746ffe4"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "file",
+      "sha256": "5d73851d4b43808d5d6fa8bbb8c8d72839243040cc9c4fccca2fbe8b7497845d"
+    },
+    "kb/work/review-and-editing-commands/command-proposal.md": {
+      "kind": "file",
+      "sha256": "4d543461dcb7de35893d227d59bcaa603b59c271d524012ed0954f0d9960eb00"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "fb2cd9ff0952a6157e6b26eee287969b6402320ac52291fd4e7cefcc91a1c716",
+  "executor": {
+    "path": "provenance/6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10.json",
+    "sha256": "6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/role-in-the-kb-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "98f7838948665034dd2b847d164d723c388dd02ebf7eb40e06bc45766ad3b663",
+      "bytes": 5461,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0a0c232b23e0aeeb342cad07447c00d57586112a294ded43aca03b510aad033e",
+      "bytes": 1829
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "d7bd3e981c2fd1a6a9217760660d48a00ffacf08807d6ad104bf47f68605907c",
+      "bytes": 7083,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+      "key": "1d62221abe45f655574c08c457f13df4c234659fae959133d6c04ab9c3a9741f"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795104555.0555077,
+      "event": "stopped-call",
+      "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+      "key": "1d62221abe45f655574c08c457f13df4c234659fae959133d6c04ab9c3a9741f",
+      "reason": "process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2h29m59s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"f06916d6-f46c-40ee-93f1-3e569a45798c-1\"}"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

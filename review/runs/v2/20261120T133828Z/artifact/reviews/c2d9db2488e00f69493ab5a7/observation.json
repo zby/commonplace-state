@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "id": "c2d9db2488e00f69493ab5a7",
+  "request": {
+    "job": "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md::frontmatter/claim-strength",
+    "note": "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "14c455140f18ce43475d8edebe4d4bc972bdd99f574b5d702cc48b3c1c78124c",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "56a1fd21bc897150ee18188f0e1ba4c1d9154b4751583a1270c7ff9fba9939ab",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "14c455140f18ce43475d8edebe4d4bc972bdd99f574b5d702cc48b3c1c78124c",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "b4bdc80fd90dee2a1895a2d15a7c113ee12856a5",
+  "content-state": {
+    "kb/reference/README.md": {
+      "kind": "file",
+      "sha256": "04cbe67b180a90592c805fb1a32856348564927dc335abeeaea4f37bbe69b514"
+    },
+    "kb/work/documentation-consolidation/README.md": {
+      "kind": "file",
+      "sha256": "09f05a2c5a7e9c5063d6cea3941af8aa1f8631d45ff7f8862dcef9f3a7d2dfdd"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "c95258399edd26e6fe6c97781d349fe75a3b9c516a6c715ffd7e92e0e835e201",
+  "executor": {
+    "path": "provenance/237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a.json",
+    "sha256": "237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+      "path": "inputs/target/kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+      "sha256": "14c455140f18ce43475d8edebe4d4bc972bdd99f574b5d702cc48b3c1c78124c",
+      "bytes": 9807,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "56a1fd21bc897150ee18188f0e1ba4c1d9154b4751583a1270c7ff9fba9939ab",
+      "bytes": 1867
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/e725630de5024b13b618f9bcc2f5df85/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/e725630de5024b13b618f9bcc2f5df85/review.md": "61b588b51cde5826f9466c23ec965b6540f31d3409d7bc8225865a4b356b6ea6"
+  },
+  "latest-result": "results/e725630de5024b13b618f9bcc2f5df85/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md::frontmatter/claim-strength",
+      "key": "4a0fdbdc498557071ecaa562d8656f8135aa6a567e909dcebd282daddd8fcc84"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

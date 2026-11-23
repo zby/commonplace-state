@@ -1,0 +1,48 @@
+{
+  "ok": false,
+  "outcome": "failed",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z",
+  "artifact": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+  "mode": "full",
+  "plan": null,
+  "answers": [],
+  "reviews": [],
+  "findings": [],
+  "triage": null,
+  "passes": [],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z",
+    "made-for": {
+      "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "failure",
+        "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z/reviews: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-body-alignment: process_error after 3 launch(es): exit 1; ird_party/jetski/language_server/server.go:2663\n  | main.main.func4\n  | \tthird_party/jetski/cmd/cli/main.go:964\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_amd64.s:1237\nWraps: (4) open /home/zby/.gemini/antigravity-cli/installation_id\nWraps: (5) read-only file system\nError types: (1) *withstack.withStack (2) *withstack.withStack (3) *withstack.withStack (4) *fs.PathError (5) syscall.Errno\nFailed to start: open /home/zby/.gemini/antigravity-cli/installation_id: read-only file system",
+        "actor": "session-agent",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z/report.json"
+        ]
+      }
+    ]
+  },
+  "stopped": "reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154241Z/reviews: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::frontmatter/title-body-alignment: process_error after 3 launch(es): exit 1; ird_party/jetski/language_server/server.go:2663\n  | main.main.func4\n  | \tthird_party/jetski/cmd/cli/main.go:964\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_amd64.s:1237\nWraps: (4) open /home/zby/.gemini/antigravity-cli/installation_id\nWraps: (5) read-only file system\nError types: (1) *withstack.withStack (2) *withstack.withStack (3) *withstack.withStack (4) *fs.PathError (5) syscall.Errno\nFailed to start: open /home/zby/.gemini/antigravity-cli/installation_id: read-only file system",
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

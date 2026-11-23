@@ -1,0 +1,22 @@
+Do one step of the rewrite of one note. Nobody will answer questions. If you cannot do it, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md` in this repository. The instruction for this step is <Inputs: instruction.md>; follow it. The note's text when the run started is `note`; it is not evidence for its own claims. The candidate keeps the note's frontmatter `title`, `type` and `brief` declaration and its H1, drops `user-verified` when the body changes and adds no validation failure.
+The inputs, by role:
+- `commission` (the commission: the current direction, the sources, and the intent and boundaries of this rewrite beyond the write brief): <Inputs: commission.md>
+- `type-contract` (the note's type spec): <Inputs: type-contract.md>
+- `collection-contract` (the contract of the note's collection): <Inputs: collection-contract.md>
+- `sources` (the source list): <Inputs: sources.md>
+- `source-1` (a captured source): <Inputs: source-1.md>
+- `source-2` (a captured source): <Inputs: source-2.md>
+- `source-3` (a captured source): <Inputs: source-3.md>
+- `source-4` (a captured source): <Inputs: source-4.md>
+- `source-5` (a captured source): <Inputs: source-5.md>
+- `source-6` (a captured source): <Inputs: source-6.md>
+- `source-7` (a captured source): <Inputs: source-7.md>
+- `inbound` (the passages that cite the note; not evidence or preservation requirements): <Inputs: inbound.md>
+- `note` (the note's text when the run started): <Inputs: note.md>
+
+Output:
+- Write the complete candidate text, frontmatter included, to <Required outputs: candidate.md>.
+- Write the citation consequences to <Required outputs: report.md>, under `## Affected citations`.
+- Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.

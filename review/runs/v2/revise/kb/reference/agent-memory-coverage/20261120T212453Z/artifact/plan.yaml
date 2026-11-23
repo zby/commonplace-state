@@ -1,0 +1,9 @@
+purpose: Help a maintainer compare agent-memory requirements with shipped capabilities
+  and limits. Make the order and reasoning clear, distinguish how records are created,
+  found and checked from what future use demonstrates, and avoid repeating the inventory.
+must-keep:
+- Distinguish curated heads and rg in the checkout from complete listings generated
+  for the site, and replaceable current review results from retained observations.
+stop: null
+passes:
+- pass: readability-and-flow

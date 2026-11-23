@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "id": "b6cae0b6a510f295b9e99ac3",
+  "request": {
+    "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "call-job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+    "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+    "contract": "report",
+    "kind": "compression-synthesis",
+    "criterion-id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "target-sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+    "criterion-bytes-sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "f7f1aff8a68d1d6e497668aff0222e765b174ae82fdd9a100e8b3b20c3c9a711",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "criterion.md": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-branch-bloat.md": "e6630c5d79b6fe1c2c8dd751b9434bd460e2a2b894743c8ef0833db9d503c4cb",
+      "supplied-core-claim-obscured.md": "1a316fc30f1565f449c5fb0fa526ca89d7a83c308d289c55cafbb8964be1c795",
+      "supplied-detail-overhang.md": "cfc22e596fa78e66aebb750e2ca3d305000ff90ec9f1497bb93fc0a2fd493016",
+      "supplied-marginal-value-redundancy.md": "f8683d7cec881a97222c43f8ee6fc8f89c2434bc9315eec0cc3e697eef11748f"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "path": "inputs/target/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "bytes": 13491,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "path": "inputs/criterion.md",
+      "sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "bytes": 4827,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "f7f1aff8a68d1d6e497668aff0222e765b174ae82fdd9a100e8b3b20c3c9a711",
+      "bytes": 2753
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/branch-bloat.md",
+      "sha256": "e6630c5d79b6fe1c2c8dd751b9434bd460e2a2b894743c8ef0833db9d503c4cb",
+      "bytes": 3906,
+      "input": "supplied-branch-bloat.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+      "path": "inputs/operational/core-claim-obscured.md",
+      "sha256": "1a316fc30f1565f449c5fb0fa526ca89d7a83c308d289c55cafbb8964be1c795",
+      "bytes": 2760,
+      "input": "supplied-core-claim-obscured.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/operational/detail-overhang.md",
+      "sha256": "cfc22e596fa78e66aebb750e2ca3d305000ff90ec9f1497bb93fc0a2fd493016",
+      "bytes": 4697,
+      "input": "supplied-detail-overhang.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/operational/marginal-value-redundancy.md",
+      "sha256": "f8683d7cec881a97222c43f8ee6fc8f89c2434bc9315eec0cc3e697eef11748f",
+      "bytes": 6016,
+      "input": "supplied-marginal-value-redundancy.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/3974bd267e364beeadf2cf4036b8fe50/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/3974bd267e364beeadf2cf4036b8fe50/review.md": "bdb6aadff53147233896057e6c33d819902135138bb839b447ae4532c2edf1b9"
+  },
+  "latest-result": "results/3974bd267e364beeadf2cf4036b8fe50/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "26eb8194d7c3160a8968b984e7bea93a5a9863ec04f2a98d374377494ccf6033"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

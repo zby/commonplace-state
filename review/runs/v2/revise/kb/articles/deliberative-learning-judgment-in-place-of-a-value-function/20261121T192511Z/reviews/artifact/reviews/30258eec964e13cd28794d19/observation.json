@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "id": "30258eec964e13cd28794d19",
+  "request": {
+    "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/critique-note",
+    "call-job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/critique-note",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/critique-note.md",
+    "contract": "report",
+    "kind": "critique",
+    "criterion-id": "kb/instructions/critique-note",
+    "target-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+    "criterion-bytes-sha256": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "8d0026dbf973d89453b736124bb51683b48f5c785372816a763548092f9070b8",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "criterion.md": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "bytes": 20341,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/critique-note.md",
+      "path": "inputs/criterion.md",
+      "sha256": "9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771",
+      "bytes": 4542,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "8d0026dbf973d89453b736124bb51683b48f5c785372816a763548092f9070b8",
+      "bytes": 1566
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/deede84458a041b6a9c4f062ee8c6329/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/deede84458a041b6a9c4f062ee8c6329/review.md": "7dd0a44151bd663391c85da3b5134df1973d478eb32553c2df0b149b8eaac876"
+  },
+  "latest-result": "results/deede84458a041b6a9c4f062ee8c6329/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/critique-note",
+      "key": "8589af778513969937229c7d5459375b33b0cab1c90bdb91e6fb783358b3b590"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

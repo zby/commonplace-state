@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "id": "fbb82f81e60fbd3db85aa079",
+  "request": {
+    "job": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::prose/mannered-prose",
+    "call-job": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::prose/*",
+    "note": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+    "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/mannered-prose",
+    "target-sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+    "criterion-bytes-sha256": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "c82da7d77a0651dd8cc617ecea2052b06def0fcecb5028997e462877f386334e",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "060ce04d6572bcdb8ad4bd8217a61c3e0bc44a6a",
+  "content-state": {
+    "kb/tags/computational-model-README.md": {
+      "kind": "file",
+      "sha256": "232aee9a1c5f9ef1873ee47acfbd3df626c09f078e128cae380b64299e9398ed"
+    },
+    "kb/tags/constraining-README.md": {
+      "kind": "file",
+      "sha256": "1c89a5b79cffdc2ba33422d6751659a2069205360d0adb914b313f5393c16943"
+    },
+    "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md": {
+      "kind": "file",
+      "sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05"
+    },
+    "kb/theory/ad-hoc-prompts-extend-the-system-without-schema-changes.md": {
+      "kind": "file",
+      "sha256": "8db192afd7e33332035ea1ce663de0870aba5c22f6d94e66052985d355cdccd9"
+    },
+    "kb/theory/code-complements-weight-prompt-with-symbolic-operations.md": {
+      "kind": "file",
+      "sha256": "caac4e3350975cf6d0d3d737b529bcfe2442501af4defc1600c99497a99196ea"
+    },
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "6c89b5024e8d96202b722ca40deaee7923fe0dc2f3e3056a2e6d90e8d0300e2d"
+    },
+    "kb/theory/llm-context-interprets-instructions-and-content-through-one-medium.md": {
+      "kind": "file",
+      "sha256": "9aad0da9f24233b86e77e13d5e93a2f24deba889b2f5297ad9283467143cd7ad"
+    },
+    "kb/theory/llm-context-is-composed-without-scoping.md": {
+      "kind": "file",
+      "sha256": "98ffcbe8ceb7c302541ddb12f33782da914d737ed7c25bcb36e0400c59eac6cb"
+    },
+    "kb/theory/operational-signals-that-a-component-is-a-relaxing-candidate.md": {
+      "kind": "file",
+      "sha256": "c2a5f27e35bd0128c0b150480b241c4d5d3e94b1cfd5fd1ec73dbd4677a83f72"
+    },
+    "kb/theory/reflective-coverage-is-graded-across-representational-forms.md": {
+      "kind": "file",
+      "sha256": "98c5287dd9a05083189fd222fbb9ff5e5093768c4d68520c6e54d3557857cf26"
+    },
+    "kb/theory/research/adaptation-agentic-ai-analysis.md": {
+      "kind": "file",
+      "sha256": "00b7744e8e8fa7c8062074985a84be9c40fa0d557306bcb7bdcfae780c0a28e9"
+    },
+    "kb/theory/rlm-tendril-and-llm-do-place-symbolic-work-at-different-persistence.md": {
+      "kind": "file",
+      "sha256": "a94410bcbe4d375296a12d0e6a43a2e7b5d640e38b5f9199ba413cc7b04551f8"
+    },
+    "kb/theory/statecharts-and-programs-differ-in-what-they-show-not-compute.md": {
+      "kind": "file",
+      "sha256": "fe8627ff2e937e82ea717423d40aae567797b09a3f7a2f0f09cca10edb0e0bda"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f50a98afadf75e8f37f0a50b7f67b4445b8a1a508aae3269c0e5d5341abd1099",
+  "executor": {
+    "path": "provenance/083030f47564eaf5a3dcd87306d84ec5b468b7727de00cc148dfc16ad94de7f9.json",
+    "sha256": "083030f47564eaf5a3dcd87306d84ec5b468b7727de00cc148dfc16ad94de7f9"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+      "path": "inputs/target/kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+      "sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+      "bytes": 11599,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/mannered-prose.md",
+      "path": "inputs/criterion.md",
+      "sha256": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "bytes": 3832,
+      "input": "gate-mannered-prose.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "c82da7d77a0651dd8cc617ecea2052b06def0fcecb5028997e462877f386334e",
+      "bytes": 3333
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::prose/*",
+      "key": "3a1e7a751c2a3a05cad677cc2bc1c1f3fdb01c4204353f3948e211a5afaf9b02"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795172875.3671443,
+      "event": "stopped-call",
+      "job": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::prose/*",
+      "key": "3a1e7a751c2a3a05cad677cc2bc1c1f3fdb01c4204353f3948e211a5afaf9b02",
+      "reason": "launch_error after 3 launch(es): [Errno 2] No such file or directory: 'claude'"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

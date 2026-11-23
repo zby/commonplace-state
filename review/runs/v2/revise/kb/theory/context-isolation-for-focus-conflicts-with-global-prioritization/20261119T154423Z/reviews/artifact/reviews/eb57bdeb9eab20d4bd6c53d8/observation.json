@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "id": "eb57bdeb9eab20d4bd6c53d8",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/unbridged-cross-domain",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/*",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/unbridged-cross-domain",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "3e57a626eb488f007b0cfd7b405a15ff0902ab193fab9a2e9b9ecdeaafacdcb1",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "29c60f681a7e4e255e6c73adff5578ea11a008ef",
+  "content-state": {
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "1336efe96cefde0ae03233301cabf2748c229c900370734b2ad91d63a746ffe4"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "file",
+      "sha256": "54bcbd6ef11a578f76b3c2de11c46b85e5fb42aac2c5887e263b7ddc06fa026b"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "8de6d5503c3dbcd9fc6decf80751c045e9415669d7a6352c0b161113cb1df463",
+  "executor": {
+    "path": "provenance/6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10.json",
+    "sha256": "6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+      "path": "inputs/criterion.md",
+      "sha256": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "bytes": 1043,
+      "input": "gate-unbridged-cross-domain.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "3e57a626eb488f007b0cfd7b405a15ff0902ab193fab9a2e9b9ecdeaafacdcb1",
+      "bytes": 3338
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/cbd318117d3442b0ab04feebafe5ce5b/review-unbridged-cross-domain.md"
+  ],
+  "completed-result-sha256": {
+    "results/cbd318117d3442b0ab04feebafe5ce5b/review-unbridged-cross-domain.md": "15a86e53e72a60e6506e4b1f9147bc60696458d0f3a5dac24760908c7faec5a1"
+  },
+  "latest-result": "results/cbd318117d3442b0ab04feebafe5ce5b/review-unbridged-cross-domain.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::prose/*",
+      "key": "6b84bc6a04234b9715722b6f5a3e8b8b3bc8c194f6f66c6b97584c1791d0aacb"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

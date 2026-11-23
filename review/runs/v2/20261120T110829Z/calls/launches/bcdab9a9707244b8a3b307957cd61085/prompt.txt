@@ -1,0 +1,66 @@
+Task:
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/semantic/completeness-boundary-cases.md`: its text is <Inputs: gate-completeness-boundary-cases.md>; write its review to <Required outputs: review-completeness-boundary-cases.md>.
+- `kb/instructions/review-gates/semantic/conceptual-role-conflation.md`: its text is <Inputs: gate-conceptual-role-conflation.md>; write its review to <Required outputs: review-conceptual-role-conflation.md>.
+- `kb/instructions/review-gates/semantic/epistemic-status-blur.md`: its text is <Inputs: gate-epistemic-status-blur.md>; write its review to <Required outputs: review-epistemic-status-blur.md>.
+- `kb/instructions/review-gates/semantic/explanatory-reach.md`: its text is <Inputs: gate-explanatory-reach.md>; write its review to <Required outputs: review-explanatory-reach.md>.
+- `kb/instructions/review-gates/semantic/grounding-alignment.md`: its text is <Inputs: gate-grounding-alignment.md>; write its review to <Required outputs: review-grounding-alignment.md>.
+- `kb/instructions/review-gates/semantic/internal-consistency.md`: its text is <Inputs: gate-internal-consistency.md>; write its review to <Required outputs: review-internal-consistency.md>.
+- `kb/instructions/review-gates/semantic/load-bearing-qualifiers.md`: its text is <Inputs: gate-load-bearing-qualifiers.md>; write its review to <Required outputs: review-load-bearing-qualifiers.md>.
+- `kb/instructions/review-gates/semantic/underspecified-assertions.md`: its text is <Inputs: gate-underspecified-assertions.md>; write its review to <Required outputs: review-underspecified-assertions.md>.
+- `kb/instructions/review-gates/semantic/unearned-generality.md`: its text is <Inputs: gate-unearned-generality.md>; write its review to <Required outputs: review-unearned-generality.md>.
+- `kb/instructions/review-gates/semantic/unwarranted-scope.md`: its text is <Inputs: gate-unwarranted-scope.md>; write its review to <Required outputs: review-unwarranted-scope.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own typed findings and outcome:
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+
+Inputs (read these exact files):
+- gate-completeness-boundary-cases.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-completeness-boundary-cases.md
+- gate-conceptual-role-conflation.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-conceptual-role-conflation.md
+- gate-epistemic-status-blur.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-epistemic-status-blur.md
+- gate-explanatory-reach.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-explanatory-reach.md
+- gate-grounding-alignment.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-grounding-alignment.md
+- gate-internal-consistency.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-internal-consistency.md
+- gate-load-bearing-qualifiers.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-load-bearing-qualifiers.md
+- gate-underspecified-assertions.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-underspecified-assertions.md
+- gate-unearned-generality.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-unearned-generality.md
+- gate-unwarranted-scope.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/gate-unwarranted-scope.md
+- note.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/inputs/output-contract-2.md
+
+Required outputs (write these exact files):
+- review-completeness-boundary-cases.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-completeness-boundary-cases.md
+- review-conceptual-role-conflation.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-conceptual-role-conflation.md
+- review-epistemic-status-blur.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-epistemic-status-blur.md
+- review-explanatory-reach.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-explanatory-reach.md
+- review-grounding-alignment.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-grounding-alignment.md
+- review-internal-consistency.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-internal-consistency.md
+- review-load-bearing-qualifiers.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-load-bearing-qualifiers.md
+- review-underspecified-assertions.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-underspecified-assertions.md
+- review-unearned-generality.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-unearned-generality.md
+- review-unwarranted-scope.md: /home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/outputs/review-unwarranted-scope.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T110829Z/calls/launches/bcdab9a9707244b8a3b307957cd61085/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

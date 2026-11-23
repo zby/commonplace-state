@@ -1,0 +1,17 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/truncation-dimension-for-function-approximation.ingest.md
+snapshot_sha256: 64fd6ef606a488bddb50499a34cc7cb6cb5f103e0a084938015aba2675257fe6
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:26:09+01:00'
+occasion: When can we bound the combined effect of omitted variables?
+checks:
+- at: '2026-11-21T09:27:29+01:00'
+  failures: []
+- at: '2026-11-21T09:27:42+01:00'
+  failures: []
+- at: '2026-11-21T09:27:42+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:27:42+01:00'

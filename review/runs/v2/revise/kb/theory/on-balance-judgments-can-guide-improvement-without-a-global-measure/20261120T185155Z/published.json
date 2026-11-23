@@ -1,0 +1,18 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.md",
+      "sha256": "70b84b8da505ceb772b7e780e0a00d42facf27d4439cea6a7602146b64e5875c",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.diff",
+      "before-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "entries": [
+        "narrow-overclaims",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T19:03:44Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

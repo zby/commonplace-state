@@ -1,0 +1,21 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/minton-utility-of-ebl-aaai88.ingest.md
+snapshot_sha256: 46caf63898799cd0e79b318130126706c00e910ed719c772197ad6973b5ec9f2
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T11:56:04+01:00'
+occasion: 'Find a source on the utility problem in symbolic learning systems. For
+  explanation-based learning systems such as PRODIGY: what was retained and how was
+  retention decided; what was the measured performance cost of retained rules; and
+  exactly what utility measure did PRODIGY use (its formula, and whether the system
+  could revise a rule estimate after retention)?'
+checks:
+- at: '2026-11-21T12:01:06+01:00'
+  failures: []
+- at: '2026-11-21T12:01:16+01:00'
+  failures: []
+- at: '2026-11-21T12:01:17+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T12:01:17+01:00'

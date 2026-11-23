@@ -4,54 +4,49 @@ format: 2
 description: Retained verdict review of kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
   against kb/instructions/review-gates/prose/source-residue.md
 note: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
-note-sha256: 7a6f9106f19b3e96bc06338a1aa5f6ac6eef97041b3db55e50a5b60a31ecceda
+note-sha256: cd5d2711b477e1ec78f936b01b02ebf0f7c6e2b760aca5a01631094f2eff367b
 criterion: kb/instructions/review-gates/prose/source-residue.md
 criterion-sha256: ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480
-outcome: pass
+outcome: warn
 profile:
-  harness: claude-code
-  launch-model: opus
-  effort: medium
-model: claude-opus-5-5
-run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews
-launch: 3d6f8665a9b04e2c816a2b4805122f0c
-completed-at: '2026-11-19T13:26:47Z'
+  harness: antigravity
+  launch-model: gemini-4-neon
+  effort: high
+model: gemini-4-neon-high
+run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews
+launch: cbd318117d3442b0ab04feebafe5ce5b
+completed-at: '2026-11-19T15:48:01Z'
 findings:
 - scope: passage
   quotes:
   - Inside one module or diff, guarding a hypothetical edge case looks prudent when
-    system-wide complexity budgets and accepted product tolerances are absent
-  reason: This bullet states a general failure mode of isolated agent workers. It
-    frames that failure mode only in software terms ('module or diff', 'product tolerances'),
-    and nothing marks those terms as an example. The other two manifestations use
-    domain-general wording. Writing 'Inside one artifact or change (for example, a
-    code module or diff)' would match the bullet to the note's general claim. The
-    residue is confined to one illustrative manifestation and does not narrow the
-    title claim, so it is a weak signal.
-  level: info
+    system-wide complexity budgets and accepted product tolerances are absent, compounding
+    the oracle asymmetry—tests reward a present guard but rarely penalize an unneeded
+    one
+  reason: The title and opening claim generality over bounded-context LLM agent systems,
+    and the two preceding bullets separate the general failure mode from their framed
+    coding-agent examples, whereas this bullet states its general claim directly in
+    unframed software-engineering vocabulary ('module or diff', 'accepted product
+    tolerances', 'tests reward a present guard'). Generalize the statement or mark
+    the coding case explicitly as an example.
+  level: warn
+- scope: passage
+  quotes:
+  - selecting from compressed frontier summaries
+  reason: Reuses Commonplace's local 'unresolved frontier' term inside a general open
+    question after the body explicitly scoped 'unresolved frontier' as a Commonplace-specific
+    illustration. Use a domain-general phrase such as 'compressed candidate summaries'
+    or 'compressed triage summaries'.
+  level: warn
 contract: verdict
-target-sha256: d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea
-target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/inputs/note.md
-observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/artifact/reviews/e8b4a707d1608765005a1533/observation.json
+target-sha256: 12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78
+target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/inputs/note.md
+observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/artifact/reviews/d272fdab45021db75a3e5ded/observation.json
 contract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161
-raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/outputs/review-source-residue.md
-raw-output-sha256: db26a5f891bcc0a43455d89038019a58533aac1950791e5755d651caa2cd0edf
+raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/outputs/review-source-residue.md
+raw-output-sha256: 353faa2cb90dbeb62200c76578dcfd4920e93aa9efa9387b9a8dc0d8b7c0804d
 ---
 
 # Review
 
-## Summary
-
-The title and opening make a general claim about agent systems that work under
-bounded context. The note was abstracted from a practitioner account of coding
-agents. Most of that origin is handled explicitly:
-
-- The Nostalgebraist and Anthropic quotations, including the babysitting
-  imagery, are introduced as a practitioner account and attributed in place.
-  The Scope section and the footer mark them as origin, not corroboration.
-- The core vocabulary is domain-general: worker, operator, triage, comparison
-  set, tolerances, stop record. The Commonplace mechanisms are labeled as "local
-  design examples".
-
-The only unmarked coding vocabulary is the over-specification bullet recorded
-above. It does not narrow the note's claim.
+The note generally separates its agent-systems claim from its motivating coding-agent source and local Commonplace illustrations, framing both explicitly in most places. Two spots still leak narrower source vocabulary into unframed general prose—software-diff terminology in the third failure-mode bullet and Commonplace's `frontier` label in the final open question.

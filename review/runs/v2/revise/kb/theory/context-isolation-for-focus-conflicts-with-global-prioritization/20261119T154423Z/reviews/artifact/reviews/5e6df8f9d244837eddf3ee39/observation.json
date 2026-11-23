@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "id": "5e6df8f9d244837eddf3ee39",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/premise-decomposition-gate",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/premise-decomposition-gate",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/premise-decomposition-gate.md",
+    "contract": "report",
+    "kind": "premises",
+    "criterion-id": "kb/instructions/premise-decomposition-gate",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "f9d991dc059353755f1315f7d1c3f0b48c1cb925b1f373fa4fc1c2c28ffdfb21",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "criterion.md": "daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "29c60f681a7e4e255e6c73adff5578ea11a008ef",
+  "content-state": {
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/reference/README-REVIEW-SYSTEM.md": {
+      "kind": "file",
+      "sha256": "f8defc288248fa7bb09d47700a0cf841e66db599b04a145620674a191ccc6e34"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "1336efe96cefde0ae03233301cabf2748c229c900370734b2ad91d63a746ffe4"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "file",
+      "sha256": "5d73851d4b43808d5d6fa8bbb8c8d72839243040cc9c4fccca2fbe8b7497845d"
+    },
+    "kb/work/review-and-editing-commands/command-proposal.md": {
+      "kind": "file",
+      "sha256": "4d543461dcb7de35893d227d59bcaa603b59c271d524012ed0954f0d9960eb00"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "8de6d5503c3dbcd9fc6decf80751c045e9415669d7a6352c0b161113cb1df463",
+  "executor": {
+    "path": "provenance/6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10.json",
+    "sha256": "6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/premise-decomposition-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "daf263bd7f5fff877fecff20771f903459ac2f0b585044e1f68c4d871c59623b",
+      "bytes": 8397,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "f9d991dc059353755f1315f7d1c3f0b48c1cb925b1f373fa4fc1c2c28ffdfb21",
+      "bytes": 1662
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/1831a2a703b84e78b7342bd28f67a238/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/1831a2a703b84e78b7342bd28f67a238/review.md": "ea9bb8cf3a4e30559ac8d62cb7d292dfb6fc5079a479f87f28e643a6e69c0cc7"
+  },
+  "latest-result": "results/1831a2a703b84e78b7342bd28f67a238/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/premise-decomposition-gate",
+      "key": "eacdfc0c59f01aea8d1948ecc5bb75e5d2304d9efc32486301d52421295b2276"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

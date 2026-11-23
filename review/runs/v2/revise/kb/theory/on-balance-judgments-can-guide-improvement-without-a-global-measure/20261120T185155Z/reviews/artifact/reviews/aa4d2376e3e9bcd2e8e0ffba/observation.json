@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "id": "aa4d2376e3e9bcd2e8e0ffba",
+  "request": {
+    "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/framework-decoration",
+    "call-job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/*",
+    "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "complexity/framework-decoration",
+    "target-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+    "criterion-bytes-sha256": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "1fecfbb07981dbe65c6e6af12c4408d468bae7622cfbd9dc15fb5814e365245e",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "gate-claim-to-section-ratio.md": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "gate-connection-inflation.md": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "gate-could-be-a-paragraph.md": "808b4e1d3db21875b29916fcc9631eb0dc71dd954e9115c08c137becc6f1ff96",
+      "gate-framework-decoration.md": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "a0b27b7f336100d8d55460e77fd1d6d2c9cf990d",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f03a1bdb9ae166091cc81265ad153b5dcc5f7a8ad0aabc6a6b7e6b9fa1e725dc",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "bytes": 10288,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/complexity/framework-decoration.md",
+      "path": "inputs/criterion.md",
+      "sha256": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "bytes": 1605,
+      "input": "gate-framework-decoration.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "1fecfbb07981dbe65c6e6af12c4408d468bae7622cfbd9dc15fb5814e365245e",
+      "bytes": 2833
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/402fd6f434ab4d4a913a580715d0113a/review-framework-decoration.md"
+  ],
+  "completed-result-sha256": {
+    "results/402fd6f434ab4d4a913a580715d0113a/review-framework-decoration.md": "c7d88faeeff74e08cc5f2bc732215d58e4422db79eb74ea827901df37f90b9e8"
+  },
+  "latest-result": "results/402fd6f434ab4d4a913a580715d0113a/review-framework-decoration.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/*",
+      "key": "d93b2cbee2bbce724f492b0e8d60f57ae70e55585df7eba2707e44fb45af7cdd"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

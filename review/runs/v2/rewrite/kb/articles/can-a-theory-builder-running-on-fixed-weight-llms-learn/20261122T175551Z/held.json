@@ -1,0 +1,13 @@
+{
+  "candidate": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/final.md",
+  "sha256": "1045364087c1b9d4d484fc7b53e9eda49b1d0c60d051c69db8253b3b421134f2",
+  "before-sha256": "773a923dcbe1a710fe3a0c50598d48d1aeeb98b1b2a58e1702a61a2dfa31c0a7",
+  "diff": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/final.diff",
+  "diff-sha256": "715a6e4f3b15dc52324ce52b82a344d8e2be0699166a86a98cbf93c11e815c75",
+  "new-warnings": [
+    "[schema] frontmatter.description: description should be at most 250 characters"
+  ],
+  "entries": [],
+  "review": "kb/reports/state/review/runs/v2/rewrite/kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn/20261122T175551Z/artifact/review-1.md",
+  "review-sha256": "151b3a183a2f6bb7362c0f6d70469b106c1753dc5f3e5f380903d99b5f1b23be"
+}

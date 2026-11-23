@@ -1,0 +1,18 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/artifact/publications/1.md",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/artifact/publications/1.diff",
+      "before-sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "entries": [
+        "fix-strategy-taxonomy/prose/source-residue",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T09:26:46Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

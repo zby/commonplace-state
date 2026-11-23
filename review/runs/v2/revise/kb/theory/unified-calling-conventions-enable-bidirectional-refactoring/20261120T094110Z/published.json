@@ -1,0 +1,21 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.md",
+      "sha256": "619f99101fbaf6912c769229e997d8cc9c48c12d8b8022e85a450de82405a976",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.diff",
+      "before-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "entries": [
+        "narrow-overclaims",
+        "fix-strategy-taxonomy/semantic/grounding-alignment",
+        "fix-strategy-taxonomy/prose/source-residue",
+        "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T10:00:55Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

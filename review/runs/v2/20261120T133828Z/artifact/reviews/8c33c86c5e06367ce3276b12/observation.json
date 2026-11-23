@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "id": "8c33c86c5e06367ce3276b12",
+  "request": {
+    "job": "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md::frontmatter/claim-strength",
+    "note": "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "ec8775f47b7e1dfaa67f6e5f7dc8796d0df275830360443e5f673ef82e9fb9a0",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "bfd7d8963a132669a0d255a4e3e8874f838d7e619f867e5e23901a6e258db68a",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "ec8775f47b7e1dfaa67f6e5f7dc8796d0df275830360443e5f673ef82e9fb9a0",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "fe5e96c25123a520029a8623fa1043d62674a152",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "c95258399edd26e6fe6c97781d349fe75a3b9c516a6c715ffd7e92e0e835e201",
+  "executor": {
+    "path": "provenance/237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a.json",
+    "sha256": "237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md",
+      "path": "inputs/target/kb/theory/title-as-claim-makes-overlap-between-notes-visible.md",
+      "sha256": "ec8775f47b7e1dfaa67f6e5f7dc8796d0df275830360443e5f673ef82e9fb9a0",
+      "bytes": 2045,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "bfd7d8963a132669a0d255a4e3e8874f838d7e619f867e5e23901a6e258db68a",
+      "bytes": 1854
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/41db364486bd4b0facc362f120366992/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/41db364486bd4b0facc362f120366992/review.md": "f89888c2a85cab08aa3a72789a0bb29688bbf4099439f03e0f21bc7edae524f6"
+  },
+  "latest-result": "results/41db364486bd4b0facc362f120366992/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md::frontmatter/claim-strength",
+      "key": "64c0790c020ea21eeda743fd5310e925b1d8e9a647ad6c42184e546022bc750b"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

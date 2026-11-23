@@ -1,0 +1,343 @@
+{
+  "version": 3,
+  "id": "36ad09d096202dcd7dd30e52",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/role-in-the-kb-gate.md",
+    "contract": "report",
+    "kind": "role",
+    "criterion-id": "kb/instructions/role-in-the-kb-gate",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "0a0c232b23e0aeeb342cad07447c00d57586112a294ded43aca03b510aad033e",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "criterion.md": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-inbound.md": "d7bd3e981c2fd1a6a9217760660d48a00ffacf08807d6ad104bf47f68605907c"
+    }
+  },
+  "kb-commit": "d1db7ac6410c0e515b3f24d867a5518af0c3362a",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "836c70dffcb7f04585b3c96eb80d6ade22edb5cdbfbd13f94e2858433ef90d67"
+    },
+    "kb/instructions/approve-a-text.md": {
+      "kind": "file",
+      "sha256": "51047a43d0c7bf676fb965e3bc8c6aa0ad13d8cdbe8120bb9b780122a9071b8d"
+    },
+    "kb/instructions/composition-friction-gate.md": {
+      "kind": "file",
+      "sha256": "6e789a3c72156944d9b8f1322f23bbba3dec8f966da5a398c36cbea0c37230fc"
+    },
+    "kb/instructions/compression-bundle/README.md": {
+      "kind": "file",
+      "sha256": "61b77154a6c5b7e8634e1d68e8e608b0ee9f515a1064588a9782a04d42e7085c"
+    },
+    "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md": {
+      "kind": "file",
+      "sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf"
+    },
+    "kb/instructions/continue-a-revise-pass.md": {
+      "kind": "file",
+      "sha256": "4d45976551d82b74a98175009b6362e7a5028529c03e3b2d0f67008ec1b71e02"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "45c0122a34521156541e0351cc4a25782971ba0e66ed73bd4dd07ffd32686d8d"
+    },
+    "kb/instructions/cp-skill-write-multistage/references/promotion.md": {
+      "kind": "file",
+      "sha256": "43ddfb5f8c3a279c74a64c79fb5abc7d1096dac722b8a9be1a9f58f323a36e0c"
+    },
+    "kb/instructions/decide-items.md": {
+      "kind": "file",
+      "sha256": "891ad61c8ed0c76eb1aa15e2cfeab1d6cc152da8aaded5b5232a6afa0706c4df"
+    },
+    "kb/instructions/premise-decomposition-gate.md": {
+      "kind": "file",
+      "sha256": "1bf1b20144737726f1186579c34228fd243d5107333f5deb7b6d974675327c38"
+    },
+    "kb/instructions/retire-artifact.md": {
+      "kind": "file",
+      "sha256": "449ac1a1659cc1123f7d5c60e1134d7ee469cc547f0f64b5790fc1c2d0adb9eb"
+    },
+    "kb/instructions/review-profiles.yaml": {
+      "kind": "file",
+      "sha256": "7608c685195fa567db343dca1ad62c9a200797b6ea5b6835a7455e0238bff0d4"
+    },
+    "kb/instructions/role-in-the-kb-gate.md": {
+      "kind": "file",
+      "sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd"
+    },
+    "kb/instructions/run-compression-bundle-on-note.md": {
+      "kind": "file",
+      "sha256": "d26dc36e12328817bb3e29b2a361623bda106b0793605e5c82a3b56e93146dc2"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "f97f9a4d127ba6f820f21a2be083483e74ddc800098ee06245a02c2c8fdb22b4"
+    },
+    "kb/instructions/simplification-passes/README.md": {
+      "kind": "file",
+      "sha256": "cc57e612e82dc02c8b4e87832c46e4ec4755bc128189b9cfe4e786f604c45046"
+    },
+    "kb/instructions/simplification-passes/execute-a-revision-pass.md": {
+      "kind": "file",
+      "sha256": "5f2adc7587f19d4e6f968c92eb491cd46e609b2804ea2a9d93d22706b0b0b854"
+    },
+    "kb/instructions/simplification-passes/revise-an-article-or-note.md": {
+      "kind": "file",
+      "sha256": "b990ed4a537cf8658c33815277ec6b9395c9101d596ec2e834f62f7b0e6be048"
+    },
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/reference/README-REVIEW-SYSTEM.md": {
+      "kind": "file",
+      "sha256": "7908fcbb0de2badcffa62d495283bfc248e7dacd3a3372369ce951727b3759d9"
+    },
+    "kb/reference/README.md": {
+      "kind": "file",
+      "sha256": "5380dc13ab4aab7c5ff5a86bdc5098160515c5dbc308ca7c1294993c01346132"
+    },
+    "kb/reference/adr/034-queued-review-jobs-and-execution-provenance.md": {
+      "kind": "file",
+      "sha256": "16732f0119f40e5723c091d5ce79c69ab4488907c540660437930598ed69e25a"
+    },
+    "kb/reference/adr/139-only-commonplace-revise-writes-a-note.md": {
+      "kind": "file",
+      "sha256": "ffd197b604738081fcd048dd9acad916316ad799abe0a12e55924ad82520b85b"
+    },
+    "kb/reference/commands.md": {
+      "kind": "file",
+      "sha256": "d98c89d77a58268492b7b18e8a6c836749dafe410d6cbbef0e3266764bb54396"
+    },
+    "kb/reference/review-architecture.md": {
+      "kind": "file",
+      "sha256": "8ce5752d15bf826b64454a853dd9f68098a893af5fd4c079ff794af160261aeb"
+    },
+    "kb/reference/storage-architecture.md": {
+      "kind": "file",
+      "sha256": "569b0ecf426ac49286a2fef70efa977ffaab18a8e61f53bed4e9559998f64022"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/types/README.md": {
+      "kind": "file",
+      "sha256": "8d3027791a7a130280b2dc75f0116567004da8da55f85afbd30afcde8a24b8cf"
+    },
+    "kb/types/answers.md": {
+      "kind": "file",
+      "sha256": "2b06a77adcddf44209ea4e86b83b2fe8e01455b6c6bf195194b5fb80a996c33b"
+    },
+    "kb/types/edit-operation.md": {
+      "kind": "file",
+      "sha256": "3bf0cf77e2fbfe43683c6d6955628ef2199d8cc6db2b6142698348be7f7de9e2"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "2917d86f3b989df3ab1f29cbcfd780885408904030d6c178936dd96a2373a015"
+    },
+    "kb/work/documentation-consolidation/reference-inventory.md": {
+      "kind": "file",
+      "sha256": "a13a13862e051d00e22e6dd79851d7032620ed264030372cf7d62cf25a94db99"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "deleted"
+    },
+    "kb/work/review-and-editing-commands/command-proposal.md": {
+      "kind": "deleted"
+    },
+    "pyproject.toml": {
+      "kind": "file",
+      "sha256": "c81a37ed1a88e3ea1a594b4223ab400b819141eda74522aaee3a1bf1e8632221"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "13cda97042b8610d764685349d6dac2120efef9f3676d76b7c046e27ea307bc9"
+    },
+    "src/commonplace/cli/revise.py": {
+      "kind": "file",
+      "sha256": "d2c6c3b41082e054c38313f3f0ce9a90bff7e14c528c4180af7e7c796da350e3"
+    },
+    "src/commonplace/lib/project_status.py": {
+      "kind": "file",
+      "sha256": "8b16818b3eab144d77e3fc039933f26f5b011f5818cfd7e1041bb5e7977772ae"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "src/commonplace/lib/review_workflows/decisions.py": {
+      "kind": "file",
+      "sha256": "b942e8f86b506884e97c3c8be6f9b0e2081cd309f99c3384e5ce2712640992ad"
+    },
+    "src/commonplace/lib/review_workflows/edit_operations.py": {
+      "kind": "file",
+      "sha256": "48a8329a43f76685cae089249a060bc39f31062b7c2c0f51ca119a4503e9e6d5"
+    },
+    "src/commonplace/lib/review_workflows/edits.py": {
+      "kind": "file",
+      "sha256": "1a66ff64468d19ae438770480d0ba22bdc379eb8359ddcb25dd71ae4dbef3b80"
+    },
+    "src/commonplace/lib/review_workflows/fixtures.py": {
+      "kind": "file",
+      "sha256": "8c6e8530c516a5759d80c2033a8931500eda01066e0603303033cafc0f0578df"
+    },
+    "src/commonplace/lib/review_workflows/gates.py": {
+      "kind": "file",
+      "sha256": "313e25322b5c993398af9c73f87df38c2c678b2c935925208f648196c9f7f81d"
+    },
+    "src/commonplace/lib/review_workflows/revise.py": {
+      "kind": "file",
+      "sha256": "3c6fba70f5944d4dee349a552c51347ca6c45a69561390989dc285b3a0736fc6"
+    },
+    "src/commonplace/lib/review_workflows/rewrite.py": {
+      "kind": "file",
+      "sha256": "622eb61e58878d7dcd4b02ab49fe0b43137ca2cdf97246955d667c7cfe92e614"
+    },
+    "tests/commonplace/review_workflows/test_atom_acceptance.py": {
+      "kind": "file",
+      "sha256": "161ccd199d84fef382b65d249e8ffebedaa94f3c43920fa775b9cc6aa1680581"
+    },
+    "tests/commonplace/review_workflows/test_controller_failures.py": {
+      "kind": "file",
+      "sha256": "48f96d84730eeac72f34fd0b9ef35a11169a6c1dd8d5b5b56d85afb4cd9c624f"
+    },
+    "tests/commonplace/review_workflows/test_edit_operations.py": {
+      "kind": "file",
+      "sha256": "cfe26c0fac8763802f52cfbeaaeb4d2d1fcc3e0179ca3348cdc6459f75945076"
+    },
+    "tests/commonplace/review_workflows/test_gates.py": {
+      "kind": "file",
+      "sha256": "a760e4ffb927c3d7f9d53ec853dff70e65acdba05674c0284e57938dd6fa9266"
+    },
+    "tests/commonplace/review_workflows/test_observations.py": {
+      "kind": "file",
+      "sha256": "becc275938b5adeb974fa17babe38a2f8cad831fbf10108b0786a186f68c90e5"
+    },
+    "tests/commonplace/review_workflows/test_publication.py": {
+      "kind": "file",
+      "sha256": "a49460c25b036be032140568a4bb81b61eb2c4214f59bee47474f06942e6fa1e"
+    },
+    "tests/commonplace/review_workflows/test_review_decisions.py": {
+      "kind": "file",
+      "sha256": "6ca2a624c9262205704e113f16d36e02ca38ffa1c257b1f47f8bc7adedc0dbda"
+    },
+    "tests/commonplace/review_workflows/test_revise.py": {
+      "kind": "file",
+      "sha256": "050aa789dd718794ec6ffe09128f815c8811e0d422dfdace02ae4b942f4702e1"
+    },
+    "tests/commonplace/review_workflows/test_rewrite.py": {
+      "kind": "file",
+      "sha256": "021885e794bf1da75c415888dbe4c0ac95c49db341990c65e968a61f5d43b45c"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "582ad342ee4418b4f12db4a87b9cab5ddccbccdddf9638135528f78fb2397c07",
+  "executor": {
+    "path": "provenance/2dc7b3942aa5be41b59d88867f6322c6fdaf06edd911d741ee15eba767075644.json",
+    "sha256": "2dc7b3942aa5be41b59d88867f6322c6fdaf06edd911d741ee15eba767075644"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/role-in-the-kb-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "bytes": 5430,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0a0c232b23e0aeeb342cad07447c00d57586112a294ded43aca03b510aad033e",
+      "bytes": 1829
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "d7bd3e981c2fd1a6a9217760660d48a00ffacf08807d6ad104bf47f68605907c",
+      "bytes": 7083,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/fe65583feeed43bbadec141606f5f450/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/fe65583feeed43bbadec141606f5f450/review.md": "982e9092c8001acb89004a1d34091efbf670e2bf540769fd8bacee2d34992b6a"
+  },
+  "latest-result": "results/fe65583feeed43bbadec141606f5f450/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/role-in-the-kb-gate",
+      "key": "d1d9f0b190ed241d239b10782c51d0e26ba8a7fb3885d4dabd6cbb75947f3953"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

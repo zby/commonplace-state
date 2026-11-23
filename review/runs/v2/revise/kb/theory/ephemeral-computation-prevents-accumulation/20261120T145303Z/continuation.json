@@ -1,0 +1,21 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145303Z",
+  "made-for": {
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145303Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "failure",
+      "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145303Z/reviews: kb/theory/ephemeral-computation-prevents-accumulation.md::semantic/*: process_error after 3 launch(es): exit 3; error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 137h34m25s.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 137h34m25s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"8a983fa6-00e8-41f7-bdba-fae038d6bbd0-1\"}",
+      "actor": "session-agent",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/ephemeral-computation-prevents-accumulation/20261120T145303Z/report.json"
+      ]
+    }
+  ]
+}

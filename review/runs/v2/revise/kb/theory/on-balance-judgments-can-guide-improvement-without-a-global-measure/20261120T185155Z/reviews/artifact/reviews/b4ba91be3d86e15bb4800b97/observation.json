@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "id": "b4ba91be3d86e15bb4800b97",
+  "request": {
+    "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/explanatory-reach",
+    "call-job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/*",
+    "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "semantic/explanatory-reach",
+    "target-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+    "criterion-bytes-sha256": "8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "177c426cb735cd7cac8c04f70b3bf935be10e57b946ee04804d59b5d448c26ea",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "gate-completeness-boundary-cases.md": "b46ca399a83da384b7f5217f86945cff08f0ae3c084711ab6fec66a558192323",
+      "gate-conceptual-role-conflation.md": "f8badd8635e1273dc87abd558f5631019a4238c75f5af84cf38e64933a44b803",
+      "gate-epistemic-status-blur.md": "ec58b5e74b81528409483b42dd9a8c11730792eda308bab8ce72f962b0d6974f",
+      "gate-explanatory-reach.md": "8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84",
+      "gate-grounding-alignment.md": "c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c",
+      "gate-internal-consistency.md": "05676960f5c1c2a28267be3f8abb77474788e9d59110a62827124e0061e06523",
+      "gate-load-bearing-qualifiers.md": "1e1f9e2efcdcbd278fbaac47775704be52b0891d84e248189ac81fba3bf802e9",
+      "gate-underspecified-assertions.md": "8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410",
+      "gate-unearned-generality.md": "92ea25015eccd7b14c7d95c647809c487d59e7128d0d1e74129c3f1156127023",
+      "gate-unwarranted-scope.md": "d4e59ae95b01188e37f82dcf05610e18712daa7bf913af37ce3f115ed14b0fc9",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "a0b27b7f336100d8d55460e77fd1d6d2c9cf990d",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f03a1bdb9ae166091cc81265ad153b5dcc5f7a8ad0aabc6a6b7e6b9fa1e725dc",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "bytes": 10288,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+      "path": "inputs/criterion.md",
+      "sha256": "8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84",
+      "bytes": 2039,
+      "input": "gate-explanatory-reach.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "177c426cb735cd7cac8c04f70b3bf935be10e57b946ee04804d59b5d448c26ea",
+      "bytes": 4007
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/c479bc55423643ddb825da7ad43b3276/review-explanatory-reach.md"
+  ],
+  "completed-result-sha256": {
+    "results/c479bc55423643ddb825da7ad43b3276/review-explanatory-reach.md": "d95e257bb79357cc2c125ea4a60225200829cd8a1ef8d999d584423aba2d980f"
+  },
+  "latest-result": "results/c479bc55423643ddb825da7ad43b3276/review-explanatory-reach.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/*",
+      "key": "7ff614772e6fb6cd45ebaef52c068d512755215025e32cdbf52dc555cdbe8679"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,1 @@
+- Keep the four commitments, their applications and source attributions, the exclusions, and the restriction on quoting the two un-ingested works. Distinguish a Commonplace application from a claim attributed to Popper.

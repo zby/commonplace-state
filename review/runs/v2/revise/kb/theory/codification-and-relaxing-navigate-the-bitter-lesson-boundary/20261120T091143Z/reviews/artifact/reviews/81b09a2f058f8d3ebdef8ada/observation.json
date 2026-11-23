@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "id": "81b09a2f058f8d3ebdef8ada",
+  "request": {
+    "job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/types/note",
+    "call-job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/types/note",
+    "note": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+    "criterion": "kb/types/note.md",
+    "contract": "verdict",
+    "kind": "type",
+    "criterion-id": "kb/types/note",
+    "target-sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+    "criterion-bytes-sha256": "e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "1a0512623d1bb57b6adfd9a517dbdfacc0e7bbaaaca403606c447142c09e6727",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "criterion.md": "e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2ef45fa35194016fc4d257cac6c0abfa54621135",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "118af3377b0a7f370858db601daede200f96178943b43278c86cf68068e58581",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "path": "inputs/target/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "bytes": 9754,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/types/note.md",
+      "path": "inputs/criterion.md",
+      "sha256": "e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b",
+      "bytes": 3758,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "1a0512623d1bb57b6adfd9a517dbdfacc0e7bbaaaca403606c447142c09e6727",
+      "bytes": 2883
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/ecc780714c5040d398346bf08407c81a/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/ecc780714c5040d398346bf08407c81a/review.md": "15799be547b10f91f93d4a3914e9fd7e7e8567904f22902e3a651482bd4b07c9"
+  },
+  "latest-result": "results/ecc780714c5040d398346bf08407c81a/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/types/note",
+      "key": "7c4b6c2bb52f3a57485d6f249af955ff668a13b83eeb65958df50590fcc37b40"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,669 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z",
+  "artifact": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "ML researchers and agent builders new to the KB should finish the article able to state its two claims (selecting updates to a deployed system's retained instructions or criteria needs a comparison, not a single score; and the bet that a fixed-weight LLM can build the preference model from a stated purpose and make the robust comparison) and how that bet would be tested and could fail.",
+    "must-keep": [
+      "Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline.",
+      "Without a single score describes update selection, not model training.",
+      "Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on.",
+      "Selecting an update needs a comparison among the candidates at hand, including leaving the system unchanged, not a single score.",
+      "A robust comparison can select changes without anyone choosing one scalar weighting.",
+      "The bet: a fixed-weight language model can build the preference model from a stated purpose, make the robust comparison, and decide the cases it leaves open, including revising its working criteria while the declared objective stays fixed.",
+      "The deployed system, not the model alone, is the unit of learning.",
+      "No completed end-to-end automated run is reported.",
+      "Letting a change stand while its verdict is open is a decision, not a demonstrated gain."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "narrow-overclaims",
+        "scope": "Only these sentences: (1) the worked-example summary paragraph beginning 'That sequence establishes three things' (recast as what the constructed illustration shows; the trial beat adding the line as proposed under every compatible measure, while choosing the trial over leaving the file alone was a bounded decision under reversibility); (2) 'Those reasons can be checked and challenged one at a time' (restore the cited note's limit: factual parts can be checked, the weighing cannot be checked independently); (3) 'Once a language model supplies the comparison inside an automated selection loop, the system sits on the computation side of the Bitter Lesson' (make conditional on results scaling with compute); (4) the hazard bullet 'Unlike proof-gated switches, empirical admission admits harmful changes' (contrast what each filter certifies, consistent with the Gödel paragraph); (5) 'is equivalent to no set of value functions' (restrict to strict preferences under a fixed set); (6) 'Pre-training by gradient descent works the same way' and its paragraph (restrict to plain gradient steps). Do not touch the PRODIGY, EURISKO or Harness Evolution paragraphs, the faithfulness sentences, or the closing falsification paragraph."
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The 'Operative dependence' item of the two-part empirical check only; acknowledge that for a change that removed content the counterpart test is restoring the removed entry.",
+        "finding": "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/semantic/completeness-boundary-cases.md"
+      },
+      {
+        "pass": "readability-and-flow",
+        "scope": "Whole article except: the PRODIGY, EURISKO and Harness Evolution paragraphs; the faithfulness sentences in the costs paragraph and the 'Unfaithful rationales' hazard bullet; the closing paragraph beginning 'If controlled runs show'; the sentence 'If selection-based learning over readable stores is not new, why did earlier AI systems not turn it into a general machine learning paradigm?'; and the sentences narrowed by narrow-overclaims (do not re-widen them). Targets: cut the duplicate 'The loop itself is not new.' and keep one novelty disclaimer and the early readable-store scope; merge the overlapping paragraphs after the robust-comparison definition into one on what the model must do instead of computing value functions, keeping 'This says what the judge must do', 'Even consistent answers can neglect a cost', the trial-with-a-cheap-way-back point and the objection-widens-the-set limit; remove the second statement of the narrowing effect while keeping stochastic dominance; compress the Gödel machine paragraph, dropping its closing recap but keeping that it can rewrite its utility under proof; make 'the three precedents' a forward reference and place the consistency caveat after the consistency paragraph; split clause-packed sentences; split the compound 'Where to go next' bullet. Do not move the fuller form of the bet into the opening."
+      },
+      {
+        "pass": "plain-wording",
+        "scope": "'represents the hard-oracle extreme'; 'Honest sets of compatible measures'; 'the paradigm claim stays honest'; 'the system can still act as a bounded decision'; 'a third change revises the review check itself'. Exclude the PRODIGY, EURISKO and Harness Evolution paragraphs and the closing falsification paragraph."
+      },
+      {
+        "pass": "opening-and-title",
+        "scope": "The two opening paragraphs after the draft banner only; keep the title unchanged. Gloss 'addressable' at first mention with the definition link, and make the opening say the deployed system learns by changing retained instructions or criteria without making fixed weights the headline."
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 41
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/tags/deploy-time-learning-README.md",
+          "kb/theory/constraining-during-deployment-can-produce-learning-outside-weights.md",
+          "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+          "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/articles/types/article.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/articles/types/article",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/articles/COLLECTION.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/articles/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/accessibility/unidentified-references.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/articles/COLLECTION.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/prose/mannered-prose.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/prose/proportion-mismatch.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/semantic/completeness-boundary-cases.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/semantic/epistemic-status-blur.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/semantic/grounding-alignment.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/sentence/clause-packing.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/sentence/framing-mismatch.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/sentence/stock-phrases.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/structural/compound-bullet.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/articles/deployment-time-machine-learning-llm-selected-updates.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "narrow-overclaims",
+      "scope": "Only these sentences: (1) the worked-example summary paragraph beginning 'That sequence establishes three things' (recast as what the constructed illustration shows; the trial beat adding the line as proposed under every compatible measure, while choosing the trial over leaving the file alone was a bounded decision under reversibility); (2) 'Those reasons can be checked and challenged one at a time' (restore the cited note's limit: factual parts can be checked, the weighing cannot be checked independently); (3) 'Once a language model supplies the comparison inside an automated selection loop, the system sits on the computation side of the Bitter Lesson' (make conditional on results scaling with compute); (4) the hazard bullet 'Unlike proof-gated switches, empirical admission admits harmful changes' (contrast what each filter certifies, consistent with the Gödel paragraph); (5) 'is equivalent to no set of value functions' (restrict to strict preferences under a fixed set); (6) 'Pre-training by gradient descent works the same way' and its paragraph (restrict to plain gradient steps). Do not touch the PRODIGY, EURISKO or Harness Evolution paragraphs, the faithfulness sentences, or the closing falsification paragraph.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/reports/narrow-overclaims.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/texts/narrow-overclaims.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+      "scope": "The 'Operative dependence' item of the two-part empirical check only; acknowledge that for a change that removed content the counterpart test is restoring the removed entry.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/findings/semantic/completeness-boundary-cases.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/reports/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/texts/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md",
+      "answers": null
+    },
+    {
+      "name": "readability-and-flow",
+      "scope": "Whole article except: the PRODIGY, EURISKO and Harness Evolution paragraphs; the faithfulness sentences in the costs paragraph and the 'Unfaithful rationales' hazard bullet; the closing paragraph beginning 'If controlled runs show'; the sentence 'If selection-based learning over readable stores is not new, why did earlier AI systems not turn it into a general machine learning paradigm?'; and the sentences narrowed by narrow-overclaims (do not re-widen them). Targets: cut the duplicate 'The loop itself is not new.' and keep one novelty disclaimer and the early readable-store scope; merge the overlapping paragraphs after the robust-comparison definition into one on what the model must do instead of computing value functions, keeping 'This says what the judge must do', 'Even consistent answers can neglect a cost', the trial-with-a-cheap-way-back point and the objection-widens-the-set limit; remove the second statement of the narrowing effect while keeping stochastic dominance; compress the Gödel machine paragraph, dropping its closing recap but keeping that it can rewrite its utility under proof; make 'the three precedents' a forward reference and place the consistency caveat after the consistency paragraph; split clause-packed sentences; split the compound 'Where to go next' bullet. Do not move the fuller form of the bet into the opening.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/reports/readability-and-flow.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/texts/readability-and-flow.md",
+      "answers": null
+    },
+    {
+      "name": "plain-wording",
+      "scope": "'represents the hard-oracle extreme'; 'Honest sets of compatible measures'; 'the paradigm claim stays honest'; 'the system can still act as a bounded decision'; 'a third change revises the review check itself'. Exclude the PRODIGY, EURISKO and Harness Evolution paragraphs and the closing falsification paragraph.",
+      "effort": "simple",
+      "finding": null,
+      "state": "waiting",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "sonnet",
+        "effort": "medium"
+      },
+      "model": "claude-sonnet-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/reports/plain-wording.md",
+      "text": null,
+      "answers": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md"
+    },
+    {
+      "name": "opening-and-title",
+      "scope": "The two opening paragraphs after the draft banner only; keep the title unchanged. Gloss 'addressable' at first mention with the definition link, and make the opening say the deployed system learns by changing retained instructions or criteria without making fixed weights the headline.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "pending",
+      "reason": null,
+      "profile": null,
+      "model": null,
+      "report": null,
+      "text": null,
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/texts/readability-and-flow.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.md",
+      "sha256": "de7364c2bdff81e4854c7b93d299ad587921f91ada3618bba09a65c7bc503253",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.diff",
+      "before-sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "entries": [
+        "narrow-overclaims",
+        "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-22T09:51:33Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z",
+    "made-for": {
+      "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "de7364c2bdff81e4854c7b93d299ad587921f91ada3618bba09a65c7bc503253",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "proposals",
+        "what": "The operator decides the proposals of `plain-wording`; the approved items are applied by a new run that names the file.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "command": "commonplace-revise apply kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md --purpose 'ML researchers and agent builders new to the KB should finish the article able to state its two claims (selecting updates to a deployed system'\"'\"'s retained instructions or criteria needs a comparison, not a single score; and the bet that a fixed-weight LLM can build the preference model from a stated purpose and make the robust comparison) and how that bet would be tested and could fail.' --must-keep 'Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline.' --must-keep 'Without a single score describes update selection, not model training.' --must-keep 'Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on.' --must-keep 'Selecting an update needs a comparison among the candidates at hand, including leaving the system unchanged, not a single score.' --must-keep 'A robust comparison can select changes without anyone choosing one scalar weighting.' --must-keep 'The bet: a fixed-weight language model can build the preference model from a stated purpose, make the robust comparison, and decide the cases it leaves open, including revising its working criteria while the declared objective stays fixed.' --must-keep 'The deployed system, not the model alone, is the unit of learning.' --must-keep 'No completed end-to-end automated run is reported.' --must-keep 'Letting a change stand while its verdict is open is a decision, not a demonstrated gain.'",
+          "record": "commonplace-revise answers record kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md"
+        },
+        "answers": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md"
+        ],
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md",
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/edits/aef5ca33d341aeb88b16dd8b/results/716acf9c1bf54a73892dc149c064df07/result.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "direct-entry",
+        "what": "The plan entry `opening-and-title` was not run.",
+        "actor": "worker",
+        "effort": "judgment",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-revise kb/articles/deployment-time-machine-learning-llm-selected-updates.md --plan kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/continue/2.yaml"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/assessment.md",
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plan.yaml",
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/continue/2.yaml"
+        ]
+      },
+      {
+        "id": "3",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "4",
+        "kind": "stale-reviews",
+        "what": "40 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1",
+          "2",
+          "3"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/articles/deployment-time-machine-learning-llm-selected-updates.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "kb/tags/continual-learning-README.md",
+      "kb/theory/automating-kb-learning-is-an-open-problem.md",
+      "kb/theory/constraining-during-deployment-can-produce-learning-outside-weights.md",
+      "kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md",
+      "kb/theory/in-context-learning-presupposes-context-engineering.md",
+      "kb/theory/llm-learning-phases-fall-between-human-learning-modes.md",
+      "kb/theory/orchestration-strategies-and-run-state-have-opposite-persistence.md",
+      "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+      "kb/theory/theory-and-methodology-form-a-two-layer-execution-system.md",
+      "kb/theory/trace-extracted-memory-earns-authority-per-operation-not-at-capture.md",
+      "kb/theory/treat-continual-learning-as-representational-form-coevolution.md",
+      "kb/theory/verifiability-gradient.md",
+      "kb/work/replaying-operator-rulings/experiment-2-two-conditions.md"
+    ]
+  }
+}

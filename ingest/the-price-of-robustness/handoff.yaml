@@ -1,0 +1,17 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/the-price-of-robustness.ingest.md
+snapshot_sha256: 8ca923fa2f1de560247f67b93355973040dd882a77a33a57d8cacbfdef3032cd
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:26:09+01:00'
+occasion: When can many uncertain effects reverse an improvement judgment?
+checks:
+- at: '2026-11-21T09:32:06+01:00'
+  failures: []
+- at: '2026-11-21T09:32:21+01:00'
+  failures: []
+- at: '2026-11-21T09:32:22+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:32:22+01:00'

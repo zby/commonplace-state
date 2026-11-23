@@ -1,0 +1,74 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z",
+  "made-for": {
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "sha256": "de7364c2bdff81e4854c7b93d299ad587921f91ada3618bba09a65c7bc503253",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "proposals",
+      "what": "The operator decides the proposals of `plain-wording`; the approved items are applied by a new run that names the file.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "command": "commonplace-revise apply kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md --purpose 'ML researchers and agent builders new to the KB should finish the article able to state its two claims (selecting updates to a deployed system'\"'\"'s retained instructions or criteria needs a comparison, not a single score; and the bet that a fixed-weight LLM can build the preference model from a stated purpose and make the robust comparison) and how that bet would be tested and could fail.' --must-keep 'Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline.' --must-keep 'Without a single score describes update selection, not model training.' --must-keep 'Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on.' --must-keep 'Selecting an update needs a comparison among the candidates at hand, including leaving the system unchanged, not a single score.' --must-keep 'A robust comparison can select changes without anyone choosing one scalar weighting.' --must-keep 'The bet: a fixed-weight language model can build the preference model from a stated purpose, make the robust comparison, and decide the cases it leaves open, including revising its working criteria while the declared objective stays fixed.' --must-keep 'The deployed system, not the model alone, is the unit of learning.' --must-keep 'No completed end-to-end automated run is reported.' --must-keep 'Letting a change stand while its verdict is open is a decision, not a demonstrated gain.'",
+        "record": "commonplace-revise answers record kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md"
+      },
+      "answers": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md"
+      ],
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plain-wording-answers.md",
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/edits/aef5ca33d341aeb88b16dd8b/results/716acf9c1bf54a73892dc149c064df07/result.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "direct-entry",
+      "what": "The plan entry `opening-and-title` was not run.",
+      "actor": "worker",
+      "effort": "judgment",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-revise kb/articles/deployment-time-machine-learning-llm-selected-updates.md --plan kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/continue/2.yaml"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/assessment.md",
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/plan.yaml",
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/continue/2.yaml"
+      ]
+    },
+    {
+      "id": "3",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "4",
+      "kind": "stale-reviews",
+      "what": "40 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1",
+        "2",
+        "3"
+      ],
+      "how": {
+        "command": "commonplace-review status kb/articles/deployment-time-machine-learning-llm-selected-updates.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "id": "e594ff22d6a862d57cd26c12",
+  "request": {
+    "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::complexity/claim-to-section-ratio",
+    "call-job": "kb/theory/ephemeral-computation-prevents-accumulation.md::complexity/*",
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "complexity/claim-to-section-ratio",
+    "target-sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "criterion-bytes-sha256": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "bfa59683a0f4c8cb3079c17641c5fd66a069e36f8ec6c835feab38b4636be975",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "gate-claim-to-section-ratio.md": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "gate-connection-inflation.md": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "gate-could-be-a-paragraph.md": "808b4e1d3db21875b29916fcc9631eb0dc71dd954e9115c08c137becc6f1ff96",
+      "gate-framework-decoration.md": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d.json",
+    "sha256": "e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "path": "inputs/target/kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "bytes": 5415,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+      "path": "inputs/criterion.md",
+      "sha256": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "bytes": 1355,
+      "input": "gate-claim-to-section-ratio.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "bfa59683a0f4c8cb3079c17641c5fd66a069e36f8ec6c835feab38b4636be975",
+      "bytes": 2809
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/ephemeral-computation-prevents-accumulation.md::complexity/*",
+      "key": "c74bae132ec695d2739f12d69ce9663e090525bc02d17f58ffe9e369463f7b3f"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795186345.6765747,
+      "event": "stopped-call",
+      "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::complexity/*",
+      "key": "c74bae132ec695d2739f12d69ce9663e090525bc02d17f58ffe9e369463f7b3f",
+      "reason": "process_error after 3 launch(es): exit 1; ird_party/jetski/language_server/server.go:2699\n  | main.main.func4\n  | \tthird_party/jetski/cmd/cli/main.go:964\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_amd64.s:1237\nWraps: (4) open /home/zby/.gemini/antigravity-cli/installation_id\nWraps: (5) read-only file system\nError types: (1) *withstack.withStack (2) *withstack.withStack (3) *withstack.withStack (4) *fs.PathError (5) syscall.Errno\nFailed to start: open /home/zby/.gemini/antigravity-cli/installation_id: read-only file system"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

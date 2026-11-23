@@ -1,0 +1,23 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/doyle-1979-glimpse-of-truth-maintenance.ingest.md
+snapshot_sha256: e90eb4787f14427e7fc05b3e43290357edcee80106ded6a4553a0b4a9fd2c950
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T15:36:19+01:00'
+occasion: 'Background for kb/work/learning-method-name (deliberative learning), condition
+  3 "open to criticism". Questions: how recorded reasons let the system withdraw an
+  accepted belief; what triggers revision (contradiction only, or more); whether the
+  system itself starts the reconsideration; what it says about choosing what to believe.
+  Capture note: the snapshot is uncorrected OCR of an image-only PDF; where a passage
+  matters, confirm its wording against the page images in /home/zby/Downloads/0051.pdf
+  and do not rely on uncorrected OCR wording.'
+checks:
+- at: '2026-11-21T15:40:35+01:00'
+  failures: []
+- at: '2026-11-21T15:40:44+01:00'
+  failures: []
+- at: '2026-11-21T15:40:46+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T15:40:46+01:00'

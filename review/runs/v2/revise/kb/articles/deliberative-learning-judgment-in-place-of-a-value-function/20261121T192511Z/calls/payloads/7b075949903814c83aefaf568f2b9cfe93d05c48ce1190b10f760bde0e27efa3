@@ -1,0 +1,1 @@
+Only the sentence ending 'pure triggers that write on a count without judging what was written all fail the second': reorder it so the verb comes before the list.

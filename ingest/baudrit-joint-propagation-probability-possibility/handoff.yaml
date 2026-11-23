@@ -1,0 +1,17 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/baudrit-joint-propagation-probability-possibility.ingest.md
+snapshot_sha256: 337f7ef2a9d1ec82900d77864ce17c760218892d0cde317f8cca7d5b0e59a36a
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:27:21+01:00'
+occasion: How can a comparison handle both stochastic outcomes and imprecise inputs?
+checks:
+- at: '2026-11-21T09:30:58+01:00'
+  failures: []
+- at: '2026-11-21T09:31:16+01:00'
+  failures: []
+- at: '2026-11-21T09:31:16+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:31:16+01:00'

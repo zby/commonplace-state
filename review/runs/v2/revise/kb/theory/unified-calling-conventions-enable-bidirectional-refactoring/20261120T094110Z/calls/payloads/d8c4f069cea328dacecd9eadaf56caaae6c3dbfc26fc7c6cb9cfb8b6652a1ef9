@@ -1,0 +1,1 @@
+- A team may temporarily replace working code with a prompt in a test run to compare proposed behaviors behind the same interface. This need not reflect brittleness or scaling. If prompt edits make exploration cheaper, the chosen behavior can still return to code for production.

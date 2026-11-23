@@ -1,0 +1,25 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/zollo-winter-routines-to-dynamic-capabilities.ingest.md
+snapshot_sha256: 56ee436dfe115fe31a808158c169aeadb2b904b1633a17153fcb57b57e64b615
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T15:30:41+01:00'
+occasion: 'Background for a workshop naming a learning method ("deliberative learning"),
+  ingesting the open working-paper precursor (INSEAD WP 99/48, 1999) of Zollo & Winter
+  (2002), "Deliberate Learning and the Evolution of Dynamic Capabilities", Organization
+  Science 13(3):339-351, doi:10.1287/orsc.13.3.339.2780; record that the ingest covers
+  the working paper, not the 2002 article. The paper''s "codification" (written manuals,
+  post-mortems, tools) is not the KB''s registered term Codification; record the difference.
+  Questions: how "deliberate learning" is defined against experience accumulation;
+  the roles of knowledge articulation and codification; by what judgment a changed
+  routine is kept; whether the criteria themselves are revisable.'
+checks:
+- at: '2026-11-21T15:32:53+01:00'
+  failures: []
+- at: '2026-11-21T15:33:04+01:00'
+  failures: []
+- at: '2026-11-21T15:33:06+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T15:33:06+01:00'

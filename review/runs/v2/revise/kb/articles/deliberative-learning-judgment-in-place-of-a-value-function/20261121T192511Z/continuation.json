@@ -1,0 +1,36 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z",
+  "made-for": {
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "sha256": "1335b0e97e515ab6067688700c1167230cc7df9b340d894fc8ef35a5882c4a11",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "stale-reviews",
+      "what": "40 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-review status kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md --stale"
+      },
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

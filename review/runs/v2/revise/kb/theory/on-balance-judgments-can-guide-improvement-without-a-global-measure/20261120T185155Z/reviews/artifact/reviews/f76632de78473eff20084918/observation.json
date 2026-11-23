@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "id": "f76632de78473eff20084918",
+  "request": {
+    "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/notation-opacity",
+    "call-job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/*",
+    "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "accessibility/notation-opacity",
+    "target-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+    "criterion-bytes-sha256": "1169b01cde2019fc32462be33de88364d0eebd8a030621ab4fd4143257dc17fe",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "1e54022c61c0c81d8932e55819d1e9f83e9adf7947a6fe9e57701bff22a854c6",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "gate-jargon-persistence.md": "386074809a9cd2540746a963a84a5bf1f956f7eecea6d32384c5c702709e51d5",
+      "gate-notation-opacity.md": "1169b01cde2019fc32462be33de88364d0eebd8a030621ab4fd4143257dc17fe",
+      "gate-undefined-terms.md": "a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38",
+      "gate-unidentified-references.md": "422847c587793f494bfa140e10c46772cc1decaf72d3a611ec83daa39da288c3",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "a0b27b7f336100d8d55460e77fd1d6d2c9cf990d",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f03a1bdb9ae166091cc81265ad153b5dcc5f7a8ad0aabc6a6b7e6b9fa1e725dc",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "bytes": 10288,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+      "path": "inputs/criterion.md",
+      "sha256": "1169b01cde2019fc32462be33de88364d0eebd8a030621ab4fd4143257dc17fe",
+      "bytes": 1519,
+      "input": "gate-notation-opacity.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "1e54022c61c0c81d8932e55819d1e9f83e9adf7947a6fe9e57701bff22a854c6",
+      "bytes": 2815
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/c3a0c78c628a435a90d0c342719069f5/review-notation-opacity.md"
+  ],
+  "completed-result-sha256": {
+    "results/c3a0c78c628a435a90d0c342719069f5/review-notation-opacity.md": "dadcc038d38cd810a47568fd60d50a51caf0b4a6254c8d92e296eba5e3867fca"
+  },
+  "latest-result": "results/c3a0c78c628a435a90d0c342719069f5/review-notation-opacity.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/*",
+      "key": "c52739986e5ac74dfb50335dd9d90af05e31626c0119ca7aebcb0c9dd0c5f638"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

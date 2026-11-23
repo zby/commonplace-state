@@ -1,0 +1,594 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z",
+  "artifact": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Explain how on-balance judgments guide decisions without a global measure, and where analysis helps or stops.",
+    "must-keep": [
+      "Preserve the agreed title, the section anchor what-commonplace-chooses-to-count used by four references, and the distinction between a Commonplace practical choice and a universal measure.",
+      "Keep contrasting worked examples, including the Python release and routing threshold.",
+      "For the decision at hand, investigate an unknown only if a plausible answer could reverse the choice.",
+      "For Commonplace, we choose changes by asking whether they yield more useful and better-warranted knowledge work for the human judgment spent, on balance. (keep verbatim; four dependents rely on it)",
+      "This is a practical commitment about the work we value, not a claim that every project should use the same measure.",
+      "On balance, yes. (the Python 3.11-over-3.10 default judgment)",
+      "Even a perfect attendance count would not decide which hours to keep."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "narrow-overclaims",
+        "scope": "Only two sentences: 'Those reasons can be checked independently of who offered them.' in the closing paragraph (narrow to the factual reasons; the weighing is criticizable, not verifiable) and 'The compatibility cost falls on identifiable callers' in the paragraph after the 3.11 table (narrow to losses a team can find by testing dependencies before moving)."
+      },
+      {
+        "pass": "readability-and-flow",
+        "scope": "Whole body except the 'What Commonplace chooses to count' section (heading, both paragraphs), the bolded investigation-rule sentence, and the closing paragraph. Add one general sentence after the opening Python 2/3 example stating both halves of the claim, with the reversal rule still scoped to the decision at hand. Move the library-hours case into 'What analysis can settle' as the illustration for 'Who gains, and who bears the loss?', shorten that bullet's gloss to a back-reference, cut 'Asking for another month of counts would miss the disagreement.', fold the transfer gloss into a clause but keep the hypothetical marker and both branches. Replace 'even on the first name' with an unambiguous referent such as the ASCII name; name the AGENTS.md table where 'a longer table' and 'the whole table' appear; delete 'This distinction guides a decision.'"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/accessibility/unidentified-references.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/theory/COLLECTION.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/types/note.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/semantic/completeness-boundary-cases.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/sentence/stock-phrases.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/structural/general-before-specific.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "narrow-overclaims",
+      "scope": "Only two sentences: 'Those reasons can be checked independently of who offered them.' in the closing paragraph (narrow to the factual reasons; the weighing is criticizable, not verifiable) and 'The compatibility cost falls on identifiable callers' in the paragraph after the 3.11 table (narrow to losses a team can find by testing dependencies before moving).",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/reports/narrow-overclaims.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/texts/narrow-overclaims.md",
+      "answers": null
+    },
+    {
+      "name": "readability-and-flow",
+      "scope": "Whole body except the 'What Commonplace chooses to count' section (heading, both paragraphs), the bolded investigation-rule sentence, and the closing paragraph. Add one general sentence after the opening Python 2/3 example stating both halves of the claim, with the reversal rule still scoped to the decision at hand. Move the library-hours case into 'What analysis can settle' as the illustration for 'Who gains, and who bears the loss?', shorten that bullet's gloss to a back-reference, cut 'Asking for another month of counts would miss the disagreement.', fold the transfer gloss into a clause but keep the hypothetical marker and both branches. Replace 'even on the first name' with an unambiguous referent such as the ASCII name; name the AGENTS.md table where 'a longer table' and 'the whole table' appear; delete 'This distinction guides a decision.'",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/reports/readability-and-flow.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/texts/readability-and-flow.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/texts/readability-and-flow.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.md",
+      "sha256": "70b84b8da505ceb772b7e780e0a00d42facf27d4439cea6a7602146b64e5875c",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.diff",
+      "before-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "entries": [
+        "narrow-overclaims",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T19:03:44Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z",
+    "made-for": {
+      "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "70b84b8da505ceb772b7e780e0a00d42facf27d4439cea6a7602146b64e5875c",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "stale-reviews",
+        "what": "44 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure/20261120T185155Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

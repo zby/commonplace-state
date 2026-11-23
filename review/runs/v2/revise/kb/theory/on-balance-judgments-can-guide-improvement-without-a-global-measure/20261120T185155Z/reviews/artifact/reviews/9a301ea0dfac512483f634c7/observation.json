@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "id": "9a301ea0dfac512483f634c7",
+  "request": {
+    "job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/redundant-restatement",
+    "call-job": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/*",
+    "note": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+    "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/redundant-restatement",
+    "target-sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+    "criterion-bytes-sha256": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "b5e8459c330d709c1c9d2f7749246d7718df75f2a3e5ef69cf88cbf51b8003fc",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "a0b27b7f336100d8d55460e77fd1d6d2c9cf990d",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f03a1bdb9ae166091cc81265ad153b5dcc5f7a8ad0aabc6a6b7e6b9fa1e725dc",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "path": "inputs/target/kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md",
+      "sha256": "010b6595056ba8f2bc32a244120b52e4c464357f17cbe7d3fede758464f8391b",
+      "bytes": 10288,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/redundant-restatement.md",
+      "path": "inputs/criterion.md",
+      "sha256": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "bytes": 1834,
+      "input": "gate-redundant-restatement.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "b5e8459c330d709c1c9d2f7749246d7718df75f2a3e5ef69cf88cbf51b8003fc",
+      "bytes": 3341
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/32816be3282745488aa71d2e6743f69c/review-redundant-restatement.md"
+  ],
+  "completed-result-sha256": {
+    "results/32816be3282745488aa71d2e6743f69c/review-redundant-restatement.md": "61a9cb344ea4880e678ea15d48e78334bfb66733e34e11f7a269bd3c807eb7fe"
+  },
+  "latest-result": "results/32816be3282745488aa71d2e6743f69c/review-redundant-restatement.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/on-balance-judgments-can-guide-improvement-without-a-global-measure.md::prose/*",
+      "key": "a8b3f8177e9105f803f0022d08ab5928ca8a5f8a89d49a4bd5f68b718a26bd14"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

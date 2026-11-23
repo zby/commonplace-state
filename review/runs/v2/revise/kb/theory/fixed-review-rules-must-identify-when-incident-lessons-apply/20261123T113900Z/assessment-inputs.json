@@ -1,0 +1,559 @@
+{
+  "findings": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/frontmatter/claim-strength.md",
+      "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "criterion_id": "frontmatter/claim-strength",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/frontmatter/claim-strength.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 7f93a4da2702212e99df1dc11c85119dc8050b09020512b4bcaadf6f8ac41929\ncriterion: kb/instructions/review-gates/frontmatter/claim-strength.md\ncriterion-sha256: 93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 83b0772e8ccc44e7a507e7f3b9b27092\ncompleted-at: '2026-11-23T11:40:02Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: The main predicate is close to a truism. Few informed readers would deny\n    that a lesson helps only when someone can tell when it applies. The contestable\n    points the note makes are elsewhere. First, the rule need not change as incidents\n    accumulate. Second, applicability follows a structural feature of the earlier\n    failure rather than surface matches such as source names. The first point is only\n    presupposed in the subject ('A fixed review rule can use lessons'); the second\n    is absent. Moving one of these points into the main claim would strengthen the\n    title.\n  level: warn\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/83b0772e8ccc44e7a507e7f3b9b27092/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/7cab57d7191567ee83ec69bd/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/83b0772e8ccc44e7a507e7f3b9b27092/outputs/review-claim-strength.md\nraw-output-sha256: 44a492eee16ac2a634166bd53ed6d3a908c38ad358d3c14aceea2b8ff0e665b6\n---\n\n# Review\n\nOpposite-argument test: could someone informed reasonably argue that a fixed rule can use incident lessons *without* anyone identifying when they apply? Hardly. Applying a lesson already involves recognizing that it applies, so the \"only if\" condition is nearly analytic.\n\nThe note does make contestable claims, but the title does not. One is that a standing \"check past incidents\" instruction can stay fixed while its effective content grows; someone could argue that each incident should add a specific checklist item. The other is that a lesson transfers through a structural feature, such as two sources sharing an origin when the claim depends on their independence, and not through name-based lookup. The title presupposes the first claim in its subject and leaves the second out. This matches the gate's presupposed-claim pattern: the hard point sits in the subject and the predicate is weak.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/frontmatter/title-body-alignment.md",
+      "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+      "criterion_id": "frontmatter/title-body-alignment",
+      "depth": 6,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/frontmatter/title-body-alignment.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 95a96b6ebc805d6224f792a284db83f897cf0cba8ca3a08efe1eecb659fb79f4\ncriterion: kb/instructions/review-gates/frontmatter/title-body-alignment.md\ncriterion-sha256: de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 83b0772e8ccc44e7a507e7f3b9b27092\ncompleted-at: '2026-11-23T11:40:02Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: 'Claim drift on who identifies applicability. Grammatically, the title makes\n    the rule (''it'') the thing that must identify when a lesson applies. The body\n    says the opposite: the rule only says where to look and ''does not tell the reviewer\n    which earlier failure bears on the page at hand''. The reviewer recognizes the\n    connection, and the rule stays unchanged. What the body establishes is that a\n    fixed instruction to consult past incidents can carry new lessons without itself\n    changing, provided the reviewer recognizes the structural feature of the earlier\n    failure (here, shared origin behind supposedly independent support) rather than\n    matching surface details such as source names. The title should place the identification\n    with the reviewer and keep the point that the rule need not change.'\n  level: warn\n- scope: passage\n  quotes:\n  - The incident shows what the review must distinguish, not that the review rule\n    must change.\n  reason: The body's conclusion is that incidents refine what the review must distinguish\n    while the rule stays fixed. The title does not carry this point. It states a necessary\n    condition ('only if') but omits the body's main positive claim, so a reader of\n    the title alone would not learn that the rule need not change.\n  level: info\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/83b0772e8ccc44e7a507e7f3b9b27092/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/7626ce045d873bdd65a2da62/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/83b0772e8ccc44e7a507e7f3b9b27092/outputs/review-title-body-alignment.md\nraw-output-sha256: c9bc990a97833c49d635ebd3c2cc9b45b9ce190a05188cb8d6b8092845138f35\n---\n\n# Review\n\nThe body is short and consistent. A standing rule such as \"check past incidents\" tells the reviewer where to look but not which earlier failure applies. The citation example shows that a lesson transfers through a structural feature (shared origin behind supposedly independent support), which a lookup by source name would miss. The test of success is whether the reviewer separates apparent corroboration from independent support. The incident changes what the review must distinguish, not the rule.\n\nThe H1 broadly matches this topic, but it gives the identifying role to the wrong agent. \"It can identify\" refers back to the rule, while the body explicitly denies that the rule identifies anything and gives that work to the reviewer. A version such as \"A fixed review rule can absorb new incident lessons when the reviewer recognizes the failure's structural feature\" would match the body.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/theory/COLLECTION.md",
+      "criterion": "kb/theory/COLLECTION.md",
+      "criterion_id": "kb/theory/COLLECTION",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/theory/COLLECTION.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/theory/COLLECTION.md\ncriterion-sha256: 95ad0d6ce3828b25282f7610268c4e1aca006fa34526bc2b4e4056f3e271cccd\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: ed4b6fdf80024520be3c128d5bde5a32\ncompleted-at: '2026-11-23T11:41:10Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  - A reviewer following the original instruction could still recognize it.\n  reason: 'The collection treats qualifiers and the subject of the title, description,\n    opening claim and main argument as obligations, and asks that someone could say\n    exactly how the claim is wrong. The title puts the identifying capacity on the\n    rule (''it can identify''), but the description and body put it on the reviewer:\n    the instruction ''does not tell the reviewer which earlier failure bears on the\n    page'', and the reviewer, not the rule, recognizes the shared-origin case. A reader\n    therefore cannot tell what the claim forbids — a fixed rule that does not encode\n    applicability conditions, or a reviewer who cannot recognize them. State the claim\n    once, with one bearer of the condition, across title, description and opening.'\n  level: warn\n- scope: document\n  quotes: []\n  reason: Explanatory-reach asks the note to account for where the pattern works and\n    fails and to keep real boundaries explicit in the claim or in `## Scope`/`## Open\n    Questions`. The title is an 'only if' condition, but the body works through only\n    the case where the condition is met (the reviewer recognizes the shared origin).\n    It never shows the failure side — what happens to a fixed rule when the reviewer\n    cannot identify which feature of an earlier incident applies, or when the rule\n    must change — and it names no gap. Because the collection calls explanatory-reach\n    a direction rather than a gate, this is advisory.\n  level: info\n- scope: document\n  quotes: []\n  reason: The note has no outbound links. The contract does not require them, so this\n    is no violation, but a claim about reusing incident lessons under a fixed review\n    rule probably has premise or contrast neighbours in kb/theory/ (for example, continual-learning\n    and review-rule notes) that a reader would want. A connect pass could find them.\n  level: info\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/ed4b6fdf80024520be3c128d5bde5a32/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/1551b8a9c131cd0eb18ecc39/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/ed4b6fdf80024520be3c128d5bde5a32/outputs/review.md\nraw-output-sha256: bbb6a111be9dc139e605fd4b6c36f1f74ec453397251ce53218b2524e558da55\n---\n\n# Review\n\nThe note belongs in `kb/theory/`. It makes a transferable, truth-apt claim about review rules and incident learning. It names no Commonplace system choice that would need scoping, and it is not a procedure or a design record. Its read is universal by default, which the contract allows. It cites no sources, so the source-grounding bound does not apply. It does not link into `kb/work/`, and nothing it says is defensive padding.\n\nThe main gap is in how the claim is stated. The title says the *rule* must be able to identify when a lesson applies. The description and the body say the rule leaves that identification to the *reviewer*, and they show the reviewer doing it. The collection's explanatory-reach guidance treats the claim surfaces as obligations and asks for a claim whose failure can be stated exactly. Here, which party carries the condition changes what would refute the claim, so the mismatch is a WARN.\n\nSecondary points are advisory. The note shows only the side of its \"only if\" where the condition holds. It has no boundary or open-question section for the case where the condition fails. It also has no links to neighbouring theory.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/types/note.md",
+      "criterion": "kb/types/note.md",
+      "criterion_id": "kb/types/note",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/types/note.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/types/note.md\ncriterion-sha256: e111a08a6571349949088c99b6e0f61f50c60864f83079bdfc22a2ebcbb17a4b\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 9700cd01fa04439a8165fe7de390428c\ncompleted-at: '2026-11-23T11:40:34Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: The Writing Shape instruction 'Link to adjacent notes where the relationship\n    helps traversal' goes unmet. The note has no inline links and no Relevant Notes\n    footer, although the template includes one. Its subject is incident-driven review,\n    transfer of lessons and fixed versus changing review rules, and it carries the\n    continual-learning tag, so adjacent KB notes clearly exist. A reader who reaches\n    this note cannot traverse to the notes it qualifies or extends.\n  level: warn\n- scope: document\n  quotes: []\n  reason: 'No `## Scope` section is present. The type permits omission only when no\n    limit is known. The note''s own example implies a limit it leaves unstated: the\n    argument depends on a reviewer who can abstract the relevant feature (shared origin\n    under an independence assumption) from an incident with different surface details.\n    A known failure case is a reviewer who retrieves incidents only by surface match.\n    This is borderline because the body partly addresses it inline (''A lookup by\n    source name would miss that connection''), so it is recorded as info rather than\n    as an unmet instruction.'\n  level: info\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/9700cd01fa04439a8165fe7de390428c/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/75b869bb58f5e90aa558e248/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/9700cd01fa04439a8165fe7de390428c/outputs/review.md\nraw-output-sha256: bc8c00574ac26e7393b71c27fa66f890c6ddf08c834b3a900b261358910abbf9\n---\n\n# Review\n\nThe note mostly follows the `note` type's authoring instructions. The title works as a compressed handle and states a proposition. The main claim appears in the first paragraph: a standing rule says where to look, not which earlier failure bears on the case. The body is explanatory rationale, not imperative procedure, so it respects the split between notes and instructions. The wiki-citation example makes the mechanism concrete, and the final paragraph states the test the claim implies.\n\nThe unmet instruction concerns traversal. The template ends with a Relevant Notes footer, and the Writing Shape section asks for links to adjacent notes where the relationship helps traversal. This note has no outbound links at all. Its topic sits among other KB material on review rules, incident lessons and continual learning, so the relationship is not hypothetical. With no links, the note is isolated from the material it refines.\n\nScope is a lesser concern. The note leaves its dependence on the reviewer's ability to abstract features implicit. The instruction allows the Scope section to be omitted, and the body gestures at the failure case, so this does not raise the outcome.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/explanatory-reach.md",
+      "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+      "criterion_id": "semantic/explanatory-reach",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/semantic/explanatory-reach.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 6b9410142685c447424f1bfcc9f187405069541a6a0006b521ec43e2daea610e\ncriterion: kb/instructions/review-gates/semantic/explanatory-reach.md\ncriterion-sha256: 8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 3d5f3f82607d4baab0a730a410af81c8\ncompleted-at: '2026-11-23T11:41:42Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: 'As worded, the central claim is close to analytic: a lesson cannot be applied\n    without telling when it applies. No observation could contradict it, so it forbids\n    almost nothing. The substantive part is in the body, not the title: the instruction\n    supplies only where to look, and recognizing applicability depends on a structural\n    feature (shared origin plus reliance on independence), not on surface identifiers.'\n  level: warn\n- scope: passage\n  quotes:\n  - A reviewer following the original instruction could still recognize it.\n  reason: This sentence carries the note's conclusion that the rule need not change,\n    but it gives no mechanism for recognition. It does not say what the reviewer must\n    already hold, such as the concept of independence, or when recognition would fail.\n    The note therefore states no condition under which a fixed rule would stop being\n    enough. Varying what the reviewer knows leaves the sentence equally plausible.\n  level: warn\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/513c17de33225f74041ecc5c/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/outputs/review-explanatory-reach.md\nraw-output-sha256: 5b9197ded45a24ee78275d31d4e0fd6b290980b8a10c908f16caf080faf7fc8d\n---\n\n# Review\n\n## Summary\n\nThe note has a partial mechanism. The instruction names a location, not relevance, and a lesson transfers through a structural feature that a lookup by name would miss. The second point is constrained and testable. However, the title's \"only if\" is nearly true by definition, so it adds little content. The body's main move, that a reviewer following the unchanged rule \"could still recognize\" the lesson, does not say what makes recognition possible or what would make it fail. Without that, nothing in the argument says when an incident would show that the rule must change. The closing sentence's contrast is therefore not hard to vary.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/internal-consistency.md",
+      "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+      "criterion_id": "semantic/internal-consistency",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/semantic/internal-consistency.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 6b9410142685c447424f1bfcc9f187405069541a6a0006b521ec43e2daea610e\ncriterion: kb/instructions/review-gates/semantic/internal-consistency.md\ncriterion-sha256: 05676960f5c1c2a28267be3f8abb77474788e9d59110a62827124e0061e06523\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 3d5f3f82607d4baab0a730a410af81c8\ncompleted-at: '2026-11-23T11:41:42Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  - It does not tell the reviewer which earlier failure bears on the page at hand.\n  reason: 'The title makes the rule (\"it\") the thing that must identify when a lesson\n    applies. The body says the instruction does not tell the reviewer which earlier\n    failure bears on the page, and that the reviewer does the recognizing. On the\n    title''s literal reading, the rule does not identify applicability and so cannot\n    use new lessons. The body concludes the opposite: the unchanged rule still works\n    through the reviewer. Either \"it\" refers to the review or the reviewer rather\n    than the rule, which is a shift, or the title contradicts the body.'\n  level: warn\n- scope: passage\n  quotes:\n  - The incident shows what the review must distinguish, not that the review rule\n    must change.\n  reason: The closing sentence says the rule need not change. A title read as a requirement\n    on the rule (the file slug says rules \"must identify\") suggests the rule needs\n    a capability or content it currently lacks. Read together, the title and the conclusion\n    point in opposite directions about whether the rule itself must do more.\n  level: info\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/07bf6c6e9d4576fd6d018fff/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/outputs/review-internal-consistency.md\nraw-output-sha256: dde646de8b2fab41d7664f26ab7c4149a9a07f7ae8df11c630babba63a77aab3\n---\n\n# Review\n\n## Summary\n\nThe body is consistent within itself. The instruction supplies a location, the reviewer supplies recognition of applicability, and so the rule can stay fixed. The title places the identification requirement on the rule. Read literally, that contradicts the body's point that the rule does not say which failure bears on the case and still does not need to change. The likely intended reading is \"the review applying it\", but the text does not say so, and the agent of identification drifts from the rule to the reviewer between the title and the body.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/semantic/underspecified-assertions.md",
+      "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+      "criterion_id": "semantic/underspecified-assertions",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/semantic/underspecified-assertions.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 6b9410142685c447424f1bfcc9f187405069541a6a0006b521ec43e2daea610e\ncriterion: kb/instructions/review-gates/semantic/underspecified-assertions.md\ncriterion-sha256: 8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 3d5f3f82607d4baab0a730a410af81c8\ncompleted-at: '2026-11-23T11:41:42Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: 'The unresolved choice is which mechanism or agent does the identifying.\n    Reading A: the rule text must itself encode when each lesson applies. Then the\n    rule must be revised as incidents accumulate, and support would need evidence\n    that rule content determines applicability. Reading B: the review that applies\n    the rule, through the reviewer, must be able to recognize applicability. Then\n    the rule can stay fixed, and support would concern reviewer capability. The body\n    favours B but never resolves the title''s \"it\". The choice decides whether the\n    note recommends changing the rule or relying on the reviewer, which is the note''s\n    own conclusion.'\n  level: warn\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/40badeb11f9bd57c83402028/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/3d5f3f82607d4baab0a730a410af81c8/outputs/review-underspecified-assertions.md\nraw-output-sha256: ae24ed5d2fa9dc216be2b3ff5f652b182f1f824df23a219ffa5c29fe1b0f2795\n---\n\n# Review\n\n## Summary\n\nThe central assertion is the title. Its pronoun \"it\" can refer to the rule or to the review applying the rule, and the two readings have opposite consequences: the rule must change as lessons accumulate, or the rule can stay fixed. The body's example and closing sentence favour the reviewer reading. They do not settle what the title asserts, because the title grammatically assigns identification to the rule. Other assertions pass. The example's condition for when the lesson applies (shared origin plus reliance on independence) is stated precisely.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/sentence/framing-mismatch.md",
+      "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+      "criterion_id": "sentence/framing-mismatch",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/review-gates/sentence/framing-mismatch.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: 6b9410142685c447424f1bfcc9f187405069541a6a0006b521ec43e2daea610e\ncriterion: kb/instructions/review-gates/sentence/framing-mismatch.md\ncriterion-sha256: ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 2021ef15d4474341b7b3eafc0e8aa06b\ncompleted-at: '2026-11-23T11:40:31Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: 'The title puts the identifying capacity in the rule: grammatically, ''it''\n    is the fixed review rule. The body puts it in the reviewer. The instruction ''does\n    not tell the reviewer which earlier failure bears on the page'', ''A reviewer\n    following the original instruction could still recognize it'', and the rule need\n    not change. The mechanism is the reviewer recognizing the relevant feature of\n    an earlier incident, not the rule identifying applicability. So the title points\n    the reader toward a requirement on the rule''s content, which the closing sentence\n    (''not that the review rule must change'') rejects. Reframe the condition around\n    the reviewer, or around rule plus reviewer, e.g. ''only if the reviewer can identify\n    when they apply''.'\n  level: warn\ncontract: verdict\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/2021ef15d4474341b7b3eafc0e8aa06b/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/19f775c06f339065e28357a9/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/2021ef15d4474341b7b3eafc0e8aa06b/outputs/review-framing-mismatch.md\nraw-output-sha256: e1337e9d131808b754c26591fea3166dafc6283356d4890b3a9c66464cdc2cb6\n---\n\n# Review\n\nThe body's sentences correctly identify the mechanism. A standing instruction says where to look. The reviewer must recognize which feature of an earlier failure, here a shared origin behind apparent independence, bears on the new case. The test is whether the reviewer draws that distinction, not whether it retrieves the incident.\n\nThe title frames the same condition as a capacity of the rule (\"it can identify when they apply\"). That misdirects the reader. It suggests the rule's text must encode applicability conditions, the reading the last paragraph explicitly denies. The framing excludes the case the body actually describes: an unchanged rule whose reviewer supplies the recognition. Under this gate's severity rule, that is a WARN.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 6e789a3c72156944d9b8f1322f23bbba3dec8f966da5a398c36cbea0c37230fc\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 410ee85c9bc94cf994fc484b25fb028f\ncompleted-at: '2026-11-23T11:42:40Z'\nfindings:\n- scope: passage\n  quotes:\n  - The incident shows what the review must distinguish, not that the review rule\n    must change.\n  reason: UNSUPPORTED — the note generalizes from one constructed example to the claim\n    that incidents never require changing the rule. It does not show that recognizing\n    a lesson needs no change to the rule. Its own title makes use conditional on the\n    rule identifying when lessons apply, which, read literally, suggests the rule\n    should encode that applicability. The conclusion is asserted, not derived.\n- scope: passage\n  quotes:\n  - A reviewer following the original instruction could still recognize it.\n  reason: UNSUPPORTED — the note never says how the reviewer recognizes the connection.\n    The first paragraph says the instruction 'does not tell the reviewer which earlier\n    failure bears on the page at hand', so whatever makes recognition possible lies\n    outside the instruction. The note does not name that source (reviewer competence,\n    how the incident is recorded, or something else). 'Could still' therefore leaves\n    open whether the fixed rule did any work.\n- scope: passage\n  quotes:\n  - It does not tell the reviewer which earlier failure bears on the page at hand.\n  reason: THIN — this establishes a gap in the instruction. It does not establish\n    the title's 'only if', that use of new lessons depends on identifying applicability.\n    The title also makes the rule the subject that must identify ('a fixed review\n    rule can use lessons … only if it can identify'), while the body places identification\n    in the reviewer. The joint between the two subjects is never stated.\n- scope: passage\n  quotes:\n  - The test is not whether the reviewer retrieved the incident. It is whether the\n    reviewer distinguishes apparent corroboration from independent support on the\n    new page.\n  reason: 'THIN — the example supports applying the distinction as the deciding step.\n    The contrast overstates it: retrieval remains a precondition, since a reviewer\n    who never consults the incident cannot apply its lesson. ''Not retrieval'' needs\n    to be ''not retrieval alone''. The test is also stated for one incident type,\n    and the note does not show it generalizes.'\n- scope: passage\n  quotes:\n  - The lesson still applies if the new sources also share an origin and the claim\n    relies on their independence. A lookup by source name would miss that connection.\n  reason: HOLDS — the example states its applicability condition explicitly (shared\n    origin plus reliance on independence). The new page shares no source names with\n    the old one, so a name-keyed lookup cannot match. Both steps follow from the construction.\ncontract: report\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/410ee85c9bc94cf994fc484b25fb028f/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/8110ab8a3e81a327b3dba6de/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/410ee85c9bc94cf994fc484b25fb028f/outputs/review.md\nraw-output-sha256: 4466b4b20e83d410cc1862ac00f0a843e4eaf208d440b0bee043686cb0836388\n---\n\n# Friction check: fixed review rules and when incident lessons apply\n\n**Central claim (one sentence):** A fixed instruction to consult past incidents can stay unchanged as incidents accumulate, but a new incident helps only when the reviewer recognizes which distinction it teaches applies to the case at hand, so incidents change what the review must distinguish rather than the rule.\n\n## Filter\n**Filter:** SURVIVES\n\nThe note asks for three things at once: the rule stays fixed, new lessons get used, and applicability is judged case by case. These can coexist if the applicability judgment comes from something other than the rule text. The note implies that but does not name it. The claim concretizes to one thing. There is a strain, not a contradiction: the title makes the rule responsible for identifying applicability, while the body says the rule cannot do that and gives the job to the reviewer.\n\n## Thinnest joints\n\nThe two UNSUPPORTED joints rank first because they carry the note's conclusion. One is the claim that the rule need not change. The other is the claim that a reviewer following the unchanged rule could still recognize the connection. Neither names the mechanism that turns an unchanged rule plus an incident record into a recognized applicability. The note's first paragraph rules out the instruction as that mechanism. The THIN joints come next. The \"only if\" in the title is motivated by a gap but not shown to be necessary, and it shifts subject from rule to reviewer. The retrieval/distinction contrast is directionally right but phrased as exclusive. The example's internal logic is the strongest part and holds.\n\n## For the human\nStart with the closing sentence: name what lets a reviewer under the unchanged rule recognize applicability. If that capability depends on how incidents are recorded, it may undercut \"the review rule need not change\".\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: cb97078ad4394a5c92c6b6cd290c77ed\ncompleted-at: '2026-11-23T11:42:56Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  - A reviewer following the original instruction could still recognize it.\n  reason: The title assigns the identifying capacity to the rule, but the body locates\n    it in the reviewer. The rule cannot identify anything; the reviewer's recognition\n    does the work. Read literally, the title's condition is never met by 'Check past\n    incidents before publication', so the claim either collapses into the codification\n    position (the rule must encode the applicability condition) or should be restated\n    as a claim about the reviewer plus a fixed rule. State which bearer carries the\n    applicability judgment and make the title agree with it.\n- scope: passage\n  quotes:\n  - The incident shows what the review must distinguish, not that the review rule\n    must change.\n  reason: This conclusion is asserted against the codification alternative without\n    engaging it. An informed opponent (checklist practice after incidents; the KB's\n    own codification move) holds that recognition by an unaided reviewer is unreliable\n    as incidents accumulate and that the lesson should be promoted into an explicit\n    check such as 'when a claim relies on independent sources, verify they do not\n    share an origin'. The note needs a condition stating when leaving the rule fixed\n    is adequate and when the applicability test should instead be written into the\n    rule, or it should narrow the conclusion to the single-reviewer, few-incident\n    case its example shows.\n- scope: passage\n  quotes:\n  - The lesson still applies if the new sources also share an origin and the claim\n    relies on their independence.\n  reason: 'The example works only because the incident has already been abstracted\n    into a feature-level lesson (shared origin plus reliance on independence). That\n    abstraction is a change somewhere: in the incident record, the reviewer''s training,\n    or the rule. The note does not say where it lives or who produces it, so the claim\n    that only recognition is needed hides the step that makes recognition possible.\n    Name where the abstracted applicability condition is stored and how it is produced\n    from a raw incident.'\n- scope: document\n  quotes: []\n  reason: The description frames the fixed rule as a deficit ('leaves the reviewer\n    to determine which feature ... matters'), while the body concludes the rule need\n    not change. Align the description with the body's actual conclusion so a reader\n    retrieving the note knows whether it argues for or against keeping the rule fixed.\ncontract: report\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/cb97078ad4394a5c92c6b6cd290c77ed/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/613e2b750d10eb391002be35/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/cb97078ad4394a5c92c6b6cd290c77ed/outputs/review.md\nraw-output-sha256: bc99a1db8584830381c9e87b04b959e46dd0a405a352885d356c50ec62064b9d\nattack-outcome: partially lands\n---\n\n# Critique: fixed review rules and when incident lessons apply\n\n**Note:** kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n**Central commitment:** A fixed instruction such as \"check past incidents before publication\" can keep absorbing lessons from new incidents without being rewritten, provided the review can identify the feature that makes an earlier failure bear on the page at hand.\n**Critique mode:** claim\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThe opposing stance is the codification position, as in post-incident checklist practice in aviation and medicine and as in this KB's own move of turning observed failures into explicit checks. Its argument has three steps.\n\nFirst, the note's condition has the wrong bearer. The title says the *rule* must \"identify when they apply\", but \"Check past incidents before publication\" identifies nothing. The note concedes this: the instruction \"does not tell the reviewer which earlier failure bears on the page at hand.\" All of the identifying work is done by the reviewer. So if the rule stays fixed, the title's condition is unmet. If the condition is met, it is met by something other than the rule.\n\nSecond, the example hides a change. The double-citation lesson transfers only after someone has stated it as \"the sources share an origin and the claim relies on their independence.\" That feature-level formulation is not in the raw incident (\"these two citations copied one report\"). Someone has to produce and store it. Wherever it lives (an incident log entry, reviewer training, an appended check), something other than the bare rule changed. The rule stays fixed only because the change has moved elsewhere.\n\nThird, recognition by an unaided reviewer does not scale. As incidents accumulate, a reviewer told only \"check past incidents\" must hold every abstracted lesson and match it against every page. That is the recall-and-match load checklists exist to remove. The codification position says the reliable remedy is to write the applicability test into the rule: \"when a claim depends on independent sources, verify they do not share an origin.\" On that view the note's final sentence, \"not that the review rule must change\", is wrong as a general claim. It holds only where the incident load is small and the reviewer is strong.\n\n## How the note engages it\n\n**Partially engaged.** The note grants the first step's premise: the instruction \"tells the reviewer where to look\" but not which failure applies. It also anticipates surface lookup failing (\"A lookup by source name would miss that connection\"). Its proposed test, whether the reviewer \"distinguishes apparent corroboration from independent support\", correctly puts the success criterion on recognition rather than retrieval.\n\nThe note does not engage the remaining steps. It does not say where the abstracted applicability condition lives or who produces it. It does not consider the alternative of writing that condition into the rule. It also gives no condition for when unaided recognition is adequate. Its conclusion that the rule need not change is asserted, not argued against codification. The title compounds this by assigning the identifying capacity to the rule, which the body then shows the rule lacks.\n\nThe attack does not fully land. The note's narrower point survives: retrieving an incident is not the same as applying its lesson, and an incident's value lies in the distinction it teaches, not its surface particulars. A fixed pointer rule plus a capable reviewer can work in the single example given.\n\n## Constructive findings\n\n- Make the title and body name the same bearer. Either the claim is about the reviewer (\"a reviewer under a fixed rule can use new incidents only if it recognizes the feature that makes them apply\"), or it is about the rule, in which case the rule must carry the applicability condition.\n- State where the feature-level formulation of an incident is stored and how a raw incident becomes one. That is the step that makes recognition possible, and it is currently implicit in the example.\n- Engage codification directly: give the condition under which leaving the rule fixed is adequate (few incidents, a reviewer able to abstract) and the condition under which the applicability test should be written into the rule (many incidents, weaker or varied reviewers, a high cost of a miss).\n- Align the description with the body's conclusion. The description presents the fixed rule as a burden on the reviewer; the body presents it as sufficient.\n\n## Secondary objections (optional)\n\n- The note's claim risks tautology: \"a lesson can be used only if one can tell when it applies\" is true of any lesson under any rule. Its non-trivial content is the further claim that the rule need not change. That claim is the one the note argues least.\n- One example supports a general \"can remain the review rule\" claim. A second case would show whether the result depends on the incident being as cleanly abstractable as citation independence, for instance one where the applicable feature is contested.\n"
+    },
+    {
+      "path": "kb/reports/state/review/results/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: 116fc35b1e54759064658a1172d7ed0a3007bf576f6744f6f016f473d477805d\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews\nlaunch: 113a1e0dd3bf4731881cbe228fd4b332\ncompleted-at: '2026-11-23T11:43:26Z'\nfindings:\n- scope: passage\n  quotes:\n  - The incident shows what the review must distinguish, not that the review rule\n    must change.\n  reason: 'DOUBTFUL — (universal, unqualified) a fixed rule such as ''check past incidents''\n    need not change as incidents accumulate; the reviewer''s recognition carries the\n    new lessons — counterexample: once the incident record grows past what a reviewer\n    can read for each page, a reviewer obeying the unchanged rule either skims and\n    misses the structurally matching incident or spends unbounded effort. Practice\n    then changes the rule (indexing incidents by the feature that triggers them, or\n    adding a specific check such as ''test whether co-cited sources share an origin'').\n    The claim survives with a stated boundary: it holds while the incident record\n    stays small enough to consult in full — LOCAL — instance'\n- scope: passage\n  quotes:\n  - A reviewer following the original instruction could still recognize it.\n  reason: 'DOUBTFUL — (stated as a possibility, but the claim consumes it as the general\n    route by which lessons transfer) a reviewer consulting past incidents can recognize\n    a structural match on a page that shares no surface features with the incident\n    — counterexample: if the incident was recorded as ''citations A and B both copied\n    the figure from report R'' with no statement of the mechanism (apparent corroboration\n    from a shared origin), the reviewer has only surface features to match against\n    and the recognition the note relies on does not happen. Recognition depends on\n    how the incident record states the mechanism and on reviewer skill, neither of\n    which the note names — LOCAL — instance'\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — (unstated, implied universal by ''only if'') a lesson cannot\n    benefit a later review unless someone identifies the cases it applies to — counterexample:\n    a reviewer, or a checklist derived from the incident, applies the independence\n    check to every multiply-cited claim on every page. The lesson then affects every\n    relevant case without anyone identifying when it applies; the cost is effort,\n    not missed cases. The ''only if'' therefore holds only under a budget that rules\n    out applying every lesson everywhere, a condition the note leaves unstated — LOCAL\n    — instance'\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — (unstated) the identifying capacity belongs to the reviewer;\n    the rule itself does not supply it — the title says the rule ''can identify when\n    they apply'', while the body says the instruction ''does not tell the reviewer\n    which earlier failure bears on the page'' and that the rule need not change. Under\n    the title''s literal reading, the note''s own example defeats the premise: ''check\n    past incidents'' identifies nothing. Under the body''s reading, the claim is about\n    the reviewer. The note needs one attribution — LOCAL — instance'\n- scope: passage\n  quotes:\n  - The test is not whether the reviewer retrieved the incident.\n  reason: 'DOUBTFUL — (universal) whether the reviewer distinguishes apparent corroboration\n    from independent support on the new page shows that the incident lesson was used\n    — counterexample: a reviewer who never consulted the incident, or consulted it\n    and drew nothing from it, may still make the distinction from general source-criticism\n    skill. The test measures the outcome, not the lesson''s contribution, so it cannot\n    tell a transferred lesson from independent competence. Repair by comparing against\n    reviewers without the incident or by requiring the reviewer to cite the incident;\n    the core claim remains — LOCAL — instance'\n- scope: passage\n  quotes:\n  - A lookup by source name would miss that connection.\n  reason: HOLDS — (bounded to the example) in the wiki case the later page shares\n    no citation with the incident, so a lookup keyed on source names cannot return\n    it. An active search found no defeater within this scope. Incidents keyed to one\n    bad source, where lookup would suffice, fall outside the example rather than refuting\n    it\n- scope: passage\n  quotes:\n  - The instruction tells the reviewer where to look.\n  reason: HOLDS — (universal) a standing instruction to consult past incidents names\n    the source to consult but not which incident bears on the case — the generic instruction\n    as quoted contains no applicability conditions. Incident records that carry their\n    own 'applies when' fields move identification into the record, not into the instruction,\n    so they do not defeat the premise\ncontract: report\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/113a1e0dd3bf4731881cbe228fd4b332/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/artifact/reviews/0726d50838198e62feaa9d3b/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews/calls/launches/113a1e0dd3bf4731881cbe228fd4b332/outputs/review.md\nraw-output-sha256: b74011a0d3e8b9529ae928afd4eb955c6b5bedd9872f8e2612eb9a999df46f51\n---\n\n# Premise decomposition: fixed review rules and when incident lessons apply\n\n**Register:** claim\n**Central commitment (one sentence):** A fixed review instruction to consult past incidents can carry lessons from new incidents only when the reviewer recognizes the structural feature that makes an earlier failure bear on the case at hand. Retrieval alone does not carry them, and the rule need not change.\n\n## Premises and counterexamples\n\nThe commitment combines a necessity claim (\"only if\" the reviewer identifies applicability) with a stability claim (the rule can stay fixed). The necessity side rests on three premises: the instruction does not supply applicability; surface lookup misses structural matches; and no cheaper route than identification exists. The stability side rests on two premises: reviewer recognition can carry the transfer, and incident accumulation does not force a rule change. A further premise is that the proposed success test detects transfer. The note attributes identification to the rule in its title and to the reviewer in its body; that ambiguity is surfaced as a separate premise because the commitment changes depending on which reading holds.\n\nNo premise fails globally. The two premises at the note's ends hold: the generic instruction gives no applicability, and lookup by name misses the example. The doubtful premises all accept boundary conditions. One condition is the incident-record scale at which a fixed rule remains workable. Another is that incident records state mechanisms. Another is a budget that rules out applying every lesson everywhere. The fourth is a test that separates the lesson's contribution from general reviewer skill. The short note states none of these conditions, so its stability claim reads as universal.\n\n## For the human\n\nLook first at the claim that the rule need not change: as incidents accumulate, the case for indexing them by triggering feature grows. The note's file name (\"rules must identify\") already points the opposite way from its closing sentence.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: 0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis\nlaunch: ea53d375226f4142baab7b4e506e8d94\ncompleted-at: '2026-11-23T11:44:44Z'\nfindings:\n- scope: passage\n  quotes:\n  - A fixed review rule can use lessons from new incidents only if it can identify\n    when they apply\n  reason: The title makes the rule the agent that must identify when a lesson applies,\n    while the body says the rule only tells the reviewer where to look and that the\n    reviewer's recognition does the identifying without the rule changing; a reader\n    must reconcile the two before the central claim is clear. A revision could align\n    the title's subject with the body's mechanism, so that the title, the opening\n    and the closing sentence state one claim.\ncontract: report\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis/calls/launches/ea53d375226f4142baab7b4e506e8d94/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis/artifact/reviews/0b2728a80112bfc0bd2c245f/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis/calls/launches/ea53d375226f4142baab7b4e506e8d94/outputs/review.md\nraw-output-sha256: 06cb84a5e9ae2ad8cf283b9ceb58730380ad9898ed8e3bf38c743451929bd8d6\n---\n\n# Simplification synthesis: fixed review rules and incident lessons\n\nAll four compression checks passed with no findings. The note has three short paragraphs: the claim, one worked example and the test the example implies. No branch, detail or redundancy needs removal. The one opportunity worth an author's judgment comes from reading the title against the body. It is not a compression cut.\n\n## Opportunities\n\n### 1. Align who identifies applicability in the title and the body\n\n- Location: the title, \"A fixed review rule can use lessons from new incidents only if it can identify when they apply\", read against the first paragraph (\"It does not tell the reviewer which earlier failure bears on the page at hand\") and the last sentence (\"The incident shows what the review must distinguish, not that the review rule must change\").\n- Combines: cross-cutting. The core-claim-obscured check noted, as a non-finding, that the closing contrast is the sharpest form of the claim and could be lifted into the opening. This opportunity extends that observation: the mismatch sits in the title, not only in the opening.\n- Reader problem: grammatically, \"it\" in the title is the rule, so the title reads as a requirement on the rule. The body places identification in the reviewer and argues that the rule does not need to change. A reader cannot tell whether the note requires the rule to encode applicability conditions or says that reviewer recognition suffices under an unchanged rule.\n- Direction: make the title's subject match the body's mechanism. One possible resolution, offered for illustration only: \"A fixed review rule carries new incident lessons only when the reviewer can recognize which feature of a past failure applies\". The opening paragraph could then state the closing contrast (\"a distinction to recognize, not a rule to change\") so that the first and last statements match.\n- Preserve or decide: the author must choose between two materially different claims. (a) The rule stays fixed and the reviewer's recognition carries the lesson, which is what the body argues. (b) The rule must itself supply a way to identify when lessons apply. The description (\"leaves the reviewer to determine\") supports (a). The title and the filename (`...-must-identify-when-incident-lessons-apply`) lean toward (b). Do not resolve this as a wording edit. If (a) is chosen, retitling also means relocating the file, and that is a separate step.\n"
+    },
+    {
+      "path": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md\nnote-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role\nlaunch: f5073fbbe5ce4a3f9db291c44340608d\ncompleted-at: '2026-11-23T11:47:31Z'\nfindings:\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/agent-memory-systems/trace-learning-techniques-in-related-systems.md\n    — cites the note as 'Continual learning requires governing behaviour-changing\n    writes, not just storing content' and needs its readable-artifact versus distributed-parametric\n    split of behaviour-change learning; the note states neither the governance claim\n    nor that split.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/agentic-systems/reviews/ai-agent-book.md — needs the claim\n    that stored experience is not learning until behaviour-changing writes are governed\n    (checks, release, rollback); the note discusses only how a fixed incident-review\n    rule applies earlier lessons.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/adaptation-of-agentic-ai-survey-post-training-memory-skills.ingest.md\n    — compares the survey with the note as an artifact-substrate and role taxonomy\n    for continual learning; the note contains no such taxonomy.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/agentic-reasoning-for-llms-survey.ingest.md —\n    needs a governance step (validating, authorizing, retiring a write) on what conditions\n    a retained update; the note has no write-governance claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/chunking-in-soar-general-learning-mechanism.ingest.md\n    — uses the note as the frame for governing behaviour-changing writes (disabling\n    an unsafe chunk-learning path); the note does not supply that frame.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/continual-learning-in-token-space.ingest.md —\n    needs the anti-weight-monopoly claim that continual learning covers non-weight\n    substrates; the note does not mention substrates or weights.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/dfa-moe-dual-forgetting-vision-language-continual-learning.ingest.md\n    — relies on the note's 'current regression requirement'; the note states no regression\n    requirement.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md\n    — relies on the note's regression-validation requirement and deployment-time governance\n    loop; neither appears in the note.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/externalization-in-llm-agents-unified-review.ingest.md\n    — cites the note (as continual-learning-open-problem-is-behaviour-not-knowledge)\n    for capability placement in behaviour rather than knowledge; the visible passage\n    is cut at 1200 characters, but the note has no behaviour-versus-knowledge claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/from-harness-lock-in-to-portable-context-layer.ingest.md\n    — needs the claim that continual learning is not mere persistence of ingested\n    content; the note does not define continual learning.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md\n    — needs the readable-artifact versus distributed-parametric behaviour-change split;\n    the note has no such split.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/harness-continual-learning-adaptation-beyond-model-parameters.ingest.md\n    — anchors governed behaviour-changing writes with frozen weights and committed\n    harness changes; the note does not supply that claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/hot-take-llm-can-jump.ingest.md — needs the note's\n    definition reserving continual learning for durable, evidence-responsive change;\n    the note gives no definition of continual learning.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md\n    — holds an is-evidence-for edge to 'continual learning as behavior change' via\n    durable scaffold changes without weight updates; the note makes no such claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/hyra-2-next-step-for-auto-research.ingest.md —\n    gives human approval for shared knowledge and conventions as is-evidence-for the\n    governance claim; the note does not state that claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/intern-s2-mobius-arxiv-v1.ingest.md — needs the\n    claim that a deployed system must govern which behaviour-changing write to accept,\n    validate, coordinate or revert; absent from the note.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/into-the-unknown-self-learning-large-language-models.ingest.md\n    — qualifies the note's criterion that continual learning is durability rather\n    than weights; the note has no such criterion.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md\n    — supports the claim that external artifact changes altering later behaviour count\n    as continual learning; the note does not state it.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/language-models-need-sleep-self-modify-consolidate-memories.ingest.md\n    — is-evidence-for continual learning as durable behavioural change and the distributed-parametric\n    branch's tradeoffs; the note has neither.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/llm-agents-are-not-always-faithful-self-evolvers.ingest.md\n    — proposes the note as an evidenced-by candidate under its old behaviour-not-knowledge\n    claim; the passage is cut at 1200 characters, and the note does not carry that\n    claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/llm-knowledge-bases-something-i-m-finding-very-useful.ingest.md\n    — cites the note for knowledge work compounding through inspectable artifacts\n    filed back into the KB; the note does not say this.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/long-horizon-agents-levels-ticks-cascaded-intelligence.ingest.md\n    — compares a retained rule changed into an executable guard with the governance\n    claim and its regression checking; the note argues instead that an incident need\n    not change the review rule, so it does not supply the regression-checking frame.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/merchantbench-long-term-coherence.ingest.md —\n    needs the concern that retained operating beliefs deserve admission or revision\n    evaluation; the note addresses only applying past incident lessons during review.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/metr-hugging-face-incident-investigation.ingest.md\n    — needs the claim that persistent content changing later action must be checked\n    for correctness and authorization; the note, though about incidents, does not\n    state a write-governance claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/nested-learning-the-illusion-of-deep-learning-architecture.ingest.md\n    — is-evidence-for governing behaviour-changing writes across timescales of weights\n    and memories; the note does not supply that claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/on-learning-how-to-learn-learning-strategies.ingest.md\n    — needs the behaviour-not-retrievable-facts distinction; the note does not draw\n    it.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/open-continual-learning-2080310986850840656.ingest.md\n    — frames task behaviour improved through surrounding artifacts as continual learning\n    per the note; the note has no such claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/prime-agent-a-self-improving-rlm-harness.ingest.md\n    — treats a retained exploit as direct evidence for governing behaviour-changing\n    writes; the passage is cut at 1200 characters, and the note lacks the claim.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/self-training-large-language-models-through-knowledge-detection.ingest.md\n    — uses the note as the readable-artifact side of a weight-side contrast; the note\n    has no substrate contrast.\n- scope: document\n  quotes: []\n  reason: NOT SUPPLIED — kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md\n    — needs the claim that a retained artifact changing behaviour through instruction\n    authority is behavioural policy rather than passive knowledge; not in the note.\n- scope: document\n  quotes: []\n  reason: UNTAKEN — kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md\n    — recommends updating the note with a bounded post-training example showing regression\n    validation must extend beyond an update's nominal domain; the note contains no\n    such example or regression-validation discussion.\n- scope: document\n  quotes: []\n  reason: UNTAKEN — kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md\n    — recommends giving the note a per-quadrant catalogue of instances (Reflexion,\n    Voyager, ExpeL, WISE, MemoryLLM, etc.) for its readable-artifact versus parametric\n    split; the note has neither the catalogue nor the split.\n- scope: document\n  quotes: []\n  reason: UNTAKEN — kb/sources/llm-agents-are-not-always-faithful-self-evolvers.ingest.md\n    — recommends an evidenced-by edge from the note to this source; the note has no\n    links or evidence edges, though the recommendation is cut at 1200 characters.\ncontract: report\ntarget-sha256: a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71\ntarget-capture: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role/calls/launches/f5073fbbe5ce4a3f9db291c44340608d/inputs/note.md\nobservation: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role/artifact/reviews/1705715f2d97c09f9b8a8cfe/observation.json\ncontract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161\nraw-output: kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role/calls/launches/f5073fbbe5ce4a3f9db291c44340608d/outputs/review.md\nraw-output-sha256: bb29fe870d5577c3666453056fc923773fa92e3338f2326630ba83bfc7862ae2\n---\n\n# Role in the KB: fixed review rules and incident lessons\n\n## Role\nAs its dependents use it, this path is the KB's main premise that continual learning means governing behaviour-changing writes, not storing content. Its dependents cite it for a definition of continual learning as durable behaviour change, for a readable-artifact versus distributed-parametric split, and for regression validation and write governance. The current text supplies none of these. It argues a narrower claim: a standing review rule (\"check past incidents\") can keep working across new incidents only if the reviewer can tell which feature of a past failure applies, illustrated by shared-origin citations. Every visible dependent links under the old title or slugs (\"Continual learning requires governing behaviour-changing writes\", \"continual-learning-open-problem-is-behaviour-not-knowledge\"). So the note's role is currently held by inbound links that its text does not meet.\nRelied on: continual learning as governed behaviour-changing writes; behaviour versus knowledge; readable-artifact versus distributed-parametric branches; the regression-validation requirement; durability rather than weights as the criterion. Unused: the fixed-review-rule claim, the citation-independence example, and the distinction between apparent corroboration and independent support.\n\n## Dependents\n48 files link to the note; only the first 30 by path were supplied, and 18 are unseen. Several passages are also cut at 1200 characters. Each of the 30 visible dependents is a finding above. All are `NOT SUPPLIED`: each needs the continual-learning governance claim, or one of its parts, under the note's former title.\n\n- `kb/agent-memory-systems/trace-learning-techniques-in-related-systems.md` — readable-artifact versus parametric split\n- `kb/agentic-systems/reviews/ai-agent-book.md` — governed release of behaviour-changing writes\n- `kb/sources/adaptation-of-agentic-ai-survey-post-training-memory-skills.ingest.md` — artifact-substrate taxonomy\n- `kb/sources/agentic-reasoning-for-llms-survey.ingest.md` — governance step for retained updates\n- `kb/sources/chunking-in-soar-general-learning-mechanism.ingest.md` — governing behaviour-changing writes\n- `kb/sources/continual-learning-in-token-space.ingest.md` — non-weight continual learning\n- `kb/sources/dfa-moe-dual-forgetting-vision-language-continual-learning.ingest.md` — regression requirement\n- `kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md` — regression validation\n- `kb/sources/externalization-in-llm-agents-unified-review.ingest.md` — behaviour, not knowledge\n- `kb/sources/from-harness-lock-in-to-portable-context-layer.ingest.md` — learning is not persistence\n- `kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md` — readable-artifact versus parametric split\n- `kb/sources/harness-continual-learning-adaptation-beyond-model-parameters.ingest.md` — governed writes with frozen weights\n- `kb/sources/hot-take-llm-can-jump.ingest.md` — definition of continual learning\n- `kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md` — behaviour change without weight updates\n- `kb/sources/hyra-2-next-step-for-auto-research.ingest.md` — approval as governance\n- `kb/sources/intern-s2-mobius-arxiv-v1.ingest.md` — accepting, validating and reverting writes\n- `kb/sources/into-the-unknown-self-learning-large-language-models.ingest.md` — durability criterion\n- `kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md` — artifact changes as learning\n- `kb/sources/language-models-need-sleep-self-modify-consolidate-memories.ingest.md` — durable behaviour change, parametric tradeoffs\n- `kb/sources/llm-agents-are-not-always-faithful-self-evolvers.ingest.md` — behaviour, not knowledge\n- `kb/sources/llm-knowledge-bases-something-i-m-finding-very-useful.ingest.md` — compounding through artifacts\n- `kb/sources/long-horizon-agents-levels-ticks-cascaded-intelligence.ingest.md` — retained-rule change and regression checks\n- `kb/sources/merchantbench-long-term-coherence.ingest.md` — evaluating retained beliefs\n- `kb/sources/metr-hugging-face-incident-investigation.ingest.md` — checking persistent content that changes action\n- `kb/sources/nested-learning-the-illusion-of-deep-learning-architecture.ingest.md` — governance across timescales\n- `kb/sources/on-learning-how-to-learn-learning-strategies.ingest.md` — behaviour versus facts\n- `kb/sources/open-continual-learning-2080310986850840656.ingest.md` — artifact-driven improvement\n- `kb/sources/prime-agent-a-self-improving-rlm-harness.ingest.md` — governing writes\n- `kb/sources/self-training-large-language-models-through-knowledge-detection.ingest.md` — substrate contrast\n- `kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md` — behavioural policy versus knowledge\n\n## Duplication\nNone. No visible dependent passage restates the note's current claim about review rules and incident lessons, and the note restates no dependent passage. The METR and long-horizon ingests discuss incidents and retained rules, but under the governance frame, not the note's applicability claim.\n\n## Untaken recommendations\n- `kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md` asks for a bounded post-training example on regression validation beyond an update's nominal domain.\n- `kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md` offers a per-quadrant catalogue of readable-artifact and parametric instances.\n- `kb/sources/llm-agents-are-not-always-faithful-self-evolvers.ingest.md` proposes an evidenced-by edge; the passage is cut.\n\n`kb/sources/continual-learning-in-token-space.ingest.md` recommends writing a separate note that links to this one, not changing this note, so it is not counted. The 18 unseen files may hold more recommendations.\n\n## Reach\nNo visible dependent relies on the note's current claims or terms: the fixed-review-rule claim, the citation-independence example and the corroboration distinction reach no one. All 30 visible dependents rely on the continual-learning governance claim and its parts, which the path's former content carried. Changing what this path asserts about governed behaviour-changing writes, behaviour versus knowledge, the substrate split or regression validation would reach every dependent listed under Dependents, and probably the 18 unseen files too. The is-evidence-for and compares-with edges in the HGM, Hyra, Sleep, Nested Learning, agentic-reasoning and SkillOpt ingests depend most directly on the claim they name.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/work/revise-assessor-comparisons/README.md",
+          "kb/work/revise-assessor-comparisons/blind-opus.txt",
+          "kb/work/revise-assessor-comparisons/replication.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

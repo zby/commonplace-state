@@ -1,0 +1,84 @@
+---
+description: "Three technical constraints and the codification lever make KB objective-function choice testable engineering, not philosophy; goals set the loss, local contracts specialize it, and oracle strength differs by objective"
+type: types/note.md
+traits: [title-as-claim, synthesis]
+tags: [document-system, evaluation, constraining, learning-theory, goal-prioritization]
+---
+
+# Technical constraints turn KB objective-function choice from philosophy into engineering
+
+A knowledge base optimizes something. Call it the KB's **objective function**: the loss its writing, connecting, and review are trying to minimize. Asked in the open — *what knowledge is worth keeping? what does a good note maximize?* — this is a rerun of epistemology, and it terminates in taste, not a decision. The claim here is that in an agent-operated KB the question does not stay open, because three concrete technical constraints set hard rules that delete most candidate objectives before any value judgment is made. What survives is a small, testable space, and choosing within it is engineering.
+
+The constraints do not tell you what to value. They tell you what you *cannot* make the system optimize, which is most of what philosophy would otherwise argue about.
+
+## Why it would otherwise be philosophy
+
+Absent constraints, "what should a KB keep" has the shape of every unbounded normative question: any answer is defensible in isolation, none is falsifiable, and the debate never closes because there is no cost to a bad answer. A KB with unlimited context, no code, an infinitely malleable reader, and free verification could optimize anything you could name — coherence-of-the-whole, aesthetic economy, comprehensiveness — and you would have no engineering reason to prefer one. The objective would be pure stipulation.
+
+The constraints below remove exactly that freedom; the lever that follows them changes what pursuing a surviving objective costs.
+
+## Three constraints that prune the space, and one lever
+
+**1. Bounded context.** The consumer attends to one finite window where everything competes, since [context efficiency is the central design concern in agent systems](./context-efficiency-is-the-central-design-concern-in-agent-systems.md). An objective that can only be evaluated by loading the whole corpus — global coherence, non-redundancy across all artifacts — is not optimizable by the consumer that runs the KB. This forces objectives that are *locally* checkable: what one artifact does when co-present with a handful of others, not what the graph does as a whole.
+
+**2. The model's fixed lexicon and priors.** You write the objective against a consumer that already assigns meanings to words and carries priors over what text means. You cannot redefine that substrate. A convention that fights the model's lexicon is expensive to enforce and degrades silently — the model reverts to its prior under load. So the objective has to be *expressible in terms the model already discriminates reliably*, which prunes exotic value schemes and private vocabularies the model cannot apply consistently. This constraint is consumer-inherited: pick an LLM reader and its lexicon comes along whole.
+
+**3. The verification boundary.** [The boundary of automation is the boundary of verification](./the-boundary-of-automation-is-the-boundary-of-verification.md). Whatever objective you set, you can automate its optimization only as far as you can build an [oracle](./oracle-strength-spectrum.md) for it; objectives you cannot verify stay manual or advisory. Verifiability is therefore a first-class *engineering* fact about a candidate objective, not an afterthought — it decides how much of the pursuit can run without a person, and what the remainder costs.
+
+What it does not do is settle which objective to hold. Reading it that way — the cheaply scored option beats the one you merely believe is deeper — is how a proxy displaces the thing it stands in for, [since a property adopted as a goal is checked for achievement rather than for warrant](./a-proximate-target-is-checked-for-achievement-not-for-warrant.md), and a cheap score supplies the full signature of a verified objective while establishing nothing about whether it was worth adopting. This KB is the demonstration: `kb/theory/` carries its most valued content and has the weakest oracle, as below, yet its explanatory-reach objective was kept anyway. The constraint prunes the space of objectives you can *automate against*; the choice within it stays a choice.
+
+**The codification lever.** The commitments also supply an affordance, not a restriction: any part of an objective whose inputs are already known can be moved out of natural-language content and into a symbolic artifact with formal semantics — [codification](./definitions/codification.md). What the move buys depends on the consumer, because codification changes an artifact's [representational form](./definitions/representational-form.md), never its authority family — a methodology theory is already a natural-language [system-definition artifact](./definitions/system-definition-artifact.md), consumed with instruction force. For that reflective content — the KB's own conventions, gates, and routing rules — codification hardens the *enforcement channel* of authority the artifact already holds: the argument "is this the right rule?" becomes "does the validator pass?", and compliance stops costing context and varying by session. For object-level knowledge artifacts — claims about the KB's domain rather than about its operation — codification hardens only the *oracle*: the claim becomes a runnable test of itself, gaining checkability without gaining force over the system. Whether to discharge a sub-objective in code or leave it to the LLM remains a tradeoff with a decision procedure (see [codify-versus-LLM heuristics](./codify-versus-llm-decision-heuristics.md)). The scope limit matters when generalizing: only content that is a self-representation of the KB's own operation has an enforcement channel to harden, so "settled by construction rather than by debate" covers a KB's methodology, not its domain content. Commonplace's object and reflective layers coincide — the methodology is the content — which makes this lever look more general here than it is in a domain KB.
+
+None of the three says what to value, and neither does the lever. Together they turn "what should a KB keep?" into "which locally-checkable, model-expressible, verifiable objective best serves the stated goal within one window?" — a question with testable answers and a cost for wrong ones.
+
+## The objective hierarchy: goals set the loss, local contracts specialize it
+
+The surviving objective is not monolithic. It is specialized down a two-level hierarchy, with each local contract declaring a narrower loss than the global goal.
+
+- **Global KB goals set the loss.** The always-loaded control-plane goals — purpose, scope, quality bar — are the top-level objective every session optimizes against, and they decide inclusion before anything else does, since [KB goals in always-loaded context guide inclusion decisions](./kb-goals-in-always-loaded-context-guide-inclusion-decisions.md). This is the domain filter: it deletes off-scope material however well-written.
+
+- **COLLECTION.md text contracts specialize the loss per collection.** Each writable collection declares a quality goal in its [text contract](../reference/definitions/collection.md#text-contract) — the local objective its writers and reviewers treat as decisive. `kb/theory/` optimizes explanatory-reach; `kb/reference/` optimizes fidelity and economy; `kb/instructions/` optimizes executability and precision. Same global goal, different residual loss per subtree.
+
+The [collection prototypes](../reference/adr/069-collection-contract-bundles-become-one-time-prototypes.md) may lower the one-time cost of drafting a new contract, but they are not a third objective level. After copying, only the destination's local `COLLECTION.md` binds; prototype changes do not specialize or update it. [Artifact classification separates the local authoring objective from content kind, lineage, and authority](./artifact-classification-separates-content-kind-lineage-and-authority.md).
+
+## Judge strength differs by collection objective
+
+Specializing the global goal through local contracts produces different **verification regimes**. Oracle strength — how cheaply and reliably you can check correctness — is not uniform across the KB; it depends on the objective and available referent.
+
+- **Reference descriptions have the strongest oracle.** The described system exists, so fidelity is checkable against ground truth: read the code, run it, compare the account to the referent. This is the closest these collection objectives get to a hard oracle, and it is why reference review can lean on mechanical checks.
+
+- **Instructions have a behavioral oracle.** An instruction's correctness is whether executing it produces the intended behavior. That is checkable by running the instruction against a controlled boundary and asserting on what it does, as in [unit testing LLM instructions by mocking the tool boundary](./unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md). The ground truth is the produced behavior rather than a fixed external referent — a medium-strength oracle, verifiable but only by execution.
+
+- **Transferable theory has the weakest oracle and must compensate with the widest judges.** Explanatory-reach — a claim's ability to keep working across contexts — has no ground truth to check against; no single test decides whether a claim is as general as it says. So the notes objective cannot harden the oracle and instead widens the judge: multiple decorrelated critics, falsifier attempts, and cross-domain probing. This is why [error correction needs above-chance oracles and decorrelated checks](./error-correction-works-above-chance-oracles-with-decorrelated-checks.md) is load-bearing here — width of independent checking substitutes for the missing hard oracle. It is also why theory review is the most expensive and the least automatable.
+
+That the collection objective with the weakest oracle governs the KB's most valued content — transferable claims — is the structural tension the review system is built around: the objective you most want to optimize is the one you can least cheaply verify.
+
+## Scope
+
+- **The constraints are inherited, not universal.** Each is claimed from one of this framework's boundary commitments — an LLM consumer, a file substrate, a knowledge domain, the built machinery — so "engineering, not philosophy" is relative to those commitments, since [what counts as an inherited constraint is relative to a declared framework boundary](./a-framework-rule-with-a-boundary-preserving-rival-is-not-inherited.md). A framework built on a different consumer inherits different constraints and a different pruned space. The value question is dissolved *for this framework*, not in general.
+- **Pruning is not determination.** The three constraints delete most candidate objectives; they do not select a unique survivor. Choosing among what remains — which quality goal, how much to codify, how wide a judge to fund — still takes judgment. The claim is that the residual is small and testable, not that it is a single point.
+- **Per-objective oracle strength is characteristic, not a law.** A theory note resting on one described system can borrow that system's oracle; a description of a system not yet built has no referent to check against. The dependency edge and actual evidence override the collection-level expectation.
+
+## Open Questions
+
+- Is the model's fixed lexicon a genuinely independent constraint, or a facet of the bounded-context/consumer commitment already covered by inheritance?
+- Can the notes contract's "widest judges" ever be hardened into a real oracle, or is explanatory-reach permanently a no-oracle objective — in which case the KB's central objective is structurally the one it can never fully automate?
+
+---
+
+Relevant Notes:
+
+- [KB goals in always-loaded context guide inclusion decisions](./kb-goals-in-always-loaded-context-guide-inclusion-decisions.md) — grounds: the global goals are the always-loaded top-level loss the hierarchy specializes
+- [Text contract](../reference/definitions/collection.md#text-contract) — defined-in: the binding local declaration through which the objective hierarchy specializes
+- [Artifact classification separates content kind, lineage, and authority](./artifact-classification-separates-content-kind-lineage-and-authority.md) — grounds: separates a collection's authoring objective from region- and path-level classifications
+- [A framework rule with a boundary-preserving rival is not an inherited constraint](./a-framework-rule-with-a-boundary-preserving-rival-is-not-inherited.md) — grounds: inherited-versus-chosen is relative to declared boundary commitments, so the dissolution is framework-relative
+- [context efficiency is the central design concern in agent systems](./context-efficiency-is-the-central-design-concern-in-agent-systems.md) — grounds: bounded context, the first pruning constraint
+- [codification](./definitions/codification.md) — defined-in: the move-logic-into-code option whose payoff splits by the consuming path's authority family
+- [system-definition artifact](./definitions/system-definition-artifact.md) — grounds: authority is set by the consumption path, so codification hardens a channel rather than conferring a role
+- [representational form](./definitions/representational-form.md) — grounds: codification is a form change; form sets how well authority is exercised, not whether it is held
+- [codify-versus-LLM decision heuristics](./codify-versus-llm-decision-heuristics.md) — mechanism: the codify-or-leave-to-LLM tradeoff is a concrete lever inside the pruned space
+- [the boundary of automation is the boundary of verification](./the-boundary-of-automation-is-the-boundary-of-verification.md) — grounds: the verification boundary that bounds how much of an objective's pursuit can be automated
+- [a proximate target is checked for achievement, not for warrant](./a-proximate-target-is-checked-for-achievement-not-for-warrant.md) — grounds: why cheap verifiability bounds automation without selecting the objective, and what goes wrong when it is read as selecting one
+- [oracle-strength spectrum](./oracle-strength-spectrum.md) — mechanism: the hard/soft/no-oracle gradient that differentiates the per-objective judges
+- [error correction works above-chance oracles with decorrelated checks](./error-correction-works-above-chance-oracles-with-decorrelated-checks.md) — enables: decorrelated critics are how transferable-theory review substitutes judge width for a missing oracle
+- [unit testing LLM instructions requires mocking the tool boundary](./unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md) — exemplifies: an instruction's behavioral oracle in concrete form

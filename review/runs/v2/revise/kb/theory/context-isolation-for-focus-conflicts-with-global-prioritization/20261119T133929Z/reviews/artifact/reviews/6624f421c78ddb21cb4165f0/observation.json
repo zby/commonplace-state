@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "id": "6624f421c78ddb21cb4165f0",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/branch-bloat",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/branch-bloat",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+    "contract": "verdict",
+    "kind": "compression",
+    "criterion-id": "kb/instructions/compression-bundle/branch-bloat",
+    "target-sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "criterion-bytes-sha256": "1984e1c08f0a39fa170a712fc49d4db74dc06709ba84c1b8e9cc2e3214e6f397",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "b218bb3a36599f01babc7d8a6425a7451686e0a07acf60f67a8441796573cbcc",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "criterion.md": "1984e1c08f0a39fa170a712fc49d4db74dc06709ba84c1b8e9cc2e3214e6f397",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "696040ed4d1e30f7d34e67bee98cf553cc5c2b09",
+  "content-state": {
+    "kb/instructions/review-profiles.yaml": {
+      "kind": "file",
+      "sha256": "84807017551825ad129cde06ef3b7d92165fe1c1e6e09a34df1b337c58d380a1"
+    },
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/headless/harness.py": {
+      "kind": "file",
+      "sha256": "bb6777f2fadb4632c6da03d453cc0992da770bafa8d246038ed7656e58f893aa"
+    },
+    "tests/commonplace/headless/test_jobs.py": {
+      "kind": "file",
+      "sha256": "a4b0cb5ed0a4a52e053473b3f4c87382a0dbe7c640ee57c0b76ec54cc2c4b8c7"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "22ba35e395758b9c45a0dac2a5b364fe4a05635e54eb90fd7ba701807df3ba35",
+  "executor": {
+    "path": "provenance/4b079ed27d390e4c90df8ddfb029fa57395a06e63378b7aad630770f1d1b7390.json",
+    "sha256": "4b079ed27d390e4c90df8ddfb029fa57395a06e63378b7aad630770f1d1b7390"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "bytes": 16238,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/criterion.md",
+      "sha256": "1984e1c08f0a39fa170a712fc49d4db74dc06709ba84c1b8e9cc2e3214e6f397",
+      "bytes": 2546,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "b218bb3a36599f01babc7d8a6425a7451686e0a07acf60f67a8441796573cbcc",
+      "bytes": 2033
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/e40178eb1b0744768d92f2d8f1f6cce6/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/e40178eb1b0744768d92f2d8f1f6cce6/review.md": "0186bca09f7dd636c9771c8993cd674d465990da15bd2a82bb3ebbe11226a1dc"
+  },
+  "latest-result": "results/e40178eb1b0744768d92f2d8f1f6cce6/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/branch-bloat",
+      "key": "88b300d64311236de8a0b729b553b9839eb840935ec6360bba6173094e49f39d"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

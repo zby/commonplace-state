@@ -1,0 +1,1 @@
+The title fails the claim-strength criterion. It states the familiar purpose of mocking. The note’s stronger claim is that capturing attempted tool actions can reveal protocol violations that a plausible final artifact can hide. [Review](/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T133828Z/calls/launches/b618811245c8453db684eb099e9649ad/outputs/review.md)

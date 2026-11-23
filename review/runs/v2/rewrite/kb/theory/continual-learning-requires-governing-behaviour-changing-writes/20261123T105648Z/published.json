@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/publications/1.md",
+      "sha256": "762ab1d13d107806217a13aa845a4c215997d759fc25c35d7b721e87d6c36b25",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T105648Z/artifact/publications/1.diff",
+      "before-sha256": "2214be116a950b1be4016de0633a69bd6e3df247b8c6750c25d37d0ef7013038",
+      "entries": [],
+      "at": "2026-11-23T11:35:54Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

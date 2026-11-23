@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "id": "b70ee27772dafe3654825bc3",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/parsing-ambiguity",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/*",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "sentence/parsing-ambiguity",
+    "target-sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "criterion-bytes-sha256": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "c7ea8ba64be52df22c0f0e0b1ddb8ad4adda93cee1f87686bed1d3343df52cda",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "gate-clause-packing.md": "1546b936d349c05735443368da75ea0829b04f34cd3e6084351c128713f320a1",
+      "gate-concept-attribution.md": "75949108abe516c6d5d80ba7a1c9546fbb81cc202dd215042cf5a323075358e6",
+      "gate-framing-mismatch.md": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+      "gate-misleading-link-text.md": "29771fdb3d02cdf416ad3b68c38b2ae29bb69fe4332f316cc9475de3aa4508c2",
+      "gate-parsing-ambiguity.md": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "696040ed4d1e30f7d34e67bee98cf553cc5c2b09",
+  "content-state": {
+    "kb/instructions/review-profiles.yaml": {
+      "kind": "file",
+      "sha256": "84807017551825ad129cde06ef3b7d92165fe1c1e6e09a34df1b337c58d380a1"
+    },
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/headless/harness.py": {
+      "kind": "file",
+      "sha256": "bb6777f2fadb4632c6da03d453cc0992da770bafa8d246038ed7656e58f893aa"
+    },
+    "tests/commonplace/headless/test_jobs.py": {
+      "kind": "file",
+      "sha256": "a4b0cb5ed0a4a52e053473b3f4c87382a0dbe7c640ee57c0b76ec54cc2c4b8c7"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "22ba35e395758b9c45a0dac2a5b364fe4a05635e54eb90fd7ba701807df3ba35",
+  "executor": {
+    "path": "provenance/4b079ed27d390e4c90df8ddfb029fa57395a06e63378b7aad630770f1d1b7390.json",
+    "sha256": "4b079ed27d390e4c90df8ddfb029fa57395a06e63378b7aad630770f1d1b7390"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "bytes": 16238,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+      "path": "inputs/criterion.md",
+      "sha256": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "bytes": 1115,
+      "input": "gate-parsing-ambiguity.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "c7ea8ba64be52df22c0f0e0b1ddb8ad4adda93cee1f87686bed1d3343df52cda",
+      "bytes": 2965
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/c043185d3d9f4a17b0d509c28ec48409/review-parsing-ambiguity.md"
+  ],
+  "completed-result-sha256": {
+    "results/c043185d3d9f4a17b0d509c28ec48409/review-parsing-ambiguity.md": "11d9df285bdb4e0bbcc68c2d8730250d14d1fd65733f0a5277b66fbc46c587b6"
+  },
+  "latest-result": "results/c043185d3d9f4a17b0d509c28ec48409/review-parsing-ambiguity.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::sentence/*",
+      "key": "0cc5703a961297a7365d8660725541bd6ce73944f49897e6d46b9a6ac16d92ca"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

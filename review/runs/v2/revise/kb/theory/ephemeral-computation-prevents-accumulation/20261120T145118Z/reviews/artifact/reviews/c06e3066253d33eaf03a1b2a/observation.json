@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "id": "c06e3066253d33eaf03a1b2a",
+  "request": {
+    "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::frontmatter/title-body-alignment",
+    "call-job": "kb/theory/ephemeral-computation-prevents-accumulation.md::frontmatter/*",
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/title-body-alignment",
+    "target-sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "criterion-bytes-sha256": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "9e6071f0568073609abba8058dc7b96d30582b374118c8edef86f55a645abca0",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "gate-description-discrimination.md": "17cbbd1fca45e6be71ce6750fe85980667f4958045e3610c4bb9378b13702bcf",
+      "gate-title-as-claim.md": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "gate-title-body-alignment.md": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "gate-title-composability.md": "f8cac17c0f9608c444b3115f63e8e2458abf21903cb5a82a4e41d74dbf629e52",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d.json",
+    "sha256": "e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "path": "inputs/target/kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "bytes": 5415,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+      "path": "inputs/criterion.md",
+      "sha256": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "bytes": 1127,
+      "input": "gate-title-body-alignment.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "9e6071f0568073609abba8058dc7b96d30582b374118c8edef86f55a645abca0",
+      "bytes": 2804
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "stopped",
+  "completed-results": [],
+  "completed-result-sha256": {},
+  "calls": [
+    {
+      "call": "kb/theory/ephemeral-computation-prevents-accumulation.md::frontmatter/*",
+      "key": "01b7b059936fcec44964b70e82dd7d5163d88af8d3daded1a283fdc25e78cb67"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795186345.6878383,
+      "event": "stopped-call",
+      "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::frontmatter/*",
+      "key": "01b7b059936fcec44964b70e82dd7d5163d88af8d3daded1a283fdc25e78cb67",
+      "reason": "process_error after 3 launch(es): exit 1; ird_party/jetski/language_server/server.go:2699\n  | main.main.func4\n  | \tthird_party/jetski/cmd/cli/main.go:964\n  | runtime.goexit\n  | \tthird_party/go/gc/src/runtime/asm_amd64.s:1237\nWraps: (4) open /home/zby/.gemini/antigravity-cli/installation_id\nWraps: (5) read-only file system\nError types: (1) *withstack.withStack (2) *withstack.withStack (3) *withstack.withStack (4) *fs.PathError (5) syscall.Errno\nFailed to start: open /home/zby/.gemini/antigravity-cli/installation_id: read-only file system"
+    }
+  ],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

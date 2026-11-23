@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "id": "7de6ee23f4fb8ddd7cf96e01",
+  "request": {
+    "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/proportion-mismatch",
+    "call-job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/*",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/proportion-mismatch",
+    "target-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+    "criterion-bytes-sha256": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "c7e8d97012751071b7c14d6241b95f1bc84f9697dbab2354a46ab5ad63f8f983",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "bytes": 20341,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+      "path": "inputs/criterion.md",
+      "sha256": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "bytes": 1065,
+      "input": "gate-proportion-mismatch.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "c7e8d97012751071b7c14d6241b95f1bc84f9697dbab2354a46ab5ad63f8f983",
+      "bytes": 3337
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/e6c44a5d053c40b889fc04e430cca4c7/review-proportion-mismatch.md"
+  ],
+  "completed-result-sha256": {
+    "results/e6c44a5d053c40b889fc04e430cca4c7/review-proportion-mismatch.md": "d14b5ce0d0f8febf4eecaef06d16743f66d91f455922ab18de95dfe2430a9ffe"
+  },
+  "latest-result": "results/e6c44a5d053c40b889fc04e430cca4c7/review-proportion-mismatch.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/*",
+      "key": "5df134fc066ac1cbe3c4d5372246bbe260c668d5ad5a0e7454d5f394d57b4e1c"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

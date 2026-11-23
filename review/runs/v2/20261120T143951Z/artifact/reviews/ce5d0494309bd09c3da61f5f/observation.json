@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "id": "ce5d0494309bd09c3da61f5f",
+  "request": {
+    "job": "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md::frontmatter/claim-strength",
+    "note": "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "0f4c9b67db925cdf54b92d5aec0ef264021af96459a7c78db7b8a032b85ac137",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "9977706c49ad70095c4612599d2ecc30a324f1d6",
+  "content-state": {
+    "kb/reference/commonplace-as-an-instrument.md": {
+      "kind": "file",
+      "sha256": "4a223c11a1791cdf5c088a5f3905668a4d13fbff03a88bc2c2149e888fe1ef11"
+    },
+    "kb/reference/proposals/ablation-baselines-for-the-declared-objective.md": {
+      "kind": "file",
+      "sha256": "58eda4f0a8d6f39fdab01cc644d9f39436bf33b40294471c6ffbbb601756531f"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "0b8879a08ee08faaa7a86ab9b5f607eae5836ab8395c335b9e3a09171f02fe28",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md",
+      "path": "inputs/target/kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md",
+      "sha256": "5ec0ed132b35ea2e646c00bc1ee24eab0994607e0582212b2a49b566b1ae72ea",
+      "bytes": 4672,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0f4c9b67db925cdf54b92d5aec0ef264021af96459a7c78db7b8a032b85ac137",
+      "bytes": 1870
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/9a628f0cf8e74b66aee94eb959104fc0/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/9a628f0cf8e74b66aee94eb959104fc0/review.md": "162aa9731781be7ea62d2d2d7805aed33544569312e81b357c31e65b89d0a9e1"
+  },
+  "latest-result": "results/9a628f0cf8e74b66aee94eb959104fc0/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md::frontmatter/claim-strength",
+      "key": "9103c699b9cfcabad277e36fe8924a477d7eec9e2d03a06888c92e93dac8d6f4"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

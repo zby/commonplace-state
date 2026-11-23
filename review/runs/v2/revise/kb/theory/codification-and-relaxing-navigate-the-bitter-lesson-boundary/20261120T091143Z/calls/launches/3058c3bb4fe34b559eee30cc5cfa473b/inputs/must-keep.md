@@ -1,0 +1,4 @@
+- Practical systems will always be hybrids, and this is not a partition into codified versus learned.
+- Every code-extraction codification is a bet that what was extracted is genuinely part of the spec rather than an accidental pattern that holds on observed data.
+- The replacement can itself be codified by adoption; what relaxing reverses is the extraction, not symbolic membership.
+- The bitter lesson describes a trajectory, not a law of nature.

@@ -1,0 +1,709 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z",
+  "artifact": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Machine-learning and agent-systems researchers who do not know Commonplace should be able to state the article's two-level claim (deliberative learning as a learning paradigm with a judgment in the selection role, and the bet that a fixed-weight language model can fill that judge role), follow it without internal vocabulary, and see what evidence would decide the bet.",
+    "must-keep": [
+      "Deliberative learning (a system learning by making proposed, rejectable edits to its own readable, addressable store) is a distinct learning paradigm.",
+      "When no single formula captures the work, an on-balance judgment works in place of a value function inside the loop.",
+      "We bet that a fixed-weight language model can fill the judge slot autonomously, running double-loop deliberative learning with targeted correction for work where no fixed criterion is adequate.",
+      "The Bitter Lesson contrasts human-supplied knowledge with knowledge produced by computation through search and learning; it says nothing about whether the retained result must live in floating-point weights.",
+      "We report no completed end-to-end automated run demonstrating sustained autonomous double-loop learning yet.",
+      "Legibility does not guarantee faithfulness: a written rule need not be what actually drove the model's behavior."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "narrow-overclaims",
+        "scope": "Two passages only. (1) In 'Deliberative learning versus training weights', the three-payoffs paragraph: the sentences 'Adaptation takes effect immediately at deployment time ...' and 'Retained knowledge is inspectable now ...'. Narrow them to what the linked deployment-time-adaptation and inspectability notes state: lifecycle phase is not latency, and inspection is affordable but not unconditional. (2) In 'Proof, formula, judgment', the Goedel machine paragraph: 'formal optimality guarantee', 'every self-rewrite requires' and 'no general real-world domain has the full axiomatization required'. Do not touch the PRODIGY, EURISKO or on-balance paragraphs, or the section's opening 'bottleneck was always' sentence."
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The WARN items only: 'type contract' and 'temporary workshop' in 'One change followed through'.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/accessibility/undefined-terms.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The WARN items only: identify Commonplace at its first mention ('as Commonplace currently is') as the authors' agent-operated knowledge-base framework, and gloss EURISKO at its first mention. Leave the rest of the EURISKO paragraph unchanged.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/accessibility/unidentified-references.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only the sentence 'An unknown is worth investigating only if a plausible answer could reverse the choice.' in the on-balance paragraph.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/compression-bundle/branch-bloat.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The three WARN items only. (1) Fold the three-payoffs paragraph into the table or into one sentence that introduces the cost ledger. Keep both of its links and the qualifications narrow-overclaims left on it, and leave the table rows' claims unchanged. (2) The sentence 'Treating the paradigm as already validated would invert the order of proof.' (3) The launchpad/ceiling sentence after the bootstrap condition. Keep the hazard bullet 'Unfaithful rationales'; the falsification clause names it.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/compression-bundle/marginal-value-redundancy.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only the sentence ending 'pure triggers that write on a count without judging what was written all fail the second': reorder it so the verb comes before the list.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/clause-packing.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The two WARN link texts: 'inspectability as a property of form' and 'a plausible written rule need not be what actually drove the model's behavior'. Keep both link targets.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/misleading-link-text.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only the list 'Once the alternative, whose costs count, and the horizon are fixed' in the on-balance paragraph. Do not touch the Harness Evolution sentence.",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/parsing-ambiguity.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The two WARN sentences only: 'The structural contrast with weight training is starkest when laid side by side:' and 'This is where the second level of our thesis—the machine learning bet—enters.'",
+        "finding": "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/stock-phrases.md"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 41
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/articles/types/article.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/articles/types/article",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/articles/COLLECTION.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/articles/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/accessibility/unidentified-references.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/articles/COLLECTION.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/compression-bundle/branch-bloat.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/prose/mannered-prose.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/prose/proportion-mismatch.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/completeness-boundary-cases.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/conceptual-role-conflation.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/epistemic-status-blur.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/grounding-alignment.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/internal-consistency.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/clause-packing.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/framing-mismatch.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/misleading-link-text.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/sentence/stock-phrases.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/structural/general-before-specific.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "narrow-overclaims",
+      "scope": "Two passages only. (1) In 'Deliberative learning versus training weights', the three-payoffs paragraph: the sentences 'Adaptation takes effect immediately at deployment time ...' and 'Retained knowledge is inspectable now ...'. Narrow them to what the linked deployment-time-adaptation and inspectability notes state: lifecycle phase is not latency, and inspection is affordable but not unconditional. (2) In 'Proof, formula, judgment', the Goedel machine paragraph: 'formal optimality guarantee', 'every self-rewrite requires' and 'no general real-world domain has the full axiomatization required'. Do not touch the PRODIGY, EURISKO or on-balance paragraphs, or the section's opening 'bottleneck was always' sentence.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/narrow-overclaims.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/narrow-overclaims.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/accessibility/undefined-terms",
+      "scope": "The WARN items only: 'type contract' and 'temporary workshop' in 'One change followed through'.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/accessibility/undefined-terms.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/accessibility/unidentified-references",
+      "scope": "The WARN items only: identify Commonplace at its first mention ('as Commonplace currently is') as the authors' agent-operated knowledge-base framework, and gloss EURISKO at its first mention. Leave the rest of the EURISKO paragraph unchanged.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/accessibility/unidentified-references.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/accessibility/unidentified-references.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/accessibility/unidentified-references.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+      "scope": "Only the sentence 'An unknown is worth investigating only if a plausible answer could reverse the choice.' in the on-balance paragraph.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/kb/instructions/compression-bundle/branch-bloat.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+      "scope": "The three WARN items only. (1) Fold the three-payoffs paragraph into the table or into one sentence that introduces the cost ledger. Keep both of its links and the qualifications narrow-overclaims left on it, and leave the table rows' claims unchanged. (2) The sentence 'Treating the paradigm as already validated would invert the order of proof.' (3) The launchpad/ceiling sentence after the bootstrap condition. Keep the hazard bullet 'Unfaithful rationales'; the falsification clause names it.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/clause-packing",
+      "scope": "Only the sentence ending 'pure triggers that write on a count without judging what was written all fail the second': reorder it so the verb comes before the list.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/sentence/clause-packing.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/sentence/clause-packing.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/sentence/clause-packing.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/misleading-link-text",
+      "scope": "The two WARN link texts: 'inspectability as a property of form' and 'a plausible written rule need not be what actually drove the model's behavior'. Keep both link targets.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/sentence/misleading-link-text.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+      "scope": "Only the list 'Once the alternative, whose costs count, and the horizon are fixed' in the on-balance paragraph. Do not touch the Harness Evolution sentence.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/sentence/parsing-ambiguity.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/sentence/parsing-ambiguity.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/sentence/parsing-ambiguity.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/stock-phrases",
+      "scope": "The two WARN sentences only: 'The structural contrast with weight training is starkest when laid side by side:' and 'This is where the second level of our thesis—the machine learning bet—enters.'",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/sentence/stock-phrases.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/reports/fix-strategy-taxonomy/sentence/stock-phrases.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/sentence/stock-phrases.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/texts/fix-strategy-taxonomy/sentence/stock-phrases.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.md",
+      "sha256": "1335b0e97e515ab6067688700c1167230cc7df9b340d894fc8ef35a5882c4a11",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.diff",
+      "before-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "entries": [
+        "narrow-overclaims",
+        "fix-strategy-taxonomy/accessibility/undefined-terms",
+        "fix-strategy-taxonomy/accessibility/unidentified-references",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+        "fix-strategy-taxonomy/sentence/clause-packing",
+        "fix-strategy-taxonomy/sentence/misleading-link-text",
+        "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+        "fix-strategy-taxonomy/sentence/stock-phrases"
+      ],
+      "at": "2026-11-21T19:49:26Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z",
+    "made-for": {
+      "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "1335b0e97e515ab6067688700c1167230cc7df9b340d894fc8ef35a5882c4a11",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "stale-reviews",
+        "what": "40 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

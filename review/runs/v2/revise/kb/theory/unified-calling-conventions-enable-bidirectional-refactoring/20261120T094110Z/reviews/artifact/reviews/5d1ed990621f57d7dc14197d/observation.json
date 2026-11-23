@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "id": "5d1ed990621f57d7dc14197d",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/proportion-mismatch",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/*",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/proportion-mismatch",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "520775b973330e28fa72b0c423569d4ce907b910d00b71ab2895a78efe6be154",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "1249a8898839525f07d67aca1c22ed0ebbff29cd",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "029dfb3f01f519e16b33c20830874a4aa792d4675da7aac079eabd8abcbf0094",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+      "path": "inputs/criterion.md",
+      "sha256": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "bytes": 1065,
+      "input": "gate-proportion-mismatch.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "520775b973330e28fa72b0c423569d4ce907b910d00b71ab2895a78efe6be154",
+      "bytes": 3334
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/70648dfe2f5947afb0c1d97c1d5a5e90/review-proportion-mismatch.md"
+  ],
+  "completed-result-sha256": {
+    "results/70648dfe2f5947afb0c1d97c1d5a5e90/review-proportion-mismatch.md": "6bf7eb75a89964f11fc0cc7d90a5be8f98691c35594748ce33e09c25a2935be3"
+  },
+  "latest-result": "results/70648dfe2f5947afb0c1d97c1d5a5e90/review-proportion-mismatch.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/*",
+      "key": "4ccde35e862c49974074bc49d0b47e3f566912a9b630c0584a3b263e02e4d287"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

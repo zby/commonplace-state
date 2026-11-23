@@ -1,0 +1,1 @@
+Only the two sentences after the diagram: 'The calling convention is uniform across the chain. Each link can be independently refactored without disturbing the rest.' Leave steps 3 and 4 of the progression untouched; their routing question is open with the operator.

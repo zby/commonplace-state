@@ -1,0 +1,1 @@
+Wrote the claim-strength review. The title passes because it asserts a contestable design consequence of agent statelessness. [review.md](/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T133828Z/calls/launches/dd40eef4d09f4b6589d80e41c4b8b648/outputs/review.md)

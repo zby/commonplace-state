@@ -1,0 +1,29 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/doyle-1979-truth-maintenance-system-aim-521.ingest.md
+snapshot_sha256: 10630654215d18df0c5705161737830d741412f40dd10e39c5acaa89b8102cc1
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T15:49:50+01:00'
+occasion: 'Background for kb/work/learning-method-name (deliberative learning), condition
+  3 "open to criticism". The short IJCAI-79 version is already ingested at kb/sources/doyle-1979-glimpse-of-truth-maintenance.ingest.md;
+  say what this memo adds to it and where the memo corrects conclusions drawn from
+  the short paper. Questions: how recorded reasons let the system withdraw an accepted
+  belief; what triggers revision (contradiction only, or also a new argument against
+  a step or premise); whether the system itself starts the reconsideration; what the
+  memo says about choosing between alternative belief systems and by what criterion.
+  Examine the section on dialectical arguments specifically: whether justifications
+  and premises can themselves be challenged, whether the store of arguments only grows,
+  and whether the memo calls for explicit rules for choosing what to believe. Capture
+  note: the snapshot is uncorrected OCR of an image-only PDF; where a passage matters,
+  confirm its wording against the page images in /home/zby/Downloads/AIM-521.pdf and
+  do not retain quotes from uncorrected OCR.'
+checks:
+- at: '2026-11-21T15:56:25+01:00'
+  failures: []
+- at: '2026-11-21T15:56:35+01:00'
+  failures: []
+- at: '2026-11-21T15:56:37+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T15:56:37+01:00'

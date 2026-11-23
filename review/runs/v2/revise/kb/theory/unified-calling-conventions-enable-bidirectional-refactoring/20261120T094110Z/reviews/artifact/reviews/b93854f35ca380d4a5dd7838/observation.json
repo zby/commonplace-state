@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "id": "b93854f35ca380d4a5dd7838",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/*",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "4df19cdbaf7b6ac50ee09df662f753cdbaf88b02a19052cbac596874b23b117b",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "gate-claim-strength.md": "8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367",
+      "gate-description-discrimination.md": "17cbbd1fca45e6be71ce6750fe85980667f4958045e3610c4bb9378b13702bcf",
+      "gate-title-as-claim.md": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "gate-title-body-alignment.md": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "gate-title-composability.md": "f8cac17c0f9608c444b3115f63e8e2458abf21903cb5a82a4e41d74dbf629e52",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "1249a8898839525f07d67aca1c22ed0ebbff29cd",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "029dfb3f01f519e16b33c20830874a4aa792d4675da7aac079eabd8abcbf0094",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "8e4666d11f54dfcb2ef8de2c1942bb8fa7d77bd1fb54fec00bb5794bf4642367",
+      "bytes": 1048,
+      "input": "gate-claim-strength.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "4df19cdbaf7b6ac50ee09df662f753cdbaf88b02a19052cbac596874b23b117b",
+      "bytes": 2997
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/97456a991da64d2a8b2c8a72f57d2686/review-claim-strength.md"
+  ],
+  "completed-result-sha256": {
+    "results/97456a991da64d2a8b2c8a72f57d2686/review-claim-strength.md": "81e677f120491e6889eba07e920507a5d1c33eadd0c4393808136245618fa5af"
+  },
+  "latest-result": "results/97456a991da64d2a8b2c8a72f57d2686/review-claim-strength.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/*",
+      "key": "956b06a0554691c592f1aa473828bca527d8f8308568c5c3771a313beb885d91"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -4,50 +4,30 @@ format: 2
 description: Retained verdict review of kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
   against kb/instructions/review-gates/accessibility/unidentified-references.md
 note: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
-note-sha256: 7a6f9106f19b3e96bc06338a1aa5f6ac6eef97041b3db55e50a5b60a31ecceda
+note-sha256: cd5d2711b477e1ec78f936b01b02ebf0f7c6e2b760aca5a01631094f2eff367b
 criterion: kb/instructions/review-gates/accessibility/unidentified-references.md
 criterion-sha256: 422847c587793f494bfa140e10c46772cc1decaf72d3a611ec83daa39da288c3
-outcome: warn
+outcome: pass
 profile:
-  harness: claude-code
-  launch-model: opus
-  effort: medium
-model: claude-opus-5-5
-run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews
-launch: c0662e225191403e80f5c14f8196f33a
-completed-at: '2026-11-19T13:26:27Z'
-findings:
-- scope: passage
-  quotes:
-  - Three mechanisms in Commonplace illustrate this split at different scales
-  reason: Commonplace is named as the home of the three illustrative mechanisms, but
-    its first mention does not say what it is. A later possessive ("Commonplace's
-    discoverable field of possible further work") and the phrase "local design examples"
-    only hint at it. A reader outside this KB cannot tell that it is the agent-operated
-    knowledge-base framework the note belongs to. Add a brief inline identification
-    at first mention.
-  level: warn
-- scope: passage
-  quotes:
-  - the various [Claudes] also do that
-  reason: Inside the quotation, the bracketed "[Claudes]" refers to agent instances
-    by product name without saying what Claude is. The surrounding sentence mentions
-    an Anthropic write-up about coding agents, so the meaning is inferable. Saying
-    in the lead-in that Claude is Anthropic's model would remove the gap.
-  level: info
+  harness: antigravity
+  launch-model: gemini-4-neon
+  effort: high
+model: gemini-4-neon-high
+run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews
+launch: 62ef267b890a4b7f929ae88949223c8c
+completed-at: '2026-11-19T15:48:21Z'
+findings: []
 contract: verdict
-target-sha256: d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea
-target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/c0662e225191403e80f5c14f8196f33a/inputs/note.md
-observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/artifact/reviews/72b2319b10f51069147aaebc/observation.json
+target-sha256: 12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78
+target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/62ef267b890a4b7f929ae88949223c8c/inputs/note.md
+observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/artifact/reviews/8cd511c62f6e641a7af12f6d/observation.json
 contract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161
-raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/c0662e225191403e80f5c14f8196f33a/outputs/review-unidentified-references.md
-raw-output-sha256: 9f5f189648db43b8896da7a0d84254b26e340b35c7697163aff2e11470a502e6
+raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/62ef267b890a4b7f929ae88949223c8c/outputs/review-unidentified-references.md
+raw-output-sha256: 831edbc0eace023154c15b9055b81af3d5601487d346b2f673926bb31f084ec4
 ---
 
 # Review
 
 ## Summary
 
-Most named references are adequately identified. Nostalgebraist is introduced as the author of "a practitioner account that motivated this analysis", which says what kind of source it is. The Anthropic material is identified as "a public Anthropic write-up about internal coding-agent use". ADR 138 is cited with an inline description of what it decides.
-
-The main gap is Commonplace. The note uses the name as the setting for its illustrative mechanisms but never says, at first mention, that it is the KB framework the note belongs to. A reader who reaches the note from outside the KB would not know what kind of system it is. The bracketed "[Claudes]" in the quotation is a minor, inferable gap.
+All proper nouns and named references in the note carry inline context indicating what they are on first mention. "Commonplace" is identified inline as the agent-operated knowledge-base framework the note belongs to, and "ADR 138" is glossed as an architecture decision record. In the motivating example, "Nostalgebraist" is introduced as the author of a practitioner account, "Anthropic" as the publisher of a public write-up, and "Claude" through its internal coding-agent use—matching the identifying context available in the linked source without requiring the reader to follow links to know what kind of entity each name refers to.

@@ -1,0 +1,546 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z",
+  "artifact": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Help maintainers and evaluators of improvement systems determine whether a specific kind of redesign took effect and whether the installed successor can undergo another change of that kind.",
+    "must-keep": [
+      "Operative revision requires an installed successor on which later operation depends. Repeatability requires a causal route from evidence to another operative change in the same redesign class from that successor state.",
+      "General editability and complete addressability do not guarantee survival of a particular revision route. Survival of one route does not establish complete addressability.",
+      "A later episode can witness continuity from the installed state it started from. A specified transition mechanism can support continuity prospectively within its model.",
+      "People and artifacts can share the causal work. A successor can replace the rules governing revision if it preserves or installs a viable route for the same redesign class.",
+      "The Agno extracts establish probe-driven revisions of the target agent and leave revision of the surrounding method or platform unestablished.",
+      "Expanding the system boundary to include a maintainer does not create a retained causal route for the next revision."
+    ],
+    "stop": "Defect in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/premise-decomposition-gate.md. Check 6 requires the successor and its authority path to remain addressable. The enclosed controller can halve a read-protected gain from 8 to 4 and then from 4 to 2 on overshoot. Later control cycles use each replacement, and the circuit can repeat the same revision from gain 4 even though the gain and its authority relation are unavailable for inspection. Check 1 also permits two readings with different verdicts for this case. The reviewer can identify the gain and its consumer from the design, while the updater targets a wired register without modeling that authority relation. Correcting those criteria changes the meaning or applicability of the six-check test relied on by kb/tags/reflection-README.md, kb/theory/axes-of-artifact-analysis.md, kb/theory/an-improvement-can-close-the-path-to-further-improvement.md, kb/theory/a-better-factory-claim-compares-operative-states.md, kb/theory/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md, kb/theory/evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md, kb/agentic-systems/reviews/agno-agentos.md. See kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/role. The separate causal claim that ADR 028 informed ADR 057 is unsupported by the cited records, as recorded in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/grounding-alignment.md. Resolve it in the same commission. Use commonplace-revise rewrite NOTE --commission FILE, with the commission prepared using cp-skill-write-multistage.",
+    "passes": []
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 47,
+        "fresh": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::frontmatter/claim-strength",
+          "state": "fresh",
+          "outcome": null,
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/theory/types/structured-claim.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/theory/types/structured-claim",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/accessibility/jargon-persistence.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/accessibility/undefined-terms.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/accessibility/unidentified-references.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/complexity/claim-to-section-ratio.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/complexity/connection-inflation.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/frontmatter/claim-strength.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/branch-bloat.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/theory/COLLECTION.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/theory/types/structured-claim.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/prose/mannered-prose.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/prose/orphan-references.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/prose/source-residue.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/completeness-boundary-cases.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/epistemic-status-blur.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/grounding-alignment.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/sentence/clause-packing.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/sentence/framing-mismatch.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/sentence/parsing-ambiguity.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/sentence/stock-phrases.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/structural/compound-bullet.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/structural/general-before-specific.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/role"
+  ],
+  "triage": null,
+  "passes": [],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": "Defect in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/premise-decomposition-gate.md. Check 6 requires the successor and its authority path to remain addressable. The enclosed controller can halve a read-protected gain from 8 to 4 and then from 4 to 2 on overshoot. Later control cycles use each replacement, and the circuit can repeat the same revision from gain 4 even though the gain and its authority relation are unavailable for inspection. Check 1 also permits two readings with different verdicts for this case. The reviewer can identify the gain and its consumer from the design, while the updater targets a wired register without modeling that authority relation. Correcting those criteria changes the meaning or applicability of the six-check test relied on by kb/tags/reflection-README.md, kb/theory/axes-of-artifact-analysis.md, kb/theory/an-improvement-can-close-the-path-to-further-improvement.md, kb/theory/a-better-factory-claim-compares-operative-states.md, kb/theory/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md, kb/theory/evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md, kb/agentic-systems/reviews/agno-agentos.md. See kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/role. The separate causal claim that ADR 028 informed ADR 057 is unsupported by the cited records, as recorded in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/grounding-alignment.md. Resolve it in the same commission. Use commonplace-revise rewrite NOTE --commission FILE, with the commission prepared using cp-skill-write-multistage.",
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z",
+    "made-for": {
+      "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "plan-stop",
+        "what": "The plan stops with a proposal, which names its own route: Defect in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/kb/instructions/premise-decomposition-gate.md. Check 6 requires the successor and its authority path to remain addressable. The enclosed controller can halve a read-protected gain from 8 to 4 and then from 4 to 2 on overshoot. Later control cycles use each replacement, and the circuit can repeat the same revision from gain 4 even though the gain and its authority relation are unavailable for inspection. Check 1 also permits two readings with different verdicts for this case. The reviewer can identify the gain and its consumer from the design, while the updater targets a wired register without modeling that authority relation. Correcting those criteria changes the meaning or applicability of the six-check test relied on by kb/tags/reflection-README.md, kb/theory/axes-of-artifact-analysis.md, kb/theory/an-improvement-can-close-the-path-to-further-improvement.md, kb/theory/a-better-factory-claim-compares-operative-states.md, kb/theory/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md, kb/theory/evidence/six-reported-self-improvement-paths-expose-bounded-redesign-surfaces.md, kb/agentic-systems/reviews/agno-agentos.md. See kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/role. The separate causal claim that ADR 028 informed ADR 057 is unsupported by the cited records, as recorded in kb/reports/state/review/results/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md/semantic/grounding-alignment.md. Resolve it in the same commission. Use commonplace-revise rewrite NOTE --commission FILE, with the commission prepared using cp-skill-write-multistage.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "record": "commonplace-revise answers record kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/stop-answers.md"
+        },
+        "answers": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/stop-answers.md"
+        ],
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/assessment.md",
+          "kb/reports/state/review/runs/v2/revise/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision/20261120T144910Z/artifact/plan.yaml"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "AGENTS.md",
+      "kb/instructions/cp-skill-review/SKILL.md",
+      "kb/instructions/cp-skill-revise/SKILL.md",
+      "kb/instructions/cp-skill-write-multistage/SKILL.md",
+      "kb/instructions/run-review-batches.md"
+    ]
+  }
+}

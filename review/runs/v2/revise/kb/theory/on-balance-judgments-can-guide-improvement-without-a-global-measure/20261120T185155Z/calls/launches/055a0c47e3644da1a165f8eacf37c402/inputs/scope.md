@@ -1,0 +1,1 @@
+Only two sentences: 'Those reasons can be checked independently of who offered them.' in the closing paragraph (narrow to the factual reasons; the weighing is criticizable, not verifiable) and 'The compatibility cost falls on identifiable callers' in the paragraph after the 3.11 table (narrow to losses a team can find by testing dependencies before moving).

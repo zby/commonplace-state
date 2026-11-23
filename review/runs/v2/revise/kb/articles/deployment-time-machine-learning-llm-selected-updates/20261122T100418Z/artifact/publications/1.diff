@@ -1,0 +1,48 @@
+--- kb/articles/deployment-time-machine-learning-llm-selected-updates.md
++++ kb/articles/deployment-time-machine-learning-llm-selected-updates.md (publication 1)
+@@ -30,27 +30,32 @@
+ > and counterexamples are welcome on
+ > [the repository's GitHub Discussions page](https://github.com/zby/commonplace/discussions).
+ 
+-A deployed agent can change how it handles its next task by revising an
+-instruction its next run will read. Its model weights need not change.
+-The question is which revisions to keep. If a new instruction prevents
+-routing errors but adds reading time to every task, can a large language
+-model (LLM) select an update without reducing both effects to one score?
++A deployed agent can learn by changing what it retains between tasks: an
++instruction its next run will read, or a criterion it uses to judge its own
++edits, while the model's weights stay as they are. The question is which
++revisions to keep. If a new instruction prevents routing errors but adds
++reading time to every task, can a large language model (LLM) select an
++update without reducing both effects to one score?
+ 
+ First, **selection-based learning**—learning through proposed changes
+ that are evaluated and can be rejected—needs a comparison, not a single
+-score. The judge need only compare the candidates at hand, including
+-leaving the system unchanged. One scoring function can supply the
++score. The alternative denied here is that selecting an update first
++requires collapsing every gain and loss into one number. The judge that
++evaluates a proposed change need only compare the candidates at hand,
++including leaving the system unchanged. One scoring function can supply the
+ comparison when it captures what matters. Often the stated purpose
+ permits several ways to weigh the gains and losses. Decision analysis calls
+ the set of those weightings a **preference model**, and the comparison is
+-**robust** when every function in the set gives the same answer. A robust
++**robust** when every weighting in the set gives the same answer. A robust
+ comparison can select changes without anyone choosing one scalar weighting.
+ The case argued here is the one where the changes are edits to the system's
+-own readable, addressable store. The process itself is not new: software
+-teams do it when they maintain handbooks and linters, and symbolic learners
+-such as PRODIGY ran a fixed-formula version of it in the 1980s. Like
+-reinforcement learning, the term names a process with no built-in guarantee
+-of improvement.
++own retained instructions and criteria, kept as a readable,
++[addressable](../theory/definitions/addressable-theory.md) **store**: text
++whose parts can be inspected and revised one at a time. The process itself
++is not new: software teams do it when they maintain handbooks and linters,
++and symbolic learners such as PRODIGY ran a fixed-formula version of it in
++the 1980s. Like reinforcement learning, selection-based learning names a
++process with no built-in guarantee of improvement.
+ 
+ Second, and this is our empirical bet: **a fixed-weight language model can
+ supply what the selection step needs. It can build the preference model

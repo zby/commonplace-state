@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "id": "8f4c41589d3d954a7a04ebbc",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/grounding-alignment",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/*",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "semantic/grounding-alignment",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "e8bf8d71e26567557018c5dbddc2085c4b9a479c95db57595a65cd23f0697a8a",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "gate-completeness-boundary-cases.md": "b46ca399a83da384b7f5217f86945cff08f0ae3c084711ab6fec66a558192323",
+      "gate-conceptual-role-conflation.md": "f8badd8635e1273dc87abd558f5631019a4238c75f5af84cf38e64933a44b803",
+      "gate-epistemic-status-blur.md": "ec58b5e74b81528409483b42dd9a8c11730792eda308bab8ce72f962b0d6974f",
+      "gate-explanatory-reach.md": "8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84",
+      "gate-grounding-alignment.md": "c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c",
+      "gate-internal-consistency.md": "05676960f5c1c2a28267be3f8abb77474788e9d59110a62827124e0061e06523",
+      "gate-load-bearing-qualifiers.md": "1e1f9e2efcdcbd278fbaac47775704be52b0891d84e248189ac81fba3bf802e9",
+      "gate-underspecified-assertions.md": "8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410",
+      "gate-unearned-generality.md": "92ea25015eccd7b14c7d95c647809c487d59e7128d0d1e74129c3f1156127023",
+      "gate-unwarranted-scope.md": "d4e59ae95b01188e37f82dcf05610e18712daa7bf913af37ce3f115ed14b0fc9",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "1249a8898839525f07d67aca1c22ed0ebbff29cd",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "029dfb3f01f519e16b33c20830874a4aa792d4675da7aac079eabd8abcbf0094",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+      "path": "inputs/criterion.md",
+      "sha256": "c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c",
+      "bytes": 4455,
+      "input": "gate-grounding-alignment.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "e8bf8d71e26567557018c5dbddc2085c4b9a479c95db57595a65cd23f0697a8a",
+      "bytes": 4000
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/96c4eea5828c4089a10b19a54bdfd799/review-grounding-alignment.md"
+  ],
+  "completed-result-sha256": {
+    "results/96c4eea5828c4089a10b19a54bdfd799/review-grounding-alignment.md": "aca08f23e17dce937d2763c6f8984b238dc1853b124382c8f20565e471d2bad2"
+  },
+  "latest-result": "results/96c4eea5828c4089a10b19a54bdfd799/review-grounding-alignment.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/*",
+      "key": "29678afb1bedb96efb5668b1907358636e5eaf8b5524422775e4aa7cc924ed09"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,28 @@
+purpose: ML researchers and agent builders new to the KB should finish the article
+  able to state its two claims (selecting updates to a deployed system's retained
+  instructions or criteria needs a comparison, not a single score; and the bet that
+  a fixed-weight LLM can build the preference model from a stated purpose and make
+  the robust comparison) and how that bet would be tested and could fail.
+must-keep:
+- Keep the chosen title. Explain that the deployed system learns by changing retained
+  instructions or criteria; fixed weights are not the headline.
+- Without a single score describes update selection, not model training.
+- 'Accepting a trial can select a modified proposal: installing the rule plus a review
+  commitment that someone acts on.'
+- Selecting an update needs a comparison among the candidates at hand, including leaving
+  the system unchanged, not a single score.
+- A robust comparison can select changes without anyone choosing one scalar weighting.
+- 'The bet: a fixed-weight language model can build the preference model from a stated
+  purpose, make the robust comparison, and decide the cases it leaves open, including
+  revising its working criteria while the declared objective stays fixed.'
+- The deployed system, not the model alone, is the unit of learning.
+- No completed end-to-end automated run is reported.
+- Letting a change stand while its verdict is open is a decision, not a demonstrated
+  gain.
+stop: null
+passes:
+- pass: opening-and-title
+  scope: The two opening paragraphs after the draft banner only; keep the title unchanged.
+    Gloss 'addressable' at first mention with the definition link, and make the opening
+    say the deployed system learns by changing retained instructions or criteria without
+    making fixed weights the headline.

@@ -1,0 +1,16 @@
+--- kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md
++++ kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md (publication 1)
+@@ -1,11 +1,11 @@
+ ---
+-description: A standing instruction to consult past incidents leaves the reviewer to determine which feature of an earlier failure matters to the case under review.
++description: A standing "check past incidents" rule need not change as incidents accumulate; an earlier lesson applies when the reviewer recognizes the failure's structural feature, such as sources sharing an origin, which a lookup by source name would miss.
+ type: types/note.md
+ traits: [title-as-claim]
+ tags: [continual-learning]
+ ---
+ 
+-# A fixed review rule can use lessons from new incidents only if it can identify when they apply
++# Fixed review rules apply incident lessons by recognition, not retrieval
+ 
+ “Check past incidents before publication” can remain the review rule even as new incidents accumulate. The instruction tells the reviewer where to look. It does not tell the reviewer which earlier failure bears on the page at hand.
+ 

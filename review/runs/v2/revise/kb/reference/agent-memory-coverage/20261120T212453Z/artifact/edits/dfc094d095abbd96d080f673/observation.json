@@ -1,0 +1,166 @@
+{
+  "version": 3,
+  "id": "dfc094d095abbd96d080f673",
+  "request": {
+    "job": "readability-and-flow",
+    "call-job": "readability-and-flow",
+    "note": "kb/reference/agent-memory-coverage.md",
+    "criterion": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "target-sha256": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce",
+    "criterion-bytes-sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "9e214f292fffd280e57423d0c9c71eb0d7ca3f1c0e8a4438ec48c5ee8d204b16",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce",
+      "operation.md": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "e82e8d2ad3bc8849fa2ab7dd5fae2b7b7a6999b2fcaef12d19177ba87f636657",
+      "must-keep.md": "f46498f5871b911440d76b06ba4bf4d518b350da8940b18f74ebca1690d58345"
+    }
+  },
+  "kb-commit": "ff993fb6f9427b31bf225af032c1c9cfa92a4ad2",
+  "content-state": {
+    "AGENTS.md": {
+      "kind": "file",
+      "sha256": "9393d0da431433f0ffca003d5372c3c229e7b490e81e24a74dd7f1e55d7a9017"
+    },
+    "kb/instructions/cp-skill-review/SKILL.md": {
+      "kind": "file",
+      "sha256": "cc14c671cbb95224dbbb9e0b2c32ea098d52ffda9a3f9d30ec0c0a7b396007d8"
+    },
+    "kb/instructions/cp-skill-revise/SKILL.md": {
+      "kind": "file",
+      "sha256": "4810958c1c4940d8ed0027284dbe2878fa7c1e41b2bb4237bd1a72169f1a5f39"
+    },
+    "kb/instructions/cp-skill-write-multistage/SKILL.md": {
+      "kind": "file",
+      "sha256": "2b0137499ce54377be02e8b75588e5f268d0fb66fed044741f1bb840d8835644"
+    },
+    "kb/instructions/run-review-batches.md": {
+      "kind": "file",
+      "sha256": "7df46ab092e405c8daa4cf85cce5cd2f963474d48d9280c4c259a96f973c9c45"
+    },
+    "kb/reference/agent-memory-coverage.md": {
+      "kind": "file",
+      "sha256": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce"
+    },
+    "kb/reference/commonplace-as-an-instrument.md": {
+      "kind": "file",
+      "sha256": "7c9c79496d9acac7635ac4c2efbb45fa93f246844ba0109dc6c95d5fe285c0c3"
+    },
+    "kb/sources/language-model-harnesses-compositional-generalizers.ingest.md": {
+      "kind": "file",
+      "sha256": "f6020f98fc7528496b103c0c748a0347ce26006918bb2404d3ccd3523a982937"
+    },
+    "kb/work/documentation-consolidation/README.md": {
+      "kind": "file",
+      "sha256": "4a5b650854cf46835e12d32846f19e92d23e0c7a166a42b37349182d74d3e9a0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "f0ae3962fb78fc8d56faf988e5c1c9eb885730232521111007d94d747f0cc15f",
+  "executor": {
+    "path": "provenance/7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced.json",
+    "sha256": "7715bf2bab23f2be7738922259b61c48cc2e260a69eb4bfe20f548831c2b9ced"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/reference/agent-memory-coverage.md",
+      "path": "inputs/target/kb/reference/agent-memory-coverage.md",
+      "sha256": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce",
+      "bytes": 7766,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/readability-and-flow.md",
+      "path": "inputs/criterion.md",
+      "sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "bytes": 3319,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "9e214f292fffd280e57423d0c9c71eb0d7ca3f1c0e8a4438ec48c5ee8d204b16",
+      "bytes": 1570
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "e82e8d2ad3bc8849fa2ab7dd5fae2b7b7a6999b2fcaef12d19177ba87f636657",
+      "bytes": 250,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "f46498f5871b911440d76b06ba4bf4d518b350da8940b18f74ebca1690d58345",
+      "bytes": 165,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/31055a5e767249ceb9bf0522016357c0/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/31055a5e767249ceb9bf0522016357c0/result.md": "9f02c2d0a7fd68fce26cfcfb70229de91434022e8e5b0c51d9808f5140101b6e"
+  },
+  "latest-result": "results/31055a5e767249ceb9bf0522016357c0/result.md",
+  "calls": [
+    {
+      "call": "readability-and-flow",
+      "key": "88613c953a66655ebcc65492301f2157c55e29eef9232d6a52c5a9818c6f3144"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

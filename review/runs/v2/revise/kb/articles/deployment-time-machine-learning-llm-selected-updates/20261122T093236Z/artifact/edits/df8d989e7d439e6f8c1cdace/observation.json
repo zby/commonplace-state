@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "id": "df8d989e7d439e6f8c1cdace",
+  "request": {
+    "job": "readability-and-flow",
+    "call-job": "readability-and-flow",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "target-sha256": "79bf5ad8dad074a0179bd03452477118357c491ce50a6d57a42610d7e7048068",
+    "criterion-bytes-sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "d26b77b76dd93556f09307a45a441bd76505db8ded1d62447654ebee36c34c8d",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "79bf5ad8dad074a0179bd03452477118357c491ce50a6d57a42610d7e7048068",
+      "operation.md": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "must-keep.md": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "scope.md": "c14c1e72e71d745d277f30d33d6f5ddd98e143115f8aa70158b52f506b512695",
+      "kb-role.md": "ce9f8b259081fda0459eed4a4ae85aa99c89df6ba9a7b39cd58a37b84f0abc18"
+    }
+  },
+  "kb-commit": "ad25660a68639b74d74d5eb70508be0c12ba3f0b",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "cb45225733de1c72735c5b5582b87dc0e294e4483d31f6c75b2ebfdb43884e54"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "f3906dc69a9db3f1f665365135716fdec9c7d561a3d8b9d0364157ec80f6ca84"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "124711bbad2b390f638e87ed374494f760ad81a0faf2042730f74378b8daac3f",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "79bf5ad8dad074a0179bd03452477118357c491ce50a6d57a42610d7e7048068",
+      "bytes": 26929,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/readability-and-flow.md",
+      "path": "inputs/criterion.md",
+      "sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "bytes": 3319,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "d26b77b76dd93556f09307a45a441bd76505db8ded1d62447654ebee36c34c8d",
+      "bytes": 1821
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "bytes": 388,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "bytes": 1013,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "c14c1e72e71d745d277f30d33d6f5ddd98e143115f8aa70158b52f506b512695",
+      "bytes": 1359,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "ce9f8b259081fda0459eed4a4ae85aa99c89df6ba9a7b39cd58a37b84f0abc18",
+      "bytes": 1393,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/75f9492d27bd43ae9dec09768924a137/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/75f9492d27bd43ae9dec09768924a137/result.md": "ec2ab7f8a07ac3eb4d8b539349bcf6aa4fccff29fdcc062055509040b0f57359"
+  },
+  "latest-result": "results/75f9492d27bd43ae9dec09768924a137/result.md",
+  "calls": [
+    {
+      "call": "readability-and-flow",
+      "key": "57eb39071b20194f63e47ba80b2ac3df1c497be7c61771059fb7f446ae2a9548"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

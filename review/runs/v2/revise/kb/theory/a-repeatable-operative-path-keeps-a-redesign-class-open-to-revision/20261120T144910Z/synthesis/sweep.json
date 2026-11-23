@@ -1,0 +1,12 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "profile": {
+    "harness": "codex",
+    "launch_model": "gpt-6.2-sol",
+    "effort": "medium",
+    "flags": {
+      "sandbox": "workspace-write"
+    }
+  }
+}

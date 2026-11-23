@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/making-reflective-equilibrium-precise.ingest.md
+snapshot_sha256: b0de5d6d857a41c714a937f135de20521894a8e80fab3c21ef1c949687f8768a
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:18:28+01:00'
+occasion: How can revisions of judgments and principles settle, and how much depends
+  on the choice of weights?
+checks:
+- at: '2026-11-21T09:20:04+01:00'
+  failures: []
+- at: '2026-11-21T09:20:19+01:00'
+  failures: []
+- at: '2026-11-21T09:20:19+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:20:19+01:00'

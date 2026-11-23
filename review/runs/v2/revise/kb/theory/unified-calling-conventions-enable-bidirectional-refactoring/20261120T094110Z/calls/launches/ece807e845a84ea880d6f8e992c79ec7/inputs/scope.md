@@ -1,0 +1,1 @@
+The sentence 'This requires **name-based dispatch**: components are identified by string name rather than direct object reference.' and the sentence after it.

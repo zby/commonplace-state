@@ -1,0 +1,1 @@
+The WARN items only: 'type contract' and 'temporary workshop' in 'One change followed through'.

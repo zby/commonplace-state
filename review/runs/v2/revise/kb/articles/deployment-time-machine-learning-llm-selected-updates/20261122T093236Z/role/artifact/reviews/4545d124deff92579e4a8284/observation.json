@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "id": "4545d124deff92579e4a8284",
+  "request": {
+    "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/role-in-the-kb-gate",
+    "call-job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/role-in-the-kb-gate",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/role-in-the-kb-gate.md",
+    "contract": "report",
+    "kind": "role",
+    "criterion-id": "kb/instructions/role-in-the-kb-gate",
+    "target-sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+    "criterion-bytes-sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "4da44526514c956cc679411831c5b780e9acdeb2cdf3db51ad0ab49220661b42",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "criterion.md": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-inbound.md": "3b9508f622e46212830d529efcaeae50a764e9db7298cc16f8fea39efcd2ccec"
+    }
+  },
+  "kb-commit": "d4fe04e384b198fcfc99e199329cb8f656744b7e",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "cb45225733de1c72735c5b5582b87dc0e294e4483d31f6c75b2ebfdb43884e54"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "f3906dc69a9db3f1f665365135716fdec9c7d561a3d8b9d0364157ec80f6ca84"
+    },
+    "kb/tags/deploy-time-learning-README.md": {
+      "kind": "file",
+      "sha256": "c9d81d3d7bd48633bcd1e1fb98031e93e317a5f2eba3aef10dffd2df1a570210"
+    },
+    "kb/theory/constraining-during-deployment-can-produce-learning-outside-weights.md": {
+      "kind": "file",
+      "sha256": "619ce82a9aee96087d8d56322ce3ae58a6ea3bd6a9f397237fcd9e8349b77eca"
+    },
+    "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md": {
+      "kind": "file",
+      "sha256": "d4cf3b3a1cc74902819628197e803dae5ded35ff2566701407c61f63cb5932f5"
+    },
+    "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md": {
+      "kind": "file",
+      "sha256": "92edbe1b73eab02f708b8cd92ddb75e5840c466a0513898e6b762c55e673c32f"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "13ff7b69e399684879b495af7db0e6b55e95658bb3f8d8228d916d06327717a6",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "bytes": 26137,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/role-in-the-kb-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "bytes": 5430,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "4da44526514c956cc679411831c5b780e9acdeb2cdf3db51ad0ab49220661b42",
+      "bytes": 1822
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "3b9508f622e46212830d529efcaeae50a764e9db7298cc16f8fea39efcd2ccec",
+      "bytes": 3116,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/1a25dc8d46a74658adc58447149e5b5b/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/1a25dc8d46a74658adc58447149e5b5b/review.md": "5bfe23eb73f8ab0a956519d422873a74e854f669e3e75611d54ba88541b7bf60"
+  },
+  "latest-result": "results/1a25dc8d46a74658adc58447149e5b5b/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/role-in-the-kb-gate",
+      "key": "bdc2ba708ce258ac2284e46f0316f4fc44540fe5faa06ad0bcdef6f0169e1d3a"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

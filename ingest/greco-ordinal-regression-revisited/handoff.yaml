@@ -1,0 +1,21 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/greco-ordinal-regression-revisited.ingest.md
+snapshot_sha256: 51c5ee8d3204e0eccfd73137916e2fbcb10eadfe0ffd6dfcaeecc828c3908b84
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:26:26+01:00'
+occasion: What can Commonplace conclude when a comparison leaves trade-off weights
+  open?
+checks:
+- at: '2026-11-21T09:28:40+01:00'
+  failures:
+  - 'validation: [schema] frontmatter: ''ingested'' is a required property'
+- at: '2026-11-21T09:28:45+01:00'
+  failures: []
+- at: '2026-11-21T09:29:03+01:00'
+  failures: []
+- at: '2026-11-21T09:29:03+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:29:03+01:00'

@@ -1,0 +1,1 @@
+'represents the hard-oracle extreme'; 'Honest sets of compatible measures'; 'the paradigm claim stays honest'; 'the system can still act as a bounded decision'; 'a third change revises the review check itself'. Exclude the PRODIGY, EURISKO and Harness Evolution paragraphs and the closing falsification paragraph.

@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "id": "4abfe9f6435dcd075de05621",
+  "request": {
+    "job": "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md::frontmatter/claim-strength",
+    "note": "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "67f476310a098e4b3923f6ad45fe9efe90df2f77c0f37d339d8935781c81115e",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "dcc29ebeb5447a0f0ee5febbb65535da28bac628088785af13d062834733d0b5",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "67f476310a098e4b3923f6ad45fe9efe90df2f77c0f37d339d8935781c81115e",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "9977706c49ad70095c4612599d2ecc30a324f1d6",
+  "content-state": {
+    "kb/reference/commonplace-as-an-instrument.md": {
+      "kind": "file",
+      "sha256": "4502f81c3481baca63d766d1c112906976761d3df9fd228c922454edf555d25f"
+    },
+    "kb/reference/proposals/ablation-baselines-for-the-declared-objective.md": {
+      "kind": "file",
+      "sha256": "58eda4f0a8d6f39fdab01cc644d9f39436bf33b40294471c6ffbbb601756531f"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "0b8879a08ee08faaa7a86ab9b5f607eae5836ab8395c335b9e3a09171f02fe28",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md",
+      "path": "inputs/target/kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md",
+      "sha256": "67f476310a098e4b3923f6ad45fe9efe90df2f77c0f37d339d8935781c81115e",
+      "bytes": 7430,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "dcc29ebeb5447a0f0ee5febbb65535da28bac628088785af13d062834733d0b5",
+      "bytes": 1861
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/e0b31f397423453ba3247ba5f10e188c/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/e0b31f397423453ba3247ba5f10e188c/review.md": "5c1199c49276950270b287bc20653b088ad205523bfc197eb208120086c61e32"
+  },
+  "latest-result": "results/e0b31f397423453ba3247ba5f10e188c/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md::frontmatter/claim-strength",
+      "key": "d3789ca271cde0bfa38bed500cc5b12dead5a97cd6074c5c72107730b57a09a2"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

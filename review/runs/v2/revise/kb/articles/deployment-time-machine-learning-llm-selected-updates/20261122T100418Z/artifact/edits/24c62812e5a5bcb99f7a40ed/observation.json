@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "id": "24c62812e5a5bcb99f7a40ed",
+  "request": {
+    "job": "opening-and-title",
+    "call-job": "opening-and-title",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/simplification-passes/opening-and-title.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/opening-and-title.md",
+    "target-sha256": "2048e65aa4d06816122475c0a7b53be51b90448cae9b6062508ee30a5dd9e396",
+    "criterion-bytes-sha256": "56d4a79c0704e333b2a407b309c413701d0df71ba2788ed589f789f2cd7819bf",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "118e166127b100c54ad5ab6bf911fb8b279de6d8a3a42c4995103710fefb7798",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "2048e65aa4d06816122475c0a7b53be51b90448cae9b6062508ee30a5dd9e396",
+      "operation.md": "56d4a79c0704e333b2a407b309c413701d0df71ba2788ed589f789f2cd7819bf",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "must-keep.md": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "scope.md": "b9b77f6eb31fb1777d06d1e6a8bfdc7048e347cbaec8ef8315a16c45c7247dad"
+    }
+  },
+  "kb-commit": "8074ade8f694830aec838ec71a0a41701298c4dd",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "b5bd6c733fff027e206fb0e2b5d5e9d1b5ac0a08a962e477413fed0c3f2a10ad"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "2048e65aa4d06816122475c0a7b53be51b90448cae9b6062508ee30a5dd9e396"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "6cb47dcde916393b29f6431a96cb31f69f30d6619dda2a08ed1656bc4baa491a"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e293d22985e8de8eeed9ae0818a40e798a5b4d066c0bd0ef74c238a055f4b101",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "2048e65aa4d06816122475c0a7b53be51b90448cae9b6062508ee30a5dd9e396",
+      "bytes": 26615,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/opening-and-title.md",
+      "path": "inputs/criterion.md",
+      "sha256": "56d4a79c0704e333b2a407b309c413701d0df71ba2788ed589f789f2cd7819bf",
+      "bytes": 2600,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "118e166127b100c54ad5ab6bf911fb8b279de6d8a3a42c4995103710fefb7798",
+      "bytes": 1648
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "bytes": 388,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "bytes": 1013,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "b9b77f6eb31fb1777d06d1e6a8bfdc7048e347cbaec8ef8315a16c45c7247dad",
+      "bytes": 285,
+      "input": "scope.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/450b9fe6adf9415998f93327b81c8de8/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/450b9fe6adf9415998f93327b81c8de8/result.md": "b96f601d4f71a8175ead0fdb7819abac231fe8b58eaf216089c7298e96ca6245"
+  },
+  "latest-result": "results/450b9fe6adf9415998f93327b81c8de8/result.md",
+  "calls": [
+    {
+      "call": "opening-and-title",
+      "key": "abd311cf14d009e15bd6c5e79265a4ffc863c8981c51cc0da9d5d0ea5d63b2e1"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

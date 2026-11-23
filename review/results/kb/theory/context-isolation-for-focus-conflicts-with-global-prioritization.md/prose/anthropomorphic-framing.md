@@ -4,58 +4,42 @@ format: 2
 description: Retained verdict review of kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
   against kb/instructions/review-gates/prose/anthropomorphic-framing.md
 note: kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md
-note-sha256: 7a6f9106f19b3e96bc06338a1aa5f6ac6eef97041b3db55e50a5b60a31ecceda
+note-sha256: cd5d2711b477e1ec78f936b01b02ebf0f7c6e2b760aca5a01631094f2eff367b
 criterion: kb/instructions/review-gates/prose/anthropomorphic-framing.md
 criterion-sha256: 292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3
-outcome: pass
+outcome: warn
 profile:
-  harness: claude-code
-  launch-model: opus
-  effort: medium
-model: claude-opus-5-5
-run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews
-launch: 3d6f8665a9b04e2c816a2b4805122f0c
-completed-at: '2026-11-19T13:26:47Z'
+  harness: antigravity
+  launch-model: gemini-4-neon
+  effort: high
+model: gemini-4-neon-high
+run: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews
+launch: cbd318117d3442b0ab04feebafe5ce5b
+completed-at: '2026-11-19T15:48:01Z'
 findings:
 - scope: passage
   quotes:
-  - Earnest low-value tangents
-  reason: '''Earnest'' attributes sincerity, an attitudinal state, to the worker.
-    The supporting text only establishes behavior: the agent pursues a tangent with
-    full effort and without signalling that it is low priority. A label such as ''Full-effort
-    low-value tangents'' or ''Unranked low-value tangents'' states that behavior without
-    implying an inner attitude. The word echoes the source''s ''treat with the utmost
-    seriousness'', and the mechanism the note gives is behavioral, so this is a minor
-    wording point rather than an undefended cognition claim.'
-  level: info
+  - why the worker cannot know its issue's relative priority
+  reason: Uses the epistemic verb 'know' for an isolated agent worker where a technical
+    term such as 'determine' or 'establish' states the missing-information constraint
+    accurately without implying model cognition.
+  level: warn
+- scope: passage
+  quotes:
+  - Earnest low-value tangents.
+  reason: Attributes a human attitudinal state ('earnest') to the agent as the note's
+    own failure-mode label, rather than naming the observable behavior (for example,
+    'High-effort low-value tangents' or 'Unweighted low-value tangents').
+  level: warn
 contract: verdict
-target-sha256: d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea
-target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/inputs/note.md
-observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/artifact/reviews/534beb432b39b5c5ec76dbd4/observation.json
+target-sha256: 12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78
+target-capture: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/inputs/note.md
+observation: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/artifact/reviews/d9c245e2ce2e33dba3f0b6f0/observation.json
 contract-sha256: ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161
-raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T132514Z/reviews/calls/launches/3d6f8665a9b04e2c816a2b4805122f0c/outputs/review-anthropomorphic-framing.md
-raw-output-sha256: 8f8ced618dd21ebf4c6c0788516baa93858e6042d7d1f3f88f186b375bd924f5
+raw-output: kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T154423Z/reviews/calls/launches/cbd318117d3442b0ab04feebafe5ce5b/outputs/review-anthropomorphic-framing.md
+raw-output-sha256: 0f6f4fe34f604f9e72dff7f963be667a5108c8fdc528a61109a376031250c74d
 ---
 
 # Review
 
-## Summary
-
-The note mostly describes agents through what their context window holds:
-"a worker that sees only its own task", "no ambient comparison set outside what
-its window holds", "the loaded context is the agent's entire world". It
-explicitly ties the worker's inability to rank priorities to missing context,
-not to a missing faculty. The paragraph contrasting the human specialist's
-"ambient cross-project model" with a stateless agent turns this into a claim
-about what information is loaded.
-
-"Judge", "judgment" and "decision" describe the worker's local assessments in
-agent-workflow terms. The note limits these words to local technical
-assessments and argues that isolation does not remove that capacity. They are
-role-level shorthand that the note uses on purpose and defends, not hidden claims
-about model internals. "Cannot know its issue's relative priority" means the
-information is absent from the window, which the surrounding sentences make
-explicit.
-
-The only borderline case is the "Earnest" label recorded above. It does not
-mislead about any mechanism the note relies on.
+Most of the note uses careful technical framing—explicitly contrasting a human specialist's ambient cross-project model with a stateless agent's pretraining priors and loaded context—and relies only on conventional systems shorthand (`sees`, `decides`, `judge` glossed as technical assessment). Two local passages slip into mental-state language (`know` and `earnest`) where direct technical or behavioral phrasing fits the argument more accurately.

@@ -1,0 +1,22 @@
+{"time": 1795339956.2303166, "event": "accepted", "path": "start.md", "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"}
+{"time": 1795340740.9986079, "event": "launch", "job": "assessment", "key": "88f3cc4647afe418ffc328325e48f639ab43d8357f4d4e1dbc3e51772b0d6f66", "launch": "e97f41926b4848a2a67fd80020303ce5", "status": "delivered"}
+{"time": 1795340741.0009093, "event": "answered", "job": "assessment", "key": "88f3cc4647afe418ffc328325e48f639ab43d8357f4d4e1dbc3e51772b0d6f66", "problem": false}
+{"time": 1795340741.0230215, "event": "accepted", "path": "assessment.md", "sha256": "5c7715242a42585de1b47ec16ee6bf664e41804d6c8e54a87f1015a3235bd046"}
+{"time": 1795340741.0321822, "event": "accepted", "path": "plan.yaml", "sha256": "9e422e338ec04f86eb6f5f2a2ccda85d8caa7fe4f3b75d792f2fd687fbe8d4af"}
+{"time": 1795340741.0335426, "event": "accepted", "path": "findings/semantic/completeness-boundary-cases.md", "sha256": "f8571310c1dbeb359a1cb5b73e74f5e20a76097f322a94f02e033be2ed308431"}
+{"time": 1795340859.933558, "event": "launch", "job": "narrow-overclaims", "key": "61abada047cb0ff8f8645cb78efff57a2a0c9132b1be2b6919fde2ffb37f47ec", "launch": "d576c354971948d7afbd32f50a7725a4", "status": "delivered"}
+{"time": 1795340859.9346743, "event": "answered", "job": "narrow-overclaims", "key": "61abada047cb0ff8f8645cb78efff57a2a0c9132b1be2b6919fde2ffb37f47ec", "problem": false}
+{"time": 1795340860.004716, "event": "accepted", "path": "reports/narrow-overclaims.md", "sha256": "4c575cc851aae79b5542ab188c9833890bf07ff1f4bb6928cead327ca229e803"}
+{"time": 1795340860.0053556, "event": "accepted", "path": "texts/narrow-overclaims.md", "sha256": "91624fbc0dcfd1a042a88b0d636f2a2365cb42c2f35daa6bbe1538b924c9ade9"}
+{"time": 1795340948.1811335, "event": "launch", "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases", "key": "1d46bd9de695f1ebe049127b1bd8d25a168f19d831ecb50b7e3fb99aefac9684", "launch": "d1676e1c4a1d4d2bb4ee13517cf8bfc0", "status": "delivered"}
+{"time": 1795340948.1816604, "event": "answered", "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases", "key": "1d46bd9de695f1ebe049127b1bd8d25a168f19d831ecb50b7e3fb99aefac9684", "problem": false}
+{"time": 1795340948.2440722, "event": "accepted", "path": "reports/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md", "sha256": "1af862bc643222b229cd3802bab5baacb1c231641bfc8fae0695d627274b8d4b"}
+{"time": 1795340948.2448509, "event": "accepted", "path": "texts/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md", "sha256": "79bf5ad8dad074a0179bd03452477118357c491ce50a6d57a42610d7e7048068"}
+{"time": 1795341093.2607744, "event": "launch", "job": "readability-and-flow", "key": "57eb39071b20194f63e47ba80b2ac3df1c497be7c61771059fb7f446ae2a9548", "launch": "75f9492d27bd43ae9dec09768924a137", "status": "delivered"}
+{"time": 1795341093.2620552, "event": "answered", "job": "readability-and-flow", "key": "57eb39071b20194f63e47ba80b2ac3df1c497be7c61771059fb7f446ae2a9548", "problem": false}
+{"time": 1795341093.3382666, "event": "accepted", "path": "reports/readability-and-flow.md", "sha256": "a2d51cbaaa09361b83f1105e5a63e74b6654f0701c0e06dca94c4b8f147df72f"}
+{"time": 1795341093.3389087, "event": "accepted", "path": "texts/readability-and-flow.md", "sha256": "de7364c2bdff81e4854c7b93d299ad587921f91ada3618bba09a65c7bc503253"}
+{"time": 1795341115.9699843, "event": "launch", "job": "plain-wording/propose", "key": "6e6a1ccd774d1544d78a45127c7e89c1850dff40c84490f071d49f27ffa25c29", "launch": "716acf9c1bf54a73892dc149c064df07", "status": "delivered"}
+{"time": 1795341115.971149, "event": "answered", "job": "plain-wording/propose", "key": "6e6a1ccd774d1544d78a45127c7e89c1850dff40c84490f071d49f27ffa25c29", "problem": false}
+{"time": 1795341116.0336936, "event": "accepted", "path": "reports/plain-wording.md", "sha256": "392ddb2c964fa12b742feea7412f3a20095e24d52312b79c2c3f327a7d497ef7"}
+{"time": 1795341116.0360696, "event": "accepted", "path": "plain-wording-answers.md", "sha256": "f9c5f64b7c0df65b286d8b5fa6084641d472559e9d4547312a083868735387fd"}

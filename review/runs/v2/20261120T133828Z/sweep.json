@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "profile": {
+    "harness": "codex",
+    "launch_model": "gpt-6.2-sol",
+    "effort": "medium",
+    "flags": {
+      "sandbox": "workspace-write"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/theory/title-as-claim-enables-traversal-as-reasoning.md",
+      "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md",
+      "kb/theory/link-graph-plus-timestamps-enables-make-like-staleness-detection.md",
+      "kb/theory/near-decomposability-may-make-local-inspection-affordable.md",
+      "kb/theory/agent-statelessness-makes-routing-architectural-not-learned.md",
+      "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md",
+      "kb/theory/mechanistic-constraints-make-popperian-kb-recommendations-actionable.md",
+      "kb/theory/title-as-claim-makes-overlap-between-notes-visible.md",
+      "kb/theory/use-tests-a-decomposition-locally-rationale-makes-transfer-testable.md",
+      "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md"
+    ],
+    "criteria": [
+      "frontmatter/claim-strength"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

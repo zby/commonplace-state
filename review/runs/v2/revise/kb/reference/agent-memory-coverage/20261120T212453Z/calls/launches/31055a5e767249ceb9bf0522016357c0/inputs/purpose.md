@@ -1,0 +1,1 @@
+Help a maintainer compare agent-memory requirements with shipped capabilities and limits. Make the order and reasoning clear, distinguish how records are created, found and checked from what future use demonstrates, and avoid repeating the inventory.

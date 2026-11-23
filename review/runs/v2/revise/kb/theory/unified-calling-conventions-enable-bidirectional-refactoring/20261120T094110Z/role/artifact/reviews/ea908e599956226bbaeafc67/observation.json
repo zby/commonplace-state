@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "id": "ea908e599956226bbaeafc67",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/role-in-the-kb-gate.md",
+    "contract": "report",
+    "kind": "role",
+    "criterion-id": "kb/instructions/role-in-the-kb-gate",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "795bfb592d52ecb2fded8ae56feec96551606db20c8340869a33f6a9eae9c08e",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "criterion.md": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-inbound.md": "44345cbd94bac381917dcac3692f8544d32afef86b77d5c0fdc4395aa7c4b164"
+    }
+  },
+  "kb-commit": "211039143e6ae8f7b43c1ab9031e469a08ec90e8",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "d378bb7867afff894574d614c39675db551b14e2cad5a2d24f00b1676da66bc2",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/role-in-the-kb-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "bytes": 5430,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "795bfb592d52ecb2fded8ae56feec96551606db20c8340869a33f6a9eae9c08e",
+      "bytes": 1825
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "44345cbd94bac381917dcac3692f8544d32afef86b77d5c0fdc4395aa7c4b164",
+      "bytes": 14483,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/31e8dd6527ab45be96b0a0bc46ff3102/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/31e8dd6527ab45be96b0a0bc46ff3102/review.md": "3797e8d6cc16537751b39a211dbb3cb8940f84806726b2ba9a4ff2dde594f190"
+  },
+  "latest-result": "results/31e8dd6527ab45be96b0a0bc46ff3102/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+      "key": "051cce21676130c6e27372e26e889b2343103e8d3a2eb359b18589ad867d1d41"
+    },
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+      "key": "b86fee45bca59114d3bdda709fc15820d9f08d1fc51513fd24cdd99d005e285e"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795168227.248881,
+      "event": "rejected",
+      "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+      "key": "b86fee45bca59114d3bdda709fc15820d9f08d1fc51513fd24cdd99d005e285e",
+      "problems": [
+        "review: [base] title: 104 chars exceeds limit of 100"
+      ]
+    }
+  ],
+  "content-rejections": 1,
+  "rejection-events": 1
+}

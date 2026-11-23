@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "fixed-plan",
+  "purpose": null,
+  "must-keep": [],
+  "plan": "purpose: ML researchers and agent builders new to the KB should finish the article\n  able to state its two claims (selecting updates to a deployed system's retained\n  instructions or criteria needs a comparison, not a single score; and the bet that\n  a fixed-weight LLM can build the preference model from a stated purpose and make\n  the robust comparison) and how that bet would be tested and could fail.\nmust-keep:\n- Keep the chosen title. Explain that the deployed system learns by changing retained\n  instructions or criteria; fixed weights are not the headline.\n- Without a single score describes update selection, not model training.\n- 'Accepting a trial can select a modified proposal: installing the rule plus a review\n  commitment that someone acts on.'\n- Selecting an update needs a comparison among the candidates at hand, including leaving\n  the system unchanged, not a single score.\n- A robust comparison can select changes without anyone choosing one scalar weighting.\n- 'The bet: a fixed-weight language model can build the preference model from a stated\n  purpose, make the robust comparison, and decide the cases it leaves open, including\n  revising its working criteria while the declared objective stays fixed.'\n- The deployed system, not the model alone, is the unit of learning.\n- No completed end-to-end automated run is reported.\n- Letting a change stand while its verdict is open is a decision, not a demonstrated\n  gain.\nstop: null\npasses:\n- pass: opening-and-title\n  scope: The two opening paragraphs after the draft banner only; keep the title unchanged.\n    Gloss 'addressable' at first mention with the definition link, and make the opening\n    say the deployed system learns by changing retained instructions or criteria without\n    making fixed weights the headline.\n",
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": null
+}

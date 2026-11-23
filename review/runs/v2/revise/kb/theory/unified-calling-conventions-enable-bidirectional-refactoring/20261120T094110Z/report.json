@@ -1,0 +1,677 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z",
+  "artifact": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Explain how a shared calling convention lets a team change one component between an LLM-backed prompt and code without changing its callers, both in production and while testing proposed requirements.",
+    "must-keep": [
+      "A team may temporarily replace working code with a prompt in a test run to compare proposed behaviors behind the same interface. This need not reflect brittleness or scaling. If prompt edits make exploration cheaper, the chosen behavior can still return to code for production.",
+      "If neural and symbolic components present the same interface, callers don't need to know which they're talking to, and moving a component across the boundary leaves its call sites unchanged, so the refactoring is a local operation.",
+      "llm-do's imperative scheduler contrasts with graph-defined orchestration: agent A calls agent B as a function, and each agent gets only its arguments (local scope)."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "narrow-overclaims",
+        "scope": "Four passages only: (1) in the opening paragraph, the sentence 'if neural and symbolic components present the same interface, callers don't need to know which they're talking to' — say that the interface means the name plus the argument and output schema and the description the LLM caller sees, without weakening the unchanged-call-site claim; (2) in 'Why this matters for constraining', the sentences 'But without a unified interface, each codification step is a breaking change … pushes toward big-bang rewrites' — compare against systems that expose agents and tools through different invocation surfaces, and mark the rewrite effect as an expectation; (3) the lead-in 'With unified calling, the progression is smooth:' — mark the progression as an illustration; (4) in 'The scheduler layer', the sentence naming LangGraph and CrewAI — narrow it to graph-defined orchestration such as LangGraph's, keeping the contrast. Do not touch the numbered steps, the test-run paragraph or the table."
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The opening sentence attributing the constrain/relax framing to the linked note, including its link text (link target unchanged), and the 'Instructions are typed callables … practical rather than just analogical' sentences.",
+        "finding": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/grounding-alignment.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The sentence 'This requires **name-based dispatch**: components are identified by string name rather than direct object reference.' and the sentence after it.",
+        "finding": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/prose/source-residue.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only the two sentences after the diagram: 'The calling convention is uniform across the chain. Each link can be independently refactored without disturbing the rest.' Leave steps 3 and 4 of the progression untouched; their routing question is open with the operator.",
+        "finding": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/completeness-boundary-cases.md"
+      },
+      {
+        "pass": "readability-and-flow",
+        "scope": "Body above the footer, excluding steps 3 and 4 of the numbered progression and the scheduler table rows. Name both directions next to the core claim in the opening, using only what the body states: codifying and extending in production, and switching back to a prompt to test proposed requirements. Remove the recap sentence after the scheduler table that repeats its Refactoring row, and the sentence 'Both are callables with defined interfaces.'"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/instructions/cp-skill-add-collection/SKILL.md",
+          "kb/reference/README.md",
+          "kb/reference/adr/019-collection-owned-link-vocabulary.md",
+          "kb/reference/link-vocabulary.md",
+          "kb/types/collection-contract.md",
+          "kb/work/linking-contract-consistency/README.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/accessibility/unidentified-references.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/complexity/connection-inflation.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/complexity/framework-decoration.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/branch-bloat.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/detail-overhang.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/theory/COLLECTION.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/types/note.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/prose/mannered-prose.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/prose/orphan-references.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/prose/source-residue.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/completeness-boundary-cases.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/epistemic-status-blur.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/grounding-alignment.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/semantic/underspecified-assertions.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/sentence/concept-attribution.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/sentence/misleading-link-text.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/composition-friction-gate.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/critique-note.md",
+    "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/synthesis",
+    "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "narrow-overclaims",
+      "scope": "Four passages only: (1) in the opening paragraph, the sentence 'if neural and symbolic components present the same interface, callers don't need to know which they're talking to' — say that the interface means the name plus the argument and output schema and the description the LLM caller sees, without weakening the unchanged-call-site claim; (2) in 'Why this matters for constraining', the sentences 'But without a unified interface, each codification step is a breaking change … pushes toward big-bang rewrites' — compare against systems that expose agents and tools through different invocation surfaces, and mark the rewrite effect as an expectation; (3) the lead-in 'With unified calling, the progression is smooth:' — mark the progression as an illustration; (4) in 'The scheduler layer', the sentence naming LangGraph and CrewAI — narrow it to graph-defined orchestration such as LangGraph's, keeping the contrast. Do not touch the numbered steps, the test-run paragraph or the table.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/reports/narrow-overclaims.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/narrow-overclaims.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/semantic/grounding-alignment",
+      "scope": "The opening sentence attributing the constrain/relax framing to the linked note, including its link text (link target unchanged), and the 'Instructions are typed callables … practical rather than just analogical' sentences.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/findings/semantic/grounding-alignment.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/reports/fix-strategy-taxonomy/semantic/grounding-alignment.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/fix-strategy-taxonomy/semantic/grounding-alignment.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/prose/source-residue",
+      "scope": "The sentence 'This requires **name-based dispatch**: components are identified by string name rather than direct object reference.' and the sentence after it.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/findings/prose/source-residue.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/reports/fix-strategy-taxonomy/prose/source-residue.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/fix-strategy-taxonomy/prose/source-residue.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+      "scope": "Only the two sentences after the diagram: 'The calling convention is uniform across the chain. Each link can be independently refactored without disturbing the rest.' Leave steps 3 and 4 of the progression untouched; their routing question is open with the operator.",
+      "effort": "judgment",
+      "finding": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/findings/semantic/completeness-boundary-cases.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/reports/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/fix-strategy-taxonomy/semantic/completeness-boundary-cases.md",
+      "answers": null
+    },
+    {
+      "name": "readability-and-flow",
+      "scope": "Body above the footer, excluding steps 3 and 4 of the numbered progression and the scheduler table rows. Name both directions next to the core claim in the opening, using only what the body states: codifying and extending in production, and switching back to a prompt to test proposed requirements. Remove the recap sentence after the scheduler table that repeats its Refactoring row, and the sentence 'Both are callables with defined interfaces.'",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/reports/readability-and-flow.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/readability-and-flow.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/texts/readability-and-flow.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.md",
+      "sha256": "619f99101fbaf6912c769229e997d8cc9c48c12d8b8022e85a450de82405a976",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.diff",
+      "before-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "entries": [
+        "narrow-overclaims",
+        "fix-strategy-taxonomy/semantic/grounding-alignment",
+        "fix-strategy-taxonomy/prose/source-residue",
+        "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T10:00:55Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z",
+    "made-for": {
+      "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "619f99101fbaf6912c769229e997d8cc9c48c12d8b8022e85a450de82405a976",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "stale-reviews",
+        "what": "44 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md --stale"
+        },
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD"
+    ]
+  }
+}

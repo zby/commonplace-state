@@ -1,0 +1,1 @@
+Completed all three reviews against the supplied note snapshot. Bullet capitalization passed. The compound-bullet review flagged the fixed-placement caveat for combining a justification with a separate requirement. The section-order review flagged that Evidence precedes the general causal explanation in Reasoning.

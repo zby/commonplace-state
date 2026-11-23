@@ -1,0 +1,40 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "full",
+  "purpose": "Explain how a shared calling convention lets a team change one component between an LLM-backed prompt and code without changing its callers, both in production and while testing proposed requirements.",
+  "must-keep": [
+    "A team may temporarily replace working code with a prompt in a test run to compare proposed behaviors behind the same interface. This need not reflect brittleness or scaling. If prompt edits make exploration cheaper, the chosen behavior can still return to code for production."
+  ],
+  "plan": null,
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+I’d keep the current default and use the frame-pointer build for services where knowing the caller during a live incident is especially valuable.
+
+The proposed build used 1% more CPU time for the same requests in the usual-traffic replay. That cost would recur across services to the extent their traffic resembles the replay. The profiling benefit is concrete, too. Investigators lacked a caller they cared about in four of ten investigations, and the proposed build revealed it in three of those four replays. But the team doesn’t know whether seeing those callers would have saved minutes or days. The ten investigations also give no indication of how frequently such incidents occur relative to the CPU cost.
+
+The strongest reason to change the default is timing. A redeployment after an incident starts can miss the behavior investigators need to capture. I’d therefore enable frame pointers in advance on services with a history of these profiling gaps. Third-party libraries can still interrupt the call chain, so this improves the odds of a useful trace without guaranteeing one.
+
+I’d revisit the default once the team has evidence about how often the extra caller information changes a diagnosis and how much investigation time it saves.

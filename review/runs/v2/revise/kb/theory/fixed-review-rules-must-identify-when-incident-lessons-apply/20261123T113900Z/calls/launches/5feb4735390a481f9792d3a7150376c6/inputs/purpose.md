@@ -1,0 +1,1 @@
+Keep this a simple foundation: distinguish finding an incident from recognizing when its lesson applies. Leave implications for later notes.

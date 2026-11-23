@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "id": "ff5f848cbbf59372aa28428e",
+  "request": {
+    "job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+    "call-job": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "target-sha256": "91624fbc0dcfd1a042a88b0d636f2a2365cb42c2f35daa6bbe1538b924c9ade9",
+    "criterion-bytes-sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "70a5422bb48a1495baf23738e988cb7328477cc5a2ac1ae91b36b6c4b9d3d182",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "91624fbc0dcfd1a042a88b0d636f2a2365cb42c2f35daa6bbe1538b924c9ade9",
+      "operation.md": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "must-keep.md": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "scope.md": "085d3c7617804054572c7be41915e77be43f68eae704ee8ba4503f1271701ce5",
+      "kb-role.md": "ce9f8b259081fda0459eed4a4ae85aa99c89df6ba9a7b39cd58a37b84f0abc18",
+      "finding.md": "f8571310c1dbeb359a1cb5b73e74f5e20a76097f322a94f02e033be2ed308431"
+    }
+  },
+  "kb-commit": "d4fe04e384b198fcfc99e199329cb8f656744b7e",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "cb45225733de1c72735c5b5582b87dc0e294e4483d31f6c75b2ebfdb43884e54"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "f3906dc69a9db3f1f665365135716fdec9c7d561a3d8b9d0364157ec80f6ca84"
+    },
+    "kb/tags/continual-learning-README.md": {
+      "kind": "file",
+      "sha256": "cb8257816916b752ab32eb33459a9aedf715a42b12e4ad6d099287d4c682f6d1"
+    },
+    "kb/tags/deploy-time-learning-README.md": {
+      "kind": "file",
+      "sha256": "c9d81d3d7bd48633bcd1e1fb98031e93e317a5f2eba3aef10dffd2df1a570210"
+    },
+    "kb/theory/constraining-during-deployment-can-produce-learning-outside-weights.md": {
+      "kind": "file",
+      "sha256": "619ce82a9aee96087d8d56322ce3ae58a6ea3bd6a9f397237fcd9e8349b77eca"
+    },
+    "kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md": {
+      "kind": "file",
+      "sha256": "d8f0643dce70dc12d2f1feda4d2b130be363f60dd771b99d5f57f2dd28f42caf"
+    },
+    "kb/theory/retained-artifacts-enable-persistent-deployment-time-adaptation.md": {
+      "kind": "file",
+      "sha256": "d4cf3b3a1cc74902819628197e803dae5ded35ff2566701407c61f63cb5932f5"
+    },
+    "kb/theory/the-deployed-system-not-the-model-is-the-unit-of-learning.md": {
+      "kind": "file",
+      "sha256": "92edbe1b73eab02f708b8cd92ddb75e5840c466a0513898e6b762c55e673c32f"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "124711bbad2b390f638e87ed374494f760ad81a0faf2042730f74378b8daac3f",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "91624fbc0dcfd1a042a88b0d636f2a2365cb42c2f35daa6bbe1538b924c9ade9",
+      "bytes": 26796,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+      "path": "inputs/criterion.md",
+      "sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "bytes": 6254,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "70a5422bb48a1495baf23738e988cb7328477cc5a2ac1ae91b36b6c4b9d3d182",
+      "bytes": 2036
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "5b6bfadc1970d73fed427cb258957cd3eff1a5a299999f93c62531a92c201d17",
+      "bytes": 388,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "89030a8b6a40905298e7fe9f24ad05e396eda2a32a0f333b7191b85114199976",
+      "bytes": 1013,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "085d3c7617804054572c7be41915e77be43f68eae704ee8ba4503f1271701ce5",
+      "bytes": 173,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "ce9f8b259081fda0459eed4a4ae85aa99c89df6ba9a7b39cd58a37b84f0abc18",
+      "bytes": 1393,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T093236Z/artifact/findings/semantic/completeness-boundary-cases.md",
+      "path": "inputs/operational/finding.md",
+      "sha256": "f8571310c1dbeb359a1cb5b73e74f5e20a76097f322a94f02e033be2ed308431",
+      "bytes": 4554,
+      "input": "finding.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/d1676e1c4a1d4d2bb4ee13517cf8bfc0/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/d1676e1c4a1d4d2bb4ee13517cf8bfc0/result.md": "3d5e1522d0b0295c237a23b90fafa5fb1017dbc5dfa6771262826c1434dc8a48"
+  },
+  "latest-result": "results/d1676e1c4a1d4d2bb4ee13517cf8bfc0/result.md",
+  "calls": [
+    {
+      "call": "fix-strategy-taxonomy/semantic/completeness-boundary-cases",
+      "key": "1d46bd9de695f1ebe049127b1bd8d25a168f19d831ecb50b7e3fb99aefac9684"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/publications/1.md",
+      "sha256": "f431d45da624fcb60c9cd4e6c60d849269008cdacaaf3f9ed44ca2f3f751f935",
+      "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/necessary-preference-can-guide-improvement-without-a-global-measure/20261122T151721Z/artifact/publications/1.diff",
+      "before-sha256": "d7e9bf65b0bfdc6e6e9b38c33b86399592d342631edb8cd6b1fccf478d91b877",
+      "entries": [],
+      "at": "2026-11-22T16:44:33Z",
+      "decided-by": "operator",
+      "revised": true
+    }
+  ]
+}

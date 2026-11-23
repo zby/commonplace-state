@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "id": "701eac605e9d7583ce69d29d",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "contract": "verdict",
+    "kind": "compression",
+    "criterion-id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "0b5b58d6e08bfd6f137b6b86135047dd38b6b7250c03c48856e11651c3764651",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "criterion.md": "a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "1249a8898839525f07d67aca1c22ed0ebbff29cd",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "029dfb3f01f519e16b33c20830874a4aa792d4675da7aac079eabd8abcbf0094",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/criterion.md",
+      "sha256": "a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7",
+      "bytes": 5580,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0b5b58d6e08bfd6f137b6b86135047dd38b6b7250c03c48856e11651c3764651",
+      "bytes": 2042
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/f326cb0c639a41ff91f45cd40f51996f/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/f326cb0c639a41ff91f45cd40f51996f/review.md": "cf849d3ca4c1602165a528a2e67b7759c6d4a39a04c55ed75ecfa525dd7d3af6"
+  },
+  "latest-result": "results/f326cb0c639a41ff91f45cd40f51996f/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+      "key": "d353ce20fab808c2b6f85532564726ee6cf9c47e07a56e42dfdd1b4d492bc3e0"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,106 @@
+--- kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md
++++ kb/theory/continual-learning-requires-governing-behaviour-changing-writes.md (candidate)
+@@ -1,5 +1,5 @@
+ ---
+-description: For deployed systems, persistence is insufficient; continual learning must select, validate, authorize, and coordinate behaviour-changing updates across the representational forms a system can change
++description: "A capability needs learning only when contrasting deployment histories must yield different decisions at the same later input; then retained state must reach that decision with authority, while program text, procedures and machinery may stay fixed unless cost or expressiveness fails"
+ type: types/note.md
+ traits: [title-as-claim]
+ tags: [learning-theory, self-improving-systems, continual-learning, improvement-loop]
+@@ -7,33 +7,74 @@
+ 
+ # Continual learning requires governing behaviour-changing writes, not just storing content
+ 
+-Continual learning in a deployed system requires more than retaining new content. It requires governing durable changes to future behaviour: selecting a candidate update, validating it, and deciding how it enters the behaviour-determining system. This note uses the broad criterion from [Learning is not only about generality](./learning-is-not-only-about-generality.md): learning is any durable change in a system's capacity to adapt to its environment. Data infrastructure can persist, version, and retrieve content after it has been chosen, but persistence does not decide which retained item should shape behaviour or with what force. [Behavioral authority](./definitions/behavioral-authority.md) — the force with which a consumed artifact determines what the system actually does — belongs to a consumption path, not to stored bytes. The same object is a [knowledge artifact](./definitions/knowledge-artifact.md) when consumed as evidence or advice, and a [system-definition artifact](./definitions/system-definition-artifact.md) when consumed to instruct, constrain, route, validate, or train. Persistence alone therefore does not create a governed behaviour-changing write.
++A designer who wants an agent to learn from deployment should first ask a narrower question: **must the agent decide differently at the same later input because of what happened earlier?** If not, the capability needs no learning; switching among existing behaviours on the current input suffices. If so, two things are required. Some retained state must differ between the histories that call for different decisions. Some consumption rule must give that state [behavioral authority](./definitions/behavioral-authority.md) over the decision: a consumer, a channel and a force. That rule is what this note means by governing behaviour-changing writes. Storing content satisfies neither requirement alone.
+ 
+-An autonomous loop that must close during deployment adds two constraints. First, deployment evidence arrives online and is often sparse, so candidate writes must be cheap to propose and install; some lessons must take effect before a full retraining cycle. Retained system-definition artifacts provide one [persistent deployment-time learning](./deployed-systems-can-learn-from-feedback-with-fixed-model-weights.md) path. Second, candidate writes must be **validated against regression**, because continual adaptation compounds silent degradation (see [Scheduler-LLM separation exploits an error-correction asymmetry](./scheduler-llm-separation-exploits-an-error-correction-asymmetry.md)).
++The claim is conditional and deliberately weak in what it asks to change. It does not require rewriting code, weights or rules. It does not require a reject-capable gate or autonomous selection. And a change that meets both requirements is not yet shown to be an improvement.
+ 
+-A deployed system's writable surface may include three [representational forms](./definitions/representational-form.md): **distributed-parametric** state such as weights and adapters, **natural-language** artifacts such as prompts and rules, and **symbolic** artifacts such as code, schemas, and tests. Parametric continual learning keeps its own plasticity-stability and catastrophic-forgetting problems — the tension between absorbing new lessons and preserving earlier capabilities; broadening the system boundary does not remove them. But if prompts, tools, validators, and runtime policy also determine behaviour, then an updater restricted to weights freezes consequential choices outside its reach. The forms differ in installation cost and verifiability, so a learning loop must decide which form a lesson belongs in and coordinate whichever forms that update touches. It need not touch all three every time. The broader trade space and coupling among their improvement loops belongs to [representational-form coevolution](./treat-continual-learning-as-representational-form-coevolution.md).
++## Fixed program text is not fixed behaviour
+ 
+-The resulting problem is governance: autonomously *choosing* a behaviour-changing write, *validating* it against open-ended behaviour, assigning it an authority path, and coordinating it with other retained parts of the system. Form placement is itself revisable. A stable natural-language rule may be codified, while a brittle symbolic rule may be relaxed back into prose ([codification and relaxing](./codification-and-relaxing-navigate-the-bitter-lesson-boundary.md)). Mature release engineering already governs hand-authored readable changes. Those changes are learning too: the software learns by [selection](./definitions/selection-based-learning.md) that people perform on it. Continual learning, as the field uses the term and as this note uses it, asks for more: the system does the selecting itself. A behaviour-changing write counts as continual learning when the system's own loop selects and retains it because deployment evidence bears on an improvement objective — for retained candidates, search, reject-capable evaluation, and operative retention ([a proposal-selection improvement loop](./a-proposal-selection-loop-requires-search-evaluation-and-retention.md)). The same edit hand-authored in reaction to an incident is maintenance: the system learned, and people outside its loop did the selecting. Continual-learning systems must close that evidence-responsive loop at the cadence their environment requires. Storage, [contextual activation](./knowledge-storage-does-not-imply-contextual-activation.md), and parametric adaptation remain real subproblems; governance relates them rather than replacing them.
++The strongest objection is a fixed deterministic program. It need not branch on one anticipated case. It can interpret arbitrary retained data, compute over the whole history, and run whatever procedure that data describes. Such a program can show any history-dependent behaviour its retained state and budget allow, without its text ever changing.
++
++The objection is correct about program text and irrelevant to the requirement. What matters is behaviour at **matched decision inputs**: the same current question, observation or task presented after different histories. Write the decision as `d = P(x, s)`, where `x` is the current input and `s` is retained state. If `P` is fixed, learning is still possible, because `s` changes. If `d` is the same for every history at a given `x`, nothing at that decision has been learned, however much was stored. The requirement therefore falls on the map from current inputs to decisions, not on the text of `P`.
++
++A fixed `P` also already contains a governance rule. It decides which retained items reach which decisions, and whether as evidence, advice, instruction or enforcement. The same stored item can carry different force on different consumption paths, so authority belongs to its use, not to its bytes ([behavioral authority](./definitions/behavioral-authority.md)). In the fixed-program case that rule is fixed too. The rule must exist; nothing in the argument requires it to be revisable.
++
++## Test a desired capability with contrasting histories
++
++To test a particular capability, name a later decision input `x` and two deployment histories, `h1` and `h2`. They should differ only in evidence the capability is meant to respond to. State in advance which decision each history should produce at `x`. Then run `x` after each history.
++
++Hypothetical case, a wiki-based team assistant. The desired capability is that, after a user corrects it that the staging deploy command has changed, later questions about deploying to staging use the new command. `h1` contains the correction and `h2` does not. `x` is a fresh question, in a new session, about deploying to staging.
++
++- **Winning case.** The correction is written to the wiki page on staging deploys. At question time, retrieval loads that page and the answer gives the new command after `h1` and the old one after `h2`. The capability is present at `x`.
++- **Losing case: stored, not consumed.** The correction is written to a conversation log that nothing retrieves for deployment questions. The assistant gives the same answer after both histories. Content was stored, but the decision at `x` did not change, so nothing was learned there. Storage can also fail one step later: the page is loaded but does not change the answer ([knowledge storage does not imply contextual activation](./knowledge-storage-does-not-imply-contextual-activation.md)).
++
++A history-insensitive answer at `x` refutes the capability at `x`. A history-sensitive answer establishes only that past experience made a difference. It does not establish that the difference was good.
++
++## A changed decision is not yet an improvement
++
++Different changes of state, and different decisions, do not by themselves establish improvement. [Evaluation must distinguish](./knowledge-storage-does-not-imply-contextual-activation.md) whether an artifact exists, whether it reaches the consumer, whether the consumer's behaviour changes, and whether the task result improves; each can hold while the next fails.
++
++Hypothetical continuation. The assistant stores the correction as a standing instruction loaded into every deployment answer. Its staging answers now pass the contrasting-histories test. But its production answers also switch to the staging command, which a correct production page contradicts. The decision changed in more places than the capability called for. Whether the net result is better is decided by consequences on the expected stream of questions, compared with a named alternative such as retaining the correction only as page content ([defining improvement for open-ended work](./defining-improvement-for-open-ended-work.md)). Counting retained corrections, or loaded pages, does not settle it.
++
++So the full test has two parts. Contrasting histories show whether past experience reaches the decision. A consequence check against a named alternative, stated before the trial, shows whether it improves the work.
++
++## What has to change, and what can stay fixed
++
++The capability's demand determines how much of the system must vary with history. Three levels are often run together:
++
++1. **History available at decision time.** The program, its procedures and its machinery stay fixed; only retained data grows, and a fixed interpreter computes over it. Switching among existing behaviours belongs here when a small retained selector chooses the behaviour. An assistant that remembers a user's preference for brief answers needs one retained bit and an existing brief mode.
++2. **A revised procedure.** Retained state records a derived procedure, such as a checklist, rule or skill, that later decisions follow. This is needed when computing from raw history at each decision is too costly or too unreliable within the operating budget. Condensation carries its own risk: in the experiments reported in the knowledge-storage note, behaviour depended more consistently on raw trajectories than on condensed experience ([knowledge storage does not imply contextual activation](./knowledge-storage-does-not-imply-contextual-activation.md)).
++3. **Revised machinery.** The components that execute procedures change: retrieval, traversal, checking or scheduling. This is needed only when the permitted machinery cannot express a required operation, or cannot perform it reliably within budget ([a fixed-model house must retain missing procedures for theory use](./a-fixed-model-house-must-retain-missing-procedures-for-theory-use.md)). The limit is the [effective update space](./learning-inside-a-fixed-decomposition-inherits-its-mistakes.md), not whether an operation has a dedicated implementation.
++
++Level 1 meets the requirement in principle for any capability a fixed interpreter can compute from history. Levels 2 and 3 are answers to cost, reliability and expressiveness limits, not to learning as such. The fixed-model note marks the distinction: an operation that is possible but too costly needs different evidence from one the permitted machinery cannot express.
++
++How updates enter retained state is also open. Evidence may determine an update directly, with no candidate that could be rejected. Alternatively, a proposal-selection loop may generate candidates, evaluate them with possible rejection, and make accepted ones operative ([a proposal-selection improvement loop](./a-proposal-selection-loop-requires-search-evaluation-and-retention.md)). Both satisfy the requirement here. A gate is one way to make the consequence check part of the system, not a condition of learning.
++
++## When does open-ended work need more than level 1?
++
++A stronger conjecture is tempting: open-ended work, with tasks the designer did not foresee, forces procedure or machinery revision. The supplied theory does not settle it. Open-endedness alone does not defeat the fixed interpreter, because it can compute over histories it was never designed for. What it may defeat is budget or reliability.
++
++The conjecture becomes testable through a matched comparison of the kind set out in the fixed-model note. Hold models, observations, tasks and resource ceilings equal. One arm retains history and derived content but runs frozen general machinery with capable retrieval, traversal and checking. The other may also revise procedures or machinery. Before running, name the operation expected to fail and the workload change expected to expose it. Measure missed consequences, recovery and total cost, including the cost of building and maintaining procedures. If the frozen arm stays adequate under the same limits, the conjecture fails for those conditions. Moving the claimed limit after the run would not rescue it.
++
++## Scope
++
++- The requirement applies to capabilities stated as a decision that should depend on deployment history. It says nothing about capabilities fully determined by the current input and the initial system.
++- "Governing" means that some rule assigns retained state its consumer, channel and force. It does not mean a separate governance process, validation step, rollback, or human or autonomous approval. The title's word can be read more strongly than the argument supports.
++- The note gives no universal definition of continual learning. It gives a necessary condition for a particular capability and a separate test for improvement.
++- The cases are hypothetical illustrations, not evidence. No claim is made about how often stored content fails to reach decisions, or about how regressions accumulate in practice.
++
++## Open Questions
++
++- For which kinds of open-ended workload does a frozen general interpreter over retained history first exceed its budget or reliability, and is the first failure in computing from history (level 2) or in what the machinery can express (level 3)?
++- Does condensing history into procedures trade lower decision cost for weaker behavioural dependence in general, or only in the tested settings?
+ 
+ ---
+ 
+ Relevant Notes:
+ 
+-- [Learning is not only about generality](./learning-is-not-only-about-generality.md) — grounds: supplies the broad learning criterion under which non-weight changes count as learning
+-- [Deployed systems can learn from feedback with fixed model weights](./deployed-systems-can-learn-from-feedback-with-fixed-model-weights.md) — extends: the install-during-deployment requirement — persistent behaviour change through retained artifact writes
+-- [Scheduler-LLM separation exploits an error-correction asymmetry](./scheduler-llm-separation-exploits-an-error-correction-asymmetry.md) — grounds: why symbolic writes are cheaply validated and parametric ones are not — the validation requirement
+-- [First-principles reasoning selects for explanatory-reach](./first-principles-reasoning-selects-for-explanatory-reach-over.md) — grounds: the reach axis — why a governing theory must be explicit to generalise beyond its source cases
+-- [Only explicit retention is durable, writable, and addressable](./only-explicit-retention-is-durable-writable-and-addressable.md) — grounds: the addressability axis — the form-level trade space this note defers to
+-- [Verifiability gradient](./verifiability-gradient.md) — grounds: task-relative checks, retry costs and limits of verification across forms
+-- [Retained theories may improve sample efficiency under structured shifts](./retained-theories-may-improve-sample-efficiency.md) — grounds: the sample-efficiency axis foregrounded by the sparse deployment loop
+-- [Representational form](./definitions/representational-form.md) — defines: the three forms this note ranges over and how form sets the default review method
+-- [Treat continual learning as representational-form coevolution](./treat-continual-learning-as-representational-form-coevolution.md) — extends: owns the general cross-form trade space and how the parametric, natural-language, and symbolic loops relate
+-- [The deployed system, not the model alone, is the unit of learning](./the-deployed-system-not-the-model-is-the-unit-of-learning.md) — sharpens: the unit those cross-form writes range over is the whole deployed system, not the model alone
+-- [Codification and relaxing navigate the bitter lesson boundary](./codification-and-relaxing-navigate-the-bitter-lesson-boundary.md) — extends: the write path by which a lesson moves between natural-language and symbolic form
+-- [A proposal-selection improvement loop requires search, evaluation, and operative retention](./a-proposal-selection-loop-requires-search-evaluation-and-retention.md) — sharpens: the discriminator between evidence-responsive learning writes and hand-authored maintenance changes
+-- [Knowledge storage does not imply contextual activation](./knowledge-storage-does-not-imply-contextual-activation.md) — grounds: storage and read-back do not imply activation, and activation of content is not governance
+-- [Behavioral authority](./definitions/behavioral-authority.md) — grounds: the consumption-path distinction between informing content and governing writes
+-- [Constraining during deployment is continual learning](./constraining-during-deployment-can-produce-learning-outside-weights.md) — exemplifies: versioned prompts, schemas, tools, and tests as one concrete system-definition loop
+-- [LLM contexts interpret instructions and content through the same token medium](./llm-context-interprets-instructions-and-content-through-one-medium.md) — mechanism: lets readable artifacts function as instruction rather than only as data
+-- [Trace-learning techniques in related systems](../agent-memory-systems/trace-learning-techniques-in-related-systems.md) — evidenced-by: surveyed systems already split into weight-promotion and artifact-promotion loops
+-- [Reflection buys addressability](./reflection-buys-addressability.md#what-addressability-does-not-buy) — extends: what addressability does not buy: credit assignment, coherence, retrieval, admission
++- [Behavioral authority](./definitions/behavioral-authority.md) — defined-in: the consumer, channel and force that make retained state reach a decision
++- [Knowledge storage does not imply contextual activation](./knowledge-storage-does-not-imply-contextual-activation.md) — grounds: separates existence, exposure, behaviour change and task benefit
++- [Defining improvement for open-ended work](./defining-improvement-for-open-ended-work.md) — grounds: tests a changed decision against consequences and a named alternative
++- [A fixed-model house must retain missing procedures for theory use](./a-fixed-model-house-must-retain-missing-procedures-for-theory-use.md) — grounds: conditional necessity of new procedures and machinery, and the matched comparison that would test it
++- [A proposal-selection improvement loop requires search, evaluation, and operative retention](./a-proposal-selection-loop-requires-search-evaluation-and-retention.md) — contrasts: gated candidate selection versus direct updates, both of which can satisfy this note's requirement
++- [Learning inside a fixed decomposition inherits its mistakes](./learning-inside-a-fixed-decomposition-inherits-its-mistakes.md) — grounds: the effective update space that limits level 1 and level 2 learning

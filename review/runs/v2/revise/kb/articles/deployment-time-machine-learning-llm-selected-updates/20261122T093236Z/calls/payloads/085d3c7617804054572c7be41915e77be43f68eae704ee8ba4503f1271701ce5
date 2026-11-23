@@ -1,0 +1,1 @@
+The 'Operative dependence' item of the two-part empirical check only; acknowledge that for a change that removed content the counterpart test is restoring the removed entry.

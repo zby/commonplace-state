@@ -1,0 +1,11 @@
+{
+  "candidate": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/final.md",
+  "sha256": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8",
+  "before-sha256": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5",
+  "diff": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/final.diff",
+  "diff-sha256": "b4fbc659633d92f09ef53b656ce5e714dfa9e084e0cd8bffca7b394d873f7f76",
+  "new-warnings": [],
+  "entries": [],
+  "review": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/review-1.md",
+  "review-sha256": "4f473967c21609d04194f27a794d1648744a4be72d0e9457ff6023c73ff66451"
+}

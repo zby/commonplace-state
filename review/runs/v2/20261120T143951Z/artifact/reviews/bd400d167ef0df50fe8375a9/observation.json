@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "id": "bd400d167ef0df50fe8375a9",
+  "request": {
+    "job": "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md::frontmatter/claim-strength",
+    "note": "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "e324a759d9af123e67f1dda5b4fec4b5b03f61563386e758b04b9ef1980602c7",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "d542474e2efe618779f95a4495557cf744bd324a8c57985df205279e9ed66a77",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "e324a759d9af123e67f1dda5b4fec4b5b03f61563386e758b04b9ef1980602c7",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "9977706c49ad70095c4612599d2ecc30a324f1d6",
+  "content-state": {
+    "kb/reference/commonplace-as-an-instrument.md": {
+      "kind": "file",
+      "sha256": "4a223c11a1791cdf5c088a5f3905668a4d13fbff03a88bc2c2149e888fe1ef11"
+    },
+    "kb/reference/proposals/ablation-baselines-for-the-declared-objective.md": {
+      "kind": "file",
+      "sha256": "58eda4f0a8d6f39fdab01cc644d9f39436bf33b40294471c6ffbbb601756531f"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "0b8879a08ee08faaa7a86ab9b5f607eae5836ab8395c335b9e3a09171f02fe28",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md",
+      "path": "inputs/target/kb/theory/weight-resident-methodologies-compress-behavior-in-context.md",
+      "sha256": "e324a759d9af123e67f1dda5b4fec4b5b03f61563386e758b04b9ef1980602c7",
+      "bytes": 6529,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "d542474e2efe618779f95a4495557cf744bd324a8c57985df205279e9ed66a77",
+      "bytes": 1862
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/b86f72b5b1fa4ba6ac345b0fcf8f96a6/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/b86f72b5b1fa4ba6ac345b0fcf8f96a6/review.md": "7b2944221954da4c1464aec488536afe842ce6317a123f210247c97b9bd73611"
+  },
+  "latest-result": "results/b86f72b5b1fa4ba6ac345b0fcf8f96a6/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md::frontmatter/claim-strength",
+      "key": "21229f3fddb98c63dd8c3f52e2cad5bfc5b81f76dc15b716751951bcddd52433"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

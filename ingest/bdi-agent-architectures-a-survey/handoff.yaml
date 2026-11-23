@@ -1,0 +1,19 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/bdi-agent-architectures-a-survey.ingest.md
+snapshot_sha256: c3e699f512225544a190e8c5ec6709eaf9122319b83aa1ae96c89190e044bcab
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T14:58:19+01:00'
+occasion: 'Background for kb/work/learning-method-name (deliberative learning). Questions:
+  does any BDI architecture learn or revise its own plans, and by what rule is a learned
+  plan kept or dropped; is that rule bound to one fixed measure.'
+checks:
+- at: '2026-11-21T15:02:38+01:00'
+  failures: []
+- at: '2026-11-21T15:02:49+01:00'
+  failures: []
+- at: '2026-11-21T15:02:50+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T15:02:50+01:00'

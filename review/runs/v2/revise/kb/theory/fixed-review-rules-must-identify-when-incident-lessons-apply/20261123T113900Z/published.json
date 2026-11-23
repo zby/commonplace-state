@@ -1,0 +1,22 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.md",
+      "sha256": "17840712dbccefe4ff6f161decca5902ec45c3eef892ebc2415f20ed475f8e11",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply/20261123T113900Z/artifact/publications/1.diff",
+      "before-sha256": "a7d8f78490c6408db95d26b89cf898e260f17eba96f51d3c586e69911bc78a71",
+      "entries": [
+        "repair-claim-title/frontmatter/claim-strength"
+      ],
+      "at": "2026-11-23T11:50:19Z",
+      "decided-by": "automatic",
+      "revised": false,
+      "relocation": {
+        "note": "kb/theory/fixed-review-rules-must-identify-when-incident-lessons-apply.md",
+        "new-title": "Fixed review rules apply incident lessons by recognition, not retrieval",
+        "destination": "kb/theory/fixed-review-rules-apply-incident-lessons-by-recognition-not-retrieval.md"
+      }
+    }
+  ]
+}

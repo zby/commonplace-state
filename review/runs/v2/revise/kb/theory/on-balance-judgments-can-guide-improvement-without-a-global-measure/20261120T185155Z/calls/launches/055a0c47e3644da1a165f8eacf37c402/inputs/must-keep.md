@@ -1,0 +1,7 @@
+- Preserve the agreed title, the section anchor what-commonplace-chooses-to-count used by four references, and the distinction between a Commonplace practical choice and a universal measure.
+- Keep contrasting worked examples, including the Python release and routing threshold.
+- For the decision at hand, investigate an unknown only if a plausible answer could reverse the choice.
+- For Commonplace, we choose changes by asking whether they yield more useful and better-warranted knowledge work for the human judgment spent, on balance. (keep verbatim; four dependents rely on it)
+- This is a practical commitment about the work we value, not a claim that every project should use the same measure.
+- On balance, yes. (the Python 3.11-over-3.10 default judgment)
+- Even a perfect attendance count would not decide which hours to keep.

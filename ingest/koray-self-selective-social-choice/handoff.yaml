@@ -1,0 +1,17 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/koray-self-selective-social-choice.ingest.md
+snapshot_sha256: 11e59bcfd3b2a7e3be63c0d2eca50fefdbb551958dc19b9b7e6fc0c67612c1d8
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:18:38+01:00'
+occasion: What does it mean to apply a choice rule to the choice of rules?
+checks:
+- at: '2026-11-21T09:21:56+01:00'
+  failures: []
+- at: '2026-11-21T09:22:10+01:00'
+  failures: []
+- at: '2026-11-21T09:22:10+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:22:10+01:00'

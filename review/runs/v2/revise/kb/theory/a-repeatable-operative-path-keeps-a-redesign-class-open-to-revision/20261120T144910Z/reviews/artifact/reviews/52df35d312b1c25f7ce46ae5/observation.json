@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "id": "52df35d312b1c25f7ce46ae5",
+  "request": {
+    "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/compound-bullet",
+    "call-job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/*",
+    "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+    "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "structural/compound-bullet",
+    "target-sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+    "criterion-bytes-sha256": "21f452393fa553aa0a6e6cd65cb858499bb281d2dffc82d4c90e000c0cb6344f",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "5a507bbc05fd10dc39dea5d5dd4c2630574bae7f22f3530ed40f5b47969e8547",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "gate-bullet-capitalization.md": "807dce0e67e2aaa4a5e7f81b62364e3707ffb2c46eae078cdbed121a53531660",
+      "gate-compound-bullet.md": "21f452393fa553aa0a6e6cd65cb858499bb281d2dffc82d4c90e000c0cb6344f",
+      "gate-general-before-specific.md": "9a0e5698ffe8e1d4c95eaca4fc4cb00fd74fd70f2c9433f1cc1db1a02ffdd767",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "path": "inputs/target/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "bytes": 13491,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/structural/compound-bullet.md",
+      "path": "inputs/criterion.md",
+      "sha256": "21f452393fa553aa0a6e6cd65cb858499bb281d2dffc82d4c90e000c0cb6344f",
+      "bytes": 1346,
+      "input": "gate-compound-bullet.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "5a507bbc05fd10dc39dea5d5dd4c2630574bae7f22f3530ed40f5b47969e8547",
+      "bytes": 2631
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/9d1354685fd64dc88f7198ccaff772b2/review-compound-bullet.md"
+  ],
+  "completed-result-sha256": {
+    "results/9d1354685fd64dc88f7198ccaff772b2/review-compound-bullet.md": "efc767ac9fc9b556f3c8f59561077e863d64e857d282a08404881e18b62bd02c"
+  },
+  "latest-result": "results/9d1354685fd64dc88f7198ccaff772b2/review-compound-bullet.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::structural/*",
+      "key": "70ef7fc661b8fcc6bcf51422ef084d7d80bcdb01675b3f424442ae17fc9cbd01"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

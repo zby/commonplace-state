@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "id": "1d67a57a577d51e78873f19c",
+  "request": {
+    "job": "readability-and-flow",
+    "call-job": "readability-and-flow",
+    "note": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+    "criterion": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "target-sha256": "877995d86d7e1940da9135a763a155eb1e3ae15d2cf24fb84d23720b54853459",
+    "criterion-bytes-sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "c01ca220607e29be4729fa5c662bec6eeddd0411be34ef53f56b321ba10fd3c3",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "877995d86d7e1940da9135a763a155eb1e3ae15d2cf24fb84d23720b54853459",
+      "operation.md": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "execution.md": "5f2adc7587f19d4e6f968c92eb491cd46e609b2804ea2a9d93d22706b0b0b854",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "43313bbc29326849f51c021a281fd4b22270d31ddf8a8c171aba53ae9a617c86",
+      "must-keep.md": "f91ca11a5898e513ea13fab62e4b332ba4f9aaf3276bd489cebacbf0819a7718",
+      "scope.md": "911429559aa50a7a5f899c3bdef244e86e65efb11ecc02de1dfa0b1cad303312",
+      "kb-role.md": "19db490f8978e5cda4af47db34119712dd848fcba682215838d15ce2992ecfec"
+    }
+  },
+  "kb-commit": "e6b0e9c39bd8d05b2f421407e91dad30792343fa",
+  "content-state": {
+    "kb/reference/instruction-generation.md": {
+      "kind": "file",
+      "sha256": "d5f963b9f2db157a1ac8e158f91fa83a3f5fb405e3276c6c4249865fcb685386"
+    },
+    "kb/work/linking-contract-consistency/README.md": {
+      "kind": "file",
+      "sha256": "a3c4380a9fd6a4125769392acf621d49089f42d3803f95fa086ece0842e253fa"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "d8fd6b34b9a5ebdcfdf625ca4352caa2d0743f14addd9adc8d5bafb16bc1663d",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "path": "inputs/target/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "sha256": "877995d86d7e1940da9135a763a155eb1e3ae15d2cf24fb84d23720b54853459",
+      "bytes": 9980,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/readability-and-flow.md",
+      "path": "inputs/criterion.md",
+      "sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "bytes": 3319,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "c01ca220607e29be4729fa5c662bec6eeddd0411be34ef53f56b321ba10fd3c3",
+      "bytes": 1833
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "43313bbc29326849f51c021a281fd4b22270d31ddf8a8c171aba53ae9a617c86",
+      "bytes": 366,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "f91ca11a5898e513ea13fab62e4b332ba4f9aaf3276bd489cebacbf0819a7718",
+      "bytes": 451,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "911429559aa50a7a5f899c3bdef244e86e65efb11ecc02de1dfa0b1cad303312",
+      "bytes": 792,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary/20261120T091143Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "19db490f8978e5cda4af47db34119712dd848fcba682215838d15ce2992ecfec",
+      "bytes": 1409,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/3058c3bb4fe34b559eee30cc5cfa473b/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/3058c3bb4fe34b559eee30cc5cfa473b/result.md": "d24088113dc54be1db854f976f8514318d418eb090238f3eb0fac65e18dd96ea"
+  },
+  "latest-result": "results/3058c3bb4fe34b559eee30cc5cfa473b/result.md",
+  "calls": [
+    {
+      "call": "readability-and-flow",
+      "key": "6ec21948c9906e156ab3c01a1bfbc0d2158c8e20161e29e003402b16bcb8d19b"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

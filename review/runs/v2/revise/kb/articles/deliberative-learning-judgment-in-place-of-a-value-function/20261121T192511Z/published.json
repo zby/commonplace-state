@@ -1,0 +1,25 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.md",
+      "sha256": "1335b0e97e515ab6067688700c1167230cc7df9b340d894fc8ef35a5882c4a11",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/publications/1.diff",
+      "before-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "entries": [
+        "narrow-overclaims",
+        "fix-strategy-taxonomy/accessibility/undefined-terms",
+        "fix-strategy-taxonomy/accessibility/unidentified-references",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+        "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+        "fix-strategy-taxonomy/sentence/clause-packing",
+        "fix-strategy-taxonomy/sentence/misleading-link-text",
+        "fix-strategy-taxonomy/sentence/parsing-ambiguity",
+        "fix-strategy-taxonomy/sentence/stock-phrases"
+      ],
+      "at": "2026-11-21T19:49:26Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

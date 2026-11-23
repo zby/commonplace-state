@@ -1,0 +1,1 @@
+The two opening paragraphs after the draft banner only; keep the title unchanged. Gloss 'addressable' at first mention with the definition link, and make the opening say the deployed system learns by changing retained instructions or criteria without making fixed weights the headline.

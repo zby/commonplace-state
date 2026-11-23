@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "id": "21f30db3a47003aa7392f706",
+  "request": {
+    "job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/stock-phrases",
+    "call-job": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/*",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "sentence/stock-phrases",
+    "target-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+    "criterion-bytes-sha256": "01fe5fea193e21d064468eb1b1c7495441fe3ca291ba101f15b3da55209e5241",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "182768be35578fa153e8da4e4f0c8aeccc5f2b1d2ca43812e11d5db593045c23",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "gate-clause-packing.md": "1546b936d349c05735443368da75ea0829b04f34cd3e6084351c128713f320a1",
+      "gate-concept-attribution.md": "75949108abe516c6d5d80ba7a1c9546fbb81cc202dd215042cf5a323075358e6",
+      "gate-framing-mismatch.md": "ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f",
+      "gate-misleading-link-text.md": "29771fdb3d02cdf416ad3b68c38b2ae29bb69fe4332f316cc9475de3aa4508c2",
+      "gate-parsing-ambiguity.md": "07bf4245fd5eb41451cd2a6a79ca6655410dae6cc79b7238bcc82ad3a4799dff",
+      "gate-stock-phrases.md": "01fe5fea193e21d064468eb1b1c7495441fe3ca291ba101f15b3da55209e5241",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "bytes": 20341,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/sentence/stock-phrases.md",
+      "path": "inputs/criterion.md",
+      "sha256": "01fe5fea193e21d064468eb1b1c7495441fe3ca291ba101f15b3da55209e5241",
+      "bytes": 1308,
+      "input": "gate-stock-phrases.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "182768be35578fa153e8da4e4f0c8aeccc5f2b1d2ca43812e11d5db593045c23",
+      "bytes": 3134
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/5f41ee7d471648bd8dc2062fcd7cd9df/review-stock-phrases.md"
+  ],
+  "completed-result-sha256": {
+    "results/5f41ee7d471648bd8dc2062fcd7cd9df/review-stock-phrases.md": "842cd2814e97b4b33403382646c92bd5eba71e69ac3bf02d0b282b6230e0e25d"
+  },
+  "latest-result": "results/5f41ee7d471648bd8dc2062fcd7cd9df/review-stock-phrases.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md::sentence/*",
+      "key": "3389f5229db4c9982e0ce6ea33b0b64a3ddc926be035a3d5c80a135374285564"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

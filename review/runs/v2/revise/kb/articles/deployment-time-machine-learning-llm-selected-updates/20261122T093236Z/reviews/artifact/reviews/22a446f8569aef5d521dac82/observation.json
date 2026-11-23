@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "id": "22a446f8569aef5d521dac82",
+  "request": {
+    "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/connection-inflation",
+    "call-job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/*",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "complexity/connection-inflation",
+    "target-sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+    "criterion-bytes-sha256": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "18dd6c4c75ce3736bfeb636f121b78deecfef2677d8cea3fa3699e8476e690e2",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "gate-claim-to-section-ratio.md": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "gate-connection-inflation.md": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "gate-could-be-a-paragraph.md": "808b4e1d3db21875b29916fcc9631eb0dc71dd954e9115c08c137becc6f1ff96",
+      "gate-framework-decoration.md": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "d4fe04e384b198fcfc99e199329cb8f656744b7e",
+  "content-state": {
+    "README.md": {
+      "kind": "file",
+      "sha256": "cb45225733de1c72735c5b5582b87dc0e294e4483d31f6c75b2ebfdb43884e54"
+    },
+    "kb/articles/README.md": {
+      "kind": "file",
+      "sha256": "ac67c9db396135c4d0460d91fffa2ff23dc015d710c1a56115436d87b9bdb4f7"
+    },
+    "kb/articles/deployment-time-machine-learning-llm-selected-updates.md": {
+      "kind": "file",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07"
+    },
+    "kb/articles/testing-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7"
+    },
+    "kb/index.md": {
+      "kind": "file",
+      "sha256": "f3906dc69a9db3f1f665365135716fdec9c7d561a3d8b9d0364157ec80f6ca84"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "49f481d092fd5acc3057747236e311aa9b761cbef5c03e767afb581a8e7e7748",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "de65ef3cbd7be2cb00fa46f642e6503d8dfefba806d94d3bfe93e40172e0ee07",
+      "bytes": 26137,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/complexity/connection-inflation.md",
+      "path": "inputs/criterion.md",
+      "sha256": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "bytes": 1816,
+      "input": "gate-connection-inflation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "18dd6c4c75ce3736bfeb636f121b78deecfef2677d8cea3fa3699e8476e690e2",
+      "bytes": 2823
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/7c5f3e3ccef24cb3aa025c05050a5c3b/review-connection-inflation.md"
+  ],
+  "completed-result-sha256": {
+    "results/7c5f3e3ccef24cb3aa025c05050a5c3b/review-connection-inflation.md": "079ccd9496472aabd5511f6e95635ec2dd107cf3c4e7c7124d5b595628e3071c"
+  },
+  "latest-result": "results/7c5f3e3ccef24cb3aa025c05050a5c3b/review-connection-inflation.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::complexity/*",
+      "key": "2e4faacdef2a882785fed4a1dfe6c4731e0a496e0e6f84fdfc12a0c2acebb175"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

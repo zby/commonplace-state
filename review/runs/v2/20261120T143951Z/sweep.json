@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "profile": {
+    "harness": "codex",
+    "launch_model": "gpt-6.2-sol",
+    "effort": "medium",
+    "flags": {
+      "sandbox": "workspace-write"
+    }
+  },
+  "selection": {
+    "notes": [
+      "kb/theory/reflection-makes-retained-lessons-second-order.md",
+      "kb/theory/weight-resident-methodologies-compress-behavior-in-context.md",
+      "kb/theory/technical-constraints-make-kb-objective-choice-engineering.md",
+      "kb/theory/system-use-provides-evidence-of-theory-fit-not-an-independent-test.md",
+      "kb/theory/backtracking-keeps-lightweight-search-control-provisional.md",
+      "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "kb/theory/only-explicit-retention-is-durable-writable-and-addressable.md",
+      "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "kb/theory/derivation-and-inheritance-give-starting-warrant-earns-scope.md",
+      "kb/theory/retaining-episode-evidence-keeps-a-distilled-rule-open-to.md"
+    ],
+    "criteria": [
+      "frontmatter/claim-strength"
+    ],
+    "criterion-file": null,
+    "all-gates": false,
+    "inputs": []
+  }
+}

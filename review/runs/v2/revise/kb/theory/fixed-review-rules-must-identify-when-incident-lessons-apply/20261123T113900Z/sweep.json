@@ -1,0 +1,40 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "full",
+  "purpose": "Keep this a simple foundation: distinguish finding an incident from recognizing when its lesson applies. Leave implications for later notes.",
+  "must-keep": [
+    "A fixed review rule can use the lesson; the incident does not show the rule must change."
+  ],
+  "plan": null,
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  }
+}

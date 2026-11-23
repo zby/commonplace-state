@@ -1,0 +1,25 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/wooldridge-jennings-intelligent-agents.ingest.md
+snapshot_sha256: 1dd543e1b8c73642d274290cbd89f5c95acdcf232b4a18e69cb84c485cdb89f7
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T12:04:12+01:00'
+occasion: 'The workshop draft kb/work/learning-method-name/draft-definition.md (section
+  "The name", bullet "Deliberative agents") defines "deliberative learning" and compares
+  it with the established term "deliberative agent". The ingest should let a reader
+  check: (1) the paper''s definition of a deliberative agent or architecture, in its
+  own words; (2) how it contrasts deliberative with reactive and hybrid architectures;
+  (3) what decides the agent''s choice of action (logical reasoning, goal test, utility)
+  and whether that standard is fixed by the designer; (4) the problems it names for
+  the symbolic approach; (5) whether it says anything about learning or about the
+  agent revising its own model.'
+checks:
+- at: '2026-11-21T12:08:54+01:00'
+  failures: []
+- at: '2026-11-21T12:09:58+01:00'
+  failures: []
+- at: '2026-11-21T12:09:59+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T12:09:59+01:00'

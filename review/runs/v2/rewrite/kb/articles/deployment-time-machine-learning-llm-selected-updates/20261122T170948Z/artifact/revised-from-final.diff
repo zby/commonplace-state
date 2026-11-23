@@ -1,0 +1,45 @@
+--- kb/articles/deployment-time-machine-learning-llm-selected-updates.md (candidate)
++++ kb/articles/deployment-time-machine-learning-llm-selected-updates.md (revised candidate)
+@@ -1,5 +1,5 @@
+ ---
+-description: "Lead article: how a deployed agent can select edits to its instructions without a single score; the bet that a fixed-weight LLM can build the preference model and make the robust comparison; weight-training contrast, Bitter Lesson, empirical test"
++description: "How a software house could learn by selecting changes to its own development methods, when that loop could scale with computation, and how retaining testable explanations might reduce the observations needed for later repairs."
+ type: articles/types/article.md
+ status: draft
+ byline: Zbigniew Lukasiak
+@@ -63,8 +63,8 @@
+ which failures each would have caught.
+ 
+ Selection then compares the candidates on missed failures against cost.
+-Running every test catches everything but multiplies compute and latency on
+-every job. The file exception is cheap but catches nothing new. Dependency
++Running every test avoids misses caused by skipping a relevant test, but
++uses more compute and can delay feedback. The file exception is cheap but catches nothing new. Dependency
+ inspection costs one analysis per edit. The judge can investigate the facts
+ these trade-offs depend on: how often documentation files feed builds across
+ clients, and what a full test run costs. It can reject every candidate, or try
+@@ -102,8 +102,8 @@
+ people make the internal decisions at issue: which remedies to consider, how
+ to diagnose the failure, which candidate to install.
+ 
+-Two criteria must be kept apart. The client's test rule decides which tests a
+-client edit gets. The house also has a criterion for adopting revisions to its
++Two criteria must be kept apart. The house's test-selection rule decides
++which tests a client edit gets. The house also has a criterion for adopting revisions to its
+ own workflow, such as "adopt a revision if replay shows it catches the
+ observed failure at acceptable added cost." Editing the test-selection
+ workflow under that fixed adoption criterion is a self-edit of a procedure.
+@@ -170,9 +170,10 @@
+ 
+ The hypothesis changes the next inquiry. Suppose a later failure comes from a
+ snippet that the build reaches through an include and that the input list
+-does not name. A patch-only house adds another exception. A house with the
+-hypothesis can locate the false premise—the list names entry points, not every
+-dependency—and revise it. The revision changes predictions for other included
++does not name. A house that kept only the patch might add another exception, or it
++might rediscover the underlying dependency. The retained hypothesis gives the
++house a specific premise to test: does the list name every dependency, or only
++the entry points? If it names only entry points, the house can revise that premise. The revision changes predictions for other included
+ files that have never failed. This works because the hypothesis is
+ [addressable](../theory/definitions/addressable-theory.md): its assumptions
+ and scope can be inspected and revised one at a time.

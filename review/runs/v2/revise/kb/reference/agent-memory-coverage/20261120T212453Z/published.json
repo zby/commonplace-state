@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/publications/1.md",
+      "sha256": "4b7fd4f2fe75a568ab3605d601832587123193a7558de32bc774289d33b1b4bd",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/publications/1.diff",
+      "before-sha256": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce",
+      "entries": [
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T21:26:00Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "full",
+  "purpose": null,
+  "must-keep": [
+    "Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline. Without a single score describes update selection, not model training. Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on."
+  ],
+  "plan": null,
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": {
+    "harness": "claude-code",
+    "launch_model": "opus",
+    "effort": "medium",
+    "flags": {
+      "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+      "disallowed-tools": "Bash,NotebookEdit"
+    }
+  }
+}

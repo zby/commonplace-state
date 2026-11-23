@@ -1,0 +1,11 @@
+purpose: Give a reader of Commonplace a concise declaration of the assumptions used
+  here, not a survey of Popper. Clarify how to distinguish a conjecture from an adopted
+  convention and why choosing a reference set does not guarantee convergence. Remove
+  the stub aside and distinguish exclusions from commitments.
+must-keep:
+- Keep the four commitments, their applications and source attributions, the exclusions,
+  and the restriction on quoting the two un-ingested works. Distinguish a Commonplace
+  application from a claim attributed to Popper.
+stop: null
+passes:
+- pass: readability-and-flow

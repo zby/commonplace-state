@@ -1,0 +1,1 @@
+- Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline. Without a single score describes update selection, not model training. Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on.

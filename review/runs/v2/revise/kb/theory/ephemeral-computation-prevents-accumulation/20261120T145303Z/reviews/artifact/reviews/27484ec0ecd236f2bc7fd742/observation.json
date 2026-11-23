@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "id": "27484ec0ecd236f2bc7fd742",
+  "request": {
+    "job": "kb/theory/ephemeral-computation-prevents-accumulation.md::prose/source-residue",
+    "call-job": "kb/theory/ephemeral-computation-prevents-accumulation.md::prose/*",
+    "note": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+    "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "prose/source-residue",
+    "target-sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+    "criterion-bytes-sha256": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "a4b8f408e991fe07194b60a66774ed2d2efb3f6eeb8258312f89697d99114c2c",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "gate-anthropomorphic-framing.md": "292f7c4bfb6506b864f941203c574f8d8fd7e0ecf63ad5d4bc27d6c4405907e3",
+      "gate-mannered-prose.md": "b05df7f0063f8adb050393bf45776930c5e3154d9c3e4e6bf31000fe963c4a90",
+      "gate-orphan-references.md": "46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a",
+      "gate-proportion-mismatch.md": "fb51077aa8dac05a5ef18899f53d5817709c13e8af39af438673c49ccbf6054b",
+      "gate-redundant-restatement.md": "8ac83c3a221e55a6ece3b99917f2f96f145c07d525fd6743b90df87afc272d67",
+      "gate-source-residue.md": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "gate-unbridged-cross-domain.md": "5f22f140a9b058b4c1ec8918857159da174cbb456c8294d47fa56c0f0021ec7f",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d.json",
+    "sha256": "e80a11c880c4709fcdefc7b534f0b8239ce8b88aa2f2ce2c38a01cda2f0dd91d"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "path": "inputs/target/kb/theory/ephemeral-computation-prevents-accumulation.md",
+      "sha256": "0be9a9fbf93b59ec891c5c638f434164720b6ca8c02f813dda875127938c49d1",
+      "bytes": 5415,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/prose/source-residue.md",
+      "path": "inputs/criterion.md",
+      "sha256": "ff78dee7dcb8b6594356929cf84d0f9283fcfe0a077f93e62e51dee809b4f480",
+      "bytes": 1061,
+      "input": "gate-source-residue.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "a4b8f408e991fe07194b60a66774ed2d2efb3f6eeb8258312f89697d99114c2c",
+      "bytes": 3317
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/005320693e03462fa070a4b9fdb23e69/review-source-residue.md"
+  ],
+  "completed-result-sha256": {
+    "results/005320693e03462fa070a4b9fdb23e69/review-source-residue.md": "20c8c23ffea78ce48191b698b68bd9c5d93e70e8fd97e15667dc7c44c228ead4"
+  },
+  "latest-result": "results/005320693e03462fa070a4b9fdb23e69/review-source-residue.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/ephemeral-computation-prevents-accumulation.md::prose/*",
+      "key": "5ed0d62b76838214291cbd550e35e8b89ca25388d08a82791b274758cf20af0a"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

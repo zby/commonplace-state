@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "id": "0503681daf977bacc7f2bdcc",
+  "request": {
+    "job": "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md::frontmatter/claim-strength",
+    "call-job": "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md::frontmatter/claim-strength",
+    "note": "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/claim-strength",
+    "target-sha256": "f8da1c4b0bbc1eaba9a5dceda67136e75dbf1d0c876d675e9f4e0e7b00d051d3",
+    "criterion-bytes-sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "61c17a3c2e170a51b74f33c9ece8b82525686b97e84ffdeae5fa7bae4bdb3245",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "f8da1c4b0bbc1eaba9a5dceda67136e75dbf1d0c876d675e9f4e0e7b00d051d3",
+      "criterion.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "fe5e96c25123a520029a8623fa1043d62674a152",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "c95258399edd26e6fe6c97781d349fe75a3b9c516a6c715ffd7e92e0e835e201",
+  "executor": {
+    "path": "provenance/237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a.json",
+    "sha256": "237e172eb429b36cd8ed8ad4f3623edd1a2984e196e22f4516cbcf7bd0def12a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md",
+      "path": "inputs/target/kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md",
+      "sha256": "f8da1c4b0bbc1eaba9a5dceda67136e75dbf1d0c876d675e9f4e0e7b00d051d3",
+      "bytes": 3117,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+      "path": "inputs/criterion.md",
+      "sha256": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "bytes": 1680,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "61c17a3c2e170a51b74f33c9ece8b82525686b97e84ffdeae5fa7bae4bdb3245",
+      "bytes": 1868
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/b618811245c8453db684eb099e9649ad/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/b618811245c8453db684eb099e9649ad/review.md": "9230dff7e88a1ae929c81ce64d13a9bd520c2c54e27a4e6cd6ebc2225e41f159"
+  },
+  "latest-result": "results/b618811245c8453db684eb099e9649ad/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unit-testing-llm-instructions-requires-mocking-the-tool-boundary.md::frontmatter/claim-strength",
+      "key": "e2511e879d9b7051b63e914b119d56c019e6d06c5fc39632a63025980e16aace"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

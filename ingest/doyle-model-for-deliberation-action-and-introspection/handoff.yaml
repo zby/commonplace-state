@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/doyle-model-for-deliberation-action-and-introspection.ingest.md
+snapshot_sha256: bce8433c7f49766dc57865aaa43db84e2877c9b46100bc8458a0716e529c5735
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T18:01:51+01:00'
+occasion: What starts reconsideration, and how does a reasoner choose among competing
+  revisions?
+checks:
+- at: '2026-11-21T18:07:43+01:00'
+  failures: []
+- at: '2026-11-21T18:07:54+01:00'
+  failures: []
+- at: '2026-11-21T18:07:54+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T18:07:54+01:00'

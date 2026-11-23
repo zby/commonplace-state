@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "id": "1823c856c3894b64407fb540",
+  "request": {
+    "job": "readability-and-flow",
+    "call-job": "readability-and-flow",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/readability-and-flow.md",
+    "target-sha256": "c313ede182020d64c7bde03019de23a6edf6bbcca9f1859f8eced54ebde46139",
+    "criterion-bytes-sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "65e6e73670f00cfdea001a7b1487e90e4ea013bb4caace307dc76353ed03bae1",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "c313ede182020d64c7bde03019de23a6edf6bbcca9f1859f8eced54ebde46139",
+      "operation.md": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "execution.md": "5f2adc7587f19d4e6f968c92eb491cd46e609b2804ea2a9d93d22706b0b0b854",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "e6c368666241be5fedce7b3d94e76a35f2ff2ddb048d9c8c8acb3d7e6ab28e10",
+      "must-keep.md": "71d72c382ee5187f941f77d8b01884982c932e3c70eb05c133536f10ad7ad08c",
+      "scope.md": "06f73e4b96570c3772e8e746653452b46c42cbaa88f3b3201c516bc6988665e7",
+      "kb-role.md": "e7920518ed4d04f258cea7a1280afbb96ddd43dded30373c6e6a9d48c8bc2453"
+    }
+  },
+  "kb-commit": "b1ef6dcc1bf5e90c794cbe00d218c8f527418287",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "9c330d343a1ae3db9a21dbb5b44188ae3a36af10f8b08881b852063f22bf2a1b",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "c313ede182020d64c7bde03019de23a6edf6bbcca9f1859f8eced54ebde46139",
+      "bytes": 8436,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/readability-and-flow.md",
+      "path": "inputs/criterion.md",
+      "sha256": "01707fd7181b99fd0fa1f7bc60fcc6d289b0dcdd5abbacf34daa5d33777123db",
+      "bytes": 3319,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "65e6e73670f00cfdea001a7b1487e90e4ea013bb4caace307dc76353ed03bae1",
+      "bytes": 1831
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "e6c368666241be5fedce7b3d94e76a35f2ff2ddb048d9c8c8acb3d7e6ab28e10",
+      "bytes": 200,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "71d72c382ee5187f941f77d8b01884982c932e3c70eb05c133536f10ad7ad08c",
+      "bytes": 681,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "06f73e4b96570c3772e8e746653452b46c42cbaa88f3b3201c516bc6988665e7",
+      "bytes": 447,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring/20261120T094110Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "e7920518ed4d04f258cea7a1280afbb96ddd43dded30373c6e6a9d48c8bc2453",
+      "bytes": 1010,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/61e5ac8d299b46e9954b3d6a77597a19/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/61e5ac8d299b46e9954b3d6a77597a19/result.md": "607a3791718489dba9f56e15853e7a124be3b76480aebf74db6fefc72adb1a43"
+  },
+  "latest-result": "results/61e5ac8d299b46e9954b3d6a77597a19/result.md",
+  "calls": [
+    {
+      "call": "readability-and-flow",
+      "key": "73972238357b85c75c85826079c032bc6a141c6090d2a4cd14fc62b0c2ef6a3a"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

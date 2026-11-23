@@ -1,0 +1,1 @@
+- A fixed review rule can use the lesson; the incident does not show the rule must change.

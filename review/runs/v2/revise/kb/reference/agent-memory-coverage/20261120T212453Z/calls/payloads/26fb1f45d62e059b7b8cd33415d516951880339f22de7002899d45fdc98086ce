@@ -1,0 +1,53 @@
+---
+description: "How Commonplace's shipped surfaces realize agent-memory requirements: control plane, contracts, storage roles, validation, review, activation, promotion, lifecycle, and current gaps"
+type: types/note.md
+tags: []
+---
+
+# Agent memory coverage
+
+Commonplace realizes agent memory as a file-backed knowledge base with a small command and skill surface. Its durable memory is not a single store. It is the combined system of authored artifacts, generated views, validation commands, review state, and always-loaded routing context that future agents can use inside bounded context.
+
+The requirements come from [Designing a Memory System for LLM-Based Agents](../theory/designing-agent-memory-systems.md). This page maps those requirements to the shipped Commonplace system and names the main remaining limits.
+
+## Coverage map
+
+| Memory requirement | Commonplace realization | Current limit |
+|---|---|---|
+| Control-plane memory | A runtime that loads the project’s `AGENTS.md` supplies goals and scope before the agent selects a skill ([ADR 014](./adr/014-scripts-as-python-package-one-tree-model.md#decision)). The same file supplies routing, vocabulary, commands, skills, and version-control conventions. | There is no typed on-situation cue index yet. |
+| Direct memory creation | Agents and maintainers write notes, reference docs, ADRs, instructions, skills, source ingests, workshop artifacts, validators, and indexes as ordinary files. Commonplace implements direct-authored memory strongly through typed notes, indexes, instructions, skills, validation scripts, review gates, and explicit collection/type contracts. | Promotion decisions are still mostly manual. |
+| Artifact contracts | `COLLECTION.md` defines each collection's purpose, intended contribution, quality goal, scope, and outbound-linking rules. The `type:` field points to a type-spec doc with structure, natural-language guidance, and schema. See [collections and types](./collections-and-types.md). | Project-specific collections still depend on users defining good contracts. |
+| Import external knowledge | Source snapshots, ingest reports, conversion tooling, and staged workshops preserve external material and convert it toward Commonplace artifacts. | There is no mature graph-first or bulk-reingest pipeline. |
+| Preserve evidence | Source snapshots and ingests preserve evidence for external sources. | Broad session-trace capture, redaction, retention, and replay are not shipped as a memory substrate. |
+| Trace extraction | `kb/log.md` can serve as a manual observation inbox between raw traces and durable artifacts. The current system is strongest once an agent or maintainer already understands what should be written. | Automated session-trace extraction is not implemented. |
+| Discoverability | In the checkout, agents search titles and descriptions with `rg` and follow curated collection and tag heads to individual files. Site readers can also browse complete collection and tag listings generated at build time. | Ranking and quality scoring remain underdeveloped. |
+| Composability | Link prose, collection-owned link labels, claim titles, definitions, and indexes preserve relationships among artifacts. | Automated connection discovery is report-based, not continuously maintained. |
+| Trust | Script validation checks frontmatter, links, enum values, required sections, and template headings. Review gates add semantic checks whose result files record the input hashes that keep them fresh. See [review system architecture](./review-architecture.md). | Behavioral faithfulness and activation effects are not measured as first-class metrics. |
+| Multiple consumer surfaces | Notes, reference docs, instructions, sources, reports, workshops, commands, skills, and control-plane files serve different agent, maintainer, reviewer, and workflow needs. | Retrospective episodes and typed cue indexes remain underdeveloped. |
+| Storage roles | Authored files are maintained directly; generated listings can be rebuilt. For each note and criterion, the current review result points to a retained observation. A later review can replace the current result without erasing the earlier assessment. See [storage](./storage-architecture.md). | Compiled behavior-facing views need stronger source-of-truth and regeneration rules. |
+| Activation | Always-loaded `AGENTS.md`, on-demand file reads, and on-invoke skills load relevant memory into agent work. | Situation-triggered activation and behavioral faithfulness tests for activated memory remain future work. |
+| Natural-language-to-code promotion | Repeated procedures and stable rules can become instructions, skills, type specs, schemas, review gates, validators, scripts, or commands. Manual promotion from log entries, notes, and workshops into stronger artifacts is supported. | There is no mature candidate queue that scores future value against maintenance cost. |
+| Lifecycle | `user-verified` flags, validation failures, review staleness, build-time generated indexes, workshop closure, and log review provide partial lifecycle handling. | Retirement, supersession, relaxation, recurrence tracking, and scheduled lifecycle work are incomplete. |
+| Authority | Explicit files, version-control review, deterministic validation, and semantic review gates provide the current authority model for durable memory changes. | Authority for automatic extraction, promotion, activation, and retirement is not fully specified. |
+| Evaluation | Structural validation and semantic review evaluate artifact quality. | Activation, behavioral uptake, context efficiency, source-alignment health, and promotion economics are not first-class metrics. |
+| Native work environment | Markdown, version control, shell commands, `.claude/skills/`, `.agents/skills/`, and package commands let Claude Code, Codex, and similar agents inspect and edit memory where they already work. The shipped workflows use Git. See [architecture](./architecture.md). | Harness-specific execution policy differs across tools. |
+| Reusable memory distribution | The installed package carries reusable methodology, global types, review gates, and promoted skills as one library that every project reads in place; user collections stay project-owned. `commonplace-init` writes skill stubs and a routing file that point into the library. | A library upgrade applies in place with no project-level diff to review; local project authority still requires operator judgment. |
+
+## Boundary
+
+Commonplace is strongest today as a directly authored, quality-controlled, IDE-compatible memory substrate. It covers artifact contracts, discoverability, composability, validation, review, and source-of-truth boundaries well.
+
+It is weaker as an autonomous learning system. Automated session-trace extraction, candidate promotion queues, on-situation cue activation, behavioral uptake tests, and mature lifecycle scheduling remain design work, not shipped capability.
+
+## Related implementation references
+
+- [Commonplace architecture](./architecture.md) — contains: installed layout, shipped library, user collections, and skill discovery surfaces
+- [Storage](./storage-architecture.md) — contains: authored markdown, generated indexes, reports, and review result files
+- [Collections and types](./collections-and-types.md) — implements: collection contracts plus type contracts
+- [Review system architecture](./review-architecture.md) — implements: semantic review, provenance, result-file freshness, and stale-pair detection
+
+---
+
+Relevant Notes:
+
+- [Designing a Memory System for LLM-Based Agents](../theory/designing-agent-memory-systems.md) — rests-on: the requirements this shipped-system coverage map implements and partially leaves open

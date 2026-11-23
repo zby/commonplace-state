@@ -1,0 +1,35 @@
+# Rewrite report
+
+## Reserved decision flagged: title
+
+The workflow-required title is unchanged. Its literal promise exceeds the result. The candidate supports "requires ... not just storing content" in a conditional form: a capability that needs history-dependent decisions at matched inputs requires retained state plus a consumption rule giving it authority over the decision. "Governing" is supported only in the weak sense that some rule, possibly fixed in the program, assigns consumer, channel and force. The candidate supports no requirement for a separate validation, approval, rollback or coordination process, and says so in `## Scope`. A retitle is the operator's decision. One option would name the conditional, for example "Learning from deployment requires history-dependent decisions at matched inputs, not just stored content".
+
+## What changed in substance
+
+- Dropped: regression validation as a requirement, and the empirical claim that continual adaptation compounds silent degradation. The commission excludes it; no authorized source supports it.
+- Dropped: the three-representational-form coordination argument and the parametric/readable-artifact split. These are not supported by the authorized sources and are not needed for the conditional claim.
+- Dropped: the definition of continual learning as system-performed selection with hand-authored changes counted as maintenance. The commission excludes universal definitions and autonomous-selection requirements.
+- Added: the fixed-interpreter objection, the matched-decision-input criterion, the contrasting-histories test with hypothetical winning and losing cases, the separation between changed and improved decisions, the three levels (history at decision time, procedure revision, machinery revision), and a matched comparison that would make the open-ended conjecture testable.
+- Footer reduced to the authorized sources plus the effective-update-space note those sources point to. Links to other notes in the old footer were dropped because the candidate no longer uses them.
+
+## Affected citations
+
+Only the 30 inbound files supplied were assessed; 18 more were cut from the input and need a separate check. Default follow-up for each affected passage: remove or retarget the reference, then assess the citing passage on its own merits. None of the displaced ideas is proposed for a split here: the regression and form-coordination material has nearby owners (for example the representational-form coevolution note) and lacked authorized support in this rewrite.
+
+- `kb/sources/dual-nature-generalization-on-policy-distillation.ingest.md` — says the paper "supports that note's regression-validation requirement" and proposes updating the note with it. The candidate has no regression-validation requirement. The citation and the proposed update no longer apply.
+- `kb/sources/dfa-moe-dual-forgetting-vision-language-continual-learning.ingest.md` — says the note's "current regression requirement does not separate those baselines". No regression requirement remains, so the sharpening has no target here.
+- `kb/sources/agentic-reasoning-for-llms-survey.ingest.md` (both passages) — treats the survey's lack of a step for "validating, authorizing or retiring a write" as a gap relative to this note. The candidate accepts direct updates with no validation step; it requires only a consumption rule assigning authority. The comparison's "missing governance step" reading is no longer supported; at most the authorization part survives in the weak sense.
+- `kb/sources/hyra-2-next-step-for-auto-research.ingest.md` (both passages) — cites human approval for shared knowledge as evidence for this note. The candidate does not require approval, so approval is not evidence for it.
+- `kb/sources/intern-s2-mobius-arxiv-v1.ingest.md` — attributes to the note the requirement to "accept, validate, coordinate, or revert" writes across a deployed system. Only the weaker point (storage capacity alone does not determine which retained state reaches which decision) remains supported.
+- `kb/agentic-systems/reviews/ai-agent-book.md` — cites agreement with a route through independent checks and release decisions. The candidate agrees that stored experience is not learning, but does not require that route. The agreement should be narrowed or the link removed.
+- `kb/agent-memory-systems/trace-learning-techniques-in-related-systems.md` — relies on the note's split between readable system-definition artifacts and slower, harder-to-validate distributed-parametric updates. The candidate no longer makes that split.
+- `kb/sources/from-human-memory-to-ai-memory-survey-llm-memory-mechanisms.ingest.md` (second passage) — offers instances of the note's "readable-artifact vs distributed-parametric behaviour-change split". That split is gone.
+- `kb/sources/language-models-need-sleep-self-modify-consolidate-memories.ingest.md` — the "durable behavioral change" part still fits; the claim that the paper shows "the distributed-parametric branch's characteristic tradeoffs" relies on a branch discussion the candidate dropped.
+- `kb/sources/adaptation-of-agentic-ai-survey-post-training-memory-skills.ingest.md` — says the KB, including this note, gives "an artifact-substrate and role taxonomy". This note no longer supplies a substrate taxonomy.
+- `kb/sources/self-training-large-language-models-through-knowledge-detection.ingest.md` — uses the note for a weight-side contrast. The candidate does not contrast substrates (passage truncated in input; check the rest).
+- `kb/sources/llm-knowledge-bases-something-i-m-finding-very-useful.ingest.md` — says the source exemplifies compounding through inspectable artifacts. The candidate makes no claim about inspectability or compounding; at most it exemplifies retained state reaching later decisions.
+- `kb/sources/nested-learning-the-illusion-of-deep-learning-architecture.ingest.md` — the "readable only through behavioral probes" point is not a claim of this candidate. History-dependent behaviour without code change still fits.
+- `kb/sources/hot-take-llm-can-jump.ingest.md` — says the note "reserves the term" continual learning for durable, evidence-responsive change. The candidate disclaims a universal definition. The contrast with non-persistent task-time use still holds as a necessary condition for the stated capability; the wording "reserves the term" should be softened.
+- `kb/sources/externalization-in-llm-agents-unified-review.ingest.md` and `kb/sources/prime-agent-a-self-improving-rlm-harness.ingest.md` — passages truncated before the use of this note; check them directly.
+
+Still supported (no action): Soar chunking, token-space learning, harness lock-in, HCL, HGM, Into the Unknown, knowledge-centric self-improvement, long-horizon agents, MerchantBench, METR incident, Schmidhuber, open continual learning, faithful self-evolvers, SkillOpt. These cite the note for stored content versus changed later behaviour, history-dependent change without weight updates, or changes that need evaluation because changed is not improved.

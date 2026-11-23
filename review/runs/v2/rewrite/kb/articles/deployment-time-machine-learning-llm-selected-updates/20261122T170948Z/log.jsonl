@@ -1,0 +1,10 @@
+{"time": 1795367389.1469054, "event": "accepted", "path": "commission.md", "sha256": "c462706115e318306d3cc50d4b9fab5d95ce2eaed42ecbf919c7f0cba0b41de1"}
+{"time": 1795367389.1474605, "event": "accepted", "path": "sources.md", "sha256": "b1a88047c6943ab57a0996ae39a07c50426760f6133f65eddc8b43ba7474b6a1"}
+{"time": 1795367389.1480298, "event": "accepted", "path": "start.md", "sha256": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5"}
+{"time": 1795367513.107764, "event": "launch", "job": "candidate", "key": "890e52c328fcde9b20c368b6be555f596b965cc2bec312657f365674cf60476f", "launch": "dd3e47b379564d7c83c5b131d3958534", "status": "delivered"}
+{"time": 1795367513.110126, "event": "answered", "job": "candidate", "key": "890e52c328fcde9b20c368b6be555f596b965cc2bec312657f365674cf60476f", "problem": false}
+{"time": 1795367513.147518, "event": "accepted", "path": "candidate-1.md", "sha256": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8"}
+{"time": 1795367513.1485665, "event": "accepted", "path": "candidate-1-report.md", "sha256": "a829298105ab2070c5f9f952f39179315f4fd994a5a534d1defef1b815f716bf"}
+{"time": 1795367655.7770464, "event": "accepted", "path": "review-1.md", "sha256": "4f473967c21609d04194f27a794d1648744a4be72d0e9457ff6023c73ff66451"}
+{"time": 1795367655.7780242, "event": "accepted", "path": "final.md", "sha256": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8"}
+{"time": 1795367655.7802968, "event": "accepted", "path": "final.diff", "sha256": "b4fbc659633d92f09ef53b656ce5e714dfa9e084e0cd8bffca7b394d873f7f76"}

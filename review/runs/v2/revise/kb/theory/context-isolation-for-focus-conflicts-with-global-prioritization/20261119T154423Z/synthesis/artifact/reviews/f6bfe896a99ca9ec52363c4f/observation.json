@@ -1,0 +1,184 @@
+{
+  "version": 3,
+  "id": "f6bfe896a99ca9ec52363c4f",
+  "request": {
+    "job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "call-job": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+    "contract": "report",
+    "kind": "compression-synthesis",
+    "criterion-id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "target-sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+    "criterion-bytes-sha256": "e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "f2a6e61885ca8440de3900ba455201b4e2c1f2917d720d465deb9e8415f679f9",
+    "profile": {
+      "harness": "antigravity",
+      "launch_model": "gemini-4-neon",
+      "effort": "high",
+      "flags": {
+        "mode": "accept-edits",
+        "sandbox": true
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "criterion.md": "e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-branch-bloat.md": "7947616c9c5eea4f1ebc749ae05e9c214cd471a68f4daf801fcbd0b6fa2c48d4",
+      "supplied-core-claim-obscured.md": "9f0bfbd54635804b2d859e82277ef466c04abd66d94921586f3a6e651021d425",
+      "supplied-detail-overhang.md": "f41fe3119d4971e6f209cf910ae08848ca832370ca0bacac298ca35289ea6b0d",
+      "supplied-marginal-value-redundancy.md": "83a367a132d72d5a685d7229c0497de8178f5ba0180af593f9cb5169f49f7f0f"
+    }
+  },
+  "kb-commit": "29c60f681a7e4e255e6c73adff5578ea11a008ef",
+  "content-state": {
+    "kb/log.md": {
+      "kind": "file",
+      "sha256": "04bf6a267f51c3b77b5f6a5239a15d5d06b88f57318c914f42f68420d8a8fc05"
+    },
+    "kb/reference/README-REVIEW-SYSTEM.md": {
+      "kind": "file",
+      "sha256": "f8defc288248fa7bb09d47700a0cf841e66db599b04a145620674a191ccc6e34"
+    },
+    "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md": {
+      "kind": "file",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "1336efe96cefde0ae03233301cabf2748c229c900370734b2ad91d63a746ffe4"
+    },
+    "kb/work/review-and-editing-commands/README.md": {
+      "kind": "file",
+      "sha256": "5d73851d4b43808d5d6fa8bbb8c8d72839243040cc9c4fccca2fbe8b7497845d"
+    },
+    "kb/work/review-and-editing-commands/command-proposal.md": {
+      "kind": "file",
+      "sha256": "4d543461dcb7de35893d227d59bcaa603b59c271d524012ed0954f0d9960eb00"
+    },
+    "src/commonplace/cli/review_workflows.py": {
+      "kind": "file",
+      "sha256": "dd3d8770a2a8128833a2e356516ec884cca0740393d741773644c226820f7b96"
+    },
+    "src/commonplace/lib/quote_verification.py": {
+      "kind": "file",
+      "sha256": "fa56735b0d78d140324665b7701138a2103ffabc072c510fa11d3cbe17da647b"
+    },
+    "tests/commonplace/sources/test_quote_verification.py": {
+      "kind": "file",
+      "sha256": "d3d6779e396374f1758b4e1abca7c7f0aa71d8b2e036369d78af39d9763d1bc4"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "fb2cd9ff0952a6157e6b26eee287969b6402320ac52291fd4e7cefcc91a1c716",
+  "executor": {
+    "path": "provenance/6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10.json",
+    "sha256": "6f18d336ca4603d3f4d118dfb52e2369072f6b84aa9a1e7d1801e0e7ca9c9a10"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "path": "inputs/target/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "12b4e84afd1ccba61d007e12cebfe51c89523d6cb19be7f64b14e46ecc61fa78",
+      "bytes": 18732,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "path": "inputs/criterion.md",
+      "sha256": "e9acb7253e030395c44ec88ee557d44b80dbe4be7a31caa6aed890b2d0206478",
+      "bytes": 4837,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "f2a6e61885ca8440de3900ba455201b4e2c1f2917d720d465deb9e8415f679f9",
+      "bytes": 2738
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/branch-bloat.md",
+      "sha256": "7947616c9c5eea4f1ebc749ae05e9c214cd471a68f4daf801fcbd0b6fa2c48d4",
+      "bytes": 4328,
+      "input": "supplied-branch-bloat.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+      "path": "inputs/operational/core-claim-obscured.md",
+      "sha256": "9f0bfbd54635804b2d859e82277ef466c04abd66d94921586f3a6e651021d425",
+      "bytes": 7608,
+      "input": "supplied-core-claim-obscured.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/operational/detail-overhang.md",
+      "sha256": "f41fe3119d4971e6f209cf910ae08848ca832370ca0bacac298ca35289ea6b0d",
+      "bytes": 6546,
+      "input": "supplied-detail-overhang.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/operational/marginal-value-redundancy.md",
+      "sha256": "83a367a132d72d5a685d7229c0497de8178f5ba0180af593f9cb5169f49f7f0f",
+      "bytes": 6016,
+      "input": "supplied-marginal-value-redundancy.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/af75e6921d71403b97ba789a96203ad8/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/af75e6921d71403b97ba789a96203ad8/review.md": "a49c55e72f64f8dcc7b3f9b817f5f135c08eb880616011ac5fc3f901686b1a16"
+  },
+  "latest-result": "results/af75e6921d71403b97ba789a96203ad8/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "2e0e693b296b50c724bab6a062a601fc8d0862a76e44e42f140a662109f2de93"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

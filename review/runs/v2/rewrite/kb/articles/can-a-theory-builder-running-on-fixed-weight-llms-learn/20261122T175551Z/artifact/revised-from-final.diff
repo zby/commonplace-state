@@ -1,0 +1,60 @@
+--- kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md (candidate)
++++ kb/articles/can-a-theory-builder-running-on-fixed-weight-llms-learn.md (revised candidate)
+@@ -1,5 +1,5 @@
+ ---
+-description: "Companion article: what a deployed system gains by retaining and testing an explanation alongside a winning patch; three separable bets (supplied diagnosis, criticism of a separable premise, carrying the account across jobs) with comparisons that admit negative or mixed results; hypothetical build-dependency example"
++description: "A build failure illustrates three tests of what a theory adds to a working patch: can a diagnosis guide search, can one premise be repaired, and does carrying the account to the next job save observations or effort?"
+ type: articles/types/article.md
+ status: draft
+ byline: Zbigniew Lukasiak
+@@ -44,14 +44,14 @@
+ patch alone did not flag the edit, because the snippet was not listed.
+ 
+ A system that kept the account has a specific premise to suspect: that the
+-list is exhaustive. Its next investigation differs. It can run a
+-discriminating test: trace which files the build actually opens and compare
+-them with the list. If the traced reads match the list, the exhaustiveness
+-premise survives and the diagnosis must look elsewhere. If the failure
+-reproduces with the snippet reverted, the snippet was not the cause at all.
+-If the trace shows unlisted reads, the system revises one premise ("the list
+-names entry points; dependencies include what they include") and changes
+-its predictions for other included files that have never failed.
++list is exhaustive. It can trace which files the failing build opens and compare them with the
++list. Finding an unlisted read refutes the premise; a match leaves it
++unchallenged on this run. A separate check tests the role of the edit:
++revert only the snippet and rebuild under the same conditions. If the build
++still fails in the same way, the omitted file alone does not explain the
++failure. If the build reads the unlisted snippet and reverting the edit
++restores the build, the system has a reason to follow includes as well as
++listed inputs. That revised rule predicts which other edits need build tests.
+ 
+ The patch-only system is not doomed. It can also investigate, find the
+ include, and fix it. The question is what the account saves, and at what
+@@ -72,9 +72,9 @@
+ 
+ ## Bet two: criticism can name a separable premise
+ 
+-The second conjecture is that criticism aimed at one premise ("the list is
+-exhaustive") learns more than criticism aimed at the account as a whole
+-("the dependency account failed"). Hold edit options open in both arms:
++Does the system find a better repair when criticism identifies one premise
++(“the list is exhaustive”) rather than the whole account (“the dependency
++account failed”)? Hold edit options open in both arms:
+ naming one premise can still lead to rewriting everything. The comparison
+ is about the target of criticism, not the size of the edit. Then check that
+ retained claims still work on the prior case (the README edit is still
+@@ -126,10 +126,10 @@
+ 
+ ## Status
+ 
+-These are conjectures from
+-[Commonplace's research program](../theory/commonplace-builds-a-theory-builder-and-tests-whether-it-learns.md),
+-which builds for fine-grained premises and long persistence and holds model
+-weights fixed. The example is hypothetical and no comparison has been run.
++These three conjectures come from [Commonplace’s earlier theory-builder
++research note](../theory/commonplace-builds-a-theory-builder-and-tests-whether-it-learns.md).
++They concern the additional choice to retain and criticize theories, not
++every system that selects changes to its own methods. The example is hypothetical and no comparison has been run.
+ Commonplace itself is maintained by people and agents together, so its
+ operation so far is not evidence for an autonomous system. The
+ [testing supplement](./testing-whether-a-theory-builder-learns.md) gives

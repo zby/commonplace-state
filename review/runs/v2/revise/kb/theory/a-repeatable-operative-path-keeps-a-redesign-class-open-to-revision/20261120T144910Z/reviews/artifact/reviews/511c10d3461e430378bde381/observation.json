@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "id": "511c10d3461e430378bde381",
+  "request": {
+    "job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/conceptual-role-conflation",
+    "call-job": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/*",
+    "note": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+    "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "semantic/conceptual-role-conflation",
+    "target-sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+    "criterion-bytes-sha256": "f8badd8635e1273dc87abd558f5631019a4238c75f5af84cf38e64933a44b803",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "8a577403547de893048529ad48e7c628ffd88597aed020782fb2f5d4eee9a19c",
+    "profile": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "gate-completeness-boundary-cases.md": "b46ca399a83da384b7f5217f86945cff08f0ae3c084711ab6fec66a558192323",
+      "gate-conceptual-role-conflation.md": "f8badd8635e1273dc87abd558f5631019a4238c75f5af84cf38e64933a44b803",
+      "gate-epistemic-status-blur.md": "ec58b5e74b81528409483b42dd9a8c11730792eda308bab8ce72f962b0d6974f",
+      "gate-explanatory-reach.md": "8a7af5aae568be28c3d8dbde54a66452a3bc66ab66475db0f11f79795445eb84",
+      "gate-grounding-alignment.md": "c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c",
+      "gate-internal-consistency.md": "05676960f5c1c2a28267be3f8abb77474788e9d59110a62827124e0061e06523",
+      "gate-load-bearing-qualifiers.md": "1e1f9e2efcdcbd278fbaac47775704be52b0891d84e248189ac81fba3bf802e9",
+      "gate-underspecified-assertions.md": "8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410",
+      "gate-unearned-generality.md": "92ea25015eccd7b14c7d95c647809c487d59e7128d0d1e74129c3f1156127023",
+      "gate-unwarranted-scope.md": "d4e59ae95b01188e37f82dcf05610e18712daa7bf913af37ce3f115ed14b0fc9",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2b010f54bbe21d5993ddb0e687da002d3058d4f3",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "412795d1caa098c995b0d77411da444ce616259badb90718fc5e8524f2566c75",
+  "executor": {
+    "path": "provenance/3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6.json",
+    "sha256": "3652ba29435880e9aae912bf4555db4d1ab483dfae3a29dea9439baa42f7f5e6"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "path": "inputs/target/kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md",
+      "sha256": "46c98f5baca1726ff50158d3e2686e47463e9cfad32119a42e037c2fc2c96445",
+      "bytes": 13491,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+      "path": "inputs/criterion.md",
+      "sha256": "f8badd8635e1273dc87abd558f5631019a4238c75f5af84cf38e64933a44b803",
+      "bytes": 4425,
+      "input": "gate-conceptual-role-conflation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "8a577403547de893048529ad48e7c628ffd88597aed020782fb2f5d4eee9a19c",
+      "bytes": 4007
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/ee659c5721f3487786a4023767f96350/review-conceptual-role-conflation.md"
+  ],
+  "completed-result-sha256": {
+    "results/ee659c5721f3487786a4023767f96350/review-conceptual-role-conflation.md": "6ceeb16c370c845f5c2f5852c796dbad698364124ccd31216da487714bbc03cc"
+  },
+  "latest-result": "results/ee659c5721f3487786a4023767f96350/review-conceptual-role-conflation.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/a-repeatable-operative-path-keeps-a-redesign-class-open-to-revision.md::semantic/*",
+      "key": "a27ce1b2b852870abda7e6a1c51170b2078b3b86ecca84b3aeb567b297fa705b"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

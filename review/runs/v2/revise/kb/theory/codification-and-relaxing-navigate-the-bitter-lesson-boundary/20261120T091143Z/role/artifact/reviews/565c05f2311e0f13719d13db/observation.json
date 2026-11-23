@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "id": "565c05f2311e0f13719d13db",
+  "request": {
+    "job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/instructions/role-in-the-kb-gate",
+    "call-job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/instructions/role-in-the-kb-gate",
+    "note": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+    "criterion": "kb/instructions/role-in-the-kb-gate.md",
+    "contract": "report",
+    "kind": "role",
+    "criterion-id": "kb/instructions/role-in-the-kb-gate",
+    "target-sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+    "criterion-bytes-sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "d20e67a4dfc020890dce8c652978183fae32f06391064440b6fa0abe66b2ace8",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "criterion.md": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-inbound.md": "dde1cc5e6434668e7a930217e7a668051445b9bce7226e06e032e58a0fb8bc1f"
+    }
+  },
+  "kb-commit": "e6b0e9c39bd8d05b2f421407e91dad30792343fa",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "055f45c2bfd5b5b2b014e1f3b8324fa4f70dbf5d325a4930eaa0249e67a5e85c",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "path": "inputs/target/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "bytes": 9754,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/role-in-the-kb-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "86d5c3082fa3fb82afab97a45faf7c7ae3265ce3a43ae7791051657759ca54bd",
+      "bytes": 5430,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "d20e67a4dfc020890dce8c652978183fae32f06391064440b6fa0abe66b2ace8",
+      "bytes": 1826
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "dde1cc5e6434668e7a930217e7a668051445b9bce7226e06e032e58a0fb8bc1f",
+      "bytes": 37999,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/b9e6c5a43c7944949223842d79aca171/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/b9e6c5a43c7944949223842d79aca171/review.md": "197ebfd6689c64d48a226deadcfb831f87925e93f2b7fd07e65c06697ee10432"
+  },
+  "latest-result": "results/b9e6c5a43c7944949223842d79aca171/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::kb/instructions/role-in-the-kb-gate",
+      "key": "bb3322f3abe48ce5df9b42428a8fec56094ddfe49f686bfa0bc14ae0da646d53"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

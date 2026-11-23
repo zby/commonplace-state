@@ -1,0 +1,3 @@
+- A fixed review rule can use the lesson; the incident does not show the rule must change.
+- A reviewer following the original instruction could still recognize it.
+- The test is not whether the reviewer retrieved the incident. It is whether the reviewer distinguishes apparent corroboration from independent support on the new page.

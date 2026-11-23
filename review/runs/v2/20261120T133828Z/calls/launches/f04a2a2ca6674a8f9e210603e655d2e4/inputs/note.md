@@ -1,0 +1,84 @@
+---
+description: When note titles are claims rather than topics, following links between them reads as a chain of reasoning — the file tree becomes a scan of arguments, and link semantics (since, because, but) encode relationship types
+type: types/note.md
+traits: [has-external-sources, title-as-claim]
+tags: [document-system, links, claims-and-grounding, kb-maintenance]
+---
+
+# Title as claim enables traversal as reasoning
+
+Don't name notes like topics ("thoughts on memory"). Name them like claims ("structure enables navigation without reading everything").
+
+When you link to a claim-titled note, the link becomes part of your argument:
+
+> "because *approvals guard against LLM mistakes not active attacks*, we can separate the security boundary from the approval UX"
+
+The title IS the reasoning. Traversal IS thinking. The title functions as a typed signature — you know what you're getting before you load the full note. A topic label like "memory notes" is an undocumented function; a claim like "structure enables navigation" tells you the return value. This connects to how [types applied to documents mark affordances](./instructions-are-typed-callables.md) — a claim title is an affordance declaration.
+
+## Prior work
+
+Propositional titles are established practice in several fields:
+
+- **Academic writing** — thesis statements and paper titles that state the conclusion. The abstract leads with the claim.
+- **Journalism** — headlines state the finding ("Scientists discover X"), not the topic ("Research about Y").
+- **Evergreen notes** (Matuschak) — explicitly advocates for note titles as complete propositions rather than topic labels.
+- **Zettelkasten practice** — Luhmann used precise descriptive titles; the community has extensive discussion of atomicity and title quality.
+
+The *traversal-as-reasoning* consequence — when titles are claims, link-following reads as argument — came to us via [arscontexta](../agent-memory-systems/reviews/arscontexta.md), which likely drew on these same traditions. The [Toulmin argumentation model](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html) provides the formal structure behind the "since/because" link semantics this enables.
+
+**TODO:** This survey is from the agent's training data, not systematic. Matuschak's writing on evergreen notes and Zettelkasten community resources on title conventions are worth ingesting.
+
+## Why it works
+
+Inline links carry richer relationship data than metadata fields. The prose surrounding a link encodes WHY the linked note matters here — "because [X]" is a causal claim, "since [Y]" is a foundation claim, "but [Z]" is a tension. Claim-as-title makes these constructions possible, because topic labels don't compose grammatically. You can write "since [claims must be specific enough to be wrong]" but not "since [specificity notes]." Our [link relationship semantics](../reference/adr/009-link-relationship-semantics.md) formalize this — argumentative links ("since", "because") and referential links ("see", "as defined in") are different intents that require different anchor context.
+
+Progressive disclosure depends on this. The first disclosure layer is titles. If titles are claims, agents can curate what to load based on what each note argues. If titles are topics, agents must load notes to discover what they argue — the disclosure layer fails. This is why [instruction specificity should match loading frequency](./instruction-specificity-should-match-loading-frequency.md) — the loading hierarchy assumes that titles and descriptions carry enough signal for agents to decide what to load next.
+
+**Practical benefits:**
+- scanning file tree = scanning arguments
+- following links = following reasoning chains
+- the vault becomes readable without opening files
+
+## Where it breaks: multi-claim documents
+
+The pattern works best for ideas that ARE single claims. It breaks for **compositional documents** — specs, frameworks, classification systems — that embody multiple independent design choices.
+
+[Collections and types](../reference/collections-and-types.md) is a clear example. It composes several facts: an artifact has separate collection and type contracts, `type:` is a path-valued identity, schemas and semantic review consume different parts of the type spec, and specs may be global or collection-local. Each fact could support a standalone claim note, but no single claim subsumes the whole operational account.
+
+The traversal-as-reasoning framing explains why. A claim-titled note can serve as a premise: "since [X], therefore Y." A multi-claim document can't serve as a single premise because it IS multiple premises. When you write "see *document classification*," you're not invoking a reasoning step — you're pointing to a reference. The link semantics shift from argumentative ("since," "because") to referential ("see," "as defined in").
+
+| Document kind | Title convention | Link semantics | Role in traversal |
+|---|---|---|---|
+| Single-claim (insight, rationale) | Claim title | "since [X]", "because [X]" | Premise in reasoning chain |
+| Multi-claim (spec, framework) | Topical title | "see [X]", "as defined in [X]" | Reference, not premise |
+| Definitional (term pinning) | The term itself | "see [X]", "[X] means..." | Reference, not premise |
+
+**Definitional notes** are a second exception. Notes like [codification](./definitions/codification.md), [constraining](./definitions/constraining.md), and [context engineering](./definitions/context-engineering.md) pin down how a technical term is used in this project. Their titles are the terms they define — topical by nature. They function as reference entries: you link to them for precision ("as defined in [codification]"), not as premises in reasoning chains. Like specs, they can link TO claim-notes for justification while carrying topical titles themselves.
+
+The two layers coexist. Specs link TO their constituent claim-notes for justification ([document types should be verifiable](./document-types-should-be-verifiable.md) is the rationale extracted from the classification spec). Claim-notes link TO specs as the system they support. But they have different title conventions because they play different roles in traversal.
+
+This maps onto the existing type system: a claim-titled note may change to `type: theory/types/structured-claim.md` when its body meets that contract; ADRs, design proposals, generated indexes, and other multi-claim structural types carry topical titles. The title convention is independent of the type — an artifact using `type: types/note.md` can use a claim title.
+
+## The shadow side
+
+Not every idea decomposes into a single declarative sentence — some are relational, procedural, emergent, or compositional. When reformulation feels forced, the question is whether the insight isn't ready or the format can't accommodate it. The type system makes this explicit: a note can keep `type: types/note.md` with a topical title, and that's fine.
+
+---
+
+Relevant Notes:
+
+- [programming-language types applied to documents mark affordances](./instructions-are-typed-callables.md) — extends: claim titles are affordance declarations, telling you what reasoning operations a note supports
+- [document types should be verifiable](./document-types-should-be-verifiable.md) — example: a claim extracted from a multi-claim spec, enabling it to serve as a premise
+- [collections and types](../reference/collections-and-types.md) — example: a multi-claim reference page that gets a topical title because no single claim subsumes its content
+- [agents navigate by deciding what to read next](./agents-navigate-by-deciding-what-to-read-next.md) — grounds: claim titles make the navigation decision cheap by carrying the argument in the pointer itself
+- [two kinds of navigation](./link-following-and-search-impose-different-metadata-requirements.md) — extends: claim titles improve both local link-following (inline prose reads as reasoning) and long-range search (titles convey arguments without loading)
+- [instruction specificity should match loading frequency](./instruction-specificity-should-match-loading-frequency.md) — enables: claim titles are what make the first layer of progressive disclosure work in the loading hierarchy
+- [009-link-relationship-semantics](../reference/adr/009-link-relationship-semantics.md) — extends: the relationship vocabulary (extends, grounds, contradicts, enables, exemplifies) that typed links use
+- [linking-theory](./linking-theory.md) — extends: open questions about when and why typed links work
+- [Toulmin argument](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html) — evidenced-by: Toulmin's formal argumentation model (claim/grounds/warrant/qualifier/rebuttal/backing) is the theory behind what this note describes — claim titles are Toulmin claims, and "since"/"because" link semantics encode warrants
+- [Agentic Note-Taking 23: Notes Without Reasons](https://x.com/molt_cornelius/status/2026894188516696435) — validates from inside: an agent operating in a curated graph describes first-person the qualitative difference between following propositional links ("since [X]") and browsing embedding-based similarity results — the strongest external validation of the claim-as-traversal mechanism
+- [Title as claim exposes commitments, enabling Popperian maintenance](./title-as-claim-exposes-commitments-enabling-popperian-maintenance.md) — extends: the maintenance/falsification benefit is a separate argument from the traversal benefit made here
+- [Title as claim makes overlap between notes visible](./title-as-claim-makes-overlap-between-notes-visible.md) — extends: overlap detection at the index level is a separate maintenance benefit from falsifiability
+
+Source:
+- Adapted from [arscontexta methodology note](https://github.com/agenticnotetaking/arscontexta) on the same topic, with the multi-claim boundary analysis added

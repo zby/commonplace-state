@@ -1,0 +1,1 @@
+For KB maintainers and agents deciding whether to commit a rule to code or leave it to a model call: grasp the codify-and-relax claim and the bet framing (each code extraction bets that what it commits is spec, not accident; relax when scale makes a general component viable) and follow it without decoding repeated caveats or two unmapped names for one distinction.

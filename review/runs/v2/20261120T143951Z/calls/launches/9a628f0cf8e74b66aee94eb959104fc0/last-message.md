@@ -1,0 +1,1 @@
+The title passed the claim-strength check. An informed reader could reasonably dispute what successful deployment establishes about a claim. [Review](/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T143951Z/calls/launches/9a628f0cf8e74b66aee94eb959104fc0/outputs/review.md)

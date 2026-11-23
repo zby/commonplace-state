@@ -1,0 +1,24 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/fishkin-mansbridge-deliberative-democracy-intro.ingest.md
+snapshot_sha256: b3494989e3f645e50cc015ca93436fddb9678f14045ef2e0d8e46776faecb0bd
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T12:23:47+01:00'
+occasion: 'The workshop draft kb/work/learning-method-name/draft-definition.md defines
+  "deliberative learning" and needs the established group sense of deliberation. The
+  ingest should let a reader check: (1) the authors'' definition of deliberation,
+  including "weighing" competing arguments; (2) the conditions they attach (good information,
+  balance, diversity, civility, reasons given); (3) whether a group is required by
+  their definition; (4) what they say deliberation produces (considered judgments,
+  changed opinions, learning) and whether any of it is retained beyond the participants;
+  (5) what they name as criticisms or failure modes of deliberation.'
+checks:
+- at: '2026-11-21T12:27:50+01:00'
+  failures: []
+- at: '2026-11-21T12:29:54+01:00'
+  failures: []
+- at: '2026-11-21T12:29:54+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T12:29:54+01:00'

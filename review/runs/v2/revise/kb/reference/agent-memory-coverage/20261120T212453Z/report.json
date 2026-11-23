@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "outcome": "completed",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z",
+  "artifact": "kb/reference/agent-memory-coverage.md",
+  "mode": "fixed-plan",
+  "plan": {
+    "purpose": "Help a maintainer compare agent-memory requirements with shipped capabilities and limits. Make the order and reasoning clear, distinguish how records are created, found and checked from what future use demonstrates, and avoid repeating the inventory.",
+    "must-keep": [
+      "Distinguish curated heads and rg in the checkout from complete listings generated for the site, and replaceable current review results from retained observations."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "readability-and-flow",
+        "scope": null
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [],
+  "findings": [],
+  "triage": null,
+  "passes": [
+    {
+      "name": "readability-and-flow",
+      "scope": null,
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/reports/readability-and-flow.md",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/texts/readability-and-flow.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/texts/readability-and-flow.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/publications/1.md",
+      "sha256": "4b7fd4f2fe75a568ab3605d601832587123193a7558de32bc774289d33b1b4bd",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/reference/agent-memory-coverage/20261120T212453Z/artifact/publications/1.diff",
+      "before-sha256": "26fb1f45d62e059b7b8cd33415d516951880339f22de7002899d45fdc98086ce",
+      "entries": [
+        "readability-and-flow"
+      ],
+      "at": "2026-11-20T21:26:00Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": null,
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

@@ -1,0 +1,20 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/hoeffding-bounded-random-variables.ingest.md
+snapshot_sha256: 7610ab2bb4950e237af2cbf0f08c8baa9a7b1dec1e2815a27e8b6a6dc2b7ee6b
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:27:33+01:00'
+occasion: When can many uncertain effects reverse an improvement judgment?
+checks:
+- at: '2026-11-21T09:29:46+01:00'
+  failures:
+  - 'validation: [schema] frontmatter: ''ingested'' is a required property'
+- at: '2026-11-21T09:29:52+01:00'
+  failures: []
+- at: '2026-11-21T09:30:10+01:00'
+  failures: []
+- at: '2026-11-21T09:30:10+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:30:10+01:00'

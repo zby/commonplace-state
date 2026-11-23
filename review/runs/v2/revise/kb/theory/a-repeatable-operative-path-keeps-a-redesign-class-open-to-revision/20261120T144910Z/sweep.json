@@ -1,0 +1,35 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "full",
+  "purpose": null,
+  "must-keep": [],
+  "plan": null,
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    },
+    "judgment": {
+      "harness": "codex",
+      "launch_model": "gpt-6.2-sol",
+      "effort": "medium",
+      "flags": {
+        "sandbox": "workspace-write"
+      }
+    }
+  },
+  "review-profile": {
+    "harness": "codex",
+    "launch_model": "gpt-6.2-sol",
+    "effort": "medium",
+    "flags": {
+      "sandbox": "workspace-write"
+    }
+  }
+}

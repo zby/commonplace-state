@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/bdi-agents-from-theory-to-practice.ingest.md
+snapshot_sha256: e2b16c301b13a818d2089bef08b6f845b9281a3dfca5d6fd6b69b01f9a99696c
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T16:13:45+01:00'
+occasion: Which parts of deliberative learning, if any, have precedents in BDI agent
+  deliberation and its retention judgments?
+checks:
+- at: '2026-11-21T16:17:02+01:00'
+  failures: []
+- at: '2026-11-21T16:17:13+01:00'
+  failures: []
+- at: '2026-11-21T16:17:13+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T16:17:13+01:00'

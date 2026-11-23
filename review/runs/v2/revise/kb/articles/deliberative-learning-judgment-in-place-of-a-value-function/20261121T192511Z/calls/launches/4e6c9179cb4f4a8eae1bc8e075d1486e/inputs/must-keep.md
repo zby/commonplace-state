@@ -1,0 +1,6 @@
+- Deliberative learning (a system learning by making proposed, rejectable edits to its own readable, addressable store) is a distinct learning paradigm.
+- When no single formula captures the work, an on-balance judgment works in place of a value function inside the loop.
+- We bet that a fixed-weight language model can fill the judge slot autonomously, running double-loop deliberative learning with targeted correction for work where no fixed criterion is adequate.
+- The Bitter Lesson contrasts human-supplied knowledge with knowledge produced by computation through search and learning; it says nothing about whether the retained result must live in floating-point weights.
+- We report no completed end-to-end automated run demonstrating sustained autonomous double-loop learning yet.
+- Legibility does not guarantee faithfulness: a written rule need not be what actually drove the model's behavior.

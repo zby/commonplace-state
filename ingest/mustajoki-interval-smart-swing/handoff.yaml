@@ -1,0 +1,21 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/mustajoki-interval-smart-swing.ingest.md
+snapshot_sha256: c2f4adc693860e4b892e1ea124d1e2139ec468f3a83e4a56a6ca2589b0e870b7
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T09:28:39+01:00'
+occasion: What can Commonplace conclude when a comparison leaves trade-off weights
+  open?
+checks:
+- at: '2026-11-21T09:33:10+01:00'
+  failures:
+  - 'validation: [schema] frontmatter: ''ingested'' is a required property'
+- at: '2026-11-21T09:33:17+01:00'
+  failures: []
+- at: '2026-11-21T09:33:39+01:00'
+  failures: []
+- at: '2026-11-21T09:33:40+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T09:33:40+01:00'

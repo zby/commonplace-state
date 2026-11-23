@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "id": "0ee985627aa3d3208854bb48",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+    "contract": "report",
+    "kind": "compression-synthesis",
+    "criterion-id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "112226444644d2f867a34fcb7883ec4a34486b84ff48e32d18a8c85dffe4dfb4",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "criterion.md": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-branch-bloat.md": "2070c03c7cc96610011ca2d9cd003783e3c7da7ce6adab80c61cd0805d72e459",
+      "supplied-core-claim-obscured.md": "acf163c11de12a985729d3e202fb07ff0bcc1d6a39fe9e0885aba31d56a125de",
+      "supplied-detail-overhang.md": "1fcc58ed9b3b28d5db132a636b6eed8bda7a60e65e32dadfdd506aa2d959d5dd",
+      "supplied-marginal-value-redundancy.md": "e6cbca0ae80d362ff06e4c4a96f16c3fc28620fc107efdb16c5c2f26cb213a71"
+    }
+  },
+  "kb-commit": "211039143e6ae8f7b43c1ab9031e469a08ec90e8",
+  "content-state": {
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "d378bb7867afff894574d614c39675db551b14e2cad5a2d24f00b1676da66bc2",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "path": "inputs/criterion.md",
+      "sha256": "0639a8d235bbdf791feaa2f1eae21d28a4131c0fe56e0a15fefe51fa524835cf",
+      "bytes": 4827,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "112226444644d2f867a34fcb7883ec4a34486b84ff48e32d18a8c85dffe4dfb4",
+      "bytes": 2718
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/branch-bloat.md",
+      "sha256": "2070c03c7cc96610011ca2d9cd003783e3c7da7ce6adab80c61cd0805d72e459",
+      "bytes": 4751,
+      "input": "supplied-branch-bloat.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/core-claim-obscured.md",
+      "path": "inputs/operational/core-claim-obscured.md",
+      "sha256": "acf163c11de12a985729d3e202fb07ff0bcc1d6a39fe9e0885aba31d56a125de",
+      "bytes": 4887,
+      "input": "supplied-core-claim-obscured.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/operational/detail-overhang.md",
+      "sha256": "1fcc58ed9b3b28d5db132a636b6eed8bda7a60e65e32dadfdd506aa2d959d5dd",
+      "bytes": 4745,
+      "input": "supplied-detail-overhang.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/results/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "path": "inputs/operational/marginal-value-redundancy.md",
+      "sha256": "e6cbca0ae80d362ff06e4c4a96f16c3fc28620fc107efdb16c5c2f26cb213a71",
+      "bytes": 4847,
+      "input": "supplied-marginal-value-redundancy.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/b995b4a8a914438f8142779fcee2fd84/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/b995b4a8a914438f8142779fcee2fd84/review.md": "0de522ad3af4edfbb0222de63b8d0d06d56ff94709e66b830e5ab3eec800714f"
+  },
+  "latest-result": "results/b995b4a8a914438f8142779fcee2fd84/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "3f542c66a91db6f083361a5c187f507da5a739a4b15bd1c9fcd23a968ba8bd80"
+    },
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "cfed93903d2fa37a16879341124c654e59c72fd265f8b365c78d34616356e09e"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795168093.2401881,
+      "event": "rejected",
+      "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "key": "cfed93903d2fa37a16879341124c654e59c72fd265f8b365c78d34616356e09e",
+      "problems": [
+        "review: [base] title: 114 chars exceeds limit of 100"
+      ]
+    }
+  ],
+  "content-rejections": 1,
+  "rejection-events": 1
+}

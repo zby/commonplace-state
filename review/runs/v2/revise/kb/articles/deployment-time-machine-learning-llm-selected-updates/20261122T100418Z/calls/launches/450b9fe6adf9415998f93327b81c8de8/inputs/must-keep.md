@@ -1,0 +1,9 @@
+- Keep the chosen title. Explain that the deployed system learns by changing retained instructions or criteria; fixed weights are not the headline.
+- Without a single score describes update selection, not model training.
+- Accepting a trial can select a modified proposal: installing the rule plus a review commitment that someone acts on.
+- Selecting an update needs a comparison among the candidates at hand, including leaving the system unchanged, not a single score.
+- A robust comparison can select changes without anyone choosing one scalar weighting.
+- The bet: a fixed-weight language model can build the preference model from a stated purpose, make the robust comparison, and decide the cases it leaves open, including revising its working criteria while the declared objective stays fixed.
+- The deployed system, not the model alone, is the unit of learning.
+- No completed end-to-end automated run is reported.
+- Letting a change stand while its verdict is open is a decision, not a demonstrated gain.

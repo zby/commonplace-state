@@ -1,0 +1,1 @@
+Only the sentence 'An unknown is worth investigating only if a plausible answer could reverse the choice.' in the on-balance paragraph.

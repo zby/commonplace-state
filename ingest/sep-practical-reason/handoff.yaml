@@ -1,0 +1,28 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/sep-practical-reason.ingest.md
+snapshot_sha256: dc21a2a088f97b7c9ec55574610902cd1df79e57ea4359165ef75c359649a737
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T12:33:37+01:00'
+occasion: 'The workshop draft kb/work/learning-method-name/draft-definition.md defines
+  "deliberative learning" and wants to base the word "deliberative" on the established
+  concept of deliberation: one agent weighing reasons for and against options to reach
+  a judgment about what to do. The ingest should let a reader check: (1) the entry''s
+  own statement of what practical reason / deliberation is, including weighing considerations
+  for and against alternative courses of action; (2) what the entry says about deliberation
+  by a single agent versus joint or shared deliberation; (3) what the entry says about
+  the maximizing conception (one measure, expected utility) versus alternatives: satisficing,
+  plural values, incommensurability; (4) whether the entry treats the conclusion of
+  deliberation as fallible, revisable or open to criticism, and whether it gives any
+  account of learning from the outcomes of action; (5) anything on deliberation about
+  ends or standards, not only means.'
+checks:
+- at: '2026-11-21T12:35:08+01:00'
+  failures: []
+- at: '2026-11-21T12:35:17+01:00'
+  failures: []
+- at: '2026-11-21T12:35:19+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T12:35:19+01:00'

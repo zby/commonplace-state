@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T100418Z/artifact/publications/1.md",
+      "sha256": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5",
+      "diff": "kb/reports/state/review/runs/v2/revise/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T100418Z/artifact/publications/1.diff",
+      "before-sha256": "2048e65aa4d06816122475c0a7b53be51b90448cae9b6062508ee30a5dd9e396",
+      "entries": [
+        "opening-and-title"
+      ],
+      "at": "2026-11-22T10:06:10Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

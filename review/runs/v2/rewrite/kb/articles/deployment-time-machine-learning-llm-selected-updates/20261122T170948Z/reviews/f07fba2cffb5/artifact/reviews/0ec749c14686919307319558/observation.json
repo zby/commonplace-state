@@ -1,0 +1,282 @@
+{
+  "version": 3,
+  "id": "0ec749c14686919307319558",
+  "request": {
+    "job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "call-job": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "note": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+    "criterion": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+    "contract": "verdict",
+    "kind": "rewrite-review",
+    "criterion-id": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+    "target-sha256": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8",
+    "criterion-bytes-sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "0c6dccf9d8cd99d2b12c2a86b58db2d4a104369d461cc15b8391a43b4e18b94c",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8",
+      "criterion.md": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "supplied-commission.md": "c462706115e318306d3cc50d4b9fab5d95ce2eaed42ecbf919c7f0cba0b41de1",
+      "supplied-type-contract.md": "67e5014396781a309377cfc87db1b1b92a105f448ed73253b1d9a07db19db2e4",
+      "supplied-collection-contract.md": "347ebf9f3da4b9069bddf9b4e90f231a9f3d35bbc4973ae096fcd15f1fb3a459",
+      "supplied-start.md": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5",
+      "supplied-sources.md": "b1a88047c6943ab57a0996ae39a07c50426760f6133f65eddc8b43ba7474b6a1",
+      "supplied-source-1.md": "36d4258d889acf3a2d6571405ea822f43dd5159c2f3431f61e82c725c1c022f9",
+      "supplied-source-2.md": "894bc6d2a5130550ff786d543026c243bc5ab4daf92a733d23429d50d62ce013",
+      "supplied-source-3.md": "2325d053f6cb1dc1bf715ba4e41a82ca03f5721b924cc633c451e83fa9ace7ab",
+      "supplied-source-4.md": "211ddc7c3041d71e74fe53c2218839ad3435d8249cc894eadeab5aa209036e02",
+      "supplied-source-5.md": "d260fb2e0fa8580aee5c3e8f833a8ee6a45a80a8dd1ebb436429eb8f12012536",
+      "supplied-source-6.md": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7",
+      "supplied-source-7.md": "15b979d01e5a6bf0d0118e89fd3c99569147f25e8f352e40ddd5b8b81c9d8507",
+      "supplied-source-8.md": "4593e455af6f65c3884872b4db504b56c4878b59674cf44c66fe98ef7ba12d87",
+      "supplied-source-9.md": "fc7ccab869f1bbdbcf055cdb680c4e6afc6734483557b895ceb7eb0939a471fa",
+      "supplied-source-10.md": "3bb592bff6c35175216138f4ac46c86dde7ff469abd7a62ad82639e191b33d2f",
+      "supplied-source-11.md": "fcabb33b7a2428239a41936e504a74505dd5c38f167828db696d3d418a9623ff",
+      "supplied-source-12.md": "4c0561769ed6421bdf1fa01221336a86ce33fbe48f7e2adcb5d8eb473f182b4b",
+      "supplied-inbound.md": "2fbd756d558fe8f4a1f3e5334c891de3c52a2a11469f1e871f7c04bf36c31fc5",
+      "supplied-candidate-report.md": "a829298105ab2070c5f9f952f39179315f4fd994a5a534d1defef1b815f716bf"
+    }
+  },
+  "kb-commit": "07b22b0c935c2ec3a8549b5351313acb61e21ed7",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "bb0a1bb43ed210884c29839f7813f1bf2103b123bff158526f9254cf1089f76a",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "path": "inputs/target/kb/articles/deployment-time-machine-learning-llm-selected-updates.md",
+      "sha256": "c7bd5078a73f345bea635194a966243d4bfb09e3c0ac9fb18b53d6cdb132ecc8",
+      "bytes": 12028,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/rewrite-a-note/review-a-rewrite-candidate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "72878e536fd897c07be2c1dec0230689269ff118d9e862eef66f6fc8b814c3b2",
+      "bytes": 1639,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0c6dccf9d8cd99d2b12c2a86b58db2d4a104369d461cc15b8391a43b4e18b94c",
+      "bytes": 4982
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/commission.md",
+      "path": "inputs/operational/commission.md",
+      "sha256": "c462706115e318306d3cc50d4b9fab5d95ce2eaed42ecbf919c7f0cba0b41de1",
+      "bytes": 6519,
+      "input": "supplied-commission.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/types/article.md",
+      "path": "inputs/operational/type-contract.md",
+      "sha256": "67e5014396781a309377cfc87db1b1b92a105f448ed73253b1d9a07db19db2e4",
+      "bytes": 1098,
+      "input": "supplied-type-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/COLLECTION.md",
+      "path": "inputs/operational/collection-contract.md",
+      "sha256": "347ebf9f3da4b9069bddf9b4e90f231a9f3d35bbc4973ae096fcd15f1fb3a459",
+      "bytes": 11168,
+      "input": "supplied-collection-contract.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/start.md",
+      "path": "inputs/operational/start.md",
+      "sha256": "7c5b07b09f9f96f0dc528e19480efe7cc75b2f7ad333dea7f318b684954c3df5",
+      "bytes": 26999,
+      "input": "supplied-start.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/sources.md",
+      "path": "inputs/operational/sources.md",
+      "sha256": "b1a88047c6943ab57a0996ae39a07c50426760f6133f65eddc8b43ba7474b6a1",
+      "bytes": 2457,
+      "input": "supplied-sources.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/software-house.md",
+      "path": "inputs/operational/source-1.md",
+      "sha256": "36d4258d889acf3a2d6571405ea822f43dd5159c2f3431f61e82c725c1c022f9",
+      "bytes": 4464,
+      "input": "supplied-source-1.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/self-improving-system.md",
+      "path": "inputs/operational/source-2.md",
+      "sha256": "894bc6d2a5130550ff786d543026c243bc5ab4daf92a733d23429d50d62ce013",
+      "bytes": 11147,
+      "input": "supplied-source-2.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/selection-based-learning.md",
+      "path": "inputs/operational/source-3.md",
+      "sha256": "2325d053f6cb1dc1bf715ba4e41a82ca03f5721b924cc633c451e83fa9ace7ab",
+      "bytes": 6126,
+      "input": "supplied-source-3.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/single-loop-and-double-loop-learning.md",
+      "path": "inputs/operational/source-4.md",
+      "sha256": "211ddc7c3041d71e74fe53c2218839ad3435d8249cc894eadeab5aa209036e02",
+      "bytes": 5179,
+      "input": "supplied-source-4.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/can-an-llm-judge-which-changes-are-worth-making.md",
+      "path": "inputs/operational/source-5.md",
+      "sha256": "d260fb2e0fa8580aee5c3e8f833a8ee6a45a80a8dd1ebb436429eb8f12012536",
+      "bytes": 18834,
+      "input": "supplied-source-5.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/articles/testing-autonomous-selection-based-learning.md",
+      "path": "inputs/operational/source-6.md",
+      "sha256": "3fe8844693b05058bbf4a15205b755794864f1d757725d90808f1c1473f6e9b7",
+      "bytes": 13293,
+      "input": "supplied-source-6.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/a-bootstrap-fits-the-bitter-lesson-only-if-learning-outgrows-it.md",
+      "path": "inputs/operational/source-7.md",
+      "sha256": "15b979d01e5a6bf0d0118e89fd3c99569147f25e8f352e40ddd5b8b81c9d8507",
+      "bytes": 14017,
+      "input": "supplied-source-7.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/the-bitter-lesson-selects-production-methods-not-representational.md",
+      "path": "inputs/operational/source-8.md",
+      "sha256": "4593e455af6f65c3884872b4db504b56c4878b59674cf44c66fe98ef7ba12d87",
+      "bytes": 18763,
+      "input": "supplied-source-8.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/sources/sutton-the-bitter-lesson-original-essay.ingest.md",
+      "path": "inputs/operational/source-9.md",
+      "sha256": "fc7ccab869f1bbdbcf055cdb680c4e6afc6734483557b895ceb7eb0939a471fa",
+      "bytes": 5218,
+      "input": "supplied-source-9.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/retained-theories-may-improve-sample-efficiency.md",
+      "path": "inputs/operational/source-10.md",
+      "sha256": "3bb592bff6c35175216138f4ac46c86dde7ff469abd7a62ad82639e191b33d2f",
+      "bytes": 28540,
+      "input": "supplied-source-10.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/definitions/addressable-theory.md",
+      "path": "inputs/operational/source-11.md",
+      "sha256": "fcabb33b7a2428239a41936e504a74505dd5c38f167828db696d3d418a9623ff",
+      "bytes": 7244,
+      "input": "supplied-source-11.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/theory/revision-guided-by-rationale-needs-faithfulness-not-just-legibility.md",
+      "path": "inputs/operational/source-12.md",
+      "sha256": "4c0561769ed6421bdf1fa01221336a86ce33fbe48f7e2adcb5d8eb473f182b4b",
+      "bytes": 8752,
+      "input": "supplied-source-12.md"
+    },
+    {
+      "role": "operational",
+      "origin": "controller: inbound links collected from kb/",
+      "path": "inputs/operational/inbound.md",
+      "sha256": "2fbd756d558fe8f4a1f3e5334c891de3c52a2a11469f1e871f7c04bf36c31fc5",
+      "bytes": 3953,
+      "input": "supplied-inbound.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/rewrite/kb/articles/deployment-time-machine-learning-llm-selected-updates/20261122T170948Z/artifact/candidate-1-report.md",
+      "path": "inputs/operational/candidate-report.md",
+      "sha256": "a829298105ab2070c5f9f952f39179315f4fd994a5a534d1defef1b815f716bf",
+      "bytes": 3561,
+      "input": "supplied-candidate-report.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/70b14e7a45a84cb8adc14b814a3096ef/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/70b14e7a45a84cb8adc14b814a3096ef/review.md": "1c6f3e8a460a13c2f74b072bb303dca4554ef25d466c57d8c9f2483c3390e0a2"
+  },
+  "latest-result": "results/70b14e7a45a84cb8adc14b814a3096ef/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/articles/deployment-time-machine-learning-llm-selected-updates.md::kb/instructions/rewrite-a-note/review-a-rewrite-candidate",
+      "key": "c11014fc6f4c1aba311420a81290143d50e073758684971315a31f7570ea17c2"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

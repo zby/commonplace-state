@@ -1,0 +1,51 @@
+{
+  "ok": false,
+  "outcome": "failed",
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z",
+  "artifact": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+  "mode": "full",
+  "plan": null,
+  "answers": [],
+  "reviews": [],
+  "findings": [],
+  "triage": null,
+  "passes": [],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z/continuation.json",
+    "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z",
+    "made-for": {
+      "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+      "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+      "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "failure",
+        "what": "The run did not finish: reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z/reviews: missing pinned criterion: /home/zby/llm/commonplace/kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md",
+        "actor": "session-agent",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z/report.json"
+        ]
+      }
+    ]
+  },
+  "stopped": "reviews in kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T133929Z/reviews: missing pinned criterion: /home/zby/llm/commonplace/kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md",
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "src/commonplace/headless/harness.py",
+      "tests/commonplace/headless/test_jobs.py"
+    ]
+  }
+}

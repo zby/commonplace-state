@@ -1,0 +1,1 @@
+Explain how a shared calling convention lets a team change one component between an LLM-backed prompt and code without changing its callers, both in production and while testing proposed requirements.

@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/aamodt-plaza-1994-case-based-reasoning.ingest.md
+snapshot_sha256: f9b6860587fe06923f2e8b0bdf6611c1e3abe089ba740b38d2faaf1fddd71805
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-21T16:07:12+01:00'
+occasion: Which parts of deliberative learning, if any, have precedents in case-based
+  reasoning and its retention judgments?
+checks:
+- at: '2026-11-21T16:11:16+01:00'
+  failures: []
+- at: '2026-11-21T16:11:32+01:00'
+  failures: []
+- at: '2026-11-21T16:11:32+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-21T16:11:32+01:00'

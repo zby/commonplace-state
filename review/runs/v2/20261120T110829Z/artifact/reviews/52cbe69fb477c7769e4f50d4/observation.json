@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "id": "52cbe69fb477c7769e4f50d4",
+  "request": {
+    "job": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::complexity/framework-decoration",
+    "call-job": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::complexity/*",
+    "note": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+    "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "complexity/framework-decoration",
+    "target-sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+    "criterion-bytes-sha256": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "e34dd84fdc2c617ab15c922e8bc85d31da8717c784b746b551aa42e605ec4495",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+      "gate-claim-to-section-ratio.md": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "gate-connection-inflation.md": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "gate-could-be-a-paragraph.md": "808b4e1d3db21875b29916fcc9631eb0dc71dd954e9115c08c137becc6f1ff96",
+      "gate-framework-decoration.md": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "34da1ec314ef4b87ceca94675edf0a84d5f83652",
+  "content-state": {
+    "kb/tags/computational-model-README.md": {
+      "kind": "file",
+      "sha256": "232aee9a1c5f9ef1873ee47acfbd3df626c09f078e128cae380b64299e9398ed"
+    },
+    "kb/tags/constraining-README.md": {
+      "kind": "file",
+      "sha256": "1c89a5b79cffdc2ba33422d6751659a2069205360d0adb914b313f5393c16943"
+    },
+    "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md": {
+      "kind": "file",
+      "sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05"
+    },
+    "kb/theory/ad-hoc-prompts-extend-the-system-without-schema-changes.md": {
+      "kind": "file",
+      "sha256": "8db192afd7e33332035ea1ce663de0870aba5c22f6d94e66052985d355cdccd9"
+    },
+    "kb/theory/code-complements-weight-prompt-with-symbolic-operations.md": {
+      "kind": "file",
+      "sha256": "caac4e3350975cf6d0d3d737b529bcfe2442501af4defc1600c99497a99196ea"
+    },
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "6c89b5024e8d96202b722ca40deaee7923fe0dc2f3e3056a2e6d90e8d0300e2d"
+    },
+    "kb/theory/llm-context-interprets-instructions-and-content-through-one-medium.md": {
+      "kind": "file",
+      "sha256": "9aad0da9f24233b86e77e13d5e93a2f24deba889b2f5297ad9283467143cd7ad"
+    },
+    "kb/theory/llm-context-is-composed-without-scoping.md": {
+      "kind": "file",
+      "sha256": "98ffcbe8ceb7c302541ddb12f33782da914d737ed7c25bcb36e0400c59eac6cb"
+    },
+    "kb/theory/operational-signals-that-a-component-is-a-relaxing-candidate.md": {
+      "kind": "file",
+      "sha256": "c2a5f27e35bd0128c0b150480b241c4d5d3e94b1cfd5fd1ec73dbd4677a83f72"
+    },
+    "kb/theory/reflective-coverage-is-graded-across-representational-forms.md": {
+      "kind": "file",
+      "sha256": "98c5287dd9a05083189fd222fbb9ff5e5093768c4d68520c6e54d3557857cf26"
+    },
+    "kb/theory/research/adaptation-agentic-ai-analysis.md": {
+      "kind": "file",
+      "sha256": "00b7744e8e8fa7c8062074985a84be9c40fa0d557306bcb7bdcfae780c0a28e9"
+    },
+    "kb/theory/rlm-tendril-and-llm-do-place-symbolic-work-at-different-persistence.md": {
+      "kind": "file",
+      "sha256": "a94410bcbe4d375296a12d0e6a43a2e7b5d640e38b5f9199ba413cc7b04551f8"
+    },
+    "kb/theory/statecharts-and-programs-differ-in-what-they-show-not-compute.md": {
+      "kind": "file",
+      "sha256": "fe8627ff2e937e82ea717423d40aae567797b09a3f7a2f0f09cca10edb0e0bda"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "b061cc75a675907d3e824b632fb8038bab1fb278ebf59e963cab46a5975c6358",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+      "path": "inputs/target/kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md",
+      "sha256": "8e57196c80dac6c3d6baa51a246e3526a3a7664d76399e42781b02f1f5d43c05",
+      "bytes": 11599,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/complexity/framework-decoration.md",
+      "path": "inputs/criterion.md",
+      "sha256": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "bytes": 1605,
+      "input": "gate-framework-decoration.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "e34dd84fdc2c617ab15c922e8bc85d31da8717c784b746b551aa42e605ec4495",
+      "bytes": 2825
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/33bc96d018eb47759199e2647dea7376/review-framework-decoration.md"
+  ],
+  "completed-result-sha256": {
+    "results/33bc96d018eb47759199e2647dea7376/review-framework-decoration.md": "3628fcd6cc8fac25f6a915a07da82a7d6d763f7111f014b485458612e94899fd"
+  },
+  "latest-result": "results/33bc96d018eb47759199e2647dea7376/review-framework-decoration.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/a-unified-interface-lets-programmers-choose-prompts-or-code.md::complexity/*",
+      "key": "ba23f52f24ce35073b0e733fe5453698732a98bb21738bf734b5648854e6df66"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

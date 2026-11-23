@@ -1,0 +1,162 @@
+{
+  "version": 3,
+  "id": "fa0e69bfbdcb40d5d6a3afbf",
+  "request": {
+    "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+    "call-job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+    "note": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+    "criterion": "kb/instructions/premise-decomposition-gate.md",
+    "contract": "report",
+    "kind": "premises",
+    "criterion-id": "kb/instructions/premise-decomposition-gate",
+    "target-sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+    "criterion-bytes-sha256": "116fc35b1e54759064658a1172d7ed0a3007bf576f6744f6f016f473d477805d",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "98824337e7826242e85aa3486c2bccb1f6f90fa7eabdc3b0ff4804a7b077aace",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "criterion.md": "116fc35b1e54759064658a1172d7ed0a3007bf576f6744f6f016f473d477805d",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "1249a8898839525f07d67aca1c22ed0ebbff29cd",
+  "content-state": {
+    "kb/reference/adr/037-promote-skills-into-runtime-surfaces-by-copying.md": {
+      "kind": "file",
+      "sha256": "233dd4624c2bdd58bd09b709172965c47bc2fa76bc15920b35b26ead4cf1f7a2"
+    },
+    "kb/reference/architecture.md": {
+      "kind": "file",
+      "sha256": "1855e0cdfa035aacf391eb368ddb8e6d67a4c8cbca9f21e46c93d7fc530a7227"
+    },
+    "kb/reference/proposals/channel-compiled-instruction-artifacts.md": {
+      "kind": "file",
+      "sha256": "a4afb09309fccf9306cec66af47505d0384c45ec77693f88294594b3ffea600d"
+    },
+    "kb/reference/scenario-architecture.md": {
+      "kind": "file",
+      "sha256": "3455d3ccb29352a195dcdc6844f3d737e85381ecb3376c7a374e644d651fd8a0"
+    },
+    "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md": {
+      "kind": "file",
+      "sha256": "2737d2d4261e1be6b733c26e2c12c11520501749cb8704d14013f761da2c0344"
+    },
+    "kb/theory/generate-instructions-at-build-time.md": {
+      "kind": "file",
+      "sha256": "239aef7f8b1a5e230bd291ccb1fbbf8fa067f298b04e097b2565dcfbc6623422"
+    },
+    "kb/theory/model-resolved-indirection-adds-interpretation-work-to-llm-execution.md": {
+      "kind": "file",
+      "sha256": "1f83c0dd55dbdfcf2cfcc21efb0ad44f84607fb742137c0bb3dc71dc2ec690fd"
+    },
+    "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md": {
+      "kind": "file",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0"
+    },
+    "kb/work/execution-channel-compatibility/README.md": {
+      "kind": "file",
+      "sha256": "c1067a0ab8ac30b9e1f546d15e183d156b34de9fc0508f1c017540729ba10f69"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "029dfb3f01f519e16b33c20830874a4aa792d4675da7aac079eabd8abcbf0094",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "path": "inputs/target/kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md",
+      "sha256": "9d348be14b8e3bb5f30d7e6d46280ddec06cdfbfe1c1274c5ec382876cdbbaa0",
+      "bytes": 7329,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/premise-decomposition-gate.md",
+      "path": "inputs/criterion.md",
+      "sha256": "116fc35b1e54759064658a1172d7ed0a3007bf576f6744f6f016f473d477805d",
+      "bytes": 8598,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "98824337e7826242e85aa3486c2bccb1f6f90fa7eabdc3b0ff4804a7b077aace",
+      "bytes": 1658
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/d3da4a3c30de4976a1a303be040ad79f/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/d3da4a3c30de4976a1a303be040ad79f/review.md": "69a32d57510620f736b6f9e7cc7cba1ef1dcbbc523bb5f087749785832251f01"
+  },
+  "latest-result": "results/d3da4a3c30de4976a1a303be040ad79f/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+      "key": "780f1cca10a72eee05b224749d203c56939bea8cc60fd91c8e92475db9c0ac8b"
+    },
+    {
+      "call": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+      "key": "cfdfd0c47bb7c32471fb520a3dae73242b961443a294a8bd0f605d38d1c2256a"
+    }
+  ],
+  "diagnostics": [
+    {
+      "time": 1795167964.214605,
+      "event": "rejected",
+      "job": "kb/theory/unified-calling-conventions-enable-bidirectional-refactoring.md::kb/instructions/premise-decomposition-gate",
+      "key": "780f1cca10a72eee05b224749d203c56939bea8cc60fd91c8e92475db9c0ac8b",
+      "problems": [
+        "review: [base] title: 111 chars exceeds limit of 100"
+      ]
+    }
+  ],
+  "content-rejections": 1,
+  "rejection-events": 1
+}

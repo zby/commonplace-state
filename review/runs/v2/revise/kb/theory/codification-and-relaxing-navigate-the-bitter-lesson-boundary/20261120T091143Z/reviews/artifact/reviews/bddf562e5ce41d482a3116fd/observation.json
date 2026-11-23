@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "id": "bddf562e5ce41d482a3116fd",
+  "request": {
+    "job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::complexity/claim-to-section-ratio",
+    "call-job": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::complexity/*",
+    "note": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+    "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "complexity/claim-to-section-ratio",
+    "target-sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+    "criterion-bytes-sha256": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+    "contract-sha256": "ee169e3ac7d6d67feaa7d5a948051910000eafc22cefea9ccc806a63ca142161",
+    "prompt-sha256": "16754641a937bce918f60a3518747d976cd8904749cbf06211cd24fd79b55dfa",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "gate-claim-to-section-ratio.md": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "gate-connection-inflation.md": "d70dbd3fac32c33a5eb126cf5381736a103c9f5d33234b8ad869f4207d405ab0",
+      "gate-could-be-a-paragraph.md": "808b4e1d3db21875b29916fcc9631eb0dc71dd954e9115c08c137becc6f1ff96",
+      "gate-framework-decoration.md": "6862f312ec9a6ff6914176d6d8a51f0eaaaebcbac2639a1b9cf1c632ab93dc67",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-2.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03"
+    }
+  },
+  "kb-commit": "2ef45fa35194016fc4d257cac6c0abfa54621135",
+  "content-state": {},
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "118af3377b0a7f370858db601daede200f96178943b43278c86cf68068e58581",
+  "executor": {
+    "path": "provenance/0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88.json",
+    "sha256": "0cc1a70f50ae1d9f7a42719178d0535484ac07fe6286588c11ea5cd129dd9a88"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "path": "inputs/target/kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md",
+      "sha256": "7051fe6740599d8f9eeee0f94c1475344031dd52d15719567621016b0449100b",
+      "bytes": 9754,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+      "path": "inputs/criterion.md",
+      "sha256": "4488fb59279bf0b9950ea54f8bb89c1f399c1638f40ddab82b94101170b40786",
+      "bytes": 1355,
+      "input": "gate-claim-to-section-ratio.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "16754641a937bce918f60a3518747d976cd8904749cbf06211cd24fd79b55dfa",
+      "bytes": 2827
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/59b2184d43be444e9fae7bfff674a087/review-claim-to-section-ratio.md"
+  ],
+  "completed-result-sha256": {
+    "results/59b2184d43be444e9fae7bfff674a087/review-claim-to-section-ratio.md": "92b6c674a86580c79fa33dae9a81d54cd82ba03e156784ebcc27c937853356d0"
+  },
+  "latest-result": "results/59b2184d43be444e9fae7bfff674a087/review-claim-to-section-ratio.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/codification-and-relaxing-navigate-the-bitter-lesson-boundary.md::complexity/*",
+      "key": "932c73725cdf51379c81b98af4f84c6f844afd7e0084b0f08cddc82ae84e088c"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

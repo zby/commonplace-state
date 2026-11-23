@@ -1,0 +1,1 @@
+The trade-off paragraph sentence introducing 'the arithmetic/vision-feature boundary' and the lead-ins of the two regime bullets: map arithmetic regime to exact spec and vision-feature regime to proxy theory once, keeping both names. Not the vision-researcher paragraph.

@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "id": "bcf5f96fda3d5ae9a6f2e7d8",
+  "request": {
+    "job": "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+    "call-job": "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+    "target-sha256": "7a991a6b3675f2caeac461b95a1400ab731fe9cc9f8f89f27ae88e1470577d7b",
+    "criterion-bytes-sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "10d0fdd9a1b54651a39f0ce61fe48d5ababf0debeb49fa6067832e5ee8fdd931",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "7a991a6b3675f2caeac461b95a1400ab731fe9cc9f8f89f27ae88e1470577d7b",
+      "operation.md": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "c947cb4310e02b1272440df8836dbe8436888b7958468572713eded74ed7ccbd",
+      "must-keep.md": "f9ba9acad8658207f036c2c9c360a941bceea139ae8378d96bcf3fada885a28e",
+      "scope.md": "5b6b4554bcce49fc923a3cd05eba3b3abd9c1abf136529cd20df0eaba37dabf1",
+      "kb-role.md": "980c067f99d6efda72f4230c1c2d1d49e5ec348659e15955296022f1a9889c03",
+      "finding.md": "8ca4a4c44dc9d1aa875d0b2219a71063f6c7330eb8541e924d1457b11e8cc009"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "7a991a6b3675f2caeac461b95a1400ab731fe9cc9f8f89f27ae88e1470577d7b",
+      "bytes": 21102,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/fix-warnings/fix-strategy-taxonomy.md",
+      "path": "inputs/criterion.md",
+      "sha256": "12c35f999bb2ce55341fb3b94d9c41240c32efb017c4869250d32b14101a8dac",
+      "bytes": 6254,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "10d0fdd9a1b54651a39f0ce61fe48d5ababf0debeb49fa6067832e5ee8fdd931",
+      "bytes": 2065
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "c947cb4310e02b1272440df8836dbe8436888b7958468572713eded74ed7ccbd",
+      "bytes": 370,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "f9ba9acad8658207f036c2c9c360a941bceea139ae8378d96bcf3fada885a28e",
+      "bytes": 904,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "5b6b4554bcce49fc923a3cd05eba3b3abd9c1abf136529cd20df0eaba37dabf1",
+      "bytes": 135,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "980c067f99d6efda72f4230c1c2d1d49e5ec348659e15955296022f1a9889c03",
+      "bytes": 814,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/artifact/findings/kb/instructions/compression-bundle/branch-bloat.md",
+      "path": "inputs/operational/finding.md",
+      "sha256": "8ca4a4c44dc9d1aa875d0b2219a71063f6c7330eb8541e924d1457b11e8cc009",
+      "bytes": 4700,
+      "input": "finding.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/7f9fcde0869c4116a1e4625b47cf5d37/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/7f9fcde0869c4116a1e4625b47cf5d37/result.md": "ec52b71544b9d086e0c12c669672e041676da0ba9e83c11804ffc78e5f8d467c"
+  },
+  "latest-result": "results/7f9fcde0869c4116a1e4625b47cf5d37/result.md",
+  "calls": [
+    {
+      "call": "fix-strategy-taxonomy/kb/instructions/compression-bundle/branch-bloat",
+      "key": "e609d6a3f2af7971abe31e3cf4319051c9756e4029a4c30026939dfffe5e0b1d"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

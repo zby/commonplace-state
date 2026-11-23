@@ -1,0 +1,1 @@
+Wrote and verified the [review](/home/zby/llm/commonplace/kb/reports/state/review/runs/v2/20261120T133828Z/calls/launches/e725630de5024b13b618f9bcc2f5df85/outputs/review.md). The title fails the claim-strength gate because it leaves the note’s central claim implicit. Deployment feedback can drive durable changes in behavior while model weights stay fixed.

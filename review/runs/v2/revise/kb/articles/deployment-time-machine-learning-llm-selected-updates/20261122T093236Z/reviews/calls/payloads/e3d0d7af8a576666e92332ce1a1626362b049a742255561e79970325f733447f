@@ -1,0 +1,16 @@
+Review one note against one criterion. Nobody will answer questions. If you cannot judge the pair, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/articles/deployment-time-machine-learning-llm-selected-updates.md` in this repository; its text is <Inputs: note.md>. The criterion is `kb/instructions/critique-note.md`; its text is <Inputs: criterion.md>. Judge these input texts; the files on disk may have changed since.
+
+Reading scope:
+- The note's relative links resolve from `kb/articles/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write the review to <Required outputs: review.md>. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Write YAML frontmatter with type: types/review-result.md, findings, outcome: report, and attack-outcome.
+- Findings have scope, quotes and reason, but no severity level. An empty list is allowed.
+- Write the complete critique body, including its central commitment, mode and required sections.
+- Use the supplied review-result contract. Supply only worker-owned fields. No terminal Result footer.

@@ -1,0 +1,3 @@
+- A team may temporarily replace working code with a prompt in a test run to compare proposed behaviors behind the same interface. This need not reflect brittleness or scaling. If prompt edits make exploration cheaper, the chosen behavior can still return to code for production.
+- If neural and symbolic components present the same interface, callers don't need to know which they're talking to, and moving a component across the boundary leaves its call sites unchanged, so the refactoring is a local operation.
+- llm-do's imperative scheduler contrasts with graph-defined orchestration: agent A calls agent B as a function, and each agent gets only its arguments (local scope).

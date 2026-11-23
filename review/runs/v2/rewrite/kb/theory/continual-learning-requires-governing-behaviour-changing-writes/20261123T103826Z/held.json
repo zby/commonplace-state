@@ -1,0 +1,13 @@
+{
+  "candidate": "kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T103826Z/artifact/final.md",
+  "sha256": "919cb9448e7e0a0da74d2b827a7c345dc485401067e357fa4ecff065222eed52",
+  "before-sha256": "2214be116a950b1be4016de0633a69bd6e3df247b8c6750c25d37d0ef7013038",
+  "diff": "kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T103826Z/artifact/final.diff",
+  "diff-sha256": "154231a6defcec827715ce8c01891652861a71b494c7f9fee792433610055c51",
+  "new-warnings": [
+    "[schema] frontmatter.description: description should be at most 250 characters"
+  ],
+  "entries": [],
+  "review": "kb/reports/state/review/runs/v2/rewrite/kb/theory/continual-learning-requires-governing-behaviour-changing-writes/20261123T103826Z/artifact/review-1.md",
+  "review-sha256": "b24810eb1f6d1c5634c7232e9956616ff249836eaadf31012b70eb311bf5a983"
+}

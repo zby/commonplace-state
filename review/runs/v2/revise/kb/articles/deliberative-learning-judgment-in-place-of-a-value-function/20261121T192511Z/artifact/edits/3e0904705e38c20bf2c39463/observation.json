@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "id": "3e0904705e38c20bf2c39463",
+  "request": {
+    "job": "narrow-overclaims",
+    "call-job": "narrow-overclaims",
+    "note": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+    "criterion": "kb/instructions/simplification-passes/narrow-overclaims.md",
+    "contract": "edit",
+    "kind": "edit",
+    "criterion-id": "kb/instructions/simplification-passes/narrow-overclaims.md",
+    "target-sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+    "criterion-bytes-sha256": "fff83f2074936afa498432ab20d6f522624d8af329308aa5cdb1bd7f5cd99feb",
+    "contract-sha256": "7b4286ecd718091de931c46cef9b78f7bf0a7c91e01340492ee25d734bf888fb",
+    "prompt-sha256": "a899752568f46eacb983a913e46cbeaa4f5b751a744b572a8f4bf022e754d1f6",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/reports/state/review/runs/**),Write(kb/reports/state/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "text.md": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "operation.md": "fff83f2074936afa498432ab20d6f522624d8af329308aa5cdb1bd7f5cd99feb",
+      "execution.md": "792d4374868bcd823ea73c08fc8bc5c3710f01a8f57adbec53c8fb881514fa12",
+      "output-contract-0.md": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "output-contract-1.md": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "output-contract-2.md": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "purpose.md": "c947cb4310e02b1272440df8836dbe8436888b7958468572713eded74ed7ccbd",
+      "must-keep.md": "f9ba9acad8658207f036c2c9c360a941bceea139ae8378d96bcf3fada885a28e",
+      "scope.md": "cb79f61967edbd62faa116dca8a837040d798546c87e4caba4c4fc68d686aa83",
+      "kb-role.md": "980c067f99d6efda72f4230c1c2d1d49e5ec348659e15955296022f1a9889c03"
+    }
+  },
+  "kb-commit": "6b6a2555040c8c49ff8bdfa2f6780a7b2a0881ca",
+  "content-state": {
+    "kb/work/learning-method-name/positions/step-5-outside-reading.md": {
+      "kind": "file",
+      "sha256": "a16ebfe8b41d98c1c778f9bc423089db332f03e20c72ca7d399b821c4b045a79"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "e9b941cbf78a62c236e2c75693a4e49c626ba0466969f5e62916d1042fc1edb4",
+  "executor": {
+    "path": "provenance/d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a.json",
+    "sha256": "d102e31b83588ad3f876958ba24fe8a99d632699407a468a36e05a147c25016a"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "path": "inputs/target/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function.md",
+      "sha256": "404d5a6b16a45f15ccc3e7402fe5b460b6f640af581d796113e1fb783073548e",
+      "bytes": 20341,
+      "input": "text.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/simplification-passes/narrow-overclaims.md",
+      "path": "inputs/criterion.md",
+      "sha256": "fff83f2074936afa498432ab20d6f522624d8af329308aa5cdb1bd7f5cd99feb",
+      "bytes": 2104,
+      "input": "operation.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "a899752568f46eacb983a913e46cbeaa4f5b751a744b572a8f4bf022e754d1f6",
+      "bytes": 1830
+    },
+    {
+      "role": "operational",
+      "origin": "plan:purpose",
+      "path": "inputs/operational/purpose.md",
+      "sha256": "c947cb4310e02b1272440df8836dbe8436888b7958468572713eded74ed7ccbd",
+      "bytes": 370,
+      "input": "purpose.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:must-keep",
+      "path": "inputs/operational/must-keep.md",
+      "sha256": "f9ba9acad8658207f036c2c9c360a941bceea139ae8378d96bcf3fada885a28e",
+      "bytes": 904,
+      "input": "must-keep.md"
+    },
+    {
+      "role": "operational",
+      "origin": "plan:scope",
+      "path": "inputs/operational/scope.md",
+      "sha256": "cb79f61967edbd62faa116dca8a837040d798546c87e4caba4c4fc68d686aa83",
+      "bytes": 719,
+      "input": "scope.md"
+    },
+    {
+      "role": "operational",
+      "origin": "kb/reports/state/review/runs/v2/revise/kb/articles/deliberative-learning-judgment-in-place-of-a-value-function/20261121T192511Z/role",
+      "path": "inputs/operational/kb-role.md",
+      "sha256": "980c067f99d6efda72f4230c1c2d1d49e5ec348659e15955296022f1a9889c03",
+      "bytes": 814,
+      "input": "kb-role.md"
+    },
+    {
+      "role": "contract",
+      "origin": "reports/COLLECTION.md",
+      "path": "inputs/contract/reports/COLLECTION.md",
+      "sha256": "b1993d8bf5d357d54992559e1f63ebdbdd88a8a5e29d184a35e856c1a167982d",
+      "bytes": 7157,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.md",
+      "path": "inputs/contract/types/edit-result.md",
+      "sha256": "e7cd3739ddb9154e94d9de992ff0c56f458abc8043f2fe5e483310bd0318d1e0",
+      "bytes": 4662,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/edit-result.schema.yaml",
+      "path": "inputs/contract/types/edit-result.schema.yaml",
+      "sha256": "2e1e4d99b5a9da4faaaa817ac4a1b89763631baaa2fe95d79af08b48b61a88be",
+      "bytes": 3503,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/920bccea785d45b1b7f6e29971994bb2/result.md"
+  ],
+  "completed-result-sha256": {
+    "results/920bccea785d45b1b7f6e29971994bb2/result.md": "7f55841730d14bc80b37e3454d61a1396528f5241a7f893d26309941f58a85b6"
+  },
+  "latest-result": "results/920bccea785d45b1b7f6e29971994bb2/result.md",
+  "calls": [
+    {
+      "call": "narrow-overclaims",
+      "key": "0fae253742fd3d36465254b11e8878bdfa0c14a3561fdd4dd91bd9ff63a8c67b"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,38 @@
+{
+  "run-dir": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z",
+  "made-for": {
+    "note": "kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md",
+    "sha256": "d533bfc27666a34d81a20f68d47c9909d4d940766ffb5e4a80255bd0c2bbb2ea",
+    "text": "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "plan-stop",
+      "what": "The plan stops with a proposal, which names its own route: Stop for a claim-level rewrite before running text passes; use `commonplace-review run rewrite kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md --commission FILE` with the commission prepared with `cp-skill-write-multistage`.\n\nUnsupported/refuted claims requiring rewrite (all Defect):\n1. Universal impossibility claim and forced one-way split (lines 10, 14, 30, 59) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`): inside the stated conditions (bounded effective context and a competing workload whose live state does not fit beside task-solving context), a separable, commensurable workload can compress portfolio opportunity cost into a ~10-20 token dynamic sufficient statistic (shadow price, Gittins/Whittle cutoff, live SLA interruption bar, or dynamic budget) injected into the isolated worker, letting it track unseen competing work without loading a wide-shallow comparison set or degrading focus. Fixing this requires rescoping the universal claim to non-decomposable or incommensurable trade-offs and reframing execution-vs-triage separation as a two-sided compression trade-off (compress-local-to-global triage vs. compress-global-to-local threshold injection).\n2. Ambiguous overflow threshold and tautological refuter (lines 14, 30, 33, 59, 67) — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/semantic/underspecified-assertions.md`): the precondition supports two conflicting readings—Reading 1 (full live portfolio state overflow, line 14, under which a compact live bottleneck table still fits in-window on medium workloads) vs. Reading 2 (even a compressed triage-sufficient comparison set overflows or degrades focus, lines 33 and 67)—and line 14's second refuter (\"loads full live portfolio state alongside deep task context without degrading execution competence\") contradicts the stated precondition.\n3. Contradictory stopping classification, local-assessment overreach, Section 1 causal overreach, and unargued tractability bias — Defect (`kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/composition-friction-gate.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/critique-note.md`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/premise-decomposition-gate.md`; `kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/synthesis`; `kb/reports/state/review/results/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization.md/kb/instructions/compression-bundle/branch-bloat.md`): line 10 defines \"when to stop or defer it\" as global prioritization (and line 55 bounds \"when to stop digging\" by global proxies) whereas line 37 classifies \"This run should stop\" as a local execution judgment (and line 38 conflates durable retention with the two-view split); lines 12 and 32 assign cross-boundary timing, external reversibility, and decision impact to isolated workers even when those depend on excluded external state; lines 18 and 20-23 ignore pretrained base-rate severity priors, in-window primary-task displacement, absolute-stakes calibration failures, and model-level salience/thoroughness biases; and lines 54 and 68 assert directional tractability bias without deriving it from bounded context or compression.\n\nAffected dependents (role report: `kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/role`): rescoping the core conflict, reframing the narrow-deep execution vs. wide-shallow triage split, and tightening the Nostalgebraist/Anthropic causal attribution affect claims relied on by `kb/tags/context-engineering-README.md`, `kb/tags/goal-prioritization-README.md`, `kb/tags/architecture-README.md`, `kb/reference/where-change-candidates-come-from-in-commonplace.md`, `kb/theory/topology-isolation-and-verification-form-a-causal-chain-for-reliable.md`, `kb/theory/weakly-discriminated-qualities-tend-to-be-underselected.md`, `kb/theory/traversal-improvements-should-be-deferred-via-logging-to-avoid-mid.md`, `kb/theory/unattended-work-needs-the-functions-that-interaction-supplied.md`, and `kb/sources/nostalgebraist-coding-agent-mistakes-benchmark-gaps.ingest.md`, so the operator must decide dependent updates alongside the rewrite.\n",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "record": "commonplace-review answers record kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/stop-answers.md"
+      },
+      "answers": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/stop-answers.md"
+      ],
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/assessment.md",
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/plan.yaml"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/reports/state/review/runs/v2/revise/kb/theory/context-isolation-for-focus-conflicts-with-global-prioritization/20261119T135157Z/artifact/assessment.md"
+      ]
+    }
+  ]
+}
