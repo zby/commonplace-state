@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.md",
+      "sha256": "5ebf2b7f00fd2290167f4d32743338a3d459fe52ccb8a8e565177acddf42617e",
+      "diff": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.diff",
+      "before-sha256": "445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f",
+      "entries": [
+        "fix-strategy-taxonomy/semantic/grounding-alignment"
+      ],
+      "at": "2026-11-24T13:45:06Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

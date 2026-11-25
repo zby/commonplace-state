@@ -1,0 +1,45 @@
+Task:
+Review one note against each gate of one bundle. Nobody will answer questions. If you cannot judge the note, write <the problem file named at the end of this invocation> instead of guessing.
+
+The note is `kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md` in this repository; its text is <Inputs: note.md>. Judge this input text; the file on disk may have changed since. Each gate's text is an input, and each gate's review is its own output:
+- `kb/instructions/review-gates/structural/bullet-capitalization.md`: its text is <Inputs: gate-bullet-capitalization.md>; write its review to <Required outputs: review-bullet-capitalization.md>.
+- `kb/instructions/review-gates/structural/compound-bullet.md`: its text is <Inputs: gate-compound-bullet.md>; write its review to <Required outputs: review-compound-bullet.md>.
+- `kb/instructions/review-gates/structural/general-before-specific.md`: its text is <Inputs: gate-general-before-specific.md>; write its review to <Required outputs: review-general-before-specific.md>.
+
+Judge each gate independently, as if it were the only one: apply only its own failure mode and test, and let no finding or result under one gate decide another.
+
+Reading scope:
+- The note's relative links resolve from `kb/theory/`. For grounding or consistency checks, read only files the note links to, except for one exact local path that the criterion explicitly tells you to derive from such a link.
+- Ignore review backups, workshop copies and historical artifacts unless the note links to them.
+- Never browse shared operational state or other runs, even through a link. Operational inputs must be supplied copies.
+- Do not delegate or start another agent.
+
+Output:
+- Write each gate's review to its output. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state.
+- Each review stands alone, with its own typed findings and outcome:
+- Write YAML frontmatter with type: types/review-result.md, findings, then outcome: pass | warn | fail.
+- Each finding has scope: passage | document, quotes (verbatim target spans that occur once, empty for document scope;
+  line wraps and quote-mark style are ignored when matching),
+  reason, and level: info | warn | fail. WARN/FAIL require findings; PASS may have INFO findings.
+- Follow with a # Review title and explanatory body. No terminal Result footer.
+- The supplied review-result type and schema define the output contract. Supply only worker-owned fields;
+  the controller supplies all provenance. Express findings once in frontmatter, not a second prose list.
+
+
+Inputs (read these exact files):
+- gate-bullet-capitalization.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/gate-bullet-capitalization.md
+- gate-compound-bullet.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/gate-compound-bullet.md
+- gate-general-before-specific.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/gate-general-before-specific.md
+- note.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/note.md
+- output-contract-0.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/output-contract-0.md
+- output-contract-1.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/output-contract-1.md
+- output-contract-2.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/inputs/output-contract-2.md
+
+Required outputs (write these exact files):
+- review-bullet-capitalization.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/outputs/review-bullet-capitalization.md
+- review-compound-bullet.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/outputs/review-compound-bullet.md
+- review-general-before-specific.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/outputs/review-general-before-specific.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131431Z/reviews/calls/launches/f0ed3105175a40e89365464411db0eb8/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

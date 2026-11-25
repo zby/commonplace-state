@@ -1,0 +1,3 @@
+- Those goals decide what a collection admits in principle, but they do not exhaust how to rank, keep, or reject candidate notes.
+- Under the conjecture that weakly discriminated qualities tend to be underselected, an autonomous authoring loop can enrich accepted notes more strongly for validity than for usefulness, and if production favors fluent local additions, clutter can accumulate.
+- A note can be grounded and coherent yet redundant or too narrow to justify its maintenance cost.

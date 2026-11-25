@@ -1,0 +1,1 @@
+The sentence beginning 'When rules rest on an explicit [addressable theory]' only; leave the near-decomposability and dependency-link sentence untouched (open claim question).

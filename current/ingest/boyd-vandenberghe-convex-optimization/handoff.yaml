@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/boyd-vandenberghe-convex-optimization.ingest.md
+snapshot_sha256: 3577749434d7d57007ee467608d876b13882bc17a5ee3d4f9639129a773251d6
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-24T13:19:47+01:00'
+occasion: Which comparisons between routing changes can a cone settle and when must
+  the choice remain open?
+checks:
+- at: '2026-11-24T13:25:06+01:00'
+  failures: []
+- at: '2026-11-24T13:25:15+01:00'
+  failures: []
+- at: '2026-11-24T13:25:15+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-24T13:25:15+01:00'

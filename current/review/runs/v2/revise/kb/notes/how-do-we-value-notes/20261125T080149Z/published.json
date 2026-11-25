@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T080149Z/artifact/publications/1.md",
+      "sha256": "325e63dc8696b33578784e00a4e21da7a993128ef140446f0396828e9b7d14b6",
+      "diff": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T080149Z/artifact/publications/1.diff",
+      "before-sha256": "94e79061c8d72b3ad8f2e430c551d3d8dfb0592368b098aeb2cfa730d5c2d4ab",
+      "entries": [
+        "readability-and-flow"
+      ],
+      "at": "2026-11-25T08:02:38Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ]
+}

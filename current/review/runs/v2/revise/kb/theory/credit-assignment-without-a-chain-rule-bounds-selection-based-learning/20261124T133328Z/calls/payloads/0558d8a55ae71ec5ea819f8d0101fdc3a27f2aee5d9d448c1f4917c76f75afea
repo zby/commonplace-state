@@ -1,0 +1,3 @@
+- Credit assignment without a chain rule is a debugging problem over an interdependent store.
+- What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.
+- Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning.

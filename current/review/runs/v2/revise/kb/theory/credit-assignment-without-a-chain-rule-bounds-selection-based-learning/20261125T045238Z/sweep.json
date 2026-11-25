@@ -1,0 +1,36 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "answers",
+  "purpose": "A reader of the continual-learning article, or an agent designing a selection-based learner, should understand why credit assignment over a retained store is a debugging problem rather than a gradient problem, which three properties make a prose-and-code store harder to debug than software, and which levers keep it debuggable, without being told those levers are stronger than they are.",
+  "must-keep": [
+    "Credit assignment without a chain rule is a debugging problem over an interdependent store.",
+    "What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.",
+    "Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning."
+  ],
+  "plan": "purpose: A reader of the continual-learning article, or an agent designing a selection-based\n  learner, should understand why credit assignment over a retained store is a debugging\n  problem rather than a gradient problem, which three properties make a prose-and-code\n  store harder to debug than software, and which levers keep it debuggable, without\n  being told those levers are stronger than they are.\nmust-keep:\n- Credit assignment without a chain rule is a debugging problem over an interdependent\n  store.\n- 'What makes a mixed prose-and-code store harder to debug than ordinary software\n  is not the lack of gradients, but three properties that weaken ordinary debugging\n  tools: softer traces, implicit coupling, and noisier, diffuse failures.'\n- Selection-based learning over a store of instructions, hypotheses, checks, and scripts\n  has no chain rule, so its credit assignment is far less scalable than gradient learning.\nstop: null\npasses:\n- pass: abstractions\n  scope: The opening paragraph's second sentence (first mention of 'Selection-based\n    learning', up to 'far less scalable than gradient learning') and the clause 'accelerating\n    store bloat into an accretion plateau'; exclude the near-decomposability sentence\n    and the opening's 'Yet that does not block full automation' sentence.\n",
+  "answers": [
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+  ],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": null
+}

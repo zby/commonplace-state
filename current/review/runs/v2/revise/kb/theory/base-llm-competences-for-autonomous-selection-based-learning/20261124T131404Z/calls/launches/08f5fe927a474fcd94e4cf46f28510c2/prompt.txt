@@ -1,0 +1,66 @@
+Task:
+Assess one artifact for revision. Nobody will answer questions. If you cannot, write <the problem file named at the end of this invocation> instead of guessing.
+
+The artifact is `kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md` in this repository; its text is <Inputs: artifact.md>. Judge this input text; the file on disk may differ. The instruction is <Inputs: criterion.md>: do its step 1, the assessment, and nothing after it. The plan is validated and ordinary passes run automatically. The operator named no purpose: propose one as the instruction directs. The passes you may recommend are listed in <Inputs: passes.md>; choose only from them, by name.
+
+The artifact's stored review results with outcome warn or fail are inputs. Each line gives the result file's repository path, its criterion and the depth the criterion declares:
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/accessibility/undefined-terms.md` (criterion `accessibility/undefined-terms`, depth 3, outcome warn): <Inputs: finding-1.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/accessibility/unidentified-references.md` (criterion `accessibility/unidentified-references`, depth 3, outcome warn): <Inputs: finding-2.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/frontmatter/description-discrimination.md` (criterion `frontmatter/description-discrimination`, depth 6, outcome warn): <Inputs: finding-3.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/compression-bundle/marginal-value-redundancy.md` (criterion `kb/instructions/compression-bundle/marginal-value-redundancy`, depth 4, outcome warn): <Inputs: finding-4.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/theory/COLLECTION.md` (criterion `kb/theory/COLLECTION`, depth 2, outcome warn): <Inputs: finding-5.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/prose/anthropomorphic-framing.md` (criterion `prose/anthropomorphic-framing`, depth 5, outcome warn): <Inputs: finding-6.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/completeness-boundary-cases.md` (criterion `semantic/completeness-boundary-cases`, depth 2, outcome warn): <Inputs: finding-7.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/epistemic-status-blur.md` (criterion `semantic/epistemic-status-blur`, depth 2, outcome warn): <Inputs: finding-8.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/grounding-alignment.md` (criterion `semantic/grounding-alignment`, depth 2, outcome fail): <Inputs: finding-9.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/underspecified-assertions.md` (criterion `semantic/underspecified-assertions`, depth 2, outcome warn): <Inputs: finding-10.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/sentence/clause-packing.md` (criterion `sentence/clause-packing`, depth 5, outcome warn): <Inputs: finding-11.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/sentence/misleading-link-text.md` (criterion `sentence/misleading-link-text`, depth 5, outcome warn): <Inputs: finding-12.md>
+
+The depth 1 review reports on this text, the compression synthesis when it ran, and the role report are inputs. Each line gives the result file's repository path, or for the synthesis and the role report its run directory, and its criterion:
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/composition-friction-gate.md` (criterion `kb/instructions/composition-friction-gate`, outcome report): <Inputs: report-1.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/critique-note.md` (criterion `kb/instructions/critique-note`, outcome report): <Inputs: report-2.md>
+- `kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/premise-decomposition-gate.md` (criterion `kb/instructions/premise-decomposition-gate`, outcome report): <Inputs: report-3.md>
+- `kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/synthesis` (criterion `kb/instructions/compression-bundle/high-impact-simplification-synthesis`, outcome report): <Inputs: report-4.md>
+- `kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/role` (criterion `kb/instructions/role-in-the-kb-gate`, outcome report): <Inputs: report-5.md>
+
+Output:
+- Write the assessment to <Required outputs: assessment.md>, as the instruction's step 1 describes.
+- Write the plan to <Required outputs: plan.md>: a YAML mapping holding exactly the decision fields below. `purpose` is the purpose the assessment works under; `must-keep` lists what this run keeps beyond the write brief's Must keep, as the instruction's step 1 says, each item as a claim's text; `passes` lists the recommended passes in run order, each a mapping with `pass` (its name) and, when the pass should touch only part of the artifact, `scope` naming that part, and, for a pass that fixes a finding, `finding` naming that review result file's repository path, as listed above; `stop` is null, or the reason when the instruction says to stop. Write nothing else: create, edit or delete no file in the repository, and run no command that changes it or its git state. Do not delegate or start another agent.
+
+The decision fields, each required:
+- `purpose`: a str value
+- `must-keep`: a list value
+- `passes`: a list value
+- `stop`: a str or null value
+
+
+Inputs (read these exact files):
+- artifact.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/artifact.md
+- criterion.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/criterion.md
+- finding-1.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-1.md
+- finding-10.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-10.md
+- finding-11.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-11.md
+- finding-12.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-12.md
+- finding-2.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-2.md
+- finding-3.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-3.md
+- finding-4.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-4.md
+- finding-5.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-5.md
+- finding-6.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-6.md
+- finding-7.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-7.md
+- finding-8.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-8.md
+- finding-9.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/finding-9.md
+- passes.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/passes.md
+- report-1.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/report-1.md
+- report-2.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/report-2.md
+- report-3.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/report-3.md
+- report-4.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/report-4.md
+- report-5.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/inputs/report-5.md
+
+Required outputs (write these exact files):
+- plan.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/outputs/plan.md
+- assessment.md: /home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/outputs/assessment.md
+
+If unable to finish, write a JSON object to this problem file:
+/home/zby/llm/commonplace/kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/calls/launches/08f5fe927a474fcd94e4cf46f28510c2/problem.json
+Use {"kind":"unable","message":"..."} or {"kind":"usage_limit","message":"..."}.

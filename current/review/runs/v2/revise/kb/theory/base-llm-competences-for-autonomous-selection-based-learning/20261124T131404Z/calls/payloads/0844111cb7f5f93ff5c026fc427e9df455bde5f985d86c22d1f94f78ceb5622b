@@ -1,0 +1,1 @@
+The inline diagnostic-richness parenthetical in competence 2 only; do not reword the competence itself.

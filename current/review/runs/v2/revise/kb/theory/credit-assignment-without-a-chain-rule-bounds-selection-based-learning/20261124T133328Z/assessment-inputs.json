@@ -1,0 +1,565 @@
+{
+  "findings": [
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/accessibility/undefined-terms.md",
+      "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+      "criterion_id": "accessibility/undefined-terms",
+      "depth": 3,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/accessibility/undefined-terms.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/accessibility/undefined-terms.md\ncriterion-sha256: a29bd905ec12b7a7c8375529e490cfde6711bb4feef5529546a92fda0419af38\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: a0da15554636414d9d8cbad8993b6df5\ncompleted-at: '2026-11-24T13:34:23Z'\nfindings:\n- scope: passage\n  quotes:\n  - over a store of instructions, hypotheses, checks, and scripts has no chain rule\n  reason: '\"Selection-based learning\" is active vocabulary. It is linked and its object\n    (a store of instructions, hypotheses, checks and scripts) is named, but the process\n    itself is never glossed. A reader cannot tell from the sentence that it means\n    learning by proposing changes to retained artifacts and keeping or discarding\n    them on evidence. Add a short inline gloss beside the link.'\n  level: warn\n- scope: passage\n  quotes:\n  - explicit dependency links bound how many artifacts can interact\n  reason: '\"Near-decomposability\" appears only as link text with no gloss. The reader\n    must follow the link to learn that it means a structure where interactions within\n    modules are much stronger than interactions between them. Add a brief inline paraphrase.'\n  level: warn\n- scope: passage\n  quotes:\n  - accelerating store bloat into an accretion plateau\n  reason: '\"Accretion plateau\" is KB-specific and undefined. The context (\"store bloat\")\n    suggests growth without benefit, but not the specific state where added entries\n    stop improving and start degrading retrieval or use. A short gloss would make\n    the sentence self-standing.'\n  level: info\n- scope: passage\n  quotes:\n  - with stated predictions, a failed prediction names a specific premise to check\n  reason: '\"Addressable theory\" (active vocabulary) is not given an explicit gloss,\n    but the surrounding clause conveys the essential idea: rules rest on explicit\n    premises with stated predictions that a failure can point back to. This is adequate\n    context; an explicit gloss would be optional.'\n  level: info\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/a0da15554636414d9d8cbad8993b6df5/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/14ec80505d22fb00e4cbe4b1/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/a0da15554636414d9d8cbad8993b6df5/outputs/review-undefined-terms.md\nraw-output-sha256: 28744985e304fb965c26d935aad773f22ff6700a1de39bc9256fa86196c09b62\n---\n\n# Review\n\n## Summary\n\nMost technical terms are introduced with enough context. Backpropagation and the chain rule are explained in the first sentence. \"Validation radius\" is glossed inline (\"asks what downstream work a proposed edit might break\"). The phrase \"codifying settled rules into deterministic scripts\" carries its own meaning. The \"legibility is not faithfulness\" link follows an explanation of the gap it names.\n\nTwo terms rely on their links. \"Selection-based learning\" is registered active vocabulary, so its first mention needs an inline gloss as well as a link, and the opening sentence names only what it operates on. \"Near-decomposability\" is an unglossed link in the paragraph that proposes remedies, which is where the reader most needs to understand the mechanism. Both warrant warnings. \"Accretion plateau\" is partly inferable, and \"addressable theory\" is adequately conveyed by its clause; both are recorded at info level.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "criterion_id": "kb/instructions/compression-bundle/marginal-value-redundancy",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/compression-bundle/marginal-value-redundancy.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/compression-bundle/marginal-value-redundancy.md\ncriterion-sha256: a4a481e4011441b80abc2140583e88da024aba95b0b14bbb973dca94c303dbb7\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 42a5f081ae87428e9733559273490038\ncompleted-at: '2026-11-24T13:36:26Z'\nfindings:\n- scope: passage\n  quotes:\n  - This problem binds once retained artifacts interact across tasks. A flat lookup\n    table of independent entries with per-entry feedback avoids most cross-artifact\n    debugging.\n  reason: The first Scope bullet repeats the condition the body already sets out in\n    its second paragraph ('While a store holds only a few isolated rules, debugging\n    is trivial. As the store grows, artifacts become interdependent...'). The only\n    new content is the boundary case 'a flat lookup table of independent entries with\n    per-entry feedback'. Fold that phrase into the opening of the second paragraph,\n    for example as the concrete instance of 'a few isolated rules', and delete the\n    bullet. Scope would then hold only the bullet that separates store-level attribution\n    from model-internal interpretability, which does prevent a misreading.\n  level: warn\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/42a5f081ae87428e9733559273490038/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/a49c09c25f2e2f19c60fb82c/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/42a5f081ae87428e9733559273490038/outputs/review.md\nraw-output-sha256: f0066a410f1fcf6bde9ffddf788aaa0409910ce38da547ffce20448a521c6fab\n---\n\n# Review\n\nThe note is compact, and most of its chunks earn their space. The opening paragraph sets up the contrast and the debugging analogy. The interdependence paragraph names the problem and ties it to validation radius as its inverse. The three-property list is the note's core mechanism. The paragraph on naive workarounds tests the approaches a reader would try first: local exceptions, rationale-trusting and exhaustive ablation. The debuggability paragraph turns these into specific levers.\n\nThe closing sentence of the debuggability paragraph is not flagged. It returns to the opening's comparison with backpropagation. However, it adds a scale bound (\"hundreds or thousands of artifacts\") and states the note's bet (\"a plausible path to fully automated credit assignment\"). That meets the gate's exception for conclusions. The second Scope bullet separates attribution over the store from interpretability over model weights. This blocks a likely misreading of \"credit assignment\", so it passes.\n\nOne chunk does not earn its current form. The first Scope bullet repeats the condition from the second paragraph, that the problem appears once artifacts interact. Its one useful addition is the flat-lookup-table boundary case, and that case can be folded into the body.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/prose/orphan-references.md",
+      "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+      "criterion_id": "prose/orphan-references",
+      "depth": 4,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/prose/orphan-references.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/prose/orphan-references.md\ncriterion-sha256: 46af38b99bcdcea724a141b921ecacd0f1362d48353bd1beec126e0dc7d4309a\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 12e149233876462b9f5861bca5716acd\ncompleted-at: '2026-11-24T13:34:42Z'\nfindings:\n- scope: passage\n  quotes:\n  - engineers and coding agents routinely localize faults across hundreds of interdependent\n    modules by **debugging**\n  reason: This is a concrete empirical claim about current coding-agent capability,\n    and the note's 'does not block full automation' conclusion depends on it. The\n    note cites no source, benchmark or example for coding agents doing this routinely\n    at that scale. The claim about human engineers is common knowledge. The claim\n    about agents is contestable and needs a source, a hedge, or removal of the agent\n    half.\n  level: warn\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/12e149233876462b9f5861bca5716acd/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/5b1f00b6b72c843153fa8025/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/12e149233876462b9f5861bca5716acd/outputs/review-orphan-references.md\nraw-output-sha256: fdeabf82c9495c23f848ea38d299942a8a7b72fff875ae4e96cc49acf5e9c2ae\n---\n\n# Review\n\nThe note contains few specific figures. \"Billions of tightly coupled weights\" and backpropagation's single backward pass are textbook facts about gradient training and need no citation. \"Hundreds or thousands of artifacts\" and \"once hundreds of artifacts interact\" are scope statements and cost reasoning, not measurements.\n\nThe one concrete unsupported empirical claim is that coding agents routinely localize faults across hundreds of interdependent modules. The opening argument uses that claim as an existence proof that credit assignment without a chain rule can be fully automated. Without a source, a reader cannot judge how strong that proof is. The first open question shows that the note treats transfer to prose stores as unsettled. The baseline claim about coding agents nevertheless appears as settled fact.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/epistemic-status-blur.md",
+      "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+      "criterion_id": "semantic/epistemic-status-blur",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/semantic/epistemic-status-blur.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 1d7a6641b1323e88d6ae1189b477684efeda8eaf56f17340e0d1a6cba16612b1\ncriterion: kb/instructions/review-gates/semantic/epistemic-status-blur.md\ncriterion-sha256: ec58b5e74b81528409483b42dd9a8c11730792eda308bab8ce72f962b0d6974f\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: e39efff8e31746d9b16972e2eb001f56\ncompleted-at: '2026-11-24T13:37:54Z'\nfindings:\n- scope: passage\n  quotes:\n  - Yet that does not block full automation\n  reason: The opening states the note's central conclusion in a declarative, settled\n    register. The note's own support is an analogy to software debugging plus a list\n    of proposed debuggability levers. Its conclusion is hedged only at the end ('a\n    plausible path'), and the Open Questions ask whether debugging practices carry\n    over and whether an autonomous loop can keep the store debuggable without humans.\n    The conjectural force exists, but it is placed far from the claim and is not stated\n    in the opening it governs. The opening therefore reads as an established result.\n  level: warn\n- scope: passage\n  quotes:\n  - engineers and coding agents routinely localize faults across hundreds of interdependent\n    modules\n  reason: This is an empirical-sounding claim about coding agents, given without evidence.\n    It carries the main weight of the 'does not block full automation' argument. For\n    human engineers it is common knowledge. For coding agents doing autonomous fault\n    localization at the scale of hundreds of modules, it needs support or marking.\n    The support that attaches to human debugging is presented as covering automated\n    debugging.\n  level: warn\n- scope: passage\n  quotes:\n  - and explicit dependency links bound how many artifacts can interact\n  reason: The linked near-decomposability note is explicitly conjectural ('may make\n    local inspection affordable'; a transfer it says needs a worked case). Here it\n    is asserted as an established bounding mechanism. The footer's 'one candidate\n    way' hedge is distant from the body claim. A proposed mechanism inherits a confidence\n    that its source does not claim.\n  level: warn\n- scope: passage\n  quotes:\n  - its credit assignment is far less scalable than gradient learning\n  reason: A comparative claim stated as settled, with no evidence or derivation beyond\n    the absence of a chain rule. Its status is recoverable as the note's framing premise,\n    and the closing sentence restates it more carefully.\n  level: info\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/26f5a3bd1d86d2870a09f99d/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/outputs/review-epistemic-status-blur.md\nraw-output-sha256: 899783e946867da470a9ac2a09f41fa04305e7a116273af1ce316b322fa73959\n---\n\n# Review\n\n## Summary\n\nThe note mixes several kinds of claim:\n\n- **Analogical derivation.** Credit assignment can proceed by debugging, as in software.\n- **Proposed differences.** The three properties that weaken debugging tools.\n- **Proposed levers.** Traces, near-decomposability, addressable theory, replay and codification.\n- **Conjecture.** Full automation is plausible.\n\nThe middle sections carry their status reasonably well. The three differences read as the note's own analysis, and the workarounds paragraph is argued.\n\nThe problem is at the two ends of the argument. The opening asserts \"does not block full automation\" in the same register as the uncontroversial facts around it. The only marking of that conclusion as conjecture comes at the end of the body and in Open Questions. The support for the conclusion leans on coding agents \"routinely\" localizing faults at scale, which the note does not evidence. Separately, the near-decomposability lever is asserted as bounding interactions, although its linked source frames it as a conjecture.\n\nA reader can reconstruct the intended statuses, but only by working backwards from the closing hedge and the Open Questions.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/grounding-alignment.md",
+      "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+      "criterion_id": "semantic/grounding-alignment",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/semantic/grounding-alignment.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/semantic/grounding-alignment.md\ncriterion-sha256: c6c3b904f6e6d17bc67fcfadb2cb091ce62cdfd0bb33ce30cab047914e6c9a4c\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: e39efff8e31746d9b16972e2eb001f56\ncompleted-at: '2026-11-24T13:37:55Z'\nfindings:\n- scope: passage\n  quotes:\n  - a failed prediction names a specific premise to check\n  reason: 'The addressable-theory definition says a failure ''can then guide a search\n    over candidate parts''. Its Scope adds: ''A located part is a candidate. A failure\n    rarely identifies one faulty commitment'', citing Popper on tests that bear on\n    a large part of a theoretical system. The note''s wording (''names a specific\n    premise'') presents addressability as yielding single-premise localization, which\n    is more direct than the target claims. ''To check'' softens this toward a candidate,\n    but the note does not keep the target''s qualification that a failure usually\n    implicates several parts.'\n  level: warn\n- scope: passage\n  quotes:\n  - and explicit dependency links bound how many artifacts can interact\n  reason: 'The linked near-decomposability note conjectures that weak, summarizable\n    interaction between blocks may make local inspection affordable. It does not claim\n    that the structure bounds how many artifacts can interact: interactions across\n    blocks are ''weak, but not negligible''. The target also separates locating an\n    intervention from checking a repair. The note cites it for a stronger and slightly\n    different mechanism (a bound on the interacting set) at established strength.'\n  level: warn\n- scope: passage\n  quotes:\n  - recording which files loaded does not prove which sentence steered the decision\n  reason: 'The linked note''s claim concerns retained rationales: a legible explanation\n    can fail to track the basis a theory rests on, so repair guided by it can be misdirected.\n    Here it is used for a different object, a load trace of which files entered context.\n    The target''s cited finding that self-evolving agents'' behavior is often not\n    causally grounded in the artifacts they purport to use plausibly supports the\n    point. The note does not articulate the transfer from rationale faithfulness to\n    load-trace causality.'\n  level: info\n- scope: passage\n  quotes:\n  - accelerating store bloat into an accretion plateau\n  reason: The linked note supports the claim that accumulation without ingress degrades\n    usability ('A store can grow while all three properties get worse'). It does not\n    name or describe an 'accretion plateau'. The non-load-bearing label goes slightly\n    beyond the target.\n  level: info\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/52484707c1b142385f2fb10e/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/outputs/review-grounding-alignment.md\nraw-output-sha256: a049cf824c5f835525e4fc6b97918aa23d123b2142d36d1b8d0797a95e6e454b\n---\n\n# Review\n\n## Summary\n\nI checked each linked library artifact for representation: the claim the note invokes against the title and opening, and the interior treatment where the note invokes an interior concept.\n\n- **Selection-based learning.** Represented accurately. The note scopes the term to a store of instructions, hypotheses, checks and scripts without implying that the term is restricted to readable stores.\n- **Readable-artifact loop.** The validation radius is used as the forward counterpart. That is a fair reading of the target's \"establishing that nothing else broke\" within a causal neighborhood.\n- **Addressable theory.** The use overstates the target. The target explicitly treats a located part as a candidate and denies that one failure usually identifies one faulty commitment.\n- **Near-decomposability.** The use upgrades a conjecture about affordable local inspection into a mechanism that bounds the interacting set, and states it at established strength.\n- **Rationale faithfulness and raw accumulation.** The rationale-faithfulness use is a plausible transfer that the note does not articulate. The raw-accumulation use supports the point but not the \"accretion plateau\" label.\n\nTwo load-bearing levers in the debuggability paragraph therefore rest on links that claim less than the note attributes to them.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/internal-consistency.md",
+      "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+      "criterion_id": "semantic/internal-consistency",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/semantic/internal-consistency.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/semantic/internal-consistency.md\ncriterion-sha256: 05676960f5c1c2a28267be3f8abb77474788e9d59110a62827124e0061e06523\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: e39efff8e31746d9b16972e2eb001f56\ncompleted-at: '2026-11-24T13:37:55Z'\nfindings:\n- scope: passage\n  quotes:\n  - Prose conventions can interact semantically across unrelated tasks without any\n    explicit link in the store\n  - and explicit dependency links bound how many artifacts can interact\n  reason: The body first says prose conventions interact without explicit links, and\n    that bad rules degrade unrelated tasks through context saturation, which is a\n    global interaction among whatever is loaded. The remedy paragraph then says explicit\n    dependency links bound how many artifacts can interact. If coupling is implicit,\n    declared links cannot bound it; at most they document part of it. The remedy paragraph\n    does not reconcile this tension. It is compressed away in the move to 'Scaling\n    credit assignment therefore turns on making the retained store debuggable'.\n  level: warn\n- scope: passage\n  quotes:\n  - Yet that does not block full automation\n  - it gives a plausible path to fully automated credit assignment\n  reason: Likely drift in strength. The opening asserts that the absence of a chain\n    rule does not block full automation. The close offers only a 'plausible path'.\n    The Open Questions ask whether an autonomous loop can keep the store debuggable\n    without human refactoring. Read narrowly, the opening claim (the lack of a chain\n    rule is not itself the blocker) is compatible with the close, but the two passages\n    present different confidence about the same conclusion.\n  level: info\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/840d3bc114b51013bcaae70f/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/outputs/review-internal-consistency.md\nraw-output-sha256: 97fdb8558c141f34a5b3c1da335acf5cf3ba3e1a4db19f7a3ab7f38f194a2a1e\n---\n\n# Review\n\n## Summary\n\nKey claims by section:\n\n- **Opening.** There is no chain rule, so credit assignment is less scalable; debugging nevertheless allows automation.\n- **Second paragraph.** Interdependence grows with the store, and credit assignment is the inverse of the validation radius.\n- **Three properties.** Softer traces, implicit coupling and noisy failures weaken debugging.\n- **Workarounds.** Appended exceptions, rationale guessing and exhaustive ablation fail at scale.\n- **Remedies.** Traces, modularity and links, addressable theory, replay and codification.\n- **Scope and Open Questions.**\n\nMost pairs are consistent. Softer traces and the later use of load traces agree: the traces narrow suspects without proving causation, and the note says so. Exhaustive ablation being prohibitive agrees with targeted replay over a shortlist. The Scope's flat-table exception matches the \"few isolated rules\" remark.\n\nThe contradiction is between the implicit-coupling property and the claim that explicit dependency links bound interaction. The note names implicit coupling as a defining difficulty and then treats a remedy that cannot reach implicit coupling as bounding it. The opening's confident \"does not block full automation\" also drifts from the closing \"plausible path\" and the open question about autonomy.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/underspecified-assertions.md",
+      "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+      "criterion_id": "semantic/underspecified-assertions",
+      "depth": 2,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/semantic/underspecified-assertions.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/semantic/underspecified-assertions.md\ncriterion-sha256: 8c6f8c1d87e6a7fd99a51fa6c2aa1f3068c6f9d3deeadbca86366dfb0b811410\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: e39efff8e31746d9b16972e2eb001f56\ncompleted-at: '2026-11-24T13:37:55Z'\nfindings:\n- scope: passage\n  quotes:\n  - and explicit dependency links bound how many artifacts can interact\n  reason: 'Unresolved mechanism. Reading (a): the links constrain the system, so that\n    only linked artifacts are loaded together or may depend on one another, and the\n    bound is enforced. Reading (b): the links record dependencies, which narrows where\n    a debugger looks without limiting the actual interactions. Under (a) the assertion\n    is true by construction but implies an architectural restriction on loading. Under\n    (b) it is false as stated whenever coupling is implicit, which the note itself\n    names as a defining difficulty, and it would need evidence that declared links\n    capture most real interactions. The choice changes both the truth conditions and\n    the intervention, and this lever carries the scaling argument.'\n  level: warn\n- scope: passage\n  quotes:\n  - accelerating store bloat into an accretion plateau\n  reason: '''Accretion plateau'' is undefined. It could mean a plateau in task performance\n    as the store grows, or a point where adding rules stops changing behavior. The\n    phrase sits in a supporting clause and the argument does not turn on it.'\n  level: info\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/b16702ab179a348f04ffaeae/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/e39efff8e31746d9b16972e2eb001f56/outputs/review-underspecified-assertions.md\nraw-output-sha256: 128c92f883a9973961f39ad895e0399d26d7129c0ecc115b5e19780cd252e999\n---\n\n# Review\n\n## Summary\n\nI checked the load-bearing assertions:\n\n- **\"Far less scalable than gradient learning.\"** The closing sentence resolves the dimension: scale across numbers of coupled units.\n- **\"Does not block full automation.\"** The close resolves the target: fully automated credit assignment.\n- **The three properties.** Each is resolved into a concrete contrast with code debugging.\n- **The workaround failures.** Each states its mechanism.\n- **The debuggability levers.** Load traces narrow suspects to the active slice, failed predictions name premises, replay verifies causal responsibility, and codification returns rules to software debugging. Each states an operational consequence.\n\nThe exception is the claim that dependency links \"bound\" interaction. It leaves open whether the bound is enforced structurally or only recorded. That choice decides whether the claim conflicts with the note's own implicit-coupling property, and which intervention the note recommends.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/sentence/framing-mismatch.md",
+      "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+      "criterion_id": "sentence/framing-mismatch",
+      "depth": 5,
+      "outcome": "warn",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained verdict review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/review-gates/sentence/framing-mismatch.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 2edb199c9fc66d721a3310a5dfbe13fd0efad9c76eb1f87e49567bbf16389743\ncriterion: kb/instructions/review-gates/sentence/framing-mismatch.md\ncriterion-sha256: ce0901c0ffaeab91c291cf70e2e86eac0681d8922b4f4fd7e71cd85391e0d46f\noutcome: warn\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 5d97a230e9b349aabc4e8d79c0215bde\ncompleted-at: '2026-11-24T13:36:04Z'\nfindings:\n- scope: passage\n  quotes:\n  - Because of those three differences, naive workarounds still break down at scale.\n  reason: The sentence attributes the failure of all three workarounds to the three\n    prose-specific properties (softer traces, implicit coupling, noisier failures),\n    but the paragraph's own mechanisms are different. Appending exceptions fails because\n    it adds coupling and bloat; exhaustive one-by-one ablation fails because its cost\n    grows with store size, which would hold for ordinary code too. Only the rationale-trusting\n    case clearly rests on one of the three properties (softer traces / faithfulness).\n    The causal framing misdirects the reader about why the workarounds fail and excludes\n    the scale mechanism that actually drives the ablation case.\n  level: warn\ncontract: verdict\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/5d97a230e9b349aabc4e8d79c0215bde/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/c06d870afb2c35ab0adf6bcb/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/5d97a230e9b349aabc4e8d79c0215bde/outputs/review-framing-mismatch.md\nraw-output-sha256: 598f029d55f874294681b91b070300453877d6b6c98997f1a10197de8ed6dc08\n---\n\n# Review\n\n## Summary\n\nThe note frames its mechanisms correctly. Credit assignment without a chain rule is treated as debugging, and the obstacles are named as weakened debugging tools rather than a lack of gradients.\n\nOne transition sentence assigns the wrong cause. \"Because of those three differences\" claims that the prose-specific properties explain why the workarounds break down. The following sentences give other mechanisms: coupling and bloat from accretion, and the combinatorial cost of ablation at scale. A neutral connective would keep the paragraph accurate, for example \"At scale, naive workarounds break down\" or \"Under those conditions, and at scale, ...\". Another option is to tie each workaround to the property or the scale cost that defeats it.\n"
+    }
+  ],
+  "reports": [
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/composition-friction-gate.md",
+      "criterion": "kb/instructions/composition-friction-gate.md",
+      "criterion_id": "kb/instructions/composition-friction-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/composition-friction-gate.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ncriterion: kb/instructions/composition-friction-gate.md\ncriterion-sha256: 6e789a3c72156944d9b8f1322f23bbba3dec8f966da5a398c36cbea0c37230fc\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 4b30e736c599413b95acf7b65ffb1260\ncompleted-at: '2026-11-24T13:37:41Z'\nfindings:\n- scope: passage\n  quotes:\n  - and explicit dependency links bound how many artifacts can interact\n  reason: UNSUPPORTED — The note's own implicit-coupling bullet says prose conventions\n    \"can interact semantically across unrelated tasks without any explicit link in\n    the store.\" Explicit links can bound only declared interactions. They cannot bound\n    the semantic interactions the note names as the obstacle. The note never says\n    how undeclared coupling becomes declared, or how the store detects that a link\n    is missing.\n- scope: passage\n  quotes:\n  - Replaying the failing case with a shortlisted entry withheld or modified verifies\n    causal responsibility directly\n  reason: UNSUPPORTED — The noisier-failures bullet says reproduction and bisect-style\n    isolation are noisier than a failing unit test. Replay is a form of reproduction,\n    so the same noise applies. The note also allows a failure to come from a \"combination\n    of edits\"; withholding one entry at a time can miss a cause that needs several\n    entries together. The note never addresses how many repeats, which statistical\n    threshold, or what interaction search would make replay settle causality \"directly.\"\n    The earlier claim that one-by-one ablation \"verifies causality cleanly on small\n    stores\" has the same gap.\n- scope: passage\n  quotes:\n  - over a modular store of hundreds or thousands of artifacts it gives a plausible\n    path to fully automated credit assignment\n  reason: 'THIN — The conclusion rests on the preceding remedies. Two of them (dependency\n    links and replay) do not answer the obstacles the note itself lists. The premise\n    \"modular store\" assumes the store''s modularity, which the second open question\n    admits may need human refactoring. \"Plausible path\" hedges, but \"fully automated\"\n    is still stronger than the support: the paragraph shows tools that narrow suspects,\n    not that automation without humans closes the loop.'\n- scope: passage\n  quotes:\n  - Because of those three differences, naive workarounds still break down at scale.\n  reason: THIN — The connective attributes the breakdown to softer traces, implicit\n    coupling and noisy failures. The examples that follow break down for other reasons.\n    Appending exceptions fails through bloat. Exhaustive ablation fails through cost\n    as artifact count grows, and both would also fail in ordinary code. Only the rationale-trusting\n    example rests on one of the three differences, softer traces.\n- scope: passage\n  quotes:\n  - 'Yet that does not block full automation: large software codebases have no chain\n    rule either, and engineers and coding agents routinely localize faults across\n    hundreds of interdependent modules'\n  reason: THIN — The analogy carries the turn from \"far less scalable\" to \"does not\n    block full automation,\" but the note then lists three ways a prose store is harder\n    to debug than code. That weakens the analogy. The evidence is also that engineers\n    and coding agents localize faults \"routinely\". That shows assisted or agent-driven\n    debugging happens, not that fully automated credit assignment works without humans\n    across hundreds of modules.\ncontract: report\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/4b30e736c599413b95acf7b65ffb1260/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/20f52c9bfb91bb529e3e7649/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/4b30e736c599413b95acf7b65ffb1260/outputs/review.md\nraw-output-sha256: 031e547b404d1ba9ceb5700587665a4c04fb40b6312cab269509d38aef3d394b\n---\n\n# Friction check: credit assignment without a chain rule is a debugging problem\n\n**Central claim (one sentence):** In selection-based learning, credit assignment over a growing, interdependent store has no chain rule. It is therefore a debugging problem. That problem can be automated when the store is made debuggable, though prose artifacts weaken traces, hide coupling and make reproduction noisy.\n\n## Filter\n\n**Filter:** SURVIVES\n\nThe note wants four things at once. Credit assignment is far less scalable than backpropagation. It is still fully automatable. A prose store is harder to debug than code in three specific ways. Ordinary debugging remedies still give a plausible path. These properties can coexist because the note scopes the claim to \"hundreds or thousands\" of artifacts, not billions. It also hedges the conclusion as a \"plausible path,\" not a guarantee. The trade-off is inside the remedy list, where some remedies presuppose the properties the obstacles deny. Explicit links presuppose declared coupling, and replay presupposes clean reproduction. This makes the bridge thin, but the claim does not split into incompatible parts.\n\n## Thinnest joints\n\nThe two weakest joints are remedies that the note's own obstacle list undercuts. The note says prose coupling bypasses explicit links, then says explicit links bound interaction. It says reproduction is noisy and failures can come from combinations of edits, then says single-entry replay \"verifies\" causality \"directly.\" These are rated UNSUPPORTED because the text gives evidence against them. The final \"fully automated\" conclusion comes next: it inherits both weaknesses and depends on a modular store that, as the open questions admit, may not stay modular without humans. The \"Because of those three differences\" connective follows. It is a misattributed cause, not a missing argument, so it matters less. The codebase analogy is strongest of the five surfaced joints. It is reasonable as an existence argument for debugging without gradients, but it over-reaches by moving from routine assisted debugging to full automation.\n\n## For the human\n\nLook first at the last paragraph. For each remedy, say which of the three obstacles it answers and how. The dependency-link and replay remedies are where the note needs that concrete account.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/critique-note.md",
+      "criterion": "kb/instructions/critique-note.md",
+      "criterion_id": "kb/instructions/critique-note",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/critique-note.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ncriterion: kb/instructions/critique-note.md\ncriterion-sha256: 9552184ef532f9321fa4aec6015d5d8509eea15091f70300cc2c9e7a0fcaf771\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 2bc57c4c16cd49d48fdad5ae338bceaa\ncompleted-at: '2026-11-24T13:37:10Z'\nfindings:\n- scope: passage\n  quotes:\n  - Replaying the failing case with a shortlisted entry withheld or modified verifies\n    causal responsibility directly\n  reason: The note treats replay as a direct causal check, but LLM execution is stochastic\n    and the diffuse failures it names have small effect sizes. Each withheld-entry\n    replay is therefore a statistical comparison whose sample cost grows with output\n    variance and shrinks with effect size. That cost, not suspect count, is what the\n    chain rule avoids, and the note does not price it. State that replay verifies\n    causality only with a sample budget sized to variance and effect size, and say\n    what the budget is when the failure is a quiet degradation rather than a reproducible\n    crash.\n- scope: passage\n  quotes:\n  - Without backpropagation's chain rule, attributing failures in a growing, interdependent\n    store is a debugging problem\n  reason: 'Credit assignment in a learning process also allocates positive and graded\n    credit: which retained artifacts contribute to success, and which are marginal\n    or dead weight. Debugging is triggered by an observed failure and localizes a\n    discrete fault; it gives no signal when nothing fails but the store carries low-value\n    or mildly harmful entries. Either scope the claim explicitly to failure attribution\n    (blame) and name positive or marginal credit as a separate unsolved problem, or\n    argue how debugging practice covers it.'\n- scope: passage\n  quotes:\n  - engineers and coding agents routinely localize faults across hundreds of interdependent\n    modules by **debugging**\n  reason: 'Routine software debugging, and agentic debugging in particular, typically\n    starts from a crisp failure oracle: a failing test, a crash or a reproducible\n    issue. The readable-artifact note the article links says the KB case runs under\n    softer oracles. The analogy therefore transfers the localization tools but not\n    the oracle that makes them reliable. Name the oracle as a precondition and say\n    what plays its role in a selection-based store.'\n- scope: passage\n  quotes:\n  - over a modular store of hundreds or thousands of artifacts it gives a plausible\n    path to fully automated credit assignment\n  reason: The conclusion depends on the store staying modular, but the second Open\n    Question leaves open whether an autonomous loop can keep it modular. The linked\n    near-decomposability note is itself a conjecture that requires a worked case.\n    'Plausible path' should be conditioned on that unresolved maintenance problem\n    in the conclusion itself, rather than only in Open Questions.\n- scope: passage\n  quotes:\n  - '[Near-decomposability](./near-decomposability-may-make-local-inspection-affordable.md)\n    and explicit dependency links bound how many artifacts can interact.'\n  reason: The linked note presents near-decomposability only as something that 'may\n    make' local inspection affordable, and it treats the transfer to artifacts as\n    unworked. This sentence states that it bounds the number of interacting artifacts.\n    Under the note's own 'implicit coupling' property, declared links also cannot\n    bound undeclared semantic interaction. Soften the sentence to a conditional, or\n    limit the bound to declared dependencies.\ncontract: report\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/2bc57c4c16cd49d48fdad5ae338bceaa/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/e5e30d6991a2a18b55926491/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/2bc57c4c16cd49d48fdad5ae338bceaa/outputs/review.md\nraw-output-sha256: 76adb813e62660718b4645bffc8fde018eb1584f2ef24100f26b040b7a39ee86\nattack-outcome: partially lands\n---\n\n# Critique: Credit assignment without a chain rule is a debugging problem over an interdependent store\n\n**Note:** kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n**Central commitment:** Selection-based learning lacks a chain rule, but credit assignment over its store reduces to debugging, so a debuggable, modular store of hundreds or thousands of artifacts offers a plausible path to fully automated credit assignment.\n**Critique mode:** claim\n**Attack outcome:** partially lands\n\n## Strongest case against it\n\nThe opponent is someone trained in reinforcement learning or experimental statistics. They hold that credit assignment is counterfactual estimation: how much would the outcome change if this component were different? The chain rule matters not because it finds a culprit but because it computes every component's marginal contribution from one forward and one backward pass. Without it, each component's contribution must be estimated by intervention. The cost of an intervention depends on how noisy the outcome is and how large the effect is.\n\nOn this view, the software analogy borrows its tractability from two properties that the store lacks:\n\n1. **A deterministic, crisp oracle.** Software debugging starts from a failing test or crash. A replay reproduces the same failure, and one run with a suspect removed is decisive. Coding agents' debugging success is likewise measured on tasks that come with a reproducing test. In the store, the model's execution is stochastic. The note itself says failures can \"quietly degrade unrelated tasks\" rather than crash. Every \"replay with a shortlisted entry withheld\" is then an A/B comparison. Detecting a small degradation reliably needs many samples per suspect, and the number of required samples rises as the effect gets smaller. Combinations of suspects multiply the cost. The diffuse failures that the note calls hardest are exactly those with the smallest effects. Its third difference, \"noisier, diffuse failures,\" therefore does more than make debugging noisier. It breaks the verification step that the whole argument rests on.\n2. **Failure as the only signal.** Learning needs credit for success and graded contribution as well as blame for faults. A selection-based learner must decide which retained artifacts are worth keeping, which helped, and which are dead weight inflating context. Debugging has nothing to say until something visibly fails. A debugging frame can localize discrete faults while leaving most of the credit-assignment problem, which is graded marginal value, untouched.\n\nThe objection concludes that \"a debugging problem\" changes the vocabulary without changing the difficulty. Without crisp oracles, the scaling bottleneck is sample complexity of counterfactual estimation, not suspect narrowing. Debuggability shrinks the suspect list. It does not make each check cheap. So the step from \"debuggable\" to \"plausible path to fully automated credit assignment\" is unsupported.\n\n## How the note engages it\n\n**Partially engaged.**\n\n- The note concedes the noise. \"Noisier, diffuse failures\" says reproduction and bisect-style isolation become \"noisier than a failing unit test.\" The conclusion concedes that debugging \"will not match backpropagation's scale.\" Its distinction between \"cheap suspect narrowing\" and \"targeted causal checks\" is the correct structure for answering the objection. Narrowing really does reduce how many expensive checks are run.\n- The note does not price the targeted check. It says replay \"verifies causal responsibility directly,\" which assumes deterministic reproduction. Nothing in it addresses sample budgets, variance or effect size. Codifying rules into scripts (\"moves them back into ordinary software debugging\") answers the objection only for the codified portion.\n- The note does not engage the positive or graded half of credit assignment. Its description and body narrow credit assignment to \"attributing failures,\" and the Scope section never marks that as a narrowing. A reader could take the title as covering credit assignment in the learning-theory sense.\n- The oracle question is not addressed. The linked readable-artifact note names \"softer oracles\" as the main missing piece, but this note does not connect that gap to the debugging analogy.\n\nThe objection therefore lands on the conclusion's strength (\"plausible path to fully automated\"), not on the core reframing. Treating blame attribution in a store as a debugging problem that becomes cheaper with traces, dependency links and addressable premises survives. Calling the resulting credit assignment scalable to full automation does not survive without a cost account of stochastic verification.\n\n## Constructive findings\n\n- Add an explicit condition to the replay step. A withheld-entry replay is a statistical test whose cost grows as variance rises and as effect size shrinks. Say how the approach handles quiet degradations, for example by escalating only to suspects that pass a cheap screen, by using fixed replay fixtures with pinned sampling, or by codifying the steps that need verification.\n- Scope \"credit assignment\" to failure attribution in the Scope section, and name positive or marginal credit (what to keep, what is dead weight) as a separate open problem. Alternatively, argue how debugging-style tools reach it, for example periodic ablation of low-use entries.\n- Name a crisp failure oracle as a precondition of the software analogy, and say what supplies it in a selection-based store: tests, validators, stated predictions of an addressable theory, or pinned replay fixtures.\n- Condition the conclusion on the store staying modular and on verification being affordable. The open question about autonomous maintenance of modularity carries weight in the argument and should appear in the conclusion's own sentence.\n\n## Secondary objections (optional)\n\n- \"[Near-decomposability] and explicit dependency links bound how many artifacts can interact\" overstates the linked note, which is a conjecture that \"may make\" inspection affordable and calls for a worked case. Under the note's own \"implicit coupling\" property, declared links cannot bound undeclared semantic interactions.\n- Execution traces narrow suspects to the loaded slice, but two failure kinds escape that slice. Failures of omission involve a missing or unretrieved artifact. Failures of volume involve context saturation caused by the aggregate size of the slice rather than any one entry. Neither has a single suspect inside the active slice.\n- \"Far less scalable than gradient learning\" is asserted rather than argued. The comparison basis (number of components, cost per attribution, or wall-clock time) is unnamed.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/premise-decomposition-gate.md",
+      "criterion": "kb/instructions/premise-decomposition-gate.md",
+      "criterion_id": "kb/instructions/premise-decomposition-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/premise-decomposition-gate.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ncriterion: kb/instructions/premise-decomposition-gate.md\ncriterion-sha256: 116fc35b1e54759064658a1172d7ed0a3007bf576f6744f6f016f473d477805d\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews\nlaunch: 1b99120541284fb7bfd35130512a2685\ncompleted-at: '2026-11-24T13:39:14Z'\nfindings:\n- scope: passage\n  quotes:\n  - engineers and coding agents routinely localize faults across hundreds of interdependent\n    modules\n  reason: 'DOUBTFUL — premise (unqualified, so universal): fault localization across\n    large interdependent codebases is routine for both engineers and coding agents,\n    so lacking a chain rule does not block full automation — for engineers this holds,\n    but coding agents usually start from a supplied failing test or issue and still\n    fail a substantial share of repository-level localization tasks; the evidence\n    supports assisted debugging, not routine autonomous localization, which is what\n    the closing claim of a path to fully automated credit assignment consumes. Repair:\n    weaken the automation clause or cite agent localization evidence — LOCAL — prevalence'\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — unstated premise (universal): the faults to localize are commissions\n    by retained artifacts, so traces of what loaded and replay with an entry withheld\n    can find them — many failures come from omissions (a needed rule or note was never\n    written or was not retrieved) or from base-model error with no store entry at\n    fault; a trace of loaded artifacts cannot point at what was absent, and withholding\n    entries cannot reveal a missing one. The debugging framing survives if omission\n    and retrieval faults are named as a separate case — LOCAL — instance'\n- scope: passage\n  quotes:\n  - Replaying the failing case with a shortlisted entry withheld or modified verifies\n    causal responsibility directly\n  reason: 'DOUBTFUL — premise (universal): single-entry withhold-and-replay verifies\n    causal responsibility directly — the note''s own third property (noisy, diffuse\n    failures under stochastic decoding) means one replay neither confirms nor refutes;\n    verification needs repeated sampling with a success-rate comparison. Removing\n    text also changes context length and framing nonspecifically, and a conjunctive\n    cause (the note''s own combination of edits) is missed when entries are withheld\n    one at a time. Statistical replay preserves the mechanism at higher cost — LOCAL\n    — instance'\n- scope: passage\n  quotes:\n  - explicit dependency links bound how many artifacts can interact\n  reason: 'DOUBTFUL — premise (universal): explicit links and near-decomposability\n    bound the interacting set — the note''s second property says prose conventions\n    interact semantically without any explicit link, so declared links bound only\n    the declared interactions; the implicit coupling that makes the store harder than\n    software is exactly what they leave unbounded. Needs a condition such as links\n    being enforced or coupling being detected, not only declared — LOCAL — instance'\n- scope: passage\n  quotes:\n  - narrow suspects from the whole store to the active slice\n  reason: 'DOUBTFUL — premise (universal): load traces narrow suspects meaningfully\n    — in common agent setups a large always-loaded core (project instructions, routing\n    tables, type specs) appears in every trace, so the active slice for any failure\n    includes the most coupled artifacts and narrowing is weakest where coupling is\n    highest. Holds for retrieved, task-specific entries; needs that scope condition\n    — LOCAL — instance'\n- scope: passage\n  quotes:\n  - a failed prediction names a specific premise to check\n  reason: 'DOUBTFUL — premise (universal): a failed prediction of an addressable theory\n    names a specific premise — by the Duhem–Quine point a failed prediction refutes\n    the conjunction of the theory''s premises with auxiliary assumptions (here including\n    the model''s interpretation of the prose), so it yields a suspect set rather than\n    one premise. It still narrows suspects, which is all the mechanism needs if reworded\n    — LOCAL — instance'\n- scope: document\n  quotes: []\n  reason: 'DOUBTFUL — unstated premise (universal): failures surface as observed,\n    reproducible failing cases that debugging can start from — the note''s diffuse\n    failures (quiet degradation of unrelated tasks) often produce no single failing\n    case and may go unnoticed without a regression suite or outcome monitoring; debugging\n    needs a detection oracle that the note does not list among the debuggability requirements.\n    Adding evaluation fixtures as a requirement repairs it — LOCAL — instance'\n- scope: passage\n  quotes:\n  - Exhaustive one-by-one ablation verifies causality cleanly on small stores, but\n    becomes prohibitively expensive once hundreds of artifacts interact\n  reason: 'DOUBTFUL — premise (universal): exhaustive ablation becomes prohibitively\n    expensive at hundreds of artifacts — delta debugging (adaptive bisection over\n    subsets) finds a single culprit in logarithmically many replays, and hundreds\n    of model replays are often affordable; cost becomes prohibitive mainly through\n    stochastic repetition and interaction effects. The premise motivates debuggability\n    investment, so overstating it only weakens that motivation — LOCAL — instance'\n- scope: passage\n  quotes:\n  - recording which files loaded does not prove which sentence steered the decision\n  reason: 'HOLDS — premise (universal): a record of loaded context does not establish\n    which content caused a decision — no counterexample found; attention and self-reported\n    rationale are not faithful causal attribution, and the linked faithfulness note\n    supports this.'\n- scope: passage\n  quotes:\n  - codifying settled rules into deterministic scripts moves them back into ordinary\n    software debugging\n  reason: 'HOLDS — premise (universal): a rule moved into deterministic code is debuggable\n    with ordinary software tools — the hunt found only the boundary where the script\n    hands residual cases to model judgment, which the note already places in the prose\n    side.'\n- scope: passage\n  quotes:\n  - backpropagation applies the chain rule to compute how each parameter contributed\n    to a loss\n  reason: 'HOLDS — premise (universal): backpropagation gives per-parameter credit\n    in one backward pass across tightly coupled weights — gradients are local sensitivities\n    rather than global contributions, but the contrast the note draws (a scalable,\n    compositional attribution rule that the store lacks) holds.'\ncontract: report\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/1b99120541284fb7bfd35130512a2685/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/artifact/reviews/49a15ce2bb3d1d7e5725e520/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews/calls/launches/1b99120541284fb7bfd35130512a2685/outputs/review.md\nraw-output-sha256: a4a7cea3b455e5a1cad0c1e5f235152a1d21e59c99e9618c119825a0d28daa21\n---\n\n# Premise decomposition: credit assignment as debugging over an interdependent store\n\n**Register:** claim\n**Central commitment (one sentence):** Credit assignment in selection-based learning over a growing, interdependent store lacks a chain rule but is a debugging problem: harder than software debugging because of softer traces, implicit coupling and diffuse failures, yet plausibly fully automatable over hundreds or thousands of artifacts if the store is made debuggable.\n\n## Premises and counterexamples\n\nThe commitment has three parts, and each consumes premises. The **analogy** says software debugging shows that credit assignment without a chain rule can scale. It consumes the backprop contrast and the premise that agents debug large codebases routinely. The **difference** says the store weakens software's debugging tools. It consumes the softer-traces premise. The other two properties are the note's own concessions and are used against its remedies below. The **remedy** says debuggability restores tractability. It consumes four premises: load traces narrow suspects, explicit links bound interaction, failed predictions name a premise, and withhold-and-replay verifies causation. It also needs two unstated premises: faults are commissions by stored artifacts, and failures arrive as reproducible cases.\n\nThe dented premises fall mainly on the remedy side. Several remedies are undercut by the note's own three properties. Implicit coupling escapes explicit links. Noisy failures defeat single-replay verification and go undetected without an oracle. Always-loaded context blunts trace narrowing. None of these breaks the core mechanism, because statistical replay, enforced coupling checks and regression fixtures keep the debugging frame intact at higher cost. Every failure is therefore routed LOCAL. The analogy premise carries the most weight. If coding agents do not yet localize faults autonomously and routinely, the \"fully automated\" clause is no longer supported. The narrower claim that credit assignment is a debugging problem still stands.\n\n## For the human\n\nLook first at the claim that coding agents routinely localize faults: it alone carries the \"fully automated\" conclusion. Next, add omission faults (missing or unretrieved entries), which traces and withhold-replay cannot find.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis",
+      "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+      "criterion_id": "kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+      "depth": 4,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ncriterion: kb/instructions/compression-bundle/high-impact-simplification-synthesis.md\ncriterion-sha256: c7ee82f0ff41ddcb59d841986fcc47111cf98d676924cffe53a7a9a98dfa6d1c\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis\nlaunch: 08d8fd9688da4e98a8f1617147812f12\ncompleted-at: '2026-11-24T13:40:44Z'\nfindings:\n- scope: passage\n  quotes:\n  - Yet that does not block full automation\n  reason: 'The opening states the thesis as an analogy (codebases are debugged without\n    a chain rule) and claims it ''does not block full automation'', but the condition\n    that carries the argument, keeping the store debuggable, first appears in the\n    last body paragraph, where the claim is also weaker: ''a plausible path to fully\n    automated credit assignment''. A reader meets the three weakening properties and\n    the naive workarounds before learning what they support; a revision could state\n    the debuggability condition in the opening, with the strength of claim the note\n    will defend, so the later paragraphs read as support for a claim already given.'\n- scope: document\n  quotes: []\n  reason: The three weakening properties (softer traces, implicit coupling, noisier\n    failures) and the five remedies in the closing paragraph answer each other, but\n    the note leaves the reader to match them; the argument's structure (each property\n    weakens a debugging tool, each remedy restores one) is visible only after rereading.\n    A revision could pair each remedy with the property it addresses, for example\n    execution traces and replay against softer traces and noisy failures, explicit\n    dependency links and near-decomposability against implicit coupling, so the closing\n    paragraph reads as the answer to the middle list rather than a separate catalogue.\ncontract: report\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis/calls/launches/08d8fd9688da4e98a8f1617147812f12/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis/artifact/reviews/1b6049c61709cd08b0c49cb7/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis/calls/launches/08d8fd9688da4e98a8f1617147812f12/outputs/review.md\nraw-output-sha256: 0aade7d04fb14c64cc0128540168b91f821b2a220e0e27404761eda503ac202a\n---\n\n# Simplification synthesis: Credit assignment without a chain rule\n\n## Opportunities\n\n### 1. State the debuggability thesis in the opening, at the strength the note defends\n\n- Location: opening paragraph, \"Yet that does not block full automation\", against the closing paragraph, \"Scaling credit assignment therefore turns on making the retained store **debuggable**\" and \"it gives a plausible path to fully automated credit assignment\".\n- Combines: core-claim-obscured (info finding: the debuggability condition appears only in the last body paragraph).\n- Preserve or decide: the note states its conclusion at two strengths. The opening says the missing chain rule \"does not block full automation\"; the closing says debugging \"gives a plausible path\" to it, within \"hundreds or thousands of artifacts\". The author must choose which strength the opening carries before moving the condition forward; the synthesis should not pick one. Preserve the contrast with backpropagation's scale and the codebase analogy as the premise. One possible resolution, illustrative only: \"credit assignment is a debugging problem, tractable to the extent the store is kept debuggable.\"\n\n### 2. Make the property-to-remedy correspondence explicit\n\n- Location: the three-property list (\"**Softer traces.**\", \"**Implicit coupling.**\", \"**Noisier, diffuse failures.**\") and the closing paragraph's remedies (execution traces, near-decomposability and dependency links, addressable theory, targeted replay, codification into scripts).\n- Combines: cross-cutting; grounded in branch-bloat's observation that \"the closing paragraph's remedies answer each one\" and detail-overhang's observation that \"the three properties each weaken one of these tools, and the remedies restore them\". Neither check raised it as a finding.\n- Preserve or decide: the mapping is not one-to-one. Addressable theory and codification address the problem more broadly than any single property, and execution traces only narrow suspects to the loaded slice; they do not recover the sentence-level faithfulness that the \"softer traces\" bullet says is lost. A revision must not imply that each remedy fully cancels its property. The author should also decide whether the naive-workarounds paragraph stays between the properties and the remedies, or moves so that the remedies follow the properties directly.\n\nThe marginal-value-redundancy finding (fold the flat-lookup-table case from the first Scope bullet into the second paragraph and delete the bullet) is a sound local compression but does not reach this synthesis's threshold, so it is not listed as an opportunity.\n"
+    },
+    {
+      "path": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role",
+      "criterion": "kb/instructions/role-in-the-kb-gate.md",
+      "criterion_id": "kb/instructions/role-in-the-kb-gate",
+      "depth": 1,
+      "outcome": "report",
+      "text": "---\ntype: types/review-result.md\nformat: 2\ndescription: Retained report review of kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\n  against kb/instructions/role-in-the-kb-gate.md\nnote: kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md\nnote-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ncriterion: kb/instructions/role-in-the-kb-gate.md\ncriterion-sha256: 1181f261a8ee86614d6e432a316715fe90534ea271ad19b4783ed89c9cea04b3\noutcome: report\nprofile:\n  harness: claude-code\n  launch-model: opus\n  effort: medium\nmodel: claude-opus-5-5\nrun: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role\nlaunch: 699e2732b5bf456c99fb14fd7137da6a\ncompleted-at: '2026-11-24T13:42:13Z'\nfindings:\n- scope: passage\n  quotes:\n  - 'over a store of instructions, hypotheses, checks, and scripts has no chain rule,\n    so its credit assignment is far less scalable than gradient learning. Yet that\n    does not block full automation: large software codebases have no chain rule either,\n    and engineers and coding agents routinely localize faults across hundreds of interdependent\n    modules by **debugging**'\n  reason: SUPPLIED — kb/articles/continual-learning-with-fixed-model-weights-llm-selected-updates.md\n    — the article's first passage needs the claim that credit assignment without a\n    chain rule is done by debugging, that this is far less scalable than backpropagation\n    across billions of coupled weights, and that coding agents already automate much\n    of that debugging on large codebases. The note's opening paragraph states all\n    three.\n- scope: passage\n  quotes:\n  - What makes a mixed prose-and-code store harder to debug than ordinary software\n    is not the lack of gradients, but three properties that weaken ordinary debugging\n    tools\n  reason: 'SUPPLIED — kb/articles/continual-learning-with-fixed-model-weights-llm-selected-updates.md\n    — the article''s first passage needs a basis for its open question: whether automated\n    debugging stays reliable when natural-language instructions make traces, coupling\n    and failures softer. The note''s three properties (softer traces, implicit coupling,\n    noisier diffuse failures) map one-to-one onto the article''s three terms, and\n    the note''s first open question poses the same question.'\n- scope: passage\n  quotes:\n  - As the store grows, artifacts become interdependent\n  reason: SUPPLIED — kb/articles/continual-learning-with-fixed-model-weights-llm-selected-updates.md\n    — the article's reading-list passage cites the note as the working hypothesis\n    on how debugging governs credit assignment as the store grows. The note's second\n    paragraph ties growth to interdependence, and its debuggability paragraph states\n    what keeps credit assignment tractable at scale.\n- scope: document\n  quotes: []\n  reason: DUPLICATED — kb/articles/continual-learning-with-fixed-model-weights-llm-selected-updates.md\n    — the article's first passage restates in four sentences the note's opening contrast\n    with backpropagation, the coding-agent analogy and the three softening properties.\n    The article's version serves its external reader better as a compact statement\n    of the open challenge; the note states it better for anyone who needs the mechanisms,\n    because only the note names the properties' causes and the debuggability levers.\ncontract: report\ntarget-sha256: 445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f\ntarget-capture: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role/calls/launches/699e2732b5bf456c99fb14fd7137da6a/inputs/note.md\nobservation: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role/artifact/reviews/100528a6d9817f8cb5d6d6b4/observation.json\ncontract-sha256: e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082\nraw-output: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role/calls/launches/699e2732b5bf456c99fb14fd7137da6a/outputs/review.md\nraw-output-sha256: 8d4f286948c2155b1daeb54b163b4fefacb2121f529f8558027525b8b3a0ac7a\n---\n\n# Role in the KB: credit assignment without a chain rule\n\n## Role\nThe note is the single cited statement, for the lead continual-learning article, of the key open challenge in scaling selection-based learning: credit assignment without a chain rule must be done by debugging, and natural-language artifacts weaken debugging. Only that one article links to it, in two passages: an inline statement of the challenge and a reading-list entry naming it as a working hypothesis. No theory note argues from it.\nRelied on: the debugging framing of credit assignment; \"far less scalable than backpropagation\"; the coding-agent/codebase analogy; the three softening properties (traces, coupling, failures); growth of the store making credit assignment harder; the first open question. Unused: validation radius as the forward inverse of credit assignment; the three naive workarounds (local exceptions, trusting rationales, exhaustive ablation); the debuggability levers (execution traces, near-decomposability and dependency links, addressable theory, targeted replay, codification into scripts); the \"plausible path to fully automated credit assignment\" conclusion; the Scope bullets; the second open question.\n\n## Dependents\n- `kb/articles/continual-learning-with-fixed-model-weights-llm-selected-updates.md` — needs the debugging claim, its scalability contrast with backpropagation, the coding-agent analogy, the three softening properties as the basis of the open question, and the store-growth hypothesis. All supplied.\n\n## Duplication\nThe article's first passage restates the note's opening paragraph and its three properties in compressed form. The compact version suits the article's lead-reader use; the note is the better statement of mechanism (see the DUPLICATED finding).\n\n## Untaken recommendations\nNone. The linking article makes no recommendation to change the note.\n\n## Reach\n- The claim that credit assignment without a chain rule is a debugging problem, and its contrast with backpropagation's scale, reach the article's inline passage and its reading-list entry.\n- The coding-agent analogy (\"coding agents already automate much of that debugging\") reaches the article's inline passage.\n- The three properties, softer traces, implicit coupling and noisier failures, and the first open question reach the article's open question, which names the same three terms.\n- The store-growth framing reaches the article's reading-list gloss (\"as the store grows\").\n- The title reaches the article's reading-list link text, which quotes it verbatim.\n- Changes to the validation-radius inverse, the naive workarounds, the debuggability levers, the Scope bullets or the second open question reach no dependent.\n"
+    }
+  ],
+  "reviews": [
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d01.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d05.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-C-d03.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d04.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d06.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d02.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d08.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/results-sol.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ]
+}

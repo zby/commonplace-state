@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "outcome": "completed",
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z",
+  "artifact": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+  "mode": "answers",
+  "plan": {
+    "purpose": "A reader of the continual-learning article, or an agent designing a selection-based learner, should understand why credit assignment over a retained store is a debugging problem rather than a gradient problem, which three properties make a prose-and-code store harder to debug than software, and which levers keep it debuggable, without being told those levers are stronger than they are.",
+    "must-keep": [
+      "Credit assignment without a chain rule is a debugging problem over an interdependent store.",
+      "What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.",
+      "Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "abstractions",
+        "scope": "The opening paragraph's second sentence (first mention of 'Selection-based learning', up to 'far less scalable than gradient learning') and the clause 'accelerating store bloat into an accretion plateau'; exclude the near-decomposability sentence and the opening's 'Yet that does not block full automation' sentence."
+      }
+    ]
+  },
+  "answers": [
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+  ],
+  "reviews": [],
+  "findings": [],
+  "triage": null,
+  "passes": [
+    {
+      "name": "abstractions",
+      "scope": "The opening paragraph's second sentence (first mention of 'Selection-based learning', up to 'far less scalable than gradient learning') and the clause 'accelerating store bloat into an accretion plateau'; exclude the near-decomposability sentence and the opening's 'Yet that does not block full automation' sentence.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z/artifact/reports/abstractions.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z/artifact/texts/abstractions.md",
+      "answers": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+    }
+  ],
+  "proposed": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z/artifact/texts/abstractions.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z/artifact/publications/1.md",
+      "sha256": "afa2e87ce1b3a566f1ec4ab23ed29cd88eab0340e5cfd47c22c82ff3a669e46a",
+      "diff": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261125T045238Z/artifact/publications/1.diff",
+      "before-sha256": "5ebf2b7f00fd2290167f4d32743338a3d459fe52ccb8a8e565177acddf42617e",
+      "entries": [
+        "abstractions"
+      ],
+      "at": "2026-11-25T04:53:52Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": null,
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": true,
+    "changed": []
+  }
+}

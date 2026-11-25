@@ -1,0 +1,11 @@
+purpose: "Commonplace maintainers and agents who must decide whether to keep, rank or reject a KB note should be able to see which valuation lenses the KB offers, which problems remain open, and why the question matters under autonomous production."
+must-keep:
+  - "Those goals decide what a collection admits in principle, but they do not exhaust how to rank, keep, or reject candidate notes."
+  - "Under the conjecture that weakly discriminated qualities tend to be underselected, an autonomous authoring loop can enrich accepted notes more strongly for validity than for usefulness, and if production favors fluent local additions, clutter can accumulate."
+  - "A note can be grounded and coherent yet redundant or too narrow to justify its maintenance cost."
+passes:
+  - pass: abstractions
+    scope: "Unsettled section: the words 'subroutines' (first bullet), 'subroutine reuse' and 'demand-root coverage' (Combining-dimensions bullet) only"
+  - pass: readability-and-flow
+    scope: "Unsettled section, first bullet ('Root questions versus sub-questions inside notes') only: split the closed-loop sentence and move the reader-need label list after its verb"
+stop: null

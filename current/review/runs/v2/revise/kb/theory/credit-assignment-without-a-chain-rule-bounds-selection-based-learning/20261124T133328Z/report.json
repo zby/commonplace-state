@@ -1,0 +1,665 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z",
+  "artifact": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "A reader of the continual-learning article, or an agent designing a selection-based learner, should understand why credit assignment over a retained store is a debugging problem rather than a gradient problem, which three properties make a prose-and-code store harder to debug than software, and which levers keep it debuggable, without being told those levers are stronger than they are.",
+    "must-keep": [
+      "Credit assignment without a chain rule is a debugging problem over an interdependent store.",
+      "What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.",
+      "Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The sentence beginning 'When rules rest on an explicit [addressable theory]' only; leave the near-decomposability and dependency-link sentence untouched (open claim question).",
+        "finding": "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/grounding-alignment.md"
+      },
+      {
+        "pass": "abstractions",
+        "scope": "The opening paragraph's second sentence (first mention of 'Selection-based learning', up to 'far less scalable than gradient learning') and the clause 'accelerating store bloat into an accretion plateau'; exclude the near-decomposability sentence and the opening's 'Yet that does not block full automation' sentence."
+      },
+      {
+        "pass": "readability-and-flow",
+        "scope": "The second body paragraph ('While a store holds only a few isolated rules...') and the Scope section: fold the flat-lookup-table boundary case into the second paragraph and remove the first Scope bullet; keep the second Scope bullet."
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d01.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d05.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-C-d03.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d04.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d06.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d02.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d08.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/results-sol.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/accessibility/undefined-terms.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/prose/orphan-references.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/epistemic-status-blur.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/grounding-alignment.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/internal-consistency.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/semantic/underspecified-assertions.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/sentence/framing-mismatch.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/composition-friction-gate.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/critique-note.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/synthesis",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "fix-strategy-taxonomy/semantic/grounding-alignment",
+      "scope": "The sentence beginning 'When rules rest on an explicit [addressable theory]' only; leave the near-decomposability and dependency-link sentence untouched (open claim question).",
+      "effort": "judgment",
+      "finding": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/findings/semantic/grounding-alignment.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/reports/fix-strategy-taxonomy/semantic/grounding-alignment.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/texts/fix-strategy-taxonomy/semantic/grounding-alignment.md",
+      "answers": null
+    },
+    {
+      "name": "abstractions",
+      "scope": "The opening paragraph's second sentence (first mention of 'Selection-based learning', up to 'far less scalable than gradient learning') and the clause 'accelerating store bloat into an accretion plateau'; exclude the near-decomposability sentence and the opening's 'Yet that does not block full automation' sentence.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "waiting",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/reports/abstractions.md",
+      "text": null,
+      "answers": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+    },
+    {
+      "name": "readability-and-flow",
+      "scope": "The second body paragraph ('While a store holds only a few isolated rules...') and the Scope section: fold the flat-lookup-table boundary case into the second paragraph and remove the first Scope bullet; keep the second Scope bullet.",
+      "effort": "judgment",
+      "finding": null,
+      "state": "pending",
+      "reason": null,
+      "profile": null,
+      "model": null,
+      "report": null,
+      "text": null,
+      "answers": null
+    }
+  ],
+  "proposed": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/texts/fix-strategy-taxonomy/semantic/grounding-alignment.md",
+  "new-warnings": [],
+  "published": true,
+  "publications": [
+    {
+      "number": 1,
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.md",
+      "sha256": "5ebf2b7f00fd2290167f4d32743338a3d459fe52ccb8a8e565177acddf42617e",
+      "diff": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.diff",
+      "before-sha256": "445d4f9910c0a70b503081a3e06658de2e895f949e9930c9f7643aac8fa69e2f",
+      "entries": [
+        "fix-strategy-taxonomy/semantic/grounding-alignment"
+      ],
+      "at": "2026-11-24T13:45:06Z",
+      "decided-by": "automatic",
+      "revised": false
+    }
+  ],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/continuation.json",
+    "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z",
+    "made-for": {
+      "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+      "sha256": "5ebf2b7f00fd2290167f4d32743338a3d459fe52ccb8a8e565177acddf42617e",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "proposals",
+        "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "command": "commonplace-revise apply kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md --purpose 'A reader of the continual-learning article, or an agent designing a selection-based learner, should understand why credit assignment over a retained store is a debugging problem rather than a gradient problem, which three properties make a prose-and-code store harder to debug than software, and which levers keep it debuggable, without being told those levers are stronger than they are.' --must-keep 'Credit assignment without a chain rule is a debugging problem over an interdependent store.' --must-keep 'What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.' --must-keep 'Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning.'",
+          "record": "commonplace-revise answers record kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+        },
+        "answers": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+        ],
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/edits/9c8826b9a72c72ef72fea139/results/9689a263d833403682bfb60a443b16f6/result.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "direct-entry",
+        "what": "The plan entry `readability-and-flow` was not run.",
+        "actor": "worker",
+        "effort": "judgment",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-revise kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md --plan kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/continue/2.yaml"
+        },
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/assessment.md",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/plan.yaml",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/continue/2.yaml"
+        ]
+      },
+      {
+        "id": "3",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/assessment.md"
+        ]
+      },
+      {
+        "id": "4",
+        "kind": "stale-reviews",
+        "what": "44 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+        "actor": "worker",
+        "after": [
+          "1",
+          "2",
+          "3"
+        ],
+        "how": {
+          "command": "commonplace-review status kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md --stale"
+        },
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.diff"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d01.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d05.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-C-d03.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d04.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d06.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d02.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d08.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/results-sol.md"
+    ]
+  }
+}

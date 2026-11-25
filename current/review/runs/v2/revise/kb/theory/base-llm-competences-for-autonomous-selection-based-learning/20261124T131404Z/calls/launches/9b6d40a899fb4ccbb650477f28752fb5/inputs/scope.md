@@ -1,0 +1,1 @@
+Only the first two items: the first mention of selection-based learning in the opening paragraph, and the 'Following scheduler–LLM separation' clause. Leave 'transfer tests' and 'outer-loop learning' untouched.

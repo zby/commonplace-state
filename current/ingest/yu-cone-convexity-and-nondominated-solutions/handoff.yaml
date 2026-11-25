@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/yu-cone-convexity-and-nondominated-solutions.ingest.md
+snapshot_sha256: 33d6a8dfa0258d1d4adc14a31e86a9758e2cb9b47717f68e5d5a84a7282b0b2f
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-24T12:54:09+01:00'
+occasion: Which comparisons can the formalism support in an on-balance judgment, and
+  which remain unresolved?
+checks:
+- at: '2026-11-24T12:58:58+01:00'
+  failures: []
+- at: '2026-11-24T12:59:08+01:00'
+  failures: []
+- at: '2026-11-24T12:59:08+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-24T12:59:08+01:00'

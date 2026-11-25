@@ -1,0 +1,57 @@
+{
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z",
+  "made-for": {
+    "note": "kb/notes/how-do-we-value-notes.md",
+    "sha256": "b5cf96fb9ebd96b737254b02a2d6dd3751ffbc2288c0baca8446b70c0a189e92",
+    "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "proposals",
+      "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "command": "commonplace-revise apply kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md --purpose 'Commonplace maintainers and agents who must decide whether to keep, rank or reject a KB note should be able to see which valuation lenses the KB offers, which problems remain open, and why the question matters under autonomous production.' --must-keep 'Those goals decide what a collection admits in principle, but they do not exhaust how to rank, keep, or reject candidate notes.' --must-keep 'Under the conjecture that weakly discriminated qualities tend to be underselected, an autonomous authoring loop can enrich accepted notes more strongly for validity than for usefulness, and if production favors fluent local additions, clutter can accumulate.' --must-keep 'A note can be grounded and coherent yet redundant or too narrow to justify its maintenance cost.'",
+        "record": "commonplace-revise answers record kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md"
+      },
+      "answers": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md"
+      ],
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/edits/ed5e4f90b054cc246e9125e3/results/a2ec85cf163948d5a3c0306561cc00bc/result.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "direct-entry",
+      "what": "The plan entry `readability-and-flow` was not run.",
+      "actor": "worker",
+      "effort": "judgment",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-revise kb/notes/how-do-we-value-notes.md --plan kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/continue/2.yaml"
+      },
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/assessment.md",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/plan.yaml",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/continue/2.yaml"
+      ]
+    },
+    {
+      "id": "3",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/assessment.md"
+      ]
+    }
+  ]
+}

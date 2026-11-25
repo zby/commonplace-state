@@ -1,0 +1,767 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+  "artifact": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Agents and maintainers deciding how to divide an autonomous fixed-weight learning loop between harness code and the model should see which jobs code can take, which three semantic competences stay on the model, and how settled that split and its evidence are.",
+    "must-keep": [
+      "In open-ended work, three semantic competences that harness code does not supply remain on the base LLM: interpreting unformalized text into action; diagnosing novel failures and synthesizing candidates across text and code; judging unformalized trade-offs and recognizing missing evidence.",
+      "Harness code can relocate mechanical and structural work, yet semantic work can be relocated without being eliminated.",
+      "An LLM that writes code can also build new harness tools for the offloaded jobs.",
+      "Store-level maintenance and criterion revision do not require a separate model competence.",
+      "Clearing these competences is proposed as necessary for operating the loop autonomously, not sufficient for sustained continual learning.",
+      "Any sub-task shown to be reliably offloadable to harness code moves out of the LLM column, and concrete bottlenecks discovered in practice can add to it."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "Only the first two items: the first mention of selection-based learning in the opening paragraph, and the 'Following scheduler–LLM separation' clause. Leave 'transfer tests' and 'outer-loop learning' untouched.",
+        "finding": "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/accessibility/undefined-terms.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The sentence beginning 'Because an LLM that writes code' (keep its tool-building point) and the first Scope bullet (keep its revision rule). Do not touch 'irreducible' in the competence introduction.",
+        "finding": "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/compression-bundle/marginal-value-redundancy.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The inline diagnostic-richness parenthetical in competence 2 only; do not reword the competence itself.",
+        "finding": "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/sentence/misleading-link-text.md"
+      },
+      {
+        "pass": "fix-strategy-taxonomy",
+        "scope": "The frontmatter description only; do not assert 'irreducible' or cite the Harness Evolution evidence there.",
+        "finding": "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/frontmatter/description-discrimination.md"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 48
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/agentic-systems/reviews/autogenesis.md",
+          "kb/articles/can-an-llm-judge-which-changes-are-worth-making.md",
+          "kb/sources/agent-behavioral-contracts-formal-specification-runtime.ingest.md",
+          "kb/sources/agent-workflow-memory.ingest.md",
+          "kb/sources/agents-explore-but-agents-ignore-llms-lack-environmental.ingest.md",
+          "kb/sources/angilella-ordinal-regression-smaa-choquet.ingest.md",
+          "kb/sources/baudrit-joint-propagation-probability-possibility.ingest.md",
+          "kb/sources/boyd-vandenberghe-convex-optimization.ingest.md",
+          "kb/sources/claude-code-dynamic-workflows-docs.ingest.md",
+          "kb/sources/context-engineering-ai-agents-oss.ingest.md",
+          "kb/sources/electre-methods.ingest.md",
+          "kb/sources/externalization-in-llm-agents-unified-review.ingest.md",
+          "kb/sources/greco-ordinal-regression-revisited.ingest.md",
+          "kb/sources/harness-engineering-is-cybernetics-2030416758138634583.ingest.md",
+          "kb/sources/harness-engineering-leveraging-codex-agent-first-world.ingest.md",
+          "kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md",
+          "kb/sources/induction-bias-sequence-models-ebrahimi-2026.ingest.md",
+          "kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md",
+          "kb/sources/koylanai-personal-brain-os.ingest.md",
+          "kb/sources/lessons-from-building-ai-agents-for-financial-services.ingest.md",
+          "kb/sources/letta-memgpt-stateful-agents.ingest.md",
+          "kb/sources/making-reflective-equilibrium-precise.ingest.md",
+          "kb/sources/memento-skills-let-agents-design-agents.ingest.md",
+          "kb/sources/meta-harness-end-to-end-optimization-of-model-harnesses.ingest.md",
+          "kb/sources/mini-exercise-mismanaged-geniuses-longcot-rlm.ingest.md",
+          "kb/sources/mustajoki-interval-smart-swing.ingest.md",
+          "kb/sources/open-continual-learning-2080310986850840656.ingest.md",
+          "kb/sources/openclaw-rl-train-any-agent-simply-by-talking.ingest.md",
+          "kb/sources/pathway-beyond-transformers-sudoku-bench.ingest.md",
+          "kb/sources/professional-software-developers-dont-vibe-they-control.ingest.md",
+          "kb/sources/self-improving-ai-coding-agents-through-accumulated-rules.ingest.md",
+          "kb/sources/skill-synthesis-materializing-knowledge-as-skills-2032179291031.ingest.md",
+          "kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md",
+          "kb/sources/skillrl-evolving-agents-recursive-skill-augmented-rl.ingest.md",
+          "kb/sources/the-agent-loop-architecture-2067677007140278630.ingest.md",
+          "kb/sources/the-anatomy-of-an-agent-harness-2031408954517971368.ingest.md",
+          "kb/sources/the-flawed-ephemeral-software-hypothesis.ingest.md",
+          "kb/sources/the-price-of-robustness.ingest.md",
+          "kb/sources/the-spec-is-the-new-code-a-guide-to-spec-driven-development.ingest.md",
+          "kb/sources/the-what-and-when-of-self-evolving-agents.ingest.md",
+          "kb/sources/trajectory-informed-memory-generation-self-improving-agents.ingest.md",
+          "kb/sources/we-should-take-text-optimization-more-seriously.ingest.md",
+          "kb/sources/what-spec-driven-development-gets-wrong-2025993446633492725.ingest.md",
+          "kb/tags/robust-comparison-README.md",
+          "kb/theory/a-dominance-cone-can-allow-some-offsets-but-not-others.md",
+          "kb/theory/a-veto-can-block-outranking-without-deciding-the-reverse.md",
+          "kb/theory/defining-improvement-for-open-ended-work.md",
+          "kb/theory/on-balance-judgment-with-an-llm.md",
+          "kb/theory/selection-based-learning-needs-only-a-local-comparison.md",
+          "kb/work/agent-runtime-design/runtime-minimality-is-a-protected-waist-not-a-small-feature-list.md",
+          "kb/work/dsw-talk/outline.md",
+          "kb/work/explanatory-theories-deployment-time-learning/exo-case.md",
+          "kb/work/explanatory-theories-deployment-time-learning/for-hcl-authors.md",
+          "kb/work/replaying-operator-rulings/claims/case-5-785ffc64a/status",
+          "kb/work/tag-maintenance-and-collection-scope/README.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/claim-strength.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/claim-strength",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/title-as-claim",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-composability.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/title-composability",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/explanatory-reach.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/explanatory-reach",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "fail",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/load-bearing-qualifiers.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/load-bearing-qualifiers",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unearned-generality.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/unearned-generality",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/semantic/unwarranted-scope.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::semantic/unwarranted-scope",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/theory/COLLECTION.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/theory/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d01.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d05.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-C-d03.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d04.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d06.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d02.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d08.txt",
+          "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/results-sol.md",
+          "kb/work/replaying-operator-rulings/claims/case-5-785ffc64a/status"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/accessibility/undefined-terms.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/accessibility/unidentified-references.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/frontmatter/description-discrimination.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/theory/COLLECTION.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/prose/anthropomorphic-framing.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/completeness-boundary-cases.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/epistemic-status-blur.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/grounding-alignment.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/semantic/underspecified-assertions.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/sentence/clause-packing.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/sentence/misleading-link-text.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/composition-friction-gate.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/critique-note.md",
+    "kb/workflow-state/data/current/review/results/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/synthesis",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "fix-strategy-taxonomy/accessibility/undefined-terms",
+      "scope": "Only the first two items: the first mention of selection-based learning in the opening paragraph, and the 'Following scheduler–LLM separation' clause. Leave 'transfer tests' and 'outer-loop learning' untouched.",
+      "effort": "judgment",
+      "finding": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/findings/accessibility/undefined-terms.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/reports/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/texts/fix-strategy-taxonomy/accessibility/undefined-terms.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy",
+      "scope": "The sentence beginning 'Because an LLM that writes code' (keep its tool-building point) and the first Scope bullet (keep its revision rule). Do not touch 'irreducible' in the competence introduction.",
+      "effort": "judgment",
+      "finding": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/findings/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/reports/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/texts/fix-strategy-taxonomy/kb/instructions/compression-bundle/marginal-value-redundancy.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/sentence/misleading-link-text",
+      "scope": "The inline diagnostic-richness parenthetical in competence 2 only; do not reword the competence itself.",
+      "effort": "judgment",
+      "finding": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/findings/sentence/misleading-link-text.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/reports/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/texts/fix-strategy-taxonomy/sentence/misleading-link-text.md",
+      "answers": null
+    },
+    {
+      "name": "fix-strategy-taxonomy/frontmatter/description-discrimination",
+      "scope": "The frontmatter description only; do not assert 'irreducible' or cite the Harness Evolution evidence there.",
+      "effort": "judgment",
+      "finding": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/findings/frontmatter/description-discrimination.md",
+      "state": "applied",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/reports/fix-strategy-taxonomy/frontmatter/description-discrimination.md",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/texts/fix-strategy-taxonomy/frontmatter/description-discrimination.md",
+      "answers": null
+    }
+  ],
+  "proposed": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.md",
+  "new-warnings": [
+    "[schema] frontmatter.description: description should be at most 250 characters"
+  ],
+  "published": false,
+  "publications": [],
+  "not-published": "The proposed text is kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.md; it is not published: it adds validation warnings the note does not have. It is published only when the operator names this run: `commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z`.",
+  "held": {
+    "candidate": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.md",
+    "diff": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.diff",
+    "new-warnings": [
+      "[schema] frontmatter.description: description should be at most 250 characters"
+    ],
+    "command": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+    "revised-command": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z --revised FILE"
+  },
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/continuation.json",
+    "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+    "made-for": {
+      "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+      "sha256": "2995eb9053be7afa1d84d3f0989e6751a44919eec5a76a1574508655eba2882c",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "held-candidate",
+        "what": "The candidate adds validation warnings the note does not have: [schema] frontmatter.description: description should be at most 250 characters. It is published only on the operator's word.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "command": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+          "revised": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z --revised FILE"
+        },
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.md",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.diff"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/assessment.md"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "kb/agentic-systems/reviews/autogenesis.md",
+      "kb/articles/can-an-llm-judge-which-changes-are-worth-making.md",
+      "kb/sources/agent-behavioral-contracts-formal-specification-runtime.ingest.md",
+      "kb/sources/agent-workflow-memory.ingest.md",
+      "kb/sources/agents-explore-but-agents-ignore-llms-lack-environmental.ingest.md",
+      "kb/sources/angilella-ordinal-regression-smaa-choquet.ingest.md",
+      "kb/sources/baudrit-joint-propagation-probability-possibility.ingest.md",
+      "kb/sources/boyd-vandenberghe-convex-optimization.ingest.md",
+      "kb/sources/claude-code-dynamic-workflows-docs.ingest.md",
+      "kb/sources/context-engineering-ai-agents-oss.ingest.md",
+      "kb/sources/electre-methods.ingest.md",
+      "kb/sources/externalization-in-llm-agents-unified-review.ingest.md",
+      "kb/sources/greco-ordinal-regression-revisited.ingest.md",
+      "kb/sources/harness-engineering-is-cybernetics-2030416758138634583.ingest.md",
+      "kb/sources/harness-engineering-leveraging-codex-agent-first-world.ingest.md",
+      "kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md",
+      "kb/sources/induction-bias-sequence-models-ebrahimi-2026.ingest.md",
+      "kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md",
+      "kb/sources/koylanai-personal-brain-os.ingest.md",
+      "kb/sources/lessons-from-building-ai-agents-for-financial-services.ingest.md",
+      "kb/sources/letta-memgpt-stateful-agents.ingest.md",
+      "kb/sources/making-reflective-equilibrium-precise.ingest.md",
+      "kb/sources/memento-skills-let-agents-design-agents.ingest.md",
+      "kb/sources/meta-harness-end-to-end-optimization-of-model-harnesses.ingest.md",
+      "kb/sources/mini-exercise-mismanaged-geniuses-longcot-rlm.ingest.md",
+      "kb/sources/mustajoki-interval-smart-swing.ingest.md",
+      "kb/sources/open-continual-learning-2080310986850840656.ingest.md",
+      "kb/sources/openclaw-rl-train-any-agent-simply-by-talking.ingest.md",
+      "kb/sources/pathway-beyond-transformers-sudoku-bench.ingest.md",
+      "kb/sources/professional-software-developers-dont-vibe-they-control.ingest.md",
+      "kb/sources/self-improving-ai-coding-agents-through-accumulated-rules.ingest.md",
+      "kb/sources/skill-synthesis-materializing-knowledge-as-skills-2032179291031.ingest.md",
+      "kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md",
+      "kb/sources/skillrl-evolving-agents-recursive-skill-augmented-rl.ingest.md",
+      "kb/sources/the-agent-loop-architecture-2067677007140278630.ingest.md",
+      "kb/sources/the-anatomy-of-an-agent-harness-2031408954517971368.ingest.md",
+      "kb/sources/the-flawed-ephemeral-software-hypothesis.ingest.md",
+      "kb/sources/the-price-of-robustness.ingest.md",
+      "kb/sources/the-spec-is-the-new-code-a-guide-to-spec-driven-development.ingest.md",
+      "kb/sources/the-what-and-when-of-self-evolving-agents.ingest.md",
+      "kb/sources/trajectory-informed-memory-generation-self-improving-agents.ingest.md",
+      "kb/sources/we-should-take-text-optimization-more-seriously.ingest.md",
+      "kb/sources/what-spec-driven-development-gets-wrong-2025993446633492725.ingest.md",
+      "kb/tags/robust-comparison-README.md",
+      "kb/theory/a-dominance-cone-can-allow-some-offsets-but-not-others.md",
+      "kb/theory/a-veto-can-block-outranking-without-deciding-the-reverse.md",
+      "kb/theory/defining-improvement-for-open-ended-work.md",
+      "kb/theory/on-balance-judgment-with-an-llm.md",
+      "kb/theory/selection-based-learning-needs-only-a-local-comparison.md",
+      "kb/work/agent-runtime-design/runtime-minimality-is-a-protected-waist-not-a-small-feature-list.md",
+      "kb/work/dsw-talk/outline.md",
+      "kb/work/explanatory-theories-deployment-time-learning/exo-case.md",
+      "kb/work/explanatory-theories-deployment-time-learning/for-hcl-authors.md",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d01.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-A-d05.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-C-d03.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d04.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-R-d06.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d02.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/positive-evidence/case5-sol-RA-d08.txt",
+      "kb/work/replaying-operator-rulings/case-5-harness-offload-competences/results-sol.md",
+      "kb/work/tag-maintenance-and-collection-scope/README.md"
+    ]
+  }
+}

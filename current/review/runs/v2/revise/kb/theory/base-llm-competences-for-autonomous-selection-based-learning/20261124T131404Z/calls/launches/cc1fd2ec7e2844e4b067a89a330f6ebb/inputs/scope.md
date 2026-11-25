@@ -1,0 +1,1 @@
+The sentence beginning 'Because an LLM that writes code' (keep its tool-building point) and the first Scope bullet (keep its revision rule). Do not touch 'irreducible' in the competence introduction.

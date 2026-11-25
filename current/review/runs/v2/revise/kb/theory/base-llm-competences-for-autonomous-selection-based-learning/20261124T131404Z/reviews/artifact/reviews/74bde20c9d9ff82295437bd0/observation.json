@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "id": "74bde20c9d9ff82295437bd0",
+  "request": {
+    "job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/title-as-claim",
+    "call-job": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/*",
+    "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+    "criterion": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+    "contract": "verdict",
+    "kind": "gate",
+    "criterion-id": "frontmatter/title-as-claim",
+    "target-sha256": "2995eb9053be7afa1d84d3f0989e6751a44919eec5a76a1574508655eba2882c",
+    "criterion-bytes-sha256": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+    "contract-sha256": "e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082",
+    "prompt-sha256": "0ce57a842be73afe0ec2c2b9acbe26291d350746dcdca3fadaeda65216ed5929",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "2995eb9053be7afa1d84d3f0989e6751a44919eec5a76a1574508655eba2882c",
+      "gate-claim-strength.md": "93322659c6e738fddffdba181825aadfe4337fd380d31b1fa357f8b747286b7b",
+      "gate-description-discrimination.md": "17cbbd1fca45e6be71ce6750fe85980667f4958045e3610c4bb9378b13702bcf",
+      "gate-title-as-claim.md": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "gate-title-body-alignment.md": "de8c42250a2824eafffe5172cc56ff93a0335bd97feeb86ac9e95d7f94441a3d",
+      "gate-title-composability.md": "f8cac17c0f9608c444b3115f63e8e2458abf21903cb5a82a4e41d74dbf629e52",
+      "output-contract-0.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-1.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "output-contract-2.md": "f952d12d32ba9529ffdf50770abbc060cb9ba53b33740b308ce3710ef837de03"
+    }
+  },
+  "kb-commit": "66bf90385eb478c33ca9f6c0797d82fce2e0ae06",
+  "content-state": {
+    "kb/sources/boyd-vandenberghe-convex-optimization.ingest.md": {
+      "kind": "file",
+      "sha256": "ce546b84e48f5baa6d71110aaa805660605b246bea650bdf9a442f493152452d"
+    },
+    "kb/sources/electre-methods.ingest.md": {
+      "kind": "file",
+      "sha256": "b863137de6baceb00f17dc9ba0133896577ca6ca0c8a1ac99b5c991096c6ed56"
+    },
+    "kb/theory/a-dominance-cone-can-allow-some-offsets-but-not-others.md": {
+      "kind": "file",
+      "sha256": "3fab45e731940c1d0de68b9ee5b36f5d30dd7f4c9add297b8389f363036893b3"
+    },
+    "kb/theory/a-veto-can-block-outranking-without-deciding-the-reverse.md": {
+      "kind": "file",
+      "sha256": "ede2974b5f84312de468b49fa245f72c88c8b8ccd4205ef811d741dde08cbc94"
+    },
+    "kb/theory/on-balance-judgment-with-an-llm.md": {
+      "kind": "file",
+      "sha256": "9354e954f3aa3fb02b12a7c6cdb8f313bb1d9ebd2ea95ad8facd40b0fb0cb845"
+    },
+    "kb/work/labyrinth-author-memo.md": {
+      "kind": "file",
+      "sha256": "45c2ea960b255de4c3ffd06038fc017ac5b37771c00756a7792fb3cfa135640a"
+    },
+    "kb/work/labyrinth-author-research.md": {
+      "kind": "file",
+      "sha256": "acd1d340f005a35a3d05be3b8062e0113ee1f687d47ad02bed68bcb48a079c11"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "d63806395383a903dafe2fbcc1bd1cdba6e63c6d87bb93f0f416255dd00ae048",
+  "executor": {
+    "path": "provenance/4423f38f151277c4d9ea75eca6cf084e37ddea71d5eece38691483382b4b85cb.json",
+    "sha256": "4423f38f151277c4d9ea75eca6cf084e37ddea71d5eece38691483382b4b85cb"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+      "path": "inputs/target/kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+      "sha256": "2995eb9053be7afa1d84d3f0989e6751a44919eec5a76a1574508655eba2882c",
+      "bytes": 6537,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/review-gates/frontmatter/title-as-claim.md",
+      "path": "inputs/criterion.md",
+      "sha256": "da5163bbcb22221757ec2e6b07745d3f4a6059a5efa11367b2482cb3b97fdbbe",
+      "bytes": 1118,
+      "input": "gate-title-as-claim.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "0ce57a842be73afe0ec2c2b9acbe26291d350746dcdca3fadaeda65216ed5929",
+      "bytes": 2997
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "workflow-state/COLLECTION.md",
+      "path": "inputs/contract/workflow-state/COLLECTION.md",
+      "sha256": "f952d12d32ba9529ffdf50770abbc060cb9ba53b33740b308ce3710ef837de03",
+      "bytes": 1897,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/af7ba71d36384ef4841ef1b63957d40e/review-title-as-claim.md"
+  ],
+  "completed-result-sha256": {
+    "results/af7ba71d36384ef4841ef1b63957d40e/review-title-as-claim.md": "f9f8565daa2b52039cbaa9a606d837fef7fcb674375f8d3331656beb9b8672b9"
+  },
+  "latest-result": "results/af7ba71d36384ef4841ef1b63957d40e/review-title-as-claim.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md::frontmatter/*",
+      "key": "bd16d60c33fbc45124b543b4c6a2169af9b67eed81ce13f566524105fbaf923a"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

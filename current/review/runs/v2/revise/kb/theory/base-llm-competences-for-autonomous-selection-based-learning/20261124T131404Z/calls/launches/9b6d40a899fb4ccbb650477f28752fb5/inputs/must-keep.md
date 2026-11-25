@@ -1,0 +1,6 @@
+- In open-ended work, three semantic competences that harness code does not supply remain on the base LLM: interpreting unformalized text into action; diagnosing novel failures and synthesizing candidates across text and code; judging unformalized trade-offs and recognizing missing evidence.
+- Harness code can relocate mechanical and structural work, yet semantic work can be relocated without being eliminated.
+- An LLM that writes code can also build new harness tools for the offloaded jobs.
+- Store-level maintenance and criterion revision do not require a separate model competence.
+- Clearing these competences is proposed as necessary for operating the loop autonomously, not sufficient for sustained continual learning.
+- Any sub-task shown to be reliably offloadable to harness code moves out of the LLM column, and concrete bottlenecks discovered in practice can add to it.

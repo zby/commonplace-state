@@ -1,0 +1,74 @@
+{
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z",
+  "made-for": {
+    "note": "kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md",
+    "sha256": "5ebf2b7f00fd2290167f4d32743338a3d459fe52ccb8a8e565177acddf42617e",
+    "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "proposals",
+      "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "command": "commonplace-revise apply kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md --purpose 'A reader of the continual-learning article, or an agent designing a selection-based learner, should understand why credit assignment over a retained store is a debugging problem rather than a gradient problem, which three properties make a prose-and-code store harder to debug than software, and which levers keep it debuggable, without being told those levers are stronger than they are.' --must-keep 'Credit assignment without a chain rule is a debugging problem over an interdependent store.' --must-keep 'What makes a mixed prose-and-code store harder to debug than ordinary software is not the lack of gradients, but three properties that weaken ordinary debugging tools: softer traces, implicit coupling, and noisier, diffuse failures.' --must-keep 'Selection-based learning over a store of instructions, hypotheses, checks, and scripts has no chain rule, so its credit assignment is far less scalable than gradient learning.'",
+        "record": "commonplace-revise answers record kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+      },
+      "answers": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md"
+      ],
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/abstractions-answers.md",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/edits/9c8826b9a72c72ef72fea139/results/9689a263d833403682bfb60a443b16f6/result.md"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "direct-entry",
+      "what": "The plan entry `readability-and-flow` was not run.",
+      "actor": "worker",
+      "effort": "judgment",
+      "after": [
+        "1"
+      ],
+      "how": {
+        "command": "commonplace-revise kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md --plan kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/continue/2.yaml"
+      },
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/assessment.md",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/plan.yaml",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/continue/2.yaml"
+      ]
+    },
+    {
+      "id": "3",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/assessment.md"
+      ]
+    },
+    {
+      "id": "4",
+      "kind": "stale-reviews",
+      "what": "44 stored review result(s) of the note are stale. Nothing schedules reviewing them again.",
+      "actor": "worker",
+      "after": [
+        "1",
+        "2",
+        "3"
+      ],
+      "how": {
+        "command": "commonplace-review status kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning.md --stale"
+      },
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/publications/1.diff"
+      ]
+    }
+  ]
+}

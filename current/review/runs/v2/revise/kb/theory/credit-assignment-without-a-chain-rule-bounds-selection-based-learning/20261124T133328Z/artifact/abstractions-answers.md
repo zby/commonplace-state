@@ -1,0 +1,19 @@
+---
+type: types/answers.md
+description: The operator's answers to kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/edits/9c8826b9a72c72ef72fea139/results/9689a263d833403682bfb60a443b16f6/result.md
+question: kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/credit-assignment-without-a-chain-rule-bounds-selection-based-learning/20261124T133328Z/artifact/edits/9c8826b9a72c72ef72fea139/results/9689a263d833403682bfb60a443b16f6/result.md
+question-sha256: c717f10005f8bddd03e7c906bc37efe4cb053766b9439c90e1ca1a6b15ef0bdc
+items:
+- id: '1'
+  proposal:
+    quote: accelerating store bloat into an accretion plateau
+    change: 'Replace the coined term with ordinary words: "accelerating store bloat until further additions stop improving the system". This is the term''s only occurrence in the note.'
+    reason: '"Accretion plateau" is coined in the continual-learning article. This note does not define it, and the linked note (raw accumulation does not create usable memory) does not use it, so here it is unexplained jargon. No occurrence needs the distinction: the sentence already names the cause (appending local exceptions, store bloat), so "accretion" adds nothing that the ordinary wording loses. The plain phrasing states the same consequence, a stall in improvement caused by accumulation, without widening or narrowing the claim. kb-role does not list the term as relied on. Counter-consideration for the operator: the article that links here uses "accretion plateau" twice, so keeping it would preserve cross-artifact wording. If kept, it should be glossed at this use (opening-and-title pass).'
+  state: approved
+  decided-by: operator
+  decided-at: '2026-11-25T04:52:24Z'
+---
+
+# Answers
+
+Set each item's `state` on the operator's word: `approved`, `rejected` with a `reason`, or `deferred` with a `reason` and a `revisit` condition. A decided item also carries `decided-by: operator` and `decided-at`. Change no `id` or `proposal`.

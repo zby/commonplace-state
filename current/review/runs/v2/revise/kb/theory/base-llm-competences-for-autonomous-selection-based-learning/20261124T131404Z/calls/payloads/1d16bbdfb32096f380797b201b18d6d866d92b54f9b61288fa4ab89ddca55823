@@ -1,0 +1,1 @@
+The frontmatter description only; do not assert 'irreducible' or cite the Harness Evolution evidence there.

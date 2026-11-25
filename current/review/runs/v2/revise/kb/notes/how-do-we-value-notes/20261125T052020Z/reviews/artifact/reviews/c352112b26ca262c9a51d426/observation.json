@@ -1,0 +1,364 @@
+{
+  "version": 3,
+  "id": "c352112b26ca262c9a51d426",
+  "request": {
+    "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/detail-overhang",
+    "call-job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/detail-overhang",
+    "note": "kb/notes/how-do-we-value-notes.md",
+    "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+    "contract": "verdict",
+    "kind": "compression",
+    "criterion-id": "kb/instructions/compression-bundle/detail-overhang",
+    "target-sha256": "b5cf96fb9ebd96b737254b02a2d6dd3751ffbc2288c0baca8446b70c0a189e92",
+    "criterion-bytes-sha256": "e38e03f9aa6d4ecefdd4674ce0acc478dab89aa53e86ceb02e0438670fac7187",
+    "contract-sha256": "e1833bb74645a85c69185c6f1cb536109cd143c1cc2f37344fbbdda8582ef082",
+    "prompt-sha256": "69bd864d02d510e37e7bbe23b6b7e2f0c00026d772e18d3c34f39ce38602ccb3",
+    "profile": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "timeout": 86400.0,
+    "call-inputs": {
+      "note.md": "b5cf96fb9ebd96b737254b02a2d6dd3751ffbc2288c0baca8446b70c0a189e92",
+      "criterion.md": "e38e03f9aa6d4ecefdd4674ce0acc478dab89aa53e86ceb02e0438670fac7187",
+      "output-contract-0.md": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "output-contract-1.md": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "output-contract-2.md": "f952d12d32ba9529ffdf50770abbc060cb9ba53b33740b308ce3710ef837de03"
+    }
+  },
+  "kb-commit": "9a7ce5a81f43a6a69135b06c9962da2c9eb5439b",
+  "content-state": {
+    "kb/agentic-systems/reviews/autogenesis.md": {
+      "kind": "file",
+      "sha256": "6cc1dbda17e6bbed9b5bac2f6b18a9aa3aba56b6cd6cb24f8a4f1bcadcc6407a"
+    },
+    "kb/articles/can-an-llm-judge-which-changes-are-worth-making.md": {
+      "kind": "file",
+      "sha256": "c6a7cc160c51395297fcc080b80280e2e05a9ab0cf1160988748388be8260e9d"
+    },
+    "kb/sources/agent-behavioral-contracts-formal-specification-runtime.ingest.md": {
+      "kind": "file",
+      "sha256": "e7aa2b376bcd91792c0fbfa913ee5ca635631c800a4867e6fc84895d63de6470"
+    },
+    "kb/sources/agent-workflow-memory.ingest.md": {
+      "kind": "file",
+      "sha256": "666fcde0ec7d57e132f8b04de8f5cf78fa7e50116f7e57ca851feea2cc0fde5f"
+    },
+    "kb/sources/agents-explore-but-agents-ignore-llms-lack-environmental.ingest.md": {
+      "kind": "file",
+      "sha256": "fcd2d2a9846bff30f16a7a454bd1d9e8d86b323fb3154098e02f518b8f4238d5"
+    },
+    "kb/sources/angilella-ordinal-regression-smaa-choquet.ingest.md": {
+      "kind": "file",
+      "sha256": "a1775e2e2982b69b80b86874991c5fb2200d400265b28965669ce132efa16dc0"
+    },
+    "kb/sources/baudrit-joint-propagation-probability-possibility.ingest.md": {
+      "kind": "file",
+      "sha256": "411a9f4e8dc02c69af77ceb2d17d5f1250142e8ed858c615266f92b0b47cd9e3"
+    },
+    "kb/sources/claude-code-dynamic-workflows-docs.ingest.md": {
+      "kind": "file",
+      "sha256": "ca9b7b4a995669b7eaa8ebdb0d22c699415fa56c6348839410bc574a4f199494"
+    },
+    "kb/sources/context-engineering-ai-agents-oss.ingest.md": {
+      "kind": "file",
+      "sha256": "be582da19aa63f24e6dd7ba0ec865b14e74aa394ac0744f8bfdb2d27bb73a2ae"
+    },
+    "kb/sources/externalization-in-llm-agents-unified-review.ingest.md": {
+      "kind": "file",
+      "sha256": "cd74e1300e5864eeb2236ea4753d5524c677046117b62e3d6f03a44f4087698d"
+    },
+    "kb/sources/greco-ordinal-regression-revisited.ingest.md": {
+      "kind": "file",
+      "sha256": "10ec36bd3bd4436b31a7daa0517ac0a9c6fa200295c854b164e66af80a74e05c"
+    },
+    "kb/sources/harness-engineering-is-cybernetics-2030416758138634583.ingest.md": {
+      "kind": "file",
+      "sha256": "226bb322817066fab48cbc1aab68712398326a5207e17ac299c0c6298333e9d4"
+    },
+    "kb/sources/harness-engineering-leveraging-codex-agent-first-world.ingest.md": {
+      "kind": "file",
+      "sha256": "bc41937f8b21bde782dc09db1486d8e5075102a5a88608dd200501fb78314256"
+    },
+    "kb/sources/huxley-godel-machine-human-level-coding-agent-development.ingest.md": {
+      "kind": "file",
+      "sha256": "746a8ae64b2cd9a3f8c95499a280b6f8eef87ebc5b7680684c0abc8e07d879a1"
+    },
+    "kb/sources/induction-bias-sequence-models-ebrahimi-2026.ingest.md": {
+      "kind": "file",
+      "sha256": "4f54a1f6aab6609e4da4ebaeaee5acacac516eb34bddd03c327531ab5779b91c"
+    },
+    "kb/sources/knowledge-centric-self-improvement-2607.19592.ingest.md": {
+      "kind": "file",
+      "sha256": "8d83b75686b189dd4c110ddcb53972543ff99baad491515521d9705f40dbfe62"
+    },
+    "kb/sources/koylanai-personal-brain-os.ingest.md": {
+      "kind": "file",
+      "sha256": "29b364dac8d5227bfbcc67d13900bab481609cbd9758a2e4f7d36643eb7026a7"
+    },
+    "kb/sources/lessons-from-building-ai-agents-for-financial-services.ingest.md": {
+      "kind": "file",
+      "sha256": "9376ab1192f5277ae7db0cbdea0d6cfef149760faaea093d7aead08b3aeaa34a"
+    },
+    "kb/sources/letta-memgpt-stateful-agents.ingest.md": {
+      "kind": "file",
+      "sha256": "33b5e818a12efa1e4d078b3c51760a8ce9a56faff457bce96217bf986e7d5272"
+    },
+    "kb/sources/making-reflective-equilibrium-precise.ingest.md": {
+      "kind": "file",
+      "sha256": "097d4ca77ec96415bafa45b60dd0bfdbd41bc6b694a34a46abfd1a4bea0a9a54"
+    },
+    "kb/sources/memento-skills-let-agents-design-agents.ingest.md": {
+      "kind": "file",
+      "sha256": "3a92b66ea2f4cb634079eaa8a2c011c93f960da0ba7d5f299e0d7023219ec3c5"
+    },
+    "kb/sources/meta-harness-end-to-end-optimization-of-model-harnesses.ingest.md": {
+      "kind": "file",
+      "sha256": "561f22d05f353b1515cf5ee37c45945ca8eb7a52a9310fede74800d20d38fd13"
+    },
+    "kb/sources/mini-exercise-mismanaged-geniuses-longcot-rlm.ingest.md": {
+      "kind": "file",
+      "sha256": "8e3b6eb0e77c289f251c8f850b5a4abb499da7f2c0a6c29391948f153ee05f4b"
+    },
+    "kb/sources/mustajoki-interval-smart-swing.ingest.md": {
+      "kind": "file",
+      "sha256": "763d3e61519debc282de68fa4fa136ef65c07a0c8d08a8748a8df2e79c438a6c"
+    },
+    "kb/sources/open-continual-learning-2080310986850840656.ingest.md": {
+      "kind": "file",
+      "sha256": "457b927daedac0d683f26e66903191faee3a3b085eaada0f93eb2a2ee7916971"
+    },
+    "kb/sources/openclaw-rl-train-any-agent-simply-by-talking.ingest.md": {
+      "kind": "file",
+      "sha256": "523b4b1ccadf30c50b0238d8f88c7f302137d33348050682bf35b7839cedeb85"
+    },
+    "kb/sources/pathway-beyond-transformers-sudoku-bench.ingest.md": {
+      "kind": "file",
+      "sha256": "fea1aa86d629b51de402ebb6eac5fa44d8b932b75bb80b07850e0294e17d4ac3"
+    },
+    "kb/sources/professional-software-developers-dont-vibe-they-control.ingest.md": {
+      "kind": "file",
+      "sha256": "eb49177ebebc64d205c4a01832fff3f3639e304674c446bc37b34bd90f15f132"
+    },
+    "kb/sources/self-improving-ai-coding-agents-through-accumulated-rules.ingest.md": {
+      "kind": "file",
+      "sha256": "5a072403aa0486adc2e3934905af8195b2a9cf0fae58bee21a149606006bc212"
+    },
+    "kb/sources/skill-synthesis-materializing-knowledge-as-skills-2032179291031.ingest.md": {
+      "kind": "file",
+      "sha256": "d163e75eff31544a6ca3595cb0cab9078aa2b5c8f02551e9d05b1a48d7f446be"
+    },
+    "kb/sources/skillopt-executive-strategy-self-evolving-agent-skills.ingest.md": {
+      "kind": "file",
+      "sha256": "32e3c5a89dae858c3e76eecbc0b7dbb426df7827f63ea1530d80357bbe2f9901"
+    },
+    "kb/sources/skillrl-evolving-agents-recursive-skill-augmented-rl.ingest.md": {
+      "kind": "file",
+      "sha256": "08dc4cda0c5a167e22221652ee3a0c3a83bee1353d4fe113440aac5edd4a98ef"
+    },
+    "kb/sources/the-agent-loop-architecture-2067677007140278630.ingest.md": {
+      "kind": "file",
+      "sha256": "87d25c9473df1bd132a514edaf3528865679395a3a956ec3acacbe76c98105fe"
+    },
+    "kb/sources/the-anatomy-of-an-agent-harness-2031408954517971368.ingest.md": {
+      "kind": "file",
+      "sha256": "852267586e6ecba6911f7df06960e7a6705b255267fe3c41fcd97bb8c8c16ef8"
+    },
+    "kb/sources/the-flawed-ephemeral-software-hypothesis.ingest.md": {
+      "kind": "file",
+      "sha256": "ae8314db38b26f2d7584dc9f2890ea04c7f7e09ec5267021d6fb8e340fc408a2"
+    },
+    "kb/sources/the-price-of-robustness.ingest.md": {
+      "kind": "file",
+      "sha256": "894951b4e57c38f58901b8952ea055d2ed5b28d951a13482147c54cfdbfc3c79"
+    },
+    "kb/sources/the-spec-is-the-new-code-a-guide-to-spec-driven-development.ingest.md": {
+      "kind": "file",
+      "sha256": "37f6867e344afd7f364f20f06b2f67a14f2427380fdbe531240763a5acc25d9c"
+    },
+    "kb/sources/the-what-and-when-of-self-evolving-agents.ingest.md": {
+      "kind": "file",
+      "sha256": "ab0df5001c39e932d65850e79d39b92b8140957b2d7675ceb0f00c72ccbf0fc0"
+    },
+    "kb/sources/trajectory-informed-memory-generation-self-improving-agents.ingest.md": {
+      "kind": "file",
+      "sha256": "8c46f3b734f4eb4261eb404953ac9ea40c755cbb32571ae92c36d97b945de712"
+    },
+    "kb/sources/we-should-take-text-optimization-more-seriously.ingest.md": {
+      "kind": "file",
+      "sha256": "e2a2b48fb68b8867c40b04f9be13a9c64cb96171c27252152ca943746043f75d"
+    },
+    "kb/sources/what-spec-driven-development-gets-wrong-2025993446633492725.ingest.md": {
+      "kind": "file",
+      "sha256": "6883088d0498befc8214530148e5333a328376a3edc516456a072fbc4ae30887"
+    },
+    "kb/tags/robust-comparison-README.md": {
+      "kind": "file",
+      "sha256": "ad965494388e09bda9535dab681d6f640d79bf206b4df1b62e3eb7a0f7d2831e"
+    },
+    "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md": {
+      "kind": "file",
+      "sha256": "5847cbdd54ecddba0a11e6486bf33cd3d2961710560367afb926985ec791dc48"
+    },
+    "kb/theory/defining-improvement-for-open-ended-work.md": {
+      "kind": "file",
+      "sha256": "2d1b514a338f6f08f95206679ebb8d22c79d02f1e448e91b49a02e1183a3f59e"
+    },
+    "kb/theory/selection-based-learning-needs-only-a-local-comparison.md": {
+      "kind": "file",
+      "sha256": "1cd3f2e2b0633412b15e441da480d8e55217e974195ce041f9818b05c0a1023c"
+    },
+    "kb/work/README.md": {
+      "kind": "file",
+      "sha256": "d3f001630324b34a3a59d1e92dac5774cc523fa5dbbb9e2ac28ea712bf859df5"
+    },
+    "kb/work/agent-runtime-design/runtime-minimality-is-a-protected-waist-not-a-small-feature-list.md": {
+      "kind": "file",
+      "sha256": "fe1146b1d91708fe963c4ce7d187ed23e86ef682a0ec7e1f3b704dcaffbcc6da"
+    },
+    "kb/work/dsw-talk/outline.md": {
+      "kind": "file",
+      "sha256": "41718e6f102dcfecf4fed0227c4e86bc9bdf8fe947eba46389185821bc146e37"
+    },
+    "kb/work/experimental-mutations/README.md": {
+      "kind": "file",
+      "sha256": "c8c73ad6a1902d40b3ca593b71a0c2324948e8588f619d3c73e728c124176f3f"
+    },
+    "kb/work/experimental-mutations/check-what-a-note-extraction-adds.md": {
+      "kind": "file",
+      "sha256": "768eb7670b244ca181c9e2c7d568c6080e086cc9907d45b4bcbe572723f195a4"
+    },
+    "kb/work/explanatory-theories-deployment-time-learning/exo-case.md": {
+      "kind": "file",
+      "sha256": "77b3d6a6a829cddbf637a8358138686467f0333dbdaa37aefa1e8ce30a719967"
+    },
+    "kb/work/explanatory-theories-deployment-time-learning/for-hcl-authors.md": {
+      "kind": "file",
+      "sha256": "00aa77b0e1161e68244a2e60f3767d75aeb20e68a96735dc8094752e37515bba"
+    },
+    "kb/work/labyrinth-author-memo.md": {
+      "kind": "file",
+      "sha256": "45c2ea960b255de4c3ffd06038fc017ac5b37771c00756a7792fb3cfa135640a"
+    },
+    "kb/work/labyrinth-author-research.md": {
+      "kind": "file",
+      "sha256": "acd1d340f005a35a3d05be3b8062e0113ee1f687d47ad02bed68bcb48a079c11"
+    },
+    "kb/work/note-extraction-trials/README.md": {
+      "kind": "file",
+      "sha256": "d81b8780146c357606d7e84a6472661149728d2831c26e53face69beccb86895"
+    },
+    "kb/work/note-extraction-trials/assignments.md": {
+      "kind": "file",
+      "sha256": "54138efaf16f7e83648283903f02d06d6c4b40957a3e5a85dafac4279d644f45"
+    },
+    "kb/work/note-extraction-trials/drafts/A1.md": {
+      "kind": "file",
+      "sha256": "c30929c0f65b0f696da24c391aab5c90580dabb93a8a64d6e6e7ca673eb73225"
+    },
+    "kb/work/note-extraction-trials/drafts/A2.md": {
+      "kind": "file",
+      "sha256": "51fb6dabffa728a74674f90925651553dd45a4b19d2bd8bfdcd77dd87ef67d24"
+    },
+    "kb/work/note-extraction-trials/drafts/B1.md": {
+      "kind": "file",
+      "sha256": "0e8bf4f534225708822143a42b8c1f78aef7604056b05b537cef9841b7b273a5"
+    },
+    "kb/work/note-extraction-trials/drafts/B2.md": {
+      "kind": "file",
+      "sha256": "067cdee3dcd09d0986c579c9ccbb2e0db03baae5c9e0bd2feb0d5ba13daf6782"
+    },
+    "kb/work/note-extraction-trials/instruction-as-tested.md": {
+      "kind": "file",
+      "sha256": "ee0e3bddf89b7125870d98c73ef72115c58411b268c8d19c6d521a778b1c0bca"
+    },
+    "kb/work/note-extraction-trials/results.md": {
+      "kind": "file",
+      "sha256": "644f4b1dd4e3c95550c6d60e8cfe497e88531cbea44f96925e1a09244522fe8a"
+    },
+    "kb/work/tag-maintenance-and-collection-scope/README.md": {
+      "kind": "file",
+      "sha256": "fe5856cb974192455191b14010879ccc0b302da4dfddda9a4b42098a845932c9"
+    }
+  },
+  "library-root": "/home/zby/llm/commonplace/kb",
+  "library-policy": "git-visible-or-installed-v1",
+  "library-sha256": "bbf4106f356844f453fa46a9baebf9f43a462b4291b26c61ff45a3b659a3a332",
+  "executor": {
+    "path": "provenance/4423f38f151277c4d9ea75eca6cf084e37ddea71d5eece38691483382b4b85cb.json",
+    "sha256": "4423f38f151277c4d9ea75eca6cf084e37ddea71d5eece38691483382b4b85cb"
+  },
+  "context": "live authored KB; operational inputs confined to this run; library baseline at controller start",
+  "inputs": [
+    {
+      "role": "target",
+      "origin": "kb/notes/how-do-we-value-notes.md",
+      "path": "inputs/target/kb/notes/how-do-we-value-notes.md",
+      "sha256": "b5cf96fb9ebd96b737254b02a2d6dd3751ffbc2288c0baca8446b70c0a189e92",
+      "bytes": 6720,
+      "input": "note.md"
+    },
+    {
+      "role": "criterion",
+      "origin": "kb/instructions/compression-bundle/detail-overhang.md",
+      "path": "inputs/criterion.md",
+      "sha256": "e38e03f9aa6d4ecefdd4674ce0acc478dab89aa53e86ceb02e0438670fac7187",
+      "bytes": 3166,
+      "input": "criterion.md"
+    },
+    {
+      "role": "prompt",
+      "origin": "controller",
+      "path": "inputs/prompt.txt",
+      "sha256": "69bd864d02d510e37e7bbe23b6b7e2f0c00026d772e18d3c34f39ce38602ccb3",
+      "bytes": 1991
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.md",
+      "path": "inputs/contract/types/review-result.md",
+      "sha256": "e9d97d263710e23206eebbb2ee1cf3fdd9646b852131c90181bd892bec26bb02",
+      "bytes": 5391,
+      "input": "output-contract-0.md"
+    },
+    {
+      "role": "contract",
+      "origin": "types/review-result.schema.yaml",
+      "path": "inputs/contract/types/review-result.schema.yaml",
+      "sha256": "5c388bdb33d0db6dfcaec1f0a9acc8c6b331a663f6942fda92f4728d770aaa03",
+      "bytes": 6858,
+      "input": "output-contract-1.md"
+    },
+    {
+      "role": "contract",
+      "origin": "workflow-state/COLLECTION.md",
+      "path": "inputs/contract/workflow-state/COLLECTION.md",
+      "sha256": "f952d12d32ba9529ffdf50770abbc060cb9ba53b33740b308ce3710ef837de03",
+      "bytes": 1897,
+      "input": "output-contract-2.md"
+    }
+  ],
+  "state": "completed",
+  "completed-results": [
+    "results/53523469b20f4c61aa0fedd39fae71f6/review.md"
+  ],
+  "completed-result-sha256": {
+    "results/53523469b20f4c61aa0fedd39fae71f6/review.md": "afb033de9d19bb11a9375e38cf7990c8eba744963e99a82cfc080a065344ee32"
+  },
+  "latest-result": "results/53523469b20f4c61aa0fedd39fae71f6/review.md",
+  "validation-warnings": [],
+  "calls": [
+    {
+      "call": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/detail-overhang",
+      "key": "6b01f6b79d2a273c6746311d84c8ba7239b83db4c4e859268855c1c0d905cd27"
+    }
+  ],
+  "diagnostics": [],
+  "content-rejections": 0,
+  "rejection-events": 0
+}

@@ -1,0 +1,1 @@
+Commonplace maintainers and agents who must decide whether to keep, rank or reject a KB note should be able to see which valuation lenses the KB offers, which problems remain open, and why the question matters under autonomous production.

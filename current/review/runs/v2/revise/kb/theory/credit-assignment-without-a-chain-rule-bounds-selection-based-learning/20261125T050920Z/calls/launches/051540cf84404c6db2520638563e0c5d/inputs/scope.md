@@ -1,0 +1,1 @@
+The second body paragraph ('While a store holds only a few isolated rules...') and the Scope section: fold the flat-lookup-table boundary case into the second paragraph and remove the first Scope bullet; keep the second Scope bullet.

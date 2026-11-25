@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "fixed-plan",
+  "purpose": null,
+  "must-keep": [],
+  "plan": "purpose: Commonplace maintainers and agents who must decide whether to keep, rank\n  or reject a KB note should be able to see which valuation lenses the KB offers,\n  which problems remain open, and why the question matters under autonomous production.\nmust-keep:\n- Those goals decide what a collection admits in principle, but they do not exhaust\n  how to rank, keep, or reject candidate notes.\n- Under the conjecture that weakly discriminated qualities tend to be underselected,\n  an autonomous authoring loop can enrich accepted notes more strongly for validity\n  than for usefulness, and if production favors fluent local additions, clutter can\n  accumulate.\n- A note can be grounded and coherent yet redundant or too narrow to justify its maintenance\n  cost.\nstop: null\npasses:\n- pass: readability-and-flow\n  scope: 'Unsettled section, first bullet (''Root questions versus sub-questions inside\n    notes'') only: split the closed-loop sentence and move the reader-need label list\n    after its verb'\n",
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": null
+}

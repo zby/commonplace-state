@@ -1,0 +1,1 @@
+Agents and maintainers deciding how to divide an autonomous fixed-weight learning loop between harness code and the model should see which jobs code can take, which three semantic competences stay on the model, and how settled that split and its evidence are.

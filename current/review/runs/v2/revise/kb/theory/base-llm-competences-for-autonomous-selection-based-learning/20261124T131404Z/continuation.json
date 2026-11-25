@@ -1,0 +1,36 @@
+{
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+  "made-for": {
+    "note": "kb/theory/base-llm-competences-for-autonomous-selection-based-learning.md",
+    "sha256": "2995eb9053be7afa1d84d3f0989e6751a44919eec5a76a1574508655eba2882c",
+    "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/start.md"
+  },
+  "items": [
+    {
+      "id": "1",
+      "kind": "held-candidate",
+      "what": "The candidate adds validation warnings the note does not have: [schema] frontmatter.description: description should be at most 250 characters. It is published only on the operator's word.",
+      "actor": "operator",
+      "after": [],
+      "how": {
+        "command": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z",
+        "revised": "commonplace-revise publish kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z --revised FILE"
+      },
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.md",
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/final.diff"
+      ]
+    },
+    {
+      "id": "2",
+      "kind": "claim-questions",
+      "what": "The assessment lists claim questions for the operator.",
+      "actor": "operator",
+      "after": [],
+      "how": {},
+      "evidence": [
+        "kb/workflow-state/data/current/review/runs/v2/revise/kb/theory/base-llm-competences-for-autonomous-selection-based-learning/20261124T131404Z/artifact/assessment.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "workflow": "revise",
+  "mode": "fixed-plan",
+  "purpose": null,
+  "must-keep": [],
+  "plan": "purpose: A reader of the continual-learning article, or an agent designing a selection-based\n  learner, should understand why credit assignment over a retained store is a debugging\n  problem rather than a gradient problem, which three properties make a prose-and-code\n  store harder to debug than software, and which levers keep it debuggable, without\n  being told those levers are stronger than they are.\nmust-keep:\n- Credit assignment without a chain rule is a debugging problem over an interdependent\n  store.\n- 'What makes a mixed prose-and-code store harder to debug than ordinary software\n  is not the lack of gradients, but three properties that weaken ordinary debugging\n  tools: softer traces, implicit coupling, and noisier, diffuse failures.'\n- Selection-based learning over a store of instructions, hypotheses, checks, and scripts\n  has no chain rule, so its credit assignment is far less scalable than gradient learning.\nstop: null\npasses:\n- pass: readability-and-flow\n  scope: 'The second body paragraph (''While a store holds only a few isolated rules...'')\n    and the Scope section: fold the flat-lookup-table boundary case into the second\n    paragraph and remove the first Scope bullet; keep the second Scope bullet.'\n",
+  "answers": [],
+  "profiles": {
+    "simple": {
+      "harness": "claude-code",
+      "launch_model": "sonnet",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    },
+    "judgment": {
+      "harness": "claude-code",
+      "launch_model": "opus",
+      "effort": "medium",
+      "flags": {
+        "allowed-tools": "Read,Grep,Glob,Edit(kb/workflow-state/data/current/review/runs/**),Write(kb/workflow-state/data/current/review/runs/**)",
+        "disallowed-tools": "Bash,NotebookEdit"
+      }
+    }
+  },
+  "review-profile": null
+}

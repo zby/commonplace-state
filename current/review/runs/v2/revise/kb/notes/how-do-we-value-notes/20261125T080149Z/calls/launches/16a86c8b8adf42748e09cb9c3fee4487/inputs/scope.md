@@ -1,0 +1,1 @@
+Unsettled section, first bullet ('Root questions versus sub-questions inside notes') only: split the closed-loop sentence and move the reader-need label list after its verb

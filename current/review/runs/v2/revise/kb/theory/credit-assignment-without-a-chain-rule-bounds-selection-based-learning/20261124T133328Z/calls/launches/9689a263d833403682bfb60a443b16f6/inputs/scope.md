@@ -1,0 +1,1 @@
+The opening paragraph's second sentence (first mention of 'Selection-based learning', up to 'far less scalable than gradient learning') and the clause 'accelerating store bloat into an accretion plateau'; exclude the near-decomposability sentence and the opening's 'Yet that does not block full automation' sentence.

@@ -1,0 +1,18 @@
+schema: commonplace.ingest-handoff.v2
+ingest: kb/sources/electre-methods.ingest.md
+snapshot_sha256: ce6b94ad6bb94a4b9e4b27f17133329a51851d1cbe581cf41a851bd9f8531267
+incumbent_sha256: null
+code_grounded: false
+created_snapshot: true
+opened: '2026-11-24T13:07:16+01:00'
+occasion: How do concordance and vetoes decide whether one alternative outranks another,
+  and when does neither outrank the other?
+checks:
+- at: '2026-11-24T13:12:56+01:00'
+  failures: []
+- at: '2026-11-24T13:13:05+01:00'
+  failures: []
+- at: '2026-11-24T13:13:06+01:00'
+  failures: []
+outcome: published
+ended: '2026-11-24T13:13:06+01:00'

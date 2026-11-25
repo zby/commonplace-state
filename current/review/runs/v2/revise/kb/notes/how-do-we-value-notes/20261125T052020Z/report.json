@@ -1,0 +1,545 @@
+{
+  "ok": true,
+  "outcome": "needs-continuation",
+  "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z",
+  "artifact": "kb/notes/how-do-we-value-notes.md",
+  "mode": "full",
+  "plan": {
+    "purpose": "Commonplace maintainers and agents who must decide whether to keep, rank or reject a KB note should be able to see which valuation lenses the KB offers, which problems remain open, and why the question matters under autonomous production.",
+    "must-keep": [
+      "Those goals decide what a collection admits in principle, but they do not exhaust how to rank, keep, or reject candidate notes.",
+      "Under the conjecture that weakly discriminated qualities tend to be underselected, an autonomous authoring loop can enrich accepted notes more strongly for validity than for usefulness, and if production favors fluent local additions, clutter can accumulate.",
+      "A note can be grounded and coherent yet redundant or too narrow to justify its maintenance cost."
+    ],
+    "stop": null,
+    "passes": [
+      {
+        "pass": "abstractions",
+        "scope": "Unsettled section: the words 'subroutines' (first bullet), 'subroutine reuse' and 'demand-root coverage' (Combining-dimensions bullet) only"
+      },
+      {
+        "pass": "readability-and-flow",
+        "scope": "Unsettled section, first bullet ('Root questions versus sub-questions inside notes') only: split the closed-loop sentence and move the reader-need label list after its verb"
+      }
+    ]
+  },
+  "answers": [],
+  "reviews": [
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/reviews",
+      "ok": true,
+      "counts": {
+        "reviewed": 41
+      },
+      "stopped": null,
+      "guard": {
+        "clean": false,
+        "changed": [
+          "HEAD",
+          "kb/notes/how-do-we-fight-bloat-in-agent-produced-systems.md",
+          "kb/sources/why-is-ai-generated-language-so-hard-to-understand.ingest.md"
+        ]
+      },
+      "pairs": [
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/accessibility/jargon-persistence.md",
+          "job": "kb/notes/how-do-we-value-notes.md::accessibility/jargon-persistence",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/accessibility/notation-opacity.md",
+          "job": "kb/notes/how-do-we-value-notes.md::accessibility/notation-opacity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/accessibility/undefined-terms.md",
+          "job": "kb/notes/how-do-we-value-notes.md::accessibility/undefined-terms",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/accessibility/unidentified-references.md",
+          "job": "kb/notes/how-do-we-value-notes.md::accessibility/unidentified-references",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/complexity/claim-to-section-ratio.md",
+          "job": "kb/notes/how-do-we-value-notes.md::complexity/claim-to-section-ratio",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/complexity/connection-inflation.md",
+          "job": "kb/notes/how-do-we-value-notes.md::complexity/connection-inflation",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/complexity/could-be-a-paragraph.md",
+          "job": "kb/notes/how-do-we-value-notes.md::complexity/could-be-a-paragraph",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/complexity/framework-decoration.md",
+          "job": "kb/notes/how-do-we-value-notes.md::complexity/framework-decoration",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/description-discrimination.md",
+          "job": "kb/notes/how-do-we-value-notes.md::frontmatter/description-discrimination",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/frontmatter/title-body-alignment.md",
+          "job": "kb/notes/how-do-we-value-notes.md::frontmatter/title-body-alignment",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/anthropomorphic-framing.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/anthropomorphic-framing",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/mannered-prose.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/mannered-prose",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/orphan-references.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/orphan-references",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/proportion-mismatch.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/proportion-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/redundant-restatement.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/redundant-restatement",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/source-residue.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/source-residue",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/prose/unbridged-cross-domain.md",
+          "job": "kb/notes/how-do-we-value-notes.md::prose/unbridged-cross-domain",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/completeness-boundary-cases.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/completeness-boundary-cases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/conceptual-role-conflation.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/conceptual-role-conflation",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/epistemic-status-blur.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/epistemic-status-blur",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/grounding-alignment.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/grounding-alignment",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/internal-consistency.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/internal-consistency",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/semantic/underspecified-assertions.md",
+          "job": "kb/notes/how-do-we-value-notes.md::semantic/underspecified-assertions",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/clause-packing.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/clause-packing",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/concept-attribution.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/concept-attribution",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/framing-mismatch.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/framing-mismatch",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/misleading-link-text.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/misleading-link-text",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/parsing-ambiguity.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/parsing-ambiguity",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/sentence/stock-phrases.md",
+          "job": "kb/notes/how-do-we-value-notes.md::sentence/stock-phrases",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/structural/bullet-capitalization.md",
+          "job": "kb/notes/how-do-we-value-notes.md::structural/bullet-capitalization",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/structural/compound-bullet.md",
+          "job": "kb/notes/how-do-we-value-notes.md::structural/compound-bullet",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/review-gates/structural/general-before-specific.md",
+          "job": "kb/notes/how-do-we-value-notes.md::structural/general-before-specific",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/types/note.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/types/note",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/notes/COLLECTION.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/notes/COLLECTION",
+          "state": "reviewed",
+          "outcome": "warn",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/compression-bundle/branch-bloat.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/branch-bloat",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/compression-bundle/core-claim-obscured.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/core-claim-obscured",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/compression-bundle/detail-overhang.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/detail-overhang",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/compression-bundle/marginal-value-redundancy.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/marginal-value-redundancy",
+          "state": "reviewed",
+          "outcome": "pass",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/critique-note.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/critique-note",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/composition-friction-gate.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/composition-friction-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        },
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/premise-decomposition-gate.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/premise-decomposition-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/synthesis",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/compression-bundle/high-impact-simplification-synthesis.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/compression-bundle/high-impact-simplification-synthesis",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    },
+    {
+      "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/role",
+      "ok": true,
+      "counts": {
+        "reviewed": 1
+      },
+      "stopped": null,
+      "guard": {
+        "clean": true,
+        "changed": []
+      },
+      "pairs": [
+        {
+          "note": "kb/notes/how-do-we-value-notes.md",
+          "criterion": "kb/instructions/role-in-the-kb-gate.md",
+          "job": "kb/notes/how-do-we-value-notes.md::kb/instructions/role-in-the-kb-gate",
+          "state": "reviewed",
+          "outcome": "report",
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/accessibility/undefined-terms.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/accessibility/unidentified-references.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/complexity/connection-inflation.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/kb/notes/COLLECTION.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/prose/mannered-prose.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/semantic/epistemic-status-blur.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/semantic/grounding-alignment.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/semantic/underspecified-assertions.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/sentence/clause-packing.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/sentence/concept-attribution.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/sentence/misleading-link-text.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/kb/instructions/composition-friction-gate.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/kb/instructions/critique-note.md",
+    "kb/workflow-state/data/current/review/results/kb/notes/how-do-we-value-notes.md/kb/instructions/premise-decomposition-gate.md",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/synthesis",
+    "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/role"
+  ],
+  "triage": null,
+  "passes": [
+    {
+      "name": "abstractions",
+      "scope": "Unsettled section: the words 'subroutines' (first bullet), 'subroutine reuse' and 'demand-root coverage' (Combining-dimensions bullet) only",
+      "effort": "judgment",
+      "finding": null,
+      "state": "waiting",
+      "reason": null,
+      "profile": {
+        "harness": "claude-code",
+        "launch-model": "opus",
+        "effort": "medium"
+      },
+      "model": "claude-opus-5-5",
+      "report": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/reports/abstractions.md",
+      "text": null,
+      "answers": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md"
+    },
+    {
+      "name": "readability-and-flow",
+      "scope": "Unsettled section, first bullet ('Root questions versus sub-questions inside notes') only: split the closed-loop sentence and move the reader-need label list after its verb",
+      "effort": "judgment",
+      "finding": null,
+      "state": "pending",
+      "reason": null,
+      "profile": null,
+      "model": null,
+      "report": null,
+      "text": null,
+      "answers": null
+    }
+  ],
+  "proposed": null,
+  "new-warnings": [],
+  "published": false,
+  "publications": [],
+  "not-published": null,
+  "held": null,
+  "plan-stop": null,
+  "continuation": {
+    "file": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/continuation.json",
+    "run-dir": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z",
+    "made-for": {
+      "note": "kb/notes/how-do-we-value-notes.md",
+      "sha256": "b5cf96fb9ebd96b737254b02a2d6dd3751ffbc2288c0baca8446b70c0a189e92",
+      "text": "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/start.md"
+    },
+    "items": [
+      {
+        "id": "1",
+        "kind": "proposals",
+        "what": "The operator decides the proposals of `abstractions`; the approved items are applied by a new run that names the file.",
+        "actor": "operator",
+        "after": [],
+        "how": {
+          "command": "commonplace-revise apply kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md --purpose 'Commonplace maintainers and agents who must decide whether to keep, rank or reject a KB note should be able to see which valuation lenses the KB offers, which problems remain open, and why the question matters under autonomous production.' --must-keep 'Those goals decide what a collection admits in principle, but they do not exhaust how to rank, keep, or reject candidate notes.' --must-keep 'Under the conjecture that weakly discriminated qualities tend to be underselected, an autonomous authoring loop can enrich accepted notes more strongly for validity than for usefulness, and if production favors fluent local additions, clutter can accumulate.' --must-keep 'A note can be grounded and coherent yet redundant or too narrow to justify its maintenance cost.'",
+          "record": "commonplace-revise answers record kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md"
+        },
+        "answers": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md"
+        ],
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/abstractions-answers.md",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/edits/ed5e4f90b054cc246e9125e3/results/a2ec85cf163948d5a3c0306561cc00bc/result.md"
+        ]
+      },
+      {
+        "id": "2",
+        "kind": "direct-entry",
+        "what": "The plan entry `readability-and-flow` was not run.",
+        "actor": "worker",
+        "effort": "judgment",
+        "after": [
+          "1"
+        ],
+        "how": {
+          "command": "commonplace-revise kb/notes/how-do-we-value-notes.md --plan kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/continue/2.yaml"
+        },
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/assessment.md",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/plan.yaml",
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/continue/2.yaml"
+        ]
+      },
+      {
+        "id": "3",
+        "kind": "claim-questions",
+        "what": "The assessment lists claim questions for the operator.",
+        "actor": "operator",
+        "after": [],
+        "how": {},
+        "evidence": [
+          "kb/workflow-state/data/current/review/runs/v2/revise/kb/notes/how-do-we-value-notes/20261125T052020Z/artifact/assessment.md"
+        ]
+      }
+    ]
+  },
+  "stopped": null,
+  "conflict": null,
+  "guard": {
+    "clean": false,
+    "changed": [
+      "HEAD",
+      "kb/notes/how-do-we-fight-bloat-in-agent-produced-systems.md",
+      "kb/sources/why-is-ai-generated-language-so-hard-to-understand.ingest.md"
+    ]
+  }
+}
